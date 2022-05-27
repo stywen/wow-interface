@@ -6,23 +6,32 @@ World of Warcraft Interface/Addons
 
 | Addon | 
 | -------------- | 
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
-| Content Cell1  |
+| Better Wardrobe |
+| BlizzMove  |
+| CanIMogIt |
+| DeadlyBossMods |
+| Details |
+| ElvUI |
+| Error_Hider |
+| FocusInterruptSounds |
+| GTFO |
+| HandyNotes |
+| Leatrix_Plus |
+| MBB |
+| MoveAnything |
+| MythicDungeonTools |
+| Narcissus |
+| Pawn |
+| Plater |
+| RaiderIO |
+| SilverDragon |
+| Simulationcraft |
+| TalentSetManager |
+| TomTom |
+| WIM |
+| WIM_ElvUI_Skin |
+| WeakAuras |
+| WorldQuestsList |
 
 
 </p>
