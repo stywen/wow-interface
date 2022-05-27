@@ -1,0 +1,10 @@
+tag 832d548b64050467ec0c8578ba920a6d9aae4b65 DetailsRetail.9.2.0.9817.146
+Author:	Tercio Jose <terciob19@hotmail.com>
+Date:	Sat May 21 15:29:54 2022 -0300
+
+commit 0bb2a71291d236654cf62b36b08c2fbb1c1d4a59
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Sat May 21 15:29:30 2022 -0300
+
+    Updated /keystone to store guild keystones
+
