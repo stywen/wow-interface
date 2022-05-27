@@ -3,6 +3,9 @@ World of Warcraft Interface/Addons
 
 <p align="center">
   <img src="scrnsht.jpg"/>
+</p>
+
+<table align="center">
 
 | Addon | 
 | -------------- | 
@@ -32,7 +35,4 @@ World of Warcraft Interface/Addons
 | WIM_ElvUI_Skin |
 | WeakAuras |
 | WorldQuestsList |
-
-
-</p>
-
+  </table>
