@@ -1,6 +1,6 @@
 @echo off
 xcopy /y /s  C:\"Program Files (x86)"\"World of Warcraft"\_retail_\Interface C:\Users\user00\Documents\GitHub\wow-interface\Interface
-echo type "commit" or "update"
+echo type "c" to continue and commit.
 cd "C:\Users\user00\Documents\GitHub\wow-interface"
 
 set GIT_PATH="C:\Program Files\Git\bin\git.exe"
@@ -16,4 +16,3 @@ if "%ACTION%"=="c" (
 	%GIT_PATH% push %BRANCH%
 )
 if "%ACTION%"=="exit" exit /b
-
