@@ -1,8 +1,6 @@
 local addonName = ...
 local addon = _G[addonName]
 
-local currentResults = {}
-
 local function startSimulation(combination, missionID, callback)        
     addon:Simulate(combination[1], combination[3], combination[5], combination[2], combination[4], missionID, function(results)
         results.combination = {combination[1], combination[3], combination[5], combination[2], combination[4]}
@@ -134,7 +132,7 @@ function addon:sortFollowers(followers, sortBy)
 end
 
 -- for trying to farm experience using the fewest missions
-function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, missionID, callback, sortBy, troopsSetting)
+function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, missionID, callback, sortBy)
     addon:pauseWorker()
 
     followers = addon:sortFollowers(followers, sortBy)
@@ -171,7 +169,7 @@ function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, m
         local highPriorityBatch = addon:createWorkBatch(3)
         
         if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
-            if (callback and (troopsSetting ~= "more")) or (not callback) then
+            if (callback and (addon.db.profile.minimumTroops < #lineup)) or (not callback) then
                 addon:addWork(highPriorityBatch, addon.arrangeAllFollowerPositions, addon, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5], missionID, report)
             end
             if callback then
@@ -185,38 +183,33 @@ function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, m
     
     -- test 5 followers
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for i = 1, #followers do
+            local follower1 = followers[i]
             table.insert(lineup, follower1)
-            for _, follower2 in pairs(followers) do
-                if follower1 ~= follower2 then
-                    table.insert(lineup, follower2)
-                    for _, follower3 in pairs(followers) do
-                        if (follower1 ~= follower3) and (follower2 ~= follower3) then
-                            table.insert(lineup, follower3)
-                            for _, follower4 in pairs(followers) do
-                                if (follower4 ~= follower1) and (follower4 ~= follower2) and (follower4 ~= follower3) then
-                                    table.insert(lineup, follower4)
-                                    for _, follower5 in pairs(followers) do
-                                        if (follower5 ~= follower1) and (follower5 ~= follower2) and (follower5 ~= follower3) and (follower5 ~= follower4) then
-                                            table.insert(lineup, follower5)
-                                            local highPriorityBatch = addon:createWorkBatch(3)
-                                            addon:addWork(highPriorityBatch, function(missionID, lineup1, lineup2, lineup3, lineup4, lineup5)
-                                                if not addon:isResultCacheGuaranteedFailure(missionID, lineup1, lineup2, lineup3, lineup4, lineup5) then
-                                                    addon:addWork(highPriorityBatch, addon.arrangeAllFollowerPositions, addon, lineup1, lineup2, lineup3, lineup4, lineup5, missionID, report)
-                                                    addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup1, lineup2, lineup3, lineup4, lineup5)
-                                                end
-                                            end, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
-                                            table.remove(lineup)
-                                        end
-                                    end
-                                    table.remove(lineup)
-                                end
+            for j = (i+1), #followers do
+                local follower2 = followers[j]
+                table.insert(lineup, follower2)
+                for k = (j+1), #followers do
+                    local follower3 = followers[k]
+                    table.insert(lineup, follower3)
+                    for l = (k+1), #followers do
+                        local follower4 = followers[l]
+                        table.insert(lineup, follower4)
+                        for m = (l+1), #followers do
+                            local follower5 = followers[m]
+                            table.insert(lineup, follower5)
+                            if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
+                                local highPriorityBatch = addon:createWorkBatch(3)
+                                addon:addWork(highPriorityBatch, addon.arrangeAllFollowerPositions, addon, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5], missionID, report)
+                                addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
                             end
                             table.remove(lineup)
                         end
+                        table.remove(lineup)
                     end
                     table.remove(lineup)
                 end
+                table.remove(lineup)
             end
             table.remove(lineup)
         end
@@ -224,27 +217,25 @@ function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, m
 
     -- test 4 followers
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for i = 1, #followers do
+            local follower1 = followers[i]
             table.insert(lineup, follower1)
-            for _, follower2 in pairs(followers) do
-                if follower1 ~= follower2 then
-                    table.insert(lineup, follower2)
-                    for _, follower3 in pairs(followers) do
-                        if (follower1 ~= follower3) and (follower2 ~= follower3) then
-                            table.insert(lineup, follower3)
-                            for _, follower4 in pairs(followers) do
-                                if (follower4 ~= follower1) and (follower4 ~= follower2) and (follower4 ~= follower3) then
-                                    testFollower(follower4, function(...)
-                                        -- test the followers + 1 troop
-                                        testEachTroop(...)
-                                    end)
-                                end
-                            end
-                            table.remove(lineup)
-                        end
+            for j = (i+1), #followers do
+                local follower2 = followers[j]
+                table.insert(lineup, follower2)
+                for k = (j+1), #followers do
+                    local follower3 = followers[k]
+                    table.insert(lineup, follower3)
+                    for l = (k+1), #followers do
+                        local follower4 = followers[l]
+                        testFollower(follower4, function(...)
+                            -- test the followers + 1 troop
+                            testEachTroop(...)
+                        end)
                     end
                     table.remove(lineup)
                 end
+                table.remove(lineup)
             end
             table.remove(lineup)
         end
@@ -252,26 +243,25 @@ function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, m
         
     -- test 3 followers
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for i = 1, #followers do
+            local follower1 = followers[i]
             table.insert(lineup, follower1)
-            for _, follower2 in pairs(followers) do
-                if follower1 ~= follower2 then
-                    table.insert(lineup, follower2)
-                    for _, follower3 in pairs(followers) do
-                        if (follower1 ~= follower3) and (follower2 ~= follower3) then
-                            testFollower(follower3, function(callback, batch)
-                                -- test the followers + 1 troop
-                                if (troopsSetting ~= "more") then
-                                    testEachTroop(nil, batch)
-                                end
-                                
-                                -- test the follower + 2 troops
-                                testEachTroop(testEachTroop, batch)
-                            end)
+            for j = (i+1), #followers do
+                local follower2 = followers[j]
+                table.insert(lineup, follower2)
+                for k = (j+1), #followers do
+                    local follower3 = followers[k]
+                    testFollower(follower3, function(callback, batch)
+                        -- test the followers + 1 troop
+                        if addon.db.profile.minimumTroops < 4 then
+                            testEachTroop(nil, batch)
                         end
-                    end
-                    table.remove(lineup)
+                        
+                        -- test the follower + 2 troops
+                        testEachTroop(testEachTroop, batch)
+                    end)
                 end
+                table.remove(lineup)
             end
             table.remove(lineup)
         end
@@ -279,23 +269,26 @@ function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, m
     
     -- test 2 followers
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for i = 1, #followers do
+            local follower1 = followers[i]
             table.insert(lineup, follower1)
-            for _, follower2 in pairs(followers) do
-                if follower1 ~= follower2 then
-                    testFollower(follower2, function(callback, batch)
-                        if troopsSetting ~= "more" then
-                            -- test the followers + 1 troop
-                            testEachTroop(nil, batch)
-                        
-                            -- test the follower + 2 troops
-                            testEachTroop(testEachTroop, batch)
-                        end
+            for j = (i+1), #followers do
+                local follower2 = followers[j]
                 
-                        -- test the follower + 3 troops
-                        testEachTroop(function(callback, batch) testEachTroop(testEachTroop, batch) end, batch)
-                    end)
-                end
+                testFollower(follower2, function(_, batch)
+                    if addon.db.profile.minimumTroops < 3 then
+                        -- test the followers + 1 troop
+                        testEachTroop(nil, batch)
+                    end
+                    
+                    if addon.db.profile.minimumTroops < 4 then
+                        -- test the follower + 2 troops
+                        testEachTroop(testEachTroop, batch)
+                    end
+            
+                    -- test the follower + 3 troops
+                    testEachTroop(function(_, batch) testEachTroop(testEachTroop, batch) end, batch)
+                end)
             end
             table.remove(lineup)
         end
@@ -308,21 +301,27 @@ function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, m
             if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
                 local highPriorityBatch = addon:createWorkBatch(3)
 
-                if troopsSetting ~= "more" then
+                if addon.db.profile.minimumTroops < 1 then
+                    addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
+                end
+                
+                if addon.db.profile.minimumTroops < 2 then
                     -- test the follower + 1 troop
                     testEachTroop(nil, highPriorityBatch)
+                end
                     
+                if addon.db.profile.minimumTroops < 3 then
                     -- test the follower + 2 troops
                     testEachTroop(testEachTroop, highPriorityBatch)
+                end
                     
+                if addon.db.profile.minimumTroops < 4 then
                     -- test the follower + 3 troops
                     testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch)
                 end
                 
                 -- test the follower + 4 troops
                 testEachTroop(function() testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch) end, highPriorityBatch)
-                
-                addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
             end
             
             table.remove(lineup)
@@ -375,7 +374,7 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
         local highPriorityBatch = addon:createWorkBatch(3)
         
         if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
-            if (callback and (troopsSetting ~= "more")) or (not callback) then
+            if (callback and (addon.db.profile.minimumTroops < #lineup)) or (not callback) then
                 addon:addWork(highPriorityBatch, addon.arrangeAllFollowerPositions, addon, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5], missionID, report)
             end
             if callback then
@@ -394,21 +393,27 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
             if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
                 local highPriorityBatch = addon:createWorkBatch(3)
 
-                if troopsSetting ~= "more" then
+                if addon.db.profile.minimumTroops < 1 then
+                    addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
+                end
+                
+                if addon.db.profile.minimumTroops < 2 then
                     -- test the follower + 1 troop
                     testEachTroop(nil, highPriorityBatch)
+                end
                     
+                if addon.db.profile.minimumTroops < 3 then
                     -- test the follower + 2 troops
                     testEachTroop(testEachTroop, highPriorityBatch)
+                end
                     
+                if addon.db.profile.minimumTroops < 4 then
                     -- test the follower + 3 troops
                     testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch)
                 end
                 
                 -- test the follower + 4 troops
                 testEachTroop(function() testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch) end, highPriorityBatch)
-                
-                addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
             end
             
             table.remove(lineup)
@@ -417,23 +422,26 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
 
     -- test 2 followers
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for i = 1, #followers do
+            local follower1 = followers[i]
             table.insert(lineup, follower1)
-            for _, follower2 in pairs(followers) do
-                if follower1 ~= follower2 then
-                    testFollower(follower2, function(callback, batch)
-                        if troopsSetting ~= "more" then
-                            -- test the followers + 1 troop
-                            testEachTroop(nil, batch)
-                        
-                            -- test the follower + 2 troops
-                            testEachTroop(testEachTroop, batch)
-                        end
+            for j = (i+1), #followers do
+                local follower2 = followers[j]
                 
-                        -- test the follower + 3 troops
-                        testEachTroop(function(callback, batch) testEachTroop(testEachTroop, batch) end, batch)
-                    end)
-                end
+                testFollower(follower2, function(_, batch)
+                    if addon.db.profile.minimumTroops < 3 then
+                        -- test the followers + 1 troop
+                        testEachTroop(nil, batch)
+                    end
+                    
+                    if addon.db.profile.minimumTroops < 4 then
+                        -- test the follower + 2 troops
+                        testEachTroop(testEachTroop, batch)
+                    end
+            
+                    -- test the follower + 3 troops
+                    testEachTroop(function(_, batch) testEachTroop(testEachTroop, batch) end, batch)
+                end)
             end
             table.remove(lineup)
         end
@@ -441,26 +449,25 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
         
     -- test 3 followers
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for i = 1, #followers do
+            local follower1 = followers[i]
             table.insert(lineup, follower1)
-            for _, follower2 in pairs(followers) do
-                if follower1 ~= follower2 then
-                    table.insert(lineup, follower2)
-                    for _, follower3 in pairs(followers) do
-                        if (follower1 ~= follower3) and (follower2 ~= follower3) then
-                            testFollower(follower3, function(callback, batch)
-                                -- test the followers + 1 troop
-                                if (troopsSetting ~= "more") then
-                                    testEachTroop(nil, batch)
-                                end
-                                
-                                -- test the follower + 2 troops
-                                testEachTroop(testEachTroop, batch)
-                            end)
+            for j = (i+1), #followers do
+                local follower2 = followers[j]
+                table.insert(lineup, follower2)
+                for k = (j+1), #followers do
+                    local follower3 = followers[k]
+                    testFollower(follower3, function(callback, batch)
+                        -- test the followers + 1 troop
+                        if addon.db.profile.minimumTroops < 4 then
+                            testEachTroop(nil, batch)
                         end
-                    end
-                    table.remove(lineup)
+                        
+                        -- test the follower + 2 troops
+                        testEachTroop(testEachTroop, batch)
+                    end)
                 end
+                table.remove(lineup)
             end
             table.remove(lineup)
         end
@@ -468,27 +475,25 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
     
     -- test 4 followers
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for i = 1, #followers do
+            local follower1 = followers[i]
             table.insert(lineup, follower1)
-            for _, follower2 in pairs(followers) do
-                if follower1 ~= follower2 then
-                    table.insert(lineup, follower2)
-                    for _, follower3 in pairs(followers) do
-                        if (follower1 ~= follower3) and (follower2 ~= follower3) then
-                            table.insert(lineup, follower3)
-                            for _, follower4 in pairs(followers) do
-                                if (follower4 ~= follower1) and (follower4 ~= follower2) and (follower4 ~= follower3) then
-                                    testFollower(follower4, function(...)
-                                        -- test the followers + 1 troop
-                                        testEachTroop(...)
-                                    end)
-                                end
-                            end
-                            table.remove(lineup)
-                        end
+            for j = (i+1), #followers do
+                local follower2 = followers[j]
+                table.insert(lineup, follower2)
+                for k = (j+1), #followers do
+                    local follower3 = followers[k]
+                    table.insert(lineup, follower3)
+                    for l = (k+1), #followers do
+                        local follower4 = followers[l]
+                        testFollower(follower4, function(...)
+                            -- test the followers + 1 troop
+                            testEachTroop(...)
+                        end)
                     end
                     table.remove(lineup)
                 end
+                table.remove(lineup)
             end
             table.remove(lineup)
         end
@@ -496,36 +501,33 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
     
     -- test 5 followers
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for i = 1, #followers do
+            local follower1 = followers[i]
             table.insert(lineup, follower1)
-            for _, follower2 in pairs(followers) do
-                if follower1 ~= follower2 then
-                    table.insert(lineup, follower2)
-                    for _, follower3 in pairs(followers) do
-                        if (follower1 ~= follower3) and (follower2 ~= follower3) then
-                            table.insert(lineup, follower3)
-                            for _, follower4 in pairs(followers) do
-                                if (follower4 ~= follower1) and (follower4 ~= follower2) and (follower4 ~= follower3) then
-                                    table.insert(lineup, follower4)
-                                    for _, follower5 in pairs(followers) do
-                                        if (follower5 ~= follower1) and (follower5 ~= follower2) and (follower5 ~= follower3) and (follower5 ~= follower4) then
-                                            table.insert(lineup, follower5)
-                                            if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
-                                                local highPriorityBatch = addon:createWorkBatch(3)
-                                                addon:addWork(highPriorityBatch, addon.arrangeAllFollowerPositions, addon, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5], missionID, report)
-                                                addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
-                                            end
-                                            table.remove(lineup)
-                                        end
-                                    end
-                                    table.remove(lineup)
-                                end
+            for j = (i+1), #followers do
+                local follower2 = followers[j]
+                table.insert(lineup, follower2)
+                for k = (j+1), #followers do
+                    local follower3 = followers[k]
+                    table.insert(lineup, follower3)
+                    for l = (k+1), #followers do
+                        local follower4 = followers[l]
+                        table.insert(lineup, follower4)
+                        for m = (l+1), #followers do
+                            local follower5 = followers[m]
+                            table.insert(lineup, follower5)
+                            if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
+                                local highPriorityBatch = addon:createWorkBatch(3)
+                                addon:addWork(highPriorityBatch, addon.arrangeAllFollowerPositions, addon, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5], missionID, report)
+                                addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
                             end
                             table.remove(lineup)
                         end
+                        table.remove(lineup)
                     end
                     table.remove(lineup)
                 end
+                table.remove(lineup)
             end
             table.remove(lineup)
         end

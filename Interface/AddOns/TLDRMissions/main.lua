@@ -1,3 +1,2 @@
 local addonName = ...
 _G[addonName] = {}
-local addon = _G[addonName]

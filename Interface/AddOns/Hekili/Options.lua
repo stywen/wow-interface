@@ -8,17 +8,13 @@ local class = Hekili.Class
 local scripts = Hekili.Scripts
 local state = Hekili.State
 
-local format, lower, match, upper = string.format, string.lower, string.match, string.upper
+local format, lower, match = string.format, string.lower, string.match
 local insert, remove, sort, wipe = table.insert, table.remove, table.sort, table.wipe
 
 local callHook = ns.callHook
-local getSpecializationID = ns.getSpecializationID
 
-local GetResourceKey = ns.GetResourceKey
 local SpaceOut = ns.SpaceOut
 
-local escapeMagic = ns.escapeMagic
-local fsub = ns.fsub
 local formatKey = ns.formatKey
 local orderedPairs = ns.orderedPairs
 local tableCopy = ns.tableCopy
@@ -26,11 +22,10 @@ local tableCopy = ns.tableCopy
 local GetItemInfo = ns.CachedGetItemInfo
 
 -- Atlas/Textures
-local AddTexString, GetTexString, AtlasToString, GetAtlasFile, GetAtlasCoords = ns.AddTexString, ns.GetTexString, ns.AtlasToString, ns.GetAtlasFile, ns.GetAtlasCoords
+local AtlasToString, GetAtlasFile, GetAtlasCoords = ns.AtlasToString, ns.GetAtlasFile, ns.GetAtlasCoords
 
 
 local ACD = LibStub( "AceConfigDialog-3.0" )
-local LDB = LibStub( "LibDataBroker-1.1", true )
 local LDBIcon = LibStub( "LibDBIcon-1.0", true )
 
 
@@ -38,7 +33,7 @@ local NewFeature = "|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0|
 local GreenPlus = "Interface\\AddOns\\Hekili\\Textures\\GreenPlus"
 local RedX = "Interface\\AddOns\\Hekili\\Textures\\RedX"
 local BlizzBlue = "|cFF00B4FF"
-local ClassColor = C_ClassColor.GetClassColor(class.file)
+local ClassColor = C_ClassColor.GetClassColor( class.file )
 
 
 -- Interrupts
@@ -1139,15 +1134,14 @@ do
     local function rangeXY( info, notif )
         local tab = getOptionTable( info, notif )
 
-        local monitor = ( tonumber( GetCVar( 'gxMonitor' ) ) or 0 ) + 1
         local resolutions = { GetScreenResolutions() }
-        local resolution = resolutions[ GetCurrentResolution() ] or GetCVar( "gxWindowedResolution" )
+        local resolution = resolutions[ GetCurrentResolution() ] or GetCVar( "gxWindowedResolution" ) or "1280x720"
         local width, height = resolution:match( "(%d+)x(%d+)" )
 
         width = tonumber( width )
         height = tonumber( height )
 
-        for i, str in ipairs( resolutions ) do
+        for _, str in ipairs( resolutions ) do
             local w, h = str:match( "(%d+)x(%d+)" )
             w, h = tonumber( w ), tonumber( h )
 
@@ -3298,9 +3292,9 @@ do
 
                                                 for k, v in pairs( shareDB.imported ) do
                                                     if rawget( self.DB.profile.displays, k ) then
-                                                        table.insert( replaces, k )
+                                                        insert( replaces, k )
                                                     else
-                                                        table.insert( creates, k )
+                                                        insert( creates, k )
                                                     end
                                                 end
 
@@ -3440,7 +3434,7 @@ do
                                             func = function ()
                                                 local disps = {}
                                                 for key, share in pairs( shareDB.displays ) do
-                                                    if share then table.insert( disps, key ) end
+                                                    if share then insert( disps, key ) end
                                                 end
 
                                                 shareDB.export = self:SerializeStyle( unpack( disps ) )
@@ -4097,12 +4091,10 @@ end
 
 
 local snapshots = {
-    displays = {},
     snaps = {},
     empty = {},
 
-    display = "none",
-    snap = {},
+    selected = 0
 }
 
 
@@ -5278,10 +5270,8 @@ do
                                     type = 'execute',
                                     name = "",
                                     desc = "Open and view this priority pack and its action lists.",
-                                    order = 1.1,
-                                    width = 0.15,
-                                    image = GetAtlasFile( "shop-games-magnifyingglass" ),
-                                    imageCoords = GetAtlasCoords( "shop-games-magnifyingglass" ),
+                                    image = GetAtlasFile( "communities-icon-searchmagnifyingglass" ),
+                                    imageCoords = GetAtlasCoords( "communities-icon-searchmagnifyingglass" ),
                                     imageHeight = 24,
                                     imageWidth = 24,
                                     disabled = function( info, val )
@@ -5291,6 +5281,8 @@ do
                                     func = function ()
                                         ACD:SelectGroup( "Hekili", "packs", self.DB.profile.specs[ id ].package )
                                     end,
+                                    order = 1.1,
+                                    width = 0.15,
                                 },
 
                                 blankLine1 = {
@@ -6193,7 +6185,7 @@ do
                                                 local listNames = {}
 
                                                 for k, v in pairs( shareDB.imported.payload.lists ) do
-                                                    table.insert( listNames, k )
+                                                    insert( listNames, k )
                                                 end
 
                                                 table.sort( listNames )
@@ -6331,7 +6323,7 @@ do
 
                                 exportString = {
                                     type = "input",
-                                    name = "Priority Export String (CTRL+A to Select, CTRL+C to Copy)",
+                                    name = "Priority Export String\n|cFFFFFFFFPress CTRL+A to select, then CTRL+C to copy.|r",
                                     order = 3,
                                     get = function ()
                                         if rawget( Hekili.DB.profile.packs, shareDB.actionPack ) then
@@ -6946,8 +6938,8 @@ do
                                         local data = p.lists[ packControl.listName ]
                                         local actionID = tonumber( packControl.actionID )
 
-                                        local a = table.remove( data, actionID )
-                                        table.insert( data, actionID - 1, a )
+                                        local a = remove( data, actionID )
+                                        insert( data, actionID - 1, a )
                                         packControl.actionID = format( "%04d", actionID - 1 )
 
                                         local listName = format( "%s:%s:", pack, packControl.listName )
@@ -6974,8 +6966,8 @@ do
                                         local data = p.lists[ packControl.listName ]
                                         local actionID = tonumber( packControl.actionID )
 
-                                        local a = table.remove( data, actionID )
-                                        table.insert( data, actionID + 1, a )
+                                        local a = remove( data, actionID )
+                                        insert( data, actionID + 1, a )
                                         packControl.actionID = format( "%04d", actionID + 1 )
 
                                         local listName = format( "%s:%s:", pack, packControl.listName )
@@ -7001,7 +6993,7 @@ do
                                     func = function()
                                         local data = rawget( self.DB.profile.packs, pack )
                                         if data then
-                                            table.insert( data.lists[ packControl.listName ], { {} } )
+                                            insert( data.lists[ packControl.listName ], { {} } )
                                             packControl.actionID = format( "%04d", #data.lists[ packControl.listName ] )
                                         else
                                             packControl.actionID = "0001"
@@ -7025,7 +7017,7 @@ do
                                         local id = tonumber( packControl.actionID )
                                         local p = rawget( Hekili.DB.profile.packs, pack )
 
-                                        table.remove( p.lists[ packControl.listName ], id )
+                                        remove( p.lists[ packControl.listName ], id )
 
                                         if not p.lists[ packControl.listName ][ id ] then id = id - 1; packControl.actionID = format( "%04d", id ) end
                                         if not p.lists[ packControl.listName ][ id ] then packControl.actionID = "zzzzzzzzzz" end
@@ -7625,7 +7617,7 @@ do
                                                         local id = tonumber( packControl.actionID )
                                                         local p = rawget( Hekili.DB.profile.packs, pack )
 
-                                                        table.remove( p.lists[ packControl.listName ], id )
+                                                        remove( p.lists[ packControl.listName ], id )
 
                                                         if not p.lists[ packControl.listName ][ id ] then id = id - 1; packControl.actionID = format( "%04d", id ) end
                                                         if not p.lists[ packControl.listName ][ id ] then packControl.actionID = "zzzzzzzzzz" end
@@ -7717,7 +7709,7 @@ do
                                             order = 1,
                                             func = function ()
                                                 local p = rawget( Hekili.DB.profile.packs, pack )
-                                                table.insert( p.lists[ packControl.listName ], {} )
+                                                insert( p.lists[ packControl.listName ], {} )
                                                 packControl.actionID = format( "%04d", #p.lists[ packControl.listName ] )
                                             end,
                                         }
@@ -7735,7 +7727,7 @@ do
                             args = {
                                 exportString = {
                                     type = "input",
-                                    name = "Export String (CTRL+A to Select, CTRL+C to Copy)",
+                                    name = "Priority Export String\n|cFFFFFFFFPress CTRL+A to select, then CTRL+C to copy.|r",
                                     get = function( info )
                                         return self:SerializeActionPack( pack )
                                     end,
@@ -7797,8 +7789,6 @@ do
         end
     end
 
-
-    local ACD = LibStub( "AceConfigDialog-3.0" )
 
     local modeTypes = {
         oneAuto = 1,
@@ -8498,7 +8488,7 @@ do
                                 local a = abilities[ token ] or {}
 
                                 -- a.key = token
-                                a.desc = GetSpellDescription()
+                                a.desc = GetSpellDescription( spellID )
                                 if a.desc then a.desc = a.desc:gsub( "\n", " " ):gsub( "\r", " " ):gsub( " ", " " ) end
                                 a.id = spellID
                                 a.spend = cost
@@ -8584,7 +8574,7 @@ do
                                 local a = abilities[ token ] or {}
 
                                 -- a.key = token
-                                a.desc = GetSpellDescription()
+                                a.desc = GetSpellDescription( spellID )
                                 if a.desc then a.desc = a.desc:gsub( "\n", " " ):gsub( "\r", " " ):gsub( " ", " " ) end
                                 a.id = spellID
                                 a.spend = cost
@@ -9342,74 +9332,52 @@ do
                             "snapshots by using the |cffffd100Snapshot|r binding ( |cffffd100" .. ( Hekili.DB.profile.toggles.snapshot.key or "NOT BOUND" ) .. "|r ) from the Toggles section.\n\n" ..
                             "You can also freeze the addon's recommendations using the |cffffd100Pause|r binding ( |cffffd100" .. ( Hekili.DB.profile.toggles.pause.key or "NOT BOUND" ) .. "|r ).  Doing so will freeze the addon's recommendations, allowing you to mouseover the display " ..
                             "and see which conditions were met to display those recommendations.  Press Pause again to unfreeze the addon.\n\n" ..
-                            "Finally, using the settings at the bottom of this panel, you can ask the addon to automatically generate a snapshot for you when no recommendations were able to be made.\n"
+                            "Finally, using the settings at the bottom of this panel, you can ask the addon to automatically generate a snapshot for you when no recommendations were able to be made.\n\n"
                         end,
                         fontSize = "medium",
                         order = 10,
                         width = "full",
                     },
 
-                    Display = {
-                        type = "select",
-                        name = "Display",
-                        desc = "Select the display to show (if any snapshots have been taken).",
-                        order = 11,
-                        values = function( info )
-                            local displays = snapshots.displays
-
-                            for k in pairs( ns.snapshots ) do
-                                displays[k] = k
-                            end
-
-                            return displays
-                        end,
-                        set = function( info, val )
-                            snapshots.display = val
-                        end,
-                        get = function( info )
-                            return snapshots.display
-                        end,
-                        width = 2.6
-                    },
-
                     SnapID = {
                         type = "select",
-                        name = "#",
-                        desc = "Select which snapshot to show for the selected display.",
-                        order = 12,
+                        name = "Select Snapshot",
+                        desc = "Select a Snapshot to export.",
                         values = function( info )
-                            for k, v in pairs( ns.snapshots ) do
-                                snapshots.snaps[ k ] = snapshots.snaps[ k ] or {}
-
-                                for idx in pairs( v ) do
-                                    snapshots.snaps[ k ][ idx ] = idx
+                            if #ns.snapshots == 0 then
+                                snapshots.snaps[ 0 ] = "No snapshots have been generated."
+                            else
+                                snapshots.snaps[ 0 ] = nil
+                                for i, snapshot in ipairs( ns.snapshots ) do
+                                    snapshots.snaps[ i ] = "|cFFFFD100" .. i .. ".|r " .. snapshot.header
                                 end
                             end
 
-                            return snapshots.display and snapshots.snaps[ snapshots.display ] or snapshots.empty
+                            return snapshots.snaps
                         end,
                         set = function( info, val )
-                            snapshots.snap[ snapshots.display ] = val
+                            snapshots.selected = val
                         end,
                         get = function( info )
-                            return snapshots.snap[ snapshots.display ]
+                            return snapshots.selected
                         end,
-                        width = 0.7
+                        order = 12,
+                        width = "full",
+                        disabled = function() return #ns.snapshots == 0 end,
                     },
 
                     Snapshot = {
                         type = 'input',
-                        name = "Snapshot",
-                        desc = "Copy this text and paste into a text editor or into Pastebin to review.",
-                        order = 13,
+                        name = "Export Snapshot",
+                        desc = "Click here and press CTRL+A, CTRL+C to copy the snapshot.\n\nPaste in a text editor to review or upload to Pastebin to support an issue ticket.",
+                        order = 20,
                         get = function( info )
-                            local display = snapshots.display
-                            local snap = display and snapshots.snap[ display ]
-
-                            return snap and ( "Click here and press CTRL+A, CTRL+C to copy the snapshot.\n\n" .. ns.snapshots[ display ][ snap ] )
+                            if snapshots.selected == 0 then return "" end
+                            return ns.snapshots[ snapshots.selected ].log
                         end,
                         set = function() end,
-                        width = "full"
+                        width = "full",
+                        hidden = function() return snapshots.selected == 0 or #ns.snapshots == 0 end,
                     },
                 }
             },
@@ -9640,7 +9608,7 @@ end
 
 
 function Hekili:SetOption( info, input, ... )
-    local category, depth, option, subcategory = info[1], #info, info[#info], nil
+    local category, depth, option = info[1], #info, info[#info]
     local Rebuild, RebuildUI, RebuildScripts, RebuildOptions, RebuildCache, Select
     local profile = Hekili.DB.profile
 
@@ -9826,8 +9794,8 @@ function Hekili:SetOption( info, input, ... )
                     end
 
                     import.Name = list.Name
-                    table.remove( profile.actionLists, listID )
-                    table.insert( profile.actionLists, listID, import )
+                    remove( profile.actionLists, listID )
+                    insert( profile.actionLists, listID, import )
                     -- profile.actionLists[ listID ] = import
                     Rebuild = true
 
@@ -9891,8 +9859,8 @@ function Hekili:SetOption( info, input, ... )
 
                 elseif option == 'Move' then
                     action[ option ] = nil
-                    local placeholder = table.remove( list.Actions, actID )
-                    table.insert( list.Actions, input, placeholder )
+                    local placeholder = remove( list.Actions, actID )
+                    insert( list.Actions, input, placeholder )
                     Rebuild, Select = true, 'A'..input
 
                 elseif option == 'Script' or option == 'Args' then
@@ -10424,48 +10392,58 @@ local function decodeB64(str)
     return table.concat(bit8, "", 1, decoded_size)
 end
 
-local Compresser = LibStub:GetLibrary("LibCompress");
+
+local Compresser = LibStub:GetLibrary("LibCompress")
 local Encoder = Compresser:GetChatEncodeTable()
-local Serializer = LibStub:GetLibrary("AceSerializer-3.0");
+
+local LibDeflate = LibStub:GetLibrary("LibDeflate")
+local ldConfig = { level = 5 }
+
+local Serializer = LibStub:GetLibrary("AceSerializer-3.0")
+
 
 
 local function TableToString(inTable, forChat)
-    local serialized = Serializer:Serialize(inTable);
-    local compressed = Compresser:CompressHuffman(serialized);
-    if(forChat) then
-        return encodeB64(compressed);
-    else
-        return Encoder:Encode(compressed);
-    end
+    local serialized = Serializer:Serialize( inTable )
+    local compressed = LibDeflate:CompressDeflate( serialized, ldConfig )
+
+    return format( "Hekili:%s", forChat and ( LibDeflate:EncodeForPrint( compressed ) ) or ( LibDeflate:EncodeForWoWAddonChannel( compressed ) ) )
 end
 
 
 local function StringToTable(inString, fromChat)
-    local decoded;
-    if(fromChat) then
-        decoded = decodeB64(inString);
+    local modern = false
+    if inString:sub( 1, 7 ) == "Hekili:" then
+        modern = true
+        inString = inString:sub( 8 )
+    end
+
+    local decoded, decompressed, errorMsg
+
+    if modern then
+        decoded = fromChat and LibDeflate:DecodeForPrint(inString) or LibDeflate:DecodeForWoWAddonChannel(inString)
+        if not decoded then return "Unable to decode." end
+
+        decompressed = LibDeflate:DecompressDeflate(decoded)
+        if not decompressed then return "Unable to decompress decoded string." end
     else
-        decoded = Encoder:Decode(inString);
+        decoded = fromChat and decodeB64(inString) or Encoder:Decode(inString)
+        if not decoded then return "Unable to decode." end
+
+        decompressed, errorMsg = Compresser:Decompress(decoded);
+        if not decompressed then return "Unable to decompress decoded string: " .. errorMsg end
     end
-    local decompressed, errorMsg = Compresser:Decompress(decoded);
-    if not(decompressed) then
-        return "Error decompressing: "..errorMsg;
-    end
+
     local success, deserialized = Serializer:Deserialize(decompressed);
-    if not(success) then
-        return "Error deserializing "..deserialized;
-    end
-    return deserialized;
+    if not success then return "Unable to deserialized decompressed string: " .. deserialized end
+
+    return deserialized
 end
 
 
 function ns.serializeDisplay( display )
     if not rawget( Hekili.DB.profile.displays, display ) then return nil end
     local serial = tableCopy( Hekili.DB.profile.displays[ display ] )
-
-    -- Change actionlist IDs to actionlist names so we can validate later.
-    if serial.precombatAPL ~= 0 then serial.precombatAPL = Hekili.DB.profile.actionLists[ serial.precombatAPL ].Name end
-    if serial.defaultAPL ~= 0 then serial.defaultAPL = Hekili.DB.profile.actionLists[ serial.defaultAPL ].Name end
 
     return TableToString( serial, true )
 end
@@ -10752,179 +10730,179 @@ local function Sanitize( segment, i, line, warnings )
 
     i, times = i:gsub( "==", "=" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Corrected equality check from '==' to '=' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Corrected equality check from '==' to '=' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "([^%%])[ ]*%%[ ]*([^%%])", "%1 / %2" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted SimC syntax % to Lua division operator (/) (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted SimC syntax % to Lua division operator (/) (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "%%%%", "%%" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted SimC syntax %% to Lua modulus operator (%) (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted SimC syntax %% to Lua modulus operator (%) (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "covenant%.([%w_]+)%.enabled", "covenant.%1" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'covenant.X.enabled' to 'covenant.X' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'covenant.X.enabled' to 'covenant.X' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "talent%.([%w_]+)([%+%-%*%%/%&%|= ()<>])", "talent.%1.enabled%2" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'talent.X' to 'talent.X.enabled' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'talent.X' to 'talent.X.enabled' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "talent%.([%w_]+)$", "talent.%1.enabled" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'talent.X' to 'talent.X.enabled' at EOL (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'talent.X' to 'talent.X.enabled' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "legendary%.([%w_]+)([%+%-%*%%/%&%|= ()<>])", "legendary.%1.enabled%2" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'legendary.X' to 'legendary.X.enabled' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'legendary.X' to 'legendary.X.enabled' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "legendary%.([%w_]+)$", "legendary.%1.enabled" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'legendary.X' to 'legendary.X.enabled' at EOL (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'legendary.X' to 'legendary.X.enabled' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "([^%.])runeforge%.([%w_]+)([%+%-%*%%/=%&%| ()<>])", "%1runeforge.%2.enabled%3" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'runeforge.X' to 'runeforge.X.enabled' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'runeforge.X' to 'runeforge.X.enabled' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "([^%.])runeforge%.([%w_]+)$", "%1runeforge.%2.enabled" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'runeforge.X' to 'runeforge.X.enabled' at EOL (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'runeforge.X' to 'runeforge.X.enabled' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "^runeforge%.([%w_]+)([%+%-%*%%/%&%|= ()<>)])", "runeforge.%1.enabled%2" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'runeforge.X' to 'runeforge.X.enabled' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'runeforge.X' to 'runeforge.X.enabled' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "^runeforge%.([%w_]+)$", "runeforge.%1.enabled" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'runeforge.X' to 'runeforge.X.enabled' at EOL (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'runeforge.X' to 'runeforge.X.enabled' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "rune_word%.([%w_]+)([%+%-%*%%/%&%|= ()<>])", "buff.rune_word_%1.up%2" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'rune_word.X' to 'buff.rune_word_X.up' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'rune_word.X' to 'buff.rune_word_X.up' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "rune_word%.([%w_]+)$", "buff.rune_word_%1.up" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'rune_word.X' to 'buff.rune_word_X.up' at EOL (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'rune_word.X' to 'buff.rune_word_X.up' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "rune_word%.([%w_]+)%.enabled([%+%-%*%%/%&%|= ()<>])", "buff.rune_word_%1.up%2" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'rune_word.X.enabled' to 'buff.rune_word_X.up' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'rune_word.X.enabled' to 'buff.rune_word_X.up' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "rune_word%.([%w_]+)%.enabled$", "buff.rune_word_%1.up" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'rune_word.X.enabled' to 'buff.rune_word_X.up' at EOL (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'rune_word.X.enabled' to 'buff.rune_word_X.up' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "([^a-z0-9_])conduit%.([%w_]+)([%+%-%*%%/&|= ()<>)])", "%1conduit.%2.enabled%3" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'conduit.X' to 'conduit.X.enabled' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'conduit.X' to 'conduit.X.enabled' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "([^a-z0-9_])conduit%.([%w_]+)$", "%1conduit.%2.enabled" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'conduit.X' to 'conduit.X.enabled' at EOL (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'conduit.X' to 'conduit.X.enabled' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "soulbind%.([%w_]+)([%+%-%*%%/&|= ()<>)])", "soulbind.%1.enabled%2" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'soulbind.X' to 'soulbind.X.enabled' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'soulbind.X' to 'soulbind.X.enabled' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "soulbind%.([%w_]+)$", "soulbind.%1.enabled" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'soulbind.X' to 'soulbind.X.enabled' at EOL (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'soulbind.X' to 'soulbind.X.enabled' at EOL (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "pet%.[%w_]+%.([%w_]+)%.", "%1." )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'pet.X.Y...' to 'Y...' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'pet.X.Y...' to 'Y...' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "(essence%.[%w_]+)%.([%w_]+)%.rank(%d)", "(%1.%2&%1.rank>=%3)" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'essence.X.[major|minor].rank#' to '(essence.X.[major|minor]&essence.X.rank>=#)' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'essence.X.[major|minor].rank#' to '(essence.X.[major|minor]&essence.X.rank>=#)' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "pet%.[%w_]+%.[%w_]+%.([%w_]+)%.", "%1." )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'pet.X.Y.Z...' to 'Z...' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'pet.X.Y.Z...' to 'Z...' (" .. times .. "x)." )
     end
 
     -- target.1.time_to_die is basically the end of an encounter.
     i, times = i:gsub( "target%.1%.time_to_die", "time_to_die" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'target.1.time_to_die' to 'time_to_die' (" .. times .."x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'target.1.time_to_die' to 'time_to_die' (" .. times .."x)." )
     end
 
     -- target.time_to_pct_XX.remains is redundant, Monks.
     i, times = i:gsub( "time_to_pct_(%d+)%.remains", "time_to_pct_%1" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'time_to_pct_XX.remains' to 'time_to_pct_XX' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'time_to_pct_XX.remains' to 'time_to_pct_XX' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "trinket%.1%.", "trinket.t1." )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'trinket.1.X' to 'trinket.t1.X' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'trinket.1.X' to 'trinket.t1.X' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "trinket%.2%.", "trinket.t2." )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'trinket.2.X' to 'trinket.t2.X' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'trinket.2.X' to 'trinket.t2.X' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "trinket%.([%w_][%w_][%w_]+)%.cooldown", "cooldown.%1" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'trinket.abc.cooldown' to 'cooldown.abc' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted 'trinket.abc.cooldown' to 'cooldown.abc' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "min:[a-z0-9_%.]+(,?$?)", "%1" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Removed min:X check (not available in emulation) (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Removed min:X check (not available in emulation) (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "([%|%&]position_back)", "" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Removed position_back check (not available in emulation) (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Removed position_back check (not available in emulation) (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "(position_back[%|%&]?)", "" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Removed position_back check (not available in emulation) (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Removed position_back check (not available in emulation) (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "max:[a-z0-9_%.]+(,?$?)", "%1" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Removed max:X check (not available in emulation) (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Removed max:X check (not available in emulation) (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "(incanters_flow_time_to%.%d+)(^%.)", "%1.any%2")
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted directionless 'incanters_flow_time_to.X' to 'incanters_flow_time_to.X.any' (" .. times .. "x)." )
+        insert( warnings, "Line " .. line .. ": Converted directionless 'incanters_flow_time_to.X' to 'incanters_flow_time_to.X.any' (" .. times .. "x)." )
     end
 
     i, times = i:gsub( "exsanguinated%.([a-z0-9_]+)", "debuff.%1.exsanguinated" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'exsanguinated.X' to 'debuff.X.exsanguinated' (" .. times .. "x).")
+        insert( warnings, "Line " .. line .. ": Converted 'exsanguinated.X' to 'debuff.X.exsanguinated' (" .. times .. "x).")
     end
 
     i, times = i:gsub( "time_to_sht%.(%d+)%.plus", "time_to_sht_plus.%1" )
     if times > 0 then
-        table.insert( warnings, "Line " .. line .. ": Converted 'time_to_sht.X.plus' to 'time_to_sht_plus.X' (" .. times .. "x).")
+        insert( warnings, "Line " .. line .. ": Converted 'time_to_sht.X.plus' to 'time_to_sht_plus.X' (" .. times .. "x).")
     end
 
     if segment == 'c' then
@@ -10945,7 +10923,7 @@ local function Sanitize( segment, i, line, warnings )
             end
 
             if times > 0 then
-                table.insert( warnings, "Line " .. line .. ": Converted non-specific 'target' to 'target.unit' (" .. times .. "x)." )
+                insert( warnings, "Line " .. line .. ": Converted non-specific 'target' to 'target.unit' (" .. times .. "x)." )
             end
             i = i:gsub( '\v', token )
         end
@@ -10969,7 +10947,7 @@ local function Sanitize( segment, i, line, warnings )
         end
 
         if times > 0 then
-            table.insert( warnings, "Line " .. line .. ": Converted non-specific 'player' to 'player.unit' (" .. times .. "x)." )
+            insert( warnings, "Line " .. line .. ": Converted non-specific 'player' to 'player.unit' (" .. times .. "x)." )
         end
         i = i:gsub( '\v', token )
     end
@@ -10990,12 +10968,12 @@ local function strsplit( str, delimiter )
     local delim_from, delim_to = string.find( str, delimiter, from )
 
     while delim_from do
-        table.insert( result, string.sub( str, from, delim_from - 1 ) )
+        insert( result, string.sub( str, from, delim_from - 1 ) )
         from = delim_to + 1
         delim_from, delim_to = string.find( str, delimiter, from )
     end
 
-    table.insert( result, string.sub( str, from ) )
+    insert( result, string.sub( str, from ) )
     return result
 end
 
@@ -11113,7 +11091,7 @@ do
                         i = start .. repl .. finish
                         times = times + 1
                     end
-                    table.insert( warnings, "Line " .. line .. ": Removed unnecessary expel_harm cooldown check from action entry for jab (" .. times .. "x)." )
+                    insert( warnings, "Line " .. line .. ": Removed unnecessary expel_harm cooldown check from action entry for jab (" .. times .. "x)." )
                 end
             end
 
@@ -11129,7 +11107,7 @@ do
                     i = start .. enemies .. finish
                     times = times + 1
                 end
-                table.insert( warnings, "Line " .. line .. ": Replaced unsupported '" .. token .. "' with '" .. enemies .. "' (" .. times .. "x)." )
+                insert( warnings, "Line " .. line .. ": Replaced unsupported '" .. token .. "' with '" .. enemies .. "' (" .. times .. "x)." )
             end ]]
 
             if i:sub(1, 13) == 'fists_of_fury' then
@@ -11148,7 +11126,7 @@ do
                         i = start .. repl .. finish
                         times = times + 1
                     end
-                    table.insert( warnings, "Line " .. line .. ": Removed unnecessary energy cap check from action entry for fists_of_fury (" .. times .. "x)." )
+                    insert( warnings, "Line " .. line .. ": Removed unnecessary energy cap check from action entry for fists_of_fury (" .. times .. "x)." )
                 end
             end
 
@@ -11169,7 +11147,7 @@ do
                             result.action = class.abilities[ ability ] and class.abilities[ ability ].key or ability
                         end
                     elseif not ignore_actions[ ability ] then
-                        table.insert( warnings, "Line " .. line .. ": Unsupported action '" .. ability .. "'." )
+                        insert( warnings, "Line " .. line .. ": Unsupported action '" .. ability .. "'." )
                         result.action = ability
                     end
 
@@ -11225,7 +11203,7 @@ do
                 end
 
                 if result.action == "use_item" then
-                    table.insert( warnings, "Line " .. line .. ": Unsupported use_item action [ " .. ( result.effect_name or result.name or "unknown" ) .. "]; entry disabled." )
+                    insert( warnings, "Line " .. line .. ": Unsupported use_item action [ " .. ( result.effect_name or result.name or "unknown" ) .. "]; entry disabled." )
                     result.action = nil
                     result.enabled = false
                 end
@@ -11237,7 +11215,7 @@ do
                     result.sec = "cooldown." .. result.name .. ".remains"
                     result.name = nil
                 else
-                    table.insert( warnings, "Line " .. line .. ": Unable to convert wait_for_cooldown,name=X to wait,sec=cooldown.X.remains; entry disabled." )
+                    insert( warnings, "Line " .. line .. ": Unable to convert wait_for_cooldown,name=X to wait,sec=cooldown.X.remains; entry disabled." )
                     result.action = "wait"
                     result.enabled = false
                 end
@@ -11256,13 +11234,13 @@ do
                 result.cancel_if = nil
             end
 
-            table.insert( output, result )
+            insert( output, result )
         end
 
         if n > 0 then
-            table.insert( warnings, "The following auras were used in the action list but were not found in the addon database:" )
+            insert( warnings, "The following auras were used in the action list but were not found in the addon database:" )
             for k in orderedPairs( missing ) do
-                table.insert( warnings, " - " .. k )
+                insert( warnings, " - " .. k )
             end
         end
 

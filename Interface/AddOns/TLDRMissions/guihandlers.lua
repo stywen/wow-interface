@@ -1,5 +1,6 @@
 local addonName = ...
 local addon = _G[addonName]
+local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
 local LibStub = addon.LibStub
 local L = LibStub("AceLocale-3.0"):GetLocale("TLDRMissions")
 local AceEvent = LibStub("AceAddon-3.0"):NewAddon("TLDRMissions-AceEvent", "AceEvent-3.0")
@@ -8,8 +9,12 @@ local gui = addon.GUI
 
 local nextMission
 local hasNextMission
+local missionCounter
+local missionCounterUpper
 local calculateNextMission
 local setNextMissionText
+
+local pauseReports
 
 local missionWaitingUserAcceptance
 local calculatedMissionBacklog = {}
@@ -211,7 +216,7 @@ local function updateRewardText(mission)
             elseif reward.followerXP then
                 text = text..reward.followerXP.." "..L["BonusFollowerXP"].."; "
             elseif reward.itemID then
-                local _, itemLink = GetItemInfo(reward.itemID)
+                local _, itemLink = addon:GetItemInfo(reward.itemID)
                 itemLink = itemLink or "[item: "..reward.itemID.."]"
                 text = text..itemLink.." x"..reward.quantity.."; "
             elseif reward.currencyID and (reward.currencyID ~= 0) then
@@ -239,6 +244,7 @@ local function processResults(results, dontClear)
             end
             
             if not problem then
+                results.counter = missionCounter
                 table.insert(calculatedMissionBacklog, results)
                 for i = 1, 5 do
                     if results.combination[i] then
@@ -262,7 +268,7 @@ local function processResults(results, dontClear)
     
     if (results.defeats == 0) and (results.victories > 0) then
         if not dontClear then addon:clearWork() end
-        gui.NextMissionLabel:SetText(string.format(GARRISON_MISSION_TIME, C_Garrison.GetMissionName(results.missionID)))
+        gui.NextMissionLabel:SetText(string.format(L["MissionCounter"], results.counter or missionCounter, missionCounterUpper, C_Garrison.GetMissionName(results.missionID)))
         for i = 1, 5 do
             if results.combination[i] then
                 alreadyUsedFollowers[results.combination[i]] = true
@@ -292,9 +298,6 @@ local function processResults(results, dontClear)
         local timeRemaining = (C_Garrison.GetBasicMissionInfo(results.missionID).offerEndTime or (GetTime() + 601)) - GetTime()
         if timeRemaining < 600 then
             gui.LowTimeWarningLabel:SetText(string.format(L["LowTimeWarning"], math.floor(timeRemaining/60), math.floor(mod(timeRemaining, 60))))
-        end 
-        if addon:isCurrentWorkBatchEmpty() then
-            calculateNextMission()
         end
         
         if addon.db.profile.autoStart then
@@ -303,6 +306,9 @@ local function processResults(results, dontClear)
         else
             gui.StartMissionButton:SetEnabled(true)
             gui.SkipMissionButton:SetEnabled(true)
+            if addon:isCurrentWorkBatchEmpty() then
+                calculateNextMission()
+            end
         end
     else
         numFailed = numFailed + 1
@@ -377,7 +383,7 @@ local function startSacrifice()
     repeat
         again = false
         for k, v in pairs(followers) do
-            if v.status then
+            if v.status or alreadyUsedFollowers[v.followerID] or (v.level >= 60) then
                 table.remove(followers, k)
                 again = true
                 break
@@ -509,7 +515,6 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
             end
             if (not exists) and (not excludedMissions[mission.missionID]) then
                 local animaCost = C_Garrison.GetMissionCost(mission.missionID)
-                local passedAnimaCheck = false
                 if ( (animaCost < 50) and addon.db.profile.animaCosts[acCategory]["10-49"] ) or ( (animaCost < 100) and addon.db.profile.animaCosts[acCategory]["50-99"] ) or addon.db.profile.animaCosts[acCategory]["100+"] then
                     local _, _, _, _, duration = C_Garrison.GetMissionTimes(mission.missionID)
                     duration = duration/3600
@@ -561,14 +566,12 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
         gui.AbortButton:SetEnabled(false)
         gui.SkipCalculationButton:SetEnabled(false)
         return
-    end
-    
-    local troopsSetting = addon.db.profile.moreOrLessTroops 
+    end 
     
     setNextMissionText = function()
         if nextMission then
             gui.FailedCalcLabel:SetText()
-            gui.NextMissionLabel:SetText(string.format(GARRISON_MISSION_TIME , nextMission.name))
+            gui.NextMissionLabel:SetText(string.format(L["MissionCounter"], (missionCounter>0) and missionCounter or 1, missionCounterUpper, nextMission.name))
             gui.NextFollower1Label:SetText(L["Calculating"])
             updateRewardText(nextMission)
             return true
@@ -579,12 +582,16 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
         return (table.getn(missions) > 0) or addon.db.profile.sacrificeRemaining
     end
     
+    missionCounter = 0
+    missionCounterUpper = table.getn(missions)
+    
     calculateNextMission = function()
         lowerEstimate = 0
         
         nextMission = table.remove(missions, 1)
         
         if (not missionWaitingUserAcceptance) then
+            missionCounter = missionCounter + 1
             if not setNextMissionText() then
                 gui.NextMissionLabel:SetText()
                 for i = 1, 5 do
@@ -596,12 +603,18 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
                 gui.AbortButton:SetEnabled(false)
                 gui.SkipCalculationButton:SetEnabled(false)
             end
+            missionCounter = missionCounter - 1
         end
         
         if (not nextMission) and addon.db.profile.sacrificeRemaining then
             startSacrifice()
         end
-        if not nextMission then return end
+        if not nextMission then
+            gui.SkipCalculationButton:SetEnabled(false)
+            return
+        end
+        
+        missionCounter = missionCounter + 1
         
         if nextMission.missionScalar > 60 then
             nextMission.missionScalar = 60
@@ -673,11 +686,11 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
             end
             
             if (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1) or (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1) then
-                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "lowestLevel", troopsSetting)
+                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "lowestLevel")
             elseif addon.db.profile.followerXPSpecialTreatmentAlgorithm == 2 then
-                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "highestLevel", troopsSetting)
+                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "highestLevel")
             else
-                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "lowestLevel", troopsSetting)
+                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "lowestLevel")
             end
         else
             for _, follower in ipairs(followers) do
@@ -697,7 +710,7 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
                 return
             end
             
-            sortFunc(addon, followerLineup, nextMission.missionID, processResults, sortString, troopsSetting)
+            sortFunc(addon, followerLineup, nextMission.missionID, processResults, sortString)
         end
     end
      
@@ -721,8 +734,8 @@ gui.AbortButton:SetScript("OnClick", function (self, button)
 end)
 
 gui.SkipCalculationButton:SetScript("OnClick", function(self, button)
-    addon:clearWork()
     numSkipped = numSkipped + 1
+    addon:clearWork()
     self:SetEnabled(false)
     if (not missionWaitingUserAcceptance) and (not hasNextMission()) then
         clearReportText()
@@ -850,6 +863,7 @@ gui.StartMissionButton:SetScript("OnClick", function(self, button)
         end
     end
     
+    local _
     _, animaCost = C_Garrison.GetMissionCost(missionWaitingUserAcceptance.missionID)
 	if (amountOwned < animaCost) then
 		clearReportText()
@@ -910,7 +924,11 @@ gui.StartMissionButton:SetScript("OnClick", function(self, button)
             processResults(table.remove(calculatedMissionBacklog, 1), true)
         else
             gui.EstimateLabel:SetText()
+            if hasNextMission() then
+                calculateNextMission()
+            end
             if addon:isCurrentWorkBatchEmpty() then
+                clearReportText()
                 if numSkipped > 0 then
                     local numFollowersAvailable = 0
                     for _, follower in pairs(C_Garrison.GetFollowers(123)) do
@@ -1021,22 +1039,19 @@ gui.CompleteMissionsButton:SetScript("OnClick", function(self, button)
     end
 end)
 
+gui.MinimumTroopsSlider:SetScript("OnValueChanged", function(self, value, userInput)
+    TLDRMissionsFrameMinimumTroopsSliderText:SetText(value)
+    addon.db.profile.minimumTroops = value
+end)
+
 gui.LowerBoundLevelRestrictionSlider:SetScript("OnValueChanged", function(self, value, userInput)
     TLDRMissionsFrameSliderText:SetText(value)
-    if value == 3 then
-        addon.db.profile.LevelRestriction = nil
-    else
-        addon.db.profile.LevelRestriction = value
-    end
+    addon.db.profile.LevelRestriction = value
 end)
 
 gui.AnimaCostLimitSlider:SetScript("OnValueChanged", function(self, value, userInput)
     TLDRMissionsFrameAnimaCostSliderText:SetText(value)
-    if value == 300 then
-        addon.db.profile.AnimaCostLimit = nil
-    else
-        addon.db.profile.AnimaCostLimit = value
-    end
+    addon.db.profile.AnimaCostLimit = value
 end)
 
 gui.SimulationsPerFrameSlider:SetScript("OnValueChanged", function(self, value, userInput)
@@ -1114,8 +1129,8 @@ function gui.SanctumFeatureDropDown:OnSelect(category, arg2, checked)
             for currencyID in pairs(addon.sanctumFeatureCurrencies[categoryName]) do
                 addon.db.profile.sanctumFeatureCategories[currencyID] = isAnyChecked
             end
-            ToggleDropDownMenu(nil, nil, TLDRMissionsSanctumFeatureDropDown)
-            ToggleDropDownMenu(nil, nil, TLDRMissionsSanctumFeatureDropDown)
+            LibDD:ToggleDropDownMenu(nil, nil, TLDRMissionsSanctumFeatureDropDown)
+            LibDD:ToggleDropDownMenu(nil, nil, TLDRMissionsSanctumFeatureDropDown)
             return
         end
     end

@@ -5,12 +5,9 @@ local followerXPItemIDs = {
     [187414] = true, 
     [187415] = true, 
     [187413] = true, 
-    [188655] = true, 
-    [184688] = true, 
-    [184685] = true, 
+    [188655] = true,   
     [188656] = true, 
     [188657] = true, 
-    [187415] = true,
     [188651] = 2400,
     [188654] = 6000,
     [184688] = 6000,
@@ -273,14 +270,14 @@ function addon:GetFollowerXPItemMissions(hard)
     return addon:GetAllMissionsMatchingFilter("followerxp-items", hard)
 end
 
+local animaItemDiscrepancies = {}
 function addon:GetAnimaMissions(hard)
     local missions = C_Garrison.GetAvailableMissions(123)
     local missionLineup = {}
     
     for _, mission in pairs(missions) do
         for _, reward in pairs(mission.rewards) do
-            
-            if reward.itemID and C_Item.IsAnimaItemByID(reward.itemID) and addon.db.profile.animaItemQualities[C_Item.GetItemQualityByID(reward.itemID)] then
+            if reward.itemID and C_Item.IsAnimaItemByID(reward.itemID) and addon.db.profile.animaItemQualities[select(3, addon:GetItemInfo(reward.itemID))] then
                 table.insert(missionLineup, mission)
             end
         end
@@ -394,7 +391,7 @@ function addon:GetRunecarverMissions(hard)
         local rewards = mission.rewards
 
         for _, reward in pairs(rewards) do
-            if (reward.currencyID and runecarverCurrencyIDs[reward.currencyID] and addon.db.profile.runecarver[reward.currencyID]) or (reward.itemID and (reward.itemID == stygiaItemID)) then
+            if (reward.currencyID and runecarverCurrencyIDs[reward.currencyID] and addon.db.profile.runecarver[reward.currencyID]) or (reward.itemID and (reward.itemID == stygiaItemID) and addon.db.profile.runecarver[1767]) then
                 table.insert(missionLineup, mission)
             end
         end
@@ -446,7 +443,7 @@ function addon:GetGearMissions(hard)
     for _, mission in pairs(missions) do
         for _, reward in pairs(mission.rewards) do
             if (reward.itemID and IsEquippableItem(reward.itemID)) then
-                local _, _, _, _, _, _, _, _, _, _, sellPrice = GetItemInfo(reward.itemLink)
+                local _, _, _, _, _, _, _, _, _, _, sellPrice = addon:GetItemInfo(reward.itemLink)
                 if sellPrice then
                     for category, minMax in pairs(goldCategories) do
                         if ((sellPrice/10000) >= minMax[1]) and ((sellPrice/10000) < minMax[2]) then

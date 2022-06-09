@@ -63,7 +63,11 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             environmentEffect.onCooldown = environmentEffect.effects.firstTurn
         else
             environmentEffect.onCooldown = 0
-        end 
+        end
+        
+        if missionID == 2297 then
+            environmentEffectFollower.baseAttack = 150
+        end
     end
     
     local function getAttackOrder()
@@ -149,14 +153,8 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             for _, minion in pairs(field) do
                 if (follower.boardIndex < 5) and (minion.boardIndex == rngTargets["followers_random_ally"]) then
                     table.insert(targets, minion)
-                    if minion.HP <= 0 then -- er... why is this here?
-                        table.insert(targets, follower)
-                    end
                 elseif (follower.boardIndex > 4) and (minion.boardIndex == rngTargets["enemies_random_ally"]) then
                     table.insert(targets, minion)
-                    if minion.HP <= 0 then
-                        table.insert(targets, follower)
-                    end
                 end
             end
         elseif targetType == "passive" then
@@ -168,6 +166,8 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             table.insert(targets, addon:getClosestAlly(follower, field))
         elseif targetType == "adjacent_allies" then
             targets = addon:getAdjacentAllies(follower, field)
+        elseif targetType == "adjacent_allies_or_all_allies" then
+            targets = addon:getAdjacentAlliesOrAllAllies(follower, field)
         elseif targetType == "other_allies" then
             targets = addon:getOtherAllies(follower, field)
         elseif targetType == "front_allies_only" then
@@ -207,11 +207,16 @@ local function doSimulation(field, environmentEffect, missionID, callback)
     local function registerBuff(source, target, effect)
         local existingBuff = source.buffs[effect.buffName..target.boardIndex]
         if existingBuff then
-            existingBuff.duration = effect.duration
             if existingBuff.stacks < existingBuff.stackLimit then
+                if not existingBuff.durations then
+                    existingBuff.durations = {}
+                end
+                table.insert(existingBuff.durations, effect.duration)
                 existingBuff.stacks = existingBuff.stacks + 1
                 print(effect.buffName.. " gained an additional stack on "..target.name)
+                return
             else
+                existingBuff.duration = effect.duration
                 print(effect.buffName.." was refreshed on "..target.name)
                 return
             end
@@ -326,6 +331,9 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     target.hasTaunt = nil
                 end
             end
+        elseif effect.healPercent then
+            buff.source = source
+            buff.healPercent = effect.healPercent
         else
             print("Error: buff effect not found for "..buff.name)
         end
@@ -354,6 +362,8 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 ["Acidic Spray"] = true,
                 ["Podtender"] = true,
                 ["Deceptive Practice"] = true,
+                ["Shield Bash"] = true,
+                ["Combat Meditation"] = true,
             },
             taken = {
                 ["Shield of Tomorrow (Main)"] = true,
@@ -380,7 +390,33 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     if buff.changeDamageTakenPercent then
                         changeDamageTakenPercent.amount = changeDamageTakenPercent.amount + buff.changeDamageTakenPercent
                         
+                        if roundingErrorSpells.taken[buff.name] then
+                            roundingErrorsTaken = roundingErrorsTaken + 1
+                        end
+                    elseif buff.changeDamageTakenRaw then
+                        changeDamageTakenRaw.amount = changeDamageTakenRaw.amount + buff.changeDamageTakenRaw
+                    end
+                end
+            end
+        end
+        
+        if environmentEffect then
+            for _, buff in pairs(environmentEffectFollower.buffs) do
+                if buff.target == attacker then
+                    if buff.changeDamageDealtPercent and ((not buff.alternateTurns) or (buff.activeThisTurn)) then 
+                        changeDamageDealtPercent.amount = changeDamageDealtPercent.amount + buff.changeDamageDealtPercent
                         if roundingErrorSpells.dealt[buff.name] then
+                            roundingErrorsDealt = roundingErrorsDealt + 1
+                        end
+                    elseif buff.changeDamageDealtRaw then
+                        changeDamageDealtRaw.amount = changeDamageDealtRaw.amount + buff.changeDamageDealtRaw
+                    end
+                end
+                if buff.target == defender then
+                    if buff.changeDamageTakenPercent then
+                        changeDamageTakenPercent.amount = changeDamageTakenPercent.amount + buff.changeDamageTakenPercent
+                        
+                        if roundingErrorSpells.taken[buff.name] then
                             roundingErrorsTaken = roundingErrorsTaken + 1
                         end
                     elseif buff.changeDamageTakenRaw then
@@ -454,11 +490,17 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 print(buff.name.." heals "..target.name.." for "..healing)
                     
             elseif buff.attackPercent then
-                --if buff.source.HP < 1 then return end
-                local damage = calculateDamage(buff.source, target, buff.attackPercent)
-                target.HP = target.HP - damage
-                print(buff.name.." deals "..damage.." to "..target.name.." ["..target.boardIndex.."]")
-                checkDeath(target)
+                local stackNum = 0
+                local stackUpper = buff.stacks
+                if not stackUpper then stackUpper = 1 end
+                    
+                while (stackNum < buff.stacks) and (target.HP > 0) do
+                    local damage = calculateDamage(buff.source, target, buff.attackPercent)
+                    target.HP = target.HP - damage
+                    print(buff.name.." deals "..damage.." to "..target.name.." ["..target.boardIndex.."]")
+                    checkDeath(target)
+                    stackNum = stackNum + 1
+                end
             elseif buff.alternateTurns then
                 buff.activeThisTurn = not buff.activeThisTurn
             else
@@ -521,6 +563,9 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             local _, damage = calculateDamage(target, source, thorns.damage)
             
             source.HP = source.HP - damage
+            if source.HP > source.maxHP then
+                source.HP = source.maxHP
+            end
             print(origin.name.."["..origin.boardIndex.."]["..origin.HP.."] thorns deals "..damage.." damage to "..source.name.."["..source.boardIndex.."]["..source.HP.."HP]")
         end
     end
@@ -607,36 +652,27 @@ local function doSimulation(field, environmentEffect, missionID, callback)
     end
     
     local function processSpells(follower, spells, rngTargets, didAutoAttackTargetDie)
-        local targetType = spells.effects[1].target
-        local overrideTarget = getTargets(follower, targetType, rngTargets)
-        
-        if spells.effects[1].affectedByTaunt and follower.hasTaunt then
-            overrideTarget = getTargets(follower, targetType, rngTargets, follower.hasTaunt.source)
+        local targets = {}
+        for i in ipairs(spells.effects) do
+            targets[i] = getTargets(follower, spells.effects[i].target, rngTargets, (spells.effects[i].affectedByTaunt and follower.hasTaunt and follower.hasTaunt.source) or nil)
         end
         
         local result = false
         for i in ipairs(spells.effects) do
             if (follower.HP > 0) or ((i > 1) and spells.effects[1].continueIfCasterDies) then
-                if spells.effects[i].target == targetType then
-                    local t
-                    if spells.effects[i].stopIfTargetDies or spells.effects[i].stopIfTwoTargetsDied then
-                        t = getTargets(follower, targetType, rngTargets)
+                if spells.effects[i].reacquireTargets then
+                    targets[i] = getTargets(follower, spells.effects[i].target, rngTargets, (spells.effects[i].affectedByTaunt and follower.hasTaunt and follower.hasTaunt.source) or nil)
+                end 
+                if processSpell(follower, spells, i, rngTargets, nil, targets[i]) then
+                    result = true
+                end
+                if spells.effects[i].stopIfTargetDies then
+                    if targets[i][1] and (targets[i][1].HP <= 0) then
+                        break
                     end
-                    if processSpell(follower, spells, i, rngTargets, (spells.effects[i].affectedByTaunt and follower.hasTaunt or nil), overrideTarget) then
-                        result = true
-                    end
-                    if spells.effects[i].stopIfTargetDies then
-                        if t[1] and (t[1].HP <= 0) then
-                            break
-                        end
-                    elseif spells.effects[i].stopIfTwoTargetsDied then
-                        if didAutoAttackTargetDie and t[1] and (t[1].HP <= 0) then
-                            break
-                        end
-                    end
-                else
-                    if processSpell(follower, spells, i, rngTargets, (spells.effects[i].affectedByTaunt and follower.hasTaunt or nil)) then
-                        result = true
+                elseif spells.effects[i].stopIfTwoTargetsDied then
+                    if didAutoAttackTargetDie and targets[i][1] and (targets[i][1].HP <= 0) then
+                        break
                     end
                 end
             end
@@ -645,19 +681,50 @@ local function doSimulation(field, environmentEffect, missionID, callback)
     end
     
     local function processEnvironmentEffect(rngTargets)
-        if environmentEffect.onCooldown > 0 then
-            environmentEffect.onCooldown = environmentEffect.onCooldown - 1
-            return
+        if environmentEffect.effects.type == "buff" then
+            for _, buff in pairs(environmentEffectFollower.buffs) do
+                if buff.target.HP > 0 then
+                    if buff.damageTargetHPPercent or buff.healTargetHPPercent or buff.healPercent or buff.attackPercent or buff.alternateTurns then
+                        processBuff(environmentEffectFollower, buff)
+                    end
+                    buff.duration = buff.duration - 1
+                    if buff.durations then
+                        for i, duration in ipairs(buff.durations) do
+                            buff.durations[i] = duration - 1
+                        end
+                        local r = false
+                        repeat
+                            r = false
+                            for i, duration in ipairs(buff.durations) do
+                                if duration == 0 then
+                                    r = true
+                                    table.remove(buff.durations, i)
+                                    if buff.stacks and buff.stacks > 1 then
+                                        buff.stacks = buff.stacks - 1
+                                        local targetName = environmentEffect.name
+                                        print(buff.name.." lost a stack on "..buff.target.name.."["..buff.target.boardIndex.."]")
+                                    end
+                                    break
+                                end
+                            end
+                        until not r
+                    end
+                    if buff.duration == 0 then
+                        if buff.stacks and buff.stacks > 1 then
+                            buff.duration = table.remove(buff.durations, 1)
+                            buff.stacks = buff.stacks - 1
+                            local targetName = environmentEffect.name
+                            print(buff.name.." lost a stack on "..buff.target.name.."["..buff.target.boardIndex.."]")
+                        else
+                            unregisterBuff(environmentEffectFollower, buff)
+                        end
+                    end
+                end
+            end
         end
-        environmentEffect.onCooldown = environmentEffect.cooldown or 0
-        
-        if environmentEffect.effects.skipFirstApplication and (not environmentEffect.skipFirstApplication) then
-            environmentEffect.skipFirstApplication = true
-            return
-        end
-        
+
         -- if the target is "random enemy" then take the worst case scenario: the lowest health minion
-        local target -- todo: change this variable to "targets"
+        local target = {}
         if environmentEffect.effects.target == "random_enemy" then
             local lowestHealth = 99999
             local lowestHealthID
@@ -674,23 +741,18 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             target = getTargets(environmentEffectFollower, environmentEffect.effects.target, rngTargets)
         end
         
+        if environmentEffect.onCooldown > 0 then
+            environmentEffect.onCooldown = environmentEffect.onCooldown - 1
+            return
+        end
+        environmentEffect.onCooldown = environmentEffect.cooldown or 0
+        
         if environmentEffect.effects.damageTargetHPPercent then
             local damage = math.floor((target.maxHP * environmentEffect.effects.damageTargetHPPercent)/100)
             target.HP = target.HP - damage
-            print(environmentEffect.name.."[Environment Effect] deals damage to "..target.name.."["..target.boardIndex.."] for "..damage.."- ["..target.HP.."HP]")
+            print(environmentEffect.name.."[Environment Effect] deals damage to "..target.name.."["..target.boardIndex.."] for "..damage.." ["..target.HP.."HP]")
             checkDeath(target)
         elseif environmentEffect.effects.type == "buff" then
-            for _, buff in pairs(environmentEffectFollower.buffs) do
-                processBuff(environmentEffectFollower, buff)
-            end
-            
-            if environmentEffect.effects.alternateTurnsApplication and environmentEffect.alternate then
-                environmentEffect.alternate = nil
-                return
-            else
-                environmentEffect.alternate = true
-            end
-            
             for _, t in pairs(target) do
                 registerBuff(environmentEffectFollower, t, environmentEffect.effects)
             end
@@ -734,11 +796,6 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         if rngTargets then
             print(rngTargets)
         end
-        
-        -- Environment effect first
-        if environmentEffect then
-            processEnvironmentEffect(rngTargets)
-        end
                
         -- attack phase
         local attackOrder = getAttackOrder()
@@ -772,8 +829,34 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                                 processBuff(minion, buff)
                             end
                             buff.duration = buff.duration - 1
+                            if buff.durations then
+                                for i, duration in ipairs(buff.durations) do
+                                    buff.durations[i] = duration - 1
+                                end
+                                local r
+                                repeat
+                                    r = false
+                                    for i, duration in ipairs(buff.durations) do
+                                        if duration == 0 then
+                                            r = true
+                                            table.remove(buff.durations, i)
+                                            if buff.stacks and buff.stacks > 1 then
+                                                buff.stacks = buff.stacks - 1
+                                                print(buff.name.." lost a stack on "..environmentEffectFollower.name)
+                                            end
+                                            break
+                                        end
+                                    end
+                                until not r
+                            end
                             if buff.duration == 0 then
-                                unregisterBuff(minion, buff)
+                                if buff.stacks and buff.stacks > 1 then
+                                    buff.duration = table.remove(buff.durations, 1)
+                                    buff.stacks = buff.stacks - 1
+                                    print(buff.name.." lost a stack on "..minion.name)
+                                else
+                                    unregisterBuff(minion, buff)
+                                end
                             end
                         end
                     end
@@ -790,8 +873,34 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             -- reduce buff durations
             for _, buff in pairs(minion.buffs) do
                 buff.duration = buff.duration - 1
+                if buff.durations then
+                    for i, duration in ipairs(buff.durations) do
+                        buff.durations[i] = duration - 1
+                    end
+                    local r
+                    repeat
+                        r = false
+                        for i, duration in ipairs(buff.durations) do
+                            if duration == 0 then
+                                r = true
+                                table.remove(buff.durations, i)
+                                if buff.stacks and buff.stacks > 1 then
+                                    buff.stacks = buff.stacks - 1
+                                    print(buff.name.." lost a stack on "..environmentEffectFollower.name)
+                                end
+                                break
+                            end
+                        end
+                    until not r
+                end
                 if buff.duration == 0 then
-                    unregisterBuff(minion, buff)
+                    if buff.stacks and buff.stacks > 1 then
+                        buff.duration = table.remove(buff.durations, 1)
+                        buff.stacks = buff.stacks - 1
+                        print(buff.name.." lost a stack on "..minion.name)
+                    else
+                        unregisterBuff(minion, buff)
+                    end
                 end
             end
         
@@ -802,7 +911,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             else
                 minion.autoAttack.onCooldown = minion.autoAttack.cooldown
                 if not boardStateDefeat() and (minion.HP > 0) then
-                    local target = getTargets(minion, minion.autoAttack.effects.target, rngTargets, minion.hasTaunt)
+                    local target = getTargets(minion, minion.autoAttack.effects.target, rngTargets, minion.hasTaunt and minion.hasTaunt.source or nil)
                     processSpell(minion, minion.autoAttack, nil, rngTargets, minion.hasTaunt)
                     if target[1] then
                         didAutoAttackTargetDie = target[1].HP <= 0
@@ -843,6 +952,8 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 
                 end
             end
+            
+            if boardStateDefeat() then return end
         end
         
         -- reduce buff durations for dead enemy minions that have persisted buffs
@@ -858,6 +969,10 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     end
                 end
             end
+        end
+        
+        if environmentEffect then
+            processEnvironmentEffect(rngTargets)
         end
         
         -- end turn events
@@ -1006,7 +1121,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             end
         end
         
-        if environmentEffect and (environmentEffect.effects.target == "random_ally") and (not turnRNG["enemies_random_ally"]) then
+        if environmentEffect and (environmentEffect.effects.target == "random_ally") and (not turnRNG["enemies_random_ally"]) and (environmentEffect.onCooldown < 1) then
             turnRNG["enemies_random_ally"] = {}
             for _, minion in pairs(field) do
                 if (minion.HP > 0) and (minion.boardIndex > 4) then
@@ -1065,14 +1180,39 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             boardState[i].isDead = minion.isDead
             boardState[i].shroud = minion.shroud
         end
-        -- todo: backup environment effects
+        if environmentEffect then
+            boardState.environmentEffect = {}
+            boardState.environmentEffect.onCooldown = environmentEffect.onCooldown
+            boardState.environmentEffect.buffs = {}
+            for j, buff in pairs(environmentEffectFollower.buffs) do
+                boardState.environmentEffect.buffs[j] = {}
+                boardState.environmentEffect.buffs[j].target = buff.target
+                boardState.environmentEffect.buffs[j].duration = buff.duration
+                boardState.environmentEffect.buffs[j].stacks = buff.stacks
+                boardState.environmentEffect.buffs[j].stackLimit = buff.stackLimit
+                boardState.environmentEffect.buffs[j].damageTargetHPPercent = buff.damageTargetHPPercent
+                boardState.environmentEffect.buffs[j].healTargetHPPercent = buff.healTargetHPPercent
+                boardState.environmentEffect.buffs[j].event = buff.event
+                boardState.environmentEffect.buffs[j].name = buff.name
+                boardState.environmentEffect.buffs[j].onUnregister = buff.onUnregister
+                boardState.environmentEffect.buffs[j].source = buff.source
+                boardState.environmentEffect.buffs[j].attackPercent = buff.attackPercent
+                boardState.environmentEffect.buffs[j].alternateTurns = buff.alternateTurns
+                boardState.environmentEffect.buffs[j].persistAfterDeath = buff.persistAfterDeath
+                boardState.environmentEffect.buffs[j].type = buff.type
+                boardState.environmentEffect.buffs[j].changeDamageDealtPercent = buff.changeDamageDealtPercent
+                boardState.environmentEffect.buffs[j].changeDamageTakenPercent = buff.changeDamageTakenPercent
+                boardState.environmentEffect.buffs[j].changeDamageDealtRaw = buff.changeDamageDealtRaw
+                boardState.environmentEffect.buffs[j].changeDamageTakenRaw = buff.changeDamageTakenRaw
+            end
+        end
         return boardState
     end
 
     local function restoreBoardState(boardState)
         currentTurn = boardState.turn
         for i, minion in pairs(boardState) do
-            if (i ~= "turn") then
+            if (i ~= "turn") and (i ~= "environmentEffect") then
                 field[i].maxHP = minion.maxHP
                 field[i].HP = minion.HP
                 wipe(field[i].thorns)
@@ -1113,6 +1253,31 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 field[i].shroud = minion.shroud
             end
         end
+        if environmentEffect then
+            environmentEffect.onCooldown = boardState.environmentEffect.onCooldown
+            wipe(environmentEffectFollower.buffs)
+            for j, buff in pairs(boardState.environmentEffect.buffs) do
+                environmentEffectFollower.buffs[j] = {}
+                environmentEffectFollower.buffs[j].target = buff.target
+                environmentEffectFollower.buffs[j].duration = buff.duration
+                environmentEffectFollower.buffs[j].stacks = buff.stacks
+                environmentEffectFollower.buffs[j].stackLimit = buff.stackLimit
+                environmentEffectFollower.buffs[j].damageTargetHPPercent = buff.damageTargetHPPercent
+                environmentEffectFollower.buffs[j].healTargetHPPercent = buff.healTargetHPPercent
+                environmentEffectFollower.buffs[j].event = buff.event
+                environmentEffectFollower.buffs[j].name = buff.name
+                environmentEffectFollower.buffs[j].onUnregister = buff.onUnregister
+                environmentEffectFollower.buffs[j].source = buff.source
+                environmentEffectFollower.buffs[j].attackPercent = buff.attackPercent
+                environmentEffectFollower.buffs[j].alternateTurns = buff.alternateTurns
+                environmentEffectFollower.buffs[j].persistAfterDeath = buff.persistAfterDeath
+                environmentEffectFollower.buffs[j].type = buff.type
+                environmentEffectFollower.buffs[j].changeDamageDealtPercent = buff.changeDamageDealtPercent
+                environmentEffectFollower.buffs[j].changeDamageTakenPercent = buff.changeDamageTakenPercent
+                environmentEffectFollower.buffs[j].changeDamageDealtRaw = buff.changeDamageDealtRaw
+                environmentEffectFollower.buffs[j].changeDamageTakenRaw = buff.changeDamageTakenRaw
+            end
+        end
     end
     
     local followerVictories = 0
@@ -1151,7 +1316,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                                 restoreBoardState(currentBoardState)
                                 
                                 nextTurn(turnRNG)
-                            
+
                                 if boardStateDefeat() then
                                     if boardStateDefeat() == "your team" then
                                         followerVictories = followerVictories + 1
@@ -1187,6 +1352,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             end
         else
             nextTurn()
+
             if boardStateDefeat() then
                 print("Mission won by: "..boardStateDefeat())
                 if boardStateDefeat() == "your team" then
@@ -1313,6 +1479,7 @@ function addon:Simulate(frontLeftFollowerID, frontMiddleFollowerID, frontRightFo
     
     local environmentEffect = C_Garrison.GetAutoMissionEnvironmentEffect(missionID)
     if environmentEffect then
+        environmentEffect.cooldown = environmentEffect.autoCombatSpellInfo.cooldown
         environmentEffect.effects = addon.spellsDB[environmentEffect.autoCombatSpellInfo.autoCombatSpellID]
         if not addon.spellsDB[environmentEffect.autoCombatSpellInfo.autoCombatSpellID] then
             DevTools_Dump(environmentEffect.autoCombatSpellInfo.autoCombatSpellID)
@@ -1365,12 +1532,12 @@ function addon:SimulateFromLog(missionID)
     local environmentEffect = record.environmentEffect
     
     if environmentEffect then
+        environmentEffect.cooldown = environmentEffect.autoCombatSpellInfo.cooldown
         environmentEffect.effects = addon.spellsDB[environmentEffect.autoCombatSpellInfo.autoCombatSpellID]
         if not addon.spellsDB[environmentEffect.autoCombatSpellInfo.autoCombatSpellID] then
             DevTools_Dump(environmentEffect.autoCombatSpellInfo.autoCombatSpellID)
         end
     end
 
-    doSimulation(field, environmentEffect, missionID, function(results)
-    end)
+    doSimulation(field, environmentEffect, missionID, function() end)
 end

@@ -130,17 +130,19 @@ addon.spellsDB = {
     [21] = { -- Kaletar heals all allies for $s1.
         type = "buff",
         target = "all_allies",
-        duration = 5,
-        event = "endTurn",
+        duration = 4,
+        event = "beforeAttack",
         healPercent = 25,
         buffName = "Spirits of Rejuvenation",
         stackLimit = 1,
+        firstTurn = 1,
     },
     [22] = { -- Ayeleth drains the anima from all adjacent enemies, dealing $s1 Shadow damage and an additional $s2 damage each round.
         [1] = {
             type = "attack",
             target = "cleave_enemies",
             attackPercent = 90,
+            affectedByTaunt = true,
         },
         [2] = {
             type = "buff",
@@ -149,6 +151,7 @@ addon.spellsDB = {
             duration = 2,
             event = "beforeAttack",
             buffName = "Unrelenting Hunger",
+            affectedByTaunt = true,
         }
     },
     [24] = { -- Teliah empowers her spear, dealing $s1 Holy damage to the farthest enemy and healing the closest ally for $s2.
@@ -179,12 +182,12 @@ addon.spellsDB = {
     },
     [26] = { -- Telethakas pours a potion down the throat of the closest ally, healing them for $s1 and increasing their maximum health by $s2.
       [1] = {
-            target = "closest_ally",
+            target = "nearby_ally_or_self",
             type = "heal",
             healPercent = 100,
         },
       [2] = {
-            target = "closest_ally",
+            target = "nearby_ally_or_self",
             type = "buff",
             changeMaxHPUsingAttack = 20,
             duration = 2,
@@ -374,6 +377,7 @@ addon.spellsDB = {
             duration = 2,
             changeDamageDealtPercent = -20,
             buffName = "Sonic Shriek",
+            persistAfterDeath = true,
         },
     },
     [64] = { -- Slams his carapace into the ground, dealing $s1 Nature damage to all enemies.
@@ -525,8 +529,7 @@ addon.spellsDB = {
         firstTurn = 2,
         target = "nearby_ally_or_self",
         duration = 2,
-        changeDamageTakenPercent = -5000, -- despite description, appears to reduce damage by 100%
-        -- further, unlike spell 84, seems to override all other buffs and set the damage to zero, where spell 84 still combines with other change damage % buffs
+        changeDamageTakenPercent = -50,
         buffName = "Resilient Plumage",
         persistAfterDeath = true,
     },
@@ -586,6 +589,7 @@ addon.spellsDB = {
             type = "attack",
             target = "back_enemies",
             attackPercent = 50,
+            ignoreThorns = true,
         },
         [1] = { -- switching order to match combatlog, even though this shouldnt functionally change anything
             type = "buff",
@@ -623,7 +627,6 @@ addon.spellsDB = {
             target = "furthest_enemy",
             type = "attack",
             attackPercent = 150,
-            stopIfTargetDies = true,
         },
         [2] = {
             target = "back_enemies",
@@ -643,6 +646,7 @@ addon.spellsDB = {
             changeDamageDealtPercent = -30,
             duration = 2,
             buffName = "Insect Swarm",
+            persistAfterDeath = true,
         },
     },
     [97] = { -- Kota unleashes a flurry of arrows, dealing $s1 Physical damage in a cone emanating from her closest enemy.
@@ -672,6 +676,7 @@ addon.spellsDB = {
             type = "attack",
             target = "closest_enemy",
             attackPercent = 60,
+            continueIfCasterDies = true,
         },
         [2] = {
             type = "buff",
@@ -830,6 +835,7 @@ addon.spellsDB = {
         duration = 2,
         changeDamageDealtPercent = 50,
         buffName = "Goading Motivation",
+        persistAfterDeath = true,
     },
     [121] = { -- The Trickster blows a glittering distracting dust across all enemies.
         target = "all_enemies",
@@ -879,6 +885,7 @@ addon.spellsDB = {
         target = "front_allies_only",
         type = "heal",
         healPercent = 20,
+        skipIfFull = true,
     },
     [127] = { -- The Gormling gets a taste for all the enemies in melee, dealing $s1 Nature damage.
         target = "front_enemies",
@@ -1323,6 +1330,7 @@ addon.spellsDB = {
             duration = 2,
             changeDamageDealtPercent = 50,
             buffName = "Medical Advice",
+            persistAfterDeath = true,
         },
     },
     [180] = { -- Targets a random enemy with visions of doom, dealing $s1 Shadow damage.
@@ -1416,6 +1424,7 @@ addon.spellsDB = {
           target = "all_allies",
           type = "heal",
           healPercent = 100,
+          reacquireTargets = true,
         },
     },
     [192] = { -- Rathan blasts the furthest enemy, dealing $s1 Shadow damage.
@@ -1714,11 +1723,9 @@ addon.spellsDB = {
     [223] = { -- Powerful death magic rolls across the Planes of Torment, causing a stacking damage over time effect to all of your party.
         buffName = "Wave of Eternal Death",
         type = "buff",
-        attackPercent = 10,
+        attackPercent = 18,
         target = "all_enemies",
-        duration = 11,
-        skipFirstApplication = true,
-        alternateTurnsApplication = true,
+        duration = 10,
         stackLimit = 5,
     },
     [224] = { -- Deadly claws tear through all enemies in melee, dealing $s1 damage.
@@ -1749,7 +1756,7 @@ addon.spellsDB = {
         target = "all_enemies",
     },
     [229] = { -- Ancient rites and runes protect a random ally, reducing their damage taken by $s1% for two turns.
-        target = "random_ally",
+        target = "pseudorandom_ritualfervor",
         type = "buff",
         duration = 2,
         changeDamageTakenPercent = -50,
@@ -1759,7 +1766,6 @@ addon.spellsDB = {
         type = "heal",
         target = "all_allies",
         healPercent = 91,
-        firstTurn = 1,
     },
     [231] = { -- Intimidates a random enemy, causing them to take $s1% more damage for two turns.
         target = "pseudorandom_mawswornstrength",
@@ -1789,7 +1795,7 @@ addon.spellsDB = {
         changeDamageDealtPercent = 50,
     },
     [235] = { -- Targets enemies at range, calling down missles of pure maw anima, dealing $s1 Shadow damage.
-        target = "back_enemies",
+        target = "furthest_enemy",
         type = "attack",
         attackPercent = 50,
     },
@@ -1933,6 +1939,7 @@ addon.spellsDB = {
             attackPercent = 60,
             target = "closest_enemy",
             type = "attack",
+            continueIfCasterDies = true,
         },
         [2] = {
             type = "buff",
@@ -2135,6 +2142,7 @@ addon.spellsDB = {
             attackPercent = 25,
             type = "attack",
             target = "furthest_enemy",
+            continueIfCasterDies = true,
         },
         [2] = {
             duration = 3, -- deals its damage, applies the dot, and then deals the first dot tick straight away
@@ -2323,18 +2331,15 @@ addon.spellsDB = {
     },
     [300] = { -- Powerful death magic rolls across the Planes of Torment, causing a stacking damage over time effect to all of your party.
         type = "buff",
-        attackPercent = 5,
+        attackPercent = 2,
         target = "all_enemies",
-        duration = 4,
-        skipFirstApplication = true,
-        alternateTurnsApplication = true,
+        duration = 3,
         stackLimit = 4,
-        buffName = "Wave of Eternal Death",
+        buffName = "Wave of Eternal Death (300)",
     },
     [301] = { -- The Jailer sends a bombardment of missles across Calcis, dealing $s1% of their Health as Shadow damage to a random enemy every turn.
         type = "passive",
         target = "random_enemy",
-        type = "attack",
         damageTargetHPPercent = 10,
         buffName = "Bombardment of Dread",
     },
@@ -2357,6 +2362,7 @@ addon.spellsDB = {
         target = "back_enemies",
         type = "attack",
         attackPercent = 25,
+        affectedByTaunt = true,
     }, 
     [305] = { -- Roots strike all enemies at range, inflicting $s1 Nature damage.
         target = "back_enemies",
@@ -2439,6 +2445,7 @@ addon.spellsDB = {
         target = "cone",
         type = "attack",
         attackPercent = 180,
+        affectedByTaunt = true,
     },
     [313] = { -- Heals all allies for $s1 each round. 
         target = "all_allies",
@@ -2561,6 +2568,7 @@ addon.spellsDB = {
             target = "back_enemies",
             type = "attack",
             attackPercent = 40,
+            continueIfCasterDies = true,
         },
         [2] = {
             target = "back_enemies",
@@ -2572,7 +2580,7 @@ addon.spellsDB = {
         },
     },
     [324] = { -- Heals all adjacent allies for $s1.
-        target = "adjacent_allies",
+        target = "adjacent_allies_or_all_allies",
         type = "heal",
         healPercent = 120,
         skipIfFull = true,
@@ -2961,7 +2969,8 @@ addon.spellsDB = {
         target = "all_enemies",
         type = "buff",
         duration = 2,
-        changeDamageDealtPercent = -30,
+        changeDamageDealtPercent = -20,
         buffName = "Tangling Roots",
+        persistAfterDeath = true,
     },
 }

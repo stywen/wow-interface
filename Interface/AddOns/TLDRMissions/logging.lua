@@ -86,7 +86,6 @@ local COVENANT_MISSIONS_COMBAT_LOG_PERIODIC_DAMAGE = "%s's %s dealt %d %s to %s.
 local COVENANT_MISSIONS_COMBAT_LOG_PERIODIC_HEAL = "%s's %s healed %s for %d.";
 local COVENANT_MISSIONS_COMBAT_LOG_RANGE_DAMAGE = "%s shot %s for %d damage.";
 local COVENANT_MISSIONS_COMBAT_LOG_REMOVE_AURA = "%s removed %s from %s.";
-local COVENANT_MISSIONS_COMBAT_LOG_ROUND = "Round %d/%d:";
 local COVENANT_MISSIONS_COMBAT_LOG_SPELL_MELEE_DAMAGE = "%s cast %s at %s for %d %s damage.";
 local COVENANT_MISSIONS_COMBAT_LOG_SPELL_RANGE_DAMAGE = "%s cast %s at %s for %d %s damage.";
 

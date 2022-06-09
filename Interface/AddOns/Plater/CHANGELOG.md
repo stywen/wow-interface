@@ -1,11 +1,10 @@
 @cont1nuity:
-- Fix CVar store and restore for 'boolean' type CVars.
-- Hide Cast Target on interrupts.
-- Adding new option to invert swipe on Buff Special.
-- Adding Masque support to cast bar icons (experimental).
-- Fixing load times of Buff Special tab with larger spell lists.
-- Fixing CVar load behavior to ensure they are restored properly.
-- Adding some SotFO units to 'ForceInCombatUnits'.
-- Fixing an issue with spellID not being set properly on casts.
-- Fixing an issue 'Plater.SetNameplateScale' not working properly when Custom Strata Channels were disabled.
+- Retail toc update.
+- Casts which result in a channeled spell should now re-trigger scripts 'On Show' code when the chast is finished and channel starts.
+- Changing the way CVars are stored / restored to counter some restoring issues and adding '/plater cvars <cvar>' command for debug information.
+- Fixing an issue with plater resources (Combo Points) not showing the correct amount sometimes.
+- Adding 'Wago Imports' options tab to show companion app updates and imports.
+
+@Terciob:
+- Library updates.
 

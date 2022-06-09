@@ -41,10 +41,10 @@ local function getKey(follower1, follower2, follower3, follower4, follower5)
             key = key .. "--"
         end
         
-        info = addon:C_Garrison_GetFollowerInfo(follower)
+        local info = addon:C_Garrison_GetFollowerInfo(follower)
         key = key..info.garrFollowerID.."-"
         
-        local info = addon:C_Garrison_GetFollowerAutoCombatStats(follower)
+        info = addon:C_Garrison_GetFollowerAutoCombatStats(follower)
         key = key..info.attack.."-"
         key = key..info.currentHealth
     end

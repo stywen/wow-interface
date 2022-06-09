@@ -1,12 +1,13 @@
-tag b3276bea0a80ff27cb86ac314ec71c640017497f 3.14.5
+tag 68428ba743724e4af9340932652630765a40024f 3.15.3
 Author:	SLOKnightfall <SLOKnightfall@gmail.com>
-Date:	Thu Apr 21 13:44:31 2022 -0700
+Date:	Sun Jun 5 14:33:18 2022 -0700
 
-Bugfix
+-Bugfixes
 
-commit a6cb28bc440bd4b8d2bb88bc0f0e14ac7a411d27
+commit 04b9bc1b9c6312c4f599e865cbd8f4b76b412526
 Author: SLOKnightfall <SLOKnightfall@gmail.com>
-Date:   Thu Apr 21 13:44:04 2022 -0700
+Date:   Sun Jun 5 14:32:03 2022 -0700
 
-    Added delay to repositioning the second should transmog checkbox to fix a conflict if BlizzMove addon is installed
+    Fixed login error if there are substitutions  Issue #269
+    Fixed errors when trying to right click on an item.
 

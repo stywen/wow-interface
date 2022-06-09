@@ -1,7 +1,9 @@
 local addonName = ...
 local addon = _G[addonName]
+local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
 local LibStub = addon.LibStub
 local L = LibStub("AceLocale-3.0"):GetLocale("TLDRMissions")
+
 
 function addon:RefreshProfile()
     local defaults = {
@@ -15,7 +17,7 @@ function addon:RefreshProfile()
             hardestOrEasiest = "easy",
             fewestOrMost = "fewest",
             lowestOrHighest = "lowest",
-            moreOrLessTroops = "more",
+            minimumTroops = 4,
             followerXPSpecialTreatment = false,
             followerXPSpecialTreatmentMinimum = 4,
             followerXPSpecialTreatmentAlgorithm = 1,
@@ -112,11 +114,6 @@ function addon:RefreshProfile()
         if TLDRMissionsOptions.lowestOrHighest then
             addon.db.profile.lowestOrHighest = TLDRMissionsOptions.lowestOrHighest
             TLDRMissionsOptions.lowestOrHighest = nil
-        end
-        
-        if TLDRMissionsOptions.moreOrLessTroops then
-            addon.db.profile.moreOrLessTroops = TLDRMissionsOptions.moreOrLessTroops
-            TLDRMissionsOptions.moreOrLessTroops = nil
         end
         
         if TLDRMissionsOptions.followerXPSpecialTreatment then
@@ -237,17 +234,16 @@ function addon:RefreshProfile()
             addon.db.profile.AnimaCostLimit = TLDRMissionsOptions.AnimaCostLimit
             TLDRMissionsOptions.AnimaCostLimit = nil
         end
-   end
+    end
 
     local function setupAnimaCostDropDown(name)
-        local dropDown = addon.GUI[name.."AnimaCostDropDown"]
         if TLDRMissionsOptions and TLDRMissionsOptions.animaCosts and TLDRMissionsOptions.animaCosts[name] then
             addon.db.profile.animaCosts[name] = TLDRMissionsOptions.animaCosts[name]
         end
         local options = {"10-49", "50-99", "100+"}
 
-        UIDropDownMenu_Initialize(_G["TLDRMissions"..name.."AnimaCostDropDown"], function(self, level, menuList)
-            local info = UIDropDownMenu_CreateInfo()        
+        LibDD:UIDropDownMenu_Initialize(_G["TLDRMissions"..name.."AnimaCostDropDown"], function(self, level, menuList)
+            local info = LibDD:UIDropDownMenu_CreateInfo()        
             
             for _, option in ipairs(options) do
                 if TLDRMissionsOptions and TLDRMissionsOptions.animaCosts and TLDRMissionsOptions.animaCosts[name] and TLDRMissionsOptions.animaCosts[name][option] ~= nil then
@@ -262,7 +258,7 @@ function addon:RefreshProfile()
                 info.func = function()
                     addon.db.profile.animaCosts[name][option] = not addon.db.profile.animaCosts[name][option]
                 end
-                UIDropDownMenu_AddButton(info)
+                LibDD:UIDropDownMenu_AddButton(info)
             end
         end)
     end
@@ -284,8 +280,8 @@ function addon:RefreshProfile()
         TLDRMissionsOptions.animaCosts = nil
     end
 
-    UIDropDownMenu_Initialize(TLDRMissionsFollowerXPSpecialTreatmentDropDown, function(self, level, menuList)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsFollowerXPSpecialTreatmentDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
     
         for i = 1, 5 do
             info.text = MINIMUM.." "..i.." "..GARRISON_FOLLOWERS
@@ -294,12 +290,12 @@ function addon:RefreshProfile()
             info.func = function(self, arg1)
                 addon.db.profile.followerXPSpecialTreatmentMinimum = arg1
             end
-            UIDropDownMenu_AddButton(info)
+            LibDD:UIDropDownMenu_AddButton(info)
         end
     end)
     
-    UIDropDownMenu_Initialize(TLDRMissionsFollowerXPSpecialTreatmentAlgorithmDropDown, function(self, level, menuList)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsFollowerXPSpecialTreatmentAlgorithmDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
         
         info.text = L["FollowerXPAlgorithm1Label"]
         info.checked = addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1
@@ -307,19 +303,19 @@ function addon:RefreshProfile()
         info.func = function(self, arg1)
             addon.db.profile.followerXPSpecialTreatmentAlgorithm = arg1
         end
-        UIDropDownMenu_AddButton(info)
+        LibDD:UIDropDownMenu_AddButton(info)
         info.text = L["FollowerXPAlgorithm2Label"]
         info.checked = addon.db.profile.followerXPSpecialTreatmentAlgorithm == 2
         info.arg1 = 2
-        UIDropDownMenu_AddButton(info)
+        LibDD:UIDropDownMenu_AddButton(info)
         info.text = L["FollowerXPAlgorithm3Label"]
         info.checked = addon.db.profile.followerXPSpecialTreatmentAlgorithm == 3
         info.arg1 = 3
-        UIDropDownMenu_AddButton(info)
+        LibDD:UIDropDownMenu_AddButton(info)
     end)
 
-    UIDropDownMenu_Initialize(TLDRMissionsReputationDropDown, function(self, level, menuList)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsReputationDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
     
         for currencyID, _ in pairs(addon.reputationCurrencyIDs) do
             info.text = C_CurrencyInfo.GetCurrencyInfo(currencyID).name
@@ -328,12 +324,12 @@ function addon:RefreshProfile()
             info.keepShownOnClick = true
             info.arg1 = currencyID
             info.func = addon.GUI.ReputationDropDown.OnSelect
-            UIDropDownMenu_AddButton(info)
+            LibDD:UIDropDownMenu_AddButton(info)
         end
     end) 
     
-    UIDropDownMenu_Initialize(TLDRMissionsCraftingCacheDropDown, function(self, level, menuList)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsCraftingCacheDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
         
         if level == 1 then
             for categoryIndex, name in pairs(addon.craftingCacheCategories) do
@@ -342,7 +338,7 @@ function addon:RefreshProfile()
                 info.notCheckable = true
                 info.keepShownOnClick = true
                 info.menuList = categoryIndex
-                UIDropDownMenu_AddButton(info)
+                LibDD:UIDropDownMenu_AddButton(info)
             end
         elseif menuList then
             info.text = "|cFFFFFFFF"..ITEM_QUALITY1_DESC.."|r"
@@ -352,24 +348,24 @@ function addon:RefreshProfile()
             info.arg1 = menuList
             info.arg2 = 1
             info.func = addon.GUI.CraftingCacheDropDown.OnSelect
-            UIDropDownMenu_AddButton(info, level)
+            LibDD:UIDropDownMenu_AddButton(info, level)
             info.text = "|cFF00FF00"..ITEM_QUALITY2_DESC.."|r"
             info.checked = addon.db.profile.craftingCacheTypes[menuList][2]
             info.arg1 = menuList
             info.arg2 = 2
             info.func = addon.GUI.CraftingCacheDropDown.OnSelect
-            UIDropDownMenu_AddButton(info, level)
+            LibDD:UIDropDownMenu_AddButton(info, level)
             info.text = "|cFF0000FF"..ITEM_QUALITY3_DESC.."|r"
             info.checked = addon.db.profile.craftingCacheTypes[menuList][3]
             info.arg1 = menuList
             info.arg2 = 3
             info.func = addon.GUI.CraftingCacheDropDown.OnSelect
-            UIDropDownMenu_AddButton(info, level)
+            LibDD:UIDropDownMenu_AddButton(info, level)
         end
     end)
 
-    UIDropDownMenu_Initialize(TLDRMissionsAnimaDropDown, function(self, level, menuList)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsAnimaDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
         
         info.isNotRadio = true
         info.keepShownOnClick = true
@@ -378,21 +374,21 @@ function addon:RefreshProfile()
         info.text = "|cFF00FF00"..ITEM_QUALITY2_DESC.."|r"
         info.checked = addon.db.profile.animaItemQualities[2]
         info.arg1 = 2
-        UIDropDownMenu_AddButton(info, level)
+        LibDD:UIDropDownMenu_AddButton(info, level)
         
         info.text = "|cFF0000FF"..ITEM_QUALITY3_DESC.."|r"
         info.checked = addon.db.profile.animaItemQualities[3]
         info.arg1 = 3
-        UIDropDownMenu_AddButton(info, level)
+        LibDD:UIDropDownMenu_AddButton(info, level)
         
         info.text = "|cFFA020F0"..ITEM_QUALITY4_DESC.."|r"
         info.checked = addon.db.profile.animaItemQualities[4]
         info.arg1 = 4
-        UIDropDownMenu_AddButton(info, level)
+        LibDD:UIDropDownMenu_AddButton(info, level)
     end)
     
-    UIDropDownMenu_Initialize(TLDRMissionsRunecarverDropDown, function(self, level, menuList)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsRunecarverDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
         
         info.isNotRadio = true
         info.keepShownOnClick = true
@@ -401,7 +397,7 @@ function addon:RefreshProfile()
             info.text = C_CurrencyInfo.GetCurrencyInfo(currencyID).name
             info.checked = addon.db.profile.runecarver[currencyID]
             info.arg1 = currencyID
-            UIDropDownMenu_AddButton(info)
+            LibDD:UIDropDownMenu_AddButton(info)
         end
     end)
     
@@ -419,8 +415,8 @@ function addon:RefreshProfile()
         "100+",
     }
     
-    UIDropDownMenu_Initialize(TLDRMissionsGearDropDown, function(self, level, menuList)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsGearDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
         info.isNotRadio = true
         info.keepShownOnClick = true
         info.func = addon.GUI.GearDropDown.OnSelect
@@ -429,7 +425,7 @@ function addon:RefreshProfile()
             info.text = goldCategory.." "..BATTLE_PET_SOURCE_3.." "..BONUS_ROLL_REWARD_MONEY -- hope that doesn't get lost in translation :|
             info.checked = addon.db.profile.gearGoldCategories[goldCategory]
             info.arg1 = goldCategory
-            UIDropDownMenu_AddButton(info)
+            LibDD:UIDropDownMenu_AddButton(info)
         end
     end)
     
@@ -448,8 +444,8 @@ function addon:RefreshProfile()
     end
     
     local itemNameCache = {}
-    UIDropDownMenu_Initialize(TLDRMissionsSanctumFeatureDropDown, function(self, level, menuList)
-        local info = UIDropDownMenu_CreateInfo()
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsSanctumFeatureDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
         info.isNotRadio = true
         info.func = addon.GUI.SanctumFeatureDropDown.OnSelect
         info.keepShownOnClick = true
@@ -461,7 +457,7 @@ function addon:RefreshProfile()
                 info.arg1 = categoryName
                 info.menuList = categoryName
                 info.checked = isAnySanctumFeatureCategoryChecked(categoryName)
-                UIDropDownMenu_AddButton(info)
+                LibDD:UIDropDownMenu_AddButton(info)
             end
         elseif menuList then
             for itemID in pairs(addon.sanctumFeatureItems[menuList]) do
@@ -469,14 +465,14 @@ function addon:RefreshProfile()
                 info.text = itemName
                 info.checked = addon.db.profile.sanctumFeatureCategories[itemID]
                 info.arg1 = itemID
-                UIDropDownMenu_AddButton(info, level)
+                LibDD:UIDropDownMenu_AddButton(info, level)
             end
             
             for currencyID in pairs(addon.sanctumFeatureCurrencies[menuList]) do
                 info.text = C_CurrencyInfo.GetCurrencyInfo(currencyID).name or "Loading..."
                 info.checked = addon.db.profile.sanctumFeatureCategories[currencyID]
                 info.arg1 = currencyID
-                UIDropDownMenu_AddButton(info, level)
+                LibDD:UIDropDownMenu_AddButton(info, level)
             end
         end
     end)
@@ -516,6 +512,13 @@ function addon:RefreshProfile()
     options.args.profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(addon.db)
     LibStub("AceConfigDialog-3.0"):AddToBlizOptions(addonName, nil, nil, "profiles")
     
+    if addon.db.profile.moreOrLessTroops then
+        if addon.db.profile.moreOrLessTroops == "less" then
+            addon.db.profile.minimumTroops = 0
+            addon.db.profile.moreOrLessTroops = nil
+        end
+    end
+    
     addon:ProfileChanged()
 end
     
@@ -542,9 +545,7 @@ function addon:ProfileChanged()
     addon.GUI.LowestRadioButton:SetChecked(addon.db.profile.lowestOrHighest ~= "highest")
     addon.GUI.HighestRadioButton:SetChecked(addon.db.profile.lowestOrHighest == "highest")
     
-    addon.GUI.MoreTroopsRadioButton:SetChecked(addon.db.profile.moreOrLessTroops ~= "less")
-    addon.GUI.LessTroopsRadioButton:SetChecked(addon.db.profile.moreOrLessTroops == "less")
-    
+    addon.GUI.MinimumTroopsSlider:SetValue(addon.db.profile.minimumTroops)
     addon.GUI.LowerBoundLevelRestrictionSlider:SetValue(addon.db.profile.LevelRestriction)
     addon.GUI.AnimaCostLimitSlider:SetValue(addon.db.profile.AnimaCostLimit)
     addon.GUI.FollowerXPSpecialTreatmentCheckButton:SetChecked(addon.db.profile.followerXPSpecialTreatment)  

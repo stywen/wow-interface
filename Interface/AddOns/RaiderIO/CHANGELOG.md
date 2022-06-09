@@ -1,6 +1,6 @@
 # Raider.IO Mythic Plus, Raiding, and Recruitment
 
-## [v202205280600](https://github.com/RaiderIO/raiderio-addon/tree/v202205280600) (2022-05-28)
-[Full Changelog](https://github.com/RaiderIO/raiderio-addon/compare/v202205270600...v202205280600) [Previous Releases](https://github.com/RaiderIO/raiderio-addon/releases)
+## [v202206090600](https://github.com/RaiderIO/raiderio-addon/tree/v202206090600) (2022-06-09)
+[Full Changelog](https://github.com/RaiderIO/raiderio-addon/compare/v202206080600...v202206090600) [Previous Releases](https://github.com/RaiderIO/raiderio-addon/releases)
 
 - [Raider.IO] Database Refresh  

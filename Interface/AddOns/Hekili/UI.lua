@@ -1361,7 +1361,7 @@ do
                                 end
 
                                 if flashable then
-                                    LSF.FlashAction( aFlash, self.flashColor )
+                                    LSF.FlashAction( aFlash, self.flashColor, conf.flash.size, conf.flash.brightness, conf.flash.blink, nil, conf.flash.texture )
                                 elseif conf.flash.suppress and not self.flashWarnings[ aFlash ] then
                                     self.flashWarnings[ aFlash ] = true
                                     Hekili:Error( "|cffff0000WARNING|r - Could not flash recommended action '" .. aFlash .. "' (" .. self.id .. ")." )
@@ -2197,8 +2197,6 @@ do
 
 
     local LSM = LibStub("LibSharedMedia-3.0", true)
-    local LRC = LibStub("LibRangeCheck-2.0")
-    local LSR = LibStub("SpellRange-1.0")
 
     function Hekili:CreateButton( dispID, id )
         local d = dPool[ dispID ]
@@ -2418,7 +2416,7 @@ do
             local tarAnchor = conf.targets.anchor or "BOTTOM"
             b.Targets:ClearAllPoints()
             b.Targets:SetPoint( tarAnchor, b, tarAnchor, conf.targets.x or 0, conf.targets.y or 0 )
-            b.Targets:SetHeight( b:GetWidth(), b:GetHeight() / 2 )
+            b.Targets:SetHeight( b:GetHeight() / 2 )
             b.Targets:SetJustifyH( tarAnchor:match("RIGHT") and "RIGHT" or ( tarAnchor:match( "LEFT" ) and "LEFT" or "CENTER" ) )
             b.Targets:SetJustifyV( tarAnchor:match("TOP") and "TOP" or ( tarAnchor:match( "BOTTOM" ) and "BOTTOM" or "MIDDLE" ) )
             b.Targets:SetTextColor( unpack( conf.targets.color ) )
@@ -2458,7 +2456,7 @@ do
             local delayAnchor = conf.delays.anchor or "TOPLEFT"
             b.DelayText:ClearAllPoints()
             b.DelayText:SetPoint( delayAnchor, b, delayAnchor, conf.delays.x, conf.delays.y or 0 )
-            b.DelayText:SetSize( b:GetWidth(), b:GetHeight() / 2 )
+            b.DelayText:SetHeight( b:GetHeight() / 2 )
 
             b.DelayText:SetJustifyH( delayAnchor:match( "RIGHT" ) and "RIGHT" or ( delayAnchor:match( "LEFT" ) and "LEFT" or "CENTER") )
             b.DelayText:SetJustifyV( delayAnchor:match( "TOP" ) and "TOP" or ( delayAnchor:match( "BOTTOM" ) and "BOTTOM" or "MIDDLE") )

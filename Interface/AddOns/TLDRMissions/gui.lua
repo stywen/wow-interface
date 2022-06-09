@@ -1,5 +1,6 @@
 local addonName = ...
 local addon = _G[addonName]
+local LibDD = LibStub:GetLibrary("LibUIDropDownMenu-4.0")
 local LibStub = addon.LibStub
 local L = LibStub("AceLocale-3.0"):GetLocale("TLDRMissions")
 
@@ -29,14 +30,14 @@ gui:SetScript("OnDragStop", function(self)
   end)
 
 gui.CloseButton = CreateFrame("Button", "TLDRMissionsFrameCloseButton", gui, "UIPanelCloseButton")
-gui.CloseButton:SetPoint("TOPRIGHT", -6, -6)
+gui.CloseButton:SetPoint("TOPRIGHT", -6, -4)
 gui.CloseButton:SetScript("OnClick", function()
     gui:SetShown(false)
 end) 
 
-gui.TitleBarTexture = gui:CreateTexture("TLDRMissionsTitleBar", "BORDER")
-gui.TitleBarTexture:SetPoint("TOPLEFT", gui, "TOPLEFT", 13, 4)
-gui.TitleBarTexture:SetPoint("TOPRIGHT", gui, "TOPRIGHT", -13, 4)
+gui.TitleBarTexture = gui:CreateTexture("TLDRMissionsTitleBar", "BORDER", nil, -1)
+gui.TitleBarTexture:SetPoint("TOPLEFT", gui, "TOPLEFT", 10, 7)
+gui.TitleBarTexture:SetPoint("TOPRIGHT", gui, "TOPRIGHT", -10, 7)
 gui.TitleBarTexture:SetHeight(40)
 gui.TitleBarTexture:SetTexture("Interface\\AuctionFrame\\UI-AuctionFrame-Browse-Top")
 gui.TitleBarTexture:SetTexCoord(0, 1, 0, 0.14)
@@ -50,7 +51,7 @@ gui.TitleBarLabel:SetText(addonName.." "..GetAddOnMetadata(addonName, "Version")
 --
 
 gui.MainTabButton = CreateFrame("Button", "TLDRMissionsFrameTab1", gui, "CharacterFrameTabButtonTemplate")
-gui.MainTabButton:SetPoint("TOPLEFT", gui, "BOTTOMLEFT")
+gui.MainTabButton:SetPoint("TOPLEFT", gui, "BOTTOMLEFT", 0, 5)
 gui.MainTabButton:SetText(GARRISON_MISSIONS)
 gui.MainTabButton:SetScript("OnClick", function()
     PanelTemplates_SetTab(gui, 1)
@@ -79,10 +80,10 @@ local function setupButton(categoryName, setPointTo, text, acSetPointTo)
     gui[plname]:SetPoint("TOPLEFT", gui[name], -15, -10)
 
     local acname = categoryName.."AnimaCostDropDown"
-    gui[acname] = CreateFrame("FRAME", "TLDRMissions"..categoryName.."AnimaCostDropDown", gui.MainTabPanel, "UIDropDownMenuTemplate")
+    gui[acname] = LibDD:Create_UIDropDownMenu("TLDRMissions"..categoryName.."AnimaCostDropDown", gui.MainTabPanel)
     gui[acname]:SetPoint("TOPRIGHT", acSetPointTo, 0, -22)
-    UIDropDownMenu_SetWidth(gui[acname], 10)
-    UIDropDownMenu_SetText(gui[acname], "")
+    LibDD:UIDropDownMenu_SetWidth(gui[acname], 10)
+    LibDD:UIDropDownMenu_SetText(gui[acname], "")
 end
 
 setupButton("Gold", gui.TitleBarTexture, BONUS_ROLL_REWARD_MONEY, gui.TitleBarTexture)
@@ -91,50 +92,50 @@ gui.GoldAnimaCostDropDown:SetPoint("TOPRIGHT", gui.TitleBarTexture, "BOTTOMRIGHT
 
 setupButton("Anima", gui.GoldCheckButton, POWER_TYPE_ANIMA, gui.GoldAnimaCostDropDown)
 
-gui.AnimaDropDown = CreateFrame("FRAME", "TLDRMissionsAnimaDropDown", gui.MainTabPanel, "UIDropDownMenuTemplate")
+gui.AnimaDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsAnimaDropDown", gui.MainTabPanel)
 gui.AnimaDropDown:SetPoint("TOPRIGHT", gui.AnimaAnimaCostDropDown, "TOPLEFT", 20, 0)
-UIDropDownMenu_SetWidth(gui.AnimaDropDown, 10)
-UIDropDownMenu_SetText(gui.AnimaDropDown, "")
+LibDD:UIDropDownMenu_SetWidth(gui.AnimaDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.AnimaDropDown, "")
 
 setupButton("FollowerXPItems", gui.AnimaCheckButton, L["FollowerXPItems"], gui.AnimaAnimaCostDropDown)
 setupButton("PetCharms", gui.FollowerXPItemsCheckButton, L["PetCharms"], gui.FollowerXPItemsAnimaCostDropDown)
 setupButton("AugmentRunes", gui.PetCharmsCheckButton, L["AugmentRunes"], gui.PetCharmsAnimaCostDropDown)
 setupButton("Reputation", gui.AugmentRunesCheckButton, L["ReputationTokens"], gui.AugmentRunesAnimaCostDropDown)
 
-gui.ReputationDropDown = CreateFrame("FRAME", "TLDRMissionsReputationDropDown", gui.MainTabPanel, "UIDropDownMenuTemplate")
+gui.ReputationDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsReputationDropDown", gui.MainTabPanel)
 gui.ReputationDropDown:SetPoint("TOPRIGHT", gui.ReputationAnimaCostDropDown, "TOPLEFT", 20, 0)
-UIDropDownMenu_SetWidth(gui.ReputationDropDown, 10)
-UIDropDownMenu_SetText(gui.ReputationDropDown, "")
+LibDD:UIDropDownMenu_SetWidth(gui.ReputationDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.ReputationDropDown, "")
 
 setupButton("FollowerXP", gui.ReputationCheckButton, L["BonusFollowerXP"], gui.ReputationAnimaCostDropDown)
 setupButton("CraftingCache", gui.FollowerXPCheckButton, L["CraftingMaterials"], gui.FollowerXPAnimaCostDropDown)
 
-gui.CraftingCacheDropDown = CreateFrame("FRAME", "TLDRMissionsCraftingCacheDropDown", gui.MainTabPanel, "UIDropDownMenuTemplate")
+gui.CraftingCacheDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsCraftingCacheDropDown", gui.MainTabPanel)
 gui.CraftingCacheDropDown:SetPoint("TOPRIGHT", gui.CraftingCacheAnimaCostDropDown, "TOPLEFT", 20, 0)
-UIDropDownMenu_SetWidth(gui.CraftingCacheDropDown, 10)
-UIDropDownMenu_SetText(gui.CraftingCacheDropDown, "")
+LibDD:UIDropDownMenu_SetWidth(gui.CraftingCacheDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.CraftingCacheDropDown, "")
 
 setupButton("Runecarver", gui.CraftingCacheCheckButton, L["RunecarverRewards"], gui.CraftingCacheAnimaCostDropDown)
 
-gui.RunecarverDropDown = CreateFrame("FRAME", "TLDRMissionsRunecarverDropDown", gui.MainTabPanel, "UIDropDownMenuTemplate")
+gui.RunecarverDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsRunecarverDropDown", gui.MainTabPanel)
 gui.RunecarverDropDown:SetPoint("TOPRIGHT", gui.RunecarverAnimaCostDropDown, "TOPLEFT", 20, 0)
-UIDropDownMenu_SetWidth(gui.RunecarverDropDown, 10)
-UIDropDownMenu_SetText(gui.RunecarverDropDown, "")
+LibDD:UIDropDownMenu_SetWidth(gui.RunecarverDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.RunecarverDropDown, "")
 
 setupButton("Campaign", gui.RunecarverCheckButton, L["CampaignProgress"], gui.RunecarverAnimaCostDropDown)
 setupButton("Gear", gui.CampaignCheckButton, WORLD_QUEST_REWARD_FILTERS_EQUIPMENT, gui.CampaignAnimaCostDropDown)
 
-gui.GearDropDown = CreateFrame("Frame", "TLDRMissionsGearDropDown", gui.MainTabPanel, "UIDropDownMenuTemplate")
+gui.GearDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsGearDropDown", gui.MainTabPanel)
 gui.GearDropDown:SetPoint("TOPRIGHT", gui.GearAnimaCostDropDown, "TOPLEFT", 20, 0)
-UIDropDownMenu_SetWidth(gui.GearDropDown, 10)
-UIDropDownMenu_SetText(gui.GearDropDown, "")
+LibDD:UIDropDownMenu_SetWidth(gui.GearDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.GearDropDown, "")
 
 setupButton("SanctumFeature", gui.GearCheckButton, COVENANT_PREVIEW_SANCTUM_FEATURE, gui.GearAnimaCostDropDown)
 
-gui.SanctumFeatureDropDown = CreateFrame("Frame", "TLDRMissionsSanctumFeatureDropDown", gui.MainTabPanel, "UIDropDownMenuTemplate")
+gui.SanctumFeatureDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsSanctumFeatureDropDown", gui.MainTabPanel)
 gui.SanctumFeatureDropDown:SetPoint("TOPRIGHT", gui.SanctumFeatureAnimaCostDropDown, "TOPLEFT", 20, 0)
-UIDropDownMenu_SetWidth(gui.SanctumFeatureDropDown, 10)
-UIDropDownMenu_SetText(gui.SanctumFeatureDropDown, "")
+LibDD:UIDropDownMenu_SetWidth(gui.SanctumFeatureDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.SanctumFeatureDropDown, "")
 
 gui.SacrificeCheckButton = CreateFrame("CheckButton", "TLDRMissionsFrameSacrificeCheckButton", gui.MainTabPanel, "UICheckButtonTemplate")
 gui.SacrificeCheckButton:SetPoint("TOPLEFT", gui.SanctumFeatureCheckButton, 0, -22)
@@ -322,32 +323,30 @@ gui.HighestRadioButton:HookScript("OnClick", function()
     gui.LowestRadioButton:SetChecked(false)
 end)
 
-gui.MoreOrLessTroopsLabel = gui.AdvancedTabPanel:CreateFontString("TLDRMissionsMoreOrLessTroopsLabel", "OVERLAY", "GameFontNormal")
-gui.MoreOrLessTroopsLabel:SetPoint("TOPLEFT", gui.LowestRadioButton, 0, -20)
-gui.MoreOrLessTroopsLabel:SetText(L["LessOrMore"])
+gui.MinimumTroopsLabel = gui.AdvancedTabPanel:CreateFontString("TLDRMissionsMinimumTroopsLabel", "OVERLAY", "GameFontNormal")
+gui.MinimumTroopsLabel:SetPoint("TOPLEFT", gui.LowestRadioButton, -20, -20)
+gui.MinimumTroopsLabel:SetText(L["MinimumTroops"])
+gui.MinimumTroopsLabel:SetWordWrap(true)
+gui.MinimumTroopsLabel:SetWidth(300)
 
-gui.MoreTroopsRadioButton = CreateFrame("CheckButton", "TLDRMissionsMoreTroopsRadioButton", gui.AdvancedTabPanel, "UIRadioButtonTemplate")
-gui.MoreTroopsRadioButton:SetPoint("TOPLEFT", gui.MoreOrLessTroopsLabel, 0, -20)
-TLDRMissionsMoreTroopsRadioButtonText:SetText(L["MoreTroops"])
-gui.MoreTroopsRadioButton:SetChecked(true)
-
-gui.LessTroopsRadioButton = CreateFrame("CheckButton", "TLDRMissionsLessTroopsRadioButton", gui.AdvancedTabPanel, "UIRadioButtonTemplate")
-gui.LessTroopsRadioButton:SetPoint("TOPLEFT", gui.MoreTroopsRadioButton, 0, -20)
-TLDRMissionsLessTroopsRadioButtonText:SetText(L["LessTroops"])
-gui.LessTroopsRadioButton:SetChecked(false)
-
-gui.MoreTroopsRadioButton:HookScript("OnClick", function()
-    addon.db.profile.moreOrLessTroops = "more"
-    gui.LessTroopsRadioButton:SetChecked(false)
-end)
-
-gui.LessTroopsRadioButton:HookScript("OnClick", function()
-    addon.db.profile.moreOrLessTroops = "less"
-    gui.MoreTroopsRadioButton:SetChecked(false)
-end)
+gui.MinimumTroopsSlider = CreateFrame("Slider", "TLDRMissionsFrameMinimumTroopsSlider", gui.AdvancedTabPanel, "OptionsSliderTemplate")
+gui.MinimumTroopsSlider:SetPoint("TOPLEFT", gui.MinimumTroopsLabel, 20, -10)
+gui.MinimumTroopsSlider:SetSize(280, 20)
+TLDRMissionsFrameMinimumTroopsSliderLow:SetText("0")
+TLDRMissionsFrameMinimumTroopsSliderHigh:SetText("4")
+TLDRMissionsFrameMinimumTroopsSliderText:SetText("4")
+TLDRMissionsFrameMinimumTroopsSliderText:ClearAllPoints()
+TLDRMissionsFrameMinimumTroopsSliderText:SetPoint("TOP", TLDRMissionsFrameMinimumTroopsSlider, "BOTTOM", 0, 3)
+TLDRMissionsFrameMinimumTroopsSliderText:SetFontObject("GameFontHighlightSmall")
+TLDRMissionsFrameMinimumTroopsSliderText:SetTextColor(0, 1, 0)
+gui.MinimumTroopsSlider:SetOrientation('HORIZONTAL')
+gui.MinimumTroopsSlider:SetValueStep(1)
+gui.MinimumTroopsSlider:SetObeyStepOnDrag(true)
+gui.MinimumTroopsSlider:SetMinMaxValues(0, 4)
+gui.MinimumTroopsSlider:SetValue(4)
 
 gui.FollowerXPSpecialTreatmentCheckButton = CreateFrame("CheckButton", "TLDRMissionsFrameFollowerXPSpecialTreatmentCheckButton", gui.AdvancedTabPanel, "UICheckButtonTemplate")
-gui.FollowerXPSpecialTreatmentCheckButton:SetPoint("TOPLEFT", gui.LessTroopsRadioButton, -20, -20)
+gui.FollowerXPSpecialTreatmentCheckButton:SetPoint("TOPLEFT", gui.MinimumTroopsSlider, -20, -30)
 TLDRMissionsFrameFollowerXPSpecialTreatmentCheckButtonText:SetText(L["FollowerXPSpecialTreatment"])
 
 gui.FollowerXPSpecialTreatmentCheckButton:SetScript("OnEnter", function()
@@ -363,15 +362,15 @@ gui.FollowerXPSpecialTreatmentCheckButton:HookScript("OnClick", function()
     addon.db.profile.followerXPSpecialTreatment = gui.FollowerXPSpecialTreatmentCheckButton:GetChecked()
 end)
 
-gui.FollowerXPSpecialTreatmentDropDown = CreateFrame("Frame", "TLDRMissionsFollowerXPSpecialTreatmentDropDown", gui.AdvancedTabPanel, "UIDropDownMenuTemplate")
+gui.FollowerXPSpecialTreatmentDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsFollowerXPSpecialTreatmentDropDown", gui.AdvancedTabPanel)
 gui.FollowerXPSpecialTreatmentDropDown:SetPoint("TOPLEFT", TLDRMissionsFrameFollowerXPSpecialTreatmentCheckButtonText, "TOPRIGHT", -10, 8)
-UIDropDownMenu_SetWidth(gui.FollowerXPSpecialTreatmentDropDown, 10)
-UIDropDownMenu_SetText(gui.FollowerXPSpecialTreatmentDropDown, "")
+LibDD:UIDropDownMenu_SetWidth(gui.FollowerXPSpecialTreatmentDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.FollowerXPSpecialTreatmentDropDown, "")
 
-gui.FollowerXPSpecialTreatmentAlgorithmDropDown = CreateFrame("Frame", "TLDRMissionsFollowerXPSpecialTreatmentAlgorithmDropDown", gui.AdvancedTabPanel, "UIDropDownMenuTemplate")
+gui.FollowerXPSpecialTreatmentAlgorithmDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsFollowerXPSpecialTreatmentAlgorithmDropDown", gui.AdvancedTabPanel)
 gui.FollowerXPSpecialTreatmentAlgorithmDropDown:SetPoint("TOPLEFT", gui.FollowerXPSpecialTreatmentDropDown, "TOPRIGHT", -30, 0)
-UIDropDownMenu_SetWidth(gui.FollowerXPSpecialTreatmentAlgorithmDropDown, 10)
-UIDropDownMenu_SetText(gui.FollowerXPSpecialTreatmentAlgorithmDropDown, "")
+LibDD:UIDropDownMenu_SetWidth(gui.FollowerXPSpecialTreatmentAlgorithmDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.FollowerXPSpecialTreatmentAlgorithmDropDown, "")
 
 gui.LowerBoundLevelRestrictionLabel = gui.AdvancedTabPanel:CreateFontString("TLDRMissionsLowerBoundLevelRestrictionLabel", "OVERLAY", "GameFontNormal")
 gui.LowerBoundLevelRestrictionLabel:SetPoint("TOPLEFT", gui.FollowerXPSpecialTreatmentCheckButton, 0, -30)
@@ -536,10 +535,7 @@ gui.ProfileTabButton = CreateFrame("Button", "TLDRMissionsFrameTab3", gui, "Char
 gui.ProfileTabButton:SetPoint("TOPLEFT", gui.AdvancedTabButton, "TOPRIGHT", 0, 0)
 gui.ProfileTabButton:SetText(L["Profiles"])
 gui.ProfileTabButton:SetScript("OnClick", function()
-    InterfaceOptionsFrame_OpenToCategory(addonName)
-    C_Timer.After(0.2, function()
-        InterfaceOptionsFrame_OpenToCategory(addonName)
-    end)
+    LibStub("AceConfigDialog-3.0"):Open("TLDRMissions")
 end)
 
 --

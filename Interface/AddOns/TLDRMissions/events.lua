@@ -25,13 +25,23 @@ local function adventureMapOpenHandler(followerTypeID)
     addon.GUI:SetShown(addon.db.profile.autoShowUI)
 end
 
+local itemInfoCache = {}
+function addon:GetItemInfo(itemID)
+    if itemInfoCache[itemID] then
+        return unpack(itemInfoCache[itemID])
+    end
+    return GetItemInfo(itemID)
+end
 local function preloadItemRewards()
     local missions = C_Garrison.GetAvailableMissions(123)
     if not missions then return end
     for _, mission in pairs(missions) do
         for _, reward in pairs(mission.rewards) do
             if reward.itemID then
-                GetItemInfo(reward.itemID)
+                local item = Item:CreateFromItemID(reward.itemID)
+                item:ContinueOnItemLoad(function()
+                	itemInfoCache[reward.itemID] = {GetItemInfo(reward.itemID)}
+                end)
             end
         end
     end

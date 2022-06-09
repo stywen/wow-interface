@@ -47,6 +47,7 @@ frame:HookScript("OnUpdate", function(self, elapsed)
                 elseif (table.getn(batches[2]) > 0) then
                     if (table.getn(batches[2][1]) > 0) then
                         local currentWork = table.remove(batches[2][1], 1)
+                        
                         currentWork.func(unpack(currentWork.args))
                         notifyWorkStepComplete()
                     else
@@ -78,7 +79,7 @@ frame:HookScript("OnUpdate", function(self, elapsed)
                 end
             until (not addon.dontWait)
         
-        workPerFrame = workPerFrame - 1
+            workPerFrame = workPerFrame - 1
         until workPerFrame < 1
 	end
     alreadyWorking = false

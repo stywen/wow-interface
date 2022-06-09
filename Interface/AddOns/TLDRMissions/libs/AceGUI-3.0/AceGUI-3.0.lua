@@ -54,7 +54,7 @@ AceGUI.LayoutRegistry = AceGUI.LayoutRegistry or {}
 AceGUI.WidgetBase = AceGUI.WidgetBase or {}
 AceGUI.WidgetContainerBase = AceGUI.WidgetContainerBase or {}
 AceGUI.WidgetVersions = AceGUI.WidgetVersions or {}
-AceGUI.tooltip = AceGUI.tooltip or CreateFrame("GameTooltip", "AceGUITooltip", UIParent, "GameTooltipTemplate")
+AceGUI.tooltip = AceGUI.tooltip or CreateFrame("GameTooltip", nil, UIParent, "GameTooltipTemplate")
 
 -- local upvalues
 local WidgetRegistry = AceGUI.WidgetRegistry

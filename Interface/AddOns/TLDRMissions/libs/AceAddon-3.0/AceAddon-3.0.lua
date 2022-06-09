@@ -38,7 +38,7 @@ local AceAddon, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not AceAddon then return end -- No Upgrade needed.
 
-AceAddon.frame = AceAddon.frame or CreateFrame("Frame", "AceAddon30Frame") -- Our very own frame
+AceAddon.frame = AceAddon.frame or CreateFrame("Frame") -- Our very own frame
 AceAddon.addons = AceAddon.addons or {} -- addons in general
 AceAddon.statuses = AceAddon.statuses or {} -- statuses of addon.
 AceAddon.initializequeue = AceAddon.initializequeue or {} -- addons that are new and not initialized

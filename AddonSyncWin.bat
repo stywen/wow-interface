@@ -1,5 +1,5 @@
 @echo off
-xcopy /y /s  C:\"Program Files (x86)"\"World of Warcraft"\_retail_\Interface C:\Users\user00\Documents\GitHub\wow-interface\Interface
+xcopy /y /s  C:\"Program Files (x86)"\"World of Warcraft"\_retail_\Interface C:\Users\stywen\Documents\GitHub\wow-interface\Interface
 echo type "c" to continue and commit.
 cd "C:\Users\user00\Documents\GitHub\wow-interface"
 

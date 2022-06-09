@@ -67,8 +67,10 @@ end
 function addon:getCleaveEnemies(follower, field, taunter)
     local priorityOrder = {
         -- options 8+12 cleaved both
-        [0] = {{5, 6}, {6}, {7, 9, 10, 11}, {9, 10, 11}, {10, 11}, {11}, {8, 12}, {12}},
-        [1] = {{6, 7}, {7}, {8, 10, 11, 12}, {10, 11, 12}, {11, 12}, {12}, {5}, {9}},
+        -- options 7+8+10+11, taunted by 11, targetted 7+11
+        [0] = {{5, 6}, {6}, {7, 9, 10, 11}, {9, 10, 11}, {10, 11}, {11, 7}, {8, 12}, {12}},
+        -- Lost Sybille options 5+9 cleaved both
+        [1] = {{6, 7}, {7}, {8, 10, 11, 12}, {10, 11, 12}, {11, 12}, {12}, {5, 9}, {9}},
         -- options 7+11 cleaved them both
         -- options 8+11+12 targetted only 11
         [2] = {{5, 6}, {6}, {9, 10}, {10}, {7, 11}, {11}, {8, 12}, {12}},
@@ -85,9 +87,11 @@ function addon:getCleaveEnemies(follower, field, taunter)
         [8] = {{4}, {1, 3}, {3}, {0, 2}, {2}},
         -- "Attack Wave" hit only 2 but not 3
         -- "Attack Wave" hit 4 and 1 with nothing else on the board
-        [9] = {{2}, {3}, {4, 1}, {0, 1}, {1}},
+        -- "Attack Wave" options 0+1+4 targetted only 0
+        [9] = {{2}, {3}, {0}, {4, 1}, {1}},
         -- from 10, Shiftless Smash only hit 2, did not hit 3
-        [10] = {{2}, {3}, {4}, {0, 1}, {1}},
+        -- Shiftless Smash options 0+1 only hit 0
+        [10] = {{2}, {3}, {4}, {0}, {1}},
         -- from 11, hit 2+3
         [11] = {{2, 3}, {3}, {4}, {0, 1}, {1}},
         -- attack wave, options 0+1+2, targetted all 3
@@ -106,7 +110,7 @@ function addon:getCleaveEnemies(follower, field, taunter)
     end
     if taunter then
         local function getTauntPriorityPair()
-            for _, set in pairs(priorityOrder[follower.boardIndex]) do
+            for _, set in ipairs(priorityOrder[follower.boardIndex]) do
                 if set[1] == taunter.boardIndex then
                     return set
                 end
@@ -264,7 +268,8 @@ function addon:getConeEnemies(follower, field, taunter)
     local priorityOrder = {
         -- other options were (7, 9, 11, 12) but hit just 10
         -- options 8+11+12, targetted only 11
-        -- secutor mevix options 9+11+12, targetted only 9 
+        -- secutor mevix options 9+11+12, targetted only 9
+        -- options 5+6+7+8+10+11, taunted by 11, targetted 6+10+11 
         [0] = {{5, 9, 10}, {6, 9, 10, 11}, {10}, {7, 10, 11, 12}, {9}, {11}, {8, 12}, {12}},
         -- Pamoptic beam 5 8 10 11 only hit 11
         -- options 5+8+10, targetted 8
@@ -278,7 +283,8 @@ function addon:getConeEnemies(follower, field, taunter)
         -- options 9+10+11+12 targetted 10
         -- options 9+11+12 targetted 9
         [3] = {{6, 9, 10, 11}, {7, 10, 11, 12}, {5, 9, 10}, {10}, {9}, {11}, {8, 12}, {12}},
-        [4] = {{7, 10, 11, 12}, {8, 11, 12}, {6, 9, 10, 11}, {5, 9, 10}, {11}, {12}, {10}, {9}},
+        -- Secutor Mevix, options 9+10+12, targetted 10
+        [4] = {{7, 10, 11, 12}, {8, 11, 12}, {6, 9, 10, 11}, {5, 9, 10}, {11}, {10}, {12}, {9}},
         [5] = {{0, 2}, {2}, {3, 1}, {1}, {4}},
         -- 0+1+4 but targetted only 0
         [6] = {{2, 0}, {3, 0, 1}, {0}, {4, 1}, {1}},
@@ -294,17 +300,36 @@ function addon:getConeEnemies(follower, field, taunter)
     }
   
     local targets = {}
-    for _, set in pairs(priorityOrder[follower.boardIndex]) do
-        for _, minion in pairs(field) do
-            if (minion.HP > 0) and (not minion.shroud) and (minion.boardIndex == set[1]) then
-                for _, i in ipairs(set) do
-                    for _, minion2 in pairs(field) do
-                        if (minion2.boardIndex == i) and (minion2.HP > 0) and (not minion2.shroud) then
-                            table.insert(targets, minion2)
-                        end
+    if taunter then
+        local function getTauntPriorityPair()
+            for _, set in ipairs(priorityOrder[follower.boardIndex]) do
+                for _, v in pairs(set) do
+                    if v == taunter.boardIndex then
+                        return set
                     end
                 end
-                return targets
+            end
+        end 
+        for _, v in pairs(getTauntPriorityPair()) do
+            for _, minion in pairs(field) do
+                if (minion.HP > 0) and (not minion.shroud) and (minion.boardIndex == v) then
+                    table.insert(targets, minion)
+                end
+            end
+        end
+    else
+        for _, set in pairs(priorityOrder[follower.boardIndex]) do
+            for _, minion in pairs(field) do
+                if (minion.HP > 0) and (not minion.shroud) and (minion.boardIndex == set[1]) then
+                    for _, i in ipairs(set) do
+                        for _, minion2 in pairs(field) do
+                            if (minion2.boardIndex == i) and (minion2.HP > 0) and (not minion2.shroud) then
+                                table.insert(targets, minion2)
+                            end
+                        end
+                    end
+                    return targets
+                end
             end
         end
     end
@@ -342,6 +367,48 @@ function addon:getAdjacentAllies(follower, field)
     -- probably needs an expanded priority list, investigate with more logs
     if table.getn(targets) == 0 then
         return addon:getAllAllies(follower, field)
+    end
+    
+    return targets
+end
+
+function addon:getAdjacentAlliesOrAllAllies(follower, field)
+    local priorityOrder = {
+        [0] = {2, 3, 1},
+        [1] = {0, 3, 4},
+        [2] = {0, 3},
+        [3] = {2, 0, 1, 4},
+        [4] = {3, 1},
+        [5] = {6, 9, 10},
+        [6] = {5, 7, 9, 10, 11},
+        [7] = {6, 8, 10, 11, 12},
+        [8] = {7, 11, 12},
+        [9] = {5, 6, 10},
+        [10] = {5, 6, 7, 9, 11},
+        [11] = {6, 7, 8, 10, 12},
+        [12] = {7, 8, 11},
+    }
+    
+    local targets = {}
+    
+    for _, minion in pairs(field) do
+        for _, i in pairs(priorityOrder[follower.boardIndex]) do
+            if (minion.boardIndex == i) and (minion.HP > 0) then
+                table.insert(targets, minion)
+            end
+        end
+    end
+    
+    -- inconsistent targetting problem:
+    -- log 1 - madame iza is in slot 4, only other follower is in slot 0. the heal targets both 0 and 4
+    -- log 2 - madame iza is in slot 0, only other follower is in slot 4. the heal only targets 0
+    
+    if table.getn(targets) == 0 then
+        if follower.boardIndex == 0 then
+            return {follower}
+        else
+            return addon:getAllAllies(follower, field)
+        end
     end
     
     return targets
@@ -390,6 +457,10 @@ end
 
 function addon:getBackEnemies(follower, field, taunter)
     local targets = {}
+    
+    if taunter then
+        return {taunter}
+    end
     
     for _, minion in pairs(field) do
         if minion.HP > 0 then
@@ -514,7 +585,8 @@ function addon:getNearbyAllyOrSelf(follower, field)
         [8] = {7, 11, 12, 6, 8},
         [9] = {5, 10, 6, 9},
         -- "CHARGE!" options 7+8+10+11+12 targetted 11
-        [10] = {9, 5, 6, 11, 7, 10},
+        -- "CHARGE!" options 5+6+7+10 targetted 6
+        [10] = {9, 6, 5, 11, 7, 10},
         [11] = {10, 6, 7, 8, 12, 11},
         [12] = {11, 7, 8, 12},
     }
@@ -563,6 +635,9 @@ function addon:getPseudorandomMawswornStrength(follower, field)
         -- observed in 2278 (Deranged Gouge)
         {alive = {1, 3, 4}, target = 3},
         {alive = {1, 4}, target = 4},
+        
+        -- observed in 2242 (Mental Assault)
+        {alive = {2, 3}, target = 3},
     }
     
     local aliveMinions = {}
@@ -663,6 +738,7 @@ function addon:getPseudorandomRitualFervor(follower, field)
         {alive = {5, 8, 9, 10, 11}, target = 8},
         {alive = {5, 6, 7, 8, 10, 11}, target = 6},
         {alive = {7, 8}, target = 8},
+        {alive = {5, 8, 11}, target = 8},
         
         -- observed in 2281
         -- see https://github.com/teelolws/TLDRMissions/issues/98
@@ -675,6 +751,7 @@ function addon:getPseudorandomRitualFervor(follower, field)
         {alive = {5, 8, 10, 11}, target = 11},
         {alive = {10, 11}, target = 11},
         {alive = {8, 10, 11}, target = 10},
+        {alive = {5, 10, 11}, target = 10},
         
         -- observed in 2282 [Anima Leech]
         -- see https://github.com/teelolws/TLDRMissions/issues/87
@@ -700,7 +777,10 @@ function addon:getPseudorandomRitualFervor(follower, field)
         {alive = {6, 8, 10, 11, 12}, target = 8},
         {alive = {8, 9, 10}, target = 9},
         {alive = {5, 6, 8, 9, 10, 11}, target = 6},
-        {alive = {5, 8, 9, 10}, target = 10},  
+        {alive = {5, 8, 9, 10}, target = 10},
+        
+        -- observed in 2258 [Environment Effect]
+        {alive = {5, 6, 7, 8, 9, 10}, target = 6},  
     }
     
     local aliveMinions = {} -- counting "shroud" as dead for this
@@ -781,6 +861,32 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 1, 3, 4, 8, 10}, target = 1},
         {alive = {0, 1, 5, 10}, target = 10},
         {alive = {0, 1, 2, 3, 4, 7}, target = 1},
+        {alive = {0, 1, 3, 4, 6, 7}, target = 1},
+        {alive = {0, 1, 2, 7, 10}, target = 1},
+        {alive = {0, 1, 3, 4, 7, 8, 10}, target = 10},
+        {alive = {0, 1, 7, 8, 10}, target = 1},
+        {alive = {0, 2, 3, 5, 6, 7, 8, 10}, target = 10},
+        {alive = {0, 2, 3, 6, 7, 10}, target = 2},
+        {alive = {0, 7, 10}, target = 7},
+        {alive = {0, 3, 4, 8, 10}, target = 3},
+        {alive = {0, 1, 2, 3, 4, 6, 7}, target = 7},
+        {alive = {0, 1, 3, 4, 6, 7, 10}, target = 10},
+        {alive = {0, 1, 2, 8, 10}, target = 1},
+        {alive = {0, 8}, target = 8},
+        {alive = {0, 1, 4, 6, 7, 10}, target = 1},
+        {alive = {0, 4, 6, 7, 10}, target = 4},
+        {alive = {0, 6, 7}, target = 6},
+        {alive = {0, 2, 6, 7, 10}, target = 2},
+        {alive = {0, 1, 3, 4, 5, 6, 7, 8, 10}, target = 5},
+        {alive = {0, 1, 2, 3, 4, 7, 8, 10}, target = 10},
+        {alive = {0, 1, 3, 7, 8}, target = 1},
+        {alive = {0, 3, 6, 7, 10}, target = 3},
+        {alive = {0, 2, 3, 7, 8, 10}, target = 2},
+        {alive = {0, 7, 8}, target = 7},
+        {alive = {0, 2, 3, 4, 6, 7, 10}, target = 10},
+        {alive = {0, 3, 4, 7}, target = 7},
+        {alive = {0, 7}, target = 7},
+        {alive = {0, 1, 4, 8, 10}, target = 1},
 
         -- observed in 2224 (Panic Attack)
         -- see https://github.com/TLDRMissions/TLDRMissions/issues/120
@@ -803,7 +909,32 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 1, 3, 11, 12}, target = 1},
         {alive = {0, 1, 3, 7, 11, 12}, target = 1},
         {alive = {0, 3, 7, 11, 12}, target = 3},
-        
+        {alive = {0, 1, 4, 6, 7, 11}, target = 1},
+        {alive = {0, 1, 7}, target = 1},
+        {alive = {0, 1, 4, 7, 11, 12}, target = 1},
+        {alive = {0, 1, 2, 3, 4, 6, 7, 9, 10, 11}, target = 1},
+        {alive = {1, 11, 12}, target = 11},
+        {alive = {0, 2, 3, 7, 10, 11}, target = 2},
+        {alive = {0, 1, 11, 12}, target = 12},
+        {alive = {1, 2, 3, 4, 6, 7, 9, 10, 11, 12}, target = 2},
+        {alive = {1, 4, 6, 7, 11, 12}, target = 4},
+        {alive = {1, 6, 7, 11, 12}, target = 6},
+        {alive = {0, 1, 2, 3, 7, 11}, target = 1},
+        {alive = {0, 2, 3, 4, 6, 7, 9, 10, 11, 12}, target = 2},
+        {alive = {0, 7, 11, 12}, target = 12},
+        {alive = {0, 1, 3, 7, 10, 11}, target = 1},
+        {alive = {0, 3, 7, 10, 11}, target = 3},
+        {alive = {0, 1, 12}, target = 1},
+        {alive = {0, 1, 2, 7, 11, 12}, target = 1},
+        {alive = {0, 2, 7, 11, 12}, target = 2},
+        {alive = {0, 2, 3, 9, 10, 11}, target = 2},
+        {alive = {0, 3, 9, 10, 11}, target = 3},
+        {alive = {0, 10, 11}, target = 10},
+        {alive = {0, 1, 2, 3, 4, 11, 12}, target = 12},
+        {alive = {0, 2, 3, 11, 12}, target = 2},
+        {alive = {0, 1, 2, 4, 6, 7, 11}, target = 11},
+        {alive = {0, 1, 4, 9, 10, 11}, target = 1},
+        {alive = {0, 4, 9, 10, 11}, target = 4},
     }
     
     local aliveMinions = {}

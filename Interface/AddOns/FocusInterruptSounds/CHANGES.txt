@@ -1,10 +1,10 @@
-lightweight tag 4a3daf238811e7af2b1489241d4848ba847f0449 r135
+lightweight tag 3f07174db73ef8c30b038ae1251e6e961341c7e8 r136
 Author:	corgatag <13686151+corgatag@users.noreply.github.com>
-Date:	Tue May 17 11:06:12 2022 -0700
+Date:	Wed Jun 1 23:21:50 2022 -0700
 
-commit 4a3daf238811e7af2b1489241d4848ba847f0449
+commit 3f07174db73ef8c30b038ae1251e6e961341c7e8
 Author: corgatag <13686151+corgatag@users.noreply.github.com>
-Date:   Tue May 17 11:06:12 2022 -0700
+Date:   Wed Jun 1 23:21:50 2022 -0700
 
-    Add purge spells for streets
+    Update .toc
 

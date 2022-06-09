@@ -12,6 +12,7 @@ local pairs = pairs
 local GetCursorInfo, GetSpellInfo, ClearCursor = GetCursorInfo, GetSpellInfo, ClearCursor
 local CreateFrame, UIParent = CreateFrame, UIParent
 local _G = _G
+local AceGUIMultiLineEditBoxInsertLink
 
 -- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
 -- List them here for Mikk's FindGlobals script
@@ -23,10 +24,10 @@ Support functions
 
 if not AceGUIMultiLineEditBoxInsertLink then
 	-- upgradeable hook
-	hooksecurefunc("ChatEdit_InsertLink", function(...) return _G.AceGUIMultiLineEditBoxInsertLink(...) end)
+	hooksecurefunc("ChatEdit_InsertLink", function(...) return AceGUIMultiLineEditBoxInsertLink(...) end)
 end
 
-function _G.AceGUIMultiLineEditBoxInsertLink(text)
+function AceGUIMultiLineEditBoxInsertLink(text)
 	for i = 1, AceGUI:GetWidgetCount(Type) do
 		local editbox = _G[("MultiLineEditBox%uEdit"):format(i)]
 		if editbox and editbox:IsVisible() and editbox:HasFocus() then
