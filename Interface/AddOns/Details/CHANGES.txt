@@ -1,10 +1,10 @@
-tag ca98fe4f4618957ab3db87e0081768c89238125d DetailsRetail.9.2.5.9823.146
+tag ac314744089c122a3c852fe6209b7b6ae646dc91 DetailsRetail.9.2.5.9824.146
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Wed Jun 8 14:34:37 2022 -0300
+Date:	Thu Jun 9 10:04:25 2022 -0300
 
-commit d08140c849f25451c882ae8fc9b3a4f9f7490e89
+commit 419999fb097ed9c700515e934483a5ad29eb4c3c
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Wed Jun 8 14:34:11 2022 -0300
+Date:   Thu Jun 9 09:59:35 2022 -0300
 
-    Fixed an issue with LibOpenRaid
+    Check if the left text has a valid text string before sending it to Truncate
 

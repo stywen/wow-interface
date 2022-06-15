@@ -225,8 +225,9 @@ function addon:getLineEnemies(follower, field, taunter)
         -- options 7+10+11, targetted 10
         -- Forest's Touch; options 8+11, targetted 11
         [2] = {{5, 9}, {6, 10}, {9}, {10}, {7, 11}, {11}, {8, 12}, {12}},
-        -- options 8+10+11 targetted only 10  
-        [3] = {{6, 10}, {5, 9}, {7, 11}, {10}, {8, 12}, {9}, {11}, {12}},
+        -- options 8+10+11 targetted only 10
+        -- options 8+11 targetted only 11  
+        [3] = {{6, 10}, {5, 9}, {7, 11}, {10}, {11}, {8, 12}, {9}, {12}},
         [4] = {{7, 11}, {8, 12}, {6, 10}, {5, 9}, {11}, {12}, {10}, {9}},
         [5] = {{2, 0}, {3, 1}, {4}, {0}, {1}},
         [6] = {{2, 0}, {3, 1}, {4}, {0}, {1}},
@@ -627,6 +628,8 @@ function addon:getPseudorandomMawswornStrength(follower, field)
         {alive = {0, 1, 2}, target = 1},
         {alive = {0, 3, 4}, target = 3},
         {alive = {1, 2, 3}, target = 2},
+        {alive = {2, 4}, target = 4},
+        {alive = {1, 3}, target = 3},
         
         -- observed in 2185 [Goading Motivation]
         -- see https://github.com/TLDRMissions/TLDRMissions/issues/142
@@ -638,6 +641,9 @@ function addon:getPseudorandomMawswornStrength(follower, field)
         
         -- observed in 2242 (Mental Assault)
         {alive = {2, 3}, target = 3},
+        
+        -- observed in 2254 (Mawsworn Strength)
+        {alive = {2, 3, 4}, target = 3},
     }
     
     local aliveMinions = {}
@@ -716,6 +722,7 @@ function addon:getPseudorandomRitualFervor(follower, field)
         {alive = {7, 10}, target = 10},
         {alive = {7, 9}, target = 9},
         {alive = {6, 7, 9, 10}, target = 10},
+        {alive = {7, 9, 10}, target = 9},
         
         -- observed in 2226
         -- see https://github.com/teelolws/TLDRMissions/issues/127
@@ -778,9 +785,14 @@ function addon:getPseudorandomRitualFervor(follower, field)
         {alive = {8, 9, 10}, target = 9},
         {alive = {5, 6, 8, 9, 10, 11}, target = 6},
         {alive = {5, 8, 9, 10}, target = 10},
+        {alive = {5, 8, 10, 11, 12}, target = 8},
         
         -- observed in 2258 [Environment Effect]
-        {alive = {5, 6, 7, 8, 9, 10}, target = 6},  
+        {alive = {5, 6, 7, 8, 9, 10}, target = 6},
+        
+        -- observed in 2299 [Power of Anguish] unconfirmed if actually follows this pattern
+        {alive = {6, 7, 9, 12}, target = 12},
+        {alive = {7, 12}, target = 12},  
     }
     
     local aliveMinions = {} -- counting "shroud" as dead for this
@@ -887,6 +899,16 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 3, 4, 7}, target = 7},
         {alive = {0, 7}, target = 7},
         {alive = {0, 1, 4, 8, 10}, target = 1},
+        {alive = {0, 2, 4, 7, 10}, target = 2},
+        {alive = {0, 2, 8, 10}, target = 10},
+        {alive = {3, 4, 5, 6, 7, 8, 10}, target = 10},
+        {alive = {3, 4, 5, 8, 10}, target = 4},
+        {alive = {3, 8, 10}, target = 8},
+        {alive = {0, 1, 6, 7, 10}, target = 1},
+        {alive = {0, 6, 7, 10}, target = 10},
+        {alive = {0, 3, 4, 6, 7, 10}, target = 3},
+        {alive = {0, 4, 6}, target = 4},
+        {alive = {0, 1, 4, 7}, target = 7},
 
         -- observed in 2224 (Panic Attack)
         -- see https://github.com/TLDRMissions/TLDRMissions/issues/120
@@ -935,6 +957,9 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 1, 2, 4, 6, 7, 11}, target = 11},
         {alive = {0, 1, 4, 9, 10, 11}, target = 1},
         {alive = {0, 4, 9, 10, 11}, target = 4},
+        {alive = {1, 12}, target = 12},
+        {alive = {0, 1, 4, 10, 11, 12}, target = 1},
+        {alive = {0, 1, 3, 4, 10, 11, 12}, target = 12},
     }
     
     local aliveMinions = {}

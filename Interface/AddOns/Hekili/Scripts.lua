@@ -528,6 +528,7 @@ do
         ["^time_to_hpg$"] = true,
         ["time_to_max$"] = true,
         ["remains_expected$"] = true,
+        ["expiration_delay_remains$"] = true,
         -- ["time_to_%d+$"] = true,
         -- ["deficit$"] = true,
     }
@@ -1322,7 +1323,7 @@ local function ConvertScript( node, hasModifiers, header )
                         rEle.zzz = orig ]]
 
                         if type( rc ) ~= "function" then
-                            Hekili:Error( "Variable recheck function for " .. clean .. " ( " .. ( rs or "nil" ) .. ") was unsuccessful somehow." )
+                            Hekili:Error( "Variable recheck function for " .. o .. " ( " .. ( rs or "nil" ) .. ") was unsuccessful somehow." )
                             rc = nil
                         end
 

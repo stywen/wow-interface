@@ -135,7 +135,8 @@ addon.spellsDB = {
         healPercent = 25,
         buffName = "Spirits of Rejuvenation",
         stackLimit = 1,
-        firstTurn = 1,
+        persistAfterDeath = true,
+        skipIfFull = true,
     },
     [22] = { -- Ayeleth drains the anima from all adjacent enemies, dealing $s1 Shadow damage and an additional $s2 damage each round.
         [1] = {
@@ -313,7 +314,6 @@ addon.spellsDB = {
             target = "closest_enemy",
             type = "attack",
             attackPercent = 90,
-            stopIfTwoTargetsDied = true,
         },
         [2] = {
             target = "furthest_enemy",
@@ -710,7 +710,7 @@ addon.spellsDB = {
             target = "nearby_ally_or_self",
             type = "buff",
             duration = 1,
-            changeDamageDealtPercent = -10.001,
+            changeDamageDealtPercent = -10, -- Did Blizzard fix the rounding error or is something else going on here? See https://github.com/TLDRMissions/TLDRMissions/issues/373 previously the buff was preventing 1 extra damage.
             buffName = "Podtender",
             persistAfterDeath = true,
         },
@@ -871,6 +871,7 @@ addon.spellsDB = {
             type = "attack",
             target = "pseudorandom_mawswornstrength",
             attackPercent = 60,
+            continueIfCasterDies = true,
         },
         [2] = {
             type = "buff",
@@ -1387,6 +1388,7 @@ addon.spellsDB = {
             type = "attack",
             attackPercent = 50,
             target = "all_enemies",
+            ignoreThorns = true,
         },
     },
     [188] = { -- Big Shiny lashes out at the closest enemy, dealing $s1 damage, and reducing the targets damage by $s2% for one turn.
@@ -1751,7 +1753,7 @@ addon.spellsDB = {
     [228] = { -- After ten turns a wave of absolute destruction flows through the The Tremaculum, dealing $s1 damage to your party.
         type = "attack",
         attackPercent = 6200,
-        firstTurn = 10,
+        firstTurn = 9,
         doOnce = true,
         target = "all_enemies",
     },
@@ -1776,7 +1778,7 @@ addon.spellsDB = {
         persistAfterDeath = true,
     },
     [232] = { -- Focuses a feeling of dread upon a random enemy, reducing their damage done by $s1% for three turns.
-        target = "random_enemy",
+        target = "pseudorandom_mawswornstrength",
         type = "buff",
         duration = 3,
         changeDamageDealtPercent = -50,
@@ -1789,10 +1791,11 @@ addon.spellsDB = {
     },
     [234] = { -- Inspires their allies through fear, causing them to do $s1% more damage for two turns.
         buffName = "Power of Anguish",
-        target = "all_allies",
+        target = "pseudorandom_ritualfervor",
         type = "buff",
         duration = 2,
         changeDamageDealtPercent = 50,
+        persistAfterDeath = true,
     },
     [235] = { -- Targets enemies at range, calling down missles of pure maw anima, dealing $s1 Shadow damage.
         target = "furthest_enemy",
@@ -1854,6 +1857,7 @@ addon.spellsDB = {
             duration = 2,
             changeDamageTakenPercent = 75,
             buffName = "Dark Healing",
+            persistAfterDeath = true,
         },
     },
     [243] = { -- Stares into the Abyss, taunting all enemies and reducing their damage taken by $s2% for two turns.
@@ -2339,7 +2343,7 @@ addon.spellsDB = {
     },
     [301] = { -- The Jailer sends a bombardment of missles across Calcis, dealing $s1% of their Health as Shadow damage to a random enemy every turn.
         type = "passive",
-        target = "random_enemy",
+        target = "pseudorandom_mawswornstrength",
         damageTargetHPPercent = 10,
         buffName = "Bombardment of Dread",
     },
@@ -2348,6 +2352,7 @@ addon.spellsDB = {
             type = "attack",
             attackPercent = 20,
             target = "all_enemies",
+            continueIfCasterDies = true,
         },
         [2] = {
             type = "buff",

@@ -52,6 +52,18 @@ function addon:updateRewards()
     gui.GearCheckButton.ExclusionLabel:Hide()
     gui.SanctumFeatureCheckButton.ExclusionLabel:Hide()
     
+    gui.GoldCheckButton:SetChecked(false)
+    gui.AnimaCheckButton:SetChecked(false)
+    gui.FollowerXPItemsCheckButton:SetChecked(false)
+    gui.PetCharmsCheckButton:SetChecked(false)
+    gui.AugmentRunesCheckButton:SetChecked(false)
+    gui.ReputationCheckButton:SetChecked(false)
+    gui.FollowerXPCheckButton:SetChecked(false)
+    gui.CraftingCacheCheckButton:SetChecked(false)
+    gui.RunecarverCheckButton:SetChecked(false)
+    gui.CampaignCheckButton:SetChecked(false)
+    gui.GearCheckButton:SetChecked(false)
+    gui.SanctumFeatureCheckButton:SetChecked(false)
     
     local wasSomethingChecked = false
     for i = 1, 12 do
@@ -518,7 +530,11 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
                 if ( (animaCost < 50) and addon.db.profile.animaCosts[acCategory]["10-49"] ) or ( (animaCost < 100) and addon.db.profile.animaCosts[acCategory]["50-99"] ) or addon.db.profile.animaCosts[acCategory]["100+"] then
                     local _, _, _, _, duration = C_Garrison.GetMissionTimes(mission.missionID)
                     duration = duration/3600
-                    if (duration >= addon.db.profile.durationLower) and (duration <= addon.db.profile.durationHigher) then
+                    
+                    -- support 1 minute missions under a minimum of 1 hour setting
+                    local d = addon.db.profile.durationLower
+                    if d <= 1 then d = 0 end
+                    if (duration >= d) and (duration <= addon.db.profile.durationHigher) then
                         table.insert(missions, mission)
                     end
                 end

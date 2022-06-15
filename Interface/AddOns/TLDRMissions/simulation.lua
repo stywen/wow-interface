@@ -34,7 +34,10 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         pseudoRandomFollowerDeathsCounter = pseudoRandomFollowerDeathsCounter + expectedFollowers
     end
     
+    local wasResulted
     local function boardStateDefeat()
+        if wasResulted then return wasResulted end
+        
         local anyEnemyAlive = false
         local anyAllyAlive = false
         
@@ -49,9 +52,11 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         end
         
         if not anyAllyAlive then
+            wasResulted = "enemy team"
             return "enemy team"
         end
         if not anyEnemyAlive then
+            wasResulted = "your team"
             return "your team"
         end
     end
@@ -140,7 +145,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         elseif targetType == "pseudorandom_lashout" then
             targets = addon:getPseudorandomLashOut(follower, field)
         elseif targetType == "random_enemy" then
-            if not rngTargets then print("Error: random_enemy detected, but rng not set") return targets end
+            if not rngTargets then if TLDRMissionsDebugging then print("Error: random_enemy detected, but rng not set") end return targets end
             for _, minion in pairs(field) do
                 if (follower.boardIndex < 5) and (minion.boardIndex == rngTargets["followers_random_enemy"]) and (minion.HP > 0) then
                     table.insert(targets, minion)
@@ -149,7 +154,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 end
             end
         elseif targetType == "random_ally" then
-            if not rngTargets then print("Error: random_ally detected, but rng not set") return targets end
+            if not rngTargets then if TLDRMissionsDebugging then print("Error: random_ally detected, but rng not set") end return targets end
             for _, minion in pairs(field) do
                 if (follower.boardIndex < 5) and (minion.boardIndex == rngTargets["followers_random_ally"]) then
                     table.insert(targets, minion)
@@ -196,9 +201,12 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             print("Error: target type not found: "..targetType)
         end
         
-        --if table.getn(targets) == 0 then
-        --    print("Error: no targets were found for "..targetType.." by follower "..follower.followerID)
-        --end
+        local function sort_func(a, b)
+            return a.boardIndex < b.boardIndex
+        end
+        
+        table.sort(targets, sort_func)
+        
         return targets
     end
 
@@ -213,11 +221,11 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 end
                 table.insert(existingBuff.durations, effect.duration)
                 existingBuff.stacks = existingBuff.stacks + 1
-                print(effect.buffName.. " gained an additional stack on "..target.name)
+                if TLDRMissionsDebugging then print(effect.buffName.. " gained an additional stack on "..target.name) end
                 return
             else
                 existingBuff.duration = effect.duration
-                print(effect.buffName.." was refreshed on "..target.name)
+                if TLDRMissionsDebugging then print(effect.buffName.." was refreshed on "..target.name) end
                 return
             end
         else
@@ -335,7 +343,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             buff.source = source
             buff.healPercent = effect.healPercent
         else
-            print("Error: buff effect not found for "..buff.name)
+            if TLDRMissionsDebugging then print("Error: buff effect not found for "..buff.name) end
         end
         
         if existingBuff then
@@ -346,7 +354,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             end
         end
         
-        print(source.name.."["..source.boardIndex.."]".." applies "..effect.buffName.." to "..target.name.."["..target.boardIndex.."]")
+        if TLDRMissionsDebugging then print(source.name.."["..source.boardIndex.."]".." applies "..effect.buffName.." to "..target.name.."["..target.boardIndex.."]") end
     end
     
     local function calculateDamage(attacker, defender, attackPercent, targetHPPercent)
@@ -368,6 +376,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             taken = {
                 ["Shield of Tomorrow (Main)"] = true,
                 ["Shield of Tomorrow (Alt)"] = true,
+                --["Resilient Plumage"] = true, -- do not uncomment without a full investigation. See: https://github.com/TLDRMissions/TLDRMissions/issues/370
             },
         }
         local roundingErrorsDealt = 0
@@ -459,10 +468,12 @@ local function doSimulation(field, environmentEffect, missionID, callback)
     local unregisterBuff
     local checkDeath
     
+    local thornsKillingBlow = false
+    
     local function processBuff(follower, buff)
         --if follower.HP < 1 then return end
         
-        if boardStateDefeat() then return end
+        if (not thornsKillingBlow) and boardStateDefeat() then return end
         
         local target = buff.target
         
@@ -470,7 +481,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             if buff.damageTargetHPPercent then
                 local damage = calculateDamage(buff.source, target, 0, buff.damageTargetHPPercent)
                 target.HP = target.HP - damage
-                print(buff.name.." deals "..damage.." to "..target.name.." ["..target.boardIndex.."]")
+                if TLDRMissionsDebugging then print(buff.name.." deals "..damage.." to "..target.name.." ["..target.boardIndex.."]") end
                 checkDeath(target)
                     
             elseif buff.healTargetHPPercent then
@@ -479,7 +490,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 if target.HP > target.maxHP then
                     target.HP = target.maxHP
                 end
-                print(buff.name.." heals "..target.name.." for "..healing)
+                if TLDRMissionsDebugging then print(buff.name.." heals "..target.name.." for "..healing) end
                     
             elseif buff.healPercent then
                 local healing = math.floor((follower.baseAttack * buff.healPercent)/100)
@@ -487,7 +498,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 if target.HP > target.maxHP then
                     target.HP = target.maxHP
                 end
-                print(buff.name.." heals "..target.name.." for "..healing)
+                if TLDRMissionsDebugging then print(buff.name.." heals "..target.name.." for "..healing) end
                     
             elseif buff.attackPercent then
                 local stackNum = 0
@@ -497,14 +508,14 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 while (stackNum < buff.stacks) and (target.HP > 0) do
                     local damage = calculateDamage(buff.source, target, buff.attackPercent)
                     target.HP = target.HP - damage
-                    print(buff.name.." deals "..damage.." to "..target.name.." ["..target.boardIndex.."]")
+                    if TLDRMissionsDebugging then print(buff.name.." deals "..damage.." to "..target.name.." ["..target.boardIndex.."]") end
                     checkDeath(target)
                     stackNum = stackNum + 1
                 end
             elseif buff.alternateTurns then
                 buff.activeThisTurn = not buff.activeThisTurn
             else
-                print("Error: buff effect not found for "..buff.name)
+                if TLDRMissionsDebugging then print("Error: buff effect not found for "..buff.name) end
             end
         end
     end
@@ -521,7 +532,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             end
         end
         if (not buff.target.isDead) then
-            print(buff.name.." faded from "..buff.target.name.." ["..buff.target.boardIndex.."]")
+            if TLDRMissionsDebugging then print(buff.name.." faded from "..buff.target.name.." ["..buff.target.boardIndex.."]") end
         end
     end
     
@@ -536,11 +547,13 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             if target.unregisterPassive then
                 target.unregisterPassive()
             end
-            print(target.name.." died.")
+            if TLDRMissionsDebugging then print(target.name.." died.") end
         end
     end
     
     local function checkThorns(source, target)
+        local wasDefeat = boardStateDefeat()
+        
         if source.boardIndex > 12 then return end -- no thorns against the environment effect
         for _, thorns in pairs(target.thorns) do                                    
             local originBoardIndex = thorns.source
@@ -566,7 +579,12 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             if source.HP > source.maxHP then
                 source.HP = source.maxHP
             end
-            print(origin.name.."["..origin.boardIndex.."]["..origin.HP.."] thorns deals "..damage.." damage to "..source.name.."["..source.boardIndex.."]["..source.HP.."HP]")
+            if TLDRMissionsDebugging then print(origin.name.."["..origin.boardIndex.."]["..origin.HP.."] thorns deals "..damage.." damage to "..source.name.."["..source.boardIndex.."]["..source.HP.."HP]") end
+        end
+        
+        if (not wasDefeat) and boardStateDefeat() then
+            -- unusual case: if thorns gets the killing blow, the combatlog doesn't completely register the match is over and finishes out the round, letting buffs finish and their onRemove functions tick
+            thornsKillingBlow = true
         end
     end
     
@@ -596,7 +614,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     end
                     
                     target.HP = target.HP - damage
-                    print(follower.name.."["..follower.boardIndex.."]["..follower.HP.."HP] attacks "..target.name.."["..target.boardIndex.."]["..target.HP.."HP] for "..damage)
+                    if TLDRMissionsDebugging then print(follower.name.."["..follower.boardIndex.."]["..follower.HP.."HP] attacks "..target.name.."["..target.boardIndex.."]["..target.HP.."HP] for "..damage) end
                     
                     if not effect.ignoreThorns then
                         checkThorns(follower, target)
@@ -630,17 +648,34 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             end
             
             for _, target in ipairs(targets) do
-                if effect.healTargetHPPercent then
-                    healing = math.floor((target.maxHP * effect.healTargetHPPercent)/100)
+                if target.HP > 0 then
+                    if effect.healTargetHPPercent then
+                        healing = math.floor((target.maxHP * effect.healTargetHPPercent)/100)
+                    end
+                    
+                    target.HP = target.HP + healing
+                    if target.HP > target.maxHP then
+                        target.HP = target.maxHP
+                    end
+                    if TLDRMissionsDebugging then print(follower.name.."["..follower.boardIndex.."]["..follower.HP.."HP] heals "..target.name.."["..target.boardIndex.."]["..target.HP.."HP] for "..healing) end
                 end
-                
-                target.HP = target.HP + healing
-                if target.HP > target.maxHP then
-                    target.HP = target.maxHP
-                end
-                print(follower.name.."["..follower.boardIndex.."]["..follower.HP.."HP] heals "..target.name.."["..target.boardIndex.."]["..target.HP.."HP] for "..healing)
             end                                                                                                                                                           
         elseif effect.type == "buff" then
+            if effect.skipIfFull then
+                local hasValidTarget = false
+                for _, target in ipairs(targets) do
+                    if target.HP < target.maxHP then
+                        hasValidTarget = true
+                        break
+                    end
+                end
+                
+                if not hasValidTarget then
+                    spell.onCooldown = 0
+                    return true
+                end
+            end
+            
             for _, target in ipairs(targets) do
                 if target.HP > 0 then
                     registerBuff(follower, target, effect)
@@ -651,7 +686,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         return true
     end
     
-    local function processSpells(follower, spells, rngTargets, didAutoAttackTargetDie)
+    local function processSpells(follower, spells, rngTargets)
         local targets = {}
         for i in ipairs(spells.effects) do
             targets[i] = getTargets(follower, spells.effects[i].target, rngTargets, (spells.effects[i].affectedByTaunt and follower.hasTaunt and follower.hasTaunt.source) or nil)
@@ -668,10 +703,6 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 end
                 if spells.effects[i].stopIfTargetDies then
                     if targets[i][1] and (targets[i][1].HP <= 0) then
-                        break
-                    end
-                elseif spells.effects[i].stopIfTwoTargetsDied then
-                    if didAutoAttackTargetDie and targets[i][1] and (targets[i][1].HP <= 0) then
                         break
                     end
                 end
@@ -702,7 +733,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                                     if buff.stacks and buff.stacks > 1 then
                                         buff.stacks = buff.stacks - 1
                                         local targetName = environmentEffect.name
-                                        print(buff.name.." lost a stack on "..buff.target.name.."["..buff.target.boardIndex.."]")
+                                        if TLDRMissionsDebugging then print(buff.name.." lost a stack on "..buff.target.name.."["..buff.target.boardIndex.."]") end
                                     end
                                     break
                                 end
@@ -714,7 +745,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                             buff.duration = table.remove(buff.durations, 1)
                             buff.stacks = buff.stacks - 1
                             local targetName = environmentEffect.name
-                            print(buff.name.." lost a stack on "..buff.target.name.."["..buff.target.boardIndex.."]")
+                            if TLDRMissionsDebugging then print(buff.name.." lost a stack on "..buff.target.name.."["..buff.target.boardIndex.."]") end
                         else
                             unregisterBuff(environmentEffectFollower, buff)
                         end
@@ -724,7 +755,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         end
 
         -- if the target is "random enemy" then take the worst case scenario: the lowest health minion
-        local target = {}
+        local target
         if environmentEffect.effects.target == "random_enemy" then
             local lowestHealth = 99999
             local lowestHealthID
@@ -736,7 +767,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     end
                 end
             end
-            target = lowestHealthID
+            target = {lowestHealthID}
         else
             target = getTargets(environmentEffectFollower, environmentEffect.effects.target, rngTargets)
         end
@@ -748,10 +779,12 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         environmentEffect.onCooldown = environmentEffect.cooldown or 0
         
         if environmentEffect.effects.damageTargetHPPercent then
-            local damage = math.floor((target.maxHP * environmentEffect.effects.damageTargetHPPercent)/100)
-            target.HP = target.HP - damage
-            print(environmentEffect.name.."[Environment Effect] deals damage to "..target.name.."["..target.boardIndex.."] for "..damage.." ["..target.HP.."HP]")
-            checkDeath(target)
+            for _, t in pairs(target) do
+                local damage = calculateDamage(environmentEffectFollower, t, 0, environmentEffect.effects.damageTargetHPPercent)
+                t.HP = t.HP - damage
+                if TLDRMissionsDebugging then print(environmentEffect.name.." [Environment Effect] deals "..damage.." to "..t.name.." ["..t.boardIndex.."]["..t.HP.."]") end
+                checkDeath(t)
+            end
         elseif environmentEffect.effects.type == "buff" then
             for _, t in pairs(target) do
                 registerBuff(environmentEffectFollower, t, environmentEffect.effects)
@@ -763,7 +796,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 if minion.HP > minion.maxHP then
                     minion.HP = minion.maxHP
                 end
-                print(environmentEffect.name.." heals "..minion.name.." for "..healing)
+                if TLDRMissionsDebugging then print(environmentEffect.name.." heals "..minion.name.." for "..healing) end
             end
         elseif environmentEffect.effects.attackPercent then
             if environmentEffect.effects.doOnce then
@@ -777,7 +810,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 local damage = calculateDamage(environmentEffectFollower, minion, environmentEffect.effects.attackPercent)
                 
                 minion.HP = minion.HP - damage
-                print(environmentEffect.name.." attacks "..minion.name.."["..minion.boardIndex.."]["..minion.HP.."HP] for "..damage)
+                if TLDRMissionsDebugging then print(environmentEffect.name.." attacks "..minion.name.."["..minion.boardIndex.."]["..minion.HP.."HP] for "..damage) end
 
                 checkDeath(minion)
             end
@@ -787,13 +820,15 @@ local function doSimulation(field, environmentEffect, missionID, callback)
     end
     
     local function nextTurn(rngTargets)
-        print(" ")
-        print("Turn: "..currentTurn)
-        print(" ")
+        if TLDRMissionsDebugging then 
+            print(" ")
+            print("Turn: "..currentTurn)
+            print(" ")
+        end
         
         currentTurn = currentTurn + 1
         
-        if rngTargets then
+        if rngTargets and TLDRMissionsDebugging then
             print(rngTargets)
         end
                
@@ -842,7 +877,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                                             table.remove(buff.durations, i)
                                             if buff.stacks and buff.stacks > 1 then
                                                 buff.stacks = buff.stacks - 1
-                                                print(buff.name.." lost a stack on "..environmentEffectFollower.name)
+                                                if TLDRMissionsDebugging then print(buff.name.." lost a stack on "..environmentEffectFollower.name) end
                                             end
                                             break
                                         end
@@ -853,7 +888,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                                 if buff.stacks and buff.stacks > 1 then
                                     buff.duration = table.remove(buff.durations, 1)
                                     buff.stacks = buff.stacks - 1
-                                    print(buff.name.." lost a stack on "..minion.name)
+                                    if TLDRMissionsDebugging then print(buff.name.." lost a stack on "..minion.name) end
                                 else
                                     unregisterBuff(minion, buff)
                                 end
@@ -886,7 +921,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                                 table.remove(buff.durations, i)
                                 if buff.stacks and buff.stacks > 1 then
                                     buff.stacks = buff.stacks - 1
-                                    print(buff.name.." lost a stack on "..environmentEffectFollower.name)
+                                    if TLDRMissionsDebugging then print(buff.name.." lost a stack on "..environmentEffectFollower.name) end
                                 end
                                 break
                             end
@@ -897,7 +932,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     if buff.stacks and buff.stacks > 1 then
                         buff.duration = table.remove(buff.durations, 1)
                         buff.stacks = buff.stacks - 1
-                        print(buff.name.." lost a stack on "..minion.name)
+                        if TLDRMissionsDebugging then print(buff.name.." lost a stack on "..minion.name) end
                     else
                         unregisterBuff(minion, buff)
                     end
@@ -905,20 +940,16 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             end
         
             -- autoattack first
-            local didAutoAttackTargetDie = false
             if minion.autoAttack.onCooldown and minion.autoAttack.onCooldown > 0 then
                 minion.autoAttack.onCooldown = minion.autoAttack.onCooldown - 1
             else
                 minion.autoAttack.onCooldown = minion.autoAttack.cooldown
                 if not boardStateDefeat() and (minion.HP > 0) then
-                    local target = getTargets(minion, minion.autoAttack.effects.target, rngTargets, minion.hasTaunt and minion.hasTaunt.source or nil)
                     processSpell(minion, minion.autoAttack, nil, rngTargets, minion.hasTaunt)
-                    if target[1] then
-                        didAutoAttackTargetDie = target[1].HP <= 0
-                    end
                 end
             end
             
+            if thornsKillingBlow then break end
             if boardStateDefeat() then return end
             
             -- then spells
@@ -937,7 +968,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                         end
                         if spell.effects[1] then
                             local result
-                            result = processSpells(minion, spell, rngTargets, didAutoAttackTargetDie)
+                            result = processSpells(minion, spell, rngTargets)
                             if not result then
                                 -- spell had no valid targets
                                 spell.onCooldown = 0
@@ -953,6 +984,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 end
             end
             
+            if thornsKillingBlow then break end
             if boardStateDefeat() then return end
         end
         
@@ -1030,7 +1062,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 nextThornsID = nextThornsID + 1
             end
             
-            print(target.name.." gained a passive: "..spell.effects.buffName)
+            if TLDRMissionsDebugging then print(target.name.." gained a passive: "..spell.effects.buffName) end
         end
         
         function follower.unregisterPassive()
@@ -1040,7 +1072,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     if buff.onUnregister then
                         buff.onUnregister()
                     end
-                    print(buff.name.." faded from "..target.name.." ["..target.boardIndex.."]")
+                    if TLDRMissionsDebugging then print(buff.name.." faded from "..target.name.." ["..target.boardIndex.."]") end
                     follower.buffs[spell.effects.buffName..target.boardIndex] = nil
                 end
             end
@@ -1492,10 +1524,10 @@ function addon:Simulate(frontLeftFollowerID, frontMiddleFollowerID, frontRightFo
 end
 
 --/run TLDRMissions:SimulateFromLog(2319)
-function addon:SimulateFromLog(missionID)
+function addon:SimulateFromLog(missionID, callback)
     -- use a mission ID in the logs, recreate the followers/enemies
     
-    local record = TLDRMissionsLogging[missionID]
+    local record = _G["CopyTable"](_G["TLDRMissionsLogging"][missionID])
     
     local field = {}
     
@@ -1539,5 +1571,5 @@ function addon:SimulateFromLog(missionID)
         end
     end
 
-    doSimulation(field, environmentEffect, missionID, function() end)
+    doSimulation(field, environmentEffect, missionID, function(results) if callback then callback(results) end end)
 end

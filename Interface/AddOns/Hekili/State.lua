@@ -2164,7 +2164,7 @@ local mt_state = {
                 return 0
 
             elseif k == "tick_time_remains" then
-                if app then return ( app.remains % tick_time ) end
+                if app then return app.tick_time_remains end
                 return 0
 
             elseif k == "remains" then
@@ -2172,7 +2172,7 @@ local mt_state = {
                 return 0
 
             elseif k == "tick_time" then
-                if app then return tick_time end
+                if app then return app.tick_time end
                 return 0
 
             else
@@ -2310,7 +2310,7 @@ local mt_stat = {
             return GetCombatRating(CR_MASTERY)
 
         elseif k == "mastery_value" then
-            return GetMasteryEffect()
+            return GetMasteryEffect() / 100
 
         elseif k == "versatility_atk_rating" then
             return GetCombatRating(CR_VERSATILITY_DAMAGE_DONE)
@@ -3425,6 +3425,36 @@ local mt_default_buff = {
     __index = function( t, k )
         local aura = class.auras[ t.key ]
 
+        if aura and aura.hidden then
+            -- Hidden auras might be detectable with GetPlayerAuraBySpellID.
+            local name, _, count, _, duration, expires, caster, _, _, spellID, _, _, _, _, timeMod, v1, v2, v3 = GetPlayerAuraBySpellID( aura.id )
+
+            if name then
+                local buff = auras.player.buff[ t.key ] or {}
+
+                buff.key = t.key
+                buff.id = spellID
+                buff.name = name
+                buff.count = count > 0 and count or 1
+                buff.duration = duration
+                buff.expires = expires
+                buff.caster = caster
+                buff.applied = expires - duration
+                buff.caster = caster
+                buff.timeMod = timeMod
+                buff.v1 = v1
+                buff.v2 = v2
+                buff.v3 = v3
+
+                buff.last_application = buff.last_application or 0
+                buff.last_expiry      = buff.last_expiry or 0
+
+                buff.unit = "player"
+
+                auras.player.buff[ t.key ] = buff
+            end
+        end
+
         if aura and rawget( aura, "meta" ) and aura.meta[ k ] then
             return aura.meta[ k ]( t, "buff" )
 
@@ -3536,6 +3566,13 @@ local mt_default_buff = {
 
         elseif k == "ticks_remain" then
             if t.applied <= state.query_time and state.query_time < t.expires then return t.remains / t.tick_time end
+            return 0
+
+        elseif k == "tick_time_remains" then
+            if t.applied <= state.query_time and state.query_time < t.expires then
+                if not aura.tick_time then return t.remains end
+                return aura.tick_time - ( ( query_time - t.applied ) % aura.tick_time )
+            end
             return 0
 
         elseif k == "last_trigger" then
@@ -4472,8 +4509,9 @@ local mt_default_debuff = {
             return t.remains / t.tick_time
 
         elseif k == "tick_time_remains" then
+            if not t.up then return 0 end
             if not aura.tick_time then return t.remains end
-            return t.remains % aura.tick_time
+            return aura.tick_time - ( ( query_time - t.applied ) % aura.tick_time )
 
         else
             if aura and aura[ k ] ~= nil then
@@ -6147,6 +6185,10 @@ function state.reset( dispName )
         end
     end
 
+    Hekili:Yield( "Reset Pre-Cast Hook" )
+
+    ns.callHook( "reset_precast" )
+
     Hekili:Yield( "Reset Pre-Casting" )
 
     local cast_time, casting, ability = 0, nil, nil
@@ -6173,10 +6215,6 @@ function state.reset( dispName )
             end
         end
     end
-
-    Hekili:Yield( "Reset Pre-Cast Hook" )
-
-    ns.callHook( "reset_precast" )
 
     -- Okay, two paths here.
     -- 1.  We can cast while casting (i.e., Fire Blast for Fire Mage), so we want to hand off the current cast to the event system, and then let the recommendation engine sort it out.

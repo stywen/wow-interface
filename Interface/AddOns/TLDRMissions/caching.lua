@@ -43,10 +43,7 @@ local function getKey(follower1, follower2, follower3, follower4, follower5)
         
         local info = addon:C_Garrison_GetFollowerInfo(follower)
         key = key..info.garrFollowerID.."-"
-        
-        info = addon:C_Garrison_GetFollowerAutoCombatStats(follower)
-        key = key..info.attack.."-"
-        key = key..info.currentHealth
+        key = key..info.level
     end
     
     return key
@@ -55,11 +52,14 @@ end
 function addon:isResultCacheGuaranteedFailure(missionID, follower1, follower2, follower3, follower4, follower5)
     local key = getKey(follower1, follower2, follower3, follower4, follower5)
     local missionLevel = C_Garrison.GetBasicMissionInfo(missionID).missionScalar
+    local troopsLevel = C_Garrison.GetAutoTroops(123)[1].level
     
     if TLDRMissionsCache[addonVersion][missionID] then
         if TLDRMissionsCache[addonVersion][missionID][missionLevel] then
-            if TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"] then
-                return TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"][key]
+            if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] then
+                if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"] then
+                    return TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"][key]
+                end
             end
         end
     end
@@ -69,66 +69,78 @@ end
 function addon:setResultCacheGuaranteedFailure(missionID, follower1, follower2, follower3, follower4, follower5)
     local key = getKey(follower1, follower2, follower3, follower4, follower5)
     local missionLevel = C_Garrison.GetBasicMissionInfo(missionID).missionScalar
+    local troopsLevel = C_Garrison.GetAutoTroops(123)[1].level
     
     if TLDRMissionsCache[addonVersion][missionID] then
         if TLDRMissionsCache[addonVersion][missionID][missionLevel] then
-            if TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"] then
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"][key] = true
+            if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] then
+                if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"] then
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"][key] = true
+                else
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"] = {}
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"][key] = true
+                end
             else
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"] = {}
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"][key] = true
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"] = {}
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"][key] = true
             end
         else
             TLDRMissionsCache[addonVersion][missionID][missionLevel] = {}
-            TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"] = {}
-            TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"][key] = true
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"] = {}
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"][key] = true
         end
     else
         TLDRMissionsCache[addonVersion][missionID] = {}
         TLDRMissionsCache[addonVersion][missionID][missionLevel] = {}
-        TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"] = {}
-        TLDRMissionsCache[addonVersion][missionID][missionLevel]["g"][key] = true
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"] = {}
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["g"][key] = true
     end
 end
 
 function addon:isResultCacheCombinationKnown(missionID, follower1, follower2, follower3, follower4, follower5)
     local key = getKey(follower1, follower2, follower3, follower4, follower5)
     local missionLevel = C_Garrison.GetBasicMissionInfo(missionID).missionScalar
+    local troopsLevel = C_Garrison.GetAutoTroops(123)[1].level
     
     if TLDRMissionsCache[addonVersion][missionID] then
         if TLDRMissionsCache[addonVersion][missionID][missionLevel] then
-            if TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] then
-                local cache = TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key]
-                
-                if cache == nil then
-                    return
-                elseif cache == false then
-                    return false 
-                else
-                    local cacheCopy = CopyTable(cache.combination)
-                    local lineup = {follower1, follower2, follower3, follower4, follower5}
+            if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] then
+                if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] then
+                    local cache = TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key]
                     
-                    -- cache will have garrFollowerIDs in the order frontleft, frontmid, frontright, backleft, backright
-                    -- need to convert them to followerIDs
-                    for l, c in pairs(cacheCopy) do
-                        for k, v in pairs(lineup) do
-                            local garrFollowerID = getGarrFollowerID(v)
-                            if c then
-                                if c == garrFollowerID then
-                                    cacheCopy[l] = v
+                    if cache == nil then
+                        return
+                    elseif cache == false then
+                        return false 
+                    else
+                        local cacheCopy = CopyTable(cache.combination)
+                        local lineup = {follower1, follower2, follower3, follower4, follower5}
+                        
+                        -- cache will have garrFollowerIDs in the order frontleft, frontmid, frontright, backleft, backright
+                        -- need to convert them to followerIDs
+                        for l, c in pairs(cacheCopy) do
+                            for k, v in pairs(lineup) do
+                                local garrFollowerID = getGarrFollowerID(v)
+                                if c then
+                                    if c == garrFollowerID then
+                                        cacheCopy[l] = v
+                                    end
                                 end
                             end
                         end
+                        
+                        return {
+                            ["defeats"] = 0,
+                            ["victories"] = 1,
+                            ["missionID"] = missionID,
+                            ["finalHealth"] = cache.finalHealth,
+                            ["combination"] = cacheCopy,
+                            ["incompletes"] = 0,
+                        }
                     end
-                    
-                    return {
-                        ["defeats"] = 0,
-                        ["victories"] = 1,
-                        ["missionID"] = missionID,
-                        ["finalHealth"] = cache.finalHealth,
-                        ["combination"] = cacheCopy,
-                        ["incompletes"] = 0,
-                    }
                 end
             end
         end
@@ -138,25 +150,34 @@ end
 function addon:setResultCacheCombinationUnknown(missionID, follower1, follower2, follower3, follower4, follower5)
     local key = getKey(follower1, follower2, follower3, follower4, follower5)
     local missionLevel = C_Garrison.GetBasicMissionInfo(missionID).missionScalar
+    local troopsLevel = C_Garrison.GetAutoTroops(123)[1].level
     
     if TLDRMissionsCache[addonVersion][missionID] then
         if TLDRMissionsCache[addonVersion][missionID][missionLevel] then
-            if TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] then
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key] = false
+            if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] then
+                if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] then
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = false
+                else
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] = {}
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = false
+                end
             else
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] = {}
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key] = false
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] = {}
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = false
             end
         else
             TLDRMissionsCache[addonVersion][missionID][missionLevel] = {}
-            TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] = {}
-            TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key] = false
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] = {}
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = false
         end
     else
         TLDRMissionsCache[addonVersion][missionID] = {}
         TLDRMissionsCache[addonVersion][missionID][missionLevel] = {}
-        TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] = {}
-        TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key] = false
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] = {}
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = false
     end
 end
 
@@ -165,6 +186,7 @@ function addon:setResultCacheCombinationKnown(missionID, follower1, follower2, f
     local missionLevel = C_Garrison.GetBasicMissionInfo(missionID).missionScalar
     local combination = CopyTable(results.combination)
     local lineup = {follower1, follower2, follower3, follower4, follower5}
+    local troopsLevel = C_Garrison.GetAutoTroops(123)[1].level
     
     -- need to convert them to followerIDs
     for k, v in pairs(combination) do
@@ -185,22 +207,30 @@ function addon:setResultCacheCombinationKnown(missionID, follower1, follower2, f
     
     if TLDRMissionsCache[addonVersion][missionID] then
         if TLDRMissionsCache[addonVersion][missionID][missionLevel] then
-            if TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] then
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key] = cache
+            if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] then
+                if TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] then
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = cache
+                else
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] = {}
+                    TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = cache
+                end
             else
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] = {}
-                TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key] = cache
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] = {}
+                TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = cache
             end
         else
             TLDRMissionsCache[addonVersion][missionID][missionLevel] = {}
-            TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] = {}
-            TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key] = cache
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] = {}
+            TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = cache
         end
     else
         TLDRMissionsCache[addonVersion][missionID] = {}
         TLDRMissionsCache[addonVersion][missionID][missionLevel] = {}
-        TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"] = {}
-        TLDRMissionsCache[addonVersion][missionID][missionLevel]["c"][key] = cache
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel] = {}
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"] = {}
+        TLDRMissionsCache[addonVersion][missionID][missionLevel][troopsLevel]["c"][key] = cache
     end
 end
 
