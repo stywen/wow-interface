@@ -20,11 +20,20 @@ function addon:logSentMission(missionID, followers, predictedFinalHP)
         minion.baseAttack = info.attack
         minion.boardIndex = positionToBoardIndex[position]
         minion.name = C_Garrison.GetFollowerName(followerID)
+        info = C_Garrison.GetFollowerInfo(followerID)
+        minion.level = info.level
+        minion.levelXP = info.levelXP
+        minion.xp = info.xp
+        if minion.levelXP == 0 then
+            minion.levelXP = 1
+            minion.xp = 0
+        end
+        
         if predictedFinalHP then
             minion.predictedFinalHP = predictedFinalHP[minion.boardIndex]
         end
 
-        local autoCombatSpells, autoCombatAutoAttack = C_Garrison.GetFollowerAutoCombatSpells(followerID, C_Garrison.GetFollowerInfo(followerID).level)
+        local autoCombatSpells, autoCombatAutoAttack = C_Garrison.GetFollowerAutoCombatSpells(followerID, info.level)
         minion.spells = {}
         for i, spell in pairs(autoCombatSpells) do
             table.insert(minion.spells, {
@@ -217,14 +226,16 @@ function addon:logCompletedMission(missionID, canComplete, success, overmaxSucce
                     
                     if (finalHealth[boardIndex] < (minion.predictedFinalHP - 2)) or (finalHealth[boardIndex] > (minion.predictedFinalHP + 2)) then -- allow for small variance for minions healing slightly between sim and being sent
                         print("DEVTESTING: Discrepancy for mission " ..missionID)
+                        WeakAuras.ScanEvents("TLDRMISSIONS_DEVTESTING")
                         return
                     end
                 end
             end
         end
         
-        if autoCombatResult.winner then
-            TLDRMissionsLogging[missionID] = nil
-        end
+        -- Disabled while I need more logs for specific followers, investigating rounding errors
+        --if autoCombatResult.winner then
+        --    TLDRMissionsLogging[missionID] = nil
+        --end
     end
 end

@@ -521,6 +521,14 @@ if UnitClassBase( "player" ) == "ROGUE" then
         return ( this_action and class.abilities[ this_action ].cp_gain or 0 )
     end )
 
+    spec:RegisterStateExpr( "effective_combo_points", function ()
+        local c = combo_points.current or 0
+        if not covenant.kyrian then return c end
+        if c < 2 or c > 5 then return c end
+        if buff[ "echoing_reprimand_" .. c ].up then return 7 end
+        return c
+    end )
+
 
     -- We need to break stealth when we start combat from an ability.
     spec:RegisterHook( "runHandler", function( ability )

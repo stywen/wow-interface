@@ -4,11 +4,12 @@ local addonVersion = GetAddOnMetadata(addonName, "Version")
 
 local GFICache = {}
 function addon:C_Garrison_GetFollowerInfo(garrFollowerID)
-    if GFICache[garrFollowerID] then
-        return CopyTable(GFICache[garrFollowerID])
+    local cache = C_Garrison.GetFollowerInfo(garrFollowerID)
+    if cache then
+        GFICache[garrFollowerID] = CopyTable(cache)
+        return cache
     end
     
-    GFICache[garrFollowerID] = C_Garrison.GetFollowerInfo(garrFollowerID)
     if GFICache[garrFollowerID] then
         return CopyTable(GFICache[garrFollowerID])
     end
@@ -36,14 +37,17 @@ local function getKey(follower1, follower2, follower3, follower4, follower5)
     table.sort(lineup, sort_func)
     
     local key = ""
-    for _, follower in pairs(lineup) do
+    for _, follower in ipairs(lineup) do
         if key ~= "" then
             key = key .. "--"
         end
         
         local info = addon:C_Garrison_GetFollowerInfo(follower)
         key = key..info.garrFollowerID.."-"
-        key = key..info.level
+        
+        info = addon:C_Garrison_GetFollowerAutoCombatStats(follower)
+        key = key..info.attack.."-"
+        key = key..info.currentHealth
     end
     
     return key
@@ -121,6 +125,7 @@ function addon:isResultCacheCombinationKnown(missionID, follower1, follower2, fo
                         
                         -- cache will have garrFollowerIDs in the order frontleft, frontmid, frontright, backleft, backright
                         -- need to convert them to followerIDs
+                        local combination = {}
                         for l, c in pairs(cacheCopy) do
                             for k, v in pairs(lineup) do
                                 local garrFollowerID = getGarrFollowerID(v)
@@ -137,7 +142,7 @@ function addon:isResultCacheCombinationKnown(missionID, follower1, follower2, fo
                             ["victories"] = 1,
                             ["missionID"] = missionID,
                             ["finalHealth"] = cache.finalHealth,
-                            ["combination"] = cacheCopy,
+                            ["combination"] = combination,
                             ["incompletes"] = 0,
                         }
                     end

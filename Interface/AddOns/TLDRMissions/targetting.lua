@@ -340,29 +340,32 @@ end
 
 function addon:getAdjacentAllies(follower, field)
     local priorityOrder = {
-        [0] = {2, 3, 1},
-        [1] = {0, 3, 4},
-        [2] = {0, 3},
-        [3] = {2, 0, 1, 4},
-        [4] = {3, 1},
-        [5] = {6, 9, 10},
-        [6] = {5, 7, 9, 10, 11},
-        [7] = {6, 8, 10, 11, 12},
-        [8] = {7, 11, 12},
-        [9] = {5, 6, 10},
-        [10] = {5, 6, 7, 9, 11},
-        [11] = {6, 7, 8, 10, 12},
-        [12] = {7, 8, 11},
+        [0] = {{2, 3, 1}, {0}},
+        [1] = {{0, 3, 4}},
+        [2] = {{0, 3}},
+        [3] = {{2, 0, 1, 4}},
+        [4] = {{3, 1}},
+        [5] = {{6, 9, 10}},
+        [6] = {{5, 7, 9, 10, 11}},
+        [7] = {{6, 8, 10, 11, 12}},
+        [8] = {{7, 11, 12}},
+        [9] = {{5, 6, 10}},
+        [10] = {{5, 6, 7, 9, 11}},
+        [11] = {{6, 7, 8, 10, 12}},
+        [12] = {{7, 8, 11}},
     }
     
     local targets = {}
     
-    for _, minion in pairs(field) do
-        for _, i in pairs(priorityOrder[follower.boardIndex]) do
-            if (minion.boardIndex == i) and (minion.HP > 0) then
-                table.insert(targets, minion)
+    for _, set in ipairs(priorityOrder[follower.boardIndex]) do
+        for _, minion in pairs(field) do
+            for _, i in pairs(set) do
+                if (minion.boardIndex == i) and (minion.HP > 0) then
+                    table.insert(targets, minion)
+                end
             end
         end
+        if table.getn(targets) > 0 then return targets end
     end
     
     -- probably needs an expanded priority list, investigate with more logs
@@ -459,10 +462,6 @@ end
 function addon:getBackEnemies(follower, field, taunter)
     local targets = {}
     
-    if taunter then
-        return {taunter}
-    end
-    
     for _, minion in pairs(field) do
         if minion.HP > 0 then
             if (follower.boardIndex > 4) and (minion.boardIndex < 2) and (not minion.shroud) and (minion.HP > 0) then
@@ -470,6 +469,15 @@ function addon:getBackEnemies(follower, field, taunter)
             elseif (follower.boardIndex < 5) and (minion.boardIndex > 8) and (not minion.shroud) and (minion.HP > 0) then
                 table.insert(targets, minion)
             end
+        end
+    end
+    
+    if taunter then
+        -- have not yet determined the true process here
+        -- caster in [1], options 5 6 7 8 10 11 taunted by 11, targetted 10+11
+        -- had another log where caster was taunted, and targetted only the taunt, with 3 other minions on the back row ignored. Do not have that log available to check anymore
+        if table.getn(targets) > 2 then
+            return {taunter}
         end
     end
     
@@ -790,6 +798,9 @@ function addon:getPseudorandomRitualFervor(follower, field)
         -- observed in 2258 [Environment Effect]
         {alive = {5, 6, 7, 8, 9, 10}, target = 6},
         
+        -- observed in 2259 [Environment Effect]
+        {alive = {7, 8, 10}, target = 8},
+        
         -- observed in 2299 [Power of Anguish] unconfirmed if actually follows this pattern
         {alive = {6, 7, 9, 12}, target = 12},
         {alive = {7, 12}, target = 12},  
@@ -909,6 +920,11 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 3, 4, 6, 7, 10}, target = 3},
         {alive = {0, 4, 6}, target = 4},
         {alive = {0, 1, 4, 7}, target = 7},
+        {alive = {0, 4, 7}, target = 4},
+        {alive = {3, 4, 8, 10}, target = 10},
+        {alive = {0, 1, 6, 7}, target = 7},
+        {alive = {0, 1, 2, 6, 7, 10}, target = 1},
+        {alive = {0, 1, 7, 8}, target = 8},
 
         -- observed in 2224 (Panic Attack)
         -- see https://github.com/TLDRMissions/TLDRMissions/issues/120
@@ -960,6 +976,8 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {1, 12}, target = 12},
         {alive = {0, 1, 4, 10, 11, 12}, target = 1},
         {alive = {0, 1, 3, 4, 10, 11, 12}, target = 12},
+        {alive = {0, 1, 3, 4, 7, 11, 12}, target = 12},
+        {alive = {0, 3, 11, 12}, target = 12},
     }
     
     local aliveMinions = {}

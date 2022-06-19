@@ -574,7 +574,6 @@ addon.spellsDB = {
         type = "passive",
         changeDamageDealtPercent = 20,
         buffName = "Invigorating Herbs",
-        --persistAfterDeath = true,
     },
     [91] = { -- Blisswing modifies the damage of the furthest enemy by $s1 for 3 rounds.
         target = "furthest_enemy",
@@ -1539,6 +1538,7 @@ addon.spellsDB = {
             type = "attack",
             attackPercent = 100,
             target = "front_enemies",
+            continueIfCasterDies = true,
         },
         [2] = {
             type = "buff",
@@ -1746,7 +1746,7 @@ addon.spellsDB = {
         attackPercent = 50,
     },
     [227] = { -- The Jailer sends a bombardment of missles across Calcis, dealing $s1% of their Health as Shadow damage to a random enemy every turn.
-        target = "random_enemy",
+        target = "pseudorandom_mawswornstrength",
         type = "attack",
         damageTargetHPPercent = 30,
     },
@@ -2413,7 +2413,7 @@ addon.spellsDB = {
             target = "all_allies",
             type = "buff",
             duration = 1,
-            changeDamageDealtPercent = 30,
+            changeDamageDealtPercent = 29.999,
             buffName = "Threads of Fate",
         },
     },

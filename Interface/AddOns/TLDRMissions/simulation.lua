@@ -250,11 +250,13 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         if effect.changeDamageDealtPercent then
             buff.changeDamageDealtPercent = effect.changeDamageDealtPercent
         elseif effect.changeDamageDealtUsingAttack then
-            buff.changeDamageDealtRaw = (source.baseAttack * effect.changeDamageDealtUsingAttack)/100
+            local xpRatio = (source.xp or 0) / (source.levelXP or 1)
+            buff.changeDamageDealtRaw = ((source.baseAttack+xpRatio) * effect.changeDamageDealtUsingAttack)/100
         elseif effect.changeDamageTakenPercent then
             buff.changeDamageTakenPercent = effect.changeDamageTakenPercent
         elseif effect.changeDamageTakenUsingAttack then
-            buff.changeDamageTakenRaw = (source.baseAttack * effect.changeDamageTakenUsingAttack)/100
+            local xpRatio = (source.xp or 0) / (source.levelXP or 1)
+            buff.changeDamageTakenRaw = ((source.baseAttack+xpRatio) * effect.changeDamageTakenUsingAttack)/100
         elseif effect.changeMaxHPPercent then
             local maxHPChangeAmount = math.floor((target.maxHP * effect.changeMaxHPPercent)/100)
             target.maxHP = target.maxHP + maxHPChangeAmount
@@ -443,8 +445,15 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             changeDamageDealtRaw.amount = changeDamageDealtRaw.amount - 0.01
         end
         
-        local damage = math.floor((attacker.baseAttack * attackPercent)/100)
-        damage = damage + math.floor((defender.maxHP * targetHPPercent)/100)
+        local xpRatio = (attacker.xp or 0) / (attacker.levelXP or 1)
+        local damage = attacker.baseAttack
+
+        if attackPercent > 0 then
+            damage = math.floor((attacker.baseAttack * attackPercent)/100)
+        end
+        if targetHPPercent > 0 then
+            damage = math.floor((defender.maxHP * targetHPPercent)/100)
+        end
         
         changeDamageDealtRaw.action = function() damage = damage + changeDamageDealtRaw.amount end
         changeDamageDealtPercent.action = function() damage = math.floor((damage * changeDamageDealtPercent.amount)/100) end
@@ -536,7 +545,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         end
     end
     
-    checkDeath = function(target)
+    checkDeath = function(target, useThornsExemption)
         if (target.HP < 1) and (not target.isDead) then
             target.isDead = true
             for _, buff in pairs(target.buffs) do
@@ -544,7 +553,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     unregisterBuff(target, buff)
                 end
             end
-            if target.unregisterPassive then
+            if (not useThornsExemption) and target.unregisterPassive then
                 target.unregisterPassive()
             end
             if TLDRMissionsDebugging then print(target.name.." died.") end
@@ -618,7 +627,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     
                     if not effect.ignoreThorns then
                         checkThorns(follower, target)
-                        checkDeath(follower)
+                        checkDeath(follower, true)
                     end
                     
                     checkDeath(target)
@@ -1020,6 +1029,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
     
     local function registerPassive(follower, spell)
         for _, target in ipairs(getTargets(follower, spell.effects.target)) do
+            local xpRatio = (follower.xp or 0) / (follower.levelXP or 1)
             local buff = {
                     ["target"] = target,
                     duration = 9999,
@@ -1030,8 +1040,8 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     thorns = spell.effects.thorns,
                     changeDamageDealtPercent = spell.effects.changeDamageDealtPercent,
                     changeDamageTakenPercent = spell.effects.changeDamageTakenPercent,
-                    changeDamageDealtRaw = math.floor(( (spell.effects.changeDamageDealtUsingAttack or 0) /100) * follower.baseAttack),
-                    changeDamageTakenRaw = math.floor(( (spell.effects.changeDamageTakenUsingAttack or 0) /100) * follower.baseAttack),
+                    changeDamageDealtRaw = (( (spell.effects.changeDamageDealtUsingAttack or 0) /100) * (follower.baseAttack+xpRatio)),
+                    changeDamageTakenRaw = (( (spell.effects.changeDamageTakenUsingAttack or 0) /100) * (follower.baseAttack+xpRatio)),
                     ID = buffID,
                     type = "passive",
                     persistAfterDeath = spell.effects.persistAfterDeath,
@@ -1477,7 +1487,14 @@ function addon:Simulate(frontLeftFollowerID, frontMiddleFollowerID, frontRightFo
             follower.maxHP = info.maxHealth
             follower.thorns = {}
             follower.baseAttack = info.attack
-            follower.name = C_Garrison.GetFollowerInfo(follower.followerID).name
+            local info = C_Garrison.GetFollowerInfo(follower.followerID)
+            follower.name = info.name
+            follower.levelXP = info.levelXP
+            follower.xp = info.xp
+            if follower.levelXP == 0 then
+                follower.levelXP = 1
+                follower.xp = 0
+            end
             
             local autoCombatSpells, autoCombatAutoAttack = C_Garrison.GetFollowerAutoCombatSpells(follower.followerID, C_Garrison.GetFollowerInfo(follower.followerID).level)
             follower.spells = {}

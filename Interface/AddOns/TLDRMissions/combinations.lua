@@ -294,10 +294,21 @@ function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, m
         end
     end)
     
+    -- test 1 follower
     addon:addWork(batch, function()
         for _, follower1 in pairs(followers) do
+            if TLDRMissionsResultCacheIndex[missionID] then
+                local info = addon:C_Garrison_GetFollowerInfo(follower1)
+                if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar] then
+                    if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar][info.garrFollowerID] ~= nil then
+                        return
+                    end
+                end
+            end
+            
             table.insert(lineup, follower1)
 
+            
             if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
                 local highPriorityBatch = addon:createWorkBatch(3)
 
@@ -386,10 +397,22 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
         table.remove(lineup)
     end
     
+    -- test 1 follower
     addon:addWork(batch, function()
         for _, follower1 in pairs(followers) do
+            -- skip over the entire 1 follower + troops check if this follower + mission + mission level combination has been prechecked to be impossible, done in external simulations before publishing this addon
+            if TLDRMissionsResultCacheIndex[missionID] then
+                local info = addon:C_Garrison_GetFollowerInfo(follower1)
+                if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar] then
+                    if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar][info.garrFollowerID] ~= nil then
+                        return
+                    end
+                end
+            end
+            
             table.insert(lineup, follower1)
 
+            
             if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
                 local highPriorityBatch = addon:createWorkBatch(3)
 
