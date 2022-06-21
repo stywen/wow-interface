@@ -1,6 +1,6 @@
 ## Interface: 90205
 ## Title: TL;DR Missions
-## Version: 9.2-094
+## Version: 9.2-097
 ## Notes: Automates sending out Covenant Missions
 ## Author: Teelo
 ## SavedVariablesPerCharacter: TLDRMissionsOptions, TLDRMissionsLogging

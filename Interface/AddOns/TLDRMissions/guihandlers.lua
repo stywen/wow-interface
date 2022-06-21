@@ -280,7 +280,9 @@ local function processResults(results, dontClear)
     
     if (results.defeats == 0) and (results.victories > 0) then
         if not dontClear then addon:clearWork() end
-        gui.NextMissionLabel:SetText(string.format(L["MissionCounter"], results.counter or missionCounter, missionCounterUpper, C_Garrison.GetMissionName(results.missionID)))
+        local _, _, _, _, duration = C_Garrison.GetMissionTimes(results.missionID)
+        duration = duration/3600
+        gui.NextMissionLabel:SetText(string.format(L["MissionCounter"], results.counter or missionCounter, missionCounterUpper, C_Garrison.GetMissionName(results.missionID).." ("..string.format(COOLDOWN_DURATION_HOURS, math.floor(duration/0.5)*0.5)..")"))
         for i = 1, 5 do
             if results.combination[i] then
                 alreadyUsedFollowers[results.combination[i]] = true
@@ -587,7 +589,9 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
     setNextMissionText = function()
         if nextMission then
             gui.FailedCalcLabel:SetText()
-            gui.NextMissionLabel:SetText(string.format(L["MissionCounter"], (missionCounter>0) and missionCounter or 1, missionCounterUpper, nextMission.name))
+            local _, _, _, _, duration = C_Garrison.GetMissionTimes(nextMission.missionID)
+            duration = duration/3600
+            gui.NextMissionLabel:SetText(string.format(L["MissionCounter"], (missionCounter>0) and missionCounter or 1, missionCounterUpper, nextMission.name).." ("..string.format(COOLDOWN_DURATION_HOURS, math.floor(duration/0.5)*0.5)..")")
             gui.NextFollower1Label:SetText(L["Calculating"])
             updateRewardText(nextMission)
             return true
@@ -601,137 +605,145 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
     missionCounter = 0
     missionCounterUpper = table.getn(missions)
     
-    calculateNextMission = function()
-        lowerEstimate = 0
-        
-        nextMission = table.remove(missions, 1)
-        
-        if (not missionWaitingUserAcceptance) then
-            missionCounter = missionCounter + 1
-            if not setNextMissionText() then
-                gui.NextMissionLabel:SetText()
-                for i = 1, 5 do
-                    gui["NextFollower"..i.."Label"]:SetText()
-                end
-                gui.RewardsDetailLabel:SetText()
-                gui.LowTimeWarningLabel:SetText()
-                gui.CalculateButton:SetEnabled(true)
-                gui.AbortButton:SetEnabled(false)
-                gui.SkipCalculationButton:SetEnabled(false)
-            end
-            missionCounter = missionCounter - 1
-        end
-        
-        if (not nextMission) and addon.db.profile.sacrificeRemaining then
-            startSacrifice()
-        end
-        if not nextMission then
-            gui.SkipCalculationButton:SetEnabled(false)
-            return
-        end
-        
-        missionCounter = missionCounter + 1
-        
-        if nextMission.missionScalar > 60 then
-            nextMission.missionScalar = 60
-        end
-        
-        if C_Garrison.GetMissionCost(nextMission.missionID) and (gui.AnimaCostLimitSlider:GetValue() < C_Garrison.GetMissionCost(nextMission.missionID)) then
+    calculateNextMission = function(doLater)
+        local function processing()
+            lowerEstimate = 0
+            
+            nextMission = table.remove(missions, 1)
+            
             if (not missionWaitingUserAcceptance) then
-                clearReportText()
-                gui.FailedCalcLabel:SetText(L["AnimaCostLimitError"])
-            end
-            calculateNextMission()
-            return
-        end
-        
-        followerLineup = {}
-        
-        local useSpecialTreatment = false
-        if gui.FollowerXPSpecialTreatmentCheckButton:GetChecked() then
-            local rewards = C_Garrison.GetMissionRewardInfo(nextMission.missionID)
-            for _, reward in pairs(rewards) do
-                if reward.followerXP then
-                    useSpecialTreatment = true
-                    break
+                missionCounter = missionCounter + 1
+                if not setNextMissionText() then
+                    gui.NextMissionLabel:SetText()
+                    for i = 1, 5 do
+                        gui["NextFollower"..i.."Label"]:SetText()
+                    end
+                    gui.RewardsDetailLabel:SetText()
+                    gui.LowTimeWarningLabel:SetText()
+                    gui.CalculateButton:SetEnabled(true)
+                    gui.AbortButton:SetEnabled(false)
+                    gui.SkipCalculationButton:SetEnabled(false)
                 end
+                missionCounter = missionCounter - 1
             end
-        end
-        
-        gui.SkipCalculationButton:SetEnabled(true)
-        
-        if useSpecialTreatment then
-            if (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1) or (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 2) then -- "All low level followers, lowest level first"
-                for _, follower in ipairs(followers) do
-                    if (not follower.status) and (not alreadyUsedFollowers[follower.followerID]) and (follower.level < 60) then
-                        table.insert(followerLineup, follower.followerID)
+            
+            if (not nextMission) and addon.db.profile.sacrificeRemaining then
+                startSacrifice()
+            end
+            if not nextMission then
+                gui.SkipCalculationButton:SetEnabled(false)
+                return
+            end
+            
+            missionCounter = missionCounter + 1
+            
+            if nextMission.missionScalar > 60 then
+                nextMission.missionScalar = 60
+            end
+            
+            if C_Garrison.GetMissionCost(nextMission.missionID) and (gui.AnimaCostLimitSlider:GetValue() < C_Garrison.GetMissionCost(nextMission.missionID)) then
+                if (not missionWaitingUserAcceptance) then
+                    clearReportText()
+                    gui.FailedCalcLabel:SetText(L["AnimaCostLimitError"])
+                end
+                calculateNextMission()
+                return
+            end
+            
+            followerLineup = {}
+            
+            local useSpecialTreatment = false
+            if gui.FollowerXPSpecialTreatmentCheckButton:GetChecked() then
+                local rewards = C_Garrison.GetMissionRewardInfo(nextMission.missionID)
+                for _, reward in pairs(rewards) do
+                    if reward.followerXP then
+                        useSpecialTreatment = true
+                        break
                     end
                 end
-            else -- "Followers required to level troops only"
-                local numFollowers = #followers
-                if numFollowers > 0 then
-                    local median = numFollowers/2
-                    median = math.floor(median)
-                    median = median + 1
-                    
-                    table.sort(followers, function(a, b)
-                        if a.level == b.level then
-                            if a.xp == b.xp then
-                                return a.garrFollowerID < b.garrFollowerID
+            end
+            
+            gui.SkipCalculationButton:SetEnabled(true)
+            
+            if useSpecialTreatment then
+                if (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1) or (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 2) then -- "All low level followers, lowest level first"
+                    for _, follower in ipairs(followers) do
+                        if (not follower.status) and (not alreadyUsedFollowers[follower.followerID]) and (follower.level < 60) then
+                            table.insert(followerLineup, follower.followerID)
+                        end
+                    end
+                else -- "Followers required to level troops only"
+                    local numFollowers = #followers
+                    if numFollowers > 0 then
+                        local median = numFollowers/2
+                        median = math.floor(median)
+                        median = median + 1
+                        
+                        table.sort(followers, function(a, b)
+                            if a.level == b.level then
+                                if a.xp == b.xp then
+                                    return a.garrFollowerID < b.garrFollowerID
+                                end
+                                return a.xp > b.xp
                             end
-                            return a.xp > b.xp
-                        end
-                        return a.level > b.level
-                    end)
-                    
-                    for i = 1, median do
-                        if (not followers[i].status) and (not alreadyUsedFollowers[followers[i].followerID]) and (followers[i].level < 60) then
-                            table.insert(followerLineup, followers[i].followerID)
+                            return a.level > b.level
+                        end)
+                        
+                        for i = 1, median do
+                            if (not followers[i].status) and (not alreadyUsedFollowers[followers[i].followerID]) and (followers[i].level < 60) then
+                                table.insert(followerLineup, followers[i].followerID)
+                            end
                         end
                     end
                 end
-            end
-            
-            if (table.getn(followerLineup) < tonumber(addon.db.profile.followerXPSpecialTreatmentMinimum)) then
-                if not missionWaitingUserAcceptance then
-                    clearReportText()
-                    gui.FailedCalcLabel:SetText(L["RestrictedFollowersUnavailableError"])
+                
+                if (table.getn(followerLineup) < tonumber(addon.db.profile.followerXPSpecialTreatmentMinimum)) then
+                    if not missionWaitingUserAcceptance then
+                        clearReportText()
+                        gui.FailedCalcLabel:SetText(L["RestrictedFollowersUnavailableError"])
+                    end
+                    calculateNextMission()
+                    return
                 end
-                calculateNextMission()
-                return
-            end
-            
-            if (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1) or (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1) then
-                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "lowestLevel")
-            elseif addon.db.profile.followerXPSpecialTreatmentAlgorithm == 2 then
-                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "highestLevel")
+                
+                if (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1) or (addon.db.profile.followerXPSpecialTreatmentAlgorithm == 1) then
+                    addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "lowestLevel")
+                elseif addon.db.profile.followerXPSpecialTreatmentAlgorithm == 2 then
+                    addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "highestLevel")
+                else
+                    addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "lowestLevel")
+                end
             else
-                addon.arrangeFollowerCombinationsByMostFollowersPlusTroops(addon, followerLineup, nextMission.missionID, processResults, "lowestLevel")
-            end
-        else
-            for _, follower in ipairs(followers) do
-                if (not follower.status) and (not alreadyUsedFollowers[follower.followerID]) then
-                    if (follower.level + gui.LowerBoundLevelRestrictionSlider:GetValue()) >= nextMission.missionScalar then
-                        table.insert(followerLineup, follower.followerID)
+                for _, follower in ipairs(followers) do
+                    if (not follower.status) and (not alreadyUsedFollowers[follower.followerID]) then
+                        if (follower.level + gui.LowerBoundLevelRestrictionSlider:GetValue()) >= nextMission.missionScalar then
+                            table.insert(followerLineup, follower.followerID)
+                        end
                     end
-                end
-            end 
-        
-            if table.getn(followerLineup) == 0 then
-                if not missionWaitingUserAcceptance then
-                    clearReportText()
-                    gui.FailedCalcLabel:SetText(L["RestrictedFollowersUnavailableError"])
-                end
-                calculateNextMission()
-                return
-            end
+                end 
             
-            sortFunc(addon, followerLineup, nextMission.missionID, processResults, sortString)
+                if table.getn(followerLineup) == 0 then
+                    if not missionWaitingUserAcceptance then
+                        clearReportText()
+                        gui.FailedCalcLabel:SetText(L["RestrictedFollowersUnavailableError"])
+                    end
+                    calculateNextMission()
+                    return
+                end
+                
+                sortFunc(addon, followerLineup, nextMission.missionID, processResults, sortString)
+            end
+        end
+        if doLater then
+            local batch = addon:createWorkBatch(1)
+            addon:addWork(batch, processing)
+        else
+            processing()
         end
     end
      
     addon:registerWorkStepCallback(incrementEstimate)
-    calculateNextMission()
+    calculateNextMission(true)
 end)
 
 gui.AbortButton:SetScript("OnClick", function (self, button)
@@ -921,6 +933,7 @@ gui.StartMissionButton:SetScript("OnClick", function(self, button)
             if not missionWaitingUserAcceptance.sacrifice then
                 addon:logSentMission(missionWaitingUserAcceptance.missionID, missionWaitingUserAcceptance.combination, missionWaitingUserAcceptance.finalHealth)
             end
+            AceEvent:SendMessage("TLDRMISSIONS_START_MISSION", missionWaitingUserAcceptance.missionID, GetAddOnMetadata(addonName, "Version"))
             numSent = numSent + 1
         end)
     end

@@ -582,6 +582,7 @@ addon.spellsDB = {
         duration = 3,
         buffName = "Dazzledust",
         persistAfterDeath = true,
+        roundToEvenNumber = true,
     },
     [92] = { -- Duskleaf deals $s1 Shadow damage to all enemies at range for 2 rounds.
         [2] = {
@@ -1521,11 +1522,12 @@ addon.spellsDB = {
             buffName = "Bone Shield (thorns)",
         },
         [2] = {
-            changeDamageTakenUsingAttack = -60.01, -- cant find any other explanation for this rounding error??
+            changeDamageTakenUsingAttack = -60,
             buffName = "Bone Shield (shield)",
             type = "buff",
             target = "self",
             duration = 2,
+            roundToEvenNumber = true,
         }
     },
     [199] = { -- A wild swing that strikes all enemies in melee, dealing $s1 damage.
@@ -1583,17 +1585,9 @@ addon.spellsDB = {
     },
     [205] = { -- Necromantic energy pulses forth, healing front line allies for $s1.
         target = "front_allies_only", 
-        -- testing found it cast on the first turn, then never again on future turns even though the same targets were still available. cooldown bugged maybe?
-        -- ---
-        -- mission ID: 2219
-        -- next round of testing: okay it did cast on future turns this time.
-        -- - turn 1, from position 10 cast on 5+6+7+8
-        -- - turn 5, cast on 6+7+8
-        -- - turn 9, cast on 7+8
-        -- maybe it requires a specific minion to be alive?
         type = "heal",
         healPercent = 75,
-        -- overrideCooldown = 9999,
+        skipIfFull = true,
     },
     [206] = { -- Is it a foot? Is it a hoof? Hard to tell, but it hits hard, dealing $s1 damage to the closest enemy.
         target = "closest_enemy",

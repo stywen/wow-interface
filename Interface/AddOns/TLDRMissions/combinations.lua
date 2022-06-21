@@ -296,46 +296,52 @@ function addon:arrangeFollowerCombinationsByMostFollowersPlusTroops(followers, m
     
     -- test 1 follower
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for _, follower1 in ipairs(followers) do
+            local continue = true
+            -- skip over the entire 1 follower + troops check if this follower + mission + mission level combination has been prechecked to be impossible, done in external simulations before publishing this addon
             if TLDRMissionsResultCacheIndex[missionID] then
                 local info = addon:C_Garrison_GetFollowerInfo(follower1)
                 if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar] then
                     if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar][info.garrFollowerID] ~= nil then
-                        return
+                        continue = false
                     end
                 end
             end
             
-            table.insert(lineup, follower1)
-
-            
-            if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
-                local highPriorityBatch = addon:createWorkBatch(3)
-
-                if addon.db.profile.minimumTroops < 1 then
+            if continue then
+                table.insert(lineup, follower1)
+    
+                
+                if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
+                    local highPriorityBatch = addon:createWorkBatch(3)
+    
+                    if addon.db.profile.minimumTroops < 1 then
+                       addon:addWork(highPriorityBatch, addon.arrangeAllFollowerPositions, addon, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5], missionID, report)
+                    end
+                    
+                    if addon.db.profile.minimumTroops < 2 then
+                        -- test the follower + 1 troop
+                        testEachTroop(nil, highPriorityBatch)
+                    end
+                        
+                    if addon.db.profile.minimumTroops < 3 then
+                        -- test the follower + 2 troops
+                        testEachTroop(testEachTroop, highPriorityBatch)
+                    end
+                        
+                    if addon.db.profile.minimumTroops < 4 then
+                        -- test the follower + 3 troops
+                        testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch)
+                    end
+                    
+                    -- test the follower + 4 troops
+                    testEachTroop(function() testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch) end, highPriorityBatch)
+                    
                     addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
                 end
                 
-                if addon.db.profile.minimumTroops < 2 then
-                    -- test the follower + 1 troop
-                    testEachTroop(nil, highPriorityBatch)
-                end
-                    
-                if addon.db.profile.minimumTroops < 3 then
-                    -- test the follower + 2 troops
-                    testEachTroop(testEachTroop, highPriorityBatch)
-                end
-                    
-                if addon.db.profile.minimumTroops < 4 then
-                    -- test the follower + 3 troops
-                    testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch)
-                end
-                
-                -- test the follower + 4 troops
-                testEachTroop(function() testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch) end, highPriorityBatch)
+                table.remove(lineup)
             end
-            
-            table.remove(lineup)
         end
     end)
     
@@ -399,47 +405,52 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
     
     -- test 1 follower
     addon:addWork(batch, function()
-        for _, follower1 in pairs(followers) do
+        for _, follower1 in ipairs(followers) do
+            local continue = true
             -- skip over the entire 1 follower + troops check if this follower + mission + mission level combination has been prechecked to be impossible, done in external simulations before publishing this addon
             if TLDRMissionsResultCacheIndex[missionID] then
                 local info = addon:C_Garrison_GetFollowerInfo(follower1)
                 if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar] then
                     if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar][info.garrFollowerID] ~= nil then
-                        return
+                        continue = false
                     end
                 end
             end
             
-            table.insert(lineup, follower1)
-
-            
-            if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
-                local highPriorityBatch = addon:createWorkBatch(3)
-
-                if addon.db.profile.minimumTroops < 1 then
+            if continue then
+                table.insert(lineup, follower1)
+    
+                
+                if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
+                    local highPriorityBatch = addon:createWorkBatch(3)
+    
+                    if addon.db.profile.minimumTroops < 1 then
+                       addon:addWork(highPriorityBatch, addon.arrangeAllFollowerPositions, addon, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5], missionID, report)
+                    end
+                    
+                    if addon.db.profile.minimumTroops < 2 then
+                        -- test the follower + 1 troop
+                        testEachTroop(nil, highPriorityBatch)
+                    end
+                        
+                    if addon.db.profile.minimumTroops < 3 then
+                        -- test the follower + 2 troops
+                        testEachTroop(testEachTroop, highPriorityBatch)
+                    end
+                        
+                    if addon.db.profile.minimumTroops < 4 then
+                        -- test the follower + 3 troops
+                        testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch)
+                    end
+                    
+                    -- test the follower + 4 troops
+                    testEachTroop(function() testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch) end, highPriorityBatch)
+                    
                     addon:addWork(highPriorityBatch, addon.setResultCacheGuaranteedFailure, addon, missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5])
                 end
                 
-                if addon.db.profile.minimumTroops < 2 then
-                    -- test the follower + 1 troop
-                    testEachTroop(nil, highPriorityBatch)
-                end
-                    
-                if addon.db.profile.minimumTroops < 3 then
-                    -- test the follower + 2 troops
-                    testEachTroop(testEachTroop, highPriorityBatch)
-                end
-                    
-                if addon.db.profile.minimumTroops < 4 then
-                    -- test the follower + 3 troops
-                    testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch)
-                end
-                
-                -- test the follower + 4 troops
-                testEachTroop(function() testEachTroop(function() testEachTroop(testEachTroop, highPriorityBatch) end, highPriorityBatch) end, highPriorityBatch)
+                table.remove(lineup)
             end
-            
-            table.remove(lineup)
         end
     end)
 

@@ -21,6 +21,7 @@ TLDRMissionsResultCache2209 = {
 	},
 	[60] = {
 		[1272] = false,
+		[1216] = false,
 		[1269] = false,
 		[1273] = false,
 		[1221] = false,

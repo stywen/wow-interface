@@ -17,11 +17,29 @@ end
 
 local function getGarrFollowerID(followerID)
     if GFICache[followerID] then
-        return GFICache[followerID].garrFollowerID
+        if GFICache[followerID].garrFollowerID then
+            return GFICache[followerID].garrFollowerID
+        end
+        for i = 1, 2 do
+            local troop = C_Garrison.GetAutoTroops(123)[i]
+            if troop.followerID == followerID then
+                GFICache[followerID].garrFollowerID = troop.garrFollowerID
+                return troop.garrFollowerID
+            end
+        end
     end
     GFICache[followerID] = C_Garrison.GetFollowerInfo(followerID)
     if GFICache[followerID] then
-        return GFICache[followerID].garrFollowerID
+        if GFICache[followerID].garrFollowerID then
+            return GFICache[followerID].garrFollowerID
+        end
+        for i = 1, 2 do
+            local troop = C_Garrison.GetAutoTroops(123)[i]
+            if troop.followerID == followerID then
+                GFICache[followerID].garrFollowerID = troop.garrFollowerID
+                return troop.garrFollowerID
+            end
+        end
     end
 end
 
@@ -120,19 +138,16 @@ function addon:isResultCacheCombinationKnown(missionID, follower1, follower2, fo
                     elseif cache == false then
                         return false 
                     else
-                        local cacheCopy = CopyTable(cache.combination)
                         local lineup = {follower1, follower2, follower3, follower4, follower5}
                         
                         -- cache will have garrFollowerIDs in the order frontleft, frontmid, frontright, backleft, backright
                         -- need to convert them to followerIDs
                         local combination = {}
-                        for l, c in pairs(cacheCopy) do
+                        for l, c in pairs(cache.combination) do
                             for k, v in pairs(lineup) do
                                 local garrFollowerID = getGarrFollowerID(v)
-                                if c then
-                                    if c == garrFollowerID then
-                                        cacheCopy[l] = v
-                                    end
+                                if c and (c == garrFollowerID) then
+                                    combination[l] = v
                                 end
                             end
                         end
