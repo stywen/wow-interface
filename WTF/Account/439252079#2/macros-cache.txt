@@ -1,0 +1,4 @@
+VER 3 0000000000000001 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Erste-Hilfe-Kasten
+END

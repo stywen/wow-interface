@@ -1,0 +1,7 @@
+VER 3 0100000000000002 "BustAnutt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+/cast [nopet] Invoke Xuen, the White Tiger
+/cast [pet] Weapons of Order
+/cast Storm, Earth, and Fire
+END

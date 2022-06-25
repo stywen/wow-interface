@@ -1,0 +1,2524 @@
+
+EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			{
+				8.877000000007683, -- [1]
+				"Realities folding upon realities.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				9.929000000003725, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				25.27000000001863, -- [1]
+				"Granaduk's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [3]
+			{
+				25.27000000001863, -- [1]
+				"Daktari's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [4]
+			{
+				30.92999999999302, -- [1]
+				"Cosmic collapse is inevitable.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				31.93499999999767, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [6]
+			{
+				36.85400000002119, -- [1]
+				"Shaynea's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [7]
+			{
+				61.54800000000978, -- [1]
+				"Witness the fury of the cosmos!", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				61.54800000000978, -- [1]
+				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [9]
+			{
+				69.9539999999979, -- [1]
+				"Khyara's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [10]
+			{
+				70.35099999999511, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				75.05400000000373, -- [1]
+				"There is no realm in which you can hide.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				106.8650000000198, -- [1]
+				"There is no realm in which you can hide.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				115.9780000000028, -- [1]
+				"Realities folding upon realities.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				116.9930000000168, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [15]
+			{
+				131.9400000000023, -- [1]
+				"Kanibal's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [16]
+			{
+				135.9700000000012, -- [1]
+				"|TInterface\\Icons\\Spell_AnimaMaw_Debuff.blp:20|t You have been afflicted with |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				2, -- [4]
+			}, -- [17]
+			{
+				137.6700000000128, -- [1]
+				"Cosmic collapse is inevitable.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				138.6169999999984, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				142.9660000000149, -- [1]
+				"Haoi's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [20]
+			{
+				153.9660000000149, -- [1]
+				"Dïo's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [21]
+			{
+				165.2829999999958, -- [1]
+				"Khyara's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [22]
+			{
+				168.2890000000189, -- [1]
+				"Witness the fury of the cosmos!", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				168.2890000000189, -- [1]
+				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [24]
+			{
+				181.8540000000212, -- [1]
+				"Existence will be re-ordered.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				213.6630000000005, -- [1]
+				"Existence will be re-ordered.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				222.9539999999979, -- [1]
+				"Realities folding upon realities.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				223.9690000000119, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				240.0970000000089, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				243.5100000000093, -- [1]
+				"Cosmic collapse is inevitable.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				244.6100000000151, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				260.7220000000089, -- [1]
+				"Kanibal's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [32]
+			{
+				275.189000000013, -- [1]
+				"Witness the fury of the cosmos!", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				275.189000000013, -- [1]
+				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [34]
+			{
+				283.0219999999972, -- [1]
+				"Khyara's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [35]
+			{
+				283.755999999994, -- [1]
+				"It must be done.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [36]
+			["boss"] = "Rygelon",
+		}, -- [1]
+		{
+			{
+				9.520999999978812, -- [1]
+				"Realities folding upon realities.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				10.53899999998976, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				25.1710000000021, -- [1]
+				"Haoi's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [3]
+			{
+				30.26300000000629, -- [1]
+				"Cosmic collapse is inevitable.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				31.06200000000536, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				36.21499999999651, -- [1]
+				"Flyingtail's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [6]
+			{
+				37.14299999998184, -- [1]
+				"Arimaa's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [7]
+			{
+				61.57600000000093, -- [1]
+				"Witness the fury of the cosmos!", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				61.57600000000093, -- [1]
+				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [9]
+			{
+				69.23399999999674, -- [1]
+				"Krashkâ's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [10]
+			{
+				69.625, -- [1]
+				"Arîtrea's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [11]
+			{
+				75.13800000000629, -- [1]
+				"There is no realm in which you can hide.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				106.9449999999779, -- [1]
+				"There is no realm in which you can hide.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				116.4989999999816, -- [1]
+				"Realities folding upon realities.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				117.429999999993, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [15]
+			{
+				137.1749999999884, -- [1]
+				"Cosmic collapse is inevitable.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				138.1919999999809, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [17]
+			{
+				154.25, -- [1]
+				"Shaynea's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [18]
+			{
+				159.1839999999793, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				167.8940000000002, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				168.4020000000019, -- [1]
+				"Witness the fury of the cosmos!", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				168.4020000000019, -- [1]
+				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [22]
+			{
+				176.0760000000009, -- [1]
+				"Kanibal's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [23]
+			{
+				176.2969999999914, -- [1]
+				"Arîtrea's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [24]
+			{
+				181.9149999999791, -- [1]
+				"Existence will be re-ordered.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				213.6579999999958, -- [1]
+				"Existence will be re-ordered.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				223.4259999999777, -- [1]
+				"Realities folding upon realities.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				224.3990000000049, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				235.4290000000037, -- [1]
+				"It must be done.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				244.0920000000042, -- [1]
+				"Cosmic collapse is inevitable.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				245.0959999999905, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				253.6659999999974, -- [1]
+				"|TInterface\\Icons\\Spell_AnimaMaw_Debuff.blp:20|t You have been afflicted with |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				2, -- [4]
+			}, -- [32]
+			{
+				253.8739999999816, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				261.4539999999979, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				271.6989999999933, -- [1]
+				"Dïo's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [35]
+			{
+				275.2139999999781, -- [1]
+				"Witness the fury of the cosmos!", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				275.2139999999781, -- [1]
+				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [37]
+			{
+				282.8880000000063, -- [1]
+				"Kanibal's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [38]
+			{
+				288.7339999999967, -- [1]
+				"My reach extends to all planes.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				320.4609999999811, -- [1]
+				"My reach extends to all planes.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [40]
+			{
+				330.2060000000056, -- [1]
+				"Realities folding upon realities.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				331.2309999999998, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [42]
+			{
+				345.7229999999981, -- [1]
+				"Flyingtail's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [43]
+			{
+				349.0279999999912, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [44]
+			{
+				350.9459999999963, -- [1]
+				"Cosmic collapse is inevitable.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [45]
+			{
+				351.9489999999933, -- [1]
+				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [46]
+			{
+				355.7149999999965, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [47]
+			{
+				364.7580000000016, -- [1]
+				"It must be done.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [48]
+			{
+				367.5769999999902, -- [1]
+				"Dònnerwetter's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [49]
+			{
+				367.7809999999881, -- [1]
+				"Catharsis's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [50]
+			{
+				378.7660000000033, -- [1]
+				"Valadk's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				3, -- [4]
+			}, -- [51]
+			{
+				379.1649999999791, -- [1]
+				"It must be done.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [52]
+			{
+				381.8800000000047, -- [1]
+				"Witness the fury of the cosmos!", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [53]
+			{
+				381.8800000000047, -- [1]
+				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
+				"Rygelon", -- [3]
+				1, -- [4]
+			}, -- [54]
+			{
+				389.3189999999886, -- [1]
+				"Life must be ended.", -- [2]
+				"Rygelon", -- [3]
+				7, -- [4]
+			}, -- [55]
+			["boss"] = "Rygelon",
+		}, -- [2]
+		{
+			["boss"] = "Rygelon",
+		}, -- [3]
+	},
+	["encounter_spells"] = {
+		[362275] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[360618] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ossein Ritual",
+		},
+		[365272] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[362276] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[360300] = {
+			["school"] = 40,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[361513] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[59638] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mirror Image",
+		},
+		[363681] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[368654] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lonibuh-Malygos",
+		},
+		[360303] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[365212] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[362726] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Domination Core",
+		},
+		[357945] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Lonibuh-Malygos",
+		},
+		[360304] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[361643] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[302547] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[365150] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[361644] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[336463] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ezmies-Blackhand",
+		},
+		[362601] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[368020] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[365024] = {
+			["school"] = 34,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[362028] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[362347] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[365216] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[361200] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[365153] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[357769] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Brooding Cleric",
+		},
+		[361966] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[31707] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Wasserelementar",
+		},
+		[114942] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Healing Tide Totem",
+		},
+		[365126] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype of Absolution",
+		},
+		[361967] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[55078] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rune Weapon",
+		},
+		[360565] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[365219] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[363598] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[364114] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[781] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[362415] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[360284] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[364073] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Degeneration Automa",
+		},
+		[362352] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Pinning Weapon",
+		},
+		[315496] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Lonibuh-Malygos",
+		},
+		[365030] = {
+			["school"] = 34,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[362207] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[364138] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[364967] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[1943] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Lonibuh-Malygos",
+		},
+		[362545] = {
+			["school"] = 48,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[363533] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[359868] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[362714] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[361553] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[364701] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[363735] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[361463] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[123725] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Fallen Monk",
+		},
+		[123996] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Xuen",
+		},
+		[362206] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[362631] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[361018] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[364652] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[361608] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Prototype of Absolution",
+		},
+		[363109] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[361548] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[360717] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[363952] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[217200] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ezmies-Blackhand",
+		},
+		[362805] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[359809] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[361913] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[361722] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[362137] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[360516] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[362136] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[365293] = {
+			["school"] = 34,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Befouled Barrier",
+		},
+		[362184] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[332526] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Kyrian Goliath",
+		},
+		[360419] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[360418] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[361278] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[362617] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[362171] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[360960] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[360259] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prototype of War",
+		},
+		[363893] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[362172] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[365041] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[360260] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Slumber Cloud",
+		},
+		[365169] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[19801] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[360302] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[360006] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[363130] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[181089] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[365147] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[365872] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[204242] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lorthelar-Eredar",
+		},
+		[363133] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "March of the Damned",
+		},
+		[360964] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[370718] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[362622] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[369571] = {
+			["school"] = 106,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Unstable Matter",
+		},
+		[359963] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[359960] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[365173] = {
+			["school"] = 34,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Befouled Barrier",
+		},
+		[362432] = {
+			["school"] = 106,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[367851] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[3600] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Earthbind Totem",
+		},
+		[365174] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[361923] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Inchoate Shadow",
+		},
+		[360288] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[352871] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Töterisch-Eredar",
+		},
+		[360287] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[362711] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[363773] = {
+			["school"] = 106,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[364092] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Degeneration Automa",
+		},
+		[345561] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[364985] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[361989] = {
+			["school"] = 34,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[360012] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[361607] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prototype of Absolution",
+		},
+		[365966] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[361225] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[118922] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[361863] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[365805] = {
+			["school"] = 34,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[364020] = {
+			["school"] = 48,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "March of the Damned",
+		},
+		[360015] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mal'Ganis",
+		},
+		[52042] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Healing Stream Totem",
+		},
+		[361418] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[365307] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sentry",
+		},
+		[365371] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[360845] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[104318] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Wild Imp",
+		},
+		[361993] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[186258] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ezmies-Blackhand",
+		},
+		[360591] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Necrotic Ritualist",
+		},
+		[360145] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[365120] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[224126] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spirit Wolf",
+		},
+		[359856] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[360146] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[362505] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[362773] = {
+			["school"] = 48,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[362772] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[362775] = {
+			["school"] = 48,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[362771] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[224127] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spirit Wolf",
+		},
+		[363399] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Domination Core",
+		},
+		[363332] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[352562] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gunak",
+		},
+		[361992] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[224125] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spirit Wolf",
+		},
+		[366014] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Acquisitions Automa",
+		},
+		[363018] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[362862] = {
+			["school"] = 48,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[365021] = {
+			["school"] = 34,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[364485] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[363019] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fiendish Soul",
+		},
+		[365888] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dominated Eradicator",
+		},
+		[365853] = {
+			["school"] = 34,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Befouled Barrier",
+		},
+		[365295] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[363020] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fiendish Soul",
+		},
+		[360279] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[362383] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Prototype of Renewal",
+		},
+		[362447] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Acquisitions Automa",
+		},
+		[363021] = {
+			["school"] = 48,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[361300] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype of War",
+		},
+		[367229] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Protoform Schematic",
+		},
+		[361938] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Prototype of War",
+		},
+		[360982] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[361301] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wild Stampede",
+		},
+		[361817] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[362194] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[360983] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[364942] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[361815] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[364248] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[366849] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[363088] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[19434] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[364236] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prototype of Renewal",
+		},
+		[361750] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[361304] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wild Stampede",
+		},
+		[365958] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[365257] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Guardian Automa",
+		},
+		[361751] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[345495] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Frothing Pustule",
+		},
+		[260402] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[361943] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Inchoate Shadow",
+		},
+		[363537] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[361816] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[365151] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[361689] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prototype of Absolution",
+		},
+		[363538] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[30153] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Felguard",
+		},
+		[361881] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[364240] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype of War",
+		},
+		[362774] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[361818] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[361882] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[364241] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype of Renewal",
+		},
+		[363795] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[362584] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Acquisitions Automa",
+		},
+		[366665] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[367290] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[353353] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ezmies-Blackhand",
+		},
+		[362075] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[367687] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Töterisch-Eredar",
+		},
+		[365008] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Grim Reflection",
+		},
+		[30213] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Felguard",
+		},
+		[363886] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[361630] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[366284] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[227291] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Niuzao",
+		},
+		[363607] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Domination Core",
+		},
+		[269576] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[366285] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[360229] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[361568] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype of Renewal",
+		},
+		[98021] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Spirit Link Totem",
+		},
+		[2818] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Lonibuh-Malygos",
+		},
+		[81297] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lorthelar-Eredar",
+		},
+		[364941] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[360281] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[364247] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[362271] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Collapsing Quasar",
+		},
+		[360295] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype of War",
+		},
+		[366847] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ossein Ritual",
+		},
+		[55095] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Töterisch-Eredar",
+		},
+		[365423] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[360562] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[342814] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Töterisch-Eredar",
+		},
+		[365269] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[359483] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[324073] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Lonibuh-Malygos",
+		},
+		[362401] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[366545] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[364569] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Collapsing Quasar",
+		},
+		[363676] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[361651] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[360159] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+		},
+		[365436] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+	},
+}

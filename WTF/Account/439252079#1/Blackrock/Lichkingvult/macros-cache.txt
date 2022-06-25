@@ -1,0 +1,20 @@
+VER 3 010000000000000A "Festering Strike" "879926"
+#showtooltip
+/cast [@mouseover, harm, nodead] Festering Strike
+END
+VER 3 0100000000000009 "OB" "INV_MISC_QUESTIONMARK"
+#showtooltip Outbreak
+/cast [target=mouseover,exists] Outbreak; Outbreak
+END
+VER 3 0100000000000008 "PET" "1100170"
+#showtooltip
+/petdismiss [pet]
+END
+VER 3 0100000000000007 "Raise Ally" "INV_MISC_QUESTIONMARK"
+#showtooltip Raise Ally
+/cast [@mouseover,help][@target]Raise Ally
+END
+VER 3 0100000000000001 "Tod und Verfall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@Player] Death and Decay
+END

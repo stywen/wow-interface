@@ -1,0 +1,83 @@
+VER 3 010000000000000A "AOE" "INV_MISC_QUESTIONMARK"
+#showtooltipps
+/castsequence  [@player] Spear of Bastion , Bladestorm
+END
+VER 3 0100000000000001 "Bloodthirst" "INV_MISC_QUESTIONMARK"
+#showtooltip Bloodthirst
+/cast [@mouseover, harm, nodead][@target] Bloodthirst
+END
+VER 3 0100000000000012 "BUFFED" "INV_MISC_QUESTIONMARK"
+#showtooltipps
+/use Spectral Flask of Power
+/use Potion of Spectral Strength
+END
+VER 3 0100000000000006 "Charge" "INV_MISC_QUESTIONMARK"
+#showtooltip Charge
+/cancelaura Bladestorm
+/cast [@mouseover, harm, nodead][@target] Charge
+END
+VER 3 0100000000000015 "deflect" "INV_MISC_QUESTIONMARK"
+#showtooltip Taunt
+/cancelaura Bladestorm
+/cast [@mouseover, harm, nodead][@target] Taunt
+/cast Spell Reflection
+END
+VER 3 0100000000000004 "Execute" "INV_MISC_QUESTIONMARK"
+#showtooltip execute
+/cancelaura Bladestorm
+/cast [@mouseover, harm, nodead][@target] Execute
+END
+VER 3 0100000000000008 "Heroic Leap" "INV_MISC_QUESTIONMARK"
+#showtooltip Heroic Leap
+/cast [@cursor] Heroic Leap 
+END
+VER 3 0100000000000007 "Intervene" "INV_MISC_QUESTIONMARK"
+#showtooltip Intervene
+/cancelaura Bladestorm
+/cast [@mouseover] Intervene
+END
+VER 3 010000000000000E "Myth+" "135775"
+/equipset AOE
+/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,3) c(2,3) c(3,1) c(4,3) c(5,3) c(6,3) c(7,1)        
+END
+VER 3 0100000000000013 "OIL MH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Shaded Sharpening Stone
+/use 17
+/click StaticPopup1Button1
+END
+VER 3 0100000000000014 "OIL OH" "INV_MISC_QUESTIONMARK"
+/use Shaded Weightstone
+/use 16
+/click StaticPopup1Button1
+END
+VER 3 0100000000000009 "Pummel" "INV_MISC_QUESTIONMARK"
+#showtooltip Pummel
+/cast [@focus, mod:alt][@mouseover, harm,nodead] Pumme
+END
+VER 3 010000000000000F "Raid" "135773"
+/equipset Single
+/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,2) c(2,1) c(3,2) c(4,2) c(5,3) c(6,2) c(7,1)        
+END
+VER 3 0100000000000003 "Rampage" "INV_MISC_QUESTIONMARK"
+#showtooltip rampage
+/cancelaura Bladestorm
+/cast rampage
+END
+VER 3 0100000000000005 "Storm Bolt" "INV_MISC_QUESTIONMARK"
+#showtooltip Storm Bolt
+/cast [@focus, nodead, mod:alt] [@mouseover, harm, nodead] [@target] Storm Bolt
+END
+VER 3 0100000000000011 "Talent6" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Dragon Roar
+/cast [talent:6/3] Bladestorm
+END
+VER 3 010000000000000B "Trinket 2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@player] 14
+END
+VER 3 0100000000000010 "Weapon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] [@target] 16
+END

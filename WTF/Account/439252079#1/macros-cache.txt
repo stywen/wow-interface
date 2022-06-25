@@ -1,0 +1,51 @@
+VER 3 0000000000000010 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Gul'dan's Soul Trap
+END
+VER 3 0000000000000008 "clear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/run for i = 1,120 do PickupAction(i) ClearCursor() end
+END
+VER 3 0000000000000011 "FOCUS" "237272"
+#showtooltip Target!
+/clearfocus 
+/focus [@mouseover,exists,nodead] []
+/script SetRaidTarget("focus", 7)
+/s FOCUS %f
+END
+VER 3 0000000000000012 "interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip Pummel
+/cast [@focus, nodead, mod:alt] [@mouseover, harm, exists, nodead] [@target] Pummel
+END
+VER 3 0000000000000015 "kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/clearfocus 
+/focus [@mouseover, nodead] 
+END
+VER 3 000000000000000E "played" "INV_MISC_QUESTIONMARK"
+/played
+END
+VER 3 0000000000000002 "roll" "132386"
+#showtooltip
+/roll
+END
+VER 3 0000000000000013 "target" "INV_MISC_QUESTIONMARK"
+/tar %t
+END
+VER 3 0000000000000014 "target" "INV_MISC_QUESTIONMARK"
+/target focustarget
+END
+VER 3 000000000000000F "UI" "INV_MISC_QUESTIONMARK"
+/run MainMenuBarArtFrame.LeftEndCap:Hide()
+/run MainMenuBarArtFrame.RightEndCap:Hide()
+/run MainMenuBarArtFrameBackground:Hide()
+/run ActionBarUpButton:Hide()
+/run ActionBarDownButton:Hide()
+/run MainMenuBarArtFrame.PageNumber:Hide()
+END
+VER 3 0000000000000016 "way" "INV_MISC_QUESTIONMARK"
+/way 61.5 17.6
+/way 60.0 25.9
+/way 60.9 37.8
+/way 65.9 26.9
+END

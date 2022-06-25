@@ -1,0 +1,51 @@
+
+FocusInterruptSoundsDB = {
+	["profileKeys"] = {
+		["Starplatïnum - Antonidas"] = "MONK",
+		["Dysea - Aegwynn"] = "DEATHKNIGHT",
+		["Nofriend - Aegwynn"] = "WARRIOR",
+		["Nofriendz - Blackrock"] = "WARRIOR",
+		["Starplatïnum - Blackrock"] = "MONK",
+		["Notafriend - Aegwynn"] = "WARRIOR",
+		["Testyu - Blackrock"] = "PALADIN",
+		["Byd - Mal'Ganis"] = "ROGUE",
+		["Blyyd - Antonidas"] = "DEATHKNIGHT",
+		["Eshidishii - Blackrock"] = "WARRIOR",
+		["Dïo - Blackrock"] = "MONK",
+		["Stywen - Antonidas"] = "WARRIOR",
+		["Omaewam - Blackrock"] = "PALADIN",
+		["Byd - Aegwynn"] = "DRUID",
+		["Gryyn - Blackrock"] = "WARLOCK",
+		["Lichkingvult - Blackrock"] = "DEATHKNIGHT",
+		["Magyc - Mal'Ganis"] = "MAGE",
+		["Buffedbeef - Blackrock"] = "DRUID",
+		["Synster - Aegwynn"] = "PALADIN",
+		["Byar - Antonidas"] = "DRUID",
+		["Odînaf - Blackrock"] = "DEMONHUNTER",
+		["Eurotas - Blackrock"] = "WARRIOR",
+		["Blyyd - Blackrock"] = "DEATHKNIGHT",
+		["Stylth - Antonidas"] = "ROGUE",
+		["Stylth - Blackrock"] = "ROGUE",
+		["Tizeran - Blackrock"] = "PALADIN",
+	},
+	["profiles"] = {
+		["DEATHKNIGHT"] = {
+		},
+		["WARRIOR"] = {
+		},
+		["ROGUE"] = {
+		},
+		["MAGE"] = {
+		},
+		["WARLOCK"] = {
+		},
+		["DEMONHUNTER"] = {
+		},
+		["DRUID"] = {
+		},
+		["MONK"] = {
+		},
+		["PALADIN"] = {
+		},
+	},
+}

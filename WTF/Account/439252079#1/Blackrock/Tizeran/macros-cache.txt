@@ -1,0 +1,15 @@
+VER 3 0100000000000001 "buy" "SPELL_FROST_ARCTICWINDS"
+/run for i=1,GetMerchantNumItems() do local l=GetMerchantItemLink(i) if l then if l:find("Sternlichtrose") then BuyMerchantItem(i, 3)end end end
+END
+VER 3 0100000000000003 "KEPH_RET-A" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KEPH_RET-A RightButton; [button:3] KEPH_RET-A MiddleButton; [button:4] KEPH_RET-A Button4; [button:5] KEPH_RET-A Button5; KEPH_RET-A
+END
+VER 3 0100000000000002 "KEPH_RET-S" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] KEPH_RET-S RightButton; [button:3] KEPH_RET-S MiddleButton; [button:4] KEPH_RET-S Button4; [button:5] KEPH_RET-S Button5; KEPH_RET-S
+END
+VER 3 0100000000000004 "RET_AOE/ST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] RET_AOE/ST RightButton; [button:3] RET_AOE/ST MiddleButton; [button:4] RET_AOE/ST Button4; [button:5] RET_AOE/ST Button5; RET_AOE/ST
+END

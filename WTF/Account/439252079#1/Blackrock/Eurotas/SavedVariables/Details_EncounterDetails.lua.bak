@@ -1,0 +1,501 @@
+
+EncounterDetailsDB = {
+	["encounter_spells"] = {
+		[244582] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[234896] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[235597] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Fallen Avatar",
+		},
+		[236432] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[239401] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Belac",
+		},
+		[234180] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[235267] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[234015] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Belac",
+		},
+		[233283] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Goroth",
+		},
+		[233441] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Atrigan",
+		},
+		[239135] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Tormented Soul",
+		},
+		[240970] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fallen Avatar",
+		},
+		[235253] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[27758] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Patchwork Golem",
+		},
+		[234891] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[235214] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[235230] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Belac",
+		},
+		[243298] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Coercitor Nixa",
+		},
+		[243295] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Accusator Gnazh",
+		},
+		[243289] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Inquisitor Sebilus",
+		},
+		[28240] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Grobbulus",
+		},
+		[248713] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Tormented Soul",
+		},
+		[240213] = {
+			["school"] = 124,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fallen Avatar",
+		},
+		[236061] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[27794] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Patchwork Golem",
+		},
+		[235271] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[233444] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Atrigan",
+		},
+		[241004] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Volatile Corruption",
+		},
+		[27807] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Bile Retcher",
+		},
+		[240209] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+		},
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Patchwerk",
+		},
+		[28158] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Grobbulus Cloud",
+		},
+		[234059] = {
+			["school"] = 124,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Fallen Avatar",
+		},
+		[233426] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Atrigan",
+		},
+		[233983] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Belac",
+		},
+		[235028] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[233272] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Goroth",
+		},
+		[231363] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Goroth",
+		},
+		[240218] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[248812] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[233556] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Containment Pylon",
+		},
+		[239486] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Volatile Corruption",
+		},
+		[28308] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Patchwerk",
+		},
+		[239439] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Eonic Defender",
+		},
+		[233021] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[236494] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fallen Avatar",
+		},
+		[240219] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[234179] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Fallen Avatar",
+		},
+		[235236] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Belac",
+		},
+	},
+	["emotes"] = {
+		{
+			{
+				0.2010000000009313, -- [1]
+				"This will hurt... I promise!", -- [2]
+				"Atrigan", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				3.19100000000617, -- [1]
+				"Physical pain? Bah! Mental anguish is the true weapon. Was it not the key to turning Rakeesh?", -- [2]
+				"Belac", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				5, -- [1]
+				"Your minds will break!", -- [2]
+				"Belac", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				5.764999999999418, -- [1]
+				"|TInterface\\Icons\\spell_shadow_painspike:20|tYou are afflicted by  |cFFFF0000|Hspell:233983|h[Echoing Anguish]|h|r!", -- [2]
+				"Eurotas", -- [3]
+				2, -- [4]
+			}, -- [4]
+			{
+				14.25300000001153, -- [1]
+				"Bah! It was the suffering I inflicted which... Hold! The mortals come! That fool Goroth has failed again!", -- [2]
+				"Atrigan", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				25.81800000001385, -- [1]
+				"Sooner than expected, but no matter. Our work begins!", -- [2]
+				"Belac", -- [3]
+				7, -- [4]
+			}, -- [6]
+			["boss"] = "Demonic Inquisition",
+		}, -- [1]
+		{
+			{
+				4.187999999994645, -- [1]
+				"Your minds will break!", -- [2]
+				"Belac", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				4.998999999996158, -- [1]
+				"|TInterface\\Icons\\spell_shadow_painspike:20|tYou are afflicted by  |cFFFF0000|Hspell:233983|h[Echoing Anguish]|h|r!", -- [2]
+				"Eurotas", -- [3]
+				2, -- [4]
+			}, -- [2]
+			{
+				35.39699999999721, -- [1]
+				"Resistance will only bring pain!", -- [2]
+				"Belac", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				55.94000000000233, -- [1]
+				"|TInterface\\Icons\\spell_shadow_painspike:20|tYou are afflicted by  |cFFFF0000|Hspell:233983|h[Echoing Anguish]|h|r!", -- [2]
+				"Eurotas", -- [3]
+				2, -- [4]
+			}, -- [4]
+			{
+				61.19800000000396, -- [1]
+				"Feed me with your screams!", -- [2]
+				"Atrigan", -- [3]
+				7, -- [4]
+			}, -- [5]
+			["boss"] = "Demonic Inquisition",
+		}, -- [2]
+		{
+			{
+				4.455000000001746, -- [1]
+				"Your minds will break!", -- [2]
+				"Belac", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				6.486999999993714, -- [1]
+				"|TInterface\\Icons\\spell_shadow_painspike:20|tYou are afflicted by  |cFFFF0000|Hspell:233983|h[Echoing Anguish]|h|r!", -- [2]
+				"Eurotas", -- [3]
+				2, -- [4]
+			}, -- [2]
+			{
+				37.60899999999674, -- [1]
+				"I will burn away your defiance!", -- [2]
+				"Belac", -- [3]
+				7, -- [4]
+			}, -- [3]
+			["boss"] = "Demonic Inquisition",
+		}, -- [3]
+	},
+}

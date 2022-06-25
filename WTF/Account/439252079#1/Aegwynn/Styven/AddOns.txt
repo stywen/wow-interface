@@ -1,0 +1,3 @@
+AAP-Core: disabled
+AAP-EasternKingdoms: disabled
+AAP-Shadowlands: disabled

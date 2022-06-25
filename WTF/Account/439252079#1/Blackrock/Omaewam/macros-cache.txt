@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "Ascheweihung" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Ascheweihung
+END

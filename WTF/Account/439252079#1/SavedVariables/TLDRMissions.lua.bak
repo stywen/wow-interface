@@ -1,0 +1,104 @@
+
+TLDRMissionsProfiles = {
+	["profileKeys"] = {
+		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
+		["Dysea - Aegwynn"] = "Dysea - Aegwynn",
+		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
+		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
+		["Testyu - Blackrock"] = "Testyu - Blackrock",
+		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Dïo - Blackrock"] = "Dïo - Blackrock",
+		["Stywen - Antonidas"] = "Stywen - Antonidas",
+		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
+		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
+		["Synster - Aegwynn"] = "Synster - Aegwynn",
+		["Byar - Antonidas"] = "Byar - Antonidas",
+		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
+		["Stylth - Antonidas"] = "Stylth - Antonidas",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+	},
+	["profiles"] = {
+		["Starplatïnum - Antonidas"] = {
+		},
+		["Dysea - Aegwynn"] = {
+		},
+		["Nofriend - Aegwynn"] = {
+		},
+		["Nofriendz - Blackrock"] = {
+		},
+		["Starplatïnum - Blackrock"] = {
+		},
+		["Notafriend - Aegwynn"] = {
+		},
+		["Testyu - Blackrock"] = {
+		},
+		["Byd - Mal'Ganis"] = {
+		},
+		["Blyyd - Antonidas"] = {
+		},
+		["Eshidishii - Blackrock"] = {
+			["sacrificeRemaining"] = true,
+			["selectedRewards"] = {
+				"gold", -- [1]
+				"anima", -- [2]
+				"followerxp-items", -- [3]
+				"pet-charms", -- [4]
+				"augment-runes", -- [5]
+				"reputation", -- [6]
+				"followerxp", -- [7]
+				"crafting-cache", -- [8]
+				"runecarver", -- [9]
+				"campaign", -- [10]
+				"gear", -- [11]
+				"sanctum", -- [12]
+			},
+		},
+		["Dïo - Blackrock"] = {
+		},
+		["Stywen - Antonidas"] = {
+		},
+		["Omaewam - Blackrock"] = {
+		},
+		["Byd - Aegwynn"] = {
+		},
+		["Gryyn - Blackrock"] = {
+		},
+		["Lichkingvult - Blackrock"] = {
+		},
+		["Magyc - Mal'Ganis"] = {
+		},
+		["Buffedbeef - Blackrock"] = {
+		},
+		["Synster - Aegwynn"] = {
+		},
+		["Byar - Antonidas"] = {
+		},
+		["Odînaf - Blackrock"] = {
+		},
+		["Eurotas - Blackrock"] = {
+		},
+		["Blyyd - Blackrock"] = {
+		},
+		["Stylth - Antonidas"] = {
+		},
+		["Stylth - Blackrock"] = {
+		},
+		["Tizeran - Blackrock"] = {
+		},
+	},
+}
+TLDRMissionsCache = {
+	["9.2-101"] = {
+	},
+}

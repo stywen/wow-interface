@@ -1,0 +1,28 @@
+VER 3 0100000000000002 "Ansturm" "132337"
+#showtooltip
+/cast Sturmangriff
+END
+VER 3 0100000000000001 "burst" "132092"
+#showtaooltip
+/cast Kochendes Blut(Volksfähigkeit)
+/cast Schlachtruf
+/use 13
+/use Resonanz der Weltader(Azeritessenz)
+/use 14
+/use Saphir der Brillanz
+END
+VER 3 0100000000000005 "BustAnutt" "INV_Misc_QuestionMark"
+#showtooltip
+/use 14
+/cast [nopet] Invoke Xuen, the White Tiger
+/cast [pet] Weapons of Order
+/cast Storm, Earth, and Fire
+END
+VER 3 0100000000000004 "ELFYZONEBUTT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] ELFYZONEBUTT RightButton; [button:3] ELFYZONEBUTT MiddleButton; [button:4] ELFYZONEBUTT Button4; [button:5] ELFYZONEBUTT Button5; ELFYZONEBUTT
+END
+VER 3 0100000000000003 "Kriegsbrecher" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence reset=3 Avatar, Kriegsbrecher
+END

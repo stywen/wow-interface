@@ -1,0 +1,24 @@
+VER 3 0100000000000001 "BustAnutt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nopet] Invoke Xuen, the White Tiger
+/cast Storm, Earth, and Fire
+/cast Blood Fury(Racial)
+/cast [@player] Bonedust Brew(Necrolord)
+/use 13
+END
+VER 3 0100000000000005 "interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip Spear Hand Strike
+/cast [@focus, nodead, mod:alt] [@mouseover, harm, nodead] [@target] Spear Hand Strike
+END
+VER 3 0100000000000004 "necro" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Bonedust Brew
+END
+VER 3 0100000000000002 "Talent 1||2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/2] Chi Wave; Chi Burst
+END
+VER 3 0100000000000003 "Talent 5||2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2] Diffuse Magic; Dampen Harm
+END

@@ -1,0 +1,35 @@
+
+HandyNotes_ShadowlandsDB = {
+	["profileKeys"] = {
+		["Starplatïnum - Antonidas"] = "Default",
+		["Dysea - Aegwynn"] = "Default",
+		["Nofriend - Aegwynn"] = "Default",
+		["Nofriendz - Blackrock"] = "Default",
+		["Starplatïnum - Blackrock"] = "Default",
+		["Notafriend - Aegwynn"] = "Default",
+		["Testyu - Blackrock"] = "Default",
+		["Byd - Mal'Ganis"] = "Default",
+		["Blyyd - Antonidas"] = "Default",
+		["Eshidishii - Blackrock"] = "Default",
+		["Dïo - Blackrock"] = "Default",
+		["Stywen - Antonidas"] = "Default",
+		["Omaewam - Blackrock"] = "Default",
+		["Tizeran - Blackrock"] = "Default",
+		["Gryyn - Blackrock"] = "Default",
+		["Lichkingvult - Blackrock"] = "Default",
+		["Magyc - Mal'Ganis"] = "Default",
+		["Stylth - Blackrock"] = "Default",
+		["Synster - Aegwynn"] = "Default",
+		["Byar - Antonidas"] = "Default",
+		["Eurotas - Blackrock"] = "Default",
+		["Odînaf - Blackrock"] = "Default",
+		["Blyyd - Blackrock"] = "Default",
+		["Stylth - Antonidas"] = "Default",
+		["Buffedbeef - Blackrock"] = "Default",
+		["Byd - Aegwynn"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

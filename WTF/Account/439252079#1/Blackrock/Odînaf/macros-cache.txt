@@ -1,0 +1,8 @@
+VER 3 0100000000000001 "Zeichen der Kett" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Zeichen der Ketten
+END
+VER 3 0100000000000002 "ZfM" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Zeichen der Flamme
+END

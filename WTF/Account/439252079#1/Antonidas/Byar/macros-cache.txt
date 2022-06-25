@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "switch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] Bear Form(Shapeshift)
+/cast [nomod] Travel Form(Shapeshift)
+END

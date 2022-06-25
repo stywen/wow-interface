@@ -1,0 +1,4065 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 9,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005125,
+							["total"] = 30.005125,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Murloc Watershaper"] = 30,
+							},
+							["pets"] = {
+							},
+							["spec"] = 1447,
+							["colocacao"] = 1,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 30.005125,
+							["friendlyfire"] = {
+							},
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1654354028,
+							["friendlyfire_total"] = 0,
+							["aID"] = "3679-0C35D100",
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Murloc Watershaper"] = 30,
+										},
+										["n_dmg"] = 30,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 14.70839460778438,
+							["custom"] = 0,
+							["last_event"] = 1654354027,
+							["damage_taken"] = 0.005125,
+							["start_time"] = 1654354026,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.002746,
+							["friendlyfire"] = {
+							},
+							["damage_from"] = {
+								["Byd"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.002746,
+							["aID"] = "150229",
+							["dps_started"] = false,
+							["total"] = 0.002746,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-4250-2175-4915-150229-00001B8C83",
+							["nome"] = "Murloc Watershaper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["end_time"] = 1654354028,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 30.002746,
+							["start_time"] = 1654354028,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 9,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Byd"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 6.001977999999999,
+							["total_without_pet"] = 0.001978,
+							["total"] = 0.001978,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3679-0C35D100",
+							["totalabsorb"] = 0.001978,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.001978,
+							["healing_taken"] = 0.001978,
+							["end_time"] = 1654354028,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Byd"] = 6,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Byd"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1654354027,
+							["spec"] = 1447,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "3679-0C35D100",
+							["totaldenied"] = 0.001978,
+							["delay"] = 0,
+							["last_event"] = 1654354027,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 9,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 9,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Byd",
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 1447,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5176] = 1,
+							},
+							["buff_uptime"] = 2,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["tipo"] = 4,
+							["aID"] = "3679-0C35D100",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-3679-0C35D100",
+							["last_event"] = 1654354028,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 9,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["tempo_start"] = 1654354026,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 14,
+				["playing_solo"] = true,
+				["totals"] = {
+					29.990067, -- [1]
+					0, -- [2]
+					{
+						-0.002597000000001515, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					30, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "16:47:08",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Watershaper",
+				["TotalElapsedCombatTime"] = 75123.263,
+				["CombatEndedAt"] = 75123.263,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Byd"] = 0.001978,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 30.005125,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 75123.263,
+				["combat_id"] = 9,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "16:47:06",
+				["start_time"] = 75121.223,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Murloc Watershaper"] = 1,
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 8,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004856,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Murloc Watershaper"] = 30,
+							},
+							["pets"] = {
+							},
+							["total"] = 30.004856,
+							["on_hold"] = false,
+							["aID"] = "3679-0C35D100",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 30.004856,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1654354024,
+							["classe"] = "DRUID",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Murloc Watershaper"] = 30,
+										},
+										["n_dmg"] = 30,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1447,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 12.0019424,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.004856,
+							["start_time"] = 1654354021,
+							["delay"] = 0,
+							["last_event"] = 1654354024,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.003749,
+							["damage_from"] = {
+								["Byd"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003749,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1654354024,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Watershaper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["aID"] = "150229",
+							["total"] = 0.003749,
+							["serial"] = "Creature-0-4250-2175-4915-150229-00001B8319",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 30.003749,
+							["start_time"] = 1654354024,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 8,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Byd"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 6.003785000000001,
+							["total_without_pet"] = 0.003785,
+							["total"] = 0.003785,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3679-0C35D100",
+							["totalabsorb"] = 0.003785,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.003785,
+							["healing_taken"] = 0.003785,
+							["end_time"] = 1654354024,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Byd"] = 6,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Byd"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1654354024,
+							["spec"] = 1447,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "3679-0C35D100",
+							["totaldenied"] = 0.003785,
+							["delay"] = 0,
+							["last_event"] = 1654354024,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 8,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 8,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Byd",
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 1447,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5176] = 1,
+							},
+							["buff_uptime"] = 3,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["tipo"] = 4,
+							["aID"] = "3679-0C35D100",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-3679-0C35D100",
+							["last_event"] = 1654354024,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 8,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["CombatStartedAt"] = 75120.59300000001,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 13,
+				["playing_solo"] = true,
+				["totals"] = {
+					29.98314, -- [1]
+					0, -- [2]
+					{
+						-0.004357999999999862, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "16:47:04",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Watershaper",
+				["TotalElapsedCombatTime"] = 75119.222,
+				["CombatEndedAt"] = 75119.222,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:47:02",
+				["end_time"] = 75119.222,
+				["combat_id"] = 8,
+				["tempo_start"] = 1654354021,
+				["frags"] = {
+					["Murloc Watershaper"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					30, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Byd"] = 0.003785,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 30.004856,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 75116.722,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 7,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006749,
+							["spec"] = 1447,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Murloc Watershaper"] = 29,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1654354020,
+							["aID"] = "3679-0C35D100",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29.006749,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 29.006749,
+							["classe"] = "DRUID",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Murloc Watershaper"] = 29,
+										},
+										["n_dmg"] = 29,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 18.71403161286809,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.006749,
+							["start_time"] = 1654354017,
+							["delay"] = 0,
+							["last_event"] = 1654354018,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004675,
+							["damage_from"] = {
+								["Byd"] = true,
+								["Mandret-Nethersturm"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["aID"] = "150229",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004675,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 0.004675,
+							["end_time"] = 1654354020,
+							["on_hold"] = false,
+							["nome"] = "Murloc Watershaper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-4250-2175-4915-150229-00001B84EF",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 35.004675,
+							["start_time"] = 1654354020,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 7,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Byd"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 6.008525000000001,
+							["total_without_pet"] = 0.008525,
+							["total"] = 0.008525,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3679-0C35D100",
+							["totalabsorb"] = 0.008525,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.008525,
+							["healing_taken"] = 0.008525,
+							["end_time"] = 1654354020,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Byd"] = 6,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Byd"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1654354018,
+							["spec"] = 1447,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "3679-0C35D100",
+							["totaldenied"] = 0.008525,
+							["delay"] = 0,
+							["last_event"] = 1654354018,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 7,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 7,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Byd",
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 1447,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5176] = 1,
+							},
+							["buff_uptime"] = 3,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["tipo"] = 4,
+							["aID"] = "3679-0C35D100",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-3679-0C35D100",
+							["last_event"] = 1654354020,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 7,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["CombatStartedAt"] = 75115.422,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 12,
+				["playing_solo"] = true,
+				["totals"] = {
+					28.998366, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "16:47:00",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Watershaper",
+				["TotalElapsedCombatTime"] = 75114.782,
+				["CombatEndedAt"] = 75114.782,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:46:57",
+				["end_time"] = 75114.782,
+				["combat_id"] = 7,
+				["tempo_start"] = 1654354017,
+				["frags"] = {
+					["Murloc Watershaper"] = 2,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					29, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Byd"] = 0.008525,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 29.006749,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 75112.222,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 6,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005523,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Murloc Watershaper"] = 29,
+							},
+							["pets"] = {
+							},
+							["total"] = 29.005523,
+							["on_hold"] = false,
+							["aID"] = "3679-0C35D100",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29.005523,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1654354015,
+							["classe"] = "DRUID",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Murloc Watershaper"] = 29,
+										},
+										["n_dmg"] = 29,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1447,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 11.93642921806983,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005523,
+							["start_time"] = 1654354012,
+							["delay"] = 0,
+							["last_event"] = 1654354014,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.006814,
+							["damage_from"] = {
+								["Byd"] = true,
+								["Mandret-Nethersturm"] = true,
+							},
+							["targets"] = {
+								["Mandret-Nethersturm"] = 5,
+							},
+							["pets"] = {
+							},
+							["total"] = 5.006814,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5.006814,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1654354017,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Watershaper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Mandret-Nethersturm"] = 5,
+										},
+										["n_dmg"] = 5,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "150229",
+							["serial"] = "Creature-0-4250-2175-4915-150229-00001B847B",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1654354017,
+							["damage_taken"] = 46.006814,
+							["start_time"] = 1654354015,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 6,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Byd"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 6.007738,
+							["total_without_pet"] = 0.007738,
+							["total"] = 0.007738,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3679-0C35D100",
+							["totalabsorb"] = 0.007738,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.007738,
+							["healing_taken"] = 0.007738,
+							["end_time"] = 1654354015,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Byd"] = 6,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Byd"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1654354014,
+							["spec"] = 1447,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "3679-0C35D100",
+							["totaldenied"] = 0.007738,
+							["delay"] = 0,
+							["last_event"] = 1654354014,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 6,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 6,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Byd",
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 1447,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5176] = 1,
+							},
+							["buff_uptime"] = 3,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["tipo"] = 4,
+							["aID"] = "3679-0C35D100",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-3679-0C35D100",
+							["last_event"] = 1654354015,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 6,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["CombatStartedAt"] = 75111.162,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 11,
+				["playing_solo"] = true,
+				["totals"] = {
+					33.995838, -- [1]
+					0, -- [2]
+					{
+						-0.004015000000002544, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "16:46:55",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Watershaper",
+				["TotalElapsedCombatTime"] = 75109.952,
+				["CombatEndedAt"] = 75109.952,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:46:53",
+				["end_time"] = 75109.952,
+				["combat_id"] = 6,
+				["tempo_start"] = 1654354012,
+				["frags"] = {
+					["Murloc Watershaper"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					29, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Byd"] = 0.007738,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 29.005523,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 75107.522,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001839,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Murloc Spearhunter"] = 29,
+							},
+							["pets"] = {
+							},
+							["total"] = 29.001839,
+							["on_hold"] = false,
+							["aID"] = "3679-0C35D100",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 29.001839,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1654354010,
+							["classe"] = "DRUID",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Murloc Spearhunter"] = 29,
+										},
+										["n_dmg"] = 29,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1447,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 18.35559430394624,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001839,
+							["start_time"] = 1654354007,
+							["delay"] = 0,
+							["last_event"] = 1654354009,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.006896,
+							["damage_from"] = {
+								["Byd"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.006896,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1654354010,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Spearhunter",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["aID"] = "150228",
+							["total"] = 0.006896,
+							["serial"] = "Creature-0-4250-2175-4915-150228-00001B84F6",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 29.006896,
+							["start_time"] = 1654354010,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 5,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Byd"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 6.00328,
+							["total_without_pet"] = 0.00328,
+							["total"] = 0.00328,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3679-0C35D100",
+							["totalabsorb"] = 0.00328,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00328,
+							["healing_taken"] = 0.00328,
+							["end_time"] = 1654354010,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Byd"] = 6,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Byd"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1654354009,
+							["spec"] = 1447,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "3679-0C35D100",
+							["totaldenied"] = 0.00328,
+							["delay"] = 0,
+							["last_event"] = 1654354009,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 5,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 5,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Byd",
+							["spec"] = 1447,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 3,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["last_event"] = 1654354010,
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-3679-0C35D100",
+							["aID"] = "3679-0C35D100",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["CombatStartedAt"] = 75106.152,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 10,
+				["playing_solo"] = true,
+				["totals"] = {
+					29, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "16:46:50",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Spearhunter",
+				["TotalElapsedCombatTime"] = 75105.092,
+				["CombatEndedAt"] = 75105.092,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:46:48",
+				["end_time"] = 75105.092,
+				["combat_id"] = 5,
+				["tempo_start"] = 1654354007,
+				["frags"] = {
+					["Murloc Spearhunter"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					29, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Byd"] = 0.00328,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 29.001839,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 75102.392,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [5]
+			{
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001688,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Murloc Spearhunter"] = 30,
+							},
+							["pets"] = {
+							},
+							["total"] = 30.001688,
+							["on_hold"] = false,
+							["aID"] = "3679-0C35D100",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 30.001688,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1654353999,
+							["classe"] = "DRUID",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Murloc Spearhunter"] = 30,
+										},
+										["n_dmg"] = 30,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1447,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 14.70670980396773,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001688,
+							["start_time"] = 1654353997,
+							["delay"] = 0,
+							["last_event"] = 1654353998,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004692,
+							["damage_from"] = {
+								["Byd"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004692,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1654353999,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Spearhunter",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["aID"] = "150228",
+							["total"] = 0.004692,
+							["serial"] = "Creature-0-4250-2175-4915-150228-00001B8C5C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 30.004692,
+							["start_time"] = 1654353999,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 4,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Byd"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 6.004629,
+							["total_without_pet"] = 0.004629,
+							["total"] = 0.004629,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3679-0C35D100",
+							["totalabsorb"] = 0.004629,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.004629,
+							["healing_taken"] = 0.004629,
+							["end_time"] = 1654353999,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Byd"] = 6,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Byd"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1654353998,
+							["spec"] = 1447,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "3679-0C35D100",
+							["totaldenied"] = 0.004629,
+							["delay"] = 0,
+							["last_event"] = 1654353998,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 4,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 4,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Byd",
+							["spec"] = 1447,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 2,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["last_event"] = 1654353999,
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-3679-0C35D100",
+							["aID"] = "3679-0C35D100",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["CombatStartedAt"] = 75100.732,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 9,
+				["playing_solo"] = true,
+				["totals"] = {
+					29.982576, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "16:46:39",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Spearhunter",
+				["TotalElapsedCombatTime"] = 75094.152,
+				["CombatEndedAt"] = 75094.152,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:46:37",
+				["end_time"] = 75094.152,
+				["combat_id"] = 4,
+				["tempo_start"] = 1654353997,
+				["frags"] = {
+					["Murloc Spearhunter"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					30, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Byd"] = 0.004629,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 30.001688,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 75092.11200000001,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [6]
+			{
+				{
+					["combatId"] = 3,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004314,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Murloc Watershaper"] = 30,
+							},
+							["pets"] = {
+							},
+							["total"] = 30.004314,
+							["on_hold"] = false,
+							["aID"] = "3679-0C35D100",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 30.004314,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1654353990,
+							["classe"] = "DRUID",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 15,
+										["targets"] = {
+											["Murloc Watershaper"] = 30,
+										},
+										["n_dmg"] = 30,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1447,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 14.08653239443164,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.004314,
+							["start_time"] = 1654353988,
+							["delay"] = 0,
+							["last_event"] = 1654353990,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004297,
+							["damage_from"] = {
+								["Byd"] = true,
+								["Vemox-Antonidas"] = true,
+							},
+							["targets"] = {
+								["Vemox-Antonidas"] = 4,
+							},
+							["pets"] = {
+							},
+							["total"] = 4.004297,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4.004297,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1654353997,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Watershaper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Vemox-Antonidas"] = 4,
+										},
+										["n_dmg"] = 4,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "150229",
+							["serial"] = "Creature-0-4250-2175-4915-150229-00001B8C5C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1654353993,
+							["damage_taken"] = 49.004297,
+							["start_time"] = 1654353990,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 3,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Byd"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 6.005104,
+							["total_without_pet"] = 0.005104,
+							["total"] = 0.005104,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3679-0C35D100",
+							["totalabsorb"] = 0.005104,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.005104,
+							["healing_taken"] = 0.005104,
+							["end_time"] = 1654353990,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Byd"] = 6,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Byd"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1654353990,
+							["spec"] = 1447,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "3679-0C35D100",
+							["totaldenied"] = 0.005104,
+							["delay"] = 0,
+							["last_event"] = 1654353990,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 3,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 3,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Byd",
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 1447,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5176] = 1,
+							},
+							["buff_uptime"] = 2,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["tipo"] = 4,
+							["aID"] = "3679-0C35D100",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-3679-0C35D100",
+							["last_event"] = 1654353990,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 3,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["CombatStartedAt"] = 75090.36200000001,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 8,
+				["playing_solo"] = true,
+				["totals"] = {
+					33.991826, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "16:46:31",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Watershaper",
+				["TotalElapsedCombatTime"] = 75085.658,
+				["CombatEndedAt"] = 75085.658,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:46:29",
+				["end_time"] = 75085.658,
+				["combat_id"] = 3,
+				["tempo_start"] = 1654353988,
+				["frags"] = {
+					["Murloc Watershaper"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					30, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Byd"] = 0.005104,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 30.004314,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 75083.528,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [7]
+			{
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001261,
+							["damage_from"] = {
+								["Private Cole"] = true,
+							},
+							["targets"] = {
+								["Private Cole"] = 64,
+							},
+							["pets"] = {
+							},
+							["total"] = 64.001261,
+							["on_hold"] = false,
+							["aID"] = "3679-0C35D100",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 64.001261,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1654353941,
+							["classe"] = "DRUID",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Private Cole"] = 64,
+										},
+										["n_dmg"] = 64,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 64,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1447,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 7.002326148796945,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3.001261,
+							["start_time"] = 1654353931,
+							["delay"] = 0,
+							["last_event"] = 1654353941,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.008459,
+							["damage_from"] = {
+								["Byd"] = true,
+							},
+							["targets"] = {
+								["Byd"] = 3,
+							},
+							["pets"] = {
+							},
+							["total"] = 3.008459,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3.008459,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1654353941,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Private Cole",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Byd"] = 3,
+										},
+										["n_dmg"] = 3,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "157051",
+							["serial"] = "Creature-0-4233-2175-28277-157051-00001B8C26",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1654353940,
+							["damage_taken"] = 64.008459,
+							["start_time"] = 1654353933,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Byd",
+							["spec"] = 1447,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["spell_cast"] = {
+								[5176] = 6,
+							},
+							["tipo"] = 4,
+							["aID"] = "3679-0C35D100",
+							["serial"] = "Player-3679-0C35D100",
+							["last_event"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["classe"] = "UNKNOW",
+							["nome"] = "Private Cole",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[312757] = 1,
+								[312755] = 1,
+							},
+							["tipo"] = 4,
+							["aID"] = "157051",
+							["serial"] = "Creature-0-4233-2175-28277-157051-00001B8C26",
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["CombatStartedAt"] = 75082.758,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7,
+				["playing_solo"] = true,
+				["totals"] = {
+					66.98498099999999, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["data_fim"] = "16:45:41",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Private Cole",
+				["TotalElapsedCombatTime"] = 75036.178,
+				["CombatEndedAt"] = 75036.178,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:45:32",
+				["end_time"] = 75036.178,
+				["combat_id"] = 2,
+				["tempo_start"] = 1654353931,
+				["frags"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					64, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 64.001261,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 75027.038,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [8]
+			{
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004086,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Combat Dummy"] = 54,
+							},
+							["pets"] = {
+							},
+							["total"] = 54.004086,
+							["on_hold"] = false,
+							["aID"] = "3679-0C35D100",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 54.004086,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1654353923,
+							["classe"] = "DRUID",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[5176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Combat Dummy"] = 54,
+										},
+										["n_dmg"] = 54,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 54,
+										["c_max"] = 0,
+										["id"] = 5176,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1447,
+							["serial"] = "Player-3679-0C35D100",
+							["last_dps"] = 7.013517662327059,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.004086,
+							["start_time"] = 1654353911,
+							["delay"] = 0,
+							["last_event"] = 1654353919,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.003165,
+							["damage_from"] = {
+								["Byd"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003165,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1654353923,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Combat Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["aID"] = "160737",
+							["total"] = 0.003165,
+							["serial"] = "Creature-0-4233-2175-28277-160737-00029B8B0E",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 54.003165,
+							["start_time"] = 1654353923,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Byd"] = 5,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 5.006067,
+							["total_without_pet"] = 0.006067,
+							["total"] = 0.006067,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-3679-0C35D100",
+							["totalabsorb"] = 0.006067,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.006067,
+							["healing_taken"] = 0.006067,
+							["end_time"] = 1654353923,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Byd",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Byd"] = 5,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Byd"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 5,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1654353919,
+							["spec"] = 1447,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "3679-0C35D100",
+							["totaldenied"] = 0.006067,
+							["delay"] = 0,
+							["last_event"] = 1654353919,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Byd",
+							["spec"] = 1447,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["spell_cast"] = {
+								[5176] = 5,
+							},
+							["tipo"] = 4,
+							["aID"] = "3679-0C35D100",
+							["serial"] = "Player-3679-0C35D100",
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Byd"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Byd", -- [1]
+				},
+				["CombatStartedAt"] = 75026.548,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 6,
+				["playing_solo"] = true,
+				["totals"] = {
+					54, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "16:45:24",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Combat Dummy",
+				["TotalElapsedCombatTime"] = 75019.007,
+				["CombatEndedAt"] = 75019.007,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "16:45:12",
+				["end_time"] = 75019.007,
+				["combat_id"] = 1,
+				["tempo_start"] = 1654353911,
+				["frags"] = {
+					["Combat Dummy"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					54, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Byd"] = 0.006067,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Byd"] = 54.004086,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 75006.605,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [9]
+		},
+	},
+	["ocd_tracker"] = {
+		["enabled"] = false,
+		["current_cooldowns"] = {
+		},
+		["lines_per_column"] = 12,
+		["show_options"] = false,
+		["filters"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["width"] = 120,
+		["height"] = 18,
+		["cooldowns"] = {
+		},
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["framme_locked"] = false,
+		["pos"] = {
+		},
+	},
+	["last_version"] = "9.2.59818",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["on_death_menu"] = false,
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 0,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Byd-Aegwynn",
+	["last_realversion"] = 146,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["useclasscolors"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["playSound"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = true,
+			["tank_block_powerbar_size_height"] = 10,
+			["tank_block_height"] = 40,
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["encounter_timers_dbm"] = {
+			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["grow_direction"] = "right",
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				299.9999389648438, -- [1]
+				500.0000305175781, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["author"] = "Terciob",
+			["arrow_anchor_x"] = 0,
+			["main_frame_locked"] = false,
+			["row_texture"] = "Details Serenity",
+			["font_size"] = 10,
+			["arrow_anchor_y"] = 0,
+			["use_spark"] = true,
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.0517578125e-05,
+				["x"] = -0.0001220703125,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["y"] = 4.57763671875e-05,
+			["x"] = -6.103515625e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+	},
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["last_day"] = "04",
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_instance_time"] = 0,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["force_font_outline"] = "",
+	["combat_id"] = 9,
+	["savedStyles"] = {
+	},
+	["character_data"] = {
+		["logons"] = 2,
+	},
+	["combat_counter"] = 14,
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.038956,
+					["friendlyfire_total"] = 0,
+					["damage_from"] = {
+						["Private Cole"] = true,
+					},
+					["targets"] = {
+						["Murloc Watershaper"] = 148,
+						["Combat Dummy"] = 54,
+						["Private Cole"] = 64,
+						["Murloc Spearhunter"] = 59,
+					},
+					["friendlyfire"] = {
+					},
+					["pets"] = {
+					},
+					["end_time"] = 1654353924,
+					["aID"] = "3679-0C35D100",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 325.038956,
+					["classe"] = "DRUID",
+					["dps_started"] = false,
+					["total"] = 325.038956,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["nome"] = "Byd",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							[5176] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 15,
+								["targets"] = {
+									["Murloc Watershaper"] = 148,
+									["Combat Dummy"] = 54,
+									["Private Cole"] = 64,
+									["Murloc Spearhunter"] = 59,
+								},
+								["n_dmg"] = 325,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 27,
+								["total"] = 325,
+								["c_max"] = 0,
+								["id"] = 5176,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 27,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 1447,
+					["serial"] = "Player-3679-0C35D100",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1654353881,
+					["delay"] = 0,
+					["damage_taken"] = 3.038956000000001,
+				}, -- [1]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.004696,
+					["aID"] = "160737",
+					["damage_from"] = {
+						["Byd"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.004696,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1654353924,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Combat Dummy",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["total"] = 0.004696,
+					["serial"] = "Creature-0-4233-2175-28277-160737-00029B8B0E",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 54.004696,
+					["start_time"] = 1654353921,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.015641,
+					["aID"] = "157051",
+					["damage_from"] = {
+						["Byd"] = true,
+					},
+					["targets"] = {
+						["Byd"] = 3,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 3.015641,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1654353941,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Private Cole",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1,
+								["targets"] = {
+									["Byd"] = 3,
+								},
+								["n_dmg"] = 3,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 3,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["total"] = 3.015641,
+					["serial"] = "Creature-0-4233-2175-28277-157051-00001B8C26",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 64.015641,
+					["start_time"] = 1654353930,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.034372,
+					["damage_from"] = {
+						["Vemox-Antonidas"] = true,
+						["Mandret-Nethersturm"] = true,
+						["Byd"] = true,
+					},
+					["targets"] = {
+						["Mandret-Nethersturm"] = 3,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 3.034372,
+					["last_event"] = 0,
+					["aID"] = "150229",
+					["dps_started"] = false,
+					["total"] = 3.034372,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Murloc Watershaper",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Mandret-Nethersturm"] = 3,
+								},
+								["n_dmg"] = 3,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 3,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["on_hold"] = false,
+					["end_time"] = 1654353991,
+					["friendlyfire"] = {
+					},
+					["serial"] = "Creature-0-4250-2175-4915-150229-00001B8C5C",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1654353988,
+					["delay"] = 0,
+					["damage_taken"] = 165.034372,
+				}, -- [4]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.019343,
+					["damage_from"] = {
+						["Byd"] = true,
+						["Mandret-Nethersturm"] = true,
+					},
+					["targets"] = {
+						["Mandret-Nethersturm"] = 3,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 3.019343,
+					["last_event"] = 0,
+					["aID"] = "150228",
+					["dps_started"] = false,
+					["total"] = 3.019343,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Murloc Spearhunter",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Mandret-Nethersturm"] = 3,
+								},
+								["n_dmg"] = 3,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 3,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["on_hold"] = false,
+					["end_time"] = 1654353999,
+					["friendlyfire"] = {
+					},
+					["serial"] = "Creature-0-4250-2175-4915-150228-00001B8C5C",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1654353995,
+					["delay"] = 0,
+					["damage_taken"] = 70.01934299999999,
+				}, -- [5]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "DRUID",
+					["totalover"] = 47.05008,
+					["total_without_pet"] = 0.05008000000000001,
+					["total"] = 0.05008000000000001,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-3679-0C35D100",
+					["totalabsorb"] = 0.05008000000000001,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.05008000000000001,
+					["healing_taken"] = 0.05008000000000001,
+					["end_time"] = 1654353924,
+					["targets_overheal"] = {
+						["Byd"] = 47,
+					},
+					["start_time"] = 1654353911,
+					["nome"] = "Byd",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Byd"] = 47,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Byd"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 16,
+								["overheal"] = 47,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 16,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["aID"] = "3679-0C35D100",
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["spec"] = 1447,
+					["totaldenied"] = 0.05008000000000001,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["nome"] = "Byd",
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 1447,
+					["grupo"] = true,
+					["classe"] = "DRUID",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[5176] = 16,
+					},
+					["buff_uptime"] = 18,
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[341260] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 341260,
+								["uptime"] = 18,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-3679-0C35D100",
+					["aID"] = "3679-0C35D100",
+				}, -- [1]
+				{
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["nome"] = "Private Cole",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[312757] = 1,
+						[312755] = 1,
+					},
+					["flag_original"] = 68136,
+					["aID"] = "157051",
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4233-2175-28277-157051-00001B8C26",
+					["tipo"] = 4,
+				}, -- [2]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1654353911,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 5,
+		["spells_cast_timeline"] = {
+		},
+		["totals"] = {
+			362.1140870000002, -- [1]
+			0.041106, -- [2]
+			{
+				13.006612, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "16:45:12",
+		["end_time"] = 75123.263,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 2.040000000008149,
+				["type"] = 0,
+				["name"] = "Murloc Watershaper",
+				["clock"] = "16:47:06",
+			}, -- [1]
+			{
+				["elapsed"] = 2.5,
+				["type"] = 0,
+				["name"] = "Murloc Watershaper",
+				["clock"] = "16:47:02",
+			}, -- [2]
+			{
+				["elapsed"] = 2.560000000012224,
+				["type"] = 0,
+				["name"] = "Murloc Watershaper",
+				["clock"] = "16:46:57",
+			}, -- [3]
+			{
+				["elapsed"] = 2.430000000007567,
+				["type"] = 0,
+				["name"] = "Murloc Watershaper",
+				["clock"] = "16:46:53",
+			}, -- [4]
+			{
+				["elapsed"] = 2.69999999999709,
+				["type"] = 0,
+				["name"] = "Murloc Spearhunter",
+				["clock"] = "16:46:48",
+			}, -- [5]
+			{
+				["elapsed"] = 2.039999999993597,
+				["type"] = 0,
+				["name"] = "Murloc Spearhunter",
+				["clock"] = "16:46:37",
+			}, -- [6]
+			{
+				["elapsed"] = 2.129999999990105,
+				["type"] = 0,
+				["name"] = "Murloc Watershaper",
+				["clock"] = "16:46:29",
+			}, -- [7]
+			{
+				["elapsed"] = 9.139999999999418,
+				["type"] = 0,
+				["name"] = "Private Cole",
+				["clock"] = "16:45:32",
+			}, -- [8]
+			{
+				["elapsed"] = 12.40200000000186,
+				["type"] = 0,
+				["name"] = "Combat Dummy",
+				["clock"] = "16:45:12",
+			}, -- [9]
+		},
+		["totals_grupo"] = {
+			325.0354410000001, -- [1]
+			0.041106, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = "16:47:08",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 75085.321,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1655649850,
+		["last_version"] = 14,
+	},
+	["ignore_nicktag"] = false,
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -438.3334503173828,
+					["x"] = 1485.834716796875,
+					["w"] = 309.9999694824219,
+					["h"] = 158,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["cached_roles"] = {
+	},
+	["cached_specs"] = {
+		["Player-3679-0C35D100"] = 1447,
+	},
+}
