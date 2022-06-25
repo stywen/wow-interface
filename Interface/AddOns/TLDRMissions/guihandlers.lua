@@ -370,6 +370,15 @@ local function incrementEstimate()
     if lowerEstimate > addon.db.profile.estimateLimit then
         gui.SkipCalculationButton:Click()
     end
+    if addon.db.profile.DEVTESTING then
+        for i = 1, 5 do
+            if addon.currentFollowersBeingTested[i] then
+                gui["EstimateFollower"..i.."Label"]:SetText(C_Garrison.GetFollowerName(addon.currentFollowersBeingTested[i]))
+            else
+                gui["EstimateFollower"..i.."Label"]:SetText("")
+            end
+        end
+    end
 end
 
 function addon:getSimulationEstimate()
@@ -590,6 +599,7 @@ gui.CalculateButton:SetScript("OnClick", function (self, button)
         if nextMission then
             gui.FailedCalcLabel:SetText()
             local _, _, _, _, duration = C_Garrison.GetMissionTimes(nextMission.missionID)
+            if not duration then duration = 3600 end
             duration = duration/3600
             gui.NextMissionLabel:SetText(string.format(L["MissionCounter"], (missionCounter>0) and missionCounter or 1, missionCounterUpper, nextMission.name).." ("..string.format(COOLDOWN_DURATION_HOURS, math.floor(duration/0.5)*0.5)..")")
             gui.NextFollower1Label:SetText(L["Calculating"])
@@ -932,6 +942,8 @@ gui.StartMissionButton:SetScript("OnClick", function(self, button)
             C_Garrison.StartMission(missionWaitingUserAcceptance.missionID)
             if not missionWaitingUserAcceptance.sacrifice then
                 addon:logSentMission(missionWaitingUserAcceptance.missionID, missionWaitingUserAcceptance.combination, missionWaitingUserAcceptance.finalHealth)
+            else
+                addon:wipeObsoleteMissionLog(missionWaitingUserAcceptance.missionID)
             end
             AceEvent:SendMessage("TLDRMISSIONS_START_MISSION", missionWaitingUserAcceptance.missionID, GetAddOnMetadata(addonName, "Version"))
             numSent = numSent + 1

@@ -63,12 +63,12 @@ gui.MainTabButton:SetID(1)
 gui.MainTabPanel = CreateFrame("Frame", "TLDRMissionsFrameMainPanel", gui)
 gui.MainTabPanel:SetPoint("TOPLEFT", gui, "TOPLEFT")
 
-
 local function setupButton(categoryName, setPointTo, text, acSetPointTo)
     local name = categoryName.."CheckButton"
     gui[name] = CreateFrame("CheckButton", "TLDRMissionsFrame"..categoryName.."CheckButton", gui.MainTabPanel, "UICheckButtonTemplate")
     gui[name]:SetPoint("TOPLEFT", setPointTo, 0, -22)
     _G["TLDRMissionsFrame"..categoryName.."CheckButtonText"]:SetText(text)
+    
     gui[name].ExclusionLabel = gui[name]:CreateFontString("TLDRMissions"..categoryName.."ExclusionLabel", "OVERLAY", "GameFontNormalLarge")
     gui[name].ExclusionLabel:SetText("X")
     gui[name].ExclusionLabel:SetPoint("CENTER", gui[name], "CENTER", 0, 0)
@@ -226,6 +226,18 @@ gui.LowTimeWarningLabel:SetTextColor(1, 0, 0)
 
 gui.EstimateLabel = gui.MainTabPanel:CreateFontString("TLDRMissionsFrameEstimateLabel", "OVERLAY", "GameFontNormal")
 gui.EstimateLabel:SetPoint("TOPLEFT", gui.StartMissionButton, 0, -25)
+
+for i = 1, 5 do
+    gui["EstimateFollower"..i.."Label"] = gui.MainTabPanel:CreateFontString("TLDRMissionsFrameEstimateFollower"..i.."Label", "OVERLAY", "GameFontNormal")
+    local g = gui["EstimateFollower"..i.."Label"]
+    if i == 1 then
+        g:SetPoint("TOPLEFT", gui.EstimateLabel, "BOTTOMLEFT", 0, -2)
+    elseif i == 3 then
+        g:SetPoint("TOPLEFT", gui.EstimateLabel, "TOPRIGHT", 10, 0)
+    else
+        g:SetPoint("TOPLEFT", gui["EstimateFollower"..(i-1).."Label"], "BOTTOMLEFT", 0, -2)
+    end
+end
 
 gui.CompleteMissionsButton = CreateFrame("Button", "TLDRMissionsFrameCompleteMissionsButton", gui.MainTabPanel, "UIPanelButtonTemplate")
 gui.CompleteMissionsButton:SetPoint("BOTTOMLEFT", gui, "BOTTOMLEFT", 10, 10)

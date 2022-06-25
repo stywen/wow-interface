@@ -1,6 +1,6 @@
 ## Interface: 90205
 ## Title: TL;DR Missions
-## Version: 9.2-097
+## Version: 9.2-101
 ## Notes: Automates sending out Covenant Missions
 ## Author: Teelo
 ## SavedVariablesPerCharacter: TLDRMissionsOptions, TLDRMissionsLogging
@@ -23,6 +23,7 @@ libs\AceConfig-3.0\AceConfig-3.0.xml
 libs\AceLocale-3.0\AceLocale-3.0.xml
 locales\dede.lua
 locales\enus.lua
+locales\frfr.lua
 locales\ruru.lua
 locales\zhtw.lua
 locales\zhcn.lua
@@ -34,6 +35,7 @@ libs\LibUIDropDownMenu\LibUIDropDownMenu.xml
 
 spellsdb.lua
 targetting.lua
+matherrors.lua
 simulation.lua
 combinations.lua
 gui.lua

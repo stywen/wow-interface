@@ -20,6 +20,17 @@ local function print(...)
     table.insert(TLDRMissionsDB, output)
 end
 
+-- simulates a cast-to-int operation from other languages
+-- strips all decimals
+-- positive numbers will be rounded down to whole number
+-- negative numbers will be rounded up
+local function castToInt(float)
+    if float < 0 then
+        return math.ceil(float)
+    end
+    return math.floor(float)
+end
+
 local function doSimulation(field, environmentEffect, missionID, callback)
     local currentTurn = 1
     local pseudoRandomFollowerDeathsCounter = 1 -- for 1-based arrays
@@ -249,21 +260,15 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         
         if effect.changeDamageDealtPercent then
             buff.changeDamageDealtPercent = effect.changeDamageDealtPercent
+            buff.dontRound = effect.dontRound
         elseif effect.changeDamageDealtUsingAttack then
-            local xpRatio = 0--(source.xp or 0) / (source.levelXP or 1)
-            buff.changeDamageDealtRaw = ((source.baseAttack+xpRatio) * effect.changeDamageDealtUsingAttack)/100
-            if effect.roundToEvenNumber then
-                if math.floor(buff.changeDamageDealtRaw/2) ~= (buff.changeDamageDealtRaw/2) then
-                    buff.changeDamageDealtRaw = buff.changeDamageDealtRaw - 1
-                end
-            end
+            buff.changeDamageDealtRaw = addon:multiplyPercentageWithErrors(source.baseAttack, effect.changeDamageDealtUsingAttack, {buff.name})
         elseif effect.changeDamageTakenPercent then
             buff.changeDamageTakenPercent = effect.changeDamageTakenPercent
         elseif effect.changeDamageTakenUsingAttack then
-            local xpRatio = 0--(source.xp or 0) / (source.levelXP or 1)
-            buff.changeDamageTakenRaw = ((source.baseAttack+xpRatio) * effect.changeDamageTakenUsingAttack)/100
+            buff.changeDamageTakenRaw = ((source.baseAttack) * effect.changeDamageTakenUsingAttack)/100
         elseif effect.changeMaxHPPercent then
-            local maxHPChangeAmount = math.floor((target.maxHP * effect.changeMaxHPPercent)/100)
+            local maxHPChangeAmount = castToInt((target.maxHP * effect.changeMaxHPPercent)/100)
             target.maxHP = target.maxHP + maxHPChangeAmount
             if maxHPChangeAmount > 0 then
                 target.HP = target.HP + maxHPChangeAmount
@@ -278,7 +283,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 end
             end
         elseif effect.changeMaxHPUsingAttack then
-            local maxHPChangeAmount = math.floor((source.baseAttack * effect.changeMaxHPUsingAttack)/100)
+            local maxHPChangeAmount = castToInt((source.baseAttack * effect.changeMaxHPUsingAttack)/100)
             target.maxHP = target.maxHP + maxHPChangeAmount
             if maxHPChangeAmount > 0 then
                 target.HP = target.HP + maxHPChangeAmount
@@ -383,7 +388,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             taken = {
                 ["Shield of Tomorrow (Main)"] = true,
                 ["Shield of Tomorrow (Alt)"] = true,
-                ["Resilient Plumage"] = true, -- See: https://github.com/TLDRMissions/TLDRMissions/issues/370 vs https://github.com/TLDRMissions/TLDRMissions/issues/393
+                --["Resilient Plumage"] = true,
             },
         }
         local roundingErrorsDealt = 0
@@ -395,6 +400,11 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     if buff.changeDamageDealtPercent and ((not buff.alternateTurns) or (buff.activeThisTurn)) then 
                         changeDamageDealtPercent.amount = changeDamageDealtPercent.amount + buff.changeDamageDealtPercent
                         changeDamageDealtPercent.changed = true
+                        if not changeDamageDealtPercent.buffNames then
+                            changeDamageDealtPercent.buffNames = {}
+                        end
+                        if buff.dontRound then changeDamageDealtPercent.dontRound = buff.dontRound end
+                        table.insert(changeDamageDealtPercent.buffNames, buff.name)
                         if roundingErrorSpells.dealt[buff.name] then
                             roundingErrorsDealt = roundingErrorsDealt + 1
                         end
@@ -407,6 +417,10 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     if buff.changeDamageTakenPercent then
                         changeDamageTakenPercent.amount = changeDamageTakenPercent.amount + buff.changeDamageTakenPercent
                         changeDamageTakenPercent.changed = true
+                        if not changeDamageTakenPercent.buffNames then
+                            changeDamageTakenPercent.buffNames = {}
+                        end
+                        table.insert(changeDamageTakenPercent.buffNames, buff.name)
                         if roundingErrorSpells.taken[buff.name] then
                             roundingErrorsTaken = roundingErrorsTaken + 1
                         end
@@ -423,6 +437,10 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     if buff.changeDamageDealtPercent and ((not buff.alternateTurns) or (buff.activeThisTurn)) then 
                         changeDamageDealtPercent.amount = changeDamageDealtPercent.amount + buff.changeDamageDealtPercent
                         changeDamageDealtPercent.changed = true
+                        if not changeDamageDealtPercent.buffNames then
+                            changeDamageDealtPercent.buffNames = {}
+                        end
+                        table.insert(changeDamageDealtPercent.buffNames, buff.name)
                         if roundingErrorSpells.dealt[buff.name] then
                             roundingErrorsDealt = roundingErrorsDealt + 1
                         end
@@ -434,6 +452,10 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     if buff.changeDamageTakenPercent then
                         changeDamageTakenPercent.amount = changeDamageTakenPercent.amount + buff.changeDamageTakenPercent
                         changeDamageTakenPercent.changed = true
+                        if not changeDamageTakenPercent.buffNames then
+                            changeDamageTakenPercent.buffNames = {}
+                        end
+                        table.insert(changeDamageTakenPercent.buffNames, buff.name)
                         if roundingErrorSpells.taken[buff.name] then
                             roundingErrorsTaken = roundingErrorsTaken + 1
                         end
@@ -445,33 +467,35 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         end
         
         if roundingErrorsTaken > 1 then
-            --changeDamageTakenRaw.amount = changeDamageTakenRaw.amount - 0.01
+            changeDamageTakenRaw.amount = changeDamageTakenRaw.amount - 0.01
         end
         
         if roundingErrorsDealt > 1 then
             changeDamageDealtRaw.amount = changeDamageDealtRaw.amount - 0.01
         end
         
-        local xpRatio = 0--(attacker.xp or 0) / (attacker.levelXP or 1)
         local damage = attacker.baseAttack
 
         if attackPercent > 0 then
-            damage = math.floor((attacker.baseAttack * attackPercent)/100)
+            damage = castToInt(((attacker.baseAttack * attackPercent)/100))
         end
         if targetHPPercent > 0 then
-            damage = math.floor((defender.maxHP * targetHPPercent)/100)
+            damage = castToInt((defender.maxHP * targetHPPercent)/100)
         end
         
         changeDamageDealtRaw.action = function() damage = damage + changeDamageDealtRaw.amount end
-        changeDamageDealtPercent.action = function() if changeDamageDealtPercent.changed then damage = math.floor((damage * changeDamageDealtPercent.amount)/100) end end
+        changeDamageDealtPercent.action = function()
+            if changeDamageDealtPercent.changed then
+                damage = addon:multiplyPercentageWithErrors(damage, changeDamageDealtPercent.amount, changeDamageDealtPercent.buffNames)
+                if not changeDamageDealtPercent.dontRound then
+                    damage = castToInt(damage)
+                end
+            end
+        end
         changeDamageTakenRaw.action = function() damage = damage + changeDamageTakenRaw.amount end
         changeDamageTakenPercent.action = function() 
             if changeDamageTakenPercent.changed then
-                local calculation = math.floor((damage * changeDamageTakenPercent.amount)/100)
-                if (roundingErrorsTaken > 1) and (math.floor((damage-calculation)/2) ~= (damage-calculation)/2) then
-                    calculation = calculation - 1
-                end
-                damage = calculation
+                damage = castToInt(addon:multiplyPercentageWithErrors(damage, changeDamageTakenPercent.amount, changeDamageTakenPercent.buffNames))
             end
         end
         
@@ -481,9 +505,9 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             action.action()
         end
         
-        damage = math.floor(damage)
-        
+        damage = castToInt(damage)
         local d = damage
+        
         if damage < 0 then damage = 0 end
 
         return damage, d -- thorns can be less than zero and actually heals the other minion lolwtfbbq
@@ -509,7 +533,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 checkDeath(target)
                     
             elseif buff.healTargetHPPercent then
-                local healing = math.floor((target.maxHP * buff.healTargetHPPercent)/100)
+                local healing = castToInt((target.maxHP * buff.healTargetHPPercent)/100)
                 target.HP = target.HP + healing
                 if target.HP > target.maxHP then
                     target.HP = target.maxHP
@@ -517,7 +541,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                 if TLDRMissionsDebugging then print(buff.name.." heals "..target.name.." for "..healing) end
                     
             elseif buff.healPercent then
-                local healing = math.floor((follower.baseAttack * buff.healPercent)/100)
+                local healing = castToInt((follower.baseAttack * buff.healPercent)/100)
                 target.HP = target.HP + healing
                 if target.HP > target.maxHP then
                     target.HP = target.maxHP
@@ -634,7 +658,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     end
                     
                     if effect.damageTargetHPPercent then
-                        damage = math.floor((target.maxHP * effect.damageTargetHPPercent)/100)
+                        damage = calculateDamage(follower, target, 0, effect.damageTargetHPPercent)
                     end
                     
                     target.HP = target.HP - damage
@@ -652,7 +676,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             local healing = 0
             
             if effect.healPercent then
-                healing = math.floor((follower.baseAttack * effect.healPercent)/100)
+                healing = castToInt((follower.baseAttack * effect.healPercent)/100)
             end
             
             -- for spells that do AOE healing, if a single target is valid, then the entire heal goes off. it puts entries in the log for healing targets already full health even though nothing changes
@@ -674,7 +698,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
             for _, target in ipairs(targets) do
                 if target.HP > 0 then
                     if effect.healTargetHPPercent then
-                        healing = math.floor((target.maxHP * effect.healTargetHPPercent)/100)
+                        healing = castToInt((target.maxHP * effect.healTargetHPPercent)/100)
                     end
                     
                     target.HP = target.HP + healing
@@ -719,6 +743,10 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         local result = false
         for i in ipairs(spells.effects) do
             if (follower.HP > 0) or ((i > 1) and spells.effects[1].continueIfCasterDies) then
+                if spells.effects[i].cancelIfNoTargets and (table.getn(targets[i]) == 0) then
+                    spells.onCooldown = 0
+                    return
+                end
                 if spells.effects[i].reacquireTargets then
                     targets[i] = getTargets(follower, spells.effects[i].target, rngTargets, (spells.effects[i].affectedByTaunt and follower.hasTaunt and follower.hasTaunt.source) or nil)
                 end 
@@ -1044,7 +1072,6 @@ local function doSimulation(field, environmentEffect, missionID, callback)
     
     local function registerPassive(follower, spell)
         for _, target in ipairs(getTargets(follower, spell.effects.target)) do
-            local xpRatio = 0--(follower.xp or 0) / (follower.levelXP or 1)
             local buff = {
                     ["target"] = target,
                     duration = 9999,
@@ -1055,8 +1082,8 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                     thorns = spell.effects.thorns,
                     changeDamageDealtPercent = spell.effects.changeDamageDealtPercent,
                     changeDamageTakenPercent = spell.effects.changeDamageTakenPercent,
-                    changeDamageDealtRaw = (( (spell.effects.changeDamageDealtUsingAttack or 0) /100) * (follower.baseAttack+xpRatio)),
-                    changeDamageTakenRaw = (( (spell.effects.changeDamageTakenUsingAttack or 0) /100) * (follower.baseAttack+xpRatio)),
+                    changeDamageDealtRaw = (( (spell.effects.changeDamageDealtUsingAttack or 0) /100) * (follower.baseAttack)),
+                    changeDamageTakenRaw = (( (spell.effects.changeDamageTakenUsingAttack or 0) /100) * (follower.baseAttack)),
                     ID = buffID,
                     type = "passive",
                     persistAfterDeath = spell.effects.persistAfterDeath,

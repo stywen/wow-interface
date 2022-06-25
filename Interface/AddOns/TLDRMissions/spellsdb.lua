@@ -153,6 +153,7 @@ addon.spellsDB = {
             event = "beforeAttack",
             buffName = "Unrelenting Hunger",
             affectedByTaunt = true,
+            persistAfterDeath = true,
         }
     },
     [24] = { -- Teliah empowers her spear, dealing $s1 Holy damage to the farthest enemy and healing the closest ally for $s2.
@@ -200,6 +201,7 @@ addon.spellsDB = {
             target = "furthest_enemy",
             type = "attack",
             attackPercent = 25,
+            cancelIfNoTargets = true,
         },
         [2] = {
             target = "self",
@@ -225,6 +227,7 @@ addon.spellsDB = {
             target = "furthest_enemy",
             type = "attack",
             attackPercent = 75,
+            affectedByTaunt = true,
         },
         [2] = {
             target = "self",
@@ -582,7 +585,6 @@ addon.spellsDB = {
         duration = 3,
         buffName = "Dazzledust",
         persistAfterDeath = true,
-        roundToEvenNumber = true,
     },
     [92] = { -- Duskleaf deals $s1 Shadow damage to all enemies at range for 2 rounds.
         [2] = {
@@ -1332,6 +1334,7 @@ addon.spellsDB = {
             changeDamageDealtPercent = 50,
             buffName = "Medical Advice",
             persistAfterDeath = true,
+            dontRound = true,
         },
     },
     [180] = { -- Targets a random enemy with visions of doom, dealing $s1 Shadow damage.
@@ -2542,6 +2545,7 @@ addon.spellsDB = {
         target = "closest_ally",
         type = "heal",
         healPercent = 200,
+        firstTurn = 1,
     },
     [322] = { -- Deals $s1 Shadow damage, heals himself for $s2, and increases his maximum health by $s3 for 1 round.
         [1] = {

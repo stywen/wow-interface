@@ -1,7 +1,10 @@
 local addonName = ...
 local addon = _G[addonName]
 
-local function startSimulation(combination, missionID, callback)        
+addon.currentFollowersBeingTested = {}
+
+local function startSimulation(combination, missionID, callback)
+    addon.currentFollowersBeingTested = {combination[1], combination[2], combination[3], combination[4], combination[5]}        
     addon:Simulate(combination[1], combination[3], combination[5], combination[2], combination[4], missionID, function(results)
         results.combination = {combination[1], combination[3], combination[5], combination[2], combination[4]}
         results.missionID = missionID
@@ -419,7 +422,6 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
             
             if continue then
                 table.insert(lineup, follower1)
-    
                 
                 if not addon:isResultCacheGuaranteedFailure(missionID, lineup[1], lineup[2], lineup[3], lineup[4], lineup[5]) then
                     local highPriorityBatch = addon:createWorkBatch(3)

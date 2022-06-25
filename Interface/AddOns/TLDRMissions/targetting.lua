@@ -595,7 +595,8 @@ function addon:getNearbyAllyOrSelf(follower, field)
         [9] = {5, 10, 6, 9},
         -- "CHARGE!" options 7+8+10+11+12 targetted 11
         -- "CHARGE!" options 5+6+7+10 targetted 6
-        [10] = {9, 6, 5, 11, 7, 10},
+        -- CHARGE! options 5+7+8+10+11 targetted 11
+        [10] = {9, 6, 11, 5, 7, 10},
         [11] = {10, 6, 7, 8, 12, 11},
         [12] = {11, 7, 8, 12},
     }
@@ -926,6 +927,9 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 1, 2, 6, 7, 10}, target = 1},
         {alive = {0, 1, 7, 8}, target = 8},
         {alive = {0, 6}, target = 6},
+        {alive = {0, 1, 8}, target = 1},
+        {alive = {0, 3, 4, 7, 10}, target = 3},
+        {alive = {0, 4, 6, 7}, target = 7},
 
         -- observed in 2224 (Panic Attack)
         -- see https://github.com/TLDRMissions/TLDRMissions/issues/120
@@ -980,6 +984,10 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 1, 3, 4, 7, 11, 12}, target = 12},
         {alive = {0, 3, 11, 12}, target = 12},
         {alive = {0, 1, 2, 4, 11, 12}, target = 1},
+        {alive = {0, 1, 3, 6, 7, 11}, target = 1},
+        {alive = {0, 3, 6, 7, 11}, target = 3},
+        {alive = {0, 2, 3, 7, 9, 10, 11}, target = 11},
+        {alive = {0, 3, 10, 11}, target = 11},
     }
     
     local aliveMinions = {}

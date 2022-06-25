@@ -280,7 +280,7 @@ do
 
     FindExclusionAuraByID = function( unit, spellID )
         if spellID < 0 then
-            return FindUnitDebuffByID( unit, -spellID ) ~= nil
+            return FindUnitDebuffByID( unit, -1 * spellID ) ~= nil
         end
         return FindUnitBuffByID( unit, spellID ) ~= nil
     end
@@ -796,7 +796,7 @@ Hekili.lastAudit = GetTime()
 Hekili.auditInterval = 0
 
 ns.Audit = function( special )
-    if not special and not Hekili.DB.profile.enabled then
+    if not special and not Hekili.DB.profile.enabled or not Hekili:IsValidSpec() then
         C_Timer.After( 1, ns.Audit )
         return
     end
@@ -971,7 +971,7 @@ do
         end
 
         if type( enemy.excluded ) == "number" then
-            return FindExclusionAuraByID( enemy.excluded )
+            return FindExclusionAuraByID( enemy.unit, enemy.excluded )
         end
 
         return false

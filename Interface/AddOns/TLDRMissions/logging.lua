@@ -3,6 +3,10 @@ local addon = _G[addonName]
 local LibStub = addon.LibStub
 local L = LibStub("AceLocale-3.0"):GetLocale("TLDRMissions")
 
+function addon:wipeObsoleteMissionLog(missionID)
+    TLDRMissionsLogging[missionID] = nil
+end
+
 function addon:logSentMission(missionID, followers, predictedFinalHP)
     local record = {}
     record.missionID = missionID
@@ -213,6 +217,8 @@ function addon:logCompletedMission(missionID, canComplete, success, overmaxSucce
             end
         end
     end
+    
+    TLDRMissionsLogging[missionID].finalHealth = finalHealth
     
     if addon.db.profile.DEVTESTING then
         for boardIndex, HP in pairs(finalHealth) do

@@ -55,17 +55,20 @@ local function getKey(follower1, follower2, follower3, follower4, follower5)
     table.sort(lineup, sort_func)
     
     local key = ""
-    for _, follower in ipairs(lineup) do
-        if key ~= "" then
-            key = key .. "--"
+    for i = 1, 5 do --_, follower in ipairs(lineup) do
+        local follower = lineup[i]
+        if follower then
+            if key ~= "" then
+                key = key .. "--"
+            end
+            
+            local info = addon:C_Garrison_GetFollowerInfo(follower)
+            key = key..info.garrFollowerID.."-"
+            
+            info = addon:C_Garrison_GetFollowerAutoCombatStats(follower)
+            key = key..info.attack.."-"
+            key = key..info.currentHealth
         end
-        
-        local info = addon:C_Garrison_GetFollowerInfo(follower)
-        key = key..info.garrFollowerID.."-"
-        
-        info = addon:C_Garrison_GetFollowerAutoCombatStats(follower)
-        key = key..info.attack.."-"
-        key = key..info.currentHealth
     end
     
     return key

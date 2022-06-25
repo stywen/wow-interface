@@ -42,14 +42,10 @@ L["COPY_RAIDERIO_RECRUITMENT_URL"] = "複製招募網址"
 L["COPY_RAIDERIO_URL"] = "複製Raider.IO網址"
 L["CURRENT_MAINS_SCORE"] = "本尊的當季大秘分數"
 L["CURRENT_SCORE"] = "當季大秘分數"
---[[Translation missing --]]
---[[ L["DB_MODULES"] = ""--]] 
---[[Translation missing --]]
---[[ L["DB_MODULES_HEADER_MYTHIC_PLUS"] = ""--]] 
---[[Translation missing --]]
---[[ L["DB_MODULES_HEADER_RAIDING"] = ""--]] 
---[[Translation missing --]]
---[[ L["DB_MODULES_HEADER_RECRUITMENT"] = ""--]] 
+L["DB_MODULES"] = "數據庫模組"
+L["DB_MODULES_HEADER_MYTHIC_PLUS"] = "傳奇+"
+L["DB_MODULES_HEADER_RAIDING"] = "團隊"
+L["DB_MODULES_HEADER_RECRUITMENT"] = "招募"
 L["DISABLE_DEBUG_MODE_RELOAD"] = [=[您正在停用偵錯模式。
 
 單擊“確認”將重新載入您的界面。]=]
@@ -66,7 +62,7 @@ L["DUNGEON_SHORT_NAME_PF"] = "瘟疫"
 L["DUNGEON_SHORT_NAME_SD"] = "血紅"
 L["DUNGEON_SHORT_NAME_SOA"] = "晉升"
 L["DUNGEON_SHORT_NAME_STRT"] = "市集上"
-L["DUNGEON_SHORT_NAME_TOP"] = "劇場"
+L["DUNGEON_SHORT_NAME_TOP"] = "苦痛"
 L["ENABLE_AUTO_FRAME_POSITION"] = "自動定位我的M+紀錄框架"
 L["ENABLE_AUTO_FRAME_POSITION_DESC"] = "啟用此選項會將M+紀錄保持在地城搜尋器與玩家提示旁。"
 L["ENABLE_DEBUG_MODE_RELOAD"] = [=[您正在啟用偵錯模式。 這僅用於測試和開發目的，並且會使用額外的記憶體。
@@ -110,8 +106,7 @@ L["MODULE_EUROPE"] = "歐洲"
 L["MODULE_KOREA"] = "韓國"
 L["MODULE_TAIWAN"] = "台灣"
 L["MY_PROFILE_TITLE"] = "我的M+紀錄"
---[[Translation missing --]]
---[[ L["MYTHIC_PLUS_DB_MODULES"] = ""--]] 
+L["MYTHIC_PLUS_DB_MODULES"] = "傳奇+ 數據庫模組"
 L["MYTHIC_PLUS_SCORES"] = "傳奇+分數"
 L["NO_GUILD_RECORD"] = "無公會紀錄"
 L["OPEN_CONFIG"] = "開啟選項"
@@ -175,10 +170,8 @@ L["RAIDERIO_MP_BEST_SCORE"] = "Raider.IO 大秘分數 (%s)"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO 傳奇鑰石分數"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO 插件選項"
 L["RAIDING_DATA_HEADER"] = "Raider.IO 團隊副本進度"
---[[Translation missing --]]
---[[ L["RAIDING_DB_MODULES"] = ""--]] 
---[[Translation missing --]]
---[[ L["RECRUITMENT_DB_MODULES"] = ""--]] 
+L["RAIDING_DB_MODULES"] = "團隊 數據庫模組"
+L["RECRUITMENT_DB_MODULES"] = "招募 數據庫模組"
 L["RELOAD_LATER"] = "等會才重載"
 L["RELOAD_NOW"] = "現在就重載"
 L["RELOAD_RWF_MODE_BUTTON"] = "儲存"
