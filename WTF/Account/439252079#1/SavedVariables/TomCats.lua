@@ -24,7 +24,7 @@ TomCats_Account = {
 		["betaEnabled"] = false,
 		["defaultVignetteIcon"] = "default",
 	},
-	["lastExpirationWarning"] = 0,
+	["lastExpirationWarning"] = 1656614307,
 	["discoveriesResetCount"] = 0,
 	["discoveries"] = {
 		["vignetteAtlases"] = {

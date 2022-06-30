@@ -2,10 +2,10 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/m", -- [1]
-		"/wave", -- [2]
+		"/wave", -- [1]
+		"/wa", -- [2]
 		"/aap", -- [3]
-		"/wa", -- [4]
+		"/m", -- [4]
 		"/plater", -- [5]
 		"/reload", -- [6]
 		"/played", -- [7]
@@ -803,5 +803,27 @@ ElvCharacterDB = {
 			[51] = 1655143923,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [36]
+		{
+			"Dir fehlt noch eine 15er für die Weekly? Du möchtest den KSM oder KSH erarbeiten? Du möchtest deine Wertung pushen? Du möchtest dein Equip verbessern? Alles kein Problem! Wir bieten alle möglichen Wünsche, in Sachen m+, zu günstigen Goldpreisen an!", -- [1]
+			"Gerwyn-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gerwyn-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			637, -- [11]
+			"Player-3686-0468CBCF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Gerwyn|r",
+			[51] = 1655293312,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
 	},
 }

@@ -54,10 +54,6 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -80,7 +76,11 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
 		["BigWigs_Plugins_Pull"] = {
+		},
+		["LibDualSpec-1.0"] = {
 		},
 	},
 	["profileKeys"] = {

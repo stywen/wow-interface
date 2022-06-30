@@ -264,6 +264,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         elseif effect.changeDamageDealtUsingAttack then
             buff.changeDamageDealtRaw = addon:multiplyPercentageWithErrors(source.baseAttack, effect.changeDamageDealtUsingAttack, {buff.name})
         elseif effect.changeDamageTakenPercent then
+            buff.roundFirst = effect.roundFirst
             buff.changeDamageTakenPercent = effect.changeDamageTakenPercent
         elseif effect.changeDamageTakenUsingAttack then
             buff.changeDamageTakenRaw = ((source.baseAttack) * effect.changeDamageTakenUsingAttack)/100
@@ -420,6 +421,7 @@ local function doSimulation(field, environmentEffect, missionID, callback)
                         if not changeDamageTakenPercent.buffNames then
                             changeDamageTakenPercent.buffNames = {}
                         end
+                        if buff.roundFirst then changeDamageTakenPercent.roundFirst = buff.roundFirst end
                         table.insert(changeDamageTakenPercent.buffNames, buff.name)
                         if roundingErrorSpells.taken[buff.name] then
                             roundingErrorsTaken = roundingErrorsTaken + 1
@@ -495,6 +497,9 @@ local function doSimulation(field, environmentEffect, missionID, callback)
         changeDamageTakenRaw.action = function() damage = damage + changeDamageTakenRaw.amount end
         changeDamageTakenPercent.action = function() 
             if changeDamageTakenPercent.changed then
+                if changeDamageTakenPercent.roundFirst then
+                    damage = castToInt(damage)
+                end
                 damage = castToInt(addon:multiplyPercentageWithErrors(damage, changeDamageTakenPercent.amount, changeDamageTakenPercent.buffNames))
             end
         end

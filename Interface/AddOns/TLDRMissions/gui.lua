@@ -123,6 +123,12 @@ LibDD:UIDropDownMenu_SetWidth(gui.RunecarverDropDown, 10)
 LibDD:UIDropDownMenu_SetText(gui.RunecarverDropDown, "")
 
 setupButton("Campaign", gui.RunecarverCheckButton, L["CampaignProgress"], gui.RunecarverAnimaCostDropDown)
+
+gui.CampaignDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsCampaignDropDown", gui.MainTabPanel)
+gui.CampaignDropDown:SetPoint("TOPRIGHT", gui.CampaignAnimaCostDropDown, "TOPLEFT", 20, 0)
+LibDD:UIDropDownMenu_SetWidth(gui.CampaignDropDown, 10)
+LibDD:UIDropDownMenu_SetText(gui.CampaignDropDown, "")
+
 setupButton("Gear", gui.CampaignCheckButton, WORLD_QUEST_REWARD_FILTERS_EQUIPMENT, gui.CampaignAnimaCostDropDown)
 
 gui.GearDropDown = LibDD:Create_UIDropDownMenu("TLDRMissionsGearDropDown", gui.MainTabPanel)
@@ -242,7 +248,9 @@ end
 gui.CompleteMissionsButton = CreateFrame("Button", "TLDRMissionsFrameCompleteMissionsButton", gui.MainTabPanel, "UIPanelButtonTemplate")
 gui.CompleteMissionsButton:SetPoint("BOTTOMLEFT", gui, "BOTTOMLEFT", 10, 10)
 gui.CompleteMissionsButton:SetText(L["CompleteMissionButtonText"])
-gui.CompleteMissionsButton:SetWidth(175)
+TLDRMissionsFrameCompleteMissionsButtonText:SetScale(1.2)
+gui.CompleteMissionsButton:SetWidth(240)
+gui.CompleteMissionsButton:SetHeight(25)
 gui.CompleteMissionsButton:SetEnabled(true)
 
 --

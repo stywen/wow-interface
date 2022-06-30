@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
-	["LastPlayerFullName"] = "Lichkingvult-Blackrock",
-	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 188027,
@@ -26,9 +24,9 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:188028::::::::60:251::36:3:6652:8146:1472::::::|h[Harmonium Breastplate]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 188033,
-			["Level"] = 226,
-			["Link"] = "|cff1eff00|Hitem:188033::::::::60:251::36:4:6652:7580:8146:1472::::::|h[Harmonium Girdle]|h|r",
+			["ID"] = 189840,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:189840::::::::60:251::4:7:7186:6652:7579:8131:8137:1485:6646:1:28:2167:::::|h[Remnant's Blasphemous Scourgebelt]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 188031,
@@ -69,10 +67,10 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:190582::::::::60:251::36:2:8146:6652::::::|h[Symbol of the Vombata]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 179342,
-			["Level"] = 213,
+			["ID"] = 190390,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:179342::::::::60:251::35:5:7206:6652:1501:5871:6646::::::|h[Overwhelming Power Crystal]|h|r",
+			["Link"] = "|cff1eff00|Hitem:190390::::::::60:251::36:2:8146:6652::::::|h[Protector's Diffusion Implement]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173242,
@@ -91,7 +89,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:188046::::::::60:251::36:3:6652:8146:1472::::::|h[Haven Guard's Mace]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = true,
+	["LastPlayerFullName"] = "Lichkingvult-Blackrock",
 	["Artifacts"] = {
 		[128403] = {
 			["Relics"] = {
@@ -110,6 +109,7 @@ PawnOptions = {
 			["Name"] = "Apocalypse",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEATHKNIGHT",

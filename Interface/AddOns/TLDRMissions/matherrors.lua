@@ -14,9 +14,10 @@ local knownErrors = {
   --{input = {165, 40}, output = 65}, -- https://github.com/TLDRMissions/TLDRMissions/issues/412
   {input = {230, 40}, output = 91, restrictTo = {"Resilient Plumage"}},
   {input = {240, 40}, output = 95},
-  {input = {145, 40}, output = 57},
+  {input = {145, 40}, output = 57, restrictTo = {"Resilient Plumage"}},
   {input = {180, -60}, output = -109},
   {input = {205, -60}, output = -123.2},
+  {input = {210, -60}, output = -126.2},
 }
 
 function addon:multiplyPercentageWithErrors(a, b, buffs)

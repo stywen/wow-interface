@@ -1,262 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			{
-				7.291999999999462, -- [1]
-				"|TInterface\\Icons\\Spell_AnimaMaw_Debuff.blp:20|t You have been afflicted with |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				2, -- [4]
-			}, -- [1]
-			{
-				9.36700000000019, -- [1]
-				"Realities folding upon realities.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				10.44100000000071, -- [1]
-				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				25.30199999999968, -- [1]
-				"Lichkingvult's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [4]
-			{
-				25.65400000000045, -- [1]
-				"Thragg's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [5]
-			{
-				29.9429999999993, -- [1]
-				"Cosmic collapse is inevitable.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				31.10599999999977, -- [1]
-				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [7]
-			{
-				37.01499999999942, -- [1]
-				"Resist's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [8]
-			{
-				47.94000000000051, -- [1]
-				"Kamikazebra's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [9]
-			{
-				58.3130000000001, -- [1]
-				"Kraftwerkk's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [10]
-			{
-				61.66200000000026, -- [1]
-				"Witness the fury of the cosmos!", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				61.66200000000026, -- [1]
-				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [12]
-			{
-				75.21800000000076, -- [1]
-				"There is no realm in which you can hide.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				106.8790000000008, -- [1]
-				"There is no realm in which you can hide.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				116.3510000000006, -- [1]
-				"Realities folding upon realities.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				117.2900000000009, -- [1]
-				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [16]
-			{
-				132.5290000000005, -- [1]
-				"Thragg's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [17]
-			{
-				137.0300000000007, -- [1]
-				"Cosmic collapse is inevitable.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				137.9860000000008, -- [1]
-				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [19]
-			{
-				143.3860000000004, -- [1]
-				"Keyvilock's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [20]
-			{
-				154.1129999999994, -- [1]
-				"Kheza's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [21]
-			{
-				168.505000000001, -- [1]
-				"Witness the fury of the cosmos!", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [22]
-			{
-				168.505000000001, -- [1]
-				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [23]
-			{
-				176.0799999999999, -- [1]
-				"Kraftwerkk's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [24]
-			{
-				176.4330000000009, -- [1]
-				"Resist's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [25]
-			{
-				182.085000000001, -- [1]
-				"Existence will be re-ordered.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				213.853000000001, -- [1]
-				"Existence will be re-ordered.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [27]
-			{
-				223.3220000000001, -- [1]
-				"Realities folding upon realities.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				224.2060000000001, -- [1]
-				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [29]
-			{
-				231.9719999999998, -- [1]
-				"|TInterface\\Icons\\Spell_AnimaMaw_Debuff.blp:20|t You have been afflicted with |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				2, -- [4]
-			}, -- [30]
-			{
-				239.4030000000003, -- [1]
-				"Kamikazebra's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [31]
-			{
-				243.996000000001, -- [1]
-				"Cosmic collapse is inevitable.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [32]
-			{
-				245.027, -- [1]
-				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [33]
-			{
-				275.353000000001, -- [1]
-				"Witness the fury of the cosmos!", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [34]
-			{
-				275.353000000001, -- [1]
-				"|TInterface\\Icons\\INV_Engineering_90_Blackhole.blp:20|t %s begins to cast |cFFFF0000|Hspell:363533|h[Massive Bang]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [35]
-			{
-				282.982, -- [1]
-				"Busbodo's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [36]
-			{
-				282.982, -- [1]
-				"Keyvilock's |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r expires and explodes as a |cFFFF0000|Hspell:361553|h[Dark Eruption]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				3, -- [4]
-			}, -- [37]
-			{
-				288.7600000000002, -- [1]
-				"My reach extends to all planes.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				320.6740000000009, -- [1]
-				"My reach extends to all planes.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [39]
-			{
-				327.7700000000004, -- [1]
-				"|TInterface\\Icons\\Spell_AnimaMaw_Debuff.blp:20|t You have been afflicted with |cFFFF0000|Hspell:361548|h[Dark Eclipse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				2, -- [4]
-			}, -- [40]
-			{
-				330.3410000000004, -- [1]
-				"Realities folding upon realities.", -- [2]
-				"Rygelon", -- [3]
-				7, -- [4]
-			}, -- [41]
-			{
-				331.4439999999995, -- [1]
-				"|TInterface\\Icons\\artifactability_BalanceDruid_NewMoon.blp:20|t %s casts |cFFFF0000|Hspell:362275|h[Celestial Collapse]|h|r!", -- [2]
-				"Rygelon", -- [3]
-				1, -- [4]
-			}, -- [42]
-			["boss"] = "Rygelon",
-		}, -- [1]
-	},
 	["encounter_spells"] = {
 		[363773] = {
 			["school"] = 106,
@@ -326,6 +69,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
+		[361548] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Rygelon",
+		},
 		[345495] = {
 			["school"] = 8,
 			["token"] = {
@@ -333,19 +84,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Frothing Pustule",
 		},
-		[361553] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Rygelon",
-		},
 		[363598] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[361463] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Rygelon",
 		},
@@ -357,15 +108,7 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
-		[362207] = {
-			["school"] = 106,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Rygelon",
-		},
-		[363533] = {
+		[362275] = {
 			["school"] = 106,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
@@ -412,7 +155,7 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
-		[362275] = {
+		[363533] = {
 			["school"] = 106,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
@@ -429,10 +172,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
-		[361463] = {
-			["school"] = 32,
+		[362207] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Rygelon",
 		},
@@ -444,13 +188,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
-		[361548] = {
+		[361553] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Rygelon",
 		},
+	},
+	["emotes"] = {
 	},
 }

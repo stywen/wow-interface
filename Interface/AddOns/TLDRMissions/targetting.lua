@@ -930,6 +930,8 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 1, 8}, target = 1},
         {alive = {0, 3, 4, 7, 10}, target = 3},
         {alive = {0, 4, 6, 7}, target = 7},
+        {alive = {0, 3, 7, 8, 10}, target = 3},
+        {alive = {0, 2, 3, 4, 6, 10}, target = 2},
 
         -- observed in 2224 (Panic Attack)
         -- see https://github.com/TLDRMissions/TLDRMissions/issues/120
@@ -988,6 +990,7 @@ function addon:getPseudorandomLashOut(follower, field)
         {alive = {0, 3, 6, 7, 11}, target = 3},
         {alive = {0, 2, 3, 7, 9, 10, 11}, target = 11},
         {alive = {0, 3, 10, 11}, target = 11},
+        {alive = {0, 2, 3, 6, 9, 10, 11, 12}, target = 12},
     }
     
     local aliveMinions = {}

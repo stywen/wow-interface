@@ -9,24 +9,27 @@ BetterWardrobe_Options = {
 		["Notafriend - Aegwynn"] = "Default",
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 		["Blyyd - Antonidas"] = "Default",
+		["Byd - Aegwynn"] = "Default",
 		["Eshidishii - Blackrock"] = "Default",
+		["Xrth - Blackrock"] = "Default",
 		["Dïo - Blackrock"] = "Default",
 		["Stywen - Antonidas"] = "Default",
 		["Omaewam - Blackrock"] = "Default",
-		["Tizeran - Blackrock"] = "Default",
+		["Stylth - Blackrock"] = "Default",
 		["Gryyn - Blackrock"] = "Default",
 		["Lichkingvult - Blackrock"] = "Default",
 		["Magyc - Mal'Ganis"] = "Default",
-		["Stylth - Blackrock"] = "Default",
+		["Odînaf - Blackrock"] = "Default",
 		["Synster - Aegwynn"] = "Default",
 		["Byar - Antonidas"] = "Default",
+		["Buffedbeef - Blackrock"] = "Default",
 		["Eurotas - Blackrock"] = "Default",
-		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
 		["Stylth - Antonidas"] = "Default",
-		["Buffedbeef - Blackrock"] = "Default",
-		["Byd - Aegwynn"] = "Default",
+		["Tizeran - Blackrock"] = "Default",
+		["Slavictank - Blackrock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -43,27 +46,61 @@ BetterWardrobe_CharacterData = {
 		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Xrth - Blackrock"] = "Xrth - Blackrock",
 		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Stywen - Antonidas"] = "Stywen - Antonidas",
 		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
 		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Synster - Aegwynn"] = "Synster - Aegwynn",
 		["Byar - Antonidas"] = "Byar - Antonidas",
+		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 	},
 }
 BetterWardrobe_SavedSetData = {
+	["profileKeys"] = {
+		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
+		["Dysea - Aegwynn"] = "Dysea - Aegwynn",
+		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
+		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
+		["Testyu - Blackrock"] = "Testyu - Blackrock",
+		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Xrth - Blackrock"] = "Xrth - Blackrock",
+		["Dïo - Blackrock"] = "Dïo - Blackrock",
+		["Stywen - Antonidas"] = "Stywen - Antonidas",
+		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
+		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
+		["Synster - Aegwynn"] = "Synster - Aegwynn",
+		["Byar - Antonidas"] = "Byar - Antonidas",
+		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
+		["Stylth - Antonidas"] = "Stylth - Antonidas",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
+	},
 	["global"] = {
 		["sets"] = {
 			["Starplatïnum - Antonidas"] = {
@@ -81,6 +118,8 @@ BetterWardrobe_SavedSetData = {
 			["Testyu - Blackrock"] = {
 			},
 			["Byd - Mal'Ganis"] = {
+			},
+			["Orthodoxtank - Antonidas"] = {
 			},
 			["Blyyd - Antonidas"] = {
 				{
@@ -110,6 +149,8 @@ BetterWardrobe_SavedSetData = {
 					["icon"] = 1360261,
 					["index"] = 1,
 				}, -- [1]
+			},
+			["Byd - Aegwynn"] = {
 			},
 			["Eshidishii - Blackrock"] = {
 				{
@@ -221,6 +262,8 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 4,
 				}, -- [4]
 			},
+			["Xrth - Blackrock"] = {
+			},
 			["Dïo - Blackrock"] = {
 			},
 			["Stywen - Antonidas"] = {
@@ -253,6 +296,298 @@ BetterWardrobe_SavedSetData = {
 					["icon"] = 1729378,
 					["index"] = 1,
 				}, -- [1]
+			},
+			["Stylth - Blackrock"] = {
+			},
+			["Gryyn - Blackrock"] = {
+			},
+			["Lichkingvult - Blackrock"] = {
+			},
+			["Magyc - Mal'Ganis"] = {
+			},
+			["Odînaf - Blackrock"] = {
+				{
+					["outfitID"] = 0,
+					["sources"] = {
+						67233, -- [1]
+						0, -- [2]
+						67236, -- [3]
+						0, -- [4]
+						64973, -- [5]
+						67789, -- [6]
+						81849, -- [7]
+						82479, -- [8]
+						80994, -- [9]
+						67238, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						66553, -- [16]
+						66553, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "ultimate",
+					["icon"] = 1003603,
+					["index"] = 1,
+				}, -- [1]
+				{
+					["outfitID"] = 1,
+					["sources"] = {
+						80990, -- [1]
+						0, -- [2]
+						61591, -- [3]
+						0, -- [4]
+						61701, -- [5]
+						60973, -- [6]
+						77529, -- [7]
+						78909, -- [8]
+						78775, -- [9]
+						76660, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						10644, -- [15]
+						82065, -- [16]
+						82065, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "ULT",
+					["icon"] = 1416816,
+					["index"] = 2,
+				}, -- [2]
+				{
+					["outfitID"] = 2,
+					["sources"] = {
+						80990, -- [1]
+						0, -- [2]
+						61591, -- [3]
+						0, -- [4]
+						61701, -- [5]
+						60973, -- [6]
+						77529, -- [7]
+						78909, -- [8]
+						78775, -- [9]
+						76660, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						71735, -- [15]
+						82065, -- [16]
+						46911, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "hexe",
+					["icon"] = 1416816,
+					["index"] = 3,
+				}, -- [3]
+				{
+					["outfitID"] = 3,
+					["sources"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "dk",
+					["icon"] = 133766,
+					["index"] = 4,
+				}, -- [4]
+				{
+					["outfitID"] = 4,
+					["sources"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						0, -- [16]
+						5999, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "sluttyyy",
+					["icon"] = 133766,
+					["index"] = 5,
+				}, -- [5]
+			},
+			["Synster - Aegwynn"] = {
+				{
+					["outfitID"] = 0,
+					["sources"] = {
+						93094, -- [1]
+						0, -- [2]
+						93095, -- [3]
+						0, -- [4]
+						93096, -- [5]
+						93098, -- [6]
+						93099, -- [7]
+						93100, -- [8]
+						104604, -- [9]
+						93097, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						70216, -- [16]
+						0, -- [17]
+						0, -- [18]
+						83203, -- [19]
+					},
+					["name"] = "LightHeritage",
+					["icon"] = 1621336,
+					["index"] = 1,
+				}, -- [1]
+			},
+			["Byar - Antonidas"] = {
+			},
+			["Buffedbeef - Blackrock"] = {
+			},
+			["Eurotas - Blackrock"] = {
+				{
+					["outfitID"] = 0,
+					["sources"] = {
+						101914, -- [1]
+						0, -- [2]
+						102224, -- [3]
+						0, -- [4]
+						102244, -- [5]
+						101958, -- [6]
+						101962, -- [7]
+						101966, -- [8]
+						101926, -- [9]
+						101946, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						102297, -- [15]
+						101998, -- [16]
+						101998, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "dinohunter",
+					["icon"] = 2467777,
+					["index"] = 1,
+				}, -- [1]
+				{
+					["outfitID"] = 1,
+					["sources"] = {
+						50108, -- [1]
+						0, -- [2]
+						62700, -- [3]
+						103317, -- [4]
+						62889, -- [5]
+						73396, -- [6]
+						62773, -- [7]
+						68071, -- [8]
+						102977, -- [9]
+						66882, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						62704, -- [16]
+						62704, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "hord",
+					["icon"] = 840662,
+					["index"] = 2,
+				}, -- [2]
+				{
+					["outfitID"] = 3,
+					["sources"] = {
+						105635, -- [1]
+						0, -- [2]
+						105632, -- [3]
+						103317, -- [4]
+						105638, -- [5]
+						99343, -- [6]
+						99189, -- [7]
+						99194, -- [8]
+						102977, -- [9]
+						84230, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						99967, -- [16]
+						99967, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "FurryOgrim",
+					["icon"] = 1728447,
+					["index"] = 3,
+				}, -- [3]
+				{
+					["outfitID"] = 2,
+					["sources"] = {
+						50108, -- [1]
+						0, -- [2]
+						62700, -- [3]
+						0, -- [4]
+						62889, -- [5]
+						62830, -- [6]
+						62773, -- [7]
+						68071, -- [8]
+						102977, -- [9]
+						66882, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						62704, -- [16]
+						62704, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "LegionFurry",
+					["icon"] = 840662,
+					["index"] = 4,
+				}, -- [4]
+			},
+			["Blyyd - Blackrock"] = {
+			},
+			["Stylth - Antonidas"] = {
 			},
 			["Tizeran - Blackrock"] = {
 				{
@@ -526,334 +861,16 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 10,
 				}, -- [10]
 			},
-			["Gryyn - Blackrock"] = {
-			},
-			["Lichkingvult - Blackrock"] = {
-			},
-			["Magyc - Mal'Ganis"] = {
-			},
-			["Stylth - Blackrock"] = {
-			},
-			["Synster - Aegwynn"] = {
-				{
-					["outfitID"] = 0,
-					["sources"] = {
-						93094, -- [1]
-						0, -- [2]
-						93095, -- [3]
-						0, -- [4]
-						93096, -- [5]
-						93098, -- [6]
-						93099, -- [7]
-						93100, -- [8]
-						104604, -- [9]
-						93097, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						70216, -- [16]
-						0, -- [17]
-						0, -- [18]
-						83203, -- [19]
-					},
-					["name"] = "LightHeritage",
-					["icon"] = 1621336,
-					["index"] = 1,
-				}, -- [1]
-			},
-			["Byar - Antonidas"] = {
-			},
-			["Eurotas - Blackrock"] = {
-				{
-					["outfitID"] = 0,
-					["sources"] = {
-						101914, -- [1]
-						0, -- [2]
-						102224, -- [3]
-						0, -- [4]
-						102244, -- [5]
-						101958, -- [6]
-						101962, -- [7]
-						101966, -- [8]
-						101926, -- [9]
-						101946, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						102297, -- [15]
-						101998, -- [16]
-						101998, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "dinohunter",
-					["icon"] = 2467777,
-					["index"] = 1,
-				}, -- [1]
-				{
-					["outfitID"] = 1,
-					["sources"] = {
-						50108, -- [1]
-						0, -- [2]
-						62700, -- [3]
-						103317, -- [4]
-						62889, -- [5]
-						73396, -- [6]
-						62773, -- [7]
-						68071, -- [8]
-						102977, -- [9]
-						66882, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						62704, -- [16]
-						62704, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "hord",
-					["icon"] = 840662,
-					["index"] = 2,
-				}, -- [2]
-				{
-					["outfitID"] = 3,
-					["sources"] = {
-						105635, -- [1]
-						0, -- [2]
-						105632, -- [3]
-						103317, -- [4]
-						105638, -- [5]
-						99343, -- [6]
-						99189, -- [7]
-						99194, -- [8]
-						102977, -- [9]
-						84230, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						99967, -- [16]
-						99967, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "FurryOgrim",
-					["icon"] = 1728447,
-					["index"] = 3,
-				}, -- [3]
-				{
-					["outfitID"] = 2,
-					["sources"] = {
-						50108, -- [1]
-						0, -- [2]
-						62700, -- [3]
-						0, -- [4]
-						62889, -- [5]
-						62830, -- [6]
-						62773, -- [7]
-						68071, -- [8]
-						102977, -- [9]
-						66882, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						62704, -- [16]
-						62704, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "LegionFurry",
-					["icon"] = 840662,
-					["index"] = 4,
-				}, -- [4]
-			},
-			["Odînaf - Blackrock"] = {
-				{
-					["outfitID"] = 0,
-					["sources"] = {
-						67233, -- [1]
-						0, -- [2]
-						67236, -- [3]
-						0, -- [4]
-						64973, -- [5]
-						67789, -- [6]
-						81849, -- [7]
-						82479, -- [8]
-						80994, -- [9]
-						67238, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						66553, -- [16]
-						66553, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "ultimate",
-					["icon"] = 1003603,
-					["index"] = 1,
-				}, -- [1]
-				{
-					["outfitID"] = 1,
-					["sources"] = {
-						80990, -- [1]
-						0, -- [2]
-						61591, -- [3]
-						0, -- [4]
-						61701, -- [5]
-						60973, -- [6]
-						77529, -- [7]
-						78909, -- [8]
-						78775, -- [9]
-						76660, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						10644, -- [15]
-						82065, -- [16]
-						82065, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "ULT",
-					["icon"] = 1416816,
-					["index"] = 2,
-				}, -- [2]
-				{
-					["outfitID"] = 2,
-					["sources"] = {
-						80990, -- [1]
-						0, -- [2]
-						61591, -- [3]
-						0, -- [4]
-						61701, -- [5]
-						60973, -- [6]
-						77529, -- [7]
-						78909, -- [8]
-						78775, -- [9]
-						76660, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						71735, -- [15]
-						82065, -- [16]
-						46911, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "hexe",
-					["icon"] = 1416816,
-					["index"] = 3,
-				}, -- [3]
-				{
-					["outfitID"] = 3,
-					["sources"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						0, -- [8]
-						0, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						0, -- [16]
-						0, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "dk",
-					["icon"] = 133766,
-					["index"] = 4,
-				}, -- [4]
-				{
-					["outfitID"] = 4,
-					["sources"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						0, -- [8]
-						0, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						0, -- [16]
-						5999, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "sluttyyy",
-					["icon"] = 133766,
-					["index"] = 5,
-				}, -- [5]
-			},
-			["Blyyd - Blackrock"] = {
-			},
-			["Stylth - Antonidas"] = {
-			},
-			["Buffedbeef - Blackrock"] = {
-			},
-			["Byd - Aegwynn"] = {
+			["Slavictank - Blackrock"] = {
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
-		["Dysea - Aegwynn"] = "Dysea - Aegwynn",
-		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
-		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
-		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
-		["Testyu - Blackrock"] = "Testyu - Blackrock",
-		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Dïo - Blackrock"] = "Dïo - Blackrock",
-		["Stywen - Antonidas"] = "Stywen - Antonidas",
-		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
-		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
-		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Stylth - Blackrock"] = "Stylth - Blackrock",
-		["Synster - Aegwynn"] = "Synster - Aegwynn",
-		["Byar - Antonidas"] = "Byar - Antonidas",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
-		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
 	},
 	["profiles"] = {
 		["Dysea - Aegwynn"] = {
 		},
 		["Nofriend - Aegwynn"] = {
+		},
+		["Xrth - Blackrock"] = {
 		},
 		["Notafriend - Aegwynn"] = {
 		},
@@ -871,9 +888,11 @@ BetterWardrobe_SavedSetData = {
 		},
 		["Lichkingvult - Blackrock"] = {
 		},
+		["Tizeran - Blackrock"] = {
+		},
 		["Byar - Antonidas"] = {
 		},
-		["Eshidishii - Blackrock"] = {
+		["Odînaf - Blackrock"] = {
 		},
 		["Eurotas - Blackrock"] = {
 		},
@@ -881,9 +900,9 @@ BetterWardrobe_SavedSetData = {
 		},
 		["Stylth - Antonidas"] = {
 		},
-		["Odînaf - Blackrock"] = {
+		["Eshidishii - Blackrock"] = {
 		},
-		["Tizeran - Blackrock"] = {
+		["Slavictank - Blackrock"] = {
 		},
 	},
 }
@@ -897,24 +916,27 @@ BetterWardrobe_SubstituteItemData = {
 		["Notafriend - Aegwynn"] = "Default",
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 		["Blyyd - Antonidas"] = "Default",
+		["Byd - Aegwynn"] = "Default",
 		["Eshidishii - Blackrock"] = "Default",
+		["Xrth - Blackrock"] = "Default",
 		["Dïo - Blackrock"] = "Default",
 		["Stywen - Antonidas"] = "Default",
 		["Omaewam - Blackrock"] = "Default",
-		["Tizeran - Blackrock"] = "Default",
+		["Stylth - Blackrock"] = "Default",
 		["Gryyn - Blackrock"] = "Default",
 		["Lichkingvult - Blackrock"] = "Default",
 		["Magyc - Mal'Ganis"] = "Default",
-		["Stylth - Blackrock"] = "Default",
+		["Odînaf - Blackrock"] = "Default",
 		["Synster - Aegwynn"] = "Default",
 		["Byar - Antonidas"] = "Default",
+		["Buffedbeef - Blackrock"] = "Default",
 		["Eurotas - Blackrock"] = "Default",
-		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
 		["Stylth - Antonidas"] = "Default",
-		["Buffedbeef - Blackrock"] = "Default",
-		["Byd - Aegwynn"] = "Default",
+		["Tizeran - Blackrock"] = "Default",
+		["Slavictank - Blackrock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -932,24 +954,27 @@ BetterWardrobe_ListData = {
 			["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
 			["Testyu - Blackrock"] = "Testyu - Blackrock",
 			["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 			["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+			["Byd - Aegwynn"] = "Byd - Aegwynn",
 			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+			["Xrth - Blackrock"] = "Xrth - Blackrock",
 			["Dïo - Blackrock"] = "Dïo - Blackrock",
 			["Stywen - Antonidas"] = "Stywen - Antonidas",
 			["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+			["Stylth - Blackrock"] = "Stylth - Blackrock",
 			["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 			["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 			["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-			["Stylth - Blackrock"] = "Stylth - Blackrock",
+			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Synster - Aegwynn"] = "Synster - Aegwynn",
 			["Byar - Antonidas"] = "Byar - Antonidas",
+			["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 			["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 			["Stylth - Antonidas"] = "Stylth - Antonidas",
-			["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-			["Byd - Aegwynn"] = "Byd - Aegwynn",
+			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+			["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 		},
 		["profiles"] = {
 			["Starplatïnum - Antonidas"] = {
@@ -957,6 +982,8 @@ BetterWardrobe_ListData = {
 			["Dysea - Aegwynn"] = {
 			},
 			["Nofriend - Aegwynn"] = {
+			},
+			["Xrth - Blackrock"] = {
 			},
 			["Notafriend - Aegwynn"] = {
 			},
@@ -976,7 +1003,9 @@ BetterWardrobe_ListData = {
 			},
 			["Lichkingvult - Blackrock"] = {
 			},
-			["Byd - Aegwynn"] = {
+			["Tizeran - Blackrock"] = {
+			},
+			["Odînaf - Blackrock"] = {
 			},
 			["Byar - Antonidas"] = {
 			},
@@ -988,9 +1017,9 @@ BetterWardrobe_ListData = {
 			},
 			["Stylth - Antonidas"] = {
 			},
-			["Odînaf - Blackrock"] = {
+			["Byd - Aegwynn"] = {
 			},
-			["Tizeran - Blackrock"] = {
+			["Slavictank - Blackrock"] = {
 			},
 		},
 	},
@@ -1004,24 +1033,27 @@ BetterWardrobe_ListData = {
 			["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
 			["Testyu - Blackrock"] = "Testyu - Blackrock",
 			["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 			["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+			["Byd - Aegwynn"] = "Byd - Aegwynn",
 			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+			["Xrth - Blackrock"] = "Xrth - Blackrock",
 			["Dïo - Blackrock"] = "Dïo - Blackrock",
 			["Stywen - Antonidas"] = "Stywen - Antonidas",
 			["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+			["Stylth - Blackrock"] = "Stylth - Blackrock",
 			["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 			["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 			["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-			["Stylth - Blackrock"] = "Stylth - Blackrock",
+			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Synster - Aegwynn"] = "Synster - Aegwynn",
 			["Byar - Antonidas"] = "Byar - Antonidas",
+			["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 			["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 			["Stylth - Antonidas"] = "Stylth - Antonidas",
-			["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-			["Byd - Aegwynn"] = "Byd - Aegwynn",
+			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+			["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 		},
 		["profiles"] = {
 			["Starplatïnum - Antonidas"] = {
@@ -1040,9 +1072,15 @@ BetterWardrobe_ListData = {
 			},
 			["Byd - Mal'Ganis"] = {
 			},
+			["Orthodoxtank - Antonidas"] = {
+			},
 			["Blyyd - Antonidas"] = {
 			},
+			["Byd - Aegwynn"] = {
+			},
 			["Eshidishii - Blackrock"] = {
+			},
+			["Xrth - Blackrock"] = {
 			},
 			["Dïo - Blackrock"] = {
 			},
@@ -1050,7 +1088,7 @@ BetterWardrobe_ListData = {
 			},
 			["Omaewam - Blackrock"] = {
 			},
-			["Tizeran - Blackrock"] = {
+			["Stylth - Blackrock"] = {
 			},
 			["Gryyn - Blackrock"] = {
 			},
@@ -1058,26 +1096,27 @@ BetterWardrobe_ListData = {
 			},
 			["Magyc - Mal'Ganis"] = {
 			},
-			["Stylth - Blackrock"] = {
+			["Odînaf - Blackrock"] = {
 			},
 			["Synster - Aegwynn"] = {
 			},
 			["Byar - Antonidas"] = {
 			},
-			["Eurotas - Blackrock"] = {
+			["Buffedbeef - Blackrock"] = {
 			},
-			["Odînaf - Blackrock"] = {
+			["Eurotas - Blackrock"] = {
 			},
 			["Blyyd - Blackrock"] = {
 			},
 			["Stylth - Antonidas"] = {
 			},
-			["Buffedbeef - Blackrock"] = {
+			["Tizeran - Blackrock"] = {
 			},
-			["Byd - Aegwynn"] = {
+			["Slavictank - Blackrock"] = {
 			},
 		},
 	},
+	["lastUpdte"] = 1,
 	["OutfitDB"] = {
 		["profileKeys"] = {
 			["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
@@ -1088,24 +1127,27 @@ BetterWardrobe_ListData = {
 			["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
 			["Testyu - Blackrock"] = "Testyu - Blackrock",
 			["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 			["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+			["Byd - Aegwynn"] = "Byd - Aegwynn",
 			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+			["Xrth - Blackrock"] = "Xrth - Blackrock",
 			["Dïo - Blackrock"] = "Dïo - Blackrock",
 			["Stywen - Antonidas"] = "Stywen - Antonidas",
 			["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+			["Stylth - Blackrock"] = "Stylth - Blackrock",
 			["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 			["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 			["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-			["Stylth - Blackrock"] = "Stylth - Blackrock",
+			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Synster - Aegwynn"] = "Synster - Aegwynn",
 			["Byar - Antonidas"] = "Byar - Antonidas",
+			["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 			["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 			["Stylth - Antonidas"] = "Stylth - Antonidas",
-			["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-			["Byd - Aegwynn"] = "Byd - Aegwynn",
+			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+			["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 		},
 		["char"] = {
 			["Blyyd - Antonidas"] = {
@@ -1131,7 +1173,6 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
-	["lastUpdte"] = 1,
 	["HiddenAppearanceDB"] = {
 		["profileKeys"] = {
 			["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
@@ -1142,24 +1183,27 @@ BetterWardrobe_ListData = {
 			["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
 			["Testyu - Blackrock"] = "Testyu - Blackrock",
 			["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 			["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+			["Byd - Aegwynn"] = "Byd - Aegwynn",
 			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+			["Xrth - Blackrock"] = "Xrth - Blackrock",
 			["Dïo - Blackrock"] = "Dïo - Blackrock",
 			["Stywen - Antonidas"] = "Stywen - Antonidas",
 			["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+			["Stylth - Blackrock"] = "Stylth - Blackrock",
 			["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 			["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 			["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-			["Stylth - Blackrock"] = "Stylth - Blackrock",
+			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Synster - Aegwynn"] = "Synster - Aegwynn",
 			["Byar - Antonidas"] = "Byar - Antonidas",
+			["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 			["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 			["Stylth - Antonidas"] = "Stylth - Antonidas",
-			["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-			["Byd - Aegwynn"] = "Byd - Aegwynn",
+			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+			["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 		},
 		["profiles"] = {
 			["Starplatïnum - Antonidas"] = {
@@ -1167,6 +1211,8 @@ BetterWardrobe_ListData = {
 			["Dysea - Aegwynn"] = {
 			},
 			["Nofriend - Aegwynn"] = {
+			},
+			["Xrth - Blackrock"] = {
 			},
 			["Notafriend - Aegwynn"] = {
 			},
@@ -1186,7 +1232,9 @@ BetterWardrobe_ListData = {
 			},
 			["Lichkingvult - Blackrock"] = {
 			},
-			["Byd - Aegwynn"] = {
+			["Tizeran - Blackrock"] = {
+			},
+			["Odînaf - Blackrock"] = {
 			},
 			["Byar - Antonidas"] = {
 			},
@@ -1198,9 +1246,9 @@ BetterWardrobe_ListData = {
 			},
 			["Stylth - Antonidas"] = {
 			},
-			["Odînaf - Blackrock"] = {
+			["Byd - Aegwynn"] = {
 			},
-			["Tizeran - Blackrock"] = {
+			["Slavictank - Blackrock"] = {
 			},
 		},
 	},

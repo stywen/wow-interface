@@ -9,24 +9,27 @@ TLDRMissionsProfiles = {
 		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Xrth - Blackrock"] = "Xrth - Blackrock",
 		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Stywen - Antonidas"] = "Stywen - Antonidas",
 		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
 		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Synster - Aegwynn"] = "Synster - Aegwynn",
 		["Byar - Antonidas"] = "Byar - Antonidas",
+		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 	},
 	["profiles"] = {
 		["Starplatïnum - Antonidas"] = {
@@ -45,24 +48,30 @@ TLDRMissionsProfiles = {
 		},
 		["Byd - Mal'Ganis"] = {
 		},
+		["Orthodoxtank - Antonidas"] = {
+		},
 		["Blyyd - Antonidas"] = {
 		},
+		["Byd - Aegwynn"] = {
+		},
 		["Eshidishii - Blackrock"] = {
-			["sacrificeRemaining"] = true,
+			["excludedRewards"] = {
+				"pet-charms", -- [1]
+				"reputation", -- [2]
+				"followerxp", -- [3]
+				"campaign", -- [4]
+				"sanctum", -- [5]
+				"augment-runes", -- [6]
+				"crafting-cache", -- [7]
+			},
 			["selectedRewards"] = {
 				"gold", -- [1]
 				"anima", -- [2]
-				"followerxp-items", -- [3]
-				"pet-charms", -- [4]
-				"augment-runes", -- [5]
-				"reputation", -- [6]
-				"followerxp", -- [7]
-				"crafting-cache", -- [8]
-				"runecarver", -- [9]
-				"campaign", -- [10]
-				"gear", -- [11]
-				"sanctum", -- [12]
+				"runecarver", -- [3]
+				"gear", -- [4]
 			},
+		},
+		["Xrth - Blackrock"] = {
 		},
 		["Dïo - Blackrock"] = {
 		},
@@ -70,7 +79,7 @@ TLDRMissionsProfiles = {
 		},
 		["Omaewam - Blackrock"] = {
 		},
-		["Tizeran - Blackrock"] = {
+		["Stylth - Blackrock"] = {
 		},
 		["Gryyn - Blackrock"] = {
 		},
@@ -78,27 +87,27 @@ TLDRMissionsProfiles = {
 		},
 		["Magyc - Mal'Ganis"] = {
 		},
-		["Stylth - Blackrock"] = {
+		["Odînaf - Blackrock"] = {
 		},
 		["Synster - Aegwynn"] = {
 		},
 		["Byar - Antonidas"] = {
 		},
-		["Eurotas - Blackrock"] = {
+		["Buffedbeef - Blackrock"] = {
 		},
-		["Odînaf - Blackrock"] = {
+		["Eurotas - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
 		["Stylth - Antonidas"] = {
 		},
-		["Buffedbeef - Blackrock"] = {
+		["Tizeran - Blackrock"] = {
 		},
-		["Byd - Aegwynn"] = {
+		["Slavictank - Blackrock"] = {
 		},
 	},
 }
 TLDRMissionsCache = {
-	["9.2-101"] = {
+	["9.2-102"] = {
 	},
 }

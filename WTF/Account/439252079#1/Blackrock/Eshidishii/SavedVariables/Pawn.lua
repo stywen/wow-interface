@@ -1,9 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
-	["LastPlayerFullName"] = "Eshidishii-Blackrock",
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 171415,
@@ -12,8 +9,8 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 180115,
-			["Level"] = 262,
-			["Link"] = "|cffa335ee|Hitem:180115::::::::60:72::33:6:7359:6652:7578:7795:1576:6646:1:28:1279:::::|h[Azure-Venom Choker]|h|r",
+			["Level"] = 265,
+			["Link"] = "|cffa335ee|Hitem:180115::::::::60:72::33:6:7359:6652:7578:7796:1579:6646:1:28:1279:::::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 188941,
@@ -37,9 +34,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:188940::::::::60:72::35:5:6652:7359:7769:8155:1488::::::|h[Legplates of the Infinite Infantry]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 190366,
-			["Level"] = 239,
-			["Link"] = "|cffa335ee|Hitem:190366::::::::60:72::11:3:8111:6652:1478:1:28:2057:::::|h[Numerus Sabatons]|h|r",
+			["ID"] = 179338,
+			["Level"] = 259,
+			["Link"] = "|cffa335ee|Hitem:179338::::::::60:72::16:7:8136:8137:7359:6652:7780:1573:6646:1:28:1279:::::|h[Dynamo Doomstompers]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 171419,
@@ -48,8 +45,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 188937,
-			["Level"] = 246,
-			["Link"] = "|cffa335ee|Hitem:188937::::::::60:72::28:4:6652:8096:8154:1466::::::|h[Grasps of the Infinite Infantry]|h|r",
+			["Level"] = 265,
+			["Link"] = "|cffa335ee|Hitem:188937:6209:::::::60:72::16:6:6652:7359:8154:7782:1485:6646::::::|h[Grasps of the Infinite Infantry]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178926,
@@ -92,7 +89,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179485::::::::60:72::28:4:6652:1495:5920:6646:1:28:1707:::::|h[Fang of Nemaeus]|h|r",
 		}, -- [17]
 	},
-	["LastKeybindingsSet"] = 1,
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
+	["LastPlayerFullName"] = "Eshidishii-Blackrock",
 	["Artifacts"] = {
 		[128910] = {
 			["Relics"] = {
@@ -137,6 +136,7 @@ PawnOptions = {
 			["Name"] = "Scale of the Earth-Warder",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",

@@ -40,3 +40,6 @@ RaiderIO_DB_KR_A: disabled
 AAP-Core: disabled
 AAP-EasternKingdoms: disabled
 AAP-Shadowlands: disabled
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled

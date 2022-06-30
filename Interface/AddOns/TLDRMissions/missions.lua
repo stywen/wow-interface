@@ -225,10 +225,6 @@ function addon:GetAllMissionsMatchingFilter(rewardFilter, hard)
             if (rewardFilter == "augment-runes") and (reward.itemID == 181468) then
                 include = true
             end
-            
-            if (rewardFilter == "campaign") and reward.currencyID and (reward.currencyID == 1889) then
-                include = true
-            end
         end
         
         if include then
@@ -420,7 +416,58 @@ function addon:GetRunecarverMissions(hard)
 end
 
 function addon:GetCampaignMissions(hard)
-    return addon:GetAllMissionsMatchingFilter("campaign", hard)
+    local missions = C_Garrison.GetAvailableMissions(123)
+    local missionLineup = {}
+    
+    for _, mission in pairs(missions) do
+        local rewards = mission.rewards
+
+        if (rewardFilter == "campaign") and reward.currencyID and (reward.currencyID == 1889) then
+                include = true
+            end
+
+        for _, reward in pairs(rewards) do
+            if reward.currencyID and (reward.currencyID == 1889) then
+                local quantity = C_CurrencyInfo.GetCurrencyInfo(1889).quantity
+                local include = false
+                if quantity < 5 then
+                    include = addon.db.profile.campaignCategories["1-4"]
+                elseif quantity < 9 then
+                    include = addon.db.profile.campaignCategories["5-8"]
+                elseif quantity < 13 then
+                    include = addon.db.profile.campaignCategories["9-12"]
+                elseif quantity < 17 then
+                    include = addon.db.profile.campaignCategories["13-16"]
+                else
+                    include = addon.db.profile.campaignCategories["17+"]
+                end
+                if include then
+                    table.insert(missionLineup, mission)
+                end
+            end
+        end
+    end
+    
+    local sort_func
+    if hard then
+        function sort_func(a, b)
+            if a.missionScalar == b.missionScalar then
+                return a.missionID < b.missionID
+            end
+            return a.missionScalar > b.missionScalar
+        end
+    else
+        function sort_func(a, b)
+            if a.missionScalar == b.missionScalar then
+                return a.missionID < b.missionID
+            end
+            return a.missionScalar < b.missionScalar
+        end
+    end
+    
+    table.sort(missionLineup, sort_func)
+    
+    return missionLineup
 end
 
 function addon:GetGearMissions(hard)

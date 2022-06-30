@@ -37,6 +37,13 @@ function addon:RefreshProfile()
                 ["*"] = true,
             },
             runecarver = CopyTable(addon.runecarverCurrencyIDs),
+            campaignCategories = {
+                ["1-4"] = true,
+                ["5-8"] = true,
+                ["9-12"] = true,
+                ["13-16"] = true,
+                ["17+"] = true,
+            },
             gearGoldCategories = {
                 ["0-19"] = true,
                 ["20-29"] = true,
@@ -401,6 +408,36 @@ function addon:RefreshProfile()
         end
     end)
     
+    local campaignCategories = {
+        "1-4",
+        "5-8",
+        "9-12",
+        "13-16",
+        "17+",
+    }
+    
+    LibDD:UIDropDownMenu_Initialize(TLDRMissionsCampaignDropDown, function(self, level, menuList)
+        local info = LibDD:UIDropDownMenu_CreateInfo()
+        info.isNotRadio = true
+        info.keepShownOnClick = true
+        info.func = addon.GUI.CampaignDropDown.OnSelect
+        info.tooltipTitle = ""
+        info.tooltipOnButton = true
+        info.tooltipText = L["CampaignDropDownTooltip"]
+        
+        local name = C_CurrencyInfo.GetCurrencyInfo(1889)
+        if name then
+            name = name.name
+        else
+            name = ""
+        end
+        for _, campaignCategory in ipairs(campaignCategories) do
+            info.text = name.." "..campaignCategory
+            info.checked = addon.db.profile.campaignCategories[campaignCategory]
+            info.arg1 = campaignCategory
+            LibDD:UIDropDownMenu_AddButton(info)
+        end
+    end)
 
     local goldCategories = {
         "0-19",

@@ -1,6 +1,6 @@
 ## Interface: 90205
 ## Title: TL;DR Missions
-## Version: 9.2-101
+## Version: 9.2-102
 ## Notes: Automates sending out Covenant Missions
 ## Author: Teelo
 ## SavedVariablesPerCharacter: TLDRMissionsOptions, TLDRMissionsLogging
@@ -47,6 +47,7 @@ events.lua
 logging.lua
 caching.lua
 profiles.lua
+bindings.lua
 
 torghast-farm.lua
 

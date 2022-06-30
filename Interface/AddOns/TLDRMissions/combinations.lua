@@ -414,8 +414,11 @@ function addon:arrangeFollowerCombinationsByFewestFollowersPlusTroops(followers,
             if TLDRMissionsResultCacheIndex[missionID] then
                 local info = addon:C_Garrison_GetFollowerInfo(follower1)
                 if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar] then
-                    if _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar][info.garrFollowerID] ~= nil then
-                        continue = false
+                    local cache = _G["TLDRMissionsResultCache"..missionID][C_Garrison.GetBasicMissionInfo(missionID).missionScalar][info.garrFollowerID]
+                    if cache ~= nil then
+                        if (cache == false) or (info.health < cache) then
+                            continue = false
+                        end
                     end
                 end
             end

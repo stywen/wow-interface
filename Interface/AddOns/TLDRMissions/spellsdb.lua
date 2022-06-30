@@ -641,6 +641,7 @@ addon.spellsDB = {
             target = "furthest_enemy",
             type = "attack",
             attackPercent = 60,
+            continueIfCasterDies = true,
         },
         [2] = {
             target = "furthest_enemy",
@@ -1303,6 +1304,7 @@ addon.spellsDB = {
         changeDamageTakenPercent = 25,
         buffName = "Arrogant Denial",
         persistAfterDeath = true,
+        roundFirst = true,
     },
     [177] = { -- Slams into the closest enemy, dealing $s1 damage.
         target = "closest_enemy",

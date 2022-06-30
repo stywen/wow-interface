@@ -1,8 +1,9 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Eshidishii-blackrock"
+RaiderIO_LastCharacter = "eu-Slavictank-blackrock"
 RaiderIO_MissingCharacters = {
+	["eu-Slavictank-blackrock"] = true,
 }
 RaiderIO_MissingServers = {
 }

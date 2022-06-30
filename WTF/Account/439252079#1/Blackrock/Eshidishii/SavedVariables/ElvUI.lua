@@ -2,974 +2,50 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/bw", -- [1]
-		"/dbm", -- [2]
-		"/elvui", -- [3]
-		"/way 61.5 17.6", -- [4]
-		"/way 60.0 25.9", -- [5]
-		"/way 60.9 37.8", -- [6]
-		"/way 65.9 26.9", -- [7]
-		"/s np", -- [8]
-		"/p hay", -- [9]
-		"/mountspecial", -- [10]
-		"/reload", -- [11]
-		"/m", -- [12]
-		"/p np", -- [13]
-		"/p jow", -- [14]
-		"/p healer is afk for 1 minute", -- [15]
-		"/p left back", -- [16]
-		"/p ++", -- [17]
-		"/p need the axe?", -- [18]
-		"/simc", -- [19]
-		"/wa", -- [20]
+		"/p nice pull", -- [1]
+		"/p big play whole team", -- [2]
+		"/p wipe", -- [3]
+		"/s simc", -- [4]
+		"/dance", -- [5]
+		"/p bru was fuer bug", -- [6]
+		"/wa", -- [7]
+		"/p 1 min afk", -- [8]
+		"/p re", -- [9]
+		"/p ec", -- [10]
+		"/m", -- [11]
+		"/simc", -- [12]
+		"/p hey", -- [13]
+		"/ec", -- [14]
+		"/p thy", -- [15]
+		"/p dungeon not set to myth btw", -- [16]
+		"/p wb", -- [17]
+		"/p +", -- [18]
+		"/p hay", -- [19]
+		"/p seas", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Cosmic Artifice on Erebuu", -- [1]
-			"Erebuu-Blackrock", -- [2]
+			"Shroud down", -- [1]
+			"Kyosin-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Erebuu-Blackrock", -- [5]
+			"Kyosin-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			623, -- [11]
-			"Player-581-0A49D34C", -- [12]
+			1064, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcErebuu|r",
-			[51] = 1656110084,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Kyosin|r",
+			[51] = 1656534852,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [1]
-		{
-			"3", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			624, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110087,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"2", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			626, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110088,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"1", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			628, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110089,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"Cosmic Artifice on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			632, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110108,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"3", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			634, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110111,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"2", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			635, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110112,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"1", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			636, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110113,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"back left", -- [1]
-			"Djéröm-Elune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Djéröm-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			637, -- [11]
-			"Player-1315-060ED8A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Djéröm-Elune|r",
-			[51] = 1656110114,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
-		{
-			"Cosmic Artifice on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			639, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110119,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"3", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			643, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110122,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"2", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			644, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110123,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"1", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			645, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110124,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"all", -- [1]
-			"Djéröm-Elune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Djéröm-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			646, -- [11]
-			"Player-1315-060ED8A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Djéröm-Elune|r",
-			[51] = 1656110125,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [14]
-		{
-			"Cosmic Artifice on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			655, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110197,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"Cosmic Artifice on Erebuu", -- [1]
-			"Erebuu-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Erebuu-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			656, -- [11]
-			"Player-581-0A49D34C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcErebuu|r",
-			[51] = 1656110197,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"3", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			657, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110200,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"ty", -- [1]
-			"Icesolid-Kazzak", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Icesolid-Kazzak", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			665, -- [11]
-			"Player-1305-09B6AFBE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaIcesolid-Kazzak|r",
-			[51] = 1656110214,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
-		{
-			"an unmissable key miss", -- [1]
-			"Djéröm-Elune", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Djéröm-Elune", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"Player-1315-060ED8A9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Djéröm-Elune|r",
-			[51] = 1656110222,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
-		{
-			"hi", -- [1]
-			"Jackster-Terokkar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jackster-Terokkar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			694, -- [11]
-			"Player-633-0A6B7004", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656110575,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
-		{
-			"brb relog", -- [1]
-			"Jackster-Terokkar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jackster-Terokkar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			695, -- [11]
-			"Player-633-0A6B7004", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656110584,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
-		{
-			"hii", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			698, -- [11]
-			"Player-3391-0C37A603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656110609,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
-		{
-			"hi", -- [1]
-			"Veldura-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Veldura-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			699, -- [11]
-			"Player-581-08DB1B13", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1656110611,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [23]
-		{
-			"o/", -- [1]
-			"Wiidzen-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			700, -- [11]
-			"Player-1390-0C2957D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656110613,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
-		{
-			"u can tp ? ^^'", -- [1]
-			"Wiidzen-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			701, -- [11]
-			"Player-1390-0C2957D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656110623,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
-		{
-			"if someone drop |cffa335ee|Hitem:180095::::::::60:263::23:1:3524:1:28:749:::::|h[Tranchant pénitent]|h|r please i need it :')", -- [1]
-			"Wiidzen-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			707, -- [11]
-			"Player-1390-0C2957D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656110696,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [26]
-		{
-			"ty sir", -- [1]
-			"Wiidzen-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			708, -- [11]
-			"Player-1390-0C2957D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656110715,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [27]
-		{
-			"tyy!", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			709, -- [11]
-			"Player-3391-0C37A603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656110720,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
-		{
-			"impossible for me", -- [1]
-			"Jackster-Terokkar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jackster-Terokkar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			710, -- [11]
-			"Player-633-0A6B7004", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656110721,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
-		{
-			"yw", -- [1]
-			"Jackster-Terokkar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jackster-Terokkar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			711, -- [11]
-			"Player-633-0A6B7004", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656110722,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [30]
-		{
-			"FOCUS Forsworn Mender", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			719, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110892,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
-		{
-			"[FIS] Interrupted Forsworn Mender's |cff71d5ff|Hspell:317936:0|h[Forsworn Doctrine]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			721, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110908,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [32]
-		{
-			"FOCUS Forsworn Goliath", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			722, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110920,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
-		{
-			"[FIS] Interrupted Forsworn Castigator's |cff71d5ff|Hspell:317959:0|h[Dark Lash]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			724, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110932,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
-		{
-			"[FIS] Interrupted Forsworn Goliath's |cff71d5ff|Hspell:327413:0|h[Rebellious Fist]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			726, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110953,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [35]
-		{
-			"FOCUS Forsworn Mender", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			728, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110973,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
-		{
-			"[FIS] Interrupted Forsworn Mender's |cff71d5ff|Hspell:317936:0|h[Forsworn Doctrine]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			729, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656110989,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
-		{
-			"FOCUS Kyrian Goliath", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			734, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111046,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
-		{
-			"[FIS] Interrupted Forsworn Castigator's |cff71d5ff|Hspell:317959:0|h[Dark Lash]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			736, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111061,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
-		{
-			"FOCUS Forsworn Goliath", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			738, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111090,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
-		{
-			"Charged Spear on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Veldura-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			743, -- [11]
-			"Player-581-08DB1B13", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1656111134,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
-		{
-			"Charged Spear on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			750, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111187,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
-		{
-			"Charged Spear on Hildaliphie", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			755, -- [11]
-			"Player-3391-0C37A603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656111198,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
 		{
 			"FOCUS Vy Interceptor", -- [1]
 			"Eshidishii-Blackrock", -- [2]
@@ -981,7 +57,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			767, -- [11]
+			1072, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -989,55 +65,979 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111395,
+			[51] = 1656534879,
 			[50] = "CHAT_MSG_SAY",
+		}, -- [2]
+		{
+			"[FIS] Interrupted Amarth's |cff71d5ff|Hspell:320171:0|h[Necrotic Bolt]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1083, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656534924,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [3]
+		{
+			"[FIS] Interrupted Amarth's |cff71d5ff|Hspell:320171:0|h[Necrotic Bolt]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1087, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656534941,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [4]
+		{
+			"Throw Cleaver on Eshidishii", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1097, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656534996,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [5]
+		{
+			"Throw Cleaver on Kyosin", -- [1]
+			"Kyosin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyosin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1100, -- [11]
+			"Player-581-0A442F54", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Kyosin|r",
+			[51] = 1656535014,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [6]
+		{
+			"3", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1102, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535032,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [7]
+		{
+			"Lancer de fendoir sur Magoule!", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1103, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535032,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [8]
+		{
+			"2", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1104, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535033,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [9]
+		{
+			"[FIS] Interrupted Corpse Collector's |cff71d5ff|Hspell:338353:0|h[Goresplatter]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1105, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656535038,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [10]
+		{
+			"FOCUS Patchwerk Soldier", -- [1]
+			"Veldura-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veldura-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1107, -- [11]
+			"Player-581-08DB1B13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Veldura|r",
+			[51] = 1656535066,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [11]
+		{
+			"Throw Cleaver on Eshidishii", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1109, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656535194,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [12]
+		{
+			"Throw Cleaver on Kyosin", -- [1]
+			"Kyosin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyosin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1110, -- [11]
+			"Player-581-0A442F54", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Kyosin|r",
+			[51] = 1656535198,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [13]
+		{
+			"Throw Cleaver on Mikorin", -- [1]
+			"Mikorin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mikorin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1111, -- [11]
+			"Player-581-0A4A57DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMikorin|r",
+			[51] = 1656535216,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [14]
+		{
+			"[FIS] Interrupted Stitching Assistant's |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1114, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656535251,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [15]
+		{
+			"3", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1115, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535282,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [16]
+		{
+			"Lancer de fendoir sur Magoule!", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1116, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535282,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [17]
+		{
+			"2", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1117, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535283,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [18]
+		{
+			"1", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1118, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535284,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [19]
+		{
+			"[FIS] Interrupted Stitching Assistant's |cff71d5ff|Hspell:334748:0|h[Drain Fluids]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1119, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656535285,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [20]
+		{
+			"Throw Cleaver on Mikorin", -- [1]
+			"Mikorin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mikorin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1120, -- [11]
+			"Player-581-0A4A57DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMikorin|r",
+			[51] = 1656535293,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [21]
+		{
+			"Spew Disease on Veldura", -- [1]
+			"Veldura-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veldura-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1123, -- [11]
+			"Player-581-08DB1B13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Veldura|r",
+			[51] = 1656535376,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [22]
+		{
+			"Spew Disease on Mikorin", -- [1]
+			"Mikorin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mikorin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1126, -- [11]
+			"Player-581-0A4A57DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMikorin|r",
+			[51] = 1656535387,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [23]
+		{
+			"Embalming Ichor on Mikorin", -- [1]
+			"Mikorin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mikorin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1131, -- [11]
+			"Player-581-0A4A57DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMikorin|r",
+			[51] = 1656535426,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [24]
+		{
+			"Meat Hook on Kyosin", -- [1]
+			"Kyosin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyosin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1132, -- [11]
+			"Player-581-0A442F54", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Kyosin|r",
+			[51] = 1656535426,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [25]
+		{
+			"3", -- [1]
+			"Kyosin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyosin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1133, -- [11]
+			"Player-581-0A442F54", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Kyosin|r",
+			[51] = 1656535427,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [26]
+		{
+			"2", -- [1]
+			"Kyosin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyosin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1135, -- [11]
+			"Player-581-0A442F54", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Kyosin|r",
+			[51] = 1656535428,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [27]
+		{
+			"1", -- [1]
+			"Kyosin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyosin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1136, -- [11]
+			"Player-581-0A442F54", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Kyosin|r",
+			[51] = 1656535429,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [28]
+		{
+			"Crochet à viande sur Magoule!", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1152, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535482,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [29]
+		{
+			"3", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1153, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535483,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [30]
+		{
+			"2", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1154, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535484,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [31]
+		{
+			"1", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1155, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535485,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [32]
+		{
+			"Frozen Binds on Eshidishii", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1160, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656535524,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [33]
+		{
+			"Frozen Binds on Eshidishii", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1163, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656535548,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [34]
+		{
+			"Étau du froid sur Magoule!", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1165, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535572,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [35]
+		{
+			"[FIS] Interrupted Zolramus Siphoner's |cff71d5ff|Hspell:322274:0|h[Enfeeble]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1168, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656535606,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [36]
+		{
+			"Frozen Binds", -- [1]
+			"Veldura-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Veldura-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1173, -- [11]
+			"Player-581-08DB1B13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Veldura|r",
+			[51] = 1656535635,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [37]
+		{
+			"Étau du froid sur Magoule!", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1174, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535649,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [38]
+		{
+			"Frozen Binds on Mikorin", -- [1]
+			"Mikorin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mikorin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1177, -- [11]
+			"Player-581-0A4A57DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeMikorin|r",
+			[51] = 1656535673,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [39]
+		{
+			"Frozen Binds on Kyosin", -- [1]
+			"Kyosin-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kyosin-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1179, -- [11]
+			"Player-581-0A442F54", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffef367Kyosin|r",
+			[51] = 1656535698,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [40]
+		{
+			"thx guys for the run :)", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1184, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535742,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [41]
+		{
+			"bb", -- [1]
+			"Magoule-Cho'gall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Magoule-Cho'gall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1192, -- [11]
+			"Player-1621-0A3318E7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMagoule-Cho'gall|r",
+			[51] = 1656535764,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [42]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14483:Player-581-09F443DF:1:6:29:22:4294967295:4294967295:4294967295:4294967295|h[Coldheart Interstitia]|h|r!", -- [1]
+			"Kâiszer-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kâiszer-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1203, -- [11]
+			"Player-581-09F443DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cKâiszer|r",
+			[51] = 1656536290,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [43]
+		{
+			"kann ich legendy direkt auf hohen level upgraden ?", -- [1]
+			"Kâiszer-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1206, -- [11]
+			"Player-581-09F443DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cKâiszer|r",
+			[51] = 1656532857,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [44]
 		{
-			"FOCUS Forsworn Goliath", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14796:Player-581-08D36438:1:6:29:22:4294967295:4294967295:4294967295:4294967295|h[Superior]|h|r!", -- [1]
+			"Schillok-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Schillok-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			769, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1210, -- [11]
+			"Player-581-08D36438", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111425,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffe7b09Schillok|r",
+			[51] = 1656536596,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [45]
 		{
-			"[FIS] Interrupted Forsworn Goliath's |cff71d5ff|Hspell:327413:0|h[Rebellious Fist]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:14797:Player-581-08D36438:1:6:29:22:4294967295:4294967295:4294967295:4294967295|h[Epic]|h|r!", -- [1]
+			"Schillok-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Schillok-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			770, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1211, -- [11]
+			"Player-581-08D36438", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111442,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfffe7b09Schillok|r",
+			[51] = 1656536596,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [46]
 		{
-			"[FIS] Interrupted Forsworn Champion's |cff71d5ff|Hspell:317936:0|h[Forsworn Doctrine]|h|r", -- [1]
+			"ec", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1047,7 +1047,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			774, -- [11]
+			1230, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1055,21 +1055,21 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111521,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1656537032,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [47]
 		{
-			"FOCUS Urh Dismantler", -- [1]
+			"FOCUS {rt7}Demoncii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
+			"Orcish", -- [3]
 			"", -- [4]
 			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
-			0, -- [10]
-			781, -- [11]
+			1, -- [10]
+			1232, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1077,55 +1077,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656108003,
+			[51] = 1656537107,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [48]
 		{
-			"FOCUS Forsworn Skirmisher", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:13701:Player-581-0A485B29:1:6:29:22:4294967295:4294967295:4294967295:4294967295|h[Battlefield Brawler]|h|r!", -- [1]
+			"Moogera-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Moogera-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			782, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1237, -- [11]
+			"Player-581-0A485B29", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656108006,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Moogera|r",
+			[51] = 1656537805,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [49]
 		{
-			"fml", -- [1]
-			"Wiidzen-Hyjal", -- [2]
+			"Hi", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			785, -- [11]
-			"Player-1390-0C2957D2", -- [12]
+			113, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656111672,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656577938,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [50]
 		{
-			"FOCUS Forsworn Goliath", -- [1]
+			"hey", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1135,7 +1135,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			786, -- [11]
+			114, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1143,77 +1143,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111684,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1656577942,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [51]
 		{
-			"FOCUS {rt7}Forsworn Goliath", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"hi", -- [1]
+			"Athasya-Blackhand", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Athasya-Blackhand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			788, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			115, -- [11]
+			"Player-3691-09D1E9D2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111697,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffefefeAthasya-Blackhand|r",
+			[51] = 1656577942,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [52]
 		{
-			"FOCUS Forsworn Inquisitor", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"hi there", -- [1]
+			"Besnaga-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Besnaga-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			790, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			120, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111715,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578047,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [53]
 		{
-			"FOCUS Forsworn Champion", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"ty sum", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			791, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			121, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111793,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656578069,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [54]
 		{
-			"[FIS] Interrupted Forsworn Inquisitor's |cff71d5ff|Hspell:317959:0|h[Dark Lash]|h|r", -- [1]
+			"thy", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1223,7 +1223,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			793, -- [11]
+			122, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1231,11 +1231,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111842,
+			[51] = 1656578083,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [55]
 		{
-			"FOCUS Wiidzen", -- [1]
+			"30 secs plz", -- [1]
+			"Besnaga-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Besnaga-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			126, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578104,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [56]
+		{
+			"dungeon not set to myth btw", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1245,7 +1267,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			798, -- [11]
+			127, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1253,143 +1275,121 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656111914,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
-		{
-			"focus me?", -- [1]
-			"Wiidzen-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			817, -- [11]
-			"Player-1390-0C2957D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112049,
+			[51] = 1656578106,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [57]
 		{
-			"[FIS] Interrupted Forsworn Warden's |cff71d5ff|Hspell:328295:0|h[Greater Mending]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"its mm", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			820, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			132, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112156,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656578144,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [58]
 		{
-			"FOCUS Forsworn Goliath", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"u can go out", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			822, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			133, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112198,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656578153,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [59]
 		{
-			"[FIS] Interrupted Forsworn Goliath's |cff71d5ff|Hspell:327413:0|h[Rebellious Fist]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"and in", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			823, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			134, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112201,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656578154,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [60]
 		{
-			"Forced Confession on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"warri buff pls", -- [1]
+			"Desertbrew-Blackhand", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Desertbrew-Blackhand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			824, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			138, -- [11]
+			"Player-3691-09874E4B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1656112205,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00fe97Desertbrew-Blackhand|r",
+			[51] = 1656578220,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [61]
 		{
-			"FOCUS {rt7}Forsworn Goliath", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"ok back", -- [1]
+			"Besnaga-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Besnaga-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			825, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			139, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112207,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578228,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [62]
 		{
-			"[FIS] Interrupted Forsworn Justicar's |cff71d5ff|Hspell:317959:0|h[Dark Lash]|h|r", -- [1]
+			"wb", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1399,7 +1399,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			829, -- [11]
+			140, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1407,121 +1407,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112272,
+			[51] = 1656578232,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [63]
 		{
-			"mana", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"tell me when to bl", -- [1]
+			"Besnaga-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Besnaga-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			832, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			142, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1656112338,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578262,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [64]
 		{
-			"should be fine", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			833, -- [11]
-			"Player-3391-0C37A603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656112345,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
-		{
-			"We kill urth", -- [1]
-			"Jackster-Terokkar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jackster-Terokkar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			834, -- [11]
-			"Player-633-0A6B7004", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656112347,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [66]
-		{
-			"Purifying Blast on Hildaliphie", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			837, -- [11]
-			"Player-3391-0C37A603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656112390,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
-		{
-			"bl?", -- [1]
-			"Wiidzen-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			840, -- [11]
-			"Player-1390-0C2957D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112414,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
-		{
-			"Purifying Blast on Eshidishii", -- [1]
+			"FOCUS Depraved Houndmaster", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1531,7 +1443,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			841, -- [11]
+			144, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1539,55 +1451,143 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112418,
+			[51] = 1656578263,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [65]
+		{
+			"FOCUS Depraved Houndmaster", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			146, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656578293,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [66]
+		{
+			"[FIS] Interrupted Depraved Obliterator's |cff71d5ff|Hspell:338003:0|h[Wicked Bolt]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			148, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656578327,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [67]
+		{
+			"Curse of Obliteration on Besnaga", -- [1]
+			"Besnaga-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Besnaga-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			150, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578396,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [68]
+		{
+			"3", -- [1]
+			"Besnaga-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Besnaga-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			151, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578398,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [69]
 		{
-			"Purifying Blast on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"2", -- [1]
+			"Besnaga-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Besnaga-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			847, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			152, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112486,
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578399,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [70]
 		{
-			"Lost Confidence on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"1", -- [1]
+			"Besnaga-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Besnaga-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			864, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			153, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1656112715,
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578400,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [71]
 		{
-			"Lost Confidence on Eshidishii", -- [1]
+			"[FIS] Interrupted Depraved Obliterator's |cff71d5ff|Hspell:338003:0|h[Wicked Bolt]|h|r", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1597,7 +1597,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			866, -- [11]
+			154, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1605,77 +1605,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112715,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1656578437,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [72]
 		{
-			"i was in!", -- [1]
-			"Wiidzen-Hyjal", -- [2]
+			"3", -- [1]
+			"Besnaga-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
+			"Besnaga-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			868, -- [11]
-			"Player-1390-0C2957D2", -- [12]
+			158, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112719,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578505,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [73]
 		{
-			"Lost Confidence on Hildaliphie", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
+			"2", -- [1]
+			"Besnaga-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
+			"Besnaga-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			872, -- [11]
-			"Player-3391-0C37A603", -- [12]
+			159, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656112746,
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578506,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [74]
 		{
-			"Lost Confidence on Jackster", -- [1]
-			"Jackster-Terokkar", -- [2]
+			"1", -- [1]
+			"Besnaga-GrimBatol", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jackster-Terokkar", -- [5]
+			"Besnaga-GrimBatol", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			873, -- [11]
-			"Player-633-0A6B7004", -- [12]
+			160, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656112746,
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656578507,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [75]
 		{
-			"Lost Confidence on Eshidishii", -- [1]
+			"[FIS] Interrupted Depraved Obliterator's |cff71d5ff|Hspell:338003:0|h[Wicked Bolt]|h|r", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1685,7 +1685,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			883, -- [11]
+			161, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1693,231 +1693,99 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112801,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1656578512,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [76]
 		{
-			"Lost Confidence on Jackster", -- [1]
-			"Jackster-Terokkar", -- [2]
+			"Bondir sur Monkistador!", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jackster-Terokkar", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			884, -- [11]
-			"Player-633-0A6B7004", -- [12]
+			171, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656112801,
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656578700,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [77]
 		{
-			"Lost Confidence on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"3", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			889, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			172, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1656112832,
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656578702,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [78]
 		{
-			"Lost Confidence on Hildaliphie", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
+			"2", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			890, -- [11]
-			"Player-3391-0C37A603", -- [12]
+			173, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656112832,
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656578703,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [79]
 		{
-			"Lost Confidence on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"1", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			894, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			174, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112854,
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656578704,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [80]
 		{
-			"Lost Confidence on Hildaliphie", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			906, -- [11]
-			"Player-3391-0C37A603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656112914,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
-		{
-			"ggs!", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			912, -- [11]
-			"Player-3391-0C37A603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656112924,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
-		{
-			"ty all", -- [1]
-			"Jackster-Terokkar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jackster-Terokkar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			916, -- [11]
-			"Player-633-0A6B7004", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656112930,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
-		{
-			"YES", -- [1]
-			"Wiidzen-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			917, -- [11]
-			"Player-1390-0C2957D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112932,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
-		{
-			"gz", -- [1]
-			"Jackster-Terokkar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jackster-Terokkar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			921, -- [11]
-			"Player-633-0A6B7004", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656112938,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
-		{
-			"gg all", -- [1]
-			"Wiidzen-Hyjal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			922, -- [11]
-			"Player-1390-0C2957D2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112939,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
-		{
-			"need the axe?", -- [1]
+			"[FIS] Interrupted High Adjudicator Aleez's |cff71d5ff|Hspell:323552:0|h[Volley of Power]|h|r", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1927,7 +1795,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			924, -- [11]
+			180, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1935,272 +1803,404 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1656112944,
+			[51] = 1656578828,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [81]
+		{
+			"Heimsuchende Fixierung auf Athasya", -- [1]
+			"Athasya-Blackhand", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Athasya-Blackhand", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			183, -- [11]
+			"Player-3691-09D1E9D2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeAthasya-Blackhand|r",
+			[51] = 1656578854,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [82]
+		{
+			"[FIS] Interrupted Inquisitor Sigar's |cff71d5ff|Hspell:326829:0|h[Wicked Bolt]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			186, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656578876,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [83]
+		{
+			"[FIS] Interrupted Inquisitor Sigar's |cff71d5ff|Hspell:326829:0|h[Wicked Bolt]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			187, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656578900,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [84]
+		{
+			"|cffa335ee|Hkeystone:180653:376:5:10:7:0:0|h[Clé : Sillage nécrotique (5)]|h|r u want to do this ?", -- [1]
+			"Monkistador-Hyjal", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Monkistador-Hyjal", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			208, -- [11]
+			"Player-1390-0BD06758", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656579025,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [85]
+		{
+			"sure", -- [1]
+			"Besnaga-GrimBatol", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Besnaga-GrimBatol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			209, -- [11]
+			"Player-1303-0B94DB7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Besnaga-GrimBatol|r",
+			[51] = 1656579033,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [86]
+		{
+			"+", -- [1]
+			"Eshidishii-Blackrock", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Eshidishii-Blackrock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-581-0A432D8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656579034,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [87]
 		{
-			"yes sir ", -- [1]
-			"Wiidzen-Hyjal", -- [2]
+			"sorry. need halls ...", -- [1]
+			"Athasya-Blackhand", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
+			"Athasya-Blackhand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			925, -- [11]
-			"Player-1390-0C2957D2", -- [12]
+			211, -- [11]
+			"Player-3691-09D1E9D2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112952,
+			[52] = "|cfffefefeAthasya-Blackhand|r",
+			[51] = 1656579040,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [88]
 		{
-			"i guess yes ", -- [1]
-			"Jackster-Terokkar", -- [2]
+			"im out, ty bb", -- [1]
+			"Desertbrew-Blackhand", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jackster-Terokkar", -- [5]
+			"Desertbrew-Blackhand", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			926, -- [11]
-			"Player-633-0A6B7004", -- [12]
+			212, -- [11]
+			"Player-3691-09874E4B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656112955,
+			[52] = "|cff00fe97Desertbrew-Blackhand|r",
+			[51] = 1656579042,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [89]
 		{
-			"274 run", -- [1]
-			"Wiidzen-Hyjal", -- [2]
+			"np", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			932, -- [11]
-			"Player-1390-0C2957D2", -- [12]
+			213, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112957,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656579045,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [90]
 		{
-			":D", -- [1]
-			"Jackster-Terokkar", -- [2]
+			"bb all", -- [1]
+			"Monkistador-Hyjal", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jackster-Terokkar", -- [5]
+			"Monkistador-Hyjal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			933, -- [11]
-			"Player-633-0A6B7004", -- [12]
+			215, -- [11]
+			"Player-1390-0BD06758", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656112957,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff00fe97Monkistador-Hyjal|r",
+			[51] = 1656579048,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [91]
 		{
-			"finaly got it", -- [1]
-			"Wiidzen-Hyjal", -- [2]
+			"hay", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			935, -- [11]
-			"Player-1390-0C2957D2", -- [12]
+			223, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112964,
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656579216,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [92]
 		{
-			"byeee~ ty", -- [1]
-			"Hildaliphie-Silvermoon", -- [2]
+			"hi", -- [1]
+			"Crisshokx-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hildaliphie-Silvermoon", -- [5]
+			"Crisshokx-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			936, -- [11]
-			"Player-3391-0C37A603", -- [12]
+			225, -- [11]
+			"Player-604-0A3F3119", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeHildaliphie-Silvermoon|r",
-			[51] = 1656112968,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcCrisshokx-Thrall|r",
+			[51] = 1656579238,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [93]
 		{
-			"ty so much every one bb", -- [1]
-			"Wiidzen-Hyjal", -- [2]
+			"hiho", -- [1]
+			"Fiète-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Wiidzen-Hyjal", -- [5]
+			"Fiète-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			939, -- [11]
-			"Player-1390-0C2957D2", -- [12]
+			227, -- [11]
+			"Player-581-0A41A6C0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcWiidzen-Hyjal|r",
-			[51] = 1656112976,
+			[52] = "|cffa9d271Fiète|r",
+			[51] = 1656579302,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [94]
 		{
-			"bb", -- [1]
-			"Jackster-Terokkar", -- [2]
+			"moin", -- [1]
+			"Crisshokx-Thrall", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jackster-Terokkar", -- [5]
+			"Crisshokx-Thrall", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			941, -- [11]
-			"Player-633-0A6B7004", -- [12]
+			228, -- [11]
+			"Player-604-0A3F3119", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaJackster-Terokkar|r",
-			[51] = 1656112979,
+			[52] = "|cff006fdcCrisshokx-Thrall|r",
+			[51] = 1656579314,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [95]
 		{
-			"|cffffff00|Hworldmap:1970:5461:3583|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
-			"Loopine-Blackrock", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Loopine-Blackrock", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			1092, -- [11]
-			"Player-581-0A4C0F9C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edLoopine|r",
-			[51] = 1656113491,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
-		{
-			"|cffffff00|Hworldmap:1970:4157:2558|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Kartenmarkierung]|h|r Beschützer der Ersten 100%", -- [1]
-			"Kreabolic-Blackrock", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Kreabolic-Blackrock", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			1103, -- [11]
-			"Player-581-0A23B705", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKreabolic|r",
-			[51] = 1656114896,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
-		{
-			"Veränderlicher Sternfresser same place 100%", -- [1]
-			"Kreabolic-Blackrock", -- [2]
-			"", -- [3]
-			"1. General - Zereth Mortis", -- [4]
-			"Kreabolic-Blackrock", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zereth Mortis", -- [9]
-			0, -- [10]
-			1104, -- [11]
-			"Player-581-0A23B705", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cKreabolic|r",
-			[51] = 1656114940,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1005:Player-581-0A314184:1:6:25:22:4294967295:4294967295:4294967295:4294967295|h[Know Thy Enemy]|h|r!", -- [1]
-			"Narcain-Blackrock", -- [2]
+			"seas", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Narcain-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1, -- [11]
-			"Player-581-0A314184", -- [12]
+			229, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNarcain|r",
-			[51] = 1656150710,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1656579319,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [96]
+		{
+			"WTS >|cffa335ee|Hitem:190629::::::::60:254::6:6:7187:6652:8132:8137:1524:6646:1:28:2167:::::|h[Diebische Zehenkappe des Kartells]|h|r< 420k /w me", -- [1]
+			"Zäxy-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zäxy-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-581-089C6FEA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Zäxy|r",
+			[51] = 1656614429,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"< Erfahrene Gruppe> Verkaufe Keystone +10-24 ||KSM10x15 -KSH 10x20|| Multi-Run hat Rabatt + Armor Stack. Raid SOTFO 11/11 HC mit trader+ Jailer Curve, 11/11 Mythic , Sylvanas mythisches Reittier, Torghast alle Layer / w für weitere Info", -- [1]
+			"Yeqiu-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yeqiu-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-581-0A4887A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Yeqiu|r",
+			[51] = 1656614487,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Erfahrene Gruppe bietet M+ 15 runs gegen Gold an. Sichere dir noch heute dein 278er Weekly Item! Ab 2 runs gibt es Rabatt. Armor Stacks und Wunschkey möglich /w me für Infos ", -- [1]
+			"Tatzentroll-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tatzentroll-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-581-0A48D912", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tatzentroll|r",
+			[51] = 1656614499,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 }

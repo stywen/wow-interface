@@ -3,12 +3,9 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Eshidishii-blackrock"
 RaiderIO_MissingCharacters = {
-	["eu-Kleinstinki-blackrock"] = true,
-	["eu-Jodhaa-blackrock"] = true,
-	["eu-Kurohana-blackrock"] = true,
-	["eu-Viehmumu-blackrock"] = true,
-	["eu-Zerksx-blackrock"] = true,
-	["eu-Schamiefuchs-blackrock"] = true,
+	["eu-Nemésis-kult-der-verdammten"] = true,
+	["eu-Zenon-blackrock"] = true,
+	["eu-Dodgedis-blackrock"] = true,
 }
 RaiderIO_MissingServers = {
 }

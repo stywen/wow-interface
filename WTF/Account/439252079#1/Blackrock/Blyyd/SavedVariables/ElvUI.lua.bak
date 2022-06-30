@@ -491,5 +491,27 @@ ElvCharacterDB = {
 			[51] = 1654980157,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [22]
+		{
+			"Eingespielte 3k+ rio Gruppe verkauft +15 Keys für eure Vault - mit afk-Garantie und Loottrade ;-). Holt euch euer 278er Item aus der Weekly Vault! Mengenrabatte uvm. möglich! /w me für Infos - können direkt starten!", -- [1]
+			"Yanjie-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yanjie-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			663, -- [11]
+			"Player-581-07A8812E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Yanjie|r",
+			[51] = 1655033671,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [23]
 	},
 }

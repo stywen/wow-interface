@@ -221,19 +221,20 @@ local function updateRewardText(mission)
         text = L["SacrificeMissionReport"]:format(mission.xp)
     else
         local rewards = C_Garrison.GetMissionRewardInfo(mission.missionID)
-        
-        for _, reward in pairs(rewards) do
-            if reward.currencyID and (reward.currencyID == 0) then
-                text = text..GetCoinTextureString(reward.quantity).."; "
-            elseif reward.followerXP then
-                text = text..reward.followerXP.." "..L["BonusFollowerXP"].."; "
-            elseif reward.itemID then
-                local _, itemLink = addon:GetItemInfo(reward.itemID)
-                itemLink = itemLink or "[item: "..reward.itemID.."]"
-                text = text..itemLink.." x"..reward.quantity.."; "
-            elseif reward.currencyID and (reward.currencyID ~= 0) then
-                local info = C_CurrencyInfo.GetCurrencyInfo(reward.currencyID)
-                text = text..info.name.." x"..reward.quantity.."; "
+        if rewards then
+            for _, reward in pairs(rewards) do
+                if reward.currencyID and (reward.currencyID == 0) then
+                    text = text..GetCoinTextureString(reward.quantity).."; "
+                elseif reward.followerXP then
+                    text = text..reward.followerXP.." "..L["BonusFollowerXP"].."; "
+                elseif reward.itemID then
+                    local _, itemLink = addon:GetItemInfo(reward.itemID)
+                    itemLink = itemLink or "[item: "..reward.itemID.."]"
+                    text = text..itemLink.." x"..reward.quantity.."; "
+                elseif reward.currencyID and (reward.currencyID ~= 0) then
+                    local info = C_CurrencyInfo.GetCurrencyInfo(reward.currencyID)
+                    text = text..info.name.." x"..reward.quantity.."; "
+                end
             end
         end
     end
@@ -370,7 +371,7 @@ local function incrementEstimate()
     if lowerEstimate > addon.db.profile.estimateLimit then
         gui.SkipCalculationButton:Click()
     end
-    if addon.db.profile.DEVTESTING then
+    if addon.db.profile.TEELOTESTING then
         for i = 1, 5 do
             if addon.currentFollowersBeingTested[i] then
                 gui["EstimateFollower"..i.."Label"]:SetText(C_Garrison.GetFollowerName(addon.currentFollowersBeingTested[i]))
@@ -1065,7 +1066,7 @@ gui.CompleteMissionsButton:SetScript("OnClick", function(self, button)
                     if WeakAuras then
                         WeakAuras.ScanEvents("TLDRMISSIONS_COMPLETE_MISSIONS_FINISHED")
                     end
-                    C_Timer.After(5, function()
+                    C_Timer.After(2, function()
                         if #C_Garrison.GetCompleteMissions(123) == 0 then
                             self:Hide()
                         end
@@ -1146,6 +1147,10 @@ end)
 
 function gui.GearDropDown:OnSelect(goldCategory, arg2, checked)
     addon.db.profile.gearGoldCategories[goldCategory] = checked
+end
+
+function gui.CampaignDropDown:OnSelect(campaignCategory, arg2, checked)
+    addon.db.profile.campaignCategories[campaignCategory] = checked
 end
 
 function gui.SanctumFeatureDropDown:OnSelect(category, arg2, checked)

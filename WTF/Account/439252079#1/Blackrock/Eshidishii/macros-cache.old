@@ -1,25 +1,31 @@
 VER 3 010000000000000A "AOE" "INV_MISC_QUESTIONMARK"
-#showtooltip 
+#showtooltipps
 /castsequence  [@player] Spear of Bastion , Bladestorm
 END
 VER 3 0100000000000001 "Bloodthirst" "INV_MISC_QUESTIONMARK"
 #showtooltip Bloodthirst
-/cast [@mouseover, harm, nodead][harm,nodead] Bloodthirst
+/cast [@mouseover, harm, nodead][@target] Bloodthirst
 END
 VER 3 0100000000000012 "BUFFED" "INV_MISC_QUESTIONMARK"
 #showtooltipps
 /use Spectral Flask of Power
-/use Shaded Sharpening Stoneb
+/use Potion of Spectral Strength
 END
 VER 3 0100000000000006 "Charge" "INV_MISC_QUESTIONMARK"
 #showtooltip Charge
 /cancelaura Bladestorm
-/cast [@mouseover, harm, nodead][harm,nodead] Charge
+/cast [@mouseover, harm, nodead][@target] Charge
+END
+VER 3 0100000000000015 "deflect" "INV_MISC_QUESTIONMARK"
+#showtooltip Taunt
+/cancelaura Bladestorm
+/cast [@mouseover, harm, nodead][@target] Taunt
+/cast Spell Reflection
 END
 VER 3 0100000000000004 "Execute" "INV_MISC_QUESTIONMARK"
 #showtooltip execute
 /cancelaura Bladestorm
-/cast [@mouseover, harm, nodead][harm,nodead] execute 
+/cast [@mouseover, harm, nodead][@target] Execute
 END
 VER 3 0100000000000008 "Heroic Leap" "INV_MISC_QUESTIONMARK"
 #showtooltip Heroic Leap
@@ -27,6 +33,7 @@ VER 3 0100000000000008 "Heroic Leap" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Intervene" "INV_MISC_QUESTIONMARK"
 #showtooltip Intervene
+/cancelaura Bladestorm
 /cast [@mouseover] Intervene
 END
 VER 3 010000000000000E "Myth+" "135775"
@@ -59,7 +66,7 @@ VER 3 0100000000000003 "Rampage" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000005 "Storm Bolt" "INV_MISC_QUESTIONMARK"
 #showtooltip Storm Bolt
-/cast [@mouseover, harm, nodead][harm,nodead] Storm Bolt
+/cast [@focus, nodead, mod:alt] [@mouseover, harm, nodead] [@target] Storm Bolt
 END
 VER 3 0100000000000011 "Talent6" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -67,10 +74,10 @@ VER 3 0100000000000011 "Talent6" "INV_MISC_QUESTIONMARK"
 /cast [talent:6/3] Bladestorm
 END
 VER 3 010000000000000B "Trinket 2" "INV_MISC_QUESTIONMARK"
-#showtooltip Cosmic Gladiator's Resonator
+#showtooltip
 /use [@player] 14
 END
 VER 3 0100000000000010 "Weapon" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover] 16
+/cast [@mouseover] [@target] 16
 END

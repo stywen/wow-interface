@@ -21,6 +21,7 @@ VER 3 0100000000000015 "deflect" "INV_MISC_QUESTIONMARK"
 /cancelaura Bladestorm
 /cast [@mouseover, harm, nodead][@target] Taunt
 /cast Spell Reflection
+/s SPELL REFLECTION ACTIVE %t
 END
 VER 3 0100000000000004 "Execute" "INV_MISC_QUESTIONMARK"
 #showtooltip execute
