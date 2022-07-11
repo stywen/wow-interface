@@ -57,18 +57,15 @@ ElvDB = {
 			["Dfgh"] = 0,
 		},
 	},
-	["global"] = {
-		["nameplates"] = {
-			["filters"] = {
-				["ElvUI_NonTarget"] = {
-				},
-				["ElvUI_Explosives"] = {
-				},
-				["ElvUI_Target"] = {
-				},
-				["ElvUI_Boss"] = {
-				},
-			},
+	["serverID"] = {
+		[3679] = {
+			["Aegwynn"] = true,
+		},
+		[1105] = {
+			["Frostmourne"] = true,
+		},
+		[3686] = {
+			["Antonidas"] = true,
 		},
 	},
 	["faction"] = {
@@ -82,15 +79,18 @@ ElvDB = {
 			["Dfgh"] = "Alliance",
 		},
 	},
-	["serverID"] = {
-		[3679] = {
-			["Aegwynn"] = true,
-		},
-		[1105] = {
-			["Frostmourne"] = true,
-		},
-		[3686] = {
-			["Antonidas"] = true,
+	["global"] = {
+		["nameplates"] = {
+			["filters"] = {
+				["ElvUI_NonTarget"] = {
+				},
+				["ElvUI_Explosives"] = {
+				},
+				["ElvUI_Target"] = {
+				},
+				["ElvUI_Boss"] = {
+				},
+			},
 		},
 	},
 }
@@ -108,6 +108,7 @@ ElvPrivateDB = {
 			["install_complete"] = 12.79,
 		},
 		["Dfgh - Antonidas"] = {
+			["install_complete"] = 12.79,
 		},
 	},
 }

@@ -2,8 +2,8 @@
 TomCats_Account = {
 	["loveisintheair"] = {
 	},
-	["discoveriesVersion"] = "2.4.11",
-	["lastVersionSeen"] = "2.4.11",
+	["discoveriesVersion"] = "2.4.12",
+	["lastVersionSeen"] = "2.4.12",
 	["preferences"] = {
 		["MapOptions"] = {
 			["iconScale"] = 1,
@@ -24,7 +24,7 @@ TomCats_Account = {
 		["betaEnabled"] = false,
 		["defaultVignetteIcon"] = "default",
 	},
-	["lastExpirationWarning"] = 1656614307,
+	["lastExpirationWarning"] = 0,
 	["discoveriesResetCount"] = 0,
 	["discoveries"] = {
 		["vignetteAtlases"] = {

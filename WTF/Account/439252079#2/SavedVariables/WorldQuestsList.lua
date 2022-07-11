@@ -4,34 +4,34 @@ VWQL = {
 	["Scale"] = 0.8,
 	["DisableIconsGeneralMap947"] = true,
 	["Starplatïnum-Frostmourne"] = {
-		["Filter"] = 63,
+		["VERSION"] = 104,
 		["FilterType"] = {
 		},
 		["Quests"] = {
 		},
-		["VERSION"] = 104,
+		["Filter"] = 63,
 	},
 	["Ignore"] = {
 	},
 	["Sort"] = 5,
 	["VERSION"] = 104,
-	["Bydd-Aegwynn"] = {
-		["VERSION"] = 104,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["Dfgh-Antonidas"] = {
-		["VERSION"] = 104,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
+	["HideLegion"] = true,
 	["SortPrio"] = {
 	},
-	["HideLegion"] = true,
+	["Dfgh-Antonidas"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
+	["Bydd-Aegwynn"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
 }

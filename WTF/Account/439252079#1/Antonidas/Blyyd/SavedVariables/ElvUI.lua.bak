@@ -2,14 +2,14 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/aap", -- [1]
-		"/invite Dfgh", -- [2]
-		"/reload", -- [3]
-		"/PLAYED", -- [4]
-		"/invite Dgfh", -- [5]
-		"/dance", -- [6]
-		"/played", -- [7]
-		"/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,2) c(2,2) c(3,3) c(4,1) c(5,1) c(6,1) c(7,3)", -- [8]
+		"/PLAYED", -- [1]
+		"/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,2) c(2,2) c(3,3) c(4,1) c(5,1) c(6,1) c(7,3)", -- [2]
+		"/played", -- [3]
+		"/aap", -- [4]
+		"/dance", -- [5]
+		"/invite Dgfh", -- [6]
+		"/reload", -- [7]
+		"/invite Dfgh", -- [8]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1716,5 +1716,27 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kyo",
 		}, -- [77]
+		{
+			"Traditionelle gemütliche Feierabend Gilde restauriert ihren Raidkader. Wir raiden Mo & Do 20 - 23 Uhr und suchen Range DD´s,  1 Heal, weitere auf Nachfrage.", -- [1]
+			"Hôrderipper-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hôrderipper-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			234, -- [11]
+			"Player-3686-09BF4D3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Hôrderipper|r",
+			[51] = 1656579690,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
 	},
 }

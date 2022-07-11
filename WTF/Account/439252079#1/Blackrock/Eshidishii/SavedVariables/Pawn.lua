@@ -9,29 +9,29 @@ PawnOptions = {
 		}, -- [1]
 		{
 			["ID"] = 180115,
-			["Level"] = 265,
-			["Link"] = "|cffa335ee|Hitem:180115::::::::60:72::33:6:7359:6652:7578:7796:1579:6646:1:28:1279:::::|h[Azure-Venom Choker]|h|r",
+			["Level"] = 272,
+			["Link"] = "|cffa335ee|Hitem:180115::173128::::::60:72::33:6:7359:6652:7580:7798:1586:6646:1:28:1279:::::|h[Azure-Venom Choker]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 188941,
-			["Level"] = 265,
-			["Link"] = "|cffa335ee|Hitem:188941::::::::60:72::33:6:6652:7359:8152:7782:1485:6646::::::|h[Pauldrons of the Infinite Infantry]|h|r",
+			["Level"] = 272,
+			["Link"] = "|cffa335ee|Hitem:188941::::::::60:72::33:6:6652:7359:8152:7784:1492:6646::::::|h[Pauldrons of the Infinite Infantry]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 188938,
-			["Level"] = 265,
-			["Link"] = "|cffa335ee|Hitem:188938:6230:::::::60:72::33:6:6652:7359:8153:7768:1485:6646::::::|h[Breastplate of the Infinite Infantry]|h|r",
+			["Level"] = 272,
+			["Link"] = "|cffa335ee|Hitem:188938:6230:::::::60:72::33:6:6652:7359:8153:7770:1492:6646::::::|h[Breastplate of the Infinite Infantry]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 190475,
-			["Level"] = 265,
-			["Link"] = "|cffff8000|Hitem:190475::::::::60:72::11:2:6652:7579:1:28:2057:::::|h[Girdle of Unity]|h|r",
+			["ID"] = 178931,
+			["Level"] = 278,
+			["Link"] = "|cffa335ee|Hitem:178931::::::::60:72::35:8:7786:8136:8137:7359:6652:7579:1592:6646::::::|h[Scarred Bloodbound Girdle]|h|r",
 		}, -- [6]
 		{
 			["ID"] = 188940,
-			["Level"] = 268,
-			["Link"] = "|cffa335ee|Hitem:188940::::::::60:72::35:5:6652:7359:7769:8155:1488::::::|h[Legplates of the Infinite Infantry]|h|r",
+			["Level"] = 272,
+			["Link"] = "|cffa335ee|Hitem:188940::::::::60:72::35:6:6652:7359:8155:7770:1492:6646::::::|h[Legplates of the Infinite Infantry]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 179338,
@@ -61,10 +61,10 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:178926:6166:173128::::::60:73::66:7:6959:8156:6649:6647:6935:7882:1588:1:28:2142:::::|h[Signet of Tormented Kings]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 178811,
-			["Level"] = 265,
+			["ID"] = 179342,
+			["Level"] = 268,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:178811::::::::60:72::35:5:7782:7359:6652:1579:6646::::::|h[Grim Codex]|h|r",
+			["Link"] = "|cffa335ee|Hitem:179342::::::::60:72::35:5:7359:6652:7783:1582:6646::::::|h[Overwhelming Power Crystal]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 178811,
@@ -78,9 +78,9 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:173242::::::::60:72::69:6:6964:7882:8156:6649:6648:1588:1:28:2142:::::|h[Deathmaker]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 189862,
-			["Level"] = 259,
-			["Link"] = "|cffa335ee|Hitem:189862:6229:::::::60:72::3:5:7189:6652:8159:1498:6646:1:28:2060:::::|h[Gavel of the First Arbiter]|h|r",
+			["ID"] = 185810,
+			["Level"] = 262,
+			["Link"] = "|cffa335ee|Hitem:185810::::::::60:72::16:5:7823:7359:6652:1579:6646:1:28:1279:::::|h[Skyreaver, Greataxe of the Keepers]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 179485,

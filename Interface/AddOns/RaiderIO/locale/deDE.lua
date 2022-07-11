@@ -42,14 +42,10 @@ L["COPY_RAIDERIO_RECRUITMENT_URL"] = "Rekrutierungs-URL kopieren"
 L["COPY_RAIDERIO_URL"] = "Kopiere Raider.IO Link"
 L["CURRENT_MAINS_SCORE"] = "Aktuelle Hauptcharakter M+ Wertung"
 L["CURRENT_SCORE"] = "Aktuelle M+ Wertung"
---[[Translation missing --]]
---[[ L["DB_MODULES"] = ""--]] 
---[[Translation missing --]]
---[[ L["DB_MODULES_HEADER_MYTHIC_PLUS"] = ""--]] 
---[[Translation missing --]]
---[[ L["DB_MODULES_HEADER_RAIDING"] = ""--]] 
---[[Translation missing --]]
---[[ L["DB_MODULES_HEADER_RECRUITMENT"] = ""--]] 
+L["DB_MODULES"] = "Datenbankmodule"
+L["DB_MODULES_HEADER_MYTHIC_PLUS"] = "Mythic+"
+L["DB_MODULES_HEADER_RAIDING"] = "Schlachtzug"
+L["DB_MODULES_HEADER_RECRUITMENT"] = "Rekrutierung"
 L["DISABLE_DEBUG_MODE_RELOAD"] = "Du deaktivierst den Debug-Modus. Klicke auf Bestätigen, um das Interface neu zu laden."
 L["DISABLE_RWF_MODE_BUTTON"] = "Deaktivieren"
 L["DISABLE_RWF_MODE_BUTTON_TOOLTIP"] = "Klicke hier, um den Wettrennen Welt 1.-Modus zu deaktivieren. Dadurch wird deine Benutzeroberfläche neu geladen."
@@ -106,8 +102,7 @@ L["MODULE_EUROPE"] = "Europa"
 L["MODULE_KOREA"] = "Korea"
 L["MODULE_TAIWAN"] = "Taiwan"
 L["MY_PROFILE_TITLE"] = "Raider.IO Profil"
---[[Translation missing --]]
---[[ L["MYTHIC_PLUS_DB_MODULES"] = ""--]] 
+L["MYTHIC_PLUS_DB_MODULES"] = "Mythic+ Datenbankmodule"
 L["MYTHIC_PLUS_SCORES"] = "Mythic+ Wertung Tooltips"
 L["NO_GUILD_RECORD"] = "Keine Gildenrekorde"
 L["OPEN_CONFIG"] = "Konfiguration öffnen"
@@ -171,10 +166,8 @@ L["RAIDERIO_MP_BEST_SCORE"] = "Raider.IO M+ Wertung (%s)"
 L["RAIDERIO_MP_SCORE"] = "Raider.IO M+ Wertung"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO Addon Optionen"
 L["RAIDING_DATA_HEADER"] = "Raider.IO Schlachtzugsfortschritt"
---[[Translation missing --]]
---[[ L["RAIDING_DB_MODULES"] = ""--]] 
---[[Translation missing --]]
---[[ L["RECRUITMENT_DB_MODULES"] = ""--]] 
+L["RAIDING_DB_MODULES"] = "Schlachtzugsdatenbankmodule"
+L["RECRUITMENT_DB_MODULES"] = "Rekrutierungsdatenbankmodule"
 L["RELOAD_LATER"] = "Ich werde später neu laden"
 L["RELOAD_NOW"] = "Jetzt neu laden"
 L["RELOAD_RWF_MODE_BUTTON"] = "Speichern"

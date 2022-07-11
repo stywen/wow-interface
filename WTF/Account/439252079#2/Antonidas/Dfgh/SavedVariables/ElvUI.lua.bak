@@ -225,5 +225,225 @@ ElvCharacterDB = {
 			[51] = 1655507995,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [10]
+		{
+			"[FIS] Interrupted Shadowmoon Void Priestess's |cff71d5ff|Hspell:157406:0|h[Crackling Void]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571018,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [11]
+		{
+			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571035,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [12]
+		{
+			"[FIS] Interrupted Shadowmoon Void Priestess's |cff71d5ff|Hspell:157406:0|h[Crackling Void]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571092,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [13]
+		{
+			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571120,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [14]
+		{
+			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571179,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [15]
+		{
+			"[FIS] Interrupted Sargerei Netherbinder's |cff71d5ff|Hspell:15124:0|h[Arcane Bolt]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571759,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [16]
+		{
+			"[FIS] Interrupted Arcane Anomaly's |cff71d5ff|Hspell:165474:0|h[Arcane Bolt]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571800,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [17]
+		{
+			"[FIS] Interrupted Sargerei Netherbinder's |cff71d5ff|Hspell:15124:0|h[Arcane Bolt]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571826,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [18]
+		{
+			"[FIS] Interrupted Arcane Anomaly's |cff71d5ff|Hspell:165474:0|h[Arcane Bolt]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655571955,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [19]
+		{
+			"[FIS] Interrupted Arcane Anomaly's |cff71d5ff|Hspell:165474:0|h[Arcane Bolt]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1655572014,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [20]
 	},
 }

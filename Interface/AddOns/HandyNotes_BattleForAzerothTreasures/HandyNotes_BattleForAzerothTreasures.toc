@@ -2,7 +2,7 @@
 ## Title: HandyNotes: Battle for Azeroth Treasures
 ## Notes: Where are the hidden treasures in Battle For Azeroth?
 ## Author: Kemayo
-## Version: v24
+## Version: v25
 ## DefaultState: enabled
 ## X-Category: Map
 ## X-eMail: kemayo @ gmail DOT com
@@ -17,6 +17,7 @@ battleforazeroth.lua
 
 achievements\GetHekd.lua
 achievements\MushroomHarvest.lua
+achievements\UnboundMonstrosities.lua
 
 zones\KulTiras.lua
 zones\TiragardeSound.lua

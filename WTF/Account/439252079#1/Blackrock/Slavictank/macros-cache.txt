@@ -1,0 +1,13 @@
+VER 3 0100000000000003 "DnD" "INV_MISC_QUESTIONMARK"
+#showtooltip Death and Decay
+#show Death and Decay
+/cast [mod:ctrl, @cursor] Death and Decay; [@player] Death and Decay
+END
+VER 3 0100000000000002 "GRAB EM" "INV_MISC_QUESTIONMARK"
+#showtooltip Gorefiend's Grasp
+/cast [@mouseover,exists,nodead][@player] Gorefiend's Grasp
+END
+VER 3 0100000000000001 "RES" "INV_MISC_QUESTIONMARK"
+#showtooltip Raise Ally
+/cast [@mouseover,help][@target]Raise Ally
+END

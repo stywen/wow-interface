@@ -1,0 +1,2788 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002523,
+							["pets"] = {
+								"Rune Weapon <Slavictank>", -- [1]
+							},
+							["classe"] = "DEATHKNIGHT",
+							["total_without_pet"] = 89986.002523,
+							["dps_started"] = false,
+							["total"] = 92528.002523,
+							["spec"] = 250,
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-581-0A4CC6F5",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Highlord's Nemesis Trainer"] = 92528,
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["end_time"] = 1656694320,
+							["last_dps"] = 583.876031873106,
+							["last_event"] = 1656694319,
+							["nome"] = "Slavictank",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 9,
+										["b_amt"] = 0,
+										["c_dmg"] = 9668,
+										["g_amt"] = 0,
+										["n_max"] = 584,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 33105,
+										},
+										["n_dmg"] = 23437,
+										["n_min"] = 488,
+										["g_dmg"] = 0,
+										["counter"] = 52,
+										["total"] = 33105,
+										["c_max"] = 1158,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 975,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 43,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[195292] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 276,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 521,
+										},
+										["n_dmg"] = 521,
+										["n_min"] = 245,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 521,
+										["c_max"] = 0,
+										["id"] = 195292,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
+									},
+									[50842] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 8219,
+										["g_amt"] = 0,
+										["n_max"] = 616,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 13543,
+										},
+										["n_dmg"] = 5324,
+										["n_min"] = 541,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 13543,
+										["c_max"] = 1239,
+										["id"] = 50842,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1065,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 9,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
+									},
+									[49576] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 49576,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 32,
+										["IMMUNE"] = 1,
+									},
+									[195182] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 2109,
+										["g_amt"] = 0,
+										["n_max"] = 544,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 7293,
+										},
+										["n_dmg"] = 5184,
+										["n_min"] = 465,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 7293,
+										["c_max"] = 1056,
+										["id"] = 195182,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1053,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 10,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[108199] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 108199,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 32,
+										["IMMUNE"] = 1,
+									},
+									[49998] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2169,
+										["g_amt"] = 0,
+										["n_max"] = 1368,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 10349,
+										},
+										["n_dmg"] = 8180,
+										["n_min"] = 1008,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 10349,
+										["c_max"] = 2169,
+										["id"] = 49998,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 2169,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[221562] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 221562,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
+									},
+									[52212] = {
+										["c_amt"] = 17,
+										["b_amt"] = 0,
+										["c_dmg"] = 2144,
+										["g_amt"] = 0,
+										["n_max"] = 66,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 6550,
+										},
+										["n_dmg"] = 4406,
+										["n_min"] = 56,
+										["g_dmg"] = 0,
+										["counter"] = 88,
+										["total"] = 6550,
+										["c_max"] = 131,
+										["id"] = 52212,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 114,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 71,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
+									},
+									[51399] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 51399,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["extra"] = {
+										},
+										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 1,
+										["IMMUNE"] = 1,
+									},
+									[55078] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 1251,
+										["g_amt"] = 0,
+										["n_max"] = 115,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 6153,
+										},
+										["n_dmg"] = 4902,
+										["n_min"] = 102,
+										["g_dmg"] = 0,
+										["counter"] = 50,
+										["total"] = 6153,
+										["c_max"] = 230,
+										["id"] = 55078,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 204,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 44,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
+									},
+									[206930] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 2388,
+										["g_amt"] = 0,
+										["n_max"] = 441,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 9767,
+										},
+										["n_dmg"] = 7379,
+										["n_min"] = 375,
+										["g_dmg"] = 0,
+										["counter"] = 21,
+										["total"] = 9767,
+										["c_max"] = 880,
+										["id"] = 206930,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 751,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 18,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[47632] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1255,
+										["g_amt"] = 0,
+										["n_max"] = 732,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 2705,
+										},
+										["n_dmg"] = 1450,
+										["n_min"] = 718,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 2705,
+										["c_max"] = 1255,
+										["id"] = 47632,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 1255,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["aID"] = "581-0A4CC6F5",
+							["damage_taken"] = 0.002523,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["avoidance"] = {
+								["overall"] = {
+									["DODGE"] = 0,
+									["FULL_ABSORB_AMT"] = 0,
+									["BLOCKED_AMT"] = 0,
+									["BLOCKED_HITS"] = 0,
+									["FULL_ABSORBED"] = 0,
+									["ALL"] = 0,
+									["PARTIAL_ABSORBED"] = 0,
+									["PARRY"] = 0,
+									["PARTIAL_ABSORB_AMT"] = 0,
+									["ABSORB"] = 0,
+									["ABSORB_AMT"] = 0,
+									["FULL_HIT"] = 0,
+									["HITS"] = 0,
+									["FULL_HIT_AMT"] = 0,
+								},
+							},
+							["start_time"] = 1656694161,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.005973,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Highlord's Nemesis Trainer"] = 2542,
+							},
+							["delay"] = 1656694210,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "27893",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2542.005973,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1656694320,
+							["damage_taken"] = 0.005973,
+							["ownerName"] = "Slavictank",
+							["nome"] = "Rune Weapon <Slavictank>",
+							["spec"] = 250,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 185,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 1085,
+										},
+										["n_dmg"] = 1085,
+										["n_min"] = 164,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1085,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									}, -- [1]
+									[50842] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 207,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 207,
+										},
+										["n_dmg"] = 207,
+										["n_min"] = 207,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 207,
+										["c_max"] = 0,
+										["id"] = 50842,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
+									},
+									[228645] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 147,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 416,
+										},
+										["n_dmg"] = 416,
+										["n_min"] = 125,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 416,
+										["c_max"] = 0,
+										["id"] = 228645,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[195292] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 89,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 89,
+										},
+										["n_dmg"] = 89,
+										["n_min"] = 89,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 89,
+										["c_max"] = 0,
+										["id"] = 195292,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
+									},
+									[55078] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 77,
+										["g_amt"] = 0,
+										["n_max"] = 39,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 393,
+										},
+										["n_dmg"] = 316,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 393,
+										["c_max"] = 77,
+										["id"] = 55078,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 77,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 9,
+										["extra"] = {
+										},
+										["spellschool"] = 32,
+									},
+									[195182] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 177,
+										["targets"] = {
+											["Highlord's Nemesis Trainer"] = 352,
+										},
+										["n_dmg"] = 352,
+										["n_min"] = 175,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 352,
+										["c_max"] = 0,
+										["id"] = 195182,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_dps"] = 0,
+							["total"] = 2542.005973,
+							["custom"] = 0,
+							["last_event"] = 1656694317,
+							["on_hold"] = false,
+							["start_time"] = 1656694280,
+							["serial"] = "Creature-0-4246-0-47-27893-00003F41C8",
+							["classe"] = "DEATHKNIGHT",
+						}, -- [2]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004135,
+							["damage_from"] = {
+								["Rune Weapon <Slavictank>"] = true,
+								["Slavictank"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["aID"] = "54344",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.004135,
+							["delay"] = 0,
+							["fight_component"] = true,
+							["total"] = 0.004135,
+							["on_hold"] = false,
+							["damage_taken"] = 92528.004135,
+							["nome"] = "Highlord's Nemesis Trainer",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 0,
+							["end_time"] = 1656694320,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1656694320,
+							["serial"] = "Creature-0-4246-0-47-54344-00003BAC03",
+							["dps_started"] = false,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 71578.00165399999,
+							["total_without_pet"] = 0.001654,
+							["total"] = 0.001654,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["isTank"] = true,
+							["serial"] = "Player-581-0A4CC6F5",
+							["totalabsorb"] = 0.001654,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.001654,
+							["healing_taken"] = 0.001654,
+							["end_time"] = 1656694320,
+							["targets_overheal"] = {
+								["Slavictank"] = 71578,
+							},
+							["last_event"] = 1656694315,
+							["nome"] = "Slavictank",
+							["spells"] = {
+								["_ActorTable"] = {
+									[45470] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Slavictank"] = 35394,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Slavictank"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 8,
+										["overheal"] = 35394,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 45470,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 8,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[53365] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Slavictank"] = 20244,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Slavictank"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 9,
+										["overheal"] = 20244,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 53365,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 9,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+									[77535] = {
+										["c_amt"] = 3,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Slavictank"] = 15940,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Slavictank"] = -5424,
+										},
+										["n_min"] = 0,
+										["counter"] = 7,
+										["overheal"] = 15940,
+										["total"] = -5424,
+										["c_max"] = 0,
+										["id"] = 77535,
+										["targets_absorbs"] = {
+											["Slavictank"] = 0,
+										},
+										["c_curado"] = -5424,
+										["c_min"] = -2712,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["classe"] = "DEATHKNIGHT",
+							["totaldenied"] = 0.001654,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "581-0A4CC6F5",
+							["start_time"] = 1656694266,
+							["delay"] = 1656694297,
+							["spec"] = 250,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["received"] = 505.00754,
+							["resource"] = 2.00754,
+							["targets"] = {
+								["Slavictank"] = 505,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 6,
+							["classe"] = "DEATHKNIGHT",
+							["passiveover"] = 0.00754,
+							["total"] = 505.00754,
+							["spec"] = 250,
+							["totalover"] = 137.00754,
+							["nome"] = "Slavictank",
+							["spells"] = {
+								["_ActorTable"] = {
+									[194679] = {
+										["total"] = 20,
+										["id"] = 194679,
+										["totalover"] = 0,
+										["targets"] = {
+											["Slavictank"] = 20,
+										},
+										["counter"] = 2,
+									},
+									[210738] = {
+										["total"] = 35,
+										["id"] = 210738,
+										["totalover"] = 7,
+										["targets"] = {
+											["Slavictank"] = 35,
+										},
+										["counter"] = 21,
+									},
+									[43265] = {
+										["total"] = 10,
+										["id"] = 43265,
+										["totalover"] = 0,
+										["targets"] = {
+											["Slavictank"] = 10,
+										},
+										["counter"] = 1,
+									},
+									[195292] = {
+										["total"] = 10,
+										["id"] = 195292,
+										["totalover"] = 10,
+										["targets"] = {
+											["Slavictank"] = 10,
+										},
+										["counter"] = 2,
+									},
+									[206930] = {
+										["total"] = 240,
+										["id"] = 206930,
+										["totalover"] = 75,
+										["targets"] = {
+											["Slavictank"] = 240,
+										},
+										["counter"] = 21,
+									},
+									[195182] = {
+										["total"] = 180,
+										["id"] = 195182,
+										["totalover"] = 40,
+										["targets"] = {
+											["Slavictank"] = 180,
+										},
+										["counter"] = 11,
+									},
+									[220890] = {
+										["total"] = 10,
+										["id"] = 220890,
+										["totalover"] = 5,
+										["targets"] = {
+											["Slavictank"] = 10,
+										},
+										["counter"] = 3,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["aID"] = "581-0A4CC6F5",
+							["last_event"] = 1656694309,
+							["tipo"] = 3,
+							["alternatepower"] = 0.00754,
+							["isTank"] = true,
+							["serial"] = "Player-581-0A4CC6F5",
+							["resource_type"] = 5,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[55078] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 17,
+										["id"] = 55078,
+										["uptime"] = 151,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["cooldowns_defensive"] = 2.005941,
+							["buff_uptime"] = 703,
+							["last_cooldown"] = {
+								1656694242.302, -- [1]
+								55233, -- [2]
+							},
+							["aID"] = "581-0A4CC6F5",
+							["cooldowns_defensive_targets"] = {
+								["Slavictank"] = 2,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[194679] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 194679,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[77535] = {
+										["activedamt"] = 5,
+										["id"] = 77535,
+										["targets"] = {
+										},
+										["actived_at"] = 1656694315,
+										["uptime"] = 56,
+										["counter"] = 0,
+										["refreshamt"] = 3,
+										["actived"] = true,
+										["appliedamt"] = 5,
+									},
+									[51721] = {
+										["activedamt"] = 1,
+										["id"] = 51721,
+										["targets"] = {
+										},
+										["actived_at"] = 1656694161,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[274009] = {
+										["activedamt"] = 6,
+										["id"] = 274009,
+										["targets"] = {
+										},
+										["actived_at"] = 1656694315,
+										["uptime"] = 46,
+										["counter"] = 0,
+										["refreshamt"] = 2,
+										["actived"] = true,
+										["appliedamt"] = 6,
+									},
+									[53365] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 5,
+										["refreshamt"] = 4,
+										["id"] = 53365,
+										["uptime"] = 100,
+										["targets"] = {
+										},
+										["appliedamt"] = 5,
+									},
+									[219788] = {
+										["activedamt"] = 2,
+										["id"] = 219788,
+										["targets"] = {
+										},
+										["actived_at"] = 1656694286,
+										["uptime"] = 110,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 2,
+									},
+									[188290] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 8,
+										["refreshamt"] = 0,
+										["id"] = 188290,
+										["uptime"] = 80,
+										["targets"] = {
+										},
+										["appliedamt"] = 8,
+									},
+									[81256] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 81256,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[48792] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 48792,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[195181] = {
+										["activedamt"] = 2,
+										["id"] = 195181,
+										["targets"] = {
+										},
+										["actived_at"] = 1656694309,
+										["uptime"] = 138,
+										["counter"] = 0,
+										["refreshamt"] = 53,
+										["actived"] = true,
+										["appliedamt"] = 2,
+									},
+									[273947] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 6,
+										["refreshamt"] = 13,
+										["id"] = 273947,
+										["uptime"] = 113,
+										["targets"] = {
+										},
+										["appliedamt"] = 6,
+									},
+									[81141] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 7,
+										["refreshamt"] = 0,
+										["id"] = 81141,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 7,
+									},
+									[55233] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 55233,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 151,
+							["tipo"] = 4,
+							["nome"] = "Slavictank",
+							["spec"] = 250,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[195292] = 2,
+								[50842] = 16,
+								[49028] = 2,
+								[49576] = 1,
+								[195182] = 11,
+								[47541] = 3,
+								[108199] = 1,
+								[55233] = 1,
+								[194679] = 2,
+								[221562] = 1,
+								[48792] = 1,
+								[43265] = 8,
+								[221699] = 2,
+								[206930] = 21,
+								[49998] = 8,
+							},
+							["serial"] = "Player-581-0A4CC6F5",
+							["classe"] = "DEATHKNIGHT",
+							["last_event"] = 1656694315,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["cooldowns_defensive_spells"] = {
+								["_ActorTable"] = {
+									[48792] = {
+										["id"] = 48792,
+										["targets"] = {
+											["Slavictank"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[55233] = {
+										["id"] = 55233,
+										["targets"] = {
+											["Slavictank"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 1,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Slavictank"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Slavictank", -- [1]
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["playing_solo"] = true,
+				["totals"] = {
+					92527.948327, -- [1]
+					-0.006526, -- [2]
+					{
+						-0.005220000000001335, -- [1]
+						[0] = -0.006028,
+						["alternatepower"] = 0,
+						[6] = 505,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 2,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["totals_grupo"] = {
+					89986, -- [1]
+					-5424, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 505,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 2,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["data_fim"] = "18:52:00",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Highlord's Nemesis Trainer",
+				["TotalElapsedCombatTime"] = 87289.865,
+				["CombatEndedAt"] = 87289.865,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "18:49:22",
+				["end_time"] = 87289.865,
+				["combat_id"] = 1,
+				["player_last_events"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1656694161,
+				["frags"] = {
+					["Disciple of the Unholy"] = 3,
+				},
+				["CombatSkillCache"] = {
+				},
+				["combat_counter"] = 7,
+				["start_time"] = 87131.393,
+				["TimeData"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Slavictank"] = 92528.002523,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Slavictank"] = 0.001654,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+			}, -- [1]
+		},
+	},
+	["ocd_tracker"] = {
+		["enabled"] = false,
+		["current_cooldowns"] = {
+		},
+		["lines_per_column"] = 12,
+		["show_options"] = false,
+		["filters"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["width"] = 120,
+		["height"] = 18,
+		["framme_locked"] = false,
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["cooldowns"] = {
+		},
+		["pos"] = {
+		},
+	},
+	["last_version"] = "9.2.59824",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["on_death_menu"] = false,
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 1950,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Slavictank-Blackrock",
+	["last_realversion"] = 146,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["disable_gouge"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["useclasscolors"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+			["tank_block_height"] = 40,
+			["tank_block_powerbar_size_height"] = 10,
+			["show_inc_bars"] = true,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["grow_direction"] = "right",
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				299.9999389648438, -- [1]
+				500.0000305175781, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["scale"] = 1,
+			["arrow_anchor_x"] = 0,
+			["row_height"] = 20,
+			["row_texture"] = "Details Serenity",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.0517578125e-05,
+				["x"] = -0.0001220703125,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Terciob",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 4.57763671875e-05,
+			["font_size"] = 10,
+			["x"] = -6.103515625e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["use_spark"] = true,
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+		},
+	},
+	["last_instance_time"] = 1656692786,
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["cached_roles"] = {
+	},
+	["last_day"] = "01",
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -251.6666564941406,
+					["x"] = 1058.33251953125,
+					["w"] = 309.9999694824219,
+					["h"] = 158,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["ignore_nicktag"] = false,
+	["combat_id"] = 1,
+	["savedStyles"] = {
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1657876450,
+		["last_version"] = 14,
+	},
+	["combat_counter"] = 8,
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.01002,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Highlord's Nemesis Trainer"] = 92528,
+					},
+					["end_time"] = 1656694320,
+					["pets"] = {
+						"Rune Weapon <Slavictank>", -- [1]
+					},
+					["damage_taken"] = 0.01002,
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 9,
+								["b_amt"] = 0,
+								["c_dmg"] = 9668,
+								["g_amt"] = 0,
+								["n_max"] = 584,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 33105,
+								},
+								["n_dmg"] = 23437,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 52,
+								["total"] = 33105,
+								["c_max"] = 1158,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 43,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[195292] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 276,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 521,
+								},
+								["n_dmg"] = 521,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 521,
+								["c_max"] = 0,
+								["id"] = 195292,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[50842] = {
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["c_dmg"] = 8219,
+								["g_amt"] = 0,
+								["n_max"] = 616,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 13543,
+								},
+								["n_dmg"] = 5324,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 16,
+								["total"] = 13543,
+								["c_max"] = 1239,
+								["id"] = 50842,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 9,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[49576] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 49576,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
+							},
+							[195182] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 2109,
+								["g_amt"] = 0,
+								["n_max"] = 544,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 7293,
+								},
+								["n_dmg"] = 5184,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 7293,
+								["c_max"] = 1056,
+								["id"] = 195182,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 10,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[108199] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 108199,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
+							},
+							[49998] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 2169,
+								["g_amt"] = 0,
+								["n_max"] = 1368,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 10349,
+								},
+								["n_dmg"] = 8180,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 10349,
+								["c_max"] = 2169,
+								["id"] = 49998,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 7,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[221562] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 221562,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
+							},
+							[52212] = {
+								["c_amt"] = 17,
+								["b_amt"] = 0,
+								["c_dmg"] = 2144,
+								["g_amt"] = 0,
+								["n_max"] = 66,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 6550,
+								},
+								["n_dmg"] = 4406,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 88,
+								["total"] = 6550,
+								["c_max"] = 131,
+								["id"] = 52212,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 71,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[47632] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 1255,
+								["g_amt"] = 0,
+								["n_max"] = 732,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 2705,
+								},
+								["n_dmg"] = 1450,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 2705,
+								["c_max"] = 1255,
+								["id"] = 47632,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[55078] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 1251,
+								["g_amt"] = 0,
+								["n_max"] = 115,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 6153,
+								},
+								["n_dmg"] = 4902,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 50,
+								["total"] = 6153,
+								["c_max"] = 230,
+								["id"] = 55078,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 44,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[206930] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 2388,
+								["g_amt"] = 0,
+								["n_max"] = 441,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 9767,
+								},
+								["n_dmg"] = 7379,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 21,
+								["total"] = 9767,
+								["c_max"] = 880,
+								["id"] = 206930,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 18,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[51399] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 0,
+								},
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 51399,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 0,
+								["extra"] = {
+								},
+								["IMMUNE"] = 1,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["aID"] = "581-0A4CC6F5",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 89986.01002,
+					["last_dps"] = 0,
+					["classe"] = "DEATHKNIGHT",
+					["dps_started"] = false,
+					["total"] = 92528.01002,
+					["delay"] = 0,
+					["start_time"] = 1656694158,
+					["nome"] = "Slavictank",
+					["spec"] = 250,
+					["grupo"] = true,
+					["friendlyfire_total"] = 0,
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["isTank"] = true,
+					["serial"] = "Player-581-0A4CC6F5",
+					["avoidance"] = {
+						["overall"] = {
+							["DODGE"] = 0,
+							["FULL_ABSORB_AMT"] = 0,
+							["BLOCKED_AMT"] = 0,
+							["BLOCKED_HITS"] = 0,
+							["FULL_ABSORBED"] = 0,
+							["ALL"] = 0,
+							["PARTIAL_ABSORBED"] = 0,
+							["PARRY"] = 0,
+							["PARTIAL_ABSORB_AMT"] = 0,
+							["ABSORB"] = 0,
+							["ABSORB_AMT"] = 0,
+							["FULL_HIT"] = 0,
+							["HITS"] = 0,
+							["FULL_HIT_AMT"] = 0,
+						},
+					},
+				}, -- [1]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.012312,
+					["damage_from"] = {
+						["Rune Weapon <Slavictank>"] = true,
+						["Slavictank"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
+					["aID"] = "54344",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.012312,
+					["delay"] = 0,
+					["fight_component"] = true,
+					["end_time"] = 1656694320,
+					["friendlyfire_total"] = 0,
+					["damage_taken"] = 92528.01231199999,
+					["nome"] = "Highlord's Nemesis Trainer",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 2,
+					},
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["total"] = 0.012312,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1656694317,
+					["serial"] = "Creature-0-4246-0-47-54344-00003BAC03",
+					["classe"] = "UNKNOW",
+				}, -- [2]
+				{
+					["flag_original"] = 8465,
+					["totalabsorbed"] = 0.008551,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Highlord's Nemesis Trainer"] = 2542,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 185,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 1085,
+								},
+								["n_dmg"] = 1085,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 1085,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 6,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							}, -- [1]
+							[50842] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 207,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 207,
+								},
+								["n_dmg"] = 207,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 207,
+								["c_max"] = 0,
+								["id"] = 50842,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[228645] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 147,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 416,
+								},
+								["n_dmg"] = 416,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 416,
+								["c_max"] = 0,
+								["id"] = 228645,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[195292] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 89,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 89,
+								},
+								["n_dmg"] = 89,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 89,
+								["c_max"] = 0,
+								["id"] = 195292,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[55078] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 77,
+								["g_amt"] = 0,
+								["n_max"] = 39,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 393,
+								},
+								["n_dmg"] = 316,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 393,
+								["c_max"] = 77,
+								["id"] = 55078,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 9,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[195182] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 177,
+								["targets"] = {
+									["Highlord's Nemesis Trainer"] = 352,
+								},
+								["n_dmg"] = 352,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 352,
+								["c_max"] = 0,
+								["id"] = 195182,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 2,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+						},
+						["tipo"] = 2,
+					},
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 2542.008551,
+					["aID"] = "27893",
+					["dps_started"] = false,
+					["end_time"] = 1656694320,
+					["damage_taken"] = 0.008551,
+					["ownerName"] = "Slavictank",
+					["nome"] = "Rune Weapon <Slavictank>",
+					["spec"] = 250,
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["classe"] = "DEATHKNIGHT",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1656694277,
+					["serial"] = "Creature-0-4246-0-47-27893-00003F41C8",
+					["total"] = 2542.008551,
+				}, -- [3]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 71578.009884,
+					["total_without_pet"] = 0.009884,
+					["total"] = 0.009884,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["isTank"] = true,
+					["serial"] = "Player-581-0A4CC6F5",
+					["totalabsorb"] = 0.009884,
+					["last_hps"] = 0,
+					["targets"] = {
+					},
+					["totalover_without_pet"] = 0.009884,
+					["healing_taken"] = 0.009884,
+					["end_time"] = 1656694320,
+					["targets_overheal"] = {
+						["Slavictank"] = 0,
+					},
+					["last_event"] = 0,
+					["nome"] = "Slavictank",
+					["spells"] = {
+						["_ActorTable"] = {
+							[45470] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Slavictank"] = 35394,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 8,
+								["overheal"] = 35394,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 45470,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_amt"] = 8,
+								["n_curado"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+							[53365] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Slavictank"] = 20244,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 9,
+								["overheal"] = 20244,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 53365,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_amt"] = 9,
+								["n_curado"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+							[77535] = {
+								["c_amt"] = 3,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Slavictank"] = 15940,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Slavictank"] = -5424,
+								},
+								["n_min"] = 0,
+								["counter"] = 7,
+								["overheal"] = 15940,
+								["total"] = -5424,
+								["c_max"] = 0,
+								["id"] = 77535,
+								["targets_absorbs"] = {
+									["Slavictank"] = 0,
+								},
+								["c_min"] = -2712,
+								["c_curado"] = -5424,
+								["n_amt"] = 4,
+								["n_curado"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["classe"] = "DEATHKNIGHT",
+					["totaldenied"] = 0.009884,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["aID"] = "581-0A4CC6F5",
+					["start_time"] = 1656694263,
+					["delay"] = 0,
+					["spec"] = 250,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 505.01556,
+					["resource"] = 4.0231,
+					["targets"] = {
+						["Slavictank"] = 0,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 6,
+					["classe"] = "DEATHKNIGHT",
+					["passiveover"] = 0.00802,
+					["resource_type"] = 5,
+					["spec"] = 250,
+					["totalover"] = 0.00802,
+					["nome"] = "Slavictank",
+					["spells"] = {
+						["_ActorTable"] = {
+							[194679] = {
+								["total"] = 20,
+								["id"] = 194679,
+								["totalover"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["counter"] = 2,
+							},
+							[210738] = {
+								["total"] = 35,
+								["id"] = 210738,
+								["totalover"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["counter"] = 21,
+							},
+							[43265] = {
+								["total"] = 10,
+								["id"] = 43265,
+								["totalover"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["counter"] = 1,
+							},
+							[195292] = {
+								["total"] = 10,
+								["id"] = 195292,
+								["totalover"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["counter"] = 2,
+							},
+							[220890] = {
+								["total"] = 10,
+								["id"] = 220890,
+								["totalover"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["counter"] = 3,
+							},
+							[195182] = {
+								["total"] = 180,
+								["id"] = 195182,
+								["totalover"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["counter"] = 11,
+							},
+							[206930] = {
+								["total"] = 240,
+								["id"] = 206930,
+								["totalover"] = 0,
+								["targets"] = {
+									["Slavictank"] = 0,
+								},
+								["counter"] = 21,
+							},
+						},
+						["tipo"] = 7,
+					},
+					["grupo"] = true,
+					["aID"] = "581-0A4CC6F5",
+					["last_event"] = 0,
+					["alternatepower"] = 0.01556,
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["isTank"] = true,
+					["serial"] = "Player-581-0A4CC6F5",
+					["total"] = 505.01556,
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[55078] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 55078,
+								["uptime"] = 151,
+								["targets"] = {
+								},
+								["refreshamt"] = 17,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["cooldowns_defensive"] = 2.014278,
+					["pets"] = {
+					},
+					["classe"] = "DEATHKNIGHT",
+					["cooldowns_defensive_targets"] = {
+						["Slavictank"] = 2,
+					},
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[194679] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 194679,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[77535] = {
+								["counter"] = 0,
+								["appliedamt"] = 5,
+								["activedamt"] = 5,
+								["actived_at"] = 1656694315,
+								["id"] = 77535,
+								["uptime"] = 56,
+								["targets"] = {
+								},
+								["refreshamt"] = 3,
+							},
+							[51721] = {
+								["counter"] = 0,
+								["appliedamt"] = 1,
+								["activedamt"] = 1,
+								["actived_at"] = 1656694161,
+								["id"] = 51721,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[274009] = {
+								["counter"] = 0,
+								["appliedamt"] = 6,
+								["activedamt"] = 6,
+								["actived_at"] = 1656694315,
+								["id"] = 274009,
+								["uptime"] = 46,
+								["targets"] = {
+								},
+								["refreshamt"] = 2,
+							},
+							[53365] = {
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 53365,
+								["uptime"] = 100,
+								["targets"] = {
+								},
+								["refreshamt"] = 4,
+							},
+							[219788] = {
+								["counter"] = 0,
+								["appliedamt"] = 2,
+								["activedamt"] = 2,
+								["actived_at"] = 1656694286,
+								["id"] = 219788,
+								["uptime"] = 110,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[188290] = {
+								["counter"] = 0,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 188290,
+								["uptime"] = 80,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[55233] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 55233,
+								["uptime"] = 12,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[48792] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 48792,
+								["uptime"] = 8,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[195181] = {
+								["counter"] = 0,
+								["appliedamt"] = 2,
+								["activedamt"] = 2,
+								["actived_at"] = 1656694309,
+								["id"] = 195181,
+								["uptime"] = 138,
+								["targets"] = {
+								},
+								["refreshamt"] = 53,
+							},
+							[273947] = {
+								["counter"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 273947,
+								["uptime"] = 113,
+								["targets"] = {
+								},
+								["refreshamt"] = 13,
+							},
+							[81141] = {
+								["counter"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 81141,
+								["uptime"] = 16,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[81256] = {
+								["counter"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 81256,
+								["uptime"] = 16,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["debuff_uptime"] = 151,
+					["aID"] = "581-0A4CC6F5",
+					["debuff_uptime_targets"] = {
+					},
+					["spec"] = 250,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[195292] = 2,
+						[50842] = 16,
+						[49028] = 2,
+						[49576] = 1,
+						[195182] = 11,
+						[49998] = 8,
+						[108199] = 1,
+						[55233] = 1,
+						[206930] = 21,
+						[221562] = 1,
+						[48792] = 1,
+						[43265] = 8,
+						[221699] = 2,
+						[47541] = 3,
+						[194679] = 2,
+					},
+					["serial"] = "Player-581-0A4CC6F5",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["buff_uptime"] = 703,
+					["cooldowns_defensive_spells"] = {
+						["_ActorTable"] = {
+							[48792] = {
+								["id"] = 48792,
+								["targets"] = {
+									["Slavictank"] = 1,
+								},
+								["counter"] = 1,
+							},
+							[55233] = {
+								["id"] = 55233,
+								["targets"] = {
+									["Slavictank"] = 1,
+								},
+								["counter"] = 1,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["nome"] = "Slavictank",
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["tempo_start"] = 1656694161,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 6,
+		["totals"] = {
+			95070.026184, -- [1]
+			0.001654, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[6] = 505.00754,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 2.005941,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "18:49:22",
+		["end_time"] = 87289.865,
+		["totals_grupo"] = {
+			92528.002523, -- [1]
+			0.001654, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[6] = 505.00754,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 2.005941,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 158.4720000000089,
+				["type"] = 0,
+				["name"] = "Highlord's Nemesis Trainer",
+				["clock"] = "18:49:22",
+			}, -- [1]
+		},
+		["hasSaved"] = true,
+		["spells_cast_timeline"] = {
+		},
+		["data_fim"] = "18:52:00",
+		["overall_enemy_name"] = "Highlord's Nemesis Trainer",
+		["CombatSkillCache"] = {
+		},
+		["frags"] = {
+		},
+		["start_time"] = 87131.393,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+	},
+	["character_data"] = {
+		["logons"] = 3,
+	},
+	["force_font_outline"] = "",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-581-09EE5092"] = 264,
+		["Player-581-0A310338"] = 264,
+		["Player-581-09F8C0E4"] = 264,
+		["Player-2073-09D3A26A"] = 257,
+		["Player-581-0A4CC6F5"] = 250,
+		["Player-581-0A4C3240"] = 105,
+		["Player-581-09D9A6A7"] = 264,
+		["Player-581-088990A3"] = 257,
+		["Creature-0-4246-0-47-27893-00003F41C8"] = 250,
+		["Player-1084-0A565BF8"] = 257,
+		["Player-581-0A48E298"] = 257,
+		["Player-581-0408D8D9"] = 65,
+		["Player-581-09EE42A2"] = 257,
+	},
+}

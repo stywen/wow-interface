@@ -7,24 +7,27 @@ HandyNotes_LegionTreasuresDB = {
 		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Stywen - Antonidas"] = "Stywen - Antonidas",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
-		["Synster - Aegwynn"] = "Synster - Aegwynn",
+		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
+		["Xrth - Blackrock"] = "Xrth - Blackrock",
 		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Xrth - Blackrock"] = "Xrth - Blackrock",
 		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
 		["Byar - Antonidas"] = "Byar - Antonidas",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
-		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
+		["Synster - Aegwynn"] = "Synster - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 	},
 	["profiles"] = {
 		["Starplatïnum - Antonidas"] = {
@@ -39,17 +42,23 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Byd - Mal'Ganis"] = {
 		},
+		["Slavictank - Blackrock"] = {
+		},
 		["Blyyd - Antonidas"] = {
 		},
+		["Orthodoxtank - Blackrock"] = {
+		},
 		["Eshidishii - Blackrock"] = {
+		},
+		["Tizeran - Blackrock"] = {
 		},
 		["Dïo - Blackrock"] = {
 		},
 		["Stywen - Antonidas"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Extinguish - Blackrock"] = {
 		},
-		["Synster - Aegwynn"] = {
+		["Xrth - Blackrock"] = {
 		},
 		["Gryyn - Blackrock"] = {
 		},
@@ -57,23 +66,23 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Magyc - Mal'Ganis"] = {
 		},
-		["Xrth - Blackrock"] = {
-		},
 		["Stylth - Blackrock"] = {
+		},
+		["Dfgfxg - Blackrock"] = {
 		},
 		["Byar - Antonidas"] = {
 		},
-		["Eurotas - Blackrock"] = {
-		},
 		["Odînaf - Blackrock"] = {
+		},
+		["Eurotas - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
 		["Stylth - Antonidas"] = {
 		},
-		["Tizeran - Blackrock"] = {
+		["Synster - Aegwynn"] = {
 		},
-		["Slavictank - Blackrock"] = {
+		["Orthodoxtank - Antonidas"] = {
 		},
 	},
 }

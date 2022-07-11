@@ -3,8 +3,8 @@ MADB = {
 	["autoShowNext"] = true,
 	["characters"] = {
 	},
-	["tooltips"] = true,
 	["frameListRows"] = 18,
+	["tooltips"] = true,
 	["profiles"] = {
 		["default"] = {
 			["name"] = "default",

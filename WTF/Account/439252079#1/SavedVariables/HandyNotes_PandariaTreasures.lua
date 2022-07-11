@@ -1,15 +1,18 @@
 
 PandariaTreasuresDB = {
 	["profileKeys"] = {
+		["Starplatïnum - Blackrock"] = "Default",
+		["Notafriend - Aegwynn"] = "Default",
+		["Blyyd - Antonidas"] = "Default",
+		["Orthodoxtank - Blackrock"] = "Default",
+		["Stylth - Blackrock"] = "Default",
 		["Dïo - Blackrock"] = "Default",
 		["Stywen - Antonidas"] = "Default",
+		["Extinguish - Blackrock"] = "Default",
 		["Gryyn - Blackrock"] = "Default",
-		["Starplatïnum - Blackrock"] = "Default",
 		["Lichkingvult - Blackrock"] = "Default",
-		["Notafriend - Aegwynn"] = "Default",
-		["Stylth - Blackrock"] = "Default",
 		["Byar - Antonidas"] = "Default",
-		["Blyyd - Antonidas"] = "Default",
+		["Slavictank - Blackrock"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
 		["Stylth - Antonidas"] = "Default",

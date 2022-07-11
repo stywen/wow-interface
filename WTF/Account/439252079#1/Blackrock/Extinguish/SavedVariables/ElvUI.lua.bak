@@ -1,0 +1,102 @@
+
+ElvCharacterDB = {
+	["ConvertKeybindings"] = true,
+	["ChatEditHistory"] = {
+		"/wave", -- [1]
+		"/m", -- [2]
+		"/played", -- [3]
+		"/wa", -- [4]
+		"/ec", -- [5]
+		"/reload", -- [6]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"< Erfahrene Gruppe> Verkaufe Keystone +10-24 ||KSM10x15 -KSH 10x20|| Multi-Run hat Rabatt + Armor Stack. Raid SOTFO 11/11 HC mit trader+ Jailer Curve, 11/11 Mythic , Sylvanas mythisches Reittier, Torghast alle Layer / w für weitere Info", -- [1]
+			"Yeqiu-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yeqiu-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			656, -- [11]
+			"Player-581-0A4887A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Yeqiu|r",
+			[51] = 1657144873,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"wtb |cffffffff|Hitem:16885::::::::10:253::::1:28:161:::::|h[Heavy Junkbox]|h|r", -- [1]
+			"Kwikemart-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kwikemart-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			711, -- [11]
+			"Player-581-0A494EAC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Kwikemart|r",
+			[51] = 1657144966,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"WTS...|cffa335ee|Hitem:190626::::::::35:66::6:7:7187:8132:8116:6652:7580:1524:6646:1:28:2167:::::|h[Hood of Empty Eternities]|h|r..%0FF../w", -- [1]
+			"Henzo-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Henzo-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			717, -- [11]
+			"Player-581-0A3612EB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Henzo|r",
+			[51] = 1657145007,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"Unsere Gilde verkauft heroicThe Jailer für Gold!Gold! Ihr bekommt die HeldentatAhead oead of the Curve: The Jailer& das Mocff |cff71d5ff|Hspell:359545:0|h[Carcinized Zerethsteed]|h|r /w me", -- [1]
+			"Émmá-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Émmá-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			767, -- [11]
+			"Player-581-0A468F2E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Émmá|r",
+			[51] = 1657145150,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+	},
+}

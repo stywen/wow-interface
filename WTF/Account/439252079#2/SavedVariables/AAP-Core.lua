@@ -3,9 +3,13 @@ AAP1 = {
 	["Frostmourne"] = {
 		["Starplatïnum"] = {
 			["FirstLoadz"] = 1,
-			["QlineSkip"] = {
-			},
+			["QuestCounter"] = 32,
 			["QuestCounter2"] = 32,
+			["SkippedBonusObj"] = {
+			},
+			["AAP_DoWarCampaign"] = 0,
+			["BonusSkips"] = {
+			},
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -29,53 +33,42 @@ AAP1 = {
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
 				["Hcampleft"] = 2666.666870117188,
-				["DisableHeirloomWarning"] = 0,
+				["Partytop"] = -300,
 				["Greetings"] = 0,
 				["arrowleft"] = 2081.300971798781,
 				["ArrowScale"] = 0.64,
-				["AutoShareQ"] = 0,
+				["ShowQList"] = 1,
+				["ShowMapBlobs"] = 1,
 				["ShowArrow"] = 1,
-				["Hcamptop"] = -240,
-				["QuestButtons"] = 1,
+				["alpha"] = 1,
 				["MiniMapBlobAlpha"] = 1,
 				["Partyleft"] = 1706.666796875,
 				["AutoHandInChoice"] = 0,
 				["top"] = -240,
-				["Scale"] = 0.64,
-				["QuestButtonDetatch"] = 0,
 				["ChooseQuests"] = 0,
-				["alpha"] = 1,
-				["ShowMapBlobs"] = 1,
-				["ShowQList"] = 1,
-				["Partytop"] = -300,
+				["QuestButtonDetatch"] = 0,
+				["Scale"] = 0.64,
+				["QuestButtons"] = 1,
+				["Hcamptop"] = -240,
+				["AutoShareQ"] = 0,
+				["DisableHeirloomWarning"] = 0,
 			},
-			["LoaPick"] = 0,
-			["SkippedBonusObj"] = {
-			},
-			["A1409"] = 1,
 			["WantedQuestList"] = {
 			},
-			["BonusSkips"] = {
-			},
-			["AAP_DoWarCampaign"] = 0,
+			["A1409"] = 1,
+			["LoaPick"] = 0,
 			["A1726"] = 1,
-			["QuestCounter"] = 32,
+			["QlineSkip"] = {
+			},
 		},
 	},
 	["Aegwynn"] = {
 		["Bydd"] = {
 			["FirstLoadz"] = 1,
 			["QuestCounter2"] = 31,
-			["QuestCounter"] = 31,
+			["QlineSkip"] = {
+			},
 			["A37"] = 1,
-			["WantedQuestList"] = {
-			},
-			["SkippedBonusObj"] = {
-			},
-			["BonusSkips"] = {
-			},
-			["LoaPick"] = 0,
-			["AAP_DoWarCampaign"] = 0,
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 1,
@@ -95,43 +88,51 @@ AAP1 = {
 				["CutScene"] = 1,
 				["left"] = 2666.666870117188,
 				["ShowBlobs"] = 1,
-				["Greetings2"] = 1,
+				["DisableHeirloomWarning"] = 0,
 				["AutoHandIn"] = 1,
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
 				["Hcampleft"] = 2666.666870117188,
-				["Partytop"] = -300,
+				["AutoShareQ"] = 0,
 				["Greetings"] = 0,
 				["arrowleft"] = 2081.300971798781,
 				["ArrowScale"] = 0.64,
-				["ShowQList"] = 1,
+				["QuestButtons"] = 1,
+				["ShowArrow"] = 1,
 				["Hcamptop"] = -240,
-				["ShowMapBlobs"] = 1,
-				["Partyleft"] = 1706.666796875,
+				["Scale"] = 0.64,
 				["MiniMapBlobAlpha"] = 1,
-				["alpha"] = 1,
+				["Partyleft"] = 1706.666796875,
 				["AutoHandInChoice"] = 0,
 				["top"] = -240,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
-				["Scale"] = 0.64,
-				["ShowArrow"] = 1,
-				["QuestButtons"] = 1,
-				["AutoShareQ"] = 0,
-				["DisableHeirloomWarning"] = 0,
+				["alpha"] = 1,
+				["ShowMapBlobs"] = 1,
+				["ShowQList"] = 1,
+				["Partytop"] = -300,
+				["Greetings2"] = 1,
 			},
-			["QlineSkip"] = {
+			["SkippedBonusObj"] = {
 			},
+			["WantedQuestList"] = {
+			},
+			["AAP_DoWarCampaign"] = 0,
+			["LoaPick"] = 0,
+			["BonusSkips"] = {
+			},
+			["QuestCounter"] = 31,
 		},
 	},
 	["Antonidas"] = {
 		["Dfgh"] = {
 			["FirstLoadz"] = 1,
-			["QuestCounter"] = 32,
-			["QuestCounter2"] = 32,
+			["QlineSkip"] = {
+			},
+			["QuestCounter2"] = 36,
 			["A13"] = 1,
 			["A37"] = 1,
-			["BonusSkips"] = {
+			["SkippedBonusObj"] = {
 			},
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -156,40 +157,40 @@ AAP1 = {
 				["ArrowFPS"] = 2,
 				["Lock"] = 0,
 				["Hcampleft"] = 2666.666870117188,
-				["Partytop"] = -300,
+				["DisableHeirloomWarning"] = 0,
 				["Greetings"] = 0,
 				["arrowleft"] = 2081.300971798781,
 				["ArrowScale"] = 0.64,
-				["ShowQList"] = 1,
+				["AutoShareQ"] = 0,
+				["ShowMapBlobs"] = 1,
 				["ShowArrow"] = 1,
-				["Hcamptop"] = -240,
-				["alpha"] = 1,
+				["QuestButtons"] = 1,
 				["MiniMapBlobAlpha"] = 1,
-				["Partyleft"] = 1706.666796875,
+				["alpha"] = 1,
 				["AutoHandInChoice"] = 0,
 				["top"] = -240,
-				["ChooseQuests"] = 0,
-				["QuestButtonDetatch"] = 0,
 				["Scale"] = 0.64,
-				["QuestButtons"] = 1,
-				["ShowMapBlobs"] = 1,
-				["AutoShareQ"] = 0,
-				["DisableHeirloomWarning"] = 0,
+				["QuestButtonDetatch"] = 0,
+				["ChooseQuests"] = 0,
+				["Partyleft"] = 1706.666796875,
+				["Hcamptop"] = -240,
+				["ShowQList"] = 1,
+				["Partytop"] = -300,
 			},
+			["BonusSkips"] = {
+			},
+			["AAP_DoWarCampaign"] = 0,
+			["LoaPick"] = 0,
 			["WantedQuestList"] = {
 			},
-			["LoaPick"] = 0,
-			["AAP_DoWarCampaign"] = 0,
-			["SkippedBonusObj"] = {
-			},
-			["QlineSkip"] = {
-			},
+			["QuestCounter"] = 36,
 		},
 	},
 }
 AAP2 = nil
 AAP3 = nil
 AAPQuestNames = {
+	[62639] = "The Very Best",
 }
 AAP_HoldZoneVar = nil
 AAP_Transport = {
@@ -209,17 +210,17 @@ AAP_Transport = {
 	},
 }
 AAP_Custom = {
-	["Dfgh-Antonidas"] = {
-	},
 	["Starplatïnum-Frostmourne"] = {
+	},
+	["Dfgh-Antonidas"] = {
 	},
 	["Bydd-Aegwynn"] = {
 	},
 }
 AAP_ZoneComplete = {
-	["Dfgh-Antonidas"] = {
-	},
 	["Starplatïnum-Frostmourne"] = {
+	},
+	["Dfgh-Antonidas"] = {
 	},
 	["Bydd-Aegwynn"] = {
 	},

@@ -68,6 +68,7 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
+	["lastUpdte"] = 1,
 	["OutfitDB"] = {
 		["profileKeys"] = {
 			["Bydd - Aegwynn"] = "Bydd - Aegwynn",
@@ -75,7 +76,6 @@ BetterWardrobe_ListData = {
 			["Dfgh - Antonidas"] = "Dfgh - Antonidas",
 		},
 	},
-	["lastUpdte"] = 1,
 	["HiddenAppearanceDB"] = {
 		["profileKeys"] = {
 			["Bydd - Aegwynn"] = "Bydd - Aegwynn",

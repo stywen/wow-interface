@@ -3,38 +3,43 @@ TLDRMissionsProfiles = {
 	["profileKeys"] = {
 		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
 		["Dysea - Aegwynn"] = "Dysea - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
 		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
+		["Xrth - Blackrock"] = "Xrth - Blackrock",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
-		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Xrth - Blackrock"] = "Xrth - Blackrock",
+		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Stywen - Antonidas"] = "Stywen - Antonidas",
+		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-		["Stylth - Blackrock"] = "Stylth - Blackrock",
 		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Byar - Antonidas"] = "Byar - Antonidas",
 		["Synster - Aegwynn"] = "Synster - Aegwynn",
-		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
+		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
+		["Byar - Antonidas"] = "Byar - Antonidas",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 	},
 	["profiles"] = {
 		["Starplatïnum - Antonidas"] = {
 		},
 		["Dysea - Aegwynn"] = {
+		},
+		["Orthodoxtank - Antonidas"] = {
 		},
 		["Nofriend - Aegwynn"] = {
 		},
@@ -42,44 +47,48 @@ TLDRMissionsProfiles = {
 		},
 		["Starplatïnum - Blackrock"] = {
 		},
+		["Byd - Aegwynn"] = {
+		},
 		["Notafriend - Aegwynn"] = {
+		},
+		["Xrth - Blackrock"] = {
 		},
 		["Testyu - Blackrock"] = {
 		},
 		["Byd - Mal'Ganis"] = {
 		},
-		["Slavictank - Blackrock"] = {
-		},
-		["Blyyd - Antonidas"] = {
-		},
-		["Tizeran - Blackrock"] = {
-		},
 		["Eshidishii - Blackrock"] = {
-			["excludedRewards"] = {
-				"pet-charms", -- [1]
-				"reputation", -- [2]
-				"followerxp", -- [3]
-				"campaign", -- [4]
-				"sanctum", -- [5]
-				"augment-runes", -- [6]
-				"crafting-cache", -- [7]
-			},
+			["sacrificeRemaining"] = true,
 			["selectedRewards"] = {
 				"gold", -- [1]
 				"anima", -- [2]
 				"runecarver", -- [3]
 				"gear", -- [4]
+				"followerxp-items", -- [5]
+				"pet-charms", -- [6]
+				"augment-runes", -- [7]
+				"reputation", -- [8]
+				"followerxp", -- [9]
+				"crafting-cache", -- [10]
+				"campaign", -- [11]
+				"sanctum", -- [12]
 			},
 		},
-		["Xrth - Blackrock"] = {
+		["Blyyd - Antonidas"] = {
+		},
+		["Orthodoxtank - Blackrock"] = {
+		},
+		["Stylth - Blackrock"] = {
+		},
+		["Odînaf - Blackrock"] = {
 		},
 		["Dïo - Blackrock"] = {
 		},
 		["Stywen - Antonidas"] = {
 		},
-		["Omaewam - Blackrock"] = {
+		["Extinguish - Blackrock"] = {
 		},
-		["Stylth - Blackrock"] = {
+		["Omaewam - Blackrock"] = {
 		},
 		["Gryyn - Blackrock"] = {
 		},
@@ -87,27 +96,306 @@ TLDRMissionsProfiles = {
 		},
 		["Magyc - Mal'Ganis"] = {
 		},
-		["Buffedbeef - Blackrock"] = {
+		["Synster - Aegwynn"] = {
 		},
-		["Eurotas - Blackrock"] = {
+		["Buffedbeef - Blackrock"] = {
 		},
 		["Byar - Antonidas"] = {
 		},
-		["Synster - Aegwynn"] = {
+		["Eurotas - Blackrock"] = {
 		},
-		["Odînaf - Blackrock"] = {
+		["Dfgfxg - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
 		["Stylth - Antonidas"] = {
 		},
-		["Byd - Aegwynn"] = {
+		["Tizeran - Blackrock"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Slavictank - Blackrock"] = {
 		},
 	},
 }
 TLDRMissionsCache = {
 	["9.2-102"] = {
+		[2168] = {
+			[12] = {
+				[12] = {
+					["c"] = {
+						["1222-66-770--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = {
+							["finalHealth"] = {
+								330, -- [1]
+								722, -- [2]
+								260, -- [3]
+								284, -- [4]
+								[0] = 330,
+							},
+							["combination"] = {
+								1222, -- [1]
+								1319, -- [2]
+								1319, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+						["1222-66-770--1319-88-330--1319-88-330--1319-88-330--1320-44-770"] = {
+							["finalHealth"] = {
+								330, -- [1]
+								700, -- [2]
+								238, -- [3]
+								706, -- [4]
+								[0] = 330,
+							},
+							["combination"] = {
+								1222, -- [1]
+								1319, -- [2]
+								1320, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+					},
+				},
+			},
+		},
+		[2177] = {
+			[12] = {
+				[12] = {
+					["c"] = {
+						["1319-88-330--1319-88-330--1319-88-330--1319-88-330--1325-105-525"] = {
+							["finalHealth"] = {
+								248, -- [1]
+								481, -- [2]
+								242, -- [3]
+								330, -- [4]
+								[0] = 100,
+							},
+							["combination"] = {
+								1325, -- [1]
+								1319, -- [2]
+								1319, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+					},
+				},
+			},
+		},
+		[2262] = {
+			[12] = {
+				[12] = {
+					["c"] = {
+						["1222-66-770--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = {
+							["finalHealth"] = {
+								330, -- [1]
+								667, -- [2]
+								161, -- [3]
+								95, -- [4]
+								[0] = 330,
+							},
+							["combination"] = {
+								1222, -- [1]
+								1319, -- [2]
+								1319, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+						["1273-66-880--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = {
+							["finalHealth"] = {
+								330, -- [1]
+								777, -- [2]
+								161, -- [3]
+								95, -- [4]
+								[0] = 330,
+							},
+							["combination"] = {
+								1273, -- [1]
+								1319, -- [2]
+								1319, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+						["1273-66-880--1319-88-330--1319-88-330--1319-88-330--1320-44-770"] = {
+							["finalHealth"] = {
+								330, -- [1]
+								674, -- [2]
+								161, -- [3]
+								544, -- [4]
+								[0] = 330,
+							},
+							["combination"] = {
+								1273, -- [1]
+								1319, -- [2]
+								1320, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+					},
+				},
+			},
+		},
+		[2312] = {
+			[49] = {
+				[12] = {
+					["c"] = {
+						["1260-224-2240--1319-88-330--1319-88-330--1320-44-770--1320-44-770"] = false,
+						["1260-224-2240--1319-88-330--1319-88-330--1319-88-330--1320-44-770"] = false,
+						["1260-224-2240--1320-44-770--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1260-224-2240--1319-88-330--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1260-224-2240--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = false,
+					},
+					["g"] = {
+						["1260-224-2240"] = true,
+					},
+				},
+			},
+		},
+		[2170] = {
+			[14] = {
+				[12] = {
+					["c"] = {
+						["1222-66-770--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = {
+							["finalHealth"] = {
+								249, -- [1]
+								-68, -- [2]
+								-54, -- [3]
+								-72, -- [4]
+								[0] = 149,
+							},
+							["combination"] = {
+								1222, -- [1]
+								1319, -- [2]
+								1319, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+						["1221-88-550--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = {
+							["finalHealth"] = {
+								276, -- [1]
+								44, -- [2]
+								-54, -- [3]
+								-72, -- [4]
+								[0] = 310,
+							},
+							["combination"] = {
+								1221, -- [1]
+								1319, -- [2]
+								1319, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+					},
+				},
+			},
+		},
+		[2228] = {
+			[12] = {
+				[12] = {
+					["c"] = {
+						["1274-96-720--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = false,
+						["1222-66-770--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = false,
+						["1272-92-460--1319-88-330--1319-88-330--1320-44-770--1320-44-770"] = false,
+						["1223-110-550--1319-88-330--1319-88-330--1320-44-770--1320-44-770"] = false,
+						["1221-88-550--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = false,
+						["1319-88-330--1319-88-330--1319-88-330--1319-88-330--1342-96-840"] = false,
+						["1221-88-550--1319-88-330--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1221-88-550--1319-88-330--1319-88-330--1320-44-770--1320-44-770"] = false,
+						["1221-88-550--1319-88-330--1319-88-330--1319-88-330--1320-44-770"] = false,
+						["1222-66-770--1320-44-770--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1223-110-550--1319-88-330--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1274-96-720--1320-44-770--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1222-66-770--1319-88-330--1319-88-330--1320-44-770--1320-44-770"] = false,
+						["1319-88-330--1319-88-330--1319-88-330--1319-88-330--1341-240-1200"] = false,
+						["1272-92-460--1319-88-330--1319-88-330--1319-88-330--1320-44-770"] = false,
+						["1223-110-550--1319-88-330--1319-88-330--1319-88-330--1320-44-770"] = false,
+						["1274-96-720--1319-88-330--1319-88-330--1320-44-770--1320-44-770"] = false,
+						["1222-66-770--1319-88-330--1319-88-330--1319-88-330--1320-44-770"] = false,
+						["1221-88-550--1320-44-770--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1319-88-330--1319-88-330--1319-88-330--1320-44-770--1342-96-840"] = false,
+						["1319-88-330--1319-88-330--1320-44-770--1320-44-770--1342-96-840"] = false,
+						["1272-92-460--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = false,
+						["1319-88-330--1319-88-330--1319-88-330--1320-44-770--1341-240-1200"] = {
+							["finalHealth"] = {
+								330, -- [1]
+								-40, -- [2]
+								-14, -- [3]
+								7, -- [4]
+								[0] = 88,
+							},
+							["combination"] = {
+								1341, -- [1]
+								1319, -- [2]
+								1320, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+						["1320-44-770--1320-44-770--1320-44-770--1320-44-770--1342-96-840"] = false,
+						["1274-96-720--1319-88-330--1319-88-330--1319-88-330--1320-44-770"] = false,
+						["1319-88-330--1319-88-330--1320-44-770--1320-44-770--1341-240-1200"] = {
+							["finalHealth"] = {
+								330, -- [1]
+								-40, -- [2]
+								-25, -- [3]
+								388, -- [4]
+								[0] = 145,
+							},
+							["combination"] = {
+								1341, -- [1]
+								1320, -- [2]
+								1320, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+						["1222-66-770--1319-88-330--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1223-110-550--1319-88-330--1319-88-330--1319-88-330--1319-88-330"] = false,
+						["1272-92-460--1320-44-770--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1274-96-720--1319-88-330--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1223-110-550--1320-44-770--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1272-92-460--1319-88-330--1320-44-770--1320-44-770--1320-44-770"] = false,
+						["1319-88-330--1320-44-770--1320-44-770--1320-44-770--1342-96-840"] = false,
+					},
+					["g"] = {
+						["1222-66-770"] = true,
+						["1272-92-460"] = true,
+						["1274-96-720"] = true,
+						["1342-96-840"] = true,
+						["1221-88-550"] = true,
+						["1223-110-550"] = true,
+					},
+				},
+			},
+		},
+		[2261] = {
+			[12] = {
+				[12] = {
+					["c"] = {
+						["1319-88-330--1319-88-330--1319-88-330--1319-88-330--1325-105-525"] = {
+							["finalHealth"] = {
+								330, -- [1]
+								257, -- [2]
+								198, -- [3]
+								330, -- [4]
+								[0] = 330,
+							},
+							["combination"] = {
+								1325, -- [1]
+								1319, -- [2]
+								1319, -- [3]
+								1319, -- [4]
+								1319, -- [5]
+							},
+						},
+					},
+				},
+			},
+		},
 	},
 }

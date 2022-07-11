@@ -20,22 +20,28 @@ AdiBagsDB = {
 		},
 		["Equipment"] = {
 		},
+		["DataSource"] = {
+		},
+		["ItemSets"] = {
+		},
+		["Shadowlands"] = {
+		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
 					["shown"] = {
 						["Ancient Mana"] = false,
 						["Nethershard"] = false,
-						["Legionfall War Supplies"] = false,
+						["Stygian Ember"] = false,
 						["Wakening Essence"] = false,
 						["Infused Ruby"] = false,
 						["Order Resources"] = false,
 						["Spirit Shard"] = false,
 						["Cataloged Research"] = false,
-						["Garrison Resources"] = false,
-						["Curious Coin"] = false,
 						["Stygia"] = false,
-						["Stygian Ember"] = false,
+						["Curious Coin"] = false,
+						["Garrison Resources"] = false,
+						["Legionfall War Supplies"] = false,
 					},
 					["text"] = {
 						["r"] = 0.9215686274509803,
@@ -46,12 +52,6 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["ItemSets"] = {
-		},
-		["Shadowlands"] = {
-		},
-		["DataSource"] = {
-		},
 		["Junk"] = {
 		},
 		["Hearthstones"] = {
@@ -60,24 +60,25 @@ AdiBagsDB = {
 	["profileKeys"] = {
 		["Starplatïnum - Antonidas"] = "Default",
 		["Stywen - Antonidas"] = "Default",
+		["Extinguish - Blackrock"] = "Default",
 		["Xrth - Blackrock"] = "Default",
-		["Byar - Antonidas"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
-		["Lichkingvult - Blackrock"] = "Default",
-		["Blyyd - Antonidas"] = "Default",
-		["Blyyd - Blackrock"] = "Default",
-		["Eshidishii - Blackrock"] = "Default",
 		["Slavictank - Blackrock"] = "Default",
+		["Dïo - Blackrock"] = "Default",
+		["Lichkingvult - Blackrock"] = "Default",
+		["Byar - Antonidas"] = "Default",
+		["Blyyd - Antonidas"] = "Default",
+		["Dfgfxg - Blackrock"] = "Default",
+		["Blyyd - Blackrock"] = "Default",
+		["Orthodoxtank - Blackrock"] = "Default",
+		["Eshidishii - Blackrock"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["virtualStacks"] = {
 				["freeSpace"] = false,
 			},
-			["columnWidth"] = {
-				["Bank"] = 5,
-				["Backpack"] = 8,
-			},
+			["scale"] = 1.267,
 			["maxHeight"] = 0.63,
 			["bagFont"] = {
 				["name"] = "Continuum Medium",
@@ -94,9 +95,12 @@ AdiBagsDB = {
 			["sectionFont"] = {
 				["name"] = "Continuum Medium",
 			},
-			["scale"] = 1.267,
-			["qualityOpacity"] = 0.7500000000000001,
+			["columnWidth"] = {
+				["Backpack"] = 8,
+				["Bank"] = 5,
+			},
 			["positionMode"] = "manual",
+			["qualityOpacity"] = 0.7500000000000001,
 		},
 	},
 }

@@ -6,11 +6,6 @@ VER 3 0100000000000001 "Bloodthirst" "INV_MISC_QUESTIONMARK"
 #showtooltip Bloodthirst
 /cast [@mouseover, harm, nodead][@target] Bloodthirst
 END
-VER 3 0100000000000012 "BUFFED" "INV_MISC_QUESTIONMARK"
-#showtooltipps
-/use Spectral Flask of Power
-/use Potion of Spectral Strength
-END
 VER 3 0100000000000006 "Charge" "INV_MISC_QUESTIONMARK"
 #showtooltip Charge
 /cancelaura Bladestorm
@@ -64,6 +59,15 @@ VER 3 0100000000000003 "Rampage" "INV_MISC_QUESTIONMARK"
 #showtooltip rampage
 /cancelaura Bladestorm
 /cast rampage
+END
+VER 3 0100000000000016 "stew" "INV_MISC_QUESTIONMARK"
+/cast summon steward
+/script C_GossipInfo.SelectOption(8);
+/script C_GossipInfo.SelectOption(7);
+/script C_GossipInfo.SelectOption(6);
+/script C_GossipInfo.SelectOption(5);
+/script C_GossipInfo.SelectOption(4);
+/script C_GossipInfo.SelectOption(3);
 END
 VER 3 0100000000000005 "Storm Bolt" "INV_MISC_QUESTIONMARK"
 #showtooltip Storm Bolt
