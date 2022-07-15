@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "Eshidishii-Blackrock",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 171415,
@@ -62,15 +65,15 @@ PawnOptions = {
 		}, -- [12]
 		{
 			["ID"] = 179342,
-			["Level"] = 268,
+			["Level"] = 272,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:179342::::::::60:72::35:5:7359:6652:7783:1582:6646::::::|h[Overwhelming Power Crystal]|h|r",
+			["Link"] = "|cffa335ee|Hitem:179342::::::::60:72::35:5:7359:6652:7784:1586:6646::::::|h[Overwhelming Power Crystal]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 178811,
-			["Level"] = 265,
+			["ID"] = 179342,
+			["Level"] = 268,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:178811::::::::60:73::35:5:7782:7359:6652:1579:6646::::::|h[Grim Codex]|h|r",
+			["Link"] = "|cffa335ee|Hitem:179342::::::::60:72::35:5:7359:6652:7783:1582:6646::::::|h[Overwhelming Power Crystal]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173242,
@@ -78,9 +81,9 @@ PawnOptions = {
 			["Link"] = "|cffff8000|Hitem:173242::::::::60:72::69:6:6964:7882:8156:6649:6648:1588:1:28:2142:::::|h[Deathmaker]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 185810,
-			["Level"] = 262,
-			["Link"] = "|cffa335ee|Hitem:185810::::::::60:72::16:5:7823:7359:6652:1579:6646:1:28:1279:::::|h[Skyreaver, Greataxe of the Keepers]|h|r",
+			["ID"] = 178780,
+			["Level"] = 278,
+			["Link"] = "|cffa335ee|Hitem:178780::::::::60:72::35:5:7828:7359:6652:1592:6646::::::|h[Rimebinder's Runeblade]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 179485,
@@ -89,9 +92,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179485::::::::60:72::28:4:6652:1495:5920:6646:1:28:1707:::::|h[Fang of Nemaeus]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Eshidishii-Blackrock",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128910] = {
 			["Relics"] = {
@@ -136,7 +137,6 @@ PawnOptions = {
 			["Name"] = "Scale of the Earth-Warder",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",

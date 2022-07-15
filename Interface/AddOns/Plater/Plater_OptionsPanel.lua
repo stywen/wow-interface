@@ -241,8 +241,8 @@ function Plater.OpenOptionsPanel()
 		{name = "AdvancedConfig",			title = L["OPTIONS_TABNAME_ADVANCED"]},
 		{name = "resourceFrame",			title = L["OPTIONS_TABNAME_COMBOPOINTS"]},
 
-		{name = "SearchFrame", title = L["OPTIONS_TABNAME_SEARCH"]},
 		{name = "WagoIo", title = "Wago Imports"}, --wago_imports --localize-me
+		{name = "SearchFrame", title = L["OPTIONS_TABNAME_SEARCH"]},
 		
 	}, 
 	frame_options, hookList)
@@ -338,8 +338,8 @@ function Plater.OpenOptionsPanel()
 	local resourceFrame			= mainFrame.AllFrames [24]
 
 	--4th row
-	local searchFrame			= mainFrame.AllFrames [25]
-	local wagoIoFrame 			= mainFrame.AllFrames [26] --wago_imports
+	local wagoIoFrame 			= mainFrame.AllFrames [25] --wago_imports
+	local searchFrame			= mainFrame.AllFrames [26]
 
 	local scriptButton		= mainFrame.AllButtons [6] --also need update on line 115 and 13818
 	local modButton		 	= mainFrame.AllButtons [7]
@@ -1274,12 +1274,12 @@ interface_title:SetPoint (startX, startY)
 
 local in_combat_background = Plater:CreateImage (frontPageFrame)
 in_combat_background:SetColorTexture (.6, 0, 0, .1)
-in_combat_background:SetPoint ("topleft", interface_title, "bottomleft", 0, 2)
-in_combat_background:SetPoint ("bottomright", frontPageFrame, "bottomright", -10, 430)
+in_combat_background:SetPoint ("topleft", interface_title, "bottomleft", -5, 5)
+in_combat_background:SetSize(275, 288)
 in_combat_background:Hide()
 
 local in_combat_label = Plater:CreateLabel (frontPageFrame, "you are in combat", 24, "silver")
-in_combat_label:SetPoint ("right", in_combat_background, "right", -10, 0)
+in_combat_label:SetPoint ("right", in_combat_background, "right", -10, 10)
 in_combat_label:Hide()
 
 frontPageFrame:RegisterEvent ("PLAYER_REGEN_DISABLED")
@@ -3763,12 +3763,11 @@ Plater.CreateAuraTesting()
 			for i = 1, #scripts do
 				local scriptObject = scripts [i]
 				if (scriptObject.ScriptType == 1 or scriptObject.ScriptType == 2) then
-					tinsert (t, {0, 0, scriptObject.Name, scriptObject.Enabled and 1 or 0, label = scriptObject.Name, value = i, color = scriptObject.Enabled and "white" or "red", onclick = line_onclick_trigger_dropdown, desc = scriptObject.Desc})
+					tinsert (t, {0, 0, scriptObject.Name, scriptObject.Enabled and 1 or 0, 0, label = scriptObject.Name, value = i, color = scriptObject.Enabled and "white" or "red", onclick = line_onclick_trigger_dropdown, desc = scriptObject.Desc})
 				end
 			end
 			
 			table.sort (t, Plater.SortScripts)
-			
 			return t
 		end
 		
@@ -12393,6 +12392,21 @@ end
 			end,
 			name = "Regular Cast",
 			desc = "Regular Cast",
+		},
+		{
+			type = "color",
+			get = function()
+				local color = Plater.db.profile.cast_statusbar_color_channeling
+				return {color[1], color[2], color[3], color[4]}
+			end,
+			set = function (self, r, g, b, a) 
+				local color = Plater.db.profile.cast_statusbar_color_channeling
+				color[1], color[2], color[3], color[4] = r, g, b, a
+				Plater.UpdateAllPlates()
+				Plater.DoCastBarTest()
+			end,
+			name = "Channelled Cast",
+			desc = "Channelled Cast",
 		},
 		{
 			type = "color",

@@ -2,10 +2,10 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/wave", -- [1]
-		"/wa", -- [2]
+		"/wa", -- [1]
+		"/m", -- [2]
 		"/aap", -- [3]
-		"/m", -- [4]
+		"/wave", -- [4]
 		"/plater", -- [5]
 		"/reload", -- [6]
 		"/played", -- [7]

@@ -1,6 +1,6 @@
 VER 3 0000000000000010 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use First Aid Kit
+/use Re-Sizer v9.0.1
 END
 VER 3 0000000000000008 "clear" "INV_MISC_QUESTIONMARK"
 #showtooltip

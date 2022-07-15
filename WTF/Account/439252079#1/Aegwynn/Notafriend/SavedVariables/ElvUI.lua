@@ -2,14 +2,14 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/aap", -- [1]
-		"/m", -- [2]
+		"/wa", -- [1]
+		"/invite Bydd", -- [2]
 		"/ltp", -- [3]
-		"/wa", -- [4]
+		"/aap", -- [4]
 		"/invite stywen", -- [5]
 		"/plater", -- [6]
 		"/reload", -- [7]
-		"/invite Bydd", -- [8]
+		"/m", -- [8]
 		"/invite Stywen", -- [9]
 		"/played", -- [10]
 	},

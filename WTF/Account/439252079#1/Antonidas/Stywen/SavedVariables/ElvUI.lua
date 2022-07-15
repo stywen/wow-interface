@@ -2,10 +2,10 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/wa", -- [1]
-		"/m", -- [2]
+		"/m", -- [1]
+		"/wave", -- [2]
 		"/aap", -- [3]
-		"/wave", -- [4]
+		"/wa", -- [4]
 		"/plater", -- [5]
 		"/reload", -- [6]
 		"/played", -- [7]
@@ -825,5 +825,71 @@ ElvCharacterDB = {
 			[51] = 1655293312,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [37]
+		{
+			"nene musst du nicht das ich wie bolvar guter lichkönig bin ^^", -- [1]
+			"Riderknight-Antonidas", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Riderknight-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			7, -- [10]
+			1414, -- [11]
+			"Player-3686-09D58A13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cRiderknight|r",
+			[51] = 1657748219,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [38]
+		{
+			"Verkaufe  [Mythic+ 15-20] ! [KSM 20x +15 & KSH 20x +20 ] [Armor Stack & spezieller key] Rabatt für mehrere Runs! [Nur Gold] Mehr Informationen /w me", -- [1]
+			"Todeszelle-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Todeszelle-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1450, -- [11]
+			"Player-3686-09D07588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edTodeszelle|r",
+			[51] = 1657748235,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [39]
+		{
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
+			"Jäge-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jäge-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1458, -- [11]
+			"Player-3686-09BC8B4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Jäge|r",
+			[51] = 1657748252,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [40]
 	},
 }

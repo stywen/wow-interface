@@ -12,358 +12,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"{rt1}3", -- [1]
-			"Haoi-Dethecus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Haoi-Dethecus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2075, -- [11]
-			"Player-531-0A188EE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Haoi-Dethecus|r",
-			[51] = 1655811165,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"{rt1}2", -- [1]
-			"Haoi-Dethecus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Haoi-Dethecus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2076, -- [11]
-			"Player-531-0A188EE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Haoi-Dethecus|r",
-			[51] = 1655811166,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"3", -- [1]
-			"Daktari-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Daktari-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2077, -- [11]
-			"Player-604-0A4B1F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Daktari-Thrall|r",
-			[51] = 1655811166,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"{rt1}1", -- [1]
-			"Haoi-Dethecus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Haoi-Dethecus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2078, -- [11]
-			"Player-531-0A188EE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Haoi-Dethecus|r",
-			[51] = 1655811167,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"2", -- [1]
-			"Daktari-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Daktari-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2080, -- [11]
-			"Player-604-0A4B1F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Daktari-Thrall|r",
-			[51] = 1655811168,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"3", -- [1]
-			"Athêist-Blackmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Athêist-Blackmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2082, -- [11]
-			"Player-580-09E2D8CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAthêist-Blackmoore|r",
-			[51] = 1655811168,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"1", -- [1]
-			"Daktari-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Daktari-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2084, -- [11]
-			"Player-604-0A4B1F99", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Daktari-Thrall|r",
-			[51] = 1655811168,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"2", -- [1]
-			"Athêist-Blackmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Athêist-Blackmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2085, -- [11]
-			"Player-580-09E2D8CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAthêist-Blackmoore|r",
-			[51] = 1655811169,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"3", -- [1]
-			"Kanibal-Dethecus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kanibal-Dethecus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2087, -- [11]
-			"Player-531-00193DF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcKanibal-Dethecus|r",
-			[51] = 1655811170,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"1", -- [1]
-			"Athêist-Blackmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Athêist-Blackmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2088, -- [11]
-			"Player-580-09E2D8CF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeAthêist-Blackmoore|r",
-			[51] = 1655811170,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"2", -- [1]
-			"Kanibal-Dethecus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kanibal-Dethecus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2089, -- [11]
-			"Player-531-00193DF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcKanibal-Dethecus|r",
-			[51] = 1655811171,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"1", -- [1]
-			"Kanibal-Dethecus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kanibal-Dethecus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2090, -- [11]
-			"Player-531-00193DF9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcKanibal-Dethecus|r",
-			[51] = 1655811172,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"{rt1}Verdunkelung 1", -- [1]
-			"Dònnerwetter-Eredar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dònnerwetter-Eredar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2091, -- [11]
-			"Player-3692-0940FDE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcDònnerwetter-Eredar|r",
-			[51] = 1655811172,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"{rt2}Verdunkelung 2", -- [1]
-			"Khyara-Antonidas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Khyara-Antonidas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2092, -- [11]
-			"Player-3686-046985E5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaKhyara-Antonidas|r",
-			[51] = 1655811172,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"{rt1}3", -- [1]
-			"Dïo-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dïo-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2093, -- [11]
-			"Player-581-0A26FB84", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Dïo|r",
-			[51] = 1655811176,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"{rt1}2", -- [1]
-			"Dïo-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dïo-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2094, -- [11]
-			"Player-581-0A26FB84", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Dïo|r",
-			[51] = 1655811177,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
 			"{rt1}1", -- [1]
 			"Dïo-Blackrock", -- [2]
 			"", -- [3]
@@ -384,7 +32,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Dïo|r",
 			[51] = 1655811178,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
+		}, -- [1]
 		{
 			"{rt1}Verdunkelung 1", -- [1]
 			"Granaduk-Forscherliga", -- [2]
@@ -406,7 +54,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Granaduk-Forscherliga|r",
 			[51] = 1655811183,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [2]
 		{
 			"Knock 3", -- [1]
 			"Catharsis-Blackhand", -- [2]
@@ -428,7 +76,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCatharsis-Blackhand|r",
 			[51] = 1655811189,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [3]
 		{
 			"3", -- [1]
 			"Granaduk-Forscherliga", -- [2]
@@ -450,7 +98,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Granaduk-Forscherliga|r",
 			[51] = 1655811189,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [4]
 		{
 			"Knock 2", -- [1]
 			"Catharsis-Blackhand", -- [2]
@@ -472,7 +120,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCatharsis-Blackhand|r",
 			[51] = 1655811190,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
+		}, -- [5]
 		{
 			"2", -- [1]
 			"Granaduk-Forscherliga", -- [2]
@@ -494,7 +142,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Granaduk-Forscherliga|r",
 			[51] = 1655811190,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
+		}, -- [6]
 		{
 			"Knock 1", -- [1]
 			"Catharsis-Blackhand", -- [2]
@@ -516,7 +164,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edCatharsis-Blackhand|r",
 			[51] = 1655811190,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
+		}, -- [7]
 		{
 			"1", -- [1]
 			"Granaduk-Forscherliga", -- [2]
@@ -538,7 +186,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Granaduk-Forscherliga|r",
 			[51] = 1655811191,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
+		}, -- [8]
 		{
 			"3", -- [1]
 			"Haoi-Dethecus", -- [2]
@@ -560,7 +208,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Haoi-Dethecus|r",
 			[51] = 1655811195,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
+		}, -- [9]
 		{
 			"3", -- [1]
 			"Valadk-Mannoroth", -- [2]
@@ -582,7 +230,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Valadk-Mannoroth|r",
 			[51] = 1655811196,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
+		}, -- [10]
 		{
 			"Knock 3", -- [1]
 			"Amiryn-Blackhand", -- [2]
@@ -604,7 +252,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAmiryn-Blackhand|r",
 			[51] = 1655811196,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
+		}, -- [11]
 		{
 			"{rt1}Verdunkelung 1", -- [1]
 			"Dònnerwetter-Eredar", -- [2]
@@ -626,7 +274,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDònnerwetter-Eredar|r",
 			[51] = 1655811246,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
+		}, -- [12]
 		{
 			"{rt1}Verdunkelung 1", -- [1]
 			"Granaduk-Forscherliga", -- [2]
@@ -648,7 +296,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Granaduk-Forscherliga|r",
 			[51] = 1655811257,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
+		}, -- [13]
 		{
 			"3", -- [1]
 			"Jaina-Blackhand", -- [2]
@@ -670,7 +318,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJaina-Blackhand|r",
 			[51] = 1655811261,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [30]
+		}, -- [14]
 		{
 			"3", -- [1]
 			"Dònnerwetter-Eredar", -- [2]
@@ -692,7 +340,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDònnerwetter-Eredar|r",
 			[51] = 1655811262,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
+		}, -- [15]
 		{
 			"2", -- [1]
 			"Jaina-Blackhand", -- [2]
@@ -714,7 +362,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJaina-Blackhand|r",
 			[51] = 1655811262,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [32]
+		}, -- [16]
 		{
 			"2", -- [1]
 			"Dònnerwetter-Eredar", -- [2]
@@ -736,7 +384,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDònnerwetter-Eredar|r",
 			[51] = 1655811263,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
+		}, -- [17]
 		{
 			"1", -- [1]
 			"Jaina-Blackhand", -- [2]
@@ -758,7 +406,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaJaina-Blackhand|r",
 			[51] = 1655811263,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [34]
+		}, -- [18]
 		{
 			"1", -- [1]
 			"Dònnerwetter-Eredar", -- [2]
@@ -780,7 +428,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDònnerwetter-Eredar|r",
 			[51] = 1655811264,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
+		}, -- [19]
 		{
 			"3", -- [1]
 			"Granaduk-Forscherliga", -- [2]
@@ -802,7 +450,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Granaduk-Forscherliga|r",
 			[51] = 1655811264,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
+		}, -- [20]
 		{
 			"2", -- [1]
 			"Granaduk-Forscherliga", -- [2]
@@ -824,7 +472,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Granaduk-Forscherliga|r",
 			[51] = 1655811265,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
+		}, -- [21]
 		{
 			"1", -- [1]
 			"Granaduk-Forscherliga", -- [2]
@@ -846,7 +494,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Granaduk-Forscherliga|r",
 			[51] = 1655811266,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
+		}, -- [22]
 		{
 			"{rt1}Verdunkelung 1", -- [1]
 			"Kanibal-Dethecus", -- [2]
@@ -868,7 +516,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKanibal-Dethecus|r",
 			[51] = 1655811268,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
+		}, -- [23]
 		{
 			"3", -- [1]
 			"Daktari-Thrall", -- [2]
@@ -890,7 +538,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Daktari-Thrall|r",
 			[51] = 1655811275,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
+		}, -- [24]
 		{
 			"2", -- [1]
 			"Daktari-Thrall", -- [2]
@@ -912,7 +560,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Daktari-Thrall|r",
 			[51] = 1655811276,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
+		}, -- [25]
 		{
 			"3", -- [1]
 			"Singsing-Blackhand", -- [2]
@@ -934,7 +582,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Singsing-Blackhand|r",
 			[51] = 1655811276,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [26]
 		{
 			"1", -- [1]
 			"Daktari-Thrall", -- [2]
@@ -956,7 +604,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Daktari-Thrall|r",
 			[51] = 1655811276,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [27]
 		{
 			"2", -- [1]
 			"Singsing-Blackhand", -- [2]
@@ -978,7 +626,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Singsing-Blackhand|r",
 			[51] = 1655811277,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [28]
 		{
 			"n1 !", -- [1]
 			"Amiryn-Blackhand", -- [2]
@@ -1000,7 +648,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAmiryn-Blackhand|r",
 			[51] = 1655811277,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [45]
+		}, -- [29]
 		{
 			"1", -- [1]
 			"Singsing-Blackhand", -- [2]
@@ -1022,7 +670,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Singsing-Blackhand|r",
 			[51] = 1655811278,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [30]
 		{
 			"{rt1}Verdunkelung 1", -- [1]
 			"Qruptoc-Blackrock", -- [2]
@@ -1044,7 +692,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qruptoc|r",
 			[51] = 1655811279,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [31]
 		{
 			"3", -- [1]
 			"Qruptoc-Blackrock", -- [2]
@@ -1066,7 +714,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qruptoc|r",
 			[51] = 1655811282,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [32]
 		{
 			"{rt1}3", -- [1]
 			"Kanibal-Dethecus", -- [2]
@@ -1088,7 +736,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKanibal-Dethecus|r",
 			[51] = 1655811283,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [33]
 		{
 			"3", -- [1]
 			"Flyingtail-Eredar", -- [2]
@@ -1110,7 +758,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Flyingtail-Eredar|r",
 			[51] = 1655811283,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [34]
 		{
 			"2", -- [1]
 			"Qruptoc-Blackrock", -- [2]
@@ -1132,7 +780,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qruptoc|r",
 			[51] = 1655811283,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [35]
 		{
 			"{rt1}2", -- [1]
 			"Kanibal-Dethecus", -- [2]
@@ -1154,7 +802,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKanibal-Dethecus|r",
 			[51] = 1655811284,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [36]
 		{
 			"2", -- [1]
 			"Flyingtail-Eredar", -- [2]
@@ -1176,7 +824,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Flyingtail-Eredar|r",
 			[51] = 1655811284,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [37]
 		{
 			"1", -- [1]
 			"Qruptoc-Blackrock", -- [2]
@@ -1198,7 +846,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qruptoc|r",
 			[51] = 1655811285,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [38]
 		{
 			"{rt1}1", -- [1]
 			"Kanibal-Dethecus", -- [2]
@@ -1220,7 +868,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKanibal-Dethecus|r",
 			[51] = 1655811285,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [39]
 		{
 			"1", -- [1]
 			"Flyingtail-Eredar", -- [2]
@@ -1242,7 +890,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Flyingtail-Eredar|r",
 			[51] = 1655811285,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [40]
 		{
 			"{rt1}Verdunkelung 1", -- [1]
 			"Krashkâ-Blackrock", -- [2]
@@ -1264,7 +912,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Krashkâ|r",
 			[51] = 1655811290,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [41]
 		{
 			"{rt2}Verdunkelung 2", -- [1]
 			"Khyara-Antonidas", -- [2]
@@ -1286,7 +934,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaKhyara-Antonidas|r",
 			[51] = 1655811290,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [42]
 		{
 			"3", -- [1]
 			"Athêist-Blackmoore", -- [2]
@@ -1308,7 +956,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAthêist-Blackmoore|r",
 			[51] = 1655811292,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [43]
 		{
 			"2", -- [1]
 			"Athêist-Blackmoore", -- [2]
@@ -1330,7 +978,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAthêist-Blackmoore|r",
 			[51] = 1655811293,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [44]
 		{
 			"1", -- [1]
 			"Athêist-Blackmoore", -- [2]
@@ -1352,7 +1000,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeAthêist-Blackmoore|r",
 			[51] = 1655811294,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [45]
 		{
 			"3", -- [1]
 			"Krashkâ-Blackrock", -- [2]
@@ -1374,7 +1022,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Krashkâ|r",
 			[51] = 1655811296,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [46]
 		{
 			"2", -- [1]
 			"Krashkâ-Blackrock", -- [2]
@@ -1396,7 +1044,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Krashkâ|r",
 			[51] = 1655811297,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [47]
 		{
 			"1", -- [1]
 			"Krashkâ-Blackrock", -- [2]
@@ -1418,7 +1066,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Krashkâ|r",
 			[51] = 1655811298,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [48]
 		{
 			"3", -- [1]
 			"Kanibal-Dethecus", -- [2]
@@ -1440,7 +1088,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcKanibal-Dethecus|r",
 			[51] = 1655811303,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [49]
 		{
 			"Knock 3", -- [1]
 			"Amiryn-Blackhand", -- [2]
@@ -1462,7 +1110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAmiryn-Blackhand|r",
 			[51] = 1655811303,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [50]
 		{
 			"Knock 2", -- [1]
 			"Amiryn-Blackhand", -- [2]
@@ -1484,7 +1132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAmiryn-Blackhand|r",
 			[51] = 1655811304,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [51]
 		{
 			"Knock 1", -- [1]
 			"Amiryn-Blackhand", -- [2]
@@ -1506,7 +1154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAmiryn-Blackhand|r",
 			[51] = 1655811305,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [52]
 		{
 			"läuft", -- [1]
 			"Amiryn-Blackhand", -- [2]
@@ -1528,7 +1176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAmiryn-Blackhand|r",
 			[51] = 1655811348,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [69]
+		}, -- [53]
 		{
 			"bb", -- [1]
 			"Amiryn-Blackhand", -- [2]
@@ -1550,7 +1198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cAmiryn-Blackhand|r",
 			[51] = 1655811357,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [70]
+		}, -- [54]
 		{
 			"Erfahrene Gruppe bietet M+ 15 runs gegen Gold an. Sichere dir noch heute dein 278er Weekly Item! Ab 2 runs gibt es Rabatt. Armor Stacks und Wunschkey möglich /w me für Infos ", -- [1]
 			"Tatzentroll-Blackrock", -- [2]
@@ -1572,7 +1220,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tatzentroll|r",
 			[51] = 1657055106,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [55]
 		{
 			"Wir bieten 11/11 Heroic mit VIP Tradern und Jailer HC only an. Wir helfen ebenfalls bei +15 und höheren Keys. Schreib uns für SoFo Mythic and Sylvanas Mythic + Mount. Alles nur gegen Gold", -- [1]
 			"Jawaz-Blackrock", -- [2]
@@ -1594,7 +1242,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcJawaz|r",
 			[51] = 1657055118,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [56]
 		{
 			"Unsere Gilde verkauft heroic|cff66bbff|Hjournal:1:2464:14|h[The Jailer]|h|r für 120k Gold! Ihr bekommt die Heldentat|cffffff00|Hachievement:15470:Player-581-0A468F2E:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: The Jailer]|h|r& das Mount |cff71d5ff|Hspell:359545:0|h[Carcinized Zerethsteed]|h|r /w me", -- [1]
 			"Émmá-Blackrock", -- [2]
@@ -1616,7 +1264,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Émmá|r",
 			[51] = 1657055147,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [57]
 		{
 			"LF HC Lords only", -- [1]
 			"Glodrit-Blackrock", -- [2]
@@ -1638,7 +1286,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Glodrit|r",
 			[51] = 1657055156,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [58]
 		{
 			"lf WW monk für ne frage bzgl. des Kranichtritts", -- [1]
 			"Kírschee-Blackrock", -- [2]
@@ -1660,7 +1308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Kírschee|r",
 			[51] = 1657055193,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [59]
 		{
 			"Premade Gruppe bietet 11/11 Heroic mit VIP Tradern und Jailer HC only an. Wir helfen ebenfalls bei +15-25 und höheren Keys. Schreib uns für 11/11 SoTFo Mythic und Sylvanas Mythic + Mount. Alles nur gegen Gold!", -- [1]
 			"Qualyz-Blackrock", -- [2]
@@ -1682,7 +1330,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qualyz|r",
 			[51] = 1657055239,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [60]
 		{
 			"LF HC Lords only", -- [1]
 			"Glodrit-Blackrock", -- [2]
@@ -1704,7 +1352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Glodrit|r",
 			[51] = 1657055242,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [61]
 		{
 			"Wir bieten 11/11 Heroic mit VIP Tradern und Jailer HC only an. Wir helfen ebenfalls bei +15 und höheren Keys. Schreib uns für SoFo Mythic and Sylvanas Mythic + Mount. Alles nur gegen Gold", -- [1]
 			"Jawaz-Blackrock", -- [2]
@@ -1726,7 +1374,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcJawaz|r",
 			[51] = 1657055359,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [62]
 		{
 			"LF 15key boost", -- [1]
 			"Watnebank-Blackrock", -- [2]
@@ -1748,7 +1396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWatnebank|r",
 			[51] = 1657055413,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [63]
 		{
 			"Premade Gruppe bietet 11/11 Heroic mit VIP Tradern und Jailer HC only an. Wir helfen ebenfalls bei +15-25 und höheren Keys. Schreib uns für 11/11 SoTFo Mythic und Sylvanas Mythic + Mount. Alles nur gegen Gold!", -- [1]
 			"Qualyz-Blackrock", -- [2]
@@ -1770,7 +1418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qualyz|r",
 			[51] = 1657055419,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [64]
 		{
 			"Suche 15er key boost", -- [1]
 			"Watnebank-Blackrock", -- [2]
@@ -1792,7 +1440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWatnebank|r",
 			[51] = 1657055464,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [65]
 		{
 			"lf 15 key", -- [1]
 			"Nøønia-Blackrock", -- [2]
@@ -1814,7 +1462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Nøønia|r",
 			[51] = 1657055505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [66]
 		{
 			"Freundliche Gruppe [The Jailer]|cffffff00|Hachievement:15470:Player-3674-0ABE775E:1:3:26:22:0:0:0:0|h[Ahead of the Curve: The Jailer]|h|r #BestPreis, Alle 15minuten /w für info", -- [1]
 			"Begood-Blackrock", -- [2]
@@ -1836,7 +1484,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcBegood|r",
 			[51] = 1657055539,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [67]
 		{
 			"wie kommt man am schnellsten nach karazhan", -- [1]
 			"Zangnos-Blackrock", -- [2]
@@ -1858,7 +1506,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edZangnos|r",
 			[51] = 1657055555,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [68]
 		{
 			"Suche 15er key", -- [1]
 			"Watnebank-Blackrock", -- [2]
@@ -1880,7 +1528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWatnebank|r",
 			[51] = 1657055567,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [69]
 		{
 			"Stammgruppe bietet 15-22 Key Boost. intime. level boost 50 - 60 /  für Gold, Top Preise. /w me bei Interesse.", -- [1]
 			"Roud-Blackrock", -- [2]
@@ -1902,7 +1550,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Roud|r",
 			[51] = 1657055567,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [70]
 		{
 			"|cffa335ee|Hitem:190626::::::::60:104::6:7:7187:8132:8116:6652:7580:1524:6646:1:28:2167:::::|h[Hood of Empty Eternities]|h|r /w ", -- [1]
 			"Changizz-Blackrock", -- [2]
@@ -1924,7 +1572,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Changizz|r",
 			[51] = 1657055589,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [71]
 		{
 			"Wir bieten 11/11 Heroic mit VIP Tradern und Jailer HC only an. Wir helfen ebenfalls bei +15 und höheren Keys. Schreib uns für SoFo Mythic and Sylvanas Mythic + Mount. Alles nur gegen Gold", -- [1]
 			"Jawaz-Blackrock", -- [2]
@@ -1946,7 +1594,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcJawaz|r",
 			[51] = 1657055598,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [72]
 		{
 			"Premade Gruppe bietet 11/11 Heroic mit VIP Tradern und Jailer HC only an. Wir helfen ebenfalls bei +15-25 und höheren Keys. Schreib uns für 11/11 SoTFo Mythic und Sylvanas Mythic + Mount. Alles nur gegen Gold!", -- [1]
 			"Qualyz-Blackrock", -- [2]
@@ -1968,7 +1616,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qualyz|r",
 			[51] = 1657055600,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [73]
 		{
 			"Bieten 15-20er Key Boost, gerne auch Rent a Tank 15-20... auf wunsch auch Armor Stack und Multirun Rabatt ;) /w me Wunschkey auf Anfrage", -- [1]
 			"Laabogaara-Blackrock", -- [2]
@@ -1990,7 +1638,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Laabogaara|r",
 			[51] = 1657055608,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [74]
 		{
 			"has summoned a |cff71d5ff|Hspell:61447:0|h[Traveler's Tundra Mammoth]|h|r.", -- [1]
 			"Pspirit-Blackrock", -- [2]
@@ -2012,7 +1660,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Pspirit|r",
 			[51] = 1657055628,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [91]
+		}, -- [75]
 		{
 			"Die Gilde < deplete it > sucht Mitglieder für M+ sowie den Aufbau eines HC-Raids. Zurzeit wird alles gesucht. Wiedereinsteiger mit gewisser Erfahrung sind auch Herzlich Willkommen. Bei Interesse /w me Raidtage Mi & So 19:00 - 23:00 Uhr ", -- [1]
 			"Aturielle-Blackrock", -- [2]
@@ -2034,7 +1682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Aturielle|r",
 			[51] = 1657055637,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [76]
 		{
 			"Erfahrene Gruppe bietet M+ 15 runs gegen Gold an. Sichere dir noch heute dein 278er Weekly Item! Ab 2 runs gibt es Rabatt. Armor Stacks und Wunschkey möglich /w me für Infos ", -- [1]
 			"Tatzentroll-Blackrock", -- [2]
@@ -2056,7 +1704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Tatzentroll|r",
 			[51] = 1657055683,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [77]
 		{
 			"Suche 15er key ", -- [1]
 			"Watnebank-Blackrock", -- [2]
@@ -2078,7 +1726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWatnebank|r",
 			[51] = 1657055718,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [78]
 		{
 			"Wir die Gilde \"Rule\" suchen aktive Member für M+ von Casual bis high end Bereich alles vorhanden. Discord muss vorhanden sein. /w me für weiteres ! :)", -- [1]
 			"Kâyô-Blackrock", -- [2]
@@ -2100,7 +1748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cKâyô|r",
 			[51] = 1657055756,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [79]
 		{
 			"< Erfahrene Gruppe> Verkaufe Keystone +10-24 ||KSM10x15 -KSH 10x20|| Multi-Run hat Rabatt + Armor Stack. Raid SOTFO 11/11 HC mit trader+ Jailer Curve, 11/11 Mythic , Sylvanas mythisches Reittier, Torghast alle Layer / w für weitere Info", -- [1]
 			"Yeqiu-Blackrock", -- [2]
@@ -2122,7 +1770,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Yeqiu|r",
 			[51] = 1657055763,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [80]
 		{
 			"3,3k Score Hunter spielt mit dir seinen +15er! Wir füllen die Gruppe auf und Abfahrt. Dein Job? Mitlaufen und gut aussehen :) Preis nur 35k statt der üblichen 120k, kann sofort los gehen! /w", -- [1]
 			"Alfipeng-Blackrock", -- [2]
@@ -2144,7 +1792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Alfipeng|r",
 			[51] = 1657055779,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [81]
 		{
 			"Premade Gruppe bietet 11/11 Heroic mit VIP Tradern und Jailer HC only an. Wir helfen ebenfalls bei +15-25 und höheren Keys. Schreib uns für 11/11 SoTFo Mythic und Sylvanas Mythic + Mount. Alles nur gegen Gold!", -- [1]
 			"Qualyz-Blackrock", -- [2]
@@ -2166,7 +1814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Qualyz|r",
 			[51] = 1657055781,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [82]
 		{
 			"Wir die Gilde Ragnarôk suchen Member um unsere Gilde aufzubauen. Wir spielen hauptsächlich m+ und laufen Keys bis Stufe 26. Für S4 wollen wir auch die HC Raids regelmäßig clearen und je nach stärke des Kaders auch ein paar Mythic Bosse. /w me", -- [1]
 			"Peitschí-Blackrock", -- [2]
@@ -2187,6 +1835,358 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cff8687edPeitschí|r",
 			[51] = 1657319065,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"vk jmd billig |cffffffff|Hitem:178926::::::::60:72::69:4:7193:7882:8156:1588:1:28:2142::::Player-581-0A47411F:|h[Schattenschreckring]|h|r|cffffffff|Hitem:171419::::::::60:72::69:4:7194:7882:8156:1588:1:28:2142::::Player-581-0A20DF3B:|h[Schattenschreckarmschützer]|h|r", -- [1]
+			"Løve-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Løve-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1602, -- [11]
+			"Player-581-0A17938D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cLøve|r",
+			[51] = 1657576834,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"Stammgruppe bietet 15-22 Key Boost. intime/ levelup boost 50 - 60 /  für Gold, Top Preise. /w me bei Interesse.", -- [1]
+			"Roud-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Roud-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"Player-581-0A44CE9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Roud|r",
+			[51] = 1657617084,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"Wir bieten Sepulcher of the First Ones 11/11 Heroic oder Jailer HC  schreibt für mehr Infos ! /w me", -- [1]
+			"Twinups-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Twinups-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"Player-581-0A439AEB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Twinups|r",
+			[51] = 1657617099,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"<<Freundliche Gruppe>> die M+15-22keys verkauft , für ksm gibt es einen Rabatt, Loot geht komplett an euch! w me for information", -- [1]
+			"Korset-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Korset-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"Player-581-0A4DC1F9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Korset|r",
+			[51] = 1657617107,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"< Erfahrene Gilde Gruppe> Verkaufe Keystone +10-24 ||KSM10x15 -KSH 10x20|| Multi-Run hat Rabatt + Armor Stack. Raid SOTFO 11/11 HC mit trader+ Jailer Curve, 11/11 Mythic. Sylvanas mythisches Reittier.PVP boost,Torghast alle Layer /w für weitere Info", -- [1]
+			"Yeqiu-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yeqiu-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			144, -- [11]
+			"Player-581-0A4887A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Yeqiu|r",
+			[51] = 1657617125,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"( Erfahrene Gruppe)) WTS M+15-25 in time|| der niedrigste Preis || Armor Stack möglich ||  durchschnittliche Gruppe 3500 Score fur +20 ||Sonderangebot für+20/ nur für jetzt || Zum Bestpreis Mit Wunsch key||Torghasts alle Schichten||  nur für Gold /w", -- [1]
+			"Aphelius-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aphelius-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			152, -- [11]
+			"Player-581-0A4B95CE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edAphelius|r",
+			[51] = 1657617129,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"( Erfahrene Gruppe)) WTS M+15-25 in time|| der niedrigste Preis || Armor Stack möglich ||  durchschnittliche Gruppe 3500 Score fur +20 ||Sonderangebot für+20/ nur für jetzt || Zum Bestpreis Mit Wunsch key||Torghasts alle Schichten||  nur für Gold /w", -- [1]
+			"Aphelius-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aphelius-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-581-0A4B95CE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edAphelius|r",
+			[51] = 1657617241,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold]", -- [1]
+			"Almas-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Almas-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			219, -- [11]
+			"Player-581-0A38AD4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Almas|r",
+			[51] = 1657802203,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"Erfahrene Gruppe bietet M+ 15 runs gegen Gold an. Sichere dir noch heute dein 278er Weekly Item! Ab 2 runs gibt es Rabatt. Armor Stacks und Wunschkey möglich /w me für Infos ", -- [1]
+			"Tatzentroll-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tatzentroll-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			220, -- [11]
+			"Player-581-0A48D912", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tatzentroll|r",
+			[51] = 1657802205,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"M+ 10-22 Hilfe von mir und meiner Gruppe, verschiedene Paketpreise /Torghast/Raid/ auch möglich- gold only -wsp :) <3 Deutsche Handwerkskunst ohne Googleübersetzer !", -- [1]
+			"Rahksha-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rahksha-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			243, -- [11]
+			"Player-581-08C8A4A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Rahksha|r",
+			[51] = 1657802307,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"Erfahrene Gruppe bietet M+ 15 runs gegen Gold an. Sichere dir noch heute dein 278er Weekly Item! Ab 2 runs gibt es Rabatt. Armor Stacks und Wunschkey möglich /w me für Infos ", -- [1]
+			"Tatzentroll-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tatzentroll-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			247, -- [11]
+			"Player-581-0A48D912", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tatzentroll|r",
+			[51] = 1657802311,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold]", -- [1]
+			"Almas-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Almas-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			251, -- [11]
+			"Player-581-0A38AD4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Almas|r",
+			[51] = 1657802315,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"Wir bieten Sepulcher of the First Ones 11/11 Heroic oder Jailer HC  schreibt für mehr Infos ! /w me", -- [1]
+			"Twinups-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Twinups-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			262, -- [11]
+			"Player-581-0A439AEB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Twinups|r",
+			[51] = 1657802332,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Stammgruppe bietet 15-22 Key Boost. intime/ levelup boost 50 - 60 /  für Gold, Top Preise. /w me bei Interesse.", -- [1]
+			"Roud-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Roud-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			270, -- [11]
+			"Player-581-0A44CE9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Roud|r",
+			[51] = 1657802344,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"Wir bieten Jailer HC  boss Kills schreibt für mehr Infos ! /w me", -- [1]
+			"Twinups-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Twinups-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			271, -- [11]
+			"Player-581-0A439AEB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Twinups|r",
+			[51] = 1657802347,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Keine Lust auf langes campen? Wir farmen für euch zB|cffa335ee|Hitem:44168::::::::10:1452:::::::::|h[Zügel des zeitverlorenen Protodrachen]|h|r/|cffa335ee|Hitem:63042::::::::10:1452:::::::::|h[Zügel des Phosphorsteindrachen]|h|r o.ä. w/m für Infos", -- [1]
+			"Newdude-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Newdude-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			284, -- [11]
+			"Player-581-0A4DFE30", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Newdude|r",
+			[51] = 1657802430,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

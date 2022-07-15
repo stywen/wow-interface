@@ -5,13 +5,14 @@ HandyNotes_CovenantSanctumDB = {
 		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
 		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
+		["Synster - Aegwynn"] = "Synster - Aegwynn",
 		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
 		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Stywen - Antonidas"] = "Stywen - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
@@ -19,15 +20,15 @@ HandyNotes_CovenantSanctumDB = {
 		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
 		["Stylth - Blackrock"] = "Stylth - Blackrock",
-		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
 		["Byar - Antonidas"] = "Byar - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Synster - Aegwynn"] = "Synster - Aegwynn",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 	},
 	["profiles"] = {
 		["Starplatïnum - Antonidas"] = {
@@ -38,11 +39,13 @@ HandyNotes_CovenantSanctumDB = {
 		},
 		["Notafriend - Aegwynn"] = {
 		},
+		["Orthodoxtank - Antonidas"] = {
+		},
 		["Testyu - Blackrock"] = {
 		},
 		["Byd - Mal'Ganis"] = {
 		},
-		["Slavictank - Blackrock"] = {
+		["Synster - Aegwynn"] = {
 		},
 		["Blyyd - Antonidas"] = {
 		},
@@ -50,7 +53,7 @@ HandyNotes_CovenantSanctumDB = {
 		},
 		["Eshidishii - Blackrock"] = {
 		},
-		["Tizeran - Blackrock"] = {
+		["Slavicpriest - Antonidas"] = {
 		},
 		["Dïo - Blackrock"] = {
 		},
@@ -66,23 +69,23 @@ HandyNotes_CovenantSanctumDB = {
 		},
 		["Magyc - Mal'Ganis"] = {
 		},
-		["Stylth - Blackrock"] = {
+		["Eurotas - Blackrock"] = {
 		},
-		["Dfgfxg - Blackrock"] = {
+		["Stylth - Blackrock"] = {
 		},
 		["Byar - Antonidas"] = {
 		},
 		["Odînaf - Blackrock"] = {
 		},
-		["Eurotas - Blackrock"] = {
+		["Dfgfxg - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
 		["Stylth - Antonidas"] = {
 		},
-		["Synster - Aegwynn"] = {
+		["Tizeran - Blackrock"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Slavictank - Blackrock"] = {
 		},
 	},
 }

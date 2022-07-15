@@ -1,7 +1,6 @@
 
 TalentSetManager_Options = {
 	["visible"] = true,
-	["ldb_last_selected"] = "talents",
 	["interface"] = {
 		["ignored_tiers_bg"] = {
 			1, -- [1]
@@ -11,50 +10,34 @@ TalentSetManager_Options = {
 		},
 		["highlight_icon"] = "spells\\star",
 		["auto_equip_chatmsg"] = true,
-		["auto_equip_enable"] = false,
-		["hide_info_button"] = false,
 		["chat_filter"] = 2,
+		["hide_info_button"] = false,
+		["auto_equip_enable"] = false,
 	},
+	["ldb_last_selected"] = "talents",
 }
 TalentSetManager_CharacterSaves = {
-	["Magyc-Mal'Ganis"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[2] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
 	["Byar-Antonidas"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[5] = {
 			},
 			[3] = {
 			},
 		},
+		["talents_pvp"] = {
+		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
-	["Dysea-Aegwynn"] = {
+	["Orthodoxtank-Antonidas"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
-			{
-			}, -- [1]
 			[5] = {
 			},
 		},
@@ -67,72 +50,234 @@ TalentSetManager_CharacterSaves = {
 		},
 	},
 	["Synster-Aegwynn"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[3] = {
 			},
 		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Odînaf-Blackrock"] = {
-		["talents"] = {
-			[2] = {
-			},
-		},
 		["talents_pvp"] = {
 		},
 		["version"] = 0,
 		["interface"] = {
 			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Notafriend-Aegwynn"] = {
-		["talents"] = {
-			[3] = {
-			},
-			[2] = {
-			},
-			[5] = {
-			},
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Testyu-Blackrock"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[5] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Buffedbeef-Blackrock"] = {
+		["talents_pvp"] = {
+		},
 		["talents"] = {
 			[2] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Tizeran-Blackrock"] = {
+		["talents"] = {
+			[3] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Stywen-Antonidas"] = {
+		["talents"] = {
+			{
+			}, -- [1]
+			{
+			}, -- [2]
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Extinguish-Blackrock"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[5] = {
+			},
+			[2] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Nofriend-Aegwynn"] = {
+		["talents"] = {
+			[5] = {
+			},
+			[3] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Nofriendz-Blackrock"] = {
+		["talents"] = {
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Dfgfxg-Blackrock"] = {
+		["talents"] = {
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Blyyd-Antonidas"] = {
+		["talents"] = {
+			[3] = {
+			},
+			[2] = {
+			},
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Slavicpriest-Antonidas"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[5] = {
+			},
+			[2] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Testyu-Blackrock"] = {
+		["talents"] = {
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Magyc-Mal'Ganis"] = {
+		["talents"] = {
+			[2] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Dysea-Aegwynn"] = {
+		["talents"] = {
+			{
+			}, -- [1]
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Odînaf-Blackrock"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[2] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Starplatïnum-Antonidas"] = {
+		["talents"] = {
+			[3] = {
 			},
 		},
 		["talents_pvp"] = {
@@ -146,92 +291,38 @@ TalentSetManager_CharacterSaves = {
 		},
 	},
 	["Blyyd-Blackrock"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			{
 			}, -- [1]
 			[5] = {
 			},
 		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Stywen-Antonidas"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			{
-			}, -- [1]
-			{
-			}, -- [2]
-			[5] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Eshidishii-Blackrock"] = {
-		["talents"] = {
-			{
-			}, -- [1]
-			{
-				{
-					3, -- [1]
-					3, -- [2]
-					1, -- [3]
-					3, -- [4]
-					3, -- [5]
-					3, -- [6]
-					1, -- [7]
-					["texture"] = "interface\\icons\\inv_misc_questionmark",
-					["name"] = "Myth+",
-					["tt"] = "talents",
-				}, -- [1]
-			}, -- [2]
-			{
-			}, -- [3]
-		},
 		["talents_pvp"] = {
 		},
 		["version"] = 0,
 		["interface"] = {
 			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Slavictank-Blackrock"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			{
-			}, -- [1]
-			[3] = {
-			},
-			[5] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
 	["Xrth-Blackrock"] = {
+		["talents"] = {
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Orthodoxtank-Blackrock"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
@@ -247,42 +338,12 @@ TalentSetManager_CharacterSaves = {
 		},
 	},
 	["Byd-Aegwynn"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[5] = {
 			},
 			[3] = {
 			},
 		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Starplatïnum-Antonidas"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[3] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Orthodoxtank-Blackrock"] = {
-		["talents"] = {
-			[5] = {
-			},
-		},
 		["talents_pvp"] = {
 		},
 		["version"] = 0,
@@ -293,7 +354,7 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Tizeran-Blackrock"] = {
+	["Starplatïnum-Blackrock"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
@@ -308,9 +369,9 @@ TalentSetManager_CharacterSaves = {
 			["auto_equip3"] = 0,
 		},
 	},
-	["Extinguish-Blackrock"] = {
+	["Lichkingvult-Blackrock"] = {
 		["talents"] = {
-			[5] = {
+			[3] = {
 			},
 			[2] = {
 			},
@@ -326,75 +387,42 @@ TalentSetManager_CharacterSaves = {
 		},
 	},
 	["Eurotas-Blackrock"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[2] = {
 			},
 		},
+		["talents_pvp"] = {
+		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip2"] = 0,
 			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},
 	},
-	["Nofriend-Aegwynn"] = {
+	["Eshidishii-Blackrock"] = {
 		["talents_pvp"] = {
 		},
 		["talents"] = {
-			[5] = {
-			},
-			[3] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Stylth-Blackrock"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[5] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Lichkingvult-Blackrock"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[3] = {
-			},
-			[2] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Dfgfxg-Blackrock"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[5] = {
-			},
+			{
+			}, -- [1]
+			{
+				{
+					3, -- [1]
+					3, -- [2]
+					1, -- [3]
+					3, -- [4]
+					3, -- [5]
+					3, -- [6]
+					1, -- [7]
+					["tt"] = "talents",
+					["name"] = "Myth+",
+					["texture"] = "interface\\icons\\inv_misc_questionmark",
+				}, -- [1]
+			}, -- [2]
+			{
+			}, -- [3]
 		},
 		["version"] = 0,
 		["interface"] = {
@@ -405,118 +433,9 @@ TalentSetManager_CharacterSaves = {
 		},
 	},
 	["Stylth-Antonidas"] = {
-		["talents_pvp"] = {
-		},
 		["talents"] = {
 			[5] = {
 			},
-			[3] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Blyyd-Antonidas"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[3] = {
-			},
-			[2] = {
-			},
-			[5] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Nofriendz-Blackrock"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[5] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Omaewam-Blackrock"] = {
-		["talents"] = {
-			[3] = {
-			},
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Dïo-Blackrock"] = {
-		["talents_pvp"] = {
-		},
-		["talents"] = {
-			[3] = {
-			},
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip2"] = 0,
-			["auto_equip4"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Gryyn-Blackrock"] = {
-		["talents"] = {
-			[5] = {
-			},
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Orthodoxtank-Antonidas"] = {
-		["talents"] = {
-			[5] = {
-			},
-		},
-		["talents_pvp"] = {
-		},
-		["version"] = 0,
-		["interface"] = {
-			["auto_equip4"] = 0,
-			["auto_equip2"] = 0,
-			["auto_equip1"] = 0,
-			["auto_equip3"] = 0,
-		},
-	},
-	["Starplatïnum-Blackrock"] = {
-		["talents"] = {
 			[3] = {
 			},
 		},
@@ -531,6 +450,104 @@ TalentSetManager_CharacterSaves = {
 		},
 	},
 	["Byd-Mal'Ganis"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[3] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Omaewam-Blackrock"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[3] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Notafriend-Aegwynn"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[3] = {
+			},
+			[2] = {
+			},
+			[5] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Gryyn-Blackrock"] = {
+		["talents_pvp"] = {
+		},
+		["talents"] = {
+			[5] = {
+			},
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Stylth-Blackrock"] = {
+		["talents"] = {
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Slavictank-Blackrock"] = {
+		["talents"] = {
+			{
+			}, -- [1]
+			[3] = {
+			},
+			[5] = {
+			},
+		},
+		["talents_pvp"] = {
+		},
+		["version"] = 0,
+		["interface"] = {
+			["auto_equip4"] = 0,
+			["auto_equip2"] = 0,
+			["auto_equip1"] = 0,
+			["auto_equip3"] = 0,
+		},
+	},
+	["Dïo-Blackrock"] = {
 		["talents"] = {
 			[3] = {
 			},

@@ -13,8 +13,8 @@ MADB = {
 			},
 		},
 	},
-	["tooltips"] = true,
-	["noBags"] = false,
-	["playSound"] = false,
 	["closeGUIOnEscape"] = false,
+	["playSound"] = false,
+	["noBags"] = false,
+	["tooltips"] = true,
 }

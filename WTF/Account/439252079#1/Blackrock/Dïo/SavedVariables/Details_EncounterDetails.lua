@@ -1,7 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-	},
 	["encounter_spells"] = {
 		[362275] = {
 			["school"] = 106,
@@ -229,14 +227,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[364701] = {
-			["school"] = 106,
-			["type"] = "DEBUFF",
+		[360302] = {
+			["school"] = 40,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "Mal'Ganis",
 		},
 		[361966] = {
 			["school"] = 106,
@@ -247,26 +243,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[363109] = {
-			["school"] = 106,
+		[360562] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "The Jailer",
 		},
-		[81297] = {
-			["school"] = 2,
+		[365147] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lorthelar-Eredar",
+			["source"] = "The Jailer",
 		},
-		[114942] = {
+		[3600] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Healing Tide Totem",
+			["source"] = "Earthbind Totem",
 		},
 		[361967] = {
 			["school"] = 106,
@@ -275,15 +273,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[364073] = {
-			["school"] = 106,
-			["type"] = "DEBUFF",
+		[114942] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Degeneration Automa",
+			["source"] = "Healing Tide Totem",
 		},
 		[360565] = {
 			["school"] = 32,
@@ -300,21 +295,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[361651] = {
+		[359483] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Dausegne",
 		},
-		[362401] = {
-			["school"] = 32,
+		[363676] = {
+			["school"] = 106,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "The Jailer",
+			["source"] = "Lihuvim",
 		},
 		[781] = {
 			["school"] = 1,
@@ -330,21 +327,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[359856] = {
-			["school"] = 1,
+		[365021] = {
+			["school"] = 34,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "The Jailer",
+			["source"] = "Anduin Wrynn",
 		},
-		[359483] = {
-			["school"] = 1,
+		[364073] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dausegne",
+			["source"] = "Degeneration Automa",
 		},
 		[362352] = {
 			["school"] = 1,
@@ -371,13 +370,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[353353] = {
-			["school"] = 8,
+		[365805] = {
+			["school"] = 34,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ezmies-Blackhand",
+			["source"] = "Anduin Wrynn",
 		},
 		[364138] = {
 			["school"] = 1,
@@ -407,13 +408,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Remnant of a Fallen King",
 		},
-		[365021] = {
-			["school"] = 34,
-			["type"] = "DEBUFF",
+		[365151] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Anduin Wrynn",
+			["source"] = "The Jailer",
 		},
 		[359868] = {
 			["school"] = 32,
@@ -425,39 +425,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[357769] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Brooding Cleric",
-		},
-		[362631] = {
-			["school"] = 32,
+		[364020] = {
+			["school"] = 48,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "The Jailer",
+			["source"] = "March of the Damned",
 		},
-		[360960] = {
-			["school"] = 1,
+		[361992] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Dausegne",
-		},
-		[364248] = {
-			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Anduin Wrynn",
+		},
+		[366285] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[55095] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Töterisch-Eredar",
 		},
 		[361463] = {
 			["school"] = 32,
@@ -481,20 +480,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[360006] = {
-			["school"] = 40,
+		[360960] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mal'Ganis",
+			["source"] = "Dausegne",
 		},
-		[360419] = {
-			["school"] = 32,
+		[365423] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Kin'tessa",
+			["source"] = "The Jailer",
 		},
 		[361018] = {
 			["school"] = 1,
@@ -512,37 +515,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lihuvim",
 		},
-		[365173] = {
-			["school"] = 34,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Befouled Barrier",
-		},
-		[362207] = {
-			["school"] = 106,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Rygelon",
-		},
-		[365151] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "The Jailer",
-		},
-		[362862] = {
-			["school"] = 48,
+		[360516] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Remnant of a Fallen King",
+			["source"] = "Kin'tessa",
+		},
+		[364247] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anduin Wrynn",
+		},
+		[367851] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[361608] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Prototype of Absolution",
 		},
 		[363952] = {
 			["school"] = 1,
@@ -587,27 +591,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[364092] = {
+		[31707] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Wasserelementar",
+		},
+		[2818] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Lonibuh-Malygos",
+		},
+		[365307] = {
 			["school"] = 106,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Degeneration Automa",
-		},
-		[362206] = {
-			["school"] = 106,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Rygelon",
-		},
-		[365853] = {
-			["school"] = 34,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Befouled Barrier",
+			["source"] = "Sentry",
 		},
 		[365293] = {
 			["school"] = 34,
@@ -617,12 +620,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Befouled Barrier",
 		},
-		[365307] = {
+		[364092] = {
 			["school"] = 106,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sentry",
+			["source"] = "Degeneration Automa",
 		},
 		[332526] = {
 			["school"] = 64,
@@ -631,20 +634,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kyrian Goliath",
 		},
-		[224125] = {
-			["school"] = 4,
+		[260402] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[118922] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Spirit Wolf",
-		},
-		[363735] = {
-			["school"] = 106,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Rygelon",
+			["source"] = "Hämmche-Blackhand",
 		},
 		[361278] = {
 			["school"] = 1,
@@ -671,15 +676,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
-		[364020] = {
-			["school"] = 48,
-			["type"] = "DEBUFF",
+		[365295] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "March of the Damned",
+			["source"] = "Anduin Wrynn",
 		},
 		[360259] = {
 			["school"] = 32,
@@ -735,29 +738,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[365966] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Anduin Wrynn",
-		},
-		[367687] = {
+		[269576] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[363607] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Töterisch-Eredar",
+			["source"] = "Domination Core",
 		},
-		[360516] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[360006] = {
+			["school"] = 40,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kin'tessa",
+			["source"] = "Mal'Ganis",
 		},
 		[363130] = {
 			["school"] = 1,
@@ -777,12 +780,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[104318] = {
-			["school"] = 4,
+		[364942] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Wild Imp",
+			["source"] = "The Jailer",
 		},
 		[365872] = {
 			["school"] = 2,
@@ -792,19 +796,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[362714] = {
+		[366284] = {
 			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[365371] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mal'Ganis",
-		},
-		[363332] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "The Jailer",
 		},
@@ -848,12 +850,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spirit Wolf",
 		},
-		[364941] = {
-			["school"] = 32,
+		[186258] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Prototype of Duty",
+			["source"] = "Ezmies-Blackhand",
 		},
 		[363133] = {
 			["school"] = 1,
@@ -873,21 +876,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[367851] = {
-			["school"] = 1,
+		[98021] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spirit Link Totem",
+		},
+		[365008] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "The Jailer",
-		},
-		[360418] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kin'tessa",
+			["source"] = "Grim Reflection",
 		},
 		[365174] = {
 			["school"] = 32,
@@ -907,12 +909,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Inchoate Shadow",
 		},
-		[55078] = {
+		[361817] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Rune Weapon",
+			["source"] = "Anduin Wrynn",
 		},
 		[352871] = {
 			["school"] = 8,
@@ -921,22 +924,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Töterisch-Eredar",
 		},
-		[366665] = {
+		[362075] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
+			["source"] = "The Jailer",
 		},
-		[364942] = {
-			["school"] = 1,
+		[365120] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "The Jailer",
+			["source"] = "Anduin Wrynn",
 		},
 		[363773] = {
 			["school"] = 106,
@@ -954,13 +957,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mal'Ganis",
 		},
-		[367290] = {
-			["school"] = 1,
+		[365126] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "The Jailer",
+			["source"] = "Prototype of Absolution",
 		},
 		[364985] = {
 			["school"] = 40,
@@ -977,12 +980,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[361553] = {
-			["school"] = 32,
+		[367290] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "The Jailer",
 		},
 		[361607] = {
 			["school"] = 32,
@@ -991,13 +995,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prototype of Absolution",
 		},
-		[364114] = {
+		[362584] = {
 			["school"] = 106,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "Acquisitions Automa",
 		},
 		[361225] = {
 			["school"] = 32,
@@ -1008,37 +1011,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[362775] = {
-			["school"] = 48,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Remnant of a Fallen King",
-		},
-		[361608] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Prototype of Absolution",
-		},
-		[362711] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Kin'tessa",
-		},
-		[362137] = {
-			["school"] = 1,
+		[363795] = {
+			["school"] = 106,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "Lihuvim",
+		},
+		[361863] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[364241] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Prototype of Renewal",
+		},
+		[361882] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
 		},
 		[360015] = {
 			["school"] = 40,
@@ -1047,12 +1049,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mal'Ganis",
 		},
-		[360288] = {
+		[361818] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kin'tessa",
+			["source"] = "Anduin Wrynn",
 		},
 		[361418] = {
 			["school"] = 32,
@@ -1061,20 +1063,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[361992] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[360717] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[224125] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Anduin Wrynn",
-		},
-		[365371] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "The Jailer",
+			["source"] = "Spirit Wolf",
 		},
 		[360845] = {
 			["school"] = 32,
@@ -1086,13 +1089,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prototype of Duty",
 		},
-		[362184] = {
-			["school"] = 1,
+		[104318] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "Wild Imp",
 		},
 		[361993] = {
 			["school"] = 32,
@@ -1102,18 +1104,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[186258] = {
+		[363332] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Ezmies-Blackhand",
-		},
-		[365436] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[362631] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "The Jailer",
 		},
@@ -1125,12 +1130,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kin'tessa",
 		},
-		[52042] = {
-			["school"] = 8,
+		[362774] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Healing Stream Totem",
+			["source"] = "Remnant of a Fallen King",
 		},
 		[361548] = {
 			["school"] = 32,
@@ -1140,12 +1146,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rygelon",
 		},
-		[364485] = {
-			["school"] = 106,
+		[365888] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lihuvim",
+			["source"] = "Dominated Eradicator",
 		},
 		[360146] = {
 			["school"] = 32,
@@ -1162,44 +1170,47 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[361881] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dausegne",
-		},
-		[360287] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Kin'tessa",
-		},
-		[362773] = {
-			["school"] = 48,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Remnant of a Fallen King",
-		},
-		[361689] = {
-			["school"] = 32,
+		[345561] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Prototype of Absolution",
+			["source"] = "Mal'Ganis",
 		},
-		[365120] = {
-			["school"] = 32,
+		[30153] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Felguard",
+		},
+		[363538] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lihuvim",
+		},
+		[360159] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Anduin Wrynn",
+		},
+		[224127] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spirit Wolf",
 		},
 		[363399] = {
 			["school"] = 32,
@@ -1208,13 +1219,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Domination Core",
 		},
-		[366847] = {
-			["school"] = 32,
+		[204242] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ossein Ritual",
+			["source"] = "Lorthelar-Eredar",
 		},
 		[352562] = {
 			["school"] = 32,
@@ -1224,22 +1235,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gunak",
 		},
-		[363020] = {
+		[360982] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[363537] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fiendish Soul",
-		},
-		[362772] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Remnant of a Fallen King",
+			["source"] = "Lihuvim",
 		},
 		[366014] = {
 			["school"] = 106,
@@ -1256,31 +1265,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lihuvim",
 		},
-		[361301] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[360281] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Wild Stampede",
+			["source"] = "The Jailer",
 		},
-		[342814] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[363533] = {
+			["school"] = 106,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Töterisch-Eredar",
-		},
-		[260402] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hämmche-Blackhand",
+			["source"] = "Rygelon",
+		},
+		[364485] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lihuvim",
 		},
 		[363019] = {
 			["school"] = 1,
@@ -1289,30 +1297,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fiendish Soul",
 		},
-		[365888] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Dominated Eradicator",
-		},
-		[361815] = {
+		[361553] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Anduin Wrynn",
+			["source"] = "Rygelon",
 		},
-		[362771] = {
-			["school"] = 1,
+		[345495] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Remnant of a Fallen King",
+			["source"] = "Frothing Pustule",
+		},
+		[361751] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dausegne",
 		},
 		[359960] = {
 			["school"] = 1,
@@ -1382,28 +1388,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prototype of War",
 		},
-		[360982] = {
+		[366847] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ossein Ritual",
+		},
+		[361301] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Wild Stampede",
+		},
+		[360983] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Dausegne",
-		},
-		[365126] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Prototype of Absolution",
-		},
-		[359963] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Mal'Ganis",
 		},
 		[362194] = {
 			["school"] = 1,
@@ -1415,14 +1422,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[363533] = {
-			["school"] = 106,
+		[359963] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Rygelon",
+			["source"] = "Mal'Ganis",
 		},
 		[324073] = {
 			["school"] = 1,
@@ -1431,13 +1437,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lonibuh-Malygos",
 		},
-		[360284] = {
+		[361304] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kin'tessa",
+			["source"] = "Wild Stampede",
 		},
 		[363088] = {
 			["school"] = 106,
@@ -1488,15 +1496,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[361304] = {
+		[360284] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Wild Stampede",
+			["source"] = "Kin'tessa",
 		},
 		[365958] = {
 			["school"] = 32,
@@ -1514,29 +1520,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian Automa",
 		},
-		[361751] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[362771] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dausegne",
+			["source"] = "Remnant of a Fallen King",
 		},
-		[204242] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Lorthelar-Eredar",
-		},
-		[360983] = {
+		[361815] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dausegne",
+			["source"] = "Anduin Wrynn",
+		},
+		[342814] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Töterisch-Eredar",
 		},
 		[361943] = {
 			["school"] = 32,
@@ -1545,13 +1551,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Inchoate Shadow",
 		},
-		[363537] = {
+		[362772] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lihuvim",
+			["source"] = "Remnant of a Fallen King",
 		},
 		[361816] = {
 			["school"] = 32,
@@ -1560,38 +1565,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[345495] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Frothing Pustule",
-		},
-		[360159] = {
-			["school"] = 106,
+		[363020] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Fiendish Soul",
 		},
-		[363538] = {
-			["school"] = 106,
+		[361689] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lihuvim",
+			["source"] = "Prototype of Absolution",
 		},
-		[361817] = {
+		[362773] = {
+			["school"] = 48,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Remnant of a Fallen King",
+		},
+		[360287] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Anduin Wrynn",
+			["source"] = "Kin'tessa",
 		},
 		[362136] = {
 			["school"] = 1,
@@ -1608,108 +1614,81 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prototype of War",
 		},
-		[362774] = {
+		[52042] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Healing Stream Totem",
+		},
+		[360288] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[362137] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[362711] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[362775] = {
+			["school"] = 48,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Remnant of a Fallen King",
 		},
-		[361818] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Anduin Wrynn",
-		},
-		[361882] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dausegne",
-		},
-		[31707] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Wasserelementar",
-		},
-		[363795] = {
-			["school"] = 106,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Lihuvim",
-		},
-		[362584] = {
+		[364114] = {
 			["school"] = 106,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Acquisitions Automa",
-		},
-		[345561] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mal'Ganis",
-		},
-		[360281] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "The Jailer",
-		},
-		[224127] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Spirit Wolf",
-		},
-		[362075] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "The Jailer",
-		},
-		[30153] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Felguard",
-		},
-		[365008] = {
-			["school"] = 32,
-			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Grim Reflection",
+			["source"] = "Rygelon",
 		},
-		[30213] = {
-			["school"] = 1,
+		[19801] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hämmche-Blackhand",
+		},
+		[55078] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rune Weapon",
+		},
+		[364941] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Prototype of Duty",
+		},
+		[366665] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Felguard",
 		},
 		[360591] = {
 			["school"] = 32,
@@ -1721,6 +1700,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Necrotic Ritualist",
 		},
+		[360418] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[30213] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Felguard",
+		},
+		[362184] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Rygelon",
+		},
 		[361630] = {
 			["school"] = 32,
 			["token"] = {
@@ -1729,12 +1733,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dausegne",
 		},
-		[366284] = {
+		[362714] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Jailer",
+			["source"] = "Mal'Ganis",
 		},
 		[227291] = {
 			["school"] = 1,
@@ -1743,29 +1747,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Niuzao",
 		},
-		[363607] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Domination Core",
-		},
-		[269576] = {
+		[367687] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hämmche-Blackhand",
+			["source"] = "Töterisch-Eredar",
 		},
-		[366285] = {
+		[365966] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "The Jailer",
+			["source"] = "Anduin Wrynn",
+		},
+		[363735] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
 		},
 		[360229] = {
 			["school"] = 8,
@@ -1783,50 +1785,50 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prototype of Renewal",
 		},
-		[364241] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Prototype of Renewal",
-		},
-		[2818] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Lonibuh-Malygos",
-		},
-		[361863] = {
+		[361881] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Dausegne",
 		},
-		[19801] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Hämmche-Blackhand",
-		},
-		[98021] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Spirit Link Totem",
-		},
-		[364247] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[362206] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Anduin Wrynn",
+			["source"] = "Rygelon",
+		},
+		[365173] = {
+			["school"] = 34,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Befouled Barrier",
+		},
+		[365436] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Jailer",
+		},
+		[360419] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kin'tessa",
+		},
+		[362207] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Rygelon",
 		},
 		[362271] = {
 			["school"] = 106,
@@ -1843,47 +1845,43 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prototype of War",
 		},
-		[365423] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[357769] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "The Jailer",
+			["source"] = "Brooding Cleric",
 		},
-		[55095] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Töterisch-Eredar",
-		},
-		[365805] = {
-			["school"] = 34,
+		[364248] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Anduin Wrynn",
 		},
-		[118922] = {
-			["school"] = 1,
+		[365853] = {
+			["school"] = 34,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Befouled Barrier",
+		},
+		[123996] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Xuen",
+		},
+		[362862] = {
+			["school"] = 48,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Hämmche-Blackhand",
-		},
-		[360717] = {
-			["school"] = 32,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kin'tessa",
+			["source"] = "Remnant of a Fallen King",
 		},
 		[365269] = {
 			["school"] = 1,
@@ -1894,30 +1892,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prototype of Duty",
 		},
-		[365295] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Anduin Wrynn",
-		},
-		[123996] = {
+		[353353] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Xuen",
+			["source"] = "Ezmies-Blackhand",
 		},
-		[363676] = {
-			["school"] = 106,
+		[361651] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Dausegne",
+		},
+		[362401] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lihuvim",
+			["source"] = "The Jailer",
 		},
 		[366545] = {
 			["school"] = 1,
@@ -1935,22 +1932,7 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Collapsing Quasar",
 		},
-		[3600] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Earthbind Totem",
-		},
-		[365147] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "The Jailer",
-		},
-		[360562] = {
+		[359856] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
@@ -1958,12 +1940,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Jailer",
 		},
-		[360302] = {
-			["school"] = 40,
+		[81297] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mal'Ganis",
+			["source"] = "Lorthelar-Eredar",
 		},
+		[363109] = {
+			["school"] = 106,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+		[364701] = {
+			["school"] = 106,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rygelon",
+		},
+	},
+	["emotes"] = {
 	},
 }

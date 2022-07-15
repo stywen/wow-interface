@@ -3,36 +3,37 @@ TomTomDB = {
 	["profileKeys"] = {
 		["Starplatïnum - Antonidas"] = "Default",
 		["Dysea - Aegwynn"] = "Default",
+		["Notafriend - Aegwynn"] = "Default",
+		["Synster - Aegwynn"] = "Default",
+		["Blyyd - Antonidas"] = "Default",
+		["Orthodoxtank - Blackrock"] = "Default",
+		["Stylth - Blackrock"] = "Default",
+		["Dïo - Blackrock"] = "Default",
+		["Stywen - Antonidas"] = "Default",
+		["Omaewam - Blackrock"] = "Default",
+		["Gryyn - Blackrock"] = "Default",
+		["Lichkingvult - Blackrock"] = "Default",
+		["Byar - Antonidas"] = "Default",
+		["Dfgfxg - Blackrock"] = "Default",
+		["Stylth - Antonidas"] = "Default",
 		["Slavictank - Blackrock"] = "Default",
 		["Nofriend - Aegwynn"] = "Default",
-		["Nofriendz - Blackrock"] = "Default",
-		["Starplatïnum - Blackrock"] = "Default",
-		["Tizeran - Blackrock"] = "Default",
-		["Notafriend - Aegwynn"] = "Default",
+		["Buffedbeef - Blackrock"] = "Default",
 		["Xrth - Blackrock"] = "Default",
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
-		["Stylth - Blackrock"] = "Default",
-		["Blyyd - Antonidas"] = "Default",
-		["Orthodoxtank - Blackrock"] = "Default",
-		["Eshidishii - Blackrock"] = "Default",
-		["Dfgfxg - Blackrock"] = "Default",
-		["Dïo - Blackrock"] = "Default",
-		["Stywen - Antonidas"] = "Default",
 		["Extinguish - Blackrock"] = "Default",
-		["Eurotas - Blackrock"] = "Default",
-		["Gryyn - Blackrock"] = "Default",
-		["Lichkingvult - Blackrock"] = "Default",
+		["Slavicpriest - Antonidas"] = "Default",
 		["Magyc - Mal'Ganis"] = "Default",
-		["Synster - Aegwynn"] = "Default",
-		["Buffedbeef - Blackrock"] = "Default",
-		["Byar - Antonidas"] = "Default",
-		["Omaewam - Blackrock"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
+		["Nofriendz - Blackrock"] = "Default",
+		["Starplatïnum - Blackrock"] = "Default",
+		["Byd - Aegwynn"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
-		["Stylth - Antonidas"] = "Default",
-		["Byd - Aegwynn"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
+		["Eshidishii - Blackrock"] = "Default",
+		["Eurotas - Blackrock"] = "Default",
+		["Tizeran - Blackrock"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -62,53 +63,74 @@ TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
 		["Dysea - Aegwynn"] = "Dysea - Aegwynn",
+		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
+		["Synster - Aegwynn"] = "Synster - Aegwynn",
+		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Dïo - Blackrock"] = "Dïo - Blackrock",
+		["Stywen - Antonidas"] = "Stywen - Antonidas",
+		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
+		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
+		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
+		["Byar - Antonidas"] = "Byar - Antonidas",
+		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
+		["Stylth - Antonidas"] = "Stylth - Antonidas",
 		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
-		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
-		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
+		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 		["Xrth - Blackrock"] = "Xrth - Blackrock",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Stylth - Blackrock"] = "Stylth - Blackrock",
-		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
-		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
-		["Dïo - Blackrock"] = "Dïo - Blackrock",
-		["Stywen - Antonidas"] = "Stywen - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
-		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
+		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Synster - Aegwynn"] = "Synster - Aegwynn",
-		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-		["Byar - Antonidas"] = "Byar - Antonidas",
-		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
 		["Starplatïnum - Antonidas"] = {
 		},
 		["Dysea - Aegwynn"] = {
 		},
+		["Notafriend - Aegwynn"] = {
+		},
+		["Synster - Aegwynn"] = {
+		},
+		["Blyyd - Antonidas"] = {
+		},
+		["Orthodoxtank - Blackrock"] = {
+		},
+		["Stylth - Blackrock"] = {
+		},
+		["Dïo - Blackrock"] = {
+		},
+		["Stywen - Antonidas"] = {
+		},
+		["Omaewam - Blackrock"] = {
+		},
+		["Gryyn - Blackrock"] = {
+		},
+		["Lichkingvult - Blackrock"] = {
+		},
+		["Byar - Antonidas"] = {
+		},
+		["Dfgfxg - Blackrock"] = {
+		},
+		["Stylth - Antonidas"] = {
+		},
 		["Slavictank - Blackrock"] = {
 		},
 		["Nofriend - Aegwynn"] = {
 		},
-		["Nofriendz - Blackrock"] = {
-		},
-		["Starplatïnum - Blackrock"] = {
-		},
-		["Tizeran - Blackrock"] = {
-		},
-		["Notafriend - Aegwynn"] = {
+		["Buffedbeef - Blackrock"] = {
 		},
 		["Xrth - Blackrock"] = {
 		},
@@ -116,11 +138,23 @@ TomTomWaypointsM = {
 		},
 		["Byd - Mal'Ganis"] = {
 		},
-		["Stylth - Blackrock"] = {
+		["Extinguish - Blackrock"] = {
 		},
-		["Blyyd - Antonidas"] = {
+		["Slavicpriest - Antonidas"] = {
 		},
-		["Orthodoxtank - Blackrock"] = {
+		["Magyc - Mal'Ganis"] = {
+		},
+		["Orthodoxtank - Antonidas"] = {
+		},
+		["Nofriendz - Blackrock"] = {
+		},
+		["Starplatïnum - Blackrock"] = {
+		},
+		["Byd - Aegwynn"] = {
+		},
+		["Odînaf - Blackrock"] = {
+		},
+		["Blyyd - Blackrock"] = {
 		},
 		["Eshidishii - Blackrock"] = {
 			[1970] = {
@@ -138,18 +172,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -169,18 +195,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -200,18 +218,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -219,39 +229,9 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Dfgfxg - Blackrock"] = {
-		},
-		["Dïo - Blackrock"] = {
-		},
-		["Stywen - Antonidas"] = {
-		},
-		["Extinguish - Blackrock"] = {
-		},
 		["Eurotas - Blackrock"] = {
 		},
-		["Gryyn - Blackrock"] = {
-		},
-		["Lichkingvult - Blackrock"] = {
-		},
-		["Magyc - Mal'Ganis"] = {
-		},
-		["Synster - Aegwynn"] = {
-		},
-		["Buffedbeef - Blackrock"] = {
-		},
-		["Byar - Antonidas"] = {
-		},
-		["Omaewam - Blackrock"] = {
-		},
-		["Odînaf - Blackrock"] = {
-		},
-		["Blyyd - Blackrock"] = {
-		},
-		["Stylth - Antonidas"] = {
-		},
-		["Byd - Aegwynn"] = {
-		},
-		["Orthodoxtank - Antonidas"] = {
+		["Tizeran - Blackrock"] = {
 		},
 	},
 }

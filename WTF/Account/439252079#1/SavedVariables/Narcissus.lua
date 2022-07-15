@@ -22,59 +22,59 @@ NarcissusDB = {
 	["UseBustShot"] = true,
 	["SearchRelativesHotkey"] = "TAB",
 	["AutoColorTheme"] = true,
-	["DressingRoomUseTargetModel"] = true,
-	["MinimapButton"] = {
-		["Position"] = 2.617993877991494,
-	},
+	["DetailedIlvlInfo"] = true,
+	["FontHeightItemName"] = 10,
 	["CorruptionBar"] = true,
 	["AnchorToMinimap"] = true,
 	["IsSortedByCategory"] = true,
-	["AlwaysShowModel"] = false,
-	["Version"] = 10500,
-	["CameraOrbit"] = true,
-	["FadeButton"] = false,
-	["IndependentMinimapButton"] = false,
+	["EnableDoubleTap"] = true,
+	["BorderTheme"] = "Dark",
+	["Tutorials"] = {
+		["ExitConfirmation"] = true,
+		["Movement"] = false,
+		["SpellVisualBrowser"] = true,
+		["WeaponBrowser"] = true,
+		["NPCBrowserEntance"] = true,
+		["Domination"] = false,
+		["NPCBrowser"] = true,
+	},
+	["DefaultLayout"] = 2,
 	["CameraTransition"] = true,
+	["AutoPlayAnimation"] = false,
 	["AFKScreen"] = false,
 	["PaperDollWidget"] = true,
 	["ShowMinimapButton"] = true,
 	["CorruptionTooltip"] = false,
 	["ShowModulePanelOnMouseOver"] = true,
 	["CameraSafeMode"] = true,
-	["LetterboxEffect"] = false,
-	["ProgenitorTheme"] = 1,
 	["WeatherEffect"] = true,
+	["ProgenitorTheme"] = 1,
+	["EnableGrainEffect"] = false,
 	["OutfitSortMethod"] = "name",
-	["EyeColor"] = 1,
-	["UseEntranceVisual"] = true,
-	["DressingRoomShowIconSelect"] = false,
+	["LetterboxRatio"] = 2,
+	["ConduitTooltip"] = false,
+	["DressingRoomIncludeItemID"] = false,
 	["GemManager"] = true,
 	["ModelPanelScale"] = 1,
-	["DressingRoomIncludeItemID"] = false,
 	["TooltipTheme"] = "Bright",
-	["ConduitTooltip"] = false,
-	["LetterboxRatio"] = 2,
-	["EnableGrainEffect"] = false,
+	["DressingRoomShowIconSelect"] = false,
+	["UseEntranceVisual"] = true,
+	["EyeColor"] = 1,
+	["LetterboxEffect"] = false,
 	["PhotoModeButton"] = {
 		["HideTexts"] = true,
 	},
-	["AutoPlayAnimation"] = false,
-	["DefaultLayout"] = 2,
-	["Tutorials"] = {
-		["ExitConfirmation"] = true,
-		["Movement"] = false,
-		["SpellVisualBrowser"] = true,
-		["NPCBrowser"] = true,
-		["NPCBrowserEntance"] = true,
-		["Domination"] = false,
-		["WeaponBrowser"] = true,
-	},
-	["BorderTheme"] = "Dark",
-	["EnableDoubleTap"] = true,
+	["IndependentMinimapButton"] = false,
+	["FadeButton"] = false,
+	["CameraOrbit"] = true,
+	["Version"] = 10500,
+	["AlwaysShowModel"] = false,
 	["ItemTooltipStyle"] = 1,
 	["FadeMusic"] = false,
-	["FontHeightItemName"] = 10,
-	["DetailedIlvlInfo"] = true,
+	["MinimapButton"] = {
+		["Position"] = 2.617993877991494,
+	},
+	["DressingRoomUseTargetModel"] = true,
 }
 NarciCreatureOptions = {
 	["TranslateName"] = false,
@@ -87,11 +87,11 @@ NarciCreatureOptions = {
 }
 NarciAchievementOptions = {
 	["UseAsDefault"] = false,
-	["ShowRedMark"] = false,
+	["IncompleteFirst"] = true,
 	["Scale"] = 1,
 	["ReplaceToast"] = true,
 	["Theme"] = 1,
-	["IncompleteFirst"] = true,
+	["ShowRedMark"] = false,
 }
 NarciStatisticsDB = {
 	["questReadingTime"] = {
@@ -99,6 +99,11 @@ NarciStatisticsDB = {
 			[62833] = {
 				12, -- [1]
 				0, -- [2]
+				true, -- [3]
+			},
+			[63211] = {
+				3, -- [1]
+				1, -- [2]
 				true, -- [3]
 			},
 			[62835] = {
@@ -116,11 +121,6 @@ NarciStatisticsDB = {
 				0, -- [2]
 				true, -- [3]
 			},
-			[66383] = {
-				16, -- [1]
-				0, -- [2]
-				true, -- [3]
-			},
 			[63660] = {
 				21, -- [1]
 				0, -- [2]
@@ -131,14 +131,24 @@ NarciStatisticsDB = {
 				0, -- [2]
 				true, -- [3]
 			},
-			[63857] = {
-				29, -- [1]
-				1, -- [2]
+			[62863] = {
+				10, -- [1]
+				0, -- [2]
 				true, -- [3]
 			},
 			[60491] = {
 				6, -- [1]
 				0, -- [2]
+				true, -- [3]
+			},
+			[63857] = {
+				29, -- [1]
+				1, -- [2]
+				true, -- [3]
+			},
+			[62634] = {
+				86, -- [1]
+				5, -- [2]
 				true, -- [3]
 			},
 			[62790] = {
@@ -156,34 +166,34 @@ NarciStatisticsDB = {
 				2, -- [2]
 				true, -- [3]
 			},
-			[63578] = {
-				22, -- [1]
-				5, -- [2]
-				true, -- [3]
-			},
-			[60492] = {
-				6, -- [1]
+			[32675] = {
+				28, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
-			[62863] = {
-				10, -- [1]
+			[64324] = {
+				34, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
-			[49773] = {
-				20, -- [1]
-				1, -- [2]
+			[63052] = {
+				11, -- [1]
+				0, -- [2]
 				true, -- [3]
+			},
+			[62631] = {
+				60, -- [1]
+				2, -- [2]
+				false, -- [3]
 			},
 			[59609] = {
 				11, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
-			[65656] = {
-				121, -- [1]
-				3, -- [2]
+			[62635] = {
+				12, -- [1]
+				0, -- [2]
 				true, -- [3]
 			},
 			[58902] = {
@@ -201,8 +211,8 @@ NarciStatisticsDB = {
 				5, -- [2]
 				false, -- [3]
 			},
-			[65460] = {
-				31, -- [1]
+			[49773] = {
+				20, -- [1]
 				1, -- [2]
 				true, -- [3]
 			},
@@ -216,19 +226,19 @@ NarciStatisticsDB = {
 				0, -- [2]
 				false, -- [3]
 			},
-			[62631] = {
-				60, -- [1]
-				2, -- [2]
-				false, -- [3]
-			},
-			[32675] = {
-				28, -- [1]
+			[63576] = {
+				19, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
-			[64084] = {
-				45, -- [1]
-				0, -- [2]
+			[63578] = {
+				22, -- [1]
+				5, -- [2]
+				true, -- [3]
+			},
+			[65656] = {
+				121, -- [1]
+				3, -- [2]
 				true, -- [3]
 			},
 			[65660] = {
@@ -261,9 +271,9 @@ NarciStatisticsDB = {
 				4, -- [2]
 				true, -- [3]
 			},
-			[63639] = {
-				18, -- [1]
-				0, -- [2]
+			[63003] = {
+				9, -- [1]
+				1, -- [2]
 				true, -- [3]
 			},
 			[64964] = {
@@ -271,13 +281,13 @@ NarciStatisticsDB = {
 				6, -- [2]
 				true, -- [3]
 			},
-			[61397] = {
-				12, -- [1]
+			[53500] = {
+				22, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
-			[63856] = {
-				9, -- [1]
+			[61397] = {
+				12, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
@@ -286,8 +296,8 @@ NarciStatisticsDB = {
 				5, -- [2]
 				true, -- [3]
 			},
-			[62848] = {
-				15, -- [1]
+			[63856] = {
+				9, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
@@ -336,8 +346,8 @@ NarciStatisticsDB = {
 				2, -- [2]
 				false, -- [3]
 			},
-			[53500] = {
-				22, -- [1]
+			[62848] = {
+				15, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
@@ -351,13 +361,13 @@ NarciStatisticsDB = {
 				0, -- [2]
 				true, -- [3]
 			},
-			[63003] = {
-				9, -- [1]
-				1, -- [2]
+			[63639] = {
+				18, -- [1]
+				0, -- [2]
 				true, -- [3]
 			},
-			[63576] = {
-				19, -- [1]
+			[64084] = {
+				45, -- [1]
 				0, -- [2]
 				true, -- [3]
 			},
@@ -366,8 +376,8 @@ NarciStatisticsDB = {
 				0, -- [2]
 				true, -- [3]
 			},
-			[62698] = {
-				15, -- [1]
+			[65460] = {
+				31, -- [1]
 				1, -- [2]
 				true, -- [3]
 			},
@@ -376,14 +386,14 @@ NarciStatisticsDB = {
 				0, -- [2]
 				true, -- [3]
 			},
-			[64324] = {
-				34, -- [1]
-				0, -- [2]
+			[62698] = {
+				15, -- [1]
+				1, -- [2]
 				true, -- [3]
 			},
-			[62634] = {
-				86, -- [1]
-				5, -- [2]
+			[60492] = {
+				6, -- [1]
+				0, -- [2]
 				true, -- [3]
 			},
 			[65658] = {
@@ -401,15 +411,16 @@ NarciStatisticsDB = {
 				0, -- [2]
 				true, -- [3]
 			},
-			[63211] = {
-				3, -- [1]
-				1, -- [2]
+			[66383] = {
+				16, -- [1]
+				0, -- [2]
 				true, -- [3]
 			},
 		},
 	},
-	["TimeSpentInNarcissus"] = 805,
+	["TimeSpentInNarcissus"] = 830,
 	["InstalledDate"] = 1654167070,
+	["ScreenshotsTakenInNarcissus"] = 2,
 }
 NarciTurntableOptions = nil
 NarciCharacterProfiles = {
@@ -508,7 +519,7 @@ NarciCharacterProfiles = {
 		["name"] = "Stywen",
 		["birth"] = 1655075640,
 		["serverID"] = "3686",
-		["lastVisit"] = 1656284015,
+		["lastVisit"] = 1657748213,
 		["outfits"] = {
 		},
 		["class"] = 1,
@@ -522,6 +533,16 @@ NarciCharacterProfiles = {
 		["outfits"] = {
 		},
 		["class"] = 4,
+	},
+	["09D56676"] = {
+		["race"] = 1,
+		["name"] = "Slavicpriest",
+		["birth"] = 1657639304,
+		["serverID"] = "3686",
+		["lastVisit"] = 1657873026,
+		["outfits"] = {
+		},
+		["class"] = 2,
 	},
 	["0A4C9851"] = {
 		["race"] = 10,
@@ -697,136 +718,22 @@ NarciCharacterProfiles = {
 		},
 		["class"] = 9,
 	},
-	["0A4C982C"] = {
-		["race"] = 31,
-		["name"] = "Xrth",
-		["birth"] = 1656579822,
-		["serverID"] = "581",
-		["lastVisit"] = 1656579822,
-		["outfits"] = {
-		},
-		["class"] = 6,
-	},
-	["09D2735A"] = {
-		["race"] = 1,
-		["name"] = "Stylth",
-		["birth"] = 1655213720,
-		["serverID"] = "3686",
-		["lastVisit"] = 1655216587,
-		["outfits"] = {
-		},
-		["class"] = 4,
-	},
-	["0A26FB84"] = {
+	["0A4D4B79"] = {
 		["race"] = 2,
-		["name"] = "Dïo",
-		["birth"] = 1654806865,
+		["name"] = "Extinguish",
+		["birth"] = 1657142047,
 		["serverID"] = "581",
-		["lastVisit"] = 1657318988,
-		["outfits"] = {
-		},
-		["class"] = 10,
-	},
-	["09A405ED"] = {
-		["race"] = 1,
-		["name"] = "Starplatïnum",
-		["birth"] = 1654809018,
-		["serverID"] = "3686",
-		["lastVisit"] = 1656283829,
-		["outfits"] = {
-		},
-		["class"] = 10,
-	},
-	["09FD18A1"] = {
-		["race"] = 10,
-		["name"] = "Starplatïnum",
-		["birth"] = 1654811087,
-		["serverID"] = "581",
-		["lastVisit"] = 1654811108,
-		["outfits"] = {
-		},
-		["class"] = 10,
-	},
-	["0C35BD70"] = {
-		["race"] = 34,
-		["name"] = "Notafriend",
-		["birth"] = 1654279104,
-		["serverID"] = "3679",
-		["lastVisit"] = 1656025287,
-		["outfits"] = {
-		},
-		["class"] = 1,
-	},
-	["0A4AA30B"] = {
-		["race"] = 5,
-		["name"] = "Blyyd",
-		["birth"] = 1654723189,
-		["serverID"] = "581",
-		["lastVisit"] = 1656691025,
-		["outfits"] = {
-		},
-		["class"] = 6,
-	},
-	["0A4B1B6C"] = {
-		["race"] = 10,
-		["name"] = "Stylth",
-		["birth"] = 1655212881,
-		["serverID"] = "581",
-		["lastVisit"] = 1655212904,
-		["outfits"] = {
-		},
-		["class"] = 4,
-	},
-	["09CD6BE0"] = {
-		["race"] = 10,
-		["name"] = "Magyc",
-		["birth"] = 1654722340,
-		["serverID"] = "3691",
-		["lastVisit"] = 1654722340,
+		["lastVisit"] = 1657145175,
 		["outfits"] = {
 		},
 		["class"] = 8,
-	},
-	["0A4A13DE"] = {
-		["race"] = 28,
-		["name"] = "Nofriendz",
-		["birth"] = 1654252411,
-		["serverID"] = "581",
-		["lastVisit"] = 1654252411,
-		["outfits"] = {
-		},
-		["class"] = 1,
-	},
-	["09E5C72F"] = {
-		["race"] = 31,
-		["name"] = "Omaewam",
-		["birth"] = 1654175817,
-		["serverID"] = "581",
-		["lastVisit"] = 1654177101,
-		["outfits"] = {
-			{
-				["s"] = "101189,101190,77345,101191,0,0,101196,101192,101193,101194,101195,0,0",
-				["n"] = "ZandalarForEver",
-			}, -- [1]
-		},
-		["class"] = 2,
-	},
-	["0C35A60B"] = {
-		["race"] = 34,
-		["name"] = "Nofriend",
-		["birth"] = 1654259241,
-		["serverID"] = "3679",
-		["lastVisit"] = 1654279001,
-		["outfits"] = {
-		},
-		["class"] = 1,
 	},
 	["0A432D8C"] = {
 		["race"] = 6,
 		["name"] = "Eshidishii",
 		["birth"] = 1654167070,
 		["serverID"] = "581",
-		["lastVisit"] = 1657481436,
+		["lastVisit"] = 1657820020,
 		["outfits"] = {
 			{
 				["s"] = "25105,87339,77345,62584,0,0,111515,88197,62582,62587,88195,168977:-1,168977",
@@ -847,14 +754,128 @@ NarciCharacterProfiles = {
 		},
 		["class"] = 1,
 	},
-	["0A4D4B79"] = {
+	["0A26FB84"] = {
 		["race"] = 2,
-		["name"] = "Extinguish",
-		["birth"] = 1657142047,
+		["name"] = "Dïo",
+		["birth"] = 1654806865,
 		["serverID"] = "581",
-		["lastVisit"] = 1657145175,
+		["lastVisit"] = 1657802124,
+		["outfits"] = {
+		},
+		["class"] = 10,
+	},
+	["09A405ED"] = {
+		["race"] = 1,
+		["name"] = "Starplatïnum",
+		["birth"] = 1654809018,
+		["serverID"] = "3686",
+		["lastVisit"] = 1656283829,
+		["outfits"] = {
+		},
+		["class"] = 10,
+	},
+	["09E5C72F"] = {
+		["race"] = 31,
+		["name"] = "Omaewam",
+		["birth"] = 1654175817,
+		["serverID"] = "581",
+		["lastVisit"] = 1654177101,
+		["outfits"] = {
+			{
+				["s"] = "101189,101190,77345,101191,0,0,101196,101192,101193,101194,101195,0,0",
+				["n"] = "ZandalarForEver",
+			}, -- [1]
+		},
+		["class"] = 2,
+	},
+	["0A4A13DE"] = {
+		["race"] = 28,
+		["name"] = "Nofriendz",
+		["birth"] = 1654252411,
+		["serverID"] = "581",
+		["lastVisit"] = 1654252411,
+		["outfits"] = {
+		},
+		["class"] = 1,
+	},
+	["09CD6BE0"] = {
+		["race"] = 10,
+		["name"] = "Magyc",
+		["birth"] = 1654722340,
+		["serverID"] = "3691",
+		["lastVisit"] = 1654722340,
 		["outfits"] = {
 		},
 		["class"] = 8,
+	},
+	["0A4B1B6C"] = {
+		["race"] = 10,
+		["name"] = "Stylth",
+		["birth"] = 1655212881,
+		["serverID"] = "581",
+		["lastVisit"] = 1655212904,
+		["outfits"] = {
+		},
+		["class"] = 4,
+	},
+	["0A4AA30B"] = {
+		["race"] = 5,
+		["name"] = "Blyyd",
+		["birth"] = 1654723189,
+		["serverID"] = "581",
+		["lastVisit"] = 1656691025,
+		["outfits"] = {
+		},
+		["class"] = 6,
+	},
+	["0C35BD70"] = {
+		["race"] = 34,
+		["name"] = "Notafriend",
+		["birth"] = 1654279104,
+		["serverID"] = "3679",
+		["lastVisit"] = 1657664256,
+		["outfits"] = {
+		},
+		["class"] = 1,
+	},
+	["09FD18A1"] = {
+		["race"] = 10,
+		["name"] = "Starplatïnum",
+		["birth"] = 1654811087,
+		["serverID"] = "581",
+		["lastVisit"] = 1654811108,
+		["outfits"] = {
+		},
+		["class"] = 10,
+	},
+	["0C35A60B"] = {
+		["race"] = 34,
+		["name"] = "Nofriend",
+		["birth"] = 1654259241,
+		["serverID"] = "3679",
+		["lastVisit"] = 1654279001,
+		["outfits"] = {
+		},
+		["class"] = 1,
+	},
+	["09D2735A"] = {
+		["race"] = 1,
+		["name"] = "Stylth",
+		["birth"] = 1655213720,
+		["serverID"] = "3686",
+		["lastVisit"] = 1655216587,
+		["outfits"] = {
+		},
+		["class"] = 4,
+	},
+	["0A4C982C"] = {
+		["race"] = 31,
+		["name"] = "Xrth",
+		["birth"] = 1656579822,
+		["serverID"] = "581",
+		["lastVisit"] = 1656579822,
+		["outfits"] = {
+		},
+		["class"] = 6,
 	},
 }
