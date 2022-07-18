@@ -12,9 +12,9 @@ VER 3 0100000000000006 "Charge" "INV_MISC_QUESTIONMARK"
 /cast [@mouseover, harm, nodead][@target] Charge
 END
 VER 3 0100000000000015 "deflect" "INV_MISC_QUESTIONMARK"
-#showtooltip Taunt
+#showtooltip Intervene
 /cancelaura Bladestorm
-/cast [@mouseover, harm, nodead][@target] Taunt
+/cast [@mouseover, nodead][@target] Intervene
 /cast Spell Reflection
 /s SPELL REFLECTION ACTIVE %t
 END
@@ -32,10 +32,6 @@ VER 3 0100000000000007 "Intervene" "INV_MISC_QUESTIONMARK"
 /cancelaura Bladestorm
 /cast [@mouseover] Intervene
 END
-VER 3 010000000000000E "Myth+" "135775"
-/equipset AOE
-/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,3) c(2,3) c(3,1) c(4,3) c(5,3) c(6,3) c(7,1)        
-END
 VER 3 0100000000000013 "OIL MH" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use Shaded Sharpening Stone
@@ -50,10 +46,6 @@ END
 VER 3 0100000000000009 "Pummel" "INV_MISC_QUESTIONMARK"
 #showtooltip Pummel
 /cast [@focus, mod:alt][@mouseover, harm,nodead] Pumme
-END
-VER 3 010000000000000F "Raid" "135773"
-/equipset Single
-/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,2) c(2,1) c(3,2) c(4,2) c(5,3) c(6,2) c(7,1)        
 END
 VER 3 0100000000000003 "Rampage" "INV_MISC_QUESTIONMARK"
 #showtooltip rampage
@@ -85,4 +77,10 @@ END
 VER 3 0100000000000010 "Weapon" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover] [@target] 16
+END
+VER 3 0100000000000017 "wp" "INV_MISC_QUESTIONMARK"
+#showtooltip Gavel of the First Arbiter
+/use 17
+/target Soul Fragment
+/cast Heroic Throw
 END

@@ -20,22 +20,28 @@ AdiBagsDB = {
 		},
 		["Equipment"] = {
 		},
+		["DataSource"] = {
+		},
+		["ItemSets"] = {
+		},
+		["Shadowlands"] = {
+		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
 					["shown"] = {
 						["Ancient Mana"] = false,
 						["Nethershard"] = false,
-						["Legionfall War Supplies"] = false,
+						["Stygian Ember"] = false,
 						["Wakening Essence"] = false,
 						["Infused Ruby"] = false,
 						["Order Resources"] = false,
 						["Spirit Shard"] = false,
 						["Cataloged Research"] = false,
-						["Garrison Resources"] = false,
-						["Curious Coin"] = false,
 						["Stygia"] = false,
-						["Stygian Ember"] = false,
+						["Curious Coin"] = false,
+						["Garrison Resources"] = false,
+						["Legionfall War Supplies"] = false,
 					},
 					["text"] = {
 						["r"] = 0.9215686274509803,
@@ -46,12 +52,6 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["ItemSets"] = {
-		},
-		["Shadowlands"] = {
-		},
-		["DataSource"] = {
-		},
 		["Junk"] = {
 		},
 		["Hearthstones"] = {
@@ -59,31 +59,30 @@ AdiBagsDB = {
 	},
 	["profileKeys"] = {
 		["Starplatïnum - Antonidas"] = "Default",
-		["Stywen - Antonidas"] = "Default",
-		["Extinguish - Blackrock"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
-		["Dïo - Blackrock"] = "Default",
 		["Xrth - Blackrock"] = "Default",
-		["Slavicpriest - Antonidas"] = "Default",
 		["Notafriend - Aegwynn"] = "Default",
-		["Blyyd - Blackrock"] = "Default",
-		["Byar - Antonidas"] = "Default",
-		["Lichkingvult - Blackrock"] = "Default",
-		["Dfgfxg - Blackrock"] = "Default",
 		["Blyyd - Antonidas"] = "Default",
 		["Orthodoxtank - Blackrock"] = "Default",
 		["Eshidishii - Blackrock"] = "Default",
+		["Slavicpriest - Antonidas"] = "Default",
+		["Stywen - Antonidas"] = "Default",
+		["Extinguish - Blackrock"] = "Default",
+		["Lichkingvult - Blackrock"] = "Default",
+		["Cakebender - Antonidas"] = "Default",
+		["Byar - Antonidas"] = "Default",
 		["Slavictank - Blackrock"] = "Default",
+		["Odînaf - Blackrock"] = "Default",
+		["Blyyd - Blackrock"] = "Default",
+		["Dïo - Blackrock"] = "Default",
+		["Dfgfxg - Blackrock"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["virtualStacks"] = {
 				["freeSpace"] = false,
 			},
-			["columnWidth"] = {
-				["Bank"] = 5,
-				["Backpack"] = 8,
-			},
+			["scale"] = 1.267,
 			["maxHeight"] = 0.63,
 			["bagFont"] = {
 				["name"] = "Continuum Medium",
@@ -91,18 +90,21 @@ AdiBagsDB = {
 			},
 			["positions"] = {
 				["Backpack"] = {
-					["xOffset"] = -4.498305152286775,
+					["xOffset"] = -320.3323803727399,
 					["point"] = "TOPRIGHT",
-					["yOffset"] = -55.93754727623309,
+					["yOffset"] = -84.27089574575075,
 				},
 			},
 			["hideAnchor"] = true,
 			["sectionFont"] = {
 				["name"] = "Continuum Medium",
 			},
-			["scale"] = 1.267,
-			["qualityOpacity"] = 0.7500000000000001,
+			["columnWidth"] = {
+				["Backpack"] = 8,
+				["Bank"] = 5,
+			},
 			["positionMode"] = "manual",
+			["qualityOpacity"] = 0.7500000000000001,
 		},
 	},
 }

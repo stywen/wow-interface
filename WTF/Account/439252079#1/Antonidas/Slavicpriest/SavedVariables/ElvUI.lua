@@ -2,79 +2,13 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/reload", -- [1]
-		"/played", -- [2]
-		"/ec", -- [3]
-		"/wave", -- [4]
-		"/aap", -- [5]
+		"/ec", -- [1]
+		"/wave", -- [2]
+		"/aap", -- [3]
+		"/reload", -- [4]
+		"/played", -- [5]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Ferienbedingt durch Urlaub suchen wir für Anduin Myth(48%) Freitag 19:45 Uhr bis 24 Uhr 1 Tank oder 1 DD.Zudem suchen wir Season 4 zuverlässige Spieler.Schreib mich einfach an!", -- [1]
-			"Baktotheruts-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Baktotheruts-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			349, -- [11]
-			"Player-3686-045C8491", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaBaktotheruts|r",
-			[51] = 1657828324,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"Mein Team verkauft <10-24 Keys Intime> +20 für 290k<KSM> <KSH> <Gratis Armor Stack> <Bundle Rabatt><Lvl boosts><11/11 HC+VIP traders> 1x15 100k 2x15 190k 4x15 370k 8x15 700k  uvm. Beste Preise, nur für Gold /w me", -- [1]
-			"Goodkittycat-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Goodkittycat-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			413, -- [11]
-			"Player-3686-0955255D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3ec6eaGoodkittycat|r",
-			[51] = 1657828417,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"Premade Gruppe bietet 11/11 Heroic mit VIP Tradern und Jailer HC only an -- M+15/+22 intime / KSM / KSH. Schreib uns für SotFo Mythic and Sylvanas Mythic + Mount. Alles nur gegen Gold", -- [1]
-			"Rébéca-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Rébéca-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			428, -- [11]
-			"Player-3686-09D573C4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8687edRébéca|r",
-			[51] = 1657828450,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
 		{
 			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
 			"Jäge-Antonidas", -- [2]
@@ -96,7 +30,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jäge|r",
 			[51] = 1657828451,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [1]
 		{
 			"wie kann man sich flux rüber schicken =)? ", -- [1]
 			"Lunsanie-Antonidas", -- [2]
@@ -118,7 +52,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLunsanie|r",
 			[51] = 1657828453,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [2]
 		{
 			"neue ID neues Glück! Du möchtest den KSM oder KSH? Du möchtest deine Wertung pushen? Du möchtest dein Equip verbessern? Alles kein Problem! Wir bieten alle möglichen Wünsche, in Sachen m+, zu günstigen Goldpreisen an! m+ 15 ab 100k!", -- [1]
 			"Gerwyn-Antonidas", -- [2]
@@ -140,7 +74,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Gerwyn|r",
 			[51] = 1657828455,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [3]
 		{
 			"Verkaufe    M+15  ---    intime   ---  Gratis Keywahl , Sucht euch euren Key aus  ---  Armor Stack auf Nachfrage  ---   Du kannst AFK bleiben   ---   Alles Loot nur für dich w/me (NUR GOLD)", -- [1]
 			"Pamage-Antonidas", -- [2]
@@ -162,7 +96,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaPamage|r",
 			[51] = 1657828476,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [4]
 		{
 			"über die suchmaschine google", -- [1]
 			"Arthold-Antonidas", -- [2]
@@ -184,7 +118,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Arthold|r",
 			[51] = 1657828489,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [5]
 		{
 			"ach steht das da etwa auch ?´", -- [1]
 			"Lunsanie-Antonidas", -- [2]
@@ -206,7 +140,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLunsanie|r",
 			[51] = 1657828505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [6]
 		{
 			"<Verkaufe> M+ 10-24 + KSM + KSH  / frei armorestack / Rabatt für 4x15 /|cff66bbff|Hjournal:0:1195:14|h[Sepulcher of the First Ones]|h|r HC / MM > / Jailer HC / Nivellierung 50-60 > Torghast >PVP 0-2400 / bester Preis /w für weitere Informationen", -- [1]
 			"Kloudsinger-Antonidas", -- [2]
@@ -228,7 +162,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Kloudsinger|r",
 			[51] = 1657828528,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [7]
 		{
 			"heut zu tage darf man nichts mehr fragen, du musst googeln ", -- [1]
 			"Kaesesuppe-Antonidas", -- [2]
@@ -250,7 +184,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKaesesuppe|r",
 			[51] = 1657828543,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [8]
 		{
 			"Ferienbedingt durch Urlaub suchen wir für Anduin Myth(48%) Freitag 19:45 Uhr bis 24 Uhr 1 Tank oder 1 DD.Zudem suchen wir Season 4 zuverlässige Spieler.Schreib mich einfach an!", -- [1]
 			"Baktotheruts-Antonidas", -- [2]
@@ -272,7 +206,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaBaktotheruts|r",
 			[51] = 1657828553,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [9]
 		{
 			"ok boomer", -- [1]
 			"Warael-Antonidas", -- [2]
@@ -294,7 +228,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Warael|r",
 			[51] = 1657828555,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [10]
 		{
 			"boomer?", -- [1]
 			"Kaesesuppe-Antonidas", -- [2]
@@ -316,7 +250,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKaesesuppe|r",
 			[51] = 1657828564,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [11]
 		{
 			"oha", -- [1]
 			"Arthold-Antonidas", -- [2]
@@ -338,7 +272,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Arthold|r",
 			[51] = 1657828570,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [12]
 		{
 			"lebst du unter einem stein?", -- [1]
 			"Warael-Antonidas", -- [2]
@@ -360,7 +294,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Warael|r",
 			[51] = 1657828575,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [13]
 		{
 			"du ohne gehirn?", -- [1]
 			"Kaesesuppe-Antonidas", -- [2]
@@ -382,7 +316,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKaesesuppe|r",
 			[51] = 1657828599,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [14]
 		{
 			"Also wer heutzutage noch boomer benutzt...ich weiß ja nicht. Klingt immer als wenn die leute 9 jahre alt wären die das so sagen", -- [1]
 			"Varengar-Antonidas", -- [2]
@@ -404,7 +338,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Varengar|r",
 			[51] = 1657828604,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [15]
 		{
 			"Verkaufe    M+15  ---    intime   ---  Gratis Keywahl , Sucht euch euren Key aus  ---  Armor Stack auf Nachfrage  ---   Du kannst AFK bleiben   ---   Alles Loot nur für dich w/me (NUR GOLD)", -- [1]
 			"Pamage-Antonidas", -- [2]
@@ -426,7 +360,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaPamage|r",
 			[51] = 1657828618,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [16]
 		{
 			"ok boomer", -- [1]
 			"Gnomercee-Antonidas", -- [2]
@@ -448,7 +382,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edGnomercee|r",
 			[51] = 1657828626,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [17]
 		{
 			"hey ihr wollt schnell eine +15 laufen oder höher? Dann einfach anschreiben wir verkaufen in einem festen Team +15 bis +20 in time /w me =)", -- [1]
 			"Bärchentank-Antonidas", -- [2]
@@ -470,7 +404,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Bärchentank|r",
 			[51] = 1657828642,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [18]
 		{
 			"der mage mal wieder", -- [1]
 			"Kaesesuppe-Antonidas", -- [2]
@@ -492,7 +426,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKaesesuppe|r",
 			[51] = 1657828684,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [19]
 		{
 			"hexer*", -- [1]
 			"Kaesesuppe-Antonidas", -- [2]
@@ -514,7 +448,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeKaesesuppe|r",
 			[51] = 1657828688,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [20]
 		{
 			"lass ihn doch boomer", -- [1]
 			"Warael-Antonidas", -- [2]
@@ -536,7 +470,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Warael|r",
 			[51] = 1657828695,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [21]
 		{
 			"warum hatest du jetzt auf einem warlock rum", -- [1]
 			"Warael-Antonidas", -- [2]
@@ -558,7 +492,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Warael|r",
 			[51] = 1657828703,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [22]
 		{
 			"auch 5k uninteressant", -- [1]
 			"Jupitermond-Antonidas", -- [2]
@@ -580,7 +514,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Jupitermond|r",
 			[51] = 1657834614,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [23]
 		{
 			"mage lf kleine und entspannte gilde , /w me", -- [1]
 			"Amberlíe-Antonidas", -- [2]
@@ -602,7 +536,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAmberlíe|r",
 			[51] = 1657873378,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [24]
 		{
 			"Unter der Weltenesche sind noch Plätze frei. Wir suchen nette Mitspieler. Sind ein kleiner, netter Haufen und nutzen TS3. Laufen gern M+.Interesse? Schreib mich an :-)", -- [1]
 			"Zorã-Antonidas", -- [2]
@@ -624,6 +558,1634 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcZorã|r",
 			[51] = 1657873511,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [25]
+		{
+			"neue ID neues Glück! Du möchtest den KSM oder KSH? Du möchtest deine Wertung pushen? Du möchtest dein Equip verbessern? Alles kein Problem! Wir bieten alle möglichen Wünsche, in Sachen m+, zu günstigen Goldpreisen an! m+ 15 ab 97k pro Ini!", -- [1]
+			"Gerwyn-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gerwyn-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-3686-0468CBCF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Gerwyn|r",
+			[51] = 1657906061,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [26]
+		{
+			"BlackScorpion sucht für den Ausbau des Raidkaders zuverlässige DD´s. Raidzeiten Fr20-23 und So20-22UhrAusserdem laufen wir sehr viel M+ und sitzen gerne im TS zusammen!", -- [1]
+			"Bonsaibella-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bonsaibella-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-3686-09C76A64", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Bonsaibella|r",
+			[51] = 1657906070,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [27]
+		{
+			"Guten Abend, ich suche auf diesem Weg eine freundliche und familiäre Gemeinschaft die für einen Wiedereinsteiger noch ein Plätzchen frei hat :)", -- [1]
+			"Zerlun-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Zerlun-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			5, -- [11]
+			"Player-3686-09D5C115", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Zerlun|r",
+			[51] = 1657906074,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [28]
+		{
+			"Verkaufe  [Mythic+ 15-20] ! [KSM 20x +15 & KSH 20x +20 ] [Armor Stack & spezieller key] Rabatt für mehrere Runs! [Nur Gold] Mehr Informationen /w me", -- [1]
+			"Todeszelle-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Todeszelle-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-3686-09D07588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edTodeszelle|r",
+			[51] = 1657906086,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [29]
+		{
+			"Destro", -- [1]
+			"Sñüx-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sñüx-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"Player-3686-09CE8879", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edSñüx|r",
+			[51] = 1657906087,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [30]
+		{
+			"bester affli pakt", -- [1]
+			"Sñüx-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sñüx-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-3686-09CE8879", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edSñüx|r",
+			[51] = 1657906093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [31]
+		{
+			"wts |cffa335ee|Hitem:190626::::::::60:254::6:7:7187:8132:8116:6652:7580:1524:6646:1:28:2167:::::|h[Hood of Empty Eternities]|h|r  w / me", -- [1]
+			"Whellv-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Whellv-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-3686-09B9272C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Whellv|r",
+			[51] = 1657906099,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [32]
+		{
+			"Oribosnews: Der allgemeine Fachkräftemangel erreicht <Gehenna>. Wir suchen mehre DD's für den Raidkader, andere Rollen gerne auf Anfrage. (HC 6/11) Bei Fragen, /w me! [Raidzeit: Mi/Mo 19:15-22Uhr]", -- [1]
+			"Bhidog-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bhidog-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			100, -- [11]
+			"Player-3686-09B9DCB4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcBhidog|r",
+			[51] = 1657906735,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [33]
+		{
+			"Unsere Gilde verkauft<15-22>günstig und garantiert in der vorgegebenen Zeit. Individuellen Key/Armor nach Wünsch. Akzeptiert wird nur Gold./w für mehr Infos", -- [1]
+			"Waroxin-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Waroxin-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			101, -- [11]
+			"Player-3686-09CE2D40", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cWaroxin|r",
+			[51] = 1657906738,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [34]
+		{
+			"Verkaufe  [Mythic+ 15-20] ! [KSM 20x +15 & KSH 20x +20 ] [Armor Stack & spezieller key] Rabatt für mehrere Runs! [Nur Gold] Mehr Informationen /w me", -- [1]
+			"Todeszelle-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Todeszelle-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			102, -- [11]
+			"Player-3686-09D07588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edTodeszelle|r",
+			[51] = 1657906764,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [35]
+		{
+			"Verkaufe M+ <15-22>  3.2k team/< Jailer mythic> / <sylvanas mount> /armor free / solo  <Torghast>  boost Ebene <1-16>  super schneller run, ebenfalls auch das neue torghast für das <mount>  (nur  Gold) /W me für Infos", -- [1]
+			"Vomio-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vomio-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"Player-3686-09C5B757", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVomio|r",
+			[51] = 1657906776,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [36]
+		{
+			"Heute 19.45 |cffffff00|Hachievement:12806:Player-3686-09D5469C:1:10:3:20:4294967295:4294967295:4294967295:4294967295|h[Ruhm des Schlachtzüglers von Uldir]|h|r, als Belohnung \"Blutgesättigter Krogg. Alle Erfolge werden im DC erklärt (zuhören reicht) Das ganze ist KOSTENLOS!", -- [1]
+			"Alikka-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alikka-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			131, -- [11]
+			"Player-3686-09D5469C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cAlikka|r",
+			[51] = 1657906824,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"Tribute of Azeroth sucht für die Season 4 und Dragonflight,Mitspieler, die Lust an eine freundliche und hilfsbereite Gemeinschaft haben. Unsere Raidzeiten wären Do/Mo von 20-23 Uhr.Der Voice DC. Wenn Ihr Interesse habt meldet euch.", -- [1]
+			"Takriy-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Takriy-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			132, -- [11]
+			"Player-3686-09BFF6A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Takriy|r",
+			[51] = 1657906826,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [38]
+		{
+			"LfM Mauso Myth 2Bosse 1Tank und DD`s... Bei Interesse /w me", -- [1]
+			"Sevtime-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Sevtime-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			133, -- [11]
+			"Player-3686-054681FB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Sevtime|r",
+			[51] = 1657906839,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [39]
+		{
+			"WTS M+15>25 in der Zeit +KOSTENLOSER Rüstungsstapel<Panzer/Platte/Leder/Stoff> +KOSTENLOSER Spezifischer Schlüssel || Bester Rabatt High Keys & 4xM+15 & 4xM+20||KSM  sehr günstig||KSH  sehr günstig||SFO Full Clear 11/11HC & Kerkermei ||Nur Gold /w ich", -- [1]
+			"Çroos-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Çroos-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-3686-09D40E7F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cÇroos|r",
+			[51] = 1657906851,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [40]
+		{
+			"Unsere Gilde verkauft<15-22>günstig und garantiert in der vorgegebenen Zeit. Individuellen Key/Armor nach Wünsch. Akzeptiert wird nur Gold./w für mehr Infos", -- [1]
+			"Waroxin-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Waroxin-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			577, -- [11]
+			"Player-3686-09CE2D40", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cWaroxin|r",
+			[51] = 1657909143,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [41]
+		{
+			"Die neue Gilde \"Enuria\" sucht aktive Mitspieler zum Aufbau von M+ Stammgruppen, Arena und sonstigen Aktivitäten. Freundlicher Umgang, Spaß am Spiel und ein lütten Ehrgeiz sind Bestandteil unserer Mentalität. Interesse? /w me.", -- [1]
+			"Jalysjarapy-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jalysjarapy-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			583, -- [11]
+			"Player-3686-09D45344", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Jalysjarapy|r",
+			[51] = 1657909177,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [42]
+		{
+			"Verkaufe  [Mythic+ 15-20] ! [KSM 20x +15 & KSH 20x +20 ] [Armor Stack & spezieller key] Rabatt für mehrere Runs! [Nur Gold] Mehr Informationen /w me", -- [1]
+			"Todeszelle-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Todeszelle-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			589, -- [11]
+			"Player-3686-09D07588", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edTodeszelle|r",
+			[51] = 1657909237,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [43]
+		{
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
+			"Jäge-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jäge-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			166, -- [11]
+			"Player-3686-09BC8B4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Jäge|r",
+			[51] = 1657972430,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"VK Keys<15-23> ***  M+15 <Bündeln> = frei armorestack   ***  Raid <11/11 HC> oder Tier bosses Oder Curve  *** VK Torghast Layer<1-16> <Soul Cinder> *** <PVP>*** < Team > +3.3k /w für weitere Informationen*** [Rabatt +20 ]***", -- [1]
+			"Doómhammer-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Doómhammer-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			185, -- [11]
+			"Player-3686-09CEDF8B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcDoómhammer|r",
+			[51] = 1657972560,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [45]
+		{
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
+			"Jäge-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jäge-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			188, -- [11]
+			"Player-3686-09BC8B4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Jäge|r",
+			[51] = 1657972568,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [46]
+		{
+			"Hey Empire sucht Verstärkung für den HC Raid 8/11 und M+ wir sind eine Familiären und aktive Gilde die raidet, M+ läuft und Events wie Transmog oder Erfolgruns plant  Raidtage: Do und So19-22 Uhr gesucht werden DDs. Interesse dann/w me", -- [1]
+			"Nírok-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nírok-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			202, -- [11]
+			"Player-3686-09CB0639", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcNírok|r",
+			[51] = 1657972602,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"Wir Die Gilde (Epic Crew) sucht für unseren Raidkader noch Aktive DDs und 1 healer und 1 Tank !Bei interesse /w me =) ", -- [1]
+			"Dêadshôt-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dêadshôt-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			225, -- [11]
+			"Player-3686-09C972D6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Dêadshôt|r",
+			[51] = 1657972703,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"<Verkaufe> M+ 10-24 + KSM + KSH  / frei armorestack / Rabatt für 4x15 /|cff66bbff|Hjournal:0:1195:14|h[Sepulcher of the First Ones]|h|r HC / MM > / Jailer HC / Nivellierung 50-60 > Torghast >PVP 0-2400 / bester Preis /w für weitere Informationen", -- [1]
+			"Kloudsinger-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Kloudsinger-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			226, -- [11]
+			"Player-3686-09D5A4AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Kloudsinger|r",
+			[51] = 1657972714,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"WTS 15 - 25 keys, garantiert intime! Fairer preis für 10×15/10×20) ! Wir pushen deinen Key zum fairen Preis! Wir sind über 4000 Keys in shadowlands gelaufen! Hast du Interesse? Wir sind bereit deinen oder unseren Key zu laufen /w me :)", -- [1]
+			"Freeroud-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Freeroud-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			773, -- [11]
+			"Player-3686-09D3D6CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Freeroud|r",
+			[51] = 1657975664,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"verkauf [|cffa335ee|Hitem:90655::::::::10:1455:::::::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r] flüstere mir (billig)", -- [1]
+			"Boatre-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Boatre-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1524, -- [11]
+			"Player-3686-09D5E3C9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Boatre|r",
+			[51] = 1657997603,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"M+ Gruppe bietet ihre Dienste an. KSM, sowie Weekly Chest . Holt euch euer 278 Item.Für mehr Infos schreibt uns an , wir beißen nicht :-)", -- [1]
+			"Flâmmentanz-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Flâmmentanz-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1527, -- [11]
+			"Player-3686-06F1ABC3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Flâmmentanz|r",
+			[51] = 1657997605,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"Wir, die Gilde \"Engage\" (6/11 M) suchen für SFO für den mytischen Content noch progress orientierte Spieler! Dringend gesucht wird (Warri,Rogue,Eule,Hexer). Andere Klassen auf Anfrage", -- [1]
+			"Khalib-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khalib-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1528, -- [11]
+			"Player-3686-06C4213F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Khalib|r",
+			[51] = 1657997616,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
+		{
+			"Raidzeiten: Do. 19:30 – 22:00 Uhr / So. 19:30 – 22:00 Uhr. Bei Interesse bzw. für mehr Infos /w m.", -- [1]
+			"Khalib-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Khalib-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1529, -- [11]
+			"Player-3686-06C4213F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Khalib|r",
+			[51] = 1657997616,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [54]
+		{
+			"Verkaufe M+ <15-22>  3.2k team/< Jailer mythic> / <sylvanas mount> /armor free / solo  <Torghast>  boost Ebene <1-16>  super schneller run, ebenfalls auch das neue torghast für das <mount>  (nur  Gold) /W me für Infos", -- [1]
+			"Vomio-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vomio-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1530, -- [11]
+			"Player-3686-09C5B757", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVomio|r",
+			[51] = 1657997616,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [55]
+		{
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
+			"Jäge-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jäge-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			399, -- [11]
+			"Player-3686-09BC8B4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Jäge|r",
+			[51] = 1658164156,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [56]
+		{
+			"Keine Lust zum Ärgern in Random Keys? Eingespielte M+ Gruppe  verkauft Euch Keys zwischen M10 und M20! Auch Wunschkey oder Stack. Kein KSM? Wir ändern das -  Nur für Gold - und nur auf Antonidas! Für mehr Infos einfach  /w me", -- [1]
+			"Treffenix-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Treffenix-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			415, -- [11]
+			"Player-3686-06FA2410", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Treffenix|r",
+			[51] = 1658164169,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [57]
+		{
+			"VK Keys<15-23> ***  M+15 <Bündeln> = frei armorestack   ***  Raid <11/11 HC> oder Tier bosses Oder Curve  *** VK Torghast Layer<1-16> <Soul Cinder> *** <PVP>*** < Team > +3.3k /w für weitere Informationen*** [Rabatt +20 ]***", -- [1]
+			"Doómhammer-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Doómhammer-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			420, -- [11]
+			"Player-3686-09CEDF8B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcDoómhammer|r",
+			[51] = 1658164172,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [58]
+		{
+			"Freunde gruppe 100k HC Jailer |cffffff00|Hachievement:15470:Player-3691-092C3AA5:1:4:23:22:0:0:0:0|h[Der Zeit voraus: Der Kerkermeister]|h|r|cff71d5ff|Hspell:359545:0|h[Carcinized Zerethsteed]|h|r #BestPrice, Alle 15minuten /w für info", -- [1]
+			"Gnomecuk-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gnomecuk-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			461, -- [11]
+			"Player-3686-09D4AD04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Gnomecuk|r",
+			[51] = 1658164206,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"verkaufen m+15 100k intime garantiert wunschkey und amorstack mit kleinem aufpreis möglich half ksm 1m 10x +15 intime", -- [1]
+			"Shevia-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shevia-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			567, -- [11]
+			"Player-3686-0611145F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Shevia|r",
+			[51] = 1658164265,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"Du willst schnell nen 15er Key für die Chest und magst nicht random laufen? Dir fehlen noch Keys für den KSM und das Mount bevor Season 4 am 03.08 startet? - meld dich einfach per /w", -- [1]
+			"Treffenix-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Treffenix-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			626, -- [11]
+			"Player-3686-06FA2410", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Treffenix|r",
+			[51] = 1658164292,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"Die ID-Woche geht langsam zu Ende! Dir fehlt noch eine 15er für die Weekly? Du möchtest deine Wertung pushen? Du möchtest dein Equip verbessern? Alles kein Problem! Wir bieten alle möglichen Wünsche, in Sachen m+, zu günstigen Goldpreisen an!", -- [1]
+			"Gerwyn-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gerwyn-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			652, -- [11]
+			"Player-3686-0468CBCF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Gerwyn|r",
+			[51] = 1658164302,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"VK Keys<15-23> ***  M+15 <Bündeln> = frei armorestack   ***  Raid <11/11 HC> oder Tier bosses Oder Curve  *** VK Torghast Layer<1-16> <Soul Cinder> *** <PVP>*** < Team > +3.3k /w für weitere Informationen*** [Rabatt +20 ]***", -- [1]
+			"Doómhammer-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Doómhammer-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			659, -- [11]
+			"Player-3686-09CEDF8B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcDoómhammer|r",
+			[51] = 1658164305,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"WTS M+15>25 in der Zeit +KOSTENLOSER Rüstungsstapel<Panzer/Platte/Leder/Stoff> +KOSTENLOSER Spezifischer Schlüssel || Bester Rabatt High Keys & 4xM+15 & 4xM+20||KSM  sehr günstig||KSH  sehr günstig||SFO Full Clear 11/11HC & Kerkermei ||Nur Gold /w ich", -- [1]
+			"Çroos-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Çroos-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			666, -- [11]
+			"Player-3686-09D40E7F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cÇroos|r",
+			[51] = 1658164307,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"<Murlocs Stole My Bîke> 11/11Hc 4/11 Mythic. Aktuell arbeiten wir an einem 2. Mythisch Raid (Mi/Fr) daher suchen wir aktuell nach DD´s. Range (Mage/Eule/Hexer) und Melee  (Monk/DK/Warri)! Strukturierte Gilde mit vielen weiteren Aktivitäten.", -- [1]
+			"Lifarya-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lifarya-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			677, -- [11]
+			"Player-3686-0998BA35", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Lifarya|r",
+			[51] = 1658164312,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"Die Fun und Familien- Gilde Parabellum im neu aufbau sucht neue Mitspieler laufen täglich my+ und aufbau eines gildenraids. Jeder ist willkommen.egal ob neueinsteigen oder level.", -- [1]
+			"Aquariet-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aquariet-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			686, -- [11]
+			"Player-3686-05820058", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Aquariet|r",
+			[51] = 1658164316,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"\"Tribute of Azeroth\" sucht neue Mitglieder,die Lust auf eine freundliche und hilfsbereite Gemeinschaft haben.Raid ist im Aufbau, Mo/Do 20-23 Uhr, besonders gesucht 1 Heal DD's.abseits davon laufen wir gemeinsam M+:).Bei interesse w/me! ", -- [1]
+			"Takriy-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Takriy-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			692, -- [11]
+			"Player-3686-09BFF6A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Takriy|r",
+			[51] = 1658164319,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"Die neu gegründete Gilde Weltenesche sucht Verstärkung für die nächste Season egal ob erfahren oder neueinsteiger bei uns seid ihr willkommen W/me für fragen", -- [1]
+			"Geovan-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Geovan-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			697, -- [11]
+			"Player-3686-0710A74F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Geovan|r",
+			[51] = 1658164321,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"Alle 11 Minuten verliebt sich jemand in First Class.. schön wär's. Magst du Lockerheit, familiäres, Humor & Hilfsbereitschaft, dann verlieben wir uns vllt in Dich! ;) Werde aktiver Teil dieser Gilde/Community. Jeder ist Willkommen! /w 4 more Infos (DC)", -- [1]
+			"Murdocus-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Murdocus-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			796, -- [11]
+			"Player-3686-09CEBCE1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcMurdocus|r",
+			[51] = 1658164437,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"<The Crusade> M11/11 SFO Guild is offering Mythic/Heroic Sepulcher 11/11, Jailer mount. Any M+15-22 weekly, KSM. START NOW! Optional loot traders. Msg me for info", -- [1]
+			"Rimytizireq-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rimytizireq-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			798, -- [11]
+			"Player-3686-09D61BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cRimytizireq|r",
+			[51] = 1658164440,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			"Traditionelle gemütliche Feierabend Gilde restauriert ihren Raidkader. Wir raiden Mo & Do 20 - 23 Uhr und suchen Range DD´s, , weitere auf Nachfrage.", -- [1]
+			"Hôrderipper-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hôrderipper-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			799, -- [11]
+			"Player-3686-09BF4D3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Hôrderipper|r",
+			[51] = 1658164441,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"Die neu gegründete Gilde Weltenesche sucht Verstärkung für die nächste Season egal ob erfahren oder neueinsteiger bei uns seid ihr willkommen W/me für fragen", -- [1]
+			"Geovan-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Geovan-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			800, -- [11]
+			"Player-3686-0710A74F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Geovan|r",
+			[51] = 1658164459,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"M+ grp bietet 15 weeklys oder 15-20 keys /w me für Infos nur gegen Gold! :) KSM ist auch möglich je nach Bedarf! Nur Antonidas", -- [1]
+			"Thiccboîî-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Thiccboîî-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			801, -- [11]
+			"Player-3686-09BE283A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Thiccboîî|r",
+			[51] = 1658164460,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"VK Keys<15-23> ***  M+15 <Bündeln> = frei armorestack   ***  Raid <11/11 HC> oder Tier bosses Oder Curve  *** VK Torghast Layer<1-16> <Soul Cinder> *** <PVP>*** < Team > +3.3k /w für weitere Informationen*** [Rabatt +20 ]***", -- [1]
+			"Doómhammer-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Doómhammer-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			802, -- [11]
+			"Player-3686-09CEDF8B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcDoómhammer|r",
+			[51] = 1658164463,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"Verkaufe |cffffffff|Hitem:16885::::::::60:259::::1:28:31:::::|h[Schwere Plunderkiste]|h|r /300g das Stück für die Heldentat - Am Rande des Wahnsinns", -- [1]
+			"Bonsaiklau-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bonsaiklau-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			808, -- [11]
+			"Player-3686-09D601A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Bonsaiklau|r",
+			[51] = 1658164495,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"Premade Gruppe bietet 11/11 Heroic mit VIP Tradern und Jailer HC only an -- M+15/+22 intime / KSM / KSH. Schreib uns für SotFo Mythic and Sylvanas Mythic + Mount. Alles nur gegen Gold", -- [1]
+			"Rébéca-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rébéca-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			811, -- [11]
+			"Player-3686-09D573C4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edRébéca|r",
+			[51] = 1658164508,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"\"Tribute of Azeroth\" sucht neue Mitglieder,die Lust auf eine freundliche und hilfsbereite Gemeinschaft haben.Raid ist im Aufbau, Mo/Do 20-23 Uhr, besonders gesucht 1 Heal DD's.abseits davon laufen wir gemeinsam M+:).Bei interesse w/me! ", -- [1]
+			"Takriy-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Takriy-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			818, -- [11]
+			"Player-3686-09BFF6A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Takriy|r",
+			[51] = 1658164523,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"Wir suchen noch ein shadow/affli für unsere rbg stamm grp 1900mmr 2k exp w me", -- [1]
+			"Hoeneygodx-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hoeneygodx-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			826, -- [11]
+			"Player-3686-09D1623F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeHoeneygodx|r",
+			[51] = 1658164530,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"Die Gilde\"Mists of Pain\"11/11nhc 8/11HC sucht ambitionierte Spieler Für denn Wiederaufbau Des Raidkaders (DDs)Hexer/Eue/Mage/Warri (Heiler) Dudu/Holy, Raidtage: Die/Do von 19:30-22:30. Ebenso Suchen wir M+ Begeisterte Leute Für weitere Infos /W me ", -- [1]
+			"Schallmauer-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Schallmauer-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			831, -- [11]
+			"Player-3686-09C44BB2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cSchallmauer|r",
+			[51] = 1658164537,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"verkaufen m+15 100k intime garantiert wunschkey und amorstack mit kleinem aufpreis möglich half ksm 1m 10x +15 intime", -- [1]
+			"Shevia-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shevia-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			836, -- [11]
+			"Player-3686-0611145F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Shevia|r",
+			[51] = 1658164550,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"Eingespielte Gruppe verkauft M+ 15 (110k) M+20 (290k), spezielle Wünsche u.a. möglich. Wenn du mitspielst gibt es Rabatt. Nur Gold, Nur Antonidas, keine Community. Kann zeitnah starten!", -- [1]
+			"Lighthard-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lighthard-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			837, -- [11]
+			"Player-3686-09C1BF5F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeLighthard|r",
+			[51] = 1658164554,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
+			"Jäge-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jäge-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			838, -- [11]
+			"Player-3686-09BC8B4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Jäge|r",
+			[51] = 1658164561,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"Die Fun und Familien- Gilde Parabellum im neu aufbau sucht neue Mitspieler laufen täglich my+ und aufbau eines gildenraids. Jeder ist willkommen.egal ob neueinsteigen oder level.", -- [1]
+			"Aquariet-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aquariet-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			839, -- [11]
+			"Player-3686-05820058", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Aquariet|r",
+			[51] = 1658164564,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"WTS M+15>25 in der Zeit +KOSTENLOSER Rüstungsstapel<Panzer/Platte/Leder/Stoff> +KOSTENLOSER Spezifischer Schlüssel || Bester Rabatt High Keys & 4xM+15 & 4xM+20||KSM  sehr günstig||KSH  sehr günstig||SFO Full Clear 11/11HC & Kerkermei ||Nur Gold /w ich", -- [1]
+			"Çroos-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Çroos-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			840, -- [11]
+			"Player-3686-09D40E7F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cÇroos|r",
+			[51] = 1658164568,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"<The Crusade> M11/11 SFO Guild is offering Mythic/Heroic Sepulcher 11/11, Jailer mount. Any M+15-22 weekly, KSM. START NOW! Optional loot traders. Msg me for info", -- [1]
+			"Rimytizireq-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rimytizireq-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			841, -- [11]
+			"Player-3686-09D61BA1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cRimytizireq|r",
+			[51] = 1658164580,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"Freunde gruppe 100k HC Jailer |cffffff00|Hachievement:15470:Player-3691-092C3AA5:1:4:23:22:0:0:0:0|h[Der Zeit voraus: Der Kerkermeister]|h|r|cff71d5ff|Hspell:359545:0|h[Carcinized Zerethsteed]|h|r #BestPrice, Alle 15minuten /w für info", -- [1]
+			"Gnomecuk-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gnomecuk-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			846, -- [11]
+			"Player-3686-09D4AD04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Gnomecuk|r",
+			[51] = 1658164588,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"\"Tribute of Azeroth\" sucht neue Mitglieder,die Lust auf eine freundliche und hilfsbereite Gemeinschaft haben.Raid ist im Aufbau, Mo/Do 20-23 Uhr, besonders gesucht 1 Heal DD's.abseits davon laufen wir gemeinsam M+:).Bei interesse w/me! ", -- [1]
+			"Takriy-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Takriy-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			854, -- [11]
+			"Player-3686-09BFF6A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Takriy|r",
+			[51] = 1658164600,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"Keine Lust zum Ärgern in Random Keys? Eingespielte M+ Gruppe  verkauft Euch Keys zwischen M10 und M20! Auch Wunschkey oder Stack. Kein KSM? Wir ändern das -  Nur für Gold - und nur auf Antonidas! Für mehr Infos einfach  /w me", -- [1]
+			"Treffenix-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Treffenix-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			860, -- [11]
+			"Player-3686-06FA2410", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Treffenix|r",
+			[51] = 1658164608,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"können mir 4 leute die gildensatzung unterschreiben gegen tg?", -- [1]
+			"Tunchi-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tunchi-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			874, -- [11]
+			"Player-3686-05961C02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tunchi|r",
+			[51] = 1658164630,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"Wir suchen noch ein shadow/affli für unsere rbg stamm grp 1900mmr 2k exp w me", -- [1]
+			"Hoeneygodx-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hoeneygodx-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			894, -- [11]
+			"Player-3686-09D1623F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeHoeneygodx|r",
+			[51] = 1658164665,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"<Murlocs Stole My Bîke> Wir suchen für den Mi/Fr Raid  HC 11/11 nach MDD (Monk,Warry,DK) RDDs (Eule,Mage,Shadow) Heals (Schami,Monk,Pala). Wenn ihr mehr wissen wollt /w me. Große familiäre Gilde erwartet euch ;D", -- [1]
+			"Akeec-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Akeec-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			904, -- [11]
+			"Player-3686-06C9C92B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Akeec|r",
+			[51] = 1658164681,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"Erfahrene Gruppe Verkaufe M+15-26 intime || Sonderangebot fur M+20 & M+15 & Multi Runs || Armor Stack  Mit Wunsch Key Frei || KSM 10x+15 - KSH 10x+20 Billig || SFO 11/11HC & jailer || Nur Gold /W ich", -- [1]
+			"Adettee-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Adettee-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			912, -- [11]
+			"Player-3686-09D47C4E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edAdettee|r",
+			[51] = 1658164692,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"Wir die Gilde \"Gegen den Strom\" suchen aktuell noch DDs auch mit Offspec für den Hc Raid(11/11). Raidzeiten sind Mo und Fr 20:30 Uhr bis 22:45 Uhr.Wir sind ein verrückter und chaotischer Haufen, aber genau deshalb haben wir Spaß. Für mehr Infos /w me ", -- [1]
+			"Schantti-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Schantti-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			931, -- [11]
+			"Player-3686-09C12DA6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcSchantti|r",
+			[51] = 1658164724,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"Verkaufe |cffffffff|Hitem:16885::::::::60:259::::1:28:31:::::|h[Schwere Plunderkiste]|h|r für die Heldentat - Am Rande des Wahnsinns- 300g das Stück", -- [1]
+			"Bonsaiklau-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bonsaiklau-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			946, -- [11]
+			"Player-3686-09D601A1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Bonsaiklau|r",
+			[51] = 1658164750,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"Traditionelle gemütliche Feierabend Gilde restauriert ihren Raidkader. Wir raiden Mo & Do 20 - 23 Uhr und suchen Range DD´s, , weitere auf Nachfrage.", -- [1]
+			"Hôrderipper-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hôrderipper-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			953, -- [11]
+			"Player-3686-09BF4D3C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Hôrderipper|r",
+			[51] = 1658164759,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"Wir suchen noch ein shadow/affli für unsere rbg stamm grp 1900mmr 2k exp w me", -- [1]
+			"Hoeneygodx-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hoeneygodx-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			954, -- [11]
+			"Player-3686-09D1623F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeHoeneygodx|r",
+			[51] = 1658164760,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Hallo, Freund. Wir verkaufen +10-18M+.  Wir bieten auch 8/11 und 11/11 Raid für die Tier Teile an. . Wir akzeptieren NUR Gold.. /w me Für mehr Infos", -- [1]
+			"Hazeleye-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hazeleye-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			956, -- [11]
+			"Player-3686-09C8AA34", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Hazeleye|r",
+			[51] = 1658164761,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"pvp gilde sucht mitstreiter (rein rated/unrated arena/bg spezifiziert) ", -- [1]
+			"Eerain-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Eerain-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			965, -- [11]
+			"Player-3686-0937F780", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Eerain|r",
+			[51] = 1658164775,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"Die Fun und Familien- Gilde Parabellum im neu aufbau sucht neue Mitspieler laufen täglich my+ und aufbau eines gildenraids. Jeder ist willkommen.egal ob neueinsteigen oder level.", -- [1]
+			"Aquariet-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aquariet-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			970, -- [11]
+			"Player-3686-05820058", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Aquariet|r",
+			[51] = 1658164782,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
 	},
 }

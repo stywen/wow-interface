@@ -44,15 +44,25 @@ BigWigs3DB = {
 					["BigWigsAnchor_x"] = 1499.73590397829,
 					["spacing"] = 4,
 					["BigWigsEmphasizeAnchor_x"] = 1042.134507956478,
-					["BigWigsEmphasizeAnchor_width"] = 318.3333435058594,
 					["BigWigsEmphasizeAnchor_y"] = 424.1065920829788,
+					["BigWigsEmphasizeAnchor_width"] = 318.3333435058594,
 					["emphasizeTime"] = 20,
 				},
 			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 120.0000076293945,
+					["posy"] = 168.0003673386491,
+					["posx"] = 2335.47119779815,
+					["width"] = 140.0000915527344,
+				},
+			},
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -66,21 +76,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["height"] = 120.0000076293945,
-					["posy"] = 168.0003673386491,
-					["posx"] = 2335.47119779815,
-					["width"] = 140.0000915527344,
-				},
-			},
-		},
 		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 	},
 	["profileKeys"] = {

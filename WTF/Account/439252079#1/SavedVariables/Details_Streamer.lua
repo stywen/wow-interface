@@ -24,15 +24,16 @@ Details_StreamerDB = {
 		["Byd - Mal'Ganis"] = "Eshidishii - Blackrock",
 		["Extinguish - Blackrock"] = "Eshidishii - Blackrock",
 		["Slavicpriest - Antonidas"] = "Eshidishii - Blackrock",
+		["Cakebender - Antonidas"] = "Eshidishii - Blackrock",
 		["Magyc - Mal'Ganis"] = "Eshidishii - Blackrock",
-		["Orthodoxtank - Antonidas"] = "Eshidishii - Blackrock",
-		["Nofriendz - Blackrock"] = "Eshidishii - Blackrock",
+		["Eurotas - Blackrock"] = "Eshidishii - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Starplatïnum - Blackrock"] = "Eshidishii - Blackrock",
 		["Byd - Aegwynn"] = "Eshidishii - Blackrock",
 		["Odînaf - Blackrock"] = "Eshidishii - Blackrock",
 		["Blyyd - Blackrock"] = "Eshidishii - Blackrock",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Eurotas - Blackrock"] = "Eshidishii - Blackrock",
+		["Nofriendz - Blackrock"] = "Eshidishii - Blackrock",
+		["Orthodoxtank - Antonidas"] = "Eshidishii - Blackrock",
 		["Tizeran - Blackrock"] = "Eshidishii - Blackrock",
 	},
 	["profiles"] = {
@@ -55,37 +56,21 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["scale"] = 1,
+			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["point"] = "CENTER",
-			["main_frame_strata"] = "LOW",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
+			["author"] = "Terciob",
 			["y"] = 4.57763671875e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -93,17 +78,33 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = 3.0517578125e-05,
 				["x"] = -0.0001220703125,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = -6.103515625e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["font_size"] = 10,
-			["author"] = "Terciob",
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["point"] = "CENTER",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
 }

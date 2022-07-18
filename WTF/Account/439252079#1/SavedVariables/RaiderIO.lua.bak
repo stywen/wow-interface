@@ -1,9 +1,10 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Slavicpriest-antonidas"
+RaiderIO_LastCharacter = "eu-Odînaf-blackrock"
 RaiderIO_MissingCharacters = {
-	["eu-Slavicpriest-antonidas"] = true,
+	["eu-Odînaf-blackrock"] = true,
+	["eu-Ociris-blackrock"] = true,
 }
 RaiderIO_MissingServers = {
 }

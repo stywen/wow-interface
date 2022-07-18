@@ -6,24 +6,24 @@ PawnOptions = {
 	["ItemLevels"] = {
 		{
 			["ID"] = 122263,
-			["Level"] = 18,
-			["Link"] = "|cff00ccff|Hitem:122263::::::::15:66:::1:7920::::::|h[Burnished Helm of Might]|h|r",
+			["Level"] = 33,
+			["Link"] = "|cff00ccff|Hitem:122263::::::::27:66:::1:7920::::::|h[Burnished Helm of Might]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 122666,
-			["Level"] = 18,
-			["Link"] = "|cff00ccff|Hitem:122666::::::::15:66:::1:7920::::::|h[Eternal Woven Ivy Necklace]|h|r",
+			["Level"] = 33,
+			["Link"] = "|cff00ccff|Hitem:122666::::::::27:66:::1:7920::::::|h[Eternal Woven Ivy Necklace]|h|r",
 		}, -- [2]
 		{
 			["ID"] = 122388,
-			["Level"] = 18,
-			["Link"] = "|cff00ccff|Hitem:122388::::::::15:66:::1:7920::::::|h[Burnished Pauldrons of Might]|h|r",
+			["Level"] = 33,
+			["Link"] = "|cff00ccff|Hitem:122388::::::::27:66:::1:7920::::::|h[Burnished Pauldrons of Might]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
 			["ID"] = 122387,
-			["Level"] = 18,
-			["Link"] = "|cff00ccff|Hitem:122387::::::::15:66:::1:7920::::::|h[Burnished Breastplate of Might]|h|r",
+			["Level"] = 33,
+			["Link"] = "|cff00ccff|Hitem:122387::::::::27:66:::1:7920::::::|h[Burnished Breastplate of Might]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 175199,
@@ -32,8 +32,8 @@ PawnOptions = {
 		}, -- [6]
 		{
 			["ID"] = 122264,
-			["Level"] = 18,
-			["Link"] = "|cff00ccff|Hitem:122264::::::::15:66:::1:7920::::::|h[Burnished Legplates of Might]|h|r",
+			["Level"] = 33,
+			["Link"] = "|cff00ccff|Hitem:122264::::::::27:66:::1:7920::::::|h[Burnished Legplates of Might]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 174794,
@@ -51,44 +51,44 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:175185::::::::9:1451::11:1:6500:2:28:741:9:9:::::|h[Expeditionary Plate Gauntlets]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178171,
-			["Level"] = 12,
+			["ID"] = 116875,
+			["Level"] = 29,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:178171::::::::10:1451::1:1:6500:2:28:741:9:9:::::|h[Darkmaul Signet Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:116875::::::::23:66:::1:6691:2:28:63:9:23:::::|h[Rusty Iron Band]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178171,
-			["Level"] = 12,
+			["ID"] = 116875,
+			["Level"] = 29,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:178171::::::::10:1451::1:1:6500:2:9:9:28:741:::::|h[Darkmaul Signet Ring]|h|r",
+			["Link"] = "|cff0070dd|Hitem:116875::::::::24:66:::1:6691:2:28:63:9:23:::::|h[Rusty Iron Band]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 122361,
-			["Level"] = 18,
+			["Level"] = 33,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::15:66:::1:7920::::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::27:66:::1:7920::::::|h[Swift Hand of Justice]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 17,
+			["Level"] = 31,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::14:66:::1:7920::::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::26:66:::1:7920::::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122262,
-			["Level"] = 18,
-			["Link"] = "|cff00ccff|Hitem:122262::::::::15:66:::1:7920::::::|h[Ancient Bloodmoon Cloak]|h|r",
+			["Level"] = 33,
+			["Link"] = "|cff00ccff|Hitem:122262::::::::27:66:::1:7920::::::|h[Ancient Bloodmoon Cloak]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 122389,
-			["Level"] = 18,
+			["Level"] = 33,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff00ccff|Hitem:122389::::::::15:66:::1:7920::::::|h[Bloodsoaked Skullforge Reaver]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122389::::::::27:66:::1:7920::::::|h[Bloodsoaked Skullforge Reaver]|h|r",
 		}, -- [16]
 		{
 			["ID"] = 122391,
-			["Level"] = 18,
-			["Link"] = "|cff00ccff|Hitem:122391::::::::15:66:::1:3592::::::|h[Flamescarred Draconian Deflector]|h|r",
+			["Level"] = 33,
+			["Link"] = "|cff00ccff|Hitem:122391::::::::27:66:::1:3592::::::|h[Flamescarred Draconian Deflector]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

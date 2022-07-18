@@ -35,12 +35,12 @@ END
 VER 3 0100000000000013 "OIL MH" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use Shaded Sharpening Stone
-/use 17
+/use 16
 /click StaticPopup1Button1
 END
 VER 3 0100000000000014 "OIL OH" "INV_MISC_QUESTIONMARK"
 /use Shaded Weightstone
-/use 16
+/use 17
 /click StaticPopup1Button1
 END
 VER 3 0100000000000009 "Pummel" "INV_MISC_QUESTIONMARK"

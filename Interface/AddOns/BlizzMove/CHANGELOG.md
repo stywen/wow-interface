@@ -1,6 +1,6 @@
 # BlizzMove
 
-## [v3.3.2](https://github.com/Kiatra/BlizzMove/tree/v3.3.2) (2022-05-31)
-[Full Changelog](https://github.com/Kiatra/BlizzMove/compare/v3.3.1...v3.3.2) [Previous Releases](https://github.com/Kiatra/BlizzMove/releases)
+## [v3.4.2](https://github.com/Kiatra/BlizzMove/tree/v3.4.2) (2022-07-16)
+[Full Changelog](https://github.com/Kiatra/BlizzMove/compare/v3.4.1...v3.4.2) [Previous Releases](https://github.com/Kiatra/BlizzMove/releases)
 
-- TOC bump  
+- Fixed an issue, which prevented you from enabling a plugin frame after you disabled it  

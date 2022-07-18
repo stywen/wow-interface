@@ -1,11 +1,18 @@
 
 NarciBarberShopDB = {
+	["Hotkeys"] = {
+		["ZoomIn"] = "W",
+		["RotateLeft"] = "A",
+		["ZoomOut"] = "S",
+		["RotateRight"] = "D",
+	},
+	["ToggleNotification"] = true,
 	["PlayerData"] = {
-		["0A432D8C"] = {
-			["playerName"] = "Eshidishii",
+		["08DA11B9"] = {
+			["playerName"] = "Lichkingvult",
 			["realmID"] = "581",
 			["SavedLooks"] = {
-				[6] = {
+				[2] = {
 					["male"] = {
 					},
 					["female"] = {
@@ -23,7 +30,6 @@ NarciBarberShopDB = {
 					},
 					["female"] = {
 						{
-							["description"] = "Thick Hair Style, Tusks Earrings, Bone Pincher Nose Ring, Brutality Tattoo",
 							["data"] = {
 								{
 									26, -- [1]
@@ -75,6 +81,7 @@ NarciBarberShopDB = {
 								}, -- [12]
 							},
 							["name"] = "female ork",
+							["description"] = "Thick Hair Style, Tusks Earrings, Bone Pincher Nose Ring, Brutality Tattoo",
 							["timeCreated"] = 1655755315,
 						}, -- [1]
 					},
@@ -82,13 +89,19 @@ NarciBarberShopDB = {
 			},
 			["realmName"] = "Blackrock",
 		},
+		["0A432D8C"] = {
+			["playerName"] = "Eshidishii",
+			["realmID"] = "581",
+			["SavedLooks"] = {
+				[6] = {
+					["male"] = {
+					},
+					["female"] = {
+					},
+				},
+			},
+			["realmName"] = "Blackrock",
+		},
 	},
-	["ToggleNotification"] = true,
 	["ToggleRandomAppearance"] = false,
-	["Hotkeys"] = {
-		["RotateRight"] = "D",
-		["RotateLeft"] = "A",
-		["ZoomOut"] = "S",
-		["ZoomIn"] = "W",
-	},
 }

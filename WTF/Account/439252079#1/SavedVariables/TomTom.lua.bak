@@ -24,15 +24,16 @@ TomTomDB = {
 		["Byd - Mal'Ganis"] = "Default",
 		["Extinguish - Blackrock"] = "Default",
 		["Slavicpriest - Antonidas"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 		["Magyc - Mal'Ganis"] = "Default",
-		["Eurotas - Blackrock"] = "Default",
+		["Nofriendz - Blackrock"] = "Default",
 		["Eshidishii - Blackrock"] = "Default",
 		["Starplatïnum - Blackrock"] = "Default",
 		["Byd - Aegwynn"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
-		["Nofriendz - Blackrock"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
+		["Eurotas - Blackrock"] = "Default",
+		["Cakebender - Antonidas"] = "Default",
 		["Tizeran - Blackrock"] = "Default",
 	},
 	["profiles"] = {
@@ -84,15 +85,16 @@ TomTomWaypointsM = {
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
 		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -142,9 +144,11 @@ TomTomWaypointsM = {
 		},
 		["Slavicpriest - Antonidas"] = {
 		},
+		["Orthodoxtank - Antonidas"] = {
+		},
 		["Magyc - Mal'Ganis"] = {
 		},
-		["Eurotas - Blackrock"] = {
+		["Nofriendz - Blackrock"] = {
 		},
 		["Eshidishii - Blackrock"] = {
 			[1970] = {
@@ -163,9 +167,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -186,9 +190,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -209,9 +213,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -227,9 +231,9 @@ TomTomWaypointsM = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
-		["Nofriendz - Blackrock"] = {
+		["Eurotas - Blackrock"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Cakebender - Antonidas"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

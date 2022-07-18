@@ -20,17 +20,3 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: TLDRMissionsFrame
-FrameLevel: 2
-Anchor: CENTER
-X: -671
-Y: 37
-W: 350
-H: 580
-Frame: WIM3_msgFrame2
-FrameLevel: 2
-Anchor: TOPLEFT
-X: 978
-Y: -147
-W: 333
-H: 220

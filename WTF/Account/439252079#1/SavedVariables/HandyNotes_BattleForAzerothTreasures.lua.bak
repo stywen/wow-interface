@@ -4,31 +4,32 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
 		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
-		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
-		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Testyu - Blackrock"] = "Testyu - Blackrock",
+		["Synster - Aegwynn"] = "Synster - Aegwynn",
+		["Xrth - Blackrock"] = "Xrth - Blackrock",
 		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
 		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
+		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Stywen - Antonidas"] = "Stywen - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
-		["Xrth - Blackrock"] = "Xrth - Blackrock",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
 		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Byar - Antonidas"] = "Byar - Antonidas",
-		["Stylth - Blackrock"] = "Stylth - Blackrock",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Synster - Aegwynn"] = "Synster - Aegwynn",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 	},
 	["profiles"] = {
 		["Starplatïnum - Antonidas"] = {
@@ -37,15 +38,17 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Starplatïnum - Blackrock"] = {
 		},
+		["Orthodoxtank - Antonidas"] = {
+		},
 		["Notafriend - Aegwynn"] = {
-		},
-		["Slavictank - Blackrock"] = {
-		},
-		["Testyu - Blackrock"] = {
 		},
 		["Byd - Mal'Ganis"] = {
 		},
-		["Tizeran - Blackrock"] = {
+		["Testyu - Blackrock"] = {
+		},
+		["Synster - Aegwynn"] = {
+		},
+		["Xrth - Blackrock"] = {
 		},
 		["Blyyd - Antonidas"] = {
 		},
@@ -53,39 +56,39 @@ HandyNotes_BattleForAzerothTreasuresDB = {
 		},
 		["Eshidishii - Blackrock"] = {
 		},
-		["Dïo - Blackrock"] = {
-		},
 		["Slavicpriest - Antonidas"] = {
+		},
+		["Dïo - Blackrock"] = {
 		},
 		["Stywen - Antonidas"] = {
 		},
 		["Extinguish - Blackrock"] = {
 		},
-		["Xrth - Blackrock"] = {
+		["Eurotas - Blackrock"] = {
 		},
 		["Gryyn - Blackrock"] = {
 		},
 		["Lichkingvult - Blackrock"] = {
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
 		},
-		["Dfgfxg - Blackrock"] = {
+		["Stylth - Blackrock"] = {
 		},
 		["Odînaf - Blackrock"] = {
 		},
 		["Byar - Antonidas"] = {
 		},
-		["Stylth - Blackrock"] = {
+		["Magyc - Mal'Ganis"] = {
 		},
-		["Eurotas - Blackrock"] = {
+		["Dfgfxg - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
 		["Stylth - Antonidas"] = {
 		},
-		["Synster - Aegwynn"] = {
+		["Tizeran - Blackrock"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Slavictank - Blackrock"] = {
 		},
 	},
 }

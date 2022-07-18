@@ -1,6 +1,9 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "Eshidishii-Blackrock",
+	["AutoSelectScales"] = false,
+	["UpgradeTracking"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 171415,
@@ -67,10 +70,10 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179342::::::::60:72::35:5:7359:6652:7784:1586:6646::::::|h[Overwhelming Power Crystal]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 179342,
-			["Level"] = 268,
+			["ID"] = 178811,
+			["Level"] = 272,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:179342::::::::60:72::35:5:7359:6652:7783:1582:6646::::::|h[Overwhelming Power Crystal]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178811::::::::60:72::35:5:7359:6652:7784:1586:6646::::::|h[Grim Codex]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 173242,
@@ -89,9 +92,7 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:179485::::::::60:72::28:4:6652:1495:5920:6646:1:28:1707:::::|h[Fang of Nemaeus]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["UpgradeTracking"] = false,
-	["LastPlayerFullName"] = "Eshidishii-Blackrock",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128910] = {
 			["Relics"] = {
@@ -136,7 +137,6 @@ PawnOptions = {
 			["Name"] = "Scale of the Earth-Warder",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",

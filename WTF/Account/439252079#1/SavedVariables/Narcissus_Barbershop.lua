@@ -1,12 +1,13 @@
 
 NarciBarberShopDB = {
+	["ToggleRandomAppearance"] = false,
+	["ToggleNotification"] = true,
 	["Hotkeys"] = {
-		["ZoomIn"] = "W",
+		["RotateRight"] = "D",
 		["RotateLeft"] = "A",
 		["ZoomOut"] = "S",
-		["RotateRight"] = "D",
+		["ZoomIn"] = "W",
 	},
-	["ToggleNotification"] = true,
 	["PlayerData"] = {
 		["08DA11B9"] = {
 			["playerName"] = "Lichkingvult",
@@ -30,6 +31,8 @@ NarciBarberShopDB = {
 					},
 					["female"] = {
 						{
+							["name"] = "female ork",
+							["description"] = "Thick Hair Style, Tusks Earrings, Bone Pincher Nose Ring, Brutality Tattoo",
 							["data"] = {
 								{
 									26, -- [1]
@@ -80,8 +83,6 @@ NarciBarberShopDB = {
 									9386, -- [2]
 								}, -- [12]
 							},
-							["name"] = "female ork",
-							["description"] = "Thick Hair Style, Tusks Earrings, Bone Pincher Nose Ring, Brutality Tattoo",
 							["timeCreated"] = 1655755315,
 						}, -- [1]
 					},
@@ -103,5 +104,4 @@ NarciBarberShopDB = {
 			["realmName"] = "Blackrock",
 		},
 	},
-	["ToggleRandomAppearance"] = false,
 }
