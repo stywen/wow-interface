@@ -209,7 +209,7 @@ DBMChallenges_SavedStats = {
 		["mythicPulls"] = 0,
 		["challengePulls"] = 0,
 	},
-	["ArtifactFelTotem"] = {
+	["Azaruux"] = {
 		["normalPulls"] = 0,
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
@@ -304,7 +304,7 @@ DBMChallenges_SavedStats = {
 		["mythicPulls"] = 0,
 		["challengePulls"] = 0,
 	},
-	["Azaruux"] = {
+	["ArtifactFelTotem"] = {
 		["normalPulls"] = 0,
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
@@ -342,7 +342,7 @@ DBMChallenges_SavedStats = {
 		["mythicPulls"] = 0,
 		["challengePulls"] = 0,
 	},
-	["AlderynandMynir"] = {
+	["Nuuminuuru"] = {
 		["normalPulls"] = 0,
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,
@@ -380,7 +380,7 @@ DBMChallenges_SavedStats = {
 		["mythicPulls"] = 0,
 		["challengePulls"] = 0,
 	},
-	["Nuuminuuru"] = {
+	["AlderynandMynir"] = {
 		["normalPulls"] = 0,
 		["challengeKills"] = 0,
 		["challengeBestRank"] = 0,

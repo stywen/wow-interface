@@ -2,126 +2,17 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/PLAYED", -- [1]
-		"/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,2) c(2,2) c(3,3) c(4,1) c(5,1) c(6,1) c(7,3)", -- [2]
+		"/reload", -- [1]
+		"/invite Dgfh", -- [2]
 		"/played", -- [3]
-		"/aap", -- [4]
-		"/dance", -- [5]
-		"/invite Dgfh", -- [6]
-		"/reload", -- [7]
-		"/invite Dfgh", -- [8]
+		"/invite Dfgh", -- [4]
+		"/aap", -- [5]
+		"/dance", -- [6]
+		"/wa", -- [7]
+		"/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,2) c(2,2) c(3,3) c(4,1) c(5,1) c(6,1) c(7,3)", -- [8]
+		"/PLAYED", -- [9]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Vk alle 7 Druiden Reisegestalten aus Shadowlands für 35k", -- [1]
-			"Radoks-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Radoks-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2388, -- [11]
-			"Player-3686-09C2B423", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Radoks|r",
-			[51] = 1655421059,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"eine Taste ? Das bietet Classic", -- [1]
-			"Tijalia-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tijalia-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			9, -- [11]
-			"Player-3686-06A3033B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Tijalia|r",
-			[51] = 1655458821,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTS |||||| Mythisch + <10 - 20> in der Zeit -Armor Stack <Leder & Platte & Stoff & Panzer>- <KSM & KSH> -- Spezifische Dungeons mit persönlicher Beute-Tazavesh HM- {Privatteam} ist bereit zu gehen -Nur für Gold -- Günstig und schnell /w mich für meh", -- [1]
-			"Taurieli-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Taurieli-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			533, -- [11]
-			"Player-3686-09C623FC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Taurieli|r",
-			[51] = 1655461059,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"Wir,  eine kleine familiäre neue Gilde suchen für Raid und M+ nette Mitspieler. Wir sind die Gilde >>pugnator potentia<<. Discord vorhanden,  wisp me bei Fragen und Interesse.", -- [1]
-			"Davinara-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Davinara-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			537, -- [11]
-			"Player-3686-09A72ABF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Davinara|r",
-			[51] = 1655461082,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"+3500 Team Unsere gruppe verkauft ||M+15-25|| garantiert in der vorgegebenen Zeit ||KSH|| ||KSM||||Torghast|| .Akzeptiert wird nur Gold.  /w für mehr Infos", -- [1]
-			"Kallevesperi-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kallevesperi-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			544, -- [11]
-			"Player-3686-09C55163", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Kallevesperi|r",
-			[51] = 1655461100,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
 		{
 			"3.3k team verkaufe M+[14-20] Time garantie und Alles loots für dich [ KSM 16x15 für Mount ] [ KSH 16x 20 für 278 Conduits ] /w für weitere Informationen, fairer Preis [nur Gold]", -- [1]
 			"Hailstorm-Antonidas", -- [2]
@@ -143,7 +34,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Hailstorm|r",
 			[51] = 1655465378,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [1]
 		{
 			"pvp gilde sucht mitstreiter (rein rated/unrated arena/bg spezifiziert) für rbg teilnahme mind. 1,8 char exp (arena) und 270 pvp gs", -- [1]
 			"Hémingway-Antonidas", -- [2]
@@ -165,7 +56,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cHémingway|r",
 			[51] = 1655475643,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [2]
 		{
 			"Hi:) Unsere M+ Gruppe verkauft euch M+[15-20 Keys]! Oder auch KSM für das Mount. Nur auf Antonidas und nur für Gold! z.B. [M+15] für eure Weekly Kiste. /w me für mehr Info :)", -- [1]
 			"Liotasil-Antonidas", -- [2]
@@ -187,7 +78,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcLiotasil|r",
 			[51] = 1655475684,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [3]
 		{
 			"Vk alle 7 Druiden Reisegestalten aus Shadowlands für 35k", -- [1]
 			"Radoks-Antonidas", -- [2]
@@ -209,7 +100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Radoks|r",
 			[51] = 1655478057,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [4]
 		{
 			"Angebot 11/11 HC  Nur 380k>> Angebot  Keystone 1x+15 150k 4x+15 520  1x +20 470k >> Sylvanas +Mount w/me", -- [1]
 			"Lookimooki-Antonidas", -- [2]
@@ -231,7 +122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLookimooki|r",
 			[51] = 1655478093,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [5]
 		{
 			"Eingespiele Gilden Gruppe verkauft jetzt Nebel +15 intime loot geht natürlich an den käufer. /w me", -- [1]
 			"Nótaris-Antonidas", -- [2]
@@ -253,7 +144,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edNótaris|r",
 			[51] = 1655479279,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [6]
 		{
 			"Angebot 11/11 HC  Nur 380k>> Angebot  Keystone 1x+15 150k 4x+15 520  1x +20 470k >> Sylvanas +Mount w/me", -- [1]
 			"Lookimooki-Antonidas", -- [2]
@@ -275,7 +166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cLookimooki|r",
 			[51] = 1655479925,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [7]
 		{
 			"[FIS] Interrupted Tailthrasher Vinebender's |cff71d5ff|Hspell:171159:0|h[Crushing Vines]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -297,7 +188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655506200,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [13]
+		}, -- [8]
 		{
 			"[FIS] Interrupted Skull Thrash's |cff71d5ff|Hspell:171155:0|h[Frightening Roar]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -319,7 +210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655506255,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [14]
+		}, -- [9]
 		{
 			"[FIS] Interrupted Tailthrasher Vinebender's |cff71d5ff|Hspell:171159:0|h[Crushing Vines]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -341,7 +232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655506350,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [15]
+		}, -- [10]
 		{
 			"[FIS] Interrupted Malkor's |cff71d5ff|Hspell:173762:0|h[Dancing Thorns]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -363,7 +254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655506590,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [16]
+		}, -- [11]
 		{
 			"[FIS] Interrupted Malkor's |cff71d5ff|Hspell:173762:0|h[Dancing Thorns]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -385,7 +276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655506607,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [17]
+		}, -- [12]
 		{
 			"[FIS] Interrupted Pale Flinger's |cff71d5ff|Hspell:150421:0|h[Illusory Bolt]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -407,7 +298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655506732,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [18]
+		}, -- [13]
 		{
 			"[FIS] Interrupted Pale Flinger's |cff71d5ff|Hspell:150421:0|h[Illusory Bolt]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -429,7 +320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655506927,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [19]
+		}, -- [14]
 		{
 			"[FIS] Interrupted Harvester Ommru's |cff71d5ff|Hspell:169571:0|h[Dancing Thorns]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -451,7 +342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655507952,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [20]
+		}, -- [15]
 		{
 			"[FIS] Interrupted Harvester Ommru's |cff71d5ff|Hspell:169571:0|h[Dancing Thorns]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -473,7 +364,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655507974,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [21]
+		}, -- [16]
 		{
 			"[FIS] Interrupted Harvester Ommru's |cff71d5ff|Hspell:169571:0|h[Dancing Thorns]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -495,7 +386,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655507995,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [22]
+		}, -- [17]
 		{
 			"Für die Zeitwanderung Feuerlande um 20 Uhr suchen wir noch einen Heiler. /w me (mit Teamspeak, es dropt 252 ilvl)", -- [1]
 			"Sleec-Antonidas", -- [2]
@@ -517,7 +408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sleec|r",
 			[51] = 1655570789,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [18]
 		{
 			"ok warte ich formuliere es um^^ Verkauft jemand |cffffffff|Hitem:172089::::::::60:255:::::::::|h[Gramleder]|h|r günstig in massen?", -- [1]
 			"Sixshot-Antonidas", -- [2]
@@ -539,7 +430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sixshot|r",
 			[51] = 1655570792,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [19]
 		{
 			"^^", -- [1]
 			"Sixshot-Antonidas", -- [2]
@@ -561,7 +452,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Sixshot|r",
 			[51] = 1655570794,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [20]
 		{
 			"sehr gut^^", -- [1]
 			"Brukterer-Antonidas", -- [2]
@@ -583,7 +474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Brukterer|r",
 			[51] = 1655570811,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [21]
 		{
 			"Verkaufe |cff1eff00|Hitem:116158::::::::41:577:::::::::|h[Lunarfall Carp]|h|r für 2k Gold pro Stück! Chance auf |cff0070dd|Hitem:46109::::::::41:577:::::::::|h[Sea Turtle]|h|r und |cffa335ee|Hitem:23720::::::::41:577:::::::::|h[Riding Turtle]|h|r !", -- [1]
 			"Niwex-Antonidas", -- [2]
@@ -605,7 +496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Niwex|r",
 			[51] = 1655570812,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [22]
 		{
 			"Für die Zeitwanderung Feuerlande um 20 Uhr suchen wir noch einen Heiler. /w me (mit Teamspeak, es dropt 252 ilvl), jeder in der Gruppe hat Sockelausrüstung, daher wirds wirklich leicht. ;)", -- [1]
 			"Sleec-Antonidas", -- [2]
@@ -627,7 +518,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sleec|r",
 			[51] = 1655570841,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [23]
 		{
 			"wir verkaufen m+0-22 intime garantiert wunschkey und amorstack möglich gesamtler loot geht an dich", -- [1]
 			"Shevia-Antonidas", -- [2]
@@ -649,7 +540,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Shevia|r",
 			[51] = 1655570871,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [24]
 		{
 			"Die neu gegründete Gilde Weltenesche sucht Mitglieder für gemeinsame m+  w/me bei Interesse", -- [1]
 			"Geovan-Antonidas", -- [2]
@@ -671,7 +562,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Geovan|r",
 			[51] = 1655570909,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [25]
 		{
 			"[FIS] Interrupted Shadowmoon Void Priestess's |cff71d5ff|Hspell:157406:0|h[Crackling Void]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -693,7 +584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571018,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [31]
+		}, -- [26]
 		{
 			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -715,7 +606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571034,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [32]
+		}, -- [27]
 		{
 			"[FIS] Interrupted Shadowmoon Void Priestess's |cff71d5ff|Hspell:157406:0|h[Crackling Void]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -737,7 +628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571092,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [33]
+		}, -- [28]
 		{
 			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -759,7 +650,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571120,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [34]
+		}, -- [29]
 		{
 			"lol", -- [1]
 			"|Kq2|k", -- [2]
@@ -781,7 +672,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zelforacle|r",
 			[51] = 1655571122,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [35]
+		}, -- [30]
 		{
 			"hab ne mount gedroppt XD", -- [1]
 			"|Kq2|k", -- [2]
@@ -803,7 +694,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zelforacle|r",
 			[51] = 1655571129,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [36]
+		}, -- [31]
 		{
 			"soll ich dudu weiter lvln?", -- [1]
 			"|Kq2|k", -- [2]
@@ -825,7 +716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Zelforacle|r",
 			[51] = 1655571141,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [37]
+		}, -- [32]
 		{
 			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -847,7 +738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571178,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [38]
+		}, -- [33]
 		{
 			"[FIS] Interrupted Sargerei Netherbinder's |cff71d5ff|Hspell:15124:0|h[Arcane Bolt]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -869,7 +760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571759,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [39]
+		}, -- [34]
 		{
 			"[FIS] Interrupted Arcane Anomaly's |cff71d5ff|Hspell:165474:0|h[Arcane Bolt]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -891,7 +782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571800,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [40]
+		}, -- [35]
 		{
 			"[FIS] Interrupted Sargerei Netherbinder's |cff71d5ff|Hspell:15124:0|h[Arcane Bolt]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -913,7 +804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571826,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [41]
+		}, -- [36]
 		{
 			"[FIS] Interrupted Arcane Anomaly's |cff71d5ff|Hspell:165474:0|h[Arcane Bolt]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -935,7 +826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655571955,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [42]
+		}, -- [37]
 		{
 			"[FIS] Interrupted Arcane Anomaly's |cff71d5ff|Hspell:165474:0|h[Arcane Bolt]|h|r", -- [1]
 			"Blyyd-Antonidas", -- [2]
@@ -957,7 +848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Blyyd|r",
 			[51] = 1655572014,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [43]
+		}, -- [38]
 		{
 			"Der Raidstamm von <Final> (Stand 3/11 M) sucht noch ambitionierte DDs (Hexer/Magier/Shadow/Mönch) für den Mythisch-Kader. Raidtage sind Di & Do von 20:00 - 22:30 Uhr. Gerne /w für mehr Infos o/", -- [1]
 			"Smoo-Antonidas", -- [2]
@@ -979,7 +870,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSmoo|r",
 			[51] = 1655572368,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [39]
 		{
 			"Gilden Gruppe sucht für heute Abend 19:50-22:00 noch DDs für Anduin HC ", -- [1]
 			"Dkdreamzz-Antonidas", -- [2]
@@ -1001,7 +892,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkdreamzz|r",
 			[51] = 1655572370,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [40]
 		{
 			"Wir die Gilde \"BadBlood\" suchen noch engagierte, nette und lustige Spieler für unseren Raidkader sowie für M+. Raidtage sind Fr. & Sa. von 20-23 Uhr. Bei Interesse /w me :)", -- [1]
 			"Safirá-Antonidas", -- [2]
@@ -1023,7 +914,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Safirá|r",
 			[51] = 1655572378,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [41]
 		{
 			"wts |cffa335ee|Hitem:190625::::::::10:1453:::::::::|h[Pauldrons of Possible Afterlives]|h|r", -- [1]
 			"Hyperhelper-Antonidas", -- [2]
@@ -1045,7 +936,7 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Hyperhelper|r",
 			[51] = 1655572400,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [42]
 		{
 			"inviduell Gruppe bietet M+ 15-20! Alles was wir looten geht an dich! Wunschkeys, Stacks und Rabatte für mehrere Keys sind ebenfalls möglich /w me.(für Gold)", -- [1]
 			"Animalheros-Antonidas", -- [2]
@@ -1067,7 +958,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Animalheros|r",
 			[51] = 1655572406,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [43]
 		{
 			"Die Gilde Marvellous sucht DDs für Raid (11/11nhc, 7/11hc) gerne mit heal specc. Raidzeiten Fr. & So. 19:45-22:15.  Für Infos und Fragen schreibt mich gerne an.", -- [1]
 			"Àurelìà-Antonidas", -- [2]
@@ -1089,7 +980,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Àurelìà|r",
 			[51] = 1655572426,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [44]
 		{
 			"VK |cffa335ee|Hitem:190629::::::::60:254::6:6:7187:6652:8132:8137:1524:6646:1:28:2167:::::|h[Diebische Zehenkappe des Kartells]|h|r 278 für 410k /w me", -- [1]
 			"Arcèus-Antonidas", -- [2]
@@ -1111,7 +1002,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Arcèus|r",
 			[51] = 1655572435,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [45]
 		{
 			"Gilden Gruppe sucht für heute Abend 19:50-22:00 noch DDs für Anduin HC", -- [1]
 			"Dkdreamzz-Antonidas", -- [2]
@@ -1133,7 +1024,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Dkdreamzz|r",
 			[51] = 1655572436,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [46]
 		{
 			"Du willst schnell nen 15er Key für die Chest und magst nicht random laufen? Oder auch höher? - Wir (Gruppe) helfen dir - nur für Gold- nur auf Antonidas /w me", -- [1]
 			"Treffenix-Antonidas", -- [2]
@@ -1155,7 +1046,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Treffenix|r",
 			[51] = 1655572437,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [47]
 		{
 			"<Eulenspiegel> (11/11 NHC, 8/11 HC) baut seinen Raidkader aus! Gesucht werden noch1 ambitionierter DH und Range DDs mit Bumms und Klassenverständnis! Du gehst vielleicht auch noch gern M+ (gerne auch High Keys)? Dann melde dich doch! :)", -- [1]
 			"Mashalah-Antonidas", -- [2]
@@ -1177,7 +1068,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Mashalah|r",
 			[51] = 1655572448,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [48]
 		{
 			"Wir, die Gilde \"Engage\" (5/11 M) suchen für SFO für den mytischen Content noch progress orientierte Spieler! Dringend gesucht wird (Warri,Rogue,Eule,Hexer). Andere Klassen auf Anfrage", -- [1]
 			"Khalib-Antonidas", -- [2]
@@ -1199,7 +1090,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Khalib|r",
 			[51] = 1655572463,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [49]
 		{
 			"Raidzeiten: Do. 19:30 – 22:00 Uhr / So. 19:30 – 22:00 Uhr. Bei Interesse bzw. für mehr Infos /w m.", -- [1]
 			"Khalib-Antonidas", -- [2]
@@ -1221,7 +1112,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Khalib|r",
 			[51] = 1655572463,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [50]
 		{
 			"seas", -- [1]
 			"|Kq4|k", -- [2]
@@ -1244,7 +1135,7 @@ ElvCharacterDB = {
 			[51] = 1655572491,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kyo",
-		}, -- [56]
+		}, -- [51]
 		{
 			"helo", -- [1]
 			"|Kq4|k", -- [2]
@@ -1267,7 +1158,7 @@ ElvCharacterDB = {
 			[51] = 1655572734,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Kyo",
-		}, -- [57]
+		}, -- [52]
 		{
 			"wann wollts leicht myth?", -- [1]
 			"|Kq4|k", -- [2]
@@ -1290,7 +1181,7 @@ ElvCharacterDB = {
 			[51] = 1655572752,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kyo",
-		}, -- [58]
+		}, -- [53]
 		{
 			"ca stunde wär gut", -- [1]
 			"|Kq4|k", -- [2]
@@ -1313,7 +1204,7 @@ ElvCharacterDB = {
 			[51] = 1655572769,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Kyo",
-		}, -- [59]
+		}, -- [54]
 		{
 			"passt", -- [1]
 			"|Kq4|k", -- [2]
@@ -1336,7 +1227,7 @@ ElvCharacterDB = {
 			[51] = 1655572793,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kyo",
-		}, -- [60]
+		}, -- [55]
 		{
 			"Unsere Gilde verkauft<15-22>günstig und garantiert in der vorgegebenen Zeit. Individuellen Key/Armor nach Wünsch. Akzeptiert wird nur Gold./w für mehr Infos", -- [1]
 			"Exå-Antonidas", -- [2]
@@ -1358,7 +1249,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Exå|r",
 			[51] = 1655586554,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [56]
 		{
 			"durch die Artefaktwaffe noch", -- [1]
 			"Lynessra-Antonidas", -- [2]
@@ -1380,7 +1271,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeLynessra|r",
 			[51] = 1655586558,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [57]
 		{
 			"Moin, ich helfe mit meiner M+ Gruppe, euch bei Keys von m10 bis 20. Dies nur für Gold und nur auf Antonidas.  15er weekly key für eure Vault (278 i-lvl), oder direkt den KSM Erfolg fürs mount. Schreibt mich für weitere Info´s einfach direkt an.", -- [1]
 			"Wartongdh-Antonidas", -- [2]
@@ -1402,7 +1293,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Wartongdh|r",
 			[51] = 1655587788,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [58]
 		{
 			"Du lachst gern, bist ein charakter- und spielerisch starker Spieler und spielst gerne M+? Vielleicht auch gerne Highkeys? Möchtest du evtl. auch in einem entspannten Team den HC (8/11) noch clearen? Dann bist du bei uns richtig! /w me ", -- [1]
 			"Chumah-Antonidas", -- [2]
@@ -1424,7 +1315,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Chumah|r",
 			[51] = 1655670533,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [59]
 		{
 			"Gilde <SeriousBusiness> macht Dir ein Angebot, dass Du nicht ausschlagen kannst! >> Dienstag um 19:30 SFO 11/11 HC << Alles weitere, wie \"KSM\" oder ähnliches, gerne auf Anfrage. ", -- [1]
 			"Lxix-Antonidas", -- [2]
@@ -1446,7 +1337,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaLxix|r",
 			[51] = 1655670604,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [60]
 		{
 			"wir verkaufen m+0-22 intime garantiert wunschkey und amor stack möglich kompletter loot geht an dich", -- [1]
 			"Shevia-Antonidas", -- [2]
@@ -1468,7 +1359,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Shevia|r",
 			[51] = 1655670610,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [61]
 		{
 			"Verkaufe Keys(10-24) sowie KSH  (16x20+) für 278er conduits  Verkaufe   Verkauf Torghast1-15Verkauf  ( Team +3.2k ) /w für weitere Informationen", -- [1]
 			"Silvanase-Antonidas", -- [2]
@@ -1490,7 +1381,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvanase|r",
 			[51] = 1655670648,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [62]
 		{
 			"Unsere Gilde verkauft heroic|cff66bbff|Hjournal:1:2464:14|h[The Jailer]|h|r für 130k Gold! Ihr bekommt die Heldentat|cffffff00|Hachievement:15470:Player-3686-09D1A24A:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: The Jailer]|h|r& das Mount |cff71d5ff|Hspell:359545:0|h[Carcinized Zerethsteed]|h|r  /w me", -- [1]
 			"Waltj-Antonidas", -- [2]
@@ -1512,7 +1403,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cWaltj|r",
 			[51] = 1655670653,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [63]
 		{
 			"Wir <Sleepîng Knîghts> suchen zur Verstärkung des M-Raids [11/11 HC || 1/11M] noch zielstrebige und gute DD´s. Raidtage sind Mi + So 20:00 - 22:30Uhr. Wenn du Interesse hast dann melde dich :)", -- [1]
 			"Milenâ-Antonidas", -- [2]
@@ -1534,7 +1425,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeMilenâ|r",
 			[51] = 1655672958,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [64]
 		{
 			"Verkaufe Keys(10-24) sowie KSH  (16x20+) für 278er conduits  Verkaufe   Verkauf Torghast1-15Verkauf  ( Team +3.2k ) /w für weitere Informationen", -- [1]
 			"Silvanase-Antonidas", -- [2]
@@ -1556,7 +1447,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Silvanase|r",
 			[51] = 1655672962,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [65]
 		{
 			"Suche Heiligpaladin der Nekrolords als Pakt spielt", -- [1]
 			"Ela-Antonidas", -- [2]
@@ -1578,7 +1469,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Ela|r",
 			[51] = 1655673007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [66]
 		{
 			"Die Gilde <Legends of Warcraft> sucht für den Raid <Di u.Do>  noch fähige DD´s (10/11 HC). .Wir nutzen Ts3! Bei Interesse /w me =) ", -- [1]
 			"Saiká-Antonidas", -- [2]
@@ -1600,7 +1491,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcSaiká|r",
 			[51] = 1655673163,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [67]
 		{
 			"schaman 218 ilvl kann schon m+ healn i guess", -- [1]
 			"|Kq2|k", -- [2]
@@ -1623,7 +1514,7 @@ ElvCharacterDB = {
 			[51] = 1655674896,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Kyo",
-		}, -- [73]
+		}, -- [68]
 		{
 			"locker", -- [1]
 			"|Kq2|k", -- [2]
@@ -1646,7 +1537,7 @@ ElvCharacterDB = {
 			[51] = 1655674912,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kyo",
-		}, -- [74]
+		}, -- [69]
 		{
 			"ez +10", -- [1]
 			"|Kq2|k", -- [2]
@@ -1669,7 +1560,7 @@ ElvCharacterDB = {
 			[51] = 1655674922,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Kyo",
-		}, -- [75]
+		}, -- [70]
 		{
 			"das vlt eher we!@#$% hahahha", -- [1]
 			"|Kq2|k", -- [2]
@@ -1692,7 +1583,7 @@ ElvCharacterDB = {
 			[51] = 1655675016,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kyo",
-		}, -- [76]
+		}, -- [71]
 		{
 			"aber koennten eh alle dungeons auch normal myth clearen vlt luckst ja was", -- [1]
 			"|Kq2|k", -- [2]
@@ -1715,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1655675032,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Kyo",
-		}, -- [77]
+		}, -- [72]
 		{
 			"Traditionelle gemütliche Feierabend Gilde restauriert ihren Raidkader. Wir raiden Mo & Do 20 - 23 Uhr und suchen Range DD´s,  1 Heal, weitere auf Nachfrage.", -- [1]
 			"Hôrderipper-Antonidas", -- [2]
@@ -1737,6 +1628,578 @@ ElvCharacterDB = {
 			[52] = "|cfffef367Hôrderipper|r",
 			[51] = 1656579690,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"Eingespielte Gruppe bietet M+15 Keys für die Weekly oder KSM an, Amors/Waffenstack auf Anfrage möglich M+20er Keys für die Portale oder Score möglich. Nur Gold, nur Antonidas. Keine Community. Kann zeitnah losgehen!", -- [1]
+			"Lighthard-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lighthard-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-3686-09C1BF5F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeLighthard|r",
+			[51] = 1656958839,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"<Gildenteam>Verkaufe mit 3k io players,  M+ 10-15-20 << Du bekommst alle drops >> << KSM/KSH >> << armor stack gratis >><torghast>", -- [1]
+			"Gantimor-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gantimor-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-3686-09CB7EC7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc31d39Gantimor|r",
+			[51] = 1656958841,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"Wir die Gilde RequiemDSH  suchen für jetzt und Dragonflight DDS, Raidzeiten Di &DO 19:30-23Uhr,Sa ab 18Uhr bieten wir auch unseren Twinkrun an und zwischen durch viel m+ und mehr .Für mehr Infos /w me ", -- [1]
+			"Barbossbär-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Barbossbär-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-3686-06E9EE61", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Barbossbär|r",
+			[51] = 1656958867,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"Hey Empire sucht Verstärkung für den HC Raid 8/11 und M+ wir sind eine Familiären und aktive Gilde die raidet, M+ läuft und Events wie Transmog oder Erfolgruns plant  Raidtage: Do und So19-22 Uhr gesucht werden DDs. Interesse dann/w me", -- [1]
+			"Mórygor-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mórygor-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			105, -- [11]
+			"Player-3686-09D44B46", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaMórygor|r",
+			[51] = 1656958942,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"VK Keys<15-23> <KSM><KSH> ***  2x 4x 8x Bündeln=frei armorestack Oder Frei Specific Key  ***  Raid <11/11 hc> oder Tier bosses Oder Curve  *** Verkaufe Torghast Layer<1-16>*** <PVP>*** < Team > +3.3k /w für weitere Informationen*** [Rabatt]***", -- [1]
+			"Doómhammer-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Doómhammer-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			109, -- [11]
+			"Player-3686-09CEDF8B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcDoómhammer|r",
+			[51] = 1656958946,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [78]
+		{
+			"Verkaufe M+ <15-22>  3.2k team/< Jailer mythic> / <sylvanas mount> /armor free / solo  <Torghast>  boost Ebene <1-16>  super schneller run, ebenfalls auch das neue torghast für das <mount>  (nur  Gold) /W me für Infos", -- [1]
+			"Vomio-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vomio-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"Player-3686-09C5B757", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVomio|r",
+			[51] = 1656958952,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"Nette  aktive Mitspieler , Wiedereinsteiger und  Anfänger gesucht,die in Ruhe spielen möchten, Wenn eine Gruppe zusammenkommt gerne auch Dungeons und M+, Discord zum Plaudern steht zur Verfügung |cffffd100|HclubFinder:ClubFinder-1-238293-3686-48974594|h[Gilde: Aura]|h|r:-))))", -- [1]
+			"Lûzzi-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lûzzi-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-3686-046AA66C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeLûzzi|r",
+			[51] = 1656958966,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"suche n mage für ein portal von sw nach darnassus pls", -- [1]
+			"Píñkí-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Píñkí-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			129, -- [11]
+			"Player-3686-06B0652C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Píñkí|r",
+			[51] = 1656958976,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"Gildengruppe bietet NUR gegen Gold M+[10-18] an. Mengenrabatt möglich und für spezielle Anfragen einfach anschreiben :)", -- [1]
+			"Frìtöse-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Frìtöse-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			133, -- [11]
+			"Player-3686-0710117F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Frìtöse|r",
+			[51] = 1656958984,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"Hey ihr wollt schnell eine +15 laufen oder höher? Dann einfach anschreiben wir verkaufen in einem festen Team +15 . Das ganze Gear auch die Mounts gehen an euch =) ", -- [1]
+			"Bärchentank-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bärchentank-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-3686-09CA30D5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Bärchentank|r",
+			[51] = 1656958988,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"Premade Gruppe bietet 11/11 Heroic mit VIP Tradern und Jailer HC only an -- M+15/+22 intime / KSM / KSH. Schreib uns für SotFo Mythic and Sylvanas Mythic + Mount. Alles nur gegen Gold", -- [1]
+			"Rebéca-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rebéca-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			136, -- [11]
+			"Player-3686-09D38131", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edRebéca|r",
+			[51] = 1656959002,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"Hallo alle zusammen! Wir bieten heute rnd Ini m+ 15 intime für ab 120k an /w me für weiteres :)", -- [1]
+			"Gerlin-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gerlin-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			137, -- [11]
+			"Player-3686-0468CB0A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Gerlin|r",
+			[51] = 1656959006,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"Verkaufe M+ <15-22>  3.2k team/< Jailer mythic> / <sylvanas mount> /armor free / solo  <Torghast>  boost Ebene <1-16>  super schneller run, ebenfalls auch das neue torghast für das <mount>  (nur  Gold) /W me für Infos", -- [1]
+			"Vomio-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vomio-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"Player-3686-09C5B757", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeVomio|r",
+			[51] = 1656959010,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"Wir verkaufen |cffffffff|Hitem:16885::::::::1:256::1::1:28:205:::::|h[Schwere Plunderkiste]|h|r für die Heldentat |cffffff00|Hachievement:2336:Player-3686-071B3A30:1:11:10:19:4294967295:4294967295:4294967295:4294967295|h[Am Rande des Wahnsinns]|h|r. Über 1350 Kisten sofort verfügbar. Bei Interesse /w me", -- [1]
+			"Plänkie-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Plänkie-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			139, -- [11]
+			"Player-3686-071B3A30", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefePlänkie|r",
+			[51] = 1656959025,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"[FIS] Interrupted Pale Crawler's |cff71d5ff|Hspell:160402:0|h[Earthen Grasp]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			151, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959135,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [88]
+		{
+			"[FIS] Interrupted Gorum's |cff71d5ff|Hspell:160372:0|h[Leech Vitality]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959235,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [89]
+		{
+			"[FIS] Interrupted Shadowmoon Darkcaster's |cff71d5ff|Hspell:157406:0|h[Crackling Void]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			189, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959517,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [90]
+		{
+			"[FIS] Interrupted Mother Om'ra's |cff71d5ff|Hspell:154450:0|h[Spirit Bolt]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			193, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959537,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [91]
+		{
+			"[FIS] Interrupted Mother Om'ra's |cff71d5ff|Hspell:154450:0|h[Spirit Bolt]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			195, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959556,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [92]
+		{
+			"[FIS] Interrupted Shadowmoon Void Priestess's |cff71d5ff|Hspell:157406:0|h[Crackling Void]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			204, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959591,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [93]
+		{
+			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			207, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959606,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [94]
+		{
+			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959624,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [95]
+		{
+			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			217, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959652,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [96]
+		{
+			"[FIS] Interrupted Shadowmoon Void Priestess's |cff71d5ff|Hspell:157406:0|h[Crackling Void]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			221, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959669,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [97]
+		{
+			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			224, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959684,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [98]
+		{
+			"[FIS] Interrupted Void-Torn Spirit's |cff71d5ff|Hspell:159544:0|h[Elemental Blast]|h|r", -- [1]
+			"Blyyd-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blyyd-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			227, -- [11]
+			"Player-3686-09D2AD02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Blyyd|r",
+			[51] = 1656959700,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [99]
 	},
 }

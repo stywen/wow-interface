@@ -34,8 +34,8 @@ RaiderIO_DB_TW_F: disabled
 RaiderIO_DB_KR_R: disabled
 RaiderIO_DB_KR_M: disabled
 RaiderIO_DB_KR_F: disabled
-AAP-Core: enabled
-AAP-EasternKingdoms: enabled
-AdiBags: enabled
-AAP-Shadowlands: enabled
+AAP-Core: disabled
+AAP-EasternKingdoms: disabled
+AdiBags: disabled
+AAP-Shadowlands: disabled
 ElvUI_OptionsUI: enabled

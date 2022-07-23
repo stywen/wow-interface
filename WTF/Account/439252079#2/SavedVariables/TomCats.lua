@@ -27,7 +27,6 @@ TomCats_Account = {
 	["lastExpirationWarning"] = 0,
 	["discoveriesResetCount"] = 0,
 	["discoveries"] = {
-		["version"] = "2.4.12",
 		["vignetteAtlases"] = {
 		},
 		["vignettes"] = {

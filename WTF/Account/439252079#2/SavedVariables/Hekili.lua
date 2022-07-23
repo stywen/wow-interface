@@ -333,33 +333,33 @@ HekiliDB = {
 							}, -- [13]
 							{
 								["enabled"] = true,
-								["name"] = "jotungeirr_destinys_call",
 								["action"] = "jotungeirr_destinys_call",
 								["criteria"] = "variable.serenity_burst || boss & fight_remains < 20",
+								["name"] = "jotungeirr_destinys_call",
 							}, -- [14]
 							{
 								["enabled"] = true,
-								["name"] = "inscrutable_quantum_device",
 								["action"] = "inscrutable_quantum_device",
 								["criteria"] = "variable.serenity_burst || boss & fight_remains < 20",
+								["name"] = "inscrutable_quantum_device",
 							}, -- [15]
 							{
 								["enabled"] = true,
-								["name"] = "wrathstone",
 								["action"] = "wrathstone",
 								["criteria"] = "variable.serenity_burst || boss & fight_remains < 20",
+								["name"] = "wrathstone",
 							}, -- [16]
 							{
 								["enabled"] = true,
-								["name"] = "overcharged_anima_battery",
 								["action"] = "overcharged_anima_battery",
 								["criteria"] = "variable.serenity_burst || boss & fight_remains < 20",
+								["name"] = "overcharged_anima_battery",
 							}, -- [17]
 							{
 								["enabled"] = true,
-								["name"] = "shadowgrasp_totem",
 								["action"] = "shadowgrasp_totem",
 								["criteria"] = "pet.xuen_the_white_tiger.active || boss & fight_remains < 20 || ! runeforge.invokers_delight.enabled",
+								["name"] = "shadowgrasp_totem",
 							}, -- [18]
 							{
 								["enabled"] = true,
@@ -368,9 +368,9 @@ HekiliDB = {
 							}, -- [19]
 							{
 								["enabled"] = true,
-								["name"] = "the_first_sigil",
 								["action"] = "the_first_sigil",
 								["criteria"] = "variable.serenity_burst || boss & fight_remains < 20",
+								["name"] = "the_first_sigil",
 							}, -- [20]
 							{
 								["enabled"] = true,
@@ -499,8 +499,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["interrupt"] = "1",
-								["action"] = "flying_serpent_kick",
 								["criteria"] = "! covenant.necrolord || buff.primordial_potential.up",
+								["action"] = "flying_serpent_kick",
 							}, -- [17]
 							{
 								["enabled"] = true,
@@ -573,33 +573,33 @@ HekiliDB = {
 							}, -- [11]
 							{
 								["enabled"] = true,
-								["name"] = "jotungeirr_destinys_call",
 								["action"] = "jotungeirr_destinys_call",
 								["criteria"] = "pet.xuen_the_white_tiger.active || cooldown.invoke_xuen_the_white_tiger.remains > 60 & fight_remains > 180 || boss & fight_remains < 20",
+								["name"] = "jotungeirr_destinys_call",
 							}, -- [12]
 							{
 								["enabled"] = true,
-								["name"] = "inscrutable_quantum_device",
 								["action"] = "inscrutable_quantum_device",
 								["criteria"] = "pet.xuen_the_white_tiger.active || boss & fight_remains < 20",
+								["name"] = "inscrutable_quantum_device",
 							}, -- [13]
 							{
 								["enabled"] = true,
-								["name"] = "wrathstone",
 								["action"] = "wrathstone",
 								["criteria"] = "pet.xuen_the_white_tiger.active || boss & fight_remains < 20",
+								["name"] = "wrathstone",
 							}, -- [14]
 							{
 								["enabled"] = true,
-								["name"] = "shadowgrasp_totem",
 								["action"] = "shadowgrasp_totem",
 								["criteria"] = "pet.xuen_the_white_tiger.active || boss & fight_remains < 20 || ! runeforge.invokers_delight.enabled",
+								["name"] = "shadowgrasp_totem",
 							}, -- [15]
 							{
 								["enabled"] = true,
-								["name"] = "overcharged_anima_battery",
 								["action"] = "overcharged_anima_battery",
 								["criteria"] = "pet.xuen_the_white_tiger.active || cooldown.invoke_xuen_the_white_tiger.remains > 90 || boss & fight_remains < 20",
+								["name"] = "overcharged_anima_battery",
 							}, -- [16]
 							{
 								["enabled"] = true,
@@ -608,21 +608,21 @@ HekiliDB = {
 							}, -- [17]
 							{
 								["enabled"] = true,
-								["name"] = "the_first_sigil",
 								["action"] = "the_first_sigil",
 								["criteria"] = "pet.xuen_the_white_tiger.remains > 15 || cooldown.invoke_xuen_the_white_tiger.remains > 60 & fight_remains > 300 || boss & fight_remains < 20",
+								["name"] = "the_first_sigil",
 							}, -- [18]
 							{
 								["enabled"] = true,
-								["name"] = "cache_of_acquired_treasures",
 								["action"] = "cache_of_acquired_treasures",
 								["criteria"] = "active_enemies < 2 & buff.acquired_wand.up || active_enemies > 1 & buff.acquired_axe.up || boss & fight_remains < 20",
+								["name"] = "cache_of_acquired_treasures",
 							}, -- [19]
 							{
 								["enabled"] = true,
-								["name"] = "scars_of_fraternal_strife",
 								["action"] = "scars_of_fraternal_strife",
 								["criteria"] = "! buff.scars_of_fraternal_strife_4.up || boss & fight_remains < 35",
+								["name"] = "scars_of_fraternal_strife",
 							}, -- [20]
 							{
 								["enabled"] = true,
@@ -881,8 +881,8 @@ HekiliDB = {
 							{
 								["enabled"] = true,
 								["interrupt"] = "1",
-								["criteria"] = "buff.bok_proc.down",
 								["action"] = "flying_serpent_kick",
+								["criteria"] = "buff.bok_proc.down",
 							}, -- [14]
 							{
 								["enabled"] = true,
@@ -936,9 +936,9 @@ HekiliDB = {
 							}, -- [6]
 							{
 								["enabled"] = true,
-								["name"] = "ashvanes_razor_coral",
 								["action"] = "ashvanes_razor_coral",
 								["criteria"] = "debuff.razor_coral_debuff.down || debuff.conductive_ink_debuff.up & target.health.pct < 31 || time_to_die < 20",
+								["name"] = "ashvanes_razor_coral",
 							}, -- [7]
 							{
 								["enabled"] = true,
@@ -1002,63 +1002,63 @@ HekiliDB = {
 							}, -- [21]
 							{
 								["enabled"] = true,
-								["criteria"] = "settings.purify_stagger_currhp > 0 & group & stagger.pct >= settings.purify_stagger_currhp",
 								["action"] = "purifying_brew",
 								["description"] = "Use configured purify_stagger_currhp from Brewmaster options.",
+								["criteria"] = "settings.purify_stagger_currhp > 0 & group & stagger.pct >= settings.purify_stagger_currhp",
 							}, -- [22]
 							{
 								["enabled"] = true,
-								["criteria"] = "settings.purify_stagger_currhp > 0 & solo & stagger.pct >= settings.purify_stagger_currhp * 0.5",
 								["action"] = "purifying_brew",
 								["description"] = "Use configured purify_stagger_currhp from Brewmaster options.",
+								["criteria"] = "settings.purify_stagger_currhp > 0 & solo & stagger.pct >= settings.purify_stagger_currhp * 0.5",
 							}, -- [23]
 							{
 								["enabled"] = true,
-								["criteria"] = "settings.purify_stagger_maxhp > 0 & group & stagger.pct >= settings.purify_stagger_maxhp",
 								["action"] = "purifying_brew",
 								["description"] = "Use configured purify_stagger_maxhp from Brewmaster options.",
+								["criteria"] = "settings.purify_stagger_maxhp > 0 & group & stagger.pct >= settings.purify_stagger_maxhp",
 							}, -- [24]
 							{
 								["enabled"] = true,
-								["criteria"] = "settings.purify_stagger_maxhp > 0 & solo & stagger.pct >= settings.purify_stagger_maxhp * 0.5",
 								["action"] = "purifying_brew",
 								["description"] = "Use configured purify_stagger_maxhp from Brewmaster options.",
+								["criteria"] = "settings.purify_stagger_maxhp > 0 & solo & stagger.pct >= settings.purify_stagger_maxhp * 0.5",
 							}, -- [25]
 							{
 								["enabled"] = true,
-								["criteria"] = "stagger.amounttototalpct >= 0.7 & ( cooldown.invoke_niuzao_the_black_ox.remains < 5 || buff.invoke_niuzao_the_black_ox.up )",
 								["action"] = "purifying_brew",
 								["description"] = "Cast PB during the Niuzao window, but only if recently hit.",
+								["criteria"] = "stagger.amounttototalpct >= 0.7 & ( cooldown.invoke_niuzao_the_black_ox.remains < 5 || buff.invoke_niuzao_the_black_ox.up )",
 							}, -- [26]
 							{
 								["enabled"] = true,
-								["criteria"] = "settings.purify_stagger_currhp = 0 & settings.purify_stagger_maxhp = 0 & group & stagger.pct > 20",
 								["action"] = "purifying_brew",
 								["description"] = "Stagger % of 20 will kill you in 2.5 seconds without healing or purifying.  Used when purify_stagger_currhp and maxhp are disabled.",
+								["criteria"] = "settings.purify_stagger_currhp = 0 & settings.purify_stagger_maxhp = 0 & group & stagger.pct > 20",
 							}, -- [27]
 							{
 								["enabled"] = true,
-								["criteria"] = "settings.purify_stagger_currhp = 0 & settings.purify_stagger_maxhp = 0 & solo & stagger.pct > 10",
 								["action"] = "purifying_brew",
 								["description"] = "Stagger % of 10 will kill you in 5 seconds without healing or purifying.  Used when purify_stagger_currhp and maxhp are disabled.",
+								["criteria"] = "settings.purify_stagger_currhp = 0 & settings.purify_stagger_maxhp = 0 & solo & stagger.pct > 10",
 							}, -- [28]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.invoke_niuzao_the_black_ox.up & buff.invoke_niuzao_the_black_ox.remains < 8",
 								["action"] = "purifying_brew",
 								["description"] = "Dump PB charges towards the end of Niuzao: anything is better than nothing.",
+								["criteria"] = "buff.invoke_niuzao_the_black_ox.up & buff.invoke_niuzao_the_black_ox.remains < 8",
 							}, -- [29]
 							{
 								["enabled"] = true,
-								["criteria"] = "cooldown.purifying_brew.charges_fractional >= 1.8 & ( cooldown.invoke_niuzao_the_black_ox.remains > 10 || buff.invoke_niuzao_the_black_ox.up )",
 								["action"] = "purifying_brew",
 								["description"] = "Avoid capping charges, but pool charges shortly before Niuzao comes up and allow dumping to avoid capping during Niuzao.",
+								["criteria"] = "cooldown.purifying_brew.charges_fractional >= 1.8 & ( cooldown.invoke_niuzao_the_black_ox.remains > 10 || buff.invoke_niuzao_the_black_ox.up )",
 							}, -- [30]
 							{
 								["enabled"] = true,
-								["criteria"] = "cooldown.purifying_brew.charges_fractional < 0.5",
 								["action"] = "black_ox_brew",
 								["description"] = "Black Ox Brew is currently used to either replenish brews based on less than half a brew charge available, or low energy to enable Keg Smash",
+								["criteria"] = "cooldown.purifying_brew.charges_fractional < 0.5",
 							}, -- [31]
 							{
 								["enabled"] = true,
@@ -1067,9 +1067,9 @@ HekiliDB = {
 							}, -- [32]
 							{
 								["enabled"] = true,
-								["criteria"] = "health.pct < 5 * healing_sphere.count || ( healing_sphere.count >= 3 & health.pct < 50 )",
 								["action"] = "expel_harm",
 								["description"] = "Healing Elixir",
+								["criteria"] = "health.pct < 5 * healing_sphere.count || ( healing_sphere.count >= 3 & health.pct < 50 )",
 							}, -- [33]
 							{
 								["enabled"] = true,
@@ -1083,9 +1083,9 @@ HekiliDB = {
 							}, -- [35]
 							{
 								["enabled"] = true,
-								["criteria"] = "spell_targets >= 2",
 								["action"] = "keg_smash",
 								["description"] = "Offensively, the APL prioritizes KS on cleave, BoS else, with energy spenders and cds sorted below",
+								["criteria"] = "spell_targets >= 2",
 							}, -- [36]
 							{
 								["enabled"] = true,
@@ -1094,15 +1094,15 @@ HekiliDB = {
 							}, -- [37]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.weapons_of_order.up",
 								["action"] = "keg_smash",
 								["description"] = "Cast KS at top prio during WoO buff.",
+								["criteria"] = "buff.weapons_of_order.up",
 							}, -- [38]
 							{
 								["enabled"] = true,
-								["criteria"] = "tanking & buff.blackout_combo.down & incoming_damage_2999ms > ( health.max * 0.05 + stagger.last_tick_damage_4 ) & buff.elusive_brawler.stack < 2",
 								["action"] = "celestial_brew",
 								["description"] = "Celestial Brew priority whenever it took significant damage and ironskin brew buff is missing (adjust the health.max coefficient according to intensity of damage taken), and to dump excess charges before BoB.",
+								["criteria"] = "tanking & buff.blackout_combo.down & incoming_damage_2999ms > ( health.max * 0.05 + stagger.last_tick_damage_4 ) & buff.elusive_brawler.stack < 2",
 							}, -- [39]
 							{
 								["enabled"] = true,
@@ -1193,15 +1193,15 @@ HekiliDB = {
 							}, -- [58]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.gift_of_the_ox.stack >= 2",
 								["action"] = "expel_harm",
 								["description"] = "Expel Harm has higher DPET than TP when you have at least 2 orbs.",
+								["criteria"] = "buff.gift_of_the_ox.stack >= 2",
 							}, -- [59]
 							{
 								["enabled"] = true,
-								["criteria"] = "! runeforge.shaohaos_might.equipped & ( active_enemies >= 3 || settings.ox_walker & conduit.walk_with_the_ox.enabled ) & cooldown.keg_smash.remains > gcd & ( energy + ( energy.regen * ( cooldown.keg_smash.remains + execute_time ) ) ) >= 65 & ( ! talent.spitfire.enabled || ! runeforge.charred_passions.equipped )",
 								["action"] = "spinning_crane_kick",
 								["description"] = "Cast SCK if enough enemies are around, or if WWWTO is enabled. This is a slight defensive loss over using TP but generally reduces sim variance more than anything else.",
+								["criteria"] = "! runeforge.shaohaos_might.equipped & ( active_enemies >= 3 || settings.ox_walker & conduit.walk_with_the_ox.enabled ) & cooldown.keg_smash.remains > gcd & ( energy + ( energy.regen * ( cooldown.keg_smash.remains + execute_time ) ) ) >= 65 & ( ! talent.spitfire.enabled || ! runeforge.charred_passions.equipped )",
 							}, -- [60]
 							{
 								["enabled"] = true,
@@ -1250,412 +1250,6 @@ HekiliDB = {
 					["warnings"] = "WARNING:  The import for 'default' required some automated changes.\nLine 61: Converted 'talent.X' to 'talent.X.enabled' (1x).\n\nImported 2 action lists.\n",
 					["spec"] = 268,
 					["profile"] = "## Brewmaster Monk\n## March 2, 2022\n\n## Changes:\n## - 9.1 includes Purifying Brew entries related to Invoke Niuzao that do not using spec settings.  Provide feedback on GitHub.\n## - Disregard new target.cooldown.pause_action.remains conditions that don't have an in-game equivalent.\n## - Make settings.ox_walker support using SCK on fewer than 3 enemies with conduit.walk_with_the_ox.\n\n## Executed before combat begins. Accepts non-harmful actions only.\nactions.precombat+=/fleshcraft\nactions.precombat+=/bottled_flayedwing_toxin\nactions.precombat+=/fleshcraft\nactions.precombat+=/chi_burst\nactions.precombat+=/chi_wave\n\n## Executed every time the actor is available.\nactions=spear_hand_strike\n\nactions+=/purifying_brew,if=settings.purify_for_celestial&(time_to_max_charges<gcd.max||buff.purified_chi.up&buff.purified_chi.remains<1.5*gcd.max)||cooldown.celestial_brew.remains<2*gcd.max&charges_fractional>1.5\nactions+=/celestial_brew,if=buff.purified_chi.up\nactions+=/dampen_harm,if=health.pct<75&incoming_damage_3s>health.max*(0.2+(0.2*group))&buff.fortifying_brew.down\nactions+=/fortifying_brew,if=health.pct<50&incoming_damage_3s>health.max*(0.2+(0.2*group))&(buff.dampen_harm.down)\n\nactions+=/spear_hand_strike,if=target.debuff.casting.react\nactions+=/use_item,name=ashvanes_razor_coral,if=debuff.razor_coral_debuff.down||debuff.conductive_ink_debuff.up&target.health.pct<31||time_to_die<20\nactions+=/use_item,name=dreadfire_vessel\nactions+=/use_items\nactions+=/potion\nactions+=/blood_fury\nactions+=/berserking\nactions+=/lights_judgment\nactions+=/fireblood\nactions+=/ancestral_call\nactions+=/bag_of_tricks\nactions+=/invoke_niuzao_the_black_ox,if=target.time_to_die>6&cooldown.purifying_brew.charges_fractional<2\nactions+=/touch_of_death,if=target.health.pct<=15||target.health.current<health.max\nactions+=/weapons_of_order\nactions+=/fallen_order\nactions+=/bonedust_brew,if=!debuff.bonedust_brew_debuff.up\n\n# Use configured purify_stagger_currhp from Brewmaster options.\nactions+=/purifying_brew,if=settings.purify_stagger_currhp>0&group&stagger.pct>=settings.purify_stagger_currhp\n# Use configured purify_stagger_currhp from Brewmaster options.\nactions+=/purifying_brew,if=settings.purify_stagger_currhp>0&solo&stagger.pct>=settings.purify_stagger_currhp*0.5\n\n# Use configured purify_stagger_maxhp from Brewmaster options.\nactions+=/purifying_brew,if=settings.purify_stagger_maxhp>0&group&stagger.pct>=settings.purify_stagger_maxhp\n# Use configured purify_stagger_maxhp from Brewmaster options.\nactions+=/purifying_brew,if=settings.purify_stagger_maxhp>0&solo&stagger.pct>=settings.purify_stagger_maxhp*0.5\n\n# Cast PB during the Niuzao window, but only if recently hit.\nactions+=/purifying_brew,if=stagger.amounttototalpct>=0.7&(cooldown.invoke_niuzao_the_black_ox.remains<5||buff.invoke_niuzao_the_black_ox.up)\n\n# Stagger % of 20 will kill you in 2.5 seconds without healing or purifying.  Used when purify_stagger_currhp and maxhp are disabled.\nactions+=/purifying_brew,if=settings.purify_stagger_currhp=0&settings.purify_stagger_maxhp=0&group&stagger.pct>20\n# Stagger % of 10 will kill you in 5 seconds without healing or purifying.  Used when purify_stagger_currhp and maxhp are disabled.\nactions+=/purifying_brew,if=settings.purify_stagger_currhp=0&settings.purify_stagger_maxhp=0&solo&stagger.pct>10\n\n# Dump PB charges towards the end of Niuzao: anything is better than nothing.\nactions+=/purifying_brew,if=buff.invoke_niuzao_the_black_ox.up&buff.invoke_niuzao_the_black_ox.remains<8\n\n# Avoid capping charges, but pool charges shortly before Niuzao comes up and allow dumping to avoid capping during Niuzao.\nactions+=/purifying_brew,if=cooldown.purifying_brew.charges_fractional>=1.8&(cooldown.invoke_niuzao_the_black_ox.remains>10||buff.invoke_niuzao_the_black_ox.up)\n\n# Black Ox Brew is currently used to either replenish brews based on less than half a brew charge available, or low energy to enable Keg Smash\nactions+=/black_ox_brew,if=cooldown.purifying_brew.charges_fractional<0.5\nactions+=/black_ox_brew,if=(energy+(energy.regen*cooldown.keg_smash.remains))<40&buff.blackout_combo.down&cooldown.keg_smash.up\n\n# Healing Elixir\nactions+=/expel_harm,if=health.pct<5*healing_sphere.count||(healing_sphere.count>=3&health.pct<50)\nactions+=/healing_elixir,if=health.pct<33\n\nactions+=/fleshcraft,if=cooldown.bonedust_brew.remains<4&soulbind.pustule_eruption.enabled\n\n# Offensively, the APL prioritizes KS on cleave, BoS else, with energy spenders and cds sorted below\nactions+=/keg_smash,if=spell_targets>=2\nactions+=/faeline_stomp,if=spell_targets>=2\n\n# Cast KS at top prio during WoO buff.\nactions+=/keg_smash,if=buff.weapons_of_order.up\n\n# Celestial Brew priority whenever it took significant damage and ironskin brew buff is missing (adjust the health.max coefficient according to intensity of damage taken), and to dump excess charges before BoB.\nactions+=/celestial_brew,if=tanking&buff.blackout_combo.down&incoming_damage_2999ms>(health.max*0.05+stagger.last_tick_damage_4)&buff.elusive_brawler.stack<2\nactions+=/celestial_brew,if=tanking&buff.purified_chi.up&(buff.purified_chi.remains<1.5*gcd||cooldown.purifying_brew.remains>buff.purified_chi.remains)\n\nactions+=/detox\n\nactions+=/rushing_jade_wind,if=spell_targets>=2&buff.rushing_jade_wind.down\nactions+=/tiger_palm,if=talent.rushing_jade_wind.enabled&buff.blackout_combo.up&buff.rushing_jade_wind.up\nactions+=/breath_of_fire,if=buff.charred_passions.down&runeforge.charred_passions.equipped\nactions+=/blackout_kick\nactions+=/keg_smash\nactions+=/chi_burst,if=cooldown.faeline_stomp.remains>2&spell_targets>=2\nactions+=/faeline_stomp\nactions+=/expel_harm,if=buff.gift_of_the_ox.stack>=3\nactions+=/touch_of_death\nactions+=/rushing_jade_wind,if=buff.rushing_jade_wind.down\nactions+=/spinning_crane_kick,if=buff.charred_passions.up\nactions+=/concentrated_flame,if=dot.concentrated_flame.remains=0\nactions+=/breath_of_fire,if=buff.blackout_combo.down&(buff.bloodlust.down||(buff.bloodlust.up&dot.breath_of_fire_dot.refreshable))\nactions+=/heart_essence,if=!essence.the_crucible_of_flame.major\nactions+=/chi_burst\nactions+=/chi_wave\nactions+=/exploding_keg\n# Expel Harm has higher DPET than TP when you have at least 2 orbs.\nactions+=/expel_harm,if=buff.gift_of_the_ox.stack>=2\n# Cast SCK if enough enemies are around, or if WWWTO is enabled. This is a slight defensive loss over using TP but generally reduces sim variance more than anything else.\nactions+=/spinning_crane_kick,if=!runeforge.shaohaos_might.equipped&(active_enemies>=3||settings.ox_walker&conduit.walk_with_the_ox.enabled)&cooldown.keg_smash.remains>gcd&(energy+(energy.regen*(cooldown.keg_smash.remains+execute_time)))>=65&(!talent.spitfire.enabled||!runeforge.charred_passions.equipped)\nactions+=/tiger_palm,if=!talent.blackout_combo&cooldown.keg_smash.remains>gcd&(energy+(energy.regen*(cooldown.keg_smash.remains+gcd)))>=65\nactions+=/arcane_torrent,if=energy<31\nactions+=/fleshcraft,if=soulbind.volatile_solvent.enabled\nactions+=/rushing_jade_wind",
-				},
-				["Arms"] = {
-					["source"] = "https://github.com/simulationcraft/simc/",
-					["builtIn"] = true,
-					["date"] = 20220319,
-					["author"] = "SimulationCraft",
-					["desc"] = "Arms Warrior\nMarch 19, 2022\n\nChanges:\n- Update for 9.2; add target swapping for Execute/Condemn.",
-					["lists"] = {
-						["single_target"] = {
-							{
-								["enabled"] = true,
-								["criteria"] = "remains <= gcd",
-								["action"] = "rend",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["criteria"] = "fight_remains > 140",
-								["action"] = "conquerors_banner",
-							}, -- [2]
-							{
-								["action"] = "avatar",
-								["enabled"] = true,
-							}, -- [3]
-							{
-								["action"] = "ravager",
-								["enabled"] = true,
-							}, -- [4]
-							{
-								["action"] = "warbreaker",
-								["enabled"] = true,
-							}, -- [5]
-							{
-								["action"] = "colossus_smash",
-								["enabled"] = true,
-							}, -- [6]
-							{
-								["action"] = "ancient_aftershock",
-								["enabled"] = true,
-							}, -- [7]
-							{
-								["action"] = "spear_of_bastion",
-								["enabled"] = true,
-							}, -- [8]
-							{
-								["enabled"] = true,
-								["criteria"] = "charges = 2",
-								["action"] = "overpower",
-							}, -- [9]
-							{
-								["enabled"] = true,
-								["criteria"] = "runeforge.enduring_blow.enabled || runeforge.battlelord.enabled || buff.overpower.stack >= 2",
-								["action"] = "mortal_strike",
-							}, -- [10]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.sudden_death.react",
-								["action"] = "condemn",
-							}, -- [11]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.sudden_death.react",
-								["action"] = "execute",
-							}, -- [12]
-							{
-								["enabled"] = true,
-								["criteria"] = "rage.deficit > 45 & buff.deadly_calm.down",
-								["action"] = "skullsplitter",
-							}, -- [13]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.deadly_calm.down & rage < 30",
-								["action"] = "bladestorm",
-							}, -- [14]
-							{
-								["action"] = "deadly_calm",
-								["enabled"] = true,
-							}, -- [15]
-							{
-								["action"] = "overpower",
-								["enabled"] = true,
-							}, -- [16]
-							{
-								["action"] = "mortal_strike",
-								["enabled"] = true,
-							}, -- [17]
-							{
-								["enabled"] = true,
-								["criteria"] = "remains < duration * 0.3",
-								["action"] = "rend",
-							}, -- [18]
-							{
-								["enabled"] = true,
-								["criteria"] = "spell_targets.whirlwind > 1",
-								["action"] = "cleave",
-							}, -- [19]
-							{
-								["enabled"] = true,
-								["criteria"] = "talent.fervor_of_battle.enabled || spell_targets.whirlwind > 4 || spell_targets.whirlwind > 2 & buff.sweeping_strikes.down",
-								["action"] = "whirlwind",
-							}, -- [20]
-							{
-								["enabled"] = true,
-								["criteria"] = "! talent.fervor_of_battle.enabled & ( rage > 50 || debuff.colossus_smash.up || ! runeforge.enduring_blow.enabled )",
-								["action"] = "slam",
-							}, -- [21]
-						},
-						["default"] = {
-							{
-								["action"] = "charge",
-								["enabled"] = true,
-							}, -- [1]
-							{
-								["action"] = "pummel",
-								["enabled"] = true,
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "gcd.remains = 0 & debuff.colossus_smash.remains > 8 || boss & fight_remains < 25",
-								["action"] = "potion",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.colossus_smash.up",
-								["action"] = "blood_fury",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.colossus_smash.remains > 6",
-								["action"] = "berserking",
-							}, -- [5]
-							{
-								["enabled"] = true,
-								["criteria"] = "cooldown.mortal_strike.remains > 1.5 & rage < 50",
-								["action"] = "arcane_torrent",
-							}, -- [6]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.colossus_smash.down & cooldown.mortal_strike.remains",
-								["action"] = "lights_judgment",
-							}, -- [7]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.colossus_smash.up",
-								["action"] = "fireblood",
-							}, -- [8]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.colossus_smash.up",
-								["action"] = "ancestral_call",
-							}, -- [9]
-							{
-								["enabled"] = true,
-								["criteria"] = "debuff.colossus_smash.down & cooldown.mortal_strike.remains",
-								["action"] = "bag_of_tricks",
-							}, -- [10]
-							{
-								["enabled"] = true,
-								["name"] = "scars_of_fraternal_strife",
-								["action"] = "scars_of_fraternal_strife",
-							}, -- [11]
-							{
-								["enabled"] = true,
-								["name"] = "gavel_of_the_first_arbiter",
-								["action"] = "gavel_of_the_first_arbiter",
-							}, -- [12]
-							{
-								["action"] = "use_items",
-								["enabled"] = true,
-							}, -- [13]
-							{
-								["enabled"] = true,
-								["criteria"] = "spell_targets.whirlwind > 1 & ( cooldown.bladestorm.remains > 15 || talent.ravager.enabled )",
-								["action"] = "sweeping_strikes",
-							}, -- [14]
-							{
-								["enabled"] = true,
-								["action"] = "call_action_list",
-								["strict"] = 1,
-								["criteria"] = "talent.massacre.enabled & target.health.pct < 35 || target.health.pct < 20 || covenant.venthyr & target.health.pct > 80 || cycle_for_execute || cycle_for_condemn",
-								["list_name"] = "execute",
-							}, -- [15]
-							{
-								["enabled"] = true,
-								["action"] = "call_action_list",
-								["strict"] = 1,
-								["criteria"] = "raid_event.adds.up || spell_targets.whirlwind > 1",
-								["list_name"] = "hac",
-							}, -- [16]
-							{
-								["enabled"] = true,
-								["action"] = "call_action_list",
-								["list_name"] = "single_target",
-							}, -- [17]
-							{
-								["action"] = "victory_rush",
-								["enabled"] = true,
-							}, -- [18]
-							{
-								["action"] = "impending_victory",
-								["enabled"] = true,
-							}, -- [19]
-						},
-						["precombat"] = {
-							{
-								["action"] = "battle_shout",
-								["enabled"] = true,
-							}, -- [1]
-						},
-						["execute"] = {
-							{
-								["action"] = "deadly_calm",
-								["enabled"] = true,
-							}, -- [1]
-							{
-								["action"] = "conquerors_banner",
-								["enabled"] = true,
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "spell_targets.whirlwind = 1 & gcd.remains = 0 & ( rage > 75 || rage > 50 & buff.recklessness.up )",
-								["action"] = "cancel_buff",
-								["buff_name"] = "bladestorm",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["criteria"] = "gcd.remains = 0 || target.time_to_die < 20",
-								["action"] = "avatar",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["action"] = "condemn",
-								["criteria"] = "buff.ashen_juggernaut.up & buff.ashen_juggernaut.remains < gcd & conduit.ashen_juggernaut.rank > 1",
-								["cycle_targets"] = 1,
-							}, -- [5]
-							{
-								["enabled"] = true,
-								["action"] = "execute",
-								["criteria"] = "buff.ashen_juggernaut.up & buff.ashen_juggernaut.remains < gcd & conduit.ashen_juggernaut.rank > 1",
-								["cycle_targets"] = 1,
-							}, -- [6]
-							{
-								["action"] = "ravager",
-								["enabled"] = true,
-							}, -- [7]
-							{
-								["enabled"] = true,
-								["criteria"] = "remains <= gcd & ( ! talent.warbreaker.enabled & cooldown.colossus_smash.remains < 4 || talent.warbreaker.enabled & cooldown.warbreaker.remains < 4 ) & target.time_to_die > 12",
-								["action"] = "rend",
-							}, -- [8]
-							{
-								["action"] = "warbreaker",
-								["enabled"] = true,
-							}, -- [9]
-							{
-								["action"] = "colossus_smash",
-								["enabled"] = true,
-							}, -- [10]
-							{
-								["action"] = "ancient_aftershock",
-								["enabled"] = true,
-							}, -- [11]
-							{
-								["action"] = "spear_of_bastion",
-								["enabled"] = true,
-							}, -- [12]
-							{
-								["enabled"] = true,
-								["action"] = "condemn",
-								["criteria"] = "runeforge.signet_of_tormented_kings.enabled & ( rage.deficit < 25 || debuff.colossus_smash.up & rage > 40 || buff.sudden_death.react || buff.deadly_calm.up )",
-								["cycle_targets"] = 1,
-							}, -- [13]
-							{
-								["enabled"] = true,
-								["criteria"] = "charges = 2",
-								["action"] = "overpower",
-							}, -- [14]
-							{
-								["enabled"] = true,
-								["criteria"] = "spell_targets.whirlwind > 1 & dot.deep_wounds.remains < gcd",
-								["action"] = "cleave",
-							}, -- [15]
-							{
-								["enabled"] = true,
-								["criteria"] = "dot.deep_wounds.remains <= gcd || runeforge.enduring_blow.enabled || buff.overpower.stack = 2 & debuff.exploiter.stack = 2 || buff.battlelord.up",
-								["action"] = "mortal_strike",
-							}, -- [16]
-							{
-								["enabled"] = true,
-								["action"] = "condemn",
-								["criteria"] = "rage.deficit < 25 || buff.deadly_calm.up",
-								["cycle_targets"] = 1,
-							}, -- [17]
-							{
-								["enabled"] = true,
-								["criteria"] = "rage < 45",
-								["action"] = "skullsplitter",
-							}, -- [18]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.deadly_calm.down & ( rage < 20 || ! runeforge.sinful_surge.enabled & rage < 50 )",
-								["action"] = "bladestorm",
-							}, -- [19]
-							{
-								["action"] = "overpower",
-								["enabled"] = true,
-							}, -- [20]
-							{
-								["enabled"] = true,
-								["action"] = "condemn",
-								["cycle_targets"] = 1,
-							}, -- [21]
-							{
-								["enabled"] = true,
-								["action"] = "execute",
-								["cycle_targets"] = 1,
-							}, -- [22]
-						},
-						["hac"] = {
-							{
-								["enabled"] = true,
-								["criteria"] = "rage < 60 & buff.deadly_calm.down",
-								["action"] = "skullsplitter",
-							}, -- [1]
-							{
-								["action"] = "conquerors_banner",
-								["enabled"] = true,
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "cooldown.colossus_smash.remains < 1",
-								["action"] = "avatar",
-							}, -- [3]
-							{
-								["action"] = "warbreaker",
-								["enabled"] = true,
-							}, -- [4]
-							{
-								["action"] = "colossus_smash",
-								["enabled"] = true,
-							}, -- [5]
-							{
-								["enabled"] = true,
-								["criteria"] = "dot.deep_wounds.remains <= gcd",
-								["action"] = "cleave",
-							}, -- [6]
-							{
-								["action"] = "ancient_aftershock",
-								["enabled"] = true,
-							}, -- [7]
-							{
-								["action"] = "spear_of_bastion",
-								["enabled"] = true,
-							}, -- [8]
-							{
-								["action"] = "bladestorm",
-								["enabled"] = true,
-							}, -- [9]
-							{
-								["action"] = "ravager",
-								["enabled"] = true,
-							}, -- [10]
-							{
-								["enabled"] = true,
-								["criteria"] = "remains <= duration * 0.3 & buff.sweeping_strikes.up",
-								["action"] = "rend",
-							}, -- [11]
-							{
-								["action"] = "cleave",
-								["enabled"] = true,
-							}, -- [12]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.sweeping_strikes.up || dot.deep_wounds.remains < gcd & ! talent.cleave.enabled",
-								["action"] = "mortal_strike",
-							}, -- [13]
-							{
-								["enabled"] = true,
-								["criteria"] = "talent.dreadnaught.enabled",
-								["action"] = "overpower",
-							}, -- [14]
-							{
-								["enabled"] = true,
-								["action"] = "condemn",
-								["criteria"] = "buff.sweeping_strikes.up || buff.sudden_death.up",
-								["cycle_targets"] = 1,
-							}, -- [15]
-							{
-								["enabled"] = true,
-								["action"] = "execute",
-								["criteria"] = "buff.sweeping_strikes.up || buff.sudden_death.up",
-								["cycle_targets"] = 1,
-							}, -- [16]
-							{
-								["action"] = "overpower",
-								["enabled"] = true,
-							}, -- [17]
-							{
-								["action"] = "whirlwind",
-								["enabled"] = true,
-							}, -- [18]
-						},
-					},
-					["version"] = 20220319,
-					["warnings"] = "WARNING:  The import for 'single_target' required some automated changes.\nLine 10: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 10: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 21: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\n\nWARNING:  The import for 'execute' required some automated changes.\nLine 13: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 16: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 19: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\n\nImported 5 action lists.\n",
-					["profile"] = "## Arms Warrior\n## March 19, 2022\n\n## Changes:\n## - Update for 9.2; add target swapping for Execute/Condemn.\n\n## Executed before combat begins. Accepts non-harmful actions only.\nactions.precombat+=/battle_shout\n\n## Executed every time the actor is available.\nactions=charge\nactions+=/pummel\nactions+=/potion,if=gcd.remains=0&debuff.colossus_smash.remains>8||boss&fight_remains<25\nactions+=/blood_fury,if=debuff.colossus_smash.up\nactions+=/berserking,if=debuff.colossus_smash.remains>6\nactions+=/arcane_torrent,if=cooldown.mortal_strike.remains>1.5&rage<50\nactions+=/lights_judgment,if=debuff.colossus_smash.down&cooldown.mortal_strike.remains\nactions+=/fireblood,if=debuff.colossus_smash.up\nactions+=/ancestral_call,if=debuff.colossus_smash.up\nactions+=/bag_of_tricks,if=debuff.colossus_smash.down&cooldown.mortal_strike.remains\nactions+=/use_item,name=scars_of_fraternal_strife\nactions+=/use_item,name=gavel_of_the_first_arbiter\nactions+=/use_items\nactions+=/sweeping_strikes,if=spell_targets.whirlwind>1&(cooldown.bladestorm.remains>15||talent.ravager.enabled)\nactions+=/call_action_list,name=execute,strict=1,if=talent.massacre.enabled&target.health.pct<35||target.health.pct<20||covenant.venthyr&target.health.pct>80||cycle_for_execute||cycle_for_condemn\nactions+=/call_action_list,name=hac,strict=1,if=raid_event.adds.up||spell_targets.whirlwind>1\nactions+=/call_action_list,name=single_target\nactions+=/victory_rush\nactions+=/impending_victory\n\nactions.execute=deadly_calm\nactions.execute+=/conquerors_banner\nactions.execute+=/cancel_buff,name=bladestorm,if=spell_targets.whirlwind=1&gcd.remains=0&(rage>75||rage>50&buff.recklessness.up)\nactions.execute+=/avatar,if=gcd.remains=0||target.time_to_die<20\nactions.execute+=/condemn,cycle_targets=1,if=buff.ashen_juggernaut.up&buff.ashen_juggernaut.remains<gcd&conduit.ashen_juggernaut.rank>1\nactions.execute+=/execute,cycle_targets=1,if=buff.ashen_juggernaut.up&buff.ashen_juggernaut.remains<gcd&conduit.ashen_juggernaut.rank>1\nactions.execute+=/ravager\nactions.execute+=/rend,if=remains<=gcd&(!talent.warbreaker.enabled&cooldown.colossus_smash.remains<4||talent.warbreaker.enabled&cooldown.warbreaker.remains<4)&target.time_to_die>12\nactions.execute+=/warbreaker\nactions.execute+=/colossus_smash\nactions.execute+=/ancient_aftershock\nactions.execute+=/spear_of_bastion\nactions.execute+=/condemn,cycle_targets=1,if=runeforge.signet_of_tormented_kings&(rage.deficit<25||debuff.colossus_smash.up&rage>40||buff.sudden_death.react||buff.deadly_calm.up)\nactions.execute+=/overpower,if=charges=2\nactions.execute+=/cleave,if=spell_targets.whirlwind>1&dot.deep_wounds.remains<gcd\nactions.execute+=/mortal_strike,if=dot.deep_wounds.remains<=gcd||runeforge.enduring_blow||buff.overpower.stack=2&debuff.exploiter.stack=2||buff.battlelord.up\nactions.execute+=/condemn,cycle_targets=1,if=rage.deficit<25||buff.deadly_calm.up\nactions.execute+=/skullsplitter,if=rage<45\nactions.execute+=/bladestorm,if=buff.deadly_calm.down&(rage<20||!runeforge.sinful_surge&rage<50)\nactions.execute+=/overpower\nactions.execute+=/condemn,cycle_targets=1\nactions.execute+=/execute,cycle_targets=1\n\nactions.hac=skullsplitter,if=rage<60&buff.deadly_calm.down\nactions.hac+=/conquerors_banner\nactions.hac+=/avatar,if=cooldown.colossus_smash.remains<1\nactions.hac+=/warbreaker\nactions.hac+=/colossus_smash\nactions.hac+=/cleave,if=dot.deep_wounds.remains<=gcd\nactions.hac+=/ancient_aftershock\nactions.hac+=/spear_of_bastion\nactions.hac+=/bladestorm\nactions.hac+=/ravager\nactions.hac+=/rend,if=remains<=duration*0.3&buff.sweeping_strikes.up\nactions.hac+=/cleave\nactions.hac+=/mortal_strike,if=buff.sweeping_strikes.up||dot.deep_wounds.remains<gcd&!talent.cleave.enabled\nactions.hac+=/overpower,if=talent.dreadnaught.enabled\nactions.hac+=/condemn,cycle_targets=1,if=buff.sweeping_strikes.up||buff.sudden_death.up\nactions.hac+=/execute,cycle_targets=1,if=buff.sweeping_strikes.up||buff.sudden_death.up\nactions.hac+=/overpower\nactions.hac+=/whirlwind\n\nactions.single_target=rend,if=remains<=gcd\nactions.single_target+=/conquerors_banner,if=fight_remains>140\nactions.single_target+=/avatar\nactions.single_target+=/ravager\nactions.single_target+=/warbreaker\nactions.single_target+=/colossus_smash\nactions.single_target+=/ancient_aftershock\nactions.single_target+=/spear_of_bastion\nactions.single_target+=/overpower,if=charges=2\nactions.single_target+=/mortal_strike,if=runeforge.enduring_blow||runeforge.battlelord||buff.overpower.stack>=2\nactions.single_target+=/condemn,if=buff.sudden_death.react\nactions.single_target+=/execute,if=buff.sudden_death.react\nactions.single_target+=/skullsplitter,if=rage.deficit>45&buff.deadly_calm.down\nactions.single_target+=/bladestorm,if=buff.deadly_calm.down&rage<30\nactions.single_target+=/deadly_calm\nactions.single_target+=/overpower\nactions.single_target+=/mortal_strike\nactions.single_target+=/rend,if=remains<duration*0.3\nactions.single_target+=/cleave,if=spell_targets.whirlwind>1\nactions.single_target+=/whirlwind,if=talent.fervor_of_battle.enabled||spell_targets.whirlwind>4||spell_targets.whirlwind>2&buff.sweeping_strikes.down\nactions.single_target+=/slam,if=!talent.fervor_of_battle.enabled&(rage>50||debuff.colossus_smash.up||!runeforge.enduring_blow)",
-					["spec"] = 71,
 				},
 				["Protection Paladin"] = {
 					["source"] = "https://github.com/simulationcraft/simc/",
@@ -1817,15 +1411,15 @@ HekiliDB = {
 							}, -- [10]
 							{
 								["enabled"] = true,
-								["action"] = "grongs_primal_rage",
 								["criteria"] = "( ( cooldown.judgment.full_recharge_time > 4 || ( ! talent.crusaders_judgment.enabled & prev_gcd.1.judgment ) ) & cooldown.avengers_shield.remains > 4 & buff.seraphim.remains > 4 ) || ( buff.seraphim.remains < 4 )",
 								["name"] = "grongs_primal_rage",
+								["action"] = "grongs_primal_rage",
 							}, -- [11]
 							{
 								["enabled"] = true,
-								["action"] = "merekthas_fang",
 								["criteria"] = "! buff.avenging_wrath.up & ( buff.seraphim.up || ! talent.seraphim.enabled )",
 								["name"] = "merekthas_fang",
+								["action"] = "merekthas_fang",
 							}, -- [12]
 							{
 								["enabled"] = true,
@@ -1876,9 +1470,9 @@ HekiliDB = {
 							}, -- [8]
 							{
 								["enabled"] = true,
-								["action"] = "guardian_of_ancient_kings",
 								["description"] = "actions.mitigation+=/shield_of_the_righteous,if=buff.shield_of_the_righteous.down&(holy_power>2||buff.divine_purpose.up)",
 								["criteria"] = "incoming_damage_2500ms > health.max * 0.4 & ! ( buff.ardent_defender.up || buff.guardian_of_ancient_kings.up || buff.divine_shield.up || buff.potion.up )",
+								["action"] = "guardian_of_ancient_kings",
 							}, -- [9]
 							{
 								["enabled"] = true,
@@ -1998,6 +1592,396 @@ HekiliDB = {
 					["spec"] = 66,
 					["profile"] = "# Protection Paladin\n# July 10, 2021\n\n# Changes\n# - Added Rebuke.\n# - Remove Seraphim restrictions on multiple mitigation abilities.\n\n# Executed before combat begins. Accepts non-harmful actions only.\nactions.precombat+=/devotion_aura\nactions.precombat+=/fleshcraft\nactions.precombat+=/consecration\nactions.precombat+=/lights_judgment\nactions.precombat+=/ashen_hallow\n\n# Executed every time the actor is available.\nactions=rebuke\nactions+=/call_action_list,name=cooldowns\nactions+=/call_action_list,name=mitigation\nactions+=/call_action_list,name=standard\n\nactions+=/shield_of_the_righteous,if=holy_power.deficit=0&((buff.avenging_wrath.up&!talent.seraphim.enabled)||buff.seraphim.up)\nactions+=/shield_of_the_righteous,if=(buff.avenging_wrath.up&buff.avenging_wrath.remains<4&!talent.seraphim.enabled)||(buff.seraphim.remains<4&buff.seraphim.up)\nactions+=/hammer_of_wrath,if=holy_power.deficit>0\nactions+=/lights_judgment,if=buff.seraphim.up&buff.seraphim.remains<3\nactions+=/consecration,if=!consecration.up\nactions+=/judgment,if=(cooldown.judgment.remains<gcd&cooldown.judgment.charges_fractional>1&cooldown_react)||!talent.crusaders_judgment.enabled\nactions+=/avengers_shield,if=cooldown_react\nactions+=/judgment,if=cooldown_react||!talent.crusaders_judgment.enabled\nactions+=/lights_judgment,if=!talent.seraphim.enabled||buff.seraphim.up\nactions+=/blessed_hammer,strikes=3\nactions+=/hammer_of_the_righteous\nactions+=/consecration\n\nactions.standard=shield_of_the_righteous,if=debuff.judgment.up\nactions.standard+=/shield_of_the_righteous,if=holy_power=5||buff.holy_avenger.up||holy_power=4&talent.sanctified_wrath.enabled&buff.avenging_wrath.up\nactions.standard+=/judgment,cycle_targets=1,if=charges=2||!talent.crusaders_judgment.enabled\nactions.standard+=/hammer_of_wrath\nactions.standard+=/blessing_of_summer\nactions.standard+=/blessing_of_autumn\nactions.standard+=/blessing_of_winter\nactions.standard+=/blessing_of_spring\nactions.standard+=/avengers_shield\nactions.standard+=/judgment,cycle_targets=1\nactions.standard+=/vanquishers_hammer\nactions.standard+=/consecration,if=!consecration.up\nactions.standard+=/divine_toll\nactions.standard+=/blessed_hammer,strikes=2.4,if=charges=3\nactions.standard+=/ashen_hallow\nactions.standard+=/hammer_of_the_righteous,if=charges=2\nactions.standard+=/blessed_hammer,strikes=2.4\nactions.standard+=/hammer_of_the_righteous\nactions.standard+=/lights_judgment\nactions.standard+=/arcane_torrent\nactions.standard+=/consecration\n\nactions.cooldowns=fireblood,if=buff.avenging_wrath.up\nactions.cooldowns+=/seraphim\nactions.cooldowns+=/avenging_wrath\nactions.cooldowns+=/holy_avenger,if=buff.avenging_wrath.up||cooldown.avenging_wrath.remains>60\nactions.cooldowns+=/potion,if=buff.avenging_wrath.up\nactions.cooldowns+=/ashen_hallow,if=buff.avenging_wrath.down\nactions.cooldowns+=/vanquishers_hammer\nactions.cooldowns+=/divine_toll,if=holy_power.deficit>0\nactions.cooldowns+=/use_items,if=buff.seraphim.up||!talent.seraphim.enabled\nactions.cooldowns+=/moment_of_glory,if=prev_gcd.1.avengers_shield&cooldown.avengers_shield.remains\nactions.cooldowns+=/use_item,name=grongs_primal_rage,if=((cooldown.judgment.full_recharge_time>4||(!talent.crusaders_judgment.enabled&prev_gcd.1.judgment))&cooldown.avengers_shield.remains>4&buff.seraphim.remains>4)||(buff.seraphim.remains<4)\nactions.cooldowns+=/use_item,name=merekthas_fang,if=!buff.avenging_wrath.up&(buff.seraphim.up||!talent.seraphim.enabled)\nactions.cooldowns+=/use_item,name=razdunks_big_red_button\n\nactions.mitigation=shield_of_the_righteous,if=buff.shield_of_the_righteous.down&(holy_power.deficit=0||buff.divine_purpose.up)\nactions.mitigation+=/word_of_glory,if=buff.vanquishers_hammer.up\nactions.mitigation+=/word_of_glory,if=buff.shining_light_full.up&buff.shining_light_full.remains<gcd*2&health.pct<80&!covenant.necrolord\nactions.mitigation+=/word_of_glory,if=(health.pct<40)\nactions.mitigation+=/word_of_glory,if=(incoming_damage_10000ms<health.max*1.25)&health.pct<55&talent.righteous_protector.enabled\nactions.mitigation+=/word_of_glory,if=(incoming_damage_13000ms<health.max*1.6)&health.pct<55\nactions.mitigation+=/word_of_glory,if=(incoming_damage_6000ms<health.max*0.7)&health.pct<65&talent.righteous_protector.enabled\nactions.mitigation+=/word_of_glory,if=(incoming_damage_9000ms<health.max*1.2)&health.pct<55\n# actions.mitigation+=/shield_of_the_righteous,if=buff.shield_of_the_righteous.down&(holy_power>2||buff.divine_purpose.up)\nactions.mitigation+=/guardian_of_ancient_kings,if=incoming_damage_2500ms>health.max*0.4&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/divine_shield,if=talent.final_stand.enabled&incoming_damage_2500ms>health.max*0.4&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/ardent_defender,if=incoming_damage_2500ms>health.max*0.4&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/lay_on_hands,if=health.pct<15",
 				},
+				["Fury"] = {
+					["source"] = "https://github.com/simulationcraft/simc/",
+					["builtIn"] = true,
+					["date"] = 20220319,
+					["author"] = "SimC / Archimtiros",
+					["desc"] = "Fury Warrior\nMarch 19, 2022\n\nChanges:\n- Added Pummel.\n- Disabled movement / Heroic Leap call (not needed for in-game context).\n- Moved Bladestorm and Dragon Roar above Bloodthirst to improve frequency of recommendations (sims roughly equal).\n- Added Battle Shout to precombat APL.\n- Added Use Items.\n- Tweak for Whirlwind before level 37.\n- Removed Essences.\n- Don't use Siegebreaker if it's already up (Deathmaker).\n- Setup fake sequences for Signet opener.",
+					["lists"] = {
+						["single_target"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "runeforge.will_of_the_berserker.equipped & buff.will_of_the_berserker.remains < gcd",
+								["action"] = "raging_blow",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "runeforge.will_of_the_berserker.equipped & buff.will_of_the_berserker.remains < gcd",
+								["action"] = "crushing_blow",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["action"] = "cancel_buff",
+								["criteria"] = "spell_targets.whirlwind = 1 & gcd.remains = 0 & ( talent.massacre.enabled || covenant.venthyr ) & variable.execute_phase & ( rage > 90 || ! cooldown.condemn.remains )",
+								["buff_name"] = "bladestorm",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "( buff.enrage.up || buff.recklessness.up & runeforge.sinful_surge.enabled ) & variable.execute_phase",
+								["action"] = "condemn",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "debuff.siegebreaker.down & ( spell_targets.whirlwind > 1 || raid_event.adds.in > 15 )",
+								["action"] = "siegebreaker",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.recklessness.up || ( buff.enrage.remains < gcd || rage > 80 ) || buff.frenzy.remains < 1.5",
+								["action"] = "rampage",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["criteria"] = "set_bonus.tier28_2pc || charges = 2 || ( buff.recklessness.up & variable.execute_phase & talent.massacre.enabled )",
+								["action"] = "crushing_blow",
+							}, -- [7]
+							{
+								["action"] = "condemn",
+								["enabled"] = true,
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up & cooldown.recklessness.remains > 5 & ( boss & fight_remains > 95 || buff.recklessness.up || boss & fight_remains < 20 ) & raid_event.adds.in > 75",
+								["action"] = "ancient_aftershock",
+							}, -- [9]
+							{
+								["action"] = "execute",
+								["enabled"] = true,
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["criteria"] = "runeforge.elysian_might.enabled & buff.enrage.up & cooldown.recklessness.remains > 5 & ( buff.recklessness.up || boss & fight_remains < 20 || debuff.siegebreaker.up || ! talent.siegebreaker.enabled & boss & fight_remains > 68 ) & raid_event.adds.in > 55",
+								["action"] = "spear_of_bastion",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up & ( ! buff.recklessness.remains || rage < 50 ) & ( spell_targets.whirlwind = 1 & raid_event.adds.in > 45 || spell_targets.whirlwind = 2 )",
+								["action"] = "bladestorm",
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up & cooldown.recklessness.remains > 5 & ( buff.recklessness.up || boss & fight_remains < 20 || debuff.siegebreaker.up || ! talent.siegebreaker.enabled & boss & fight_remains > 68 ) & raid_event.adds.in > 55",
+								["action"] = "spear_of_bastion",
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.down || conduit.vicious_contempt.rank > 5 & target.health.pct < 35",
+								["action"] = "bloodthirst",
+							}, -- [14]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.down || conduit.vicious_contempt.rank > 5 & target.health.pct < 35 & ! talent.cruelty.enabled",
+								["action"] = "bloodbath",
+							}, -- [15]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.merciless_bonegrinder.up & spell_targets.whirlwind > 1",
+								["action"] = "whirlwind",
+							}, -- [16]
+							{
+								["enabled"] = true,
+								["criteria"] = "set_bonus.tier28_2pc || charges = 2 || ( buff.recklessness.up & variable.execute_phase & talent.massacre.enabled )",
+								["action"] = "raging_blow",
+							}, -- [17]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up & ( spell_targets.whirlwind > 1 || raid_event.adds.in > 15 )",
+								["action"] = "dragon_roar",
+							}, -- [18]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up",
+								["action"] = "onslaught",
+							}, -- [19]
+							{
+								["action"] = "bloodthirst",
+								["enabled"] = true,
+							}, -- [20]
+							{
+								["action"] = "bloodbath",
+								["enabled"] = true,
+							}, -- [21]
+							{
+								["action"] = "raging_blow",
+								["enabled"] = true,
+							}, -- [22]
+							{
+								["action"] = "crushing_blow",
+								["enabled"] = true,
+							}, -- [23]
+							{
+								["action"] = "whirlwind",
+								["enabled"] = true,
+							}, -- [24]
+						},
+						["aoe"] = {
+							{
+								["enabled"] = true,
+								["action"] = "cancel_buff",
+								["criteria"] = "gcd.remains = 0 & soulbind.first_strike.enabled & buff.first_strike.remains & buff.enrage.remains < gcd",
+								["buff_name"] = "bladestorm",
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up & cooldown.recklessness.remains > 5",
+								["action"] = "ancient_aftershock",
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up & rage < 40",
+								["action"] = "spear_of_bastion",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["action"] = "bladestorm",
+								["criteria"] = "buff.enrage.up & spell_targets.whirlwind > 2",
+								["interrupt_if"] = "gcd.remains=0&soulbind.first_strike&buff.first_strike.remains&buff.enrage.remains<gcd",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["criteria"] = "( buff.enrage.up || buff.recklessness.up & runeforge.sinful_surge.enabled ) & variable.execute_phase",
+								["action"] = "condemn",
+							}, -- [5]
+							{
+								["action"] = "siegebreaker",
+								["enabled"] = true,
+							}, -- [6]
+							{
+								["action"] = "rampage",
+								["enabled"] = true,
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up & cooldown.recklessness.remains > 5",
+								["action"] = "spear_of_bastion",
+							}, -- [8]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.remains > gcd * 2.5",
+								["action"] = "bladestorm",
+							}, -- [9]
+						},
+						["default"] = {
+							{
+								["enabled"] = true,
+								["action"] = "charge",
+								["description"] = "Charge if we're long past our opener, or we don't need the opener combo for Signet (non-Venthyr).",
+								["criteria"] = "time > 8 || talent.double_time.enabled || active_enemies > 1 || covenant.venthyr || ! runeforge.signet_of_tormented_kings.equipped || cooldown.recklessness.remains > gcd",
+							}, -- [1]
+							{
+								["action"] = "pummel",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "talent.massacre.enabled & target.health.pct < 35 || target.health.pct < 20 || target.health.pct > 80 & covenant.venthyr",
+								["var_name"] = "execute_phase",
+							}, -- [3]
+							{
+								["enabled"] = true,
+								["op"] = "set",
+								["action"] = "variable",
+								["value"] = "runeforge.signet_of_tormented_kings.enabled || runeforge.sinful_surge.enabled || runeforge.elysian_might.enabled",
+								["var_name"] = "unique_legendaries",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["action"] = "bloodthirst",
+								["line_cd"] = "10",
+								["criteria"] = "time < 8 & active_enemies = 1 & runeforge.signet_of_tormented_kings.equipped & ( ! covenant.venthyr || cooldown.recklessness.remains <= gcd )",
+								["description"] = "Emulates initial Bloodthirst sequence for single-target + Signet.",
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["action"] = "recklessness",
+								["line_cd"] = "10",
+								["criteria"] = "time < 8 & active_enemies = 1 & covenant.venthyr & runeforge.signet_of_tormented_kings.equipped & prev.bloodthirst",
+								["description"] = "Emulates initial Recklessness sequence for single-target + Venthyr + Signet.",
+							}, -- [6]
+							{
+								["enabled"] = true,
+								["action"] = "heroic_leap",
+								["line_cd"] = "10",
+								["criteria"] = "settings.heroic_charge & time < 5 & active_enemies = 1 & ! covenant.venthyr & runeforge.signet_of_tormented_kings.equipped & prev.bloodthirst & cooldown.charge.remains < 0.5",
+								["description"] = "Emulates initial Heroic Leap > Charge sequence for single-target + non-Venthyr + Signet.",
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["action"] = "charge",
+								["line_cd"] = "10",
+								["criteria"] = "settings.heroic_charge & time < 5 & active_enemies = 1 & ! covenant.venthyr & runeforge.signet_of_tormented_kings.equipped & prev.heroic_leap",
+								["description"] = "Emulates initial Heroic Leap > Charge sequence for single-target + non-Venthyr + Signet.",
+							}, -- [8]
+							{
+								["action"] = "potion",
+								["enabled"] = true,
+							}, -- [9]
+							{
+								["enabled"] = true,
+								["criteria"] = "rage > 70",
+								["action"] = "conquerors_banner",
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.enrage.up & rage < 70",
+								["action"] = "spear_of_bastion",
+							}, -- [11]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.recklessness.remains < 3 & talent.reckless_abandon.enabled",
+								["action"] = "rampage",
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.recklessness.down & debuff.siegebreaker.down || fight_remains < 50",
+								["action"] = "conquerors_banner",
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["criteria"] = "runeforge.sinful_surge.enabled & gcd.remains = 0 & ( variable.execute_phase || ( target.time_to_pct_35 > 40 & talent.anger_management.enabled || target.time_to_pct_35 > 70 & ! talent.anger_management.enabled ) ) & ( spell_targets.whirlwind = 1 || buff.meat_cleaver.up )",
+								["action"] = "recklessness",
+							}, -- [14]
+							{
+								["enabled"] = true,
+								["criteria"] = "runeforge.elysian_might.enabled & gcd.remains = 0 & ( cooldown.spear_of_bastion.remains < 5 || cooldown.spear_of_bastion.remains > 20 ) & ( ( buff.bloodlust.up || talent.anger_management.enabled || raid_event.adds.in > 10 ) || boss & fight_remains > 100 || variable.execute_phase || boss & fight_remains < 15 & raid_event.adds.in > 10 ) & ( spell_targets.whirlwind = 1 || buff.meat_cleaver.up )",
+								["action"] = "recklessness",
+							}, -- [15]
+							{
+								["enabled"] = true,
+								["criteria"] = "! variable.unique_legendaries & gcd.remains = 0 & ( ( buff.bloodlust.up || talent.anger_management.enabled || raid_event.adds.in > 10 ) || boss & fight_remains > 100 || variable.execute_phase || boss & fight_remains < 15 & raid_event.adds.in > 10 ) & ( spell_targets.whirlwind = 1 || buff.meat_cleaver.up ) & ( ! covenant.necrolord || cooldown.conquerors_banner.remains > 20 )",
+								["action"] = "recklessness",
+							}, -- [16]
+							{
+								["enabled"] = true,
+								["action"] = "recklessness",
+								["criteria"] = "runeforge.signet_of_tormented_kings.equipped & prev_gcd.1.rampage & ( ( buff.bloodlust.up || talent.anger_management.enabled || raid_event.adds.in > 10 ) || boss & fight_remains > 100 || variable.execute_phase || boss & fight_remains < 15 & raid_event.adds.in > 10 ) & ( spell_targets.whirlwind = 1 || buff.meat_cleaver.up )",
+								["use_off_gcd"] = 1,
+							}, -- [17]
+							{
+								["enabled"] = true,
+								["criteria"] = "level > 36 & ( spell_targets.whirlwind > 1 & ! buff.meat_cleaver.up || raid_event.adds.in < gcd & ! buff.meat_cleaver.up )",
+								["action"] = "whirlwind",
+							}, -- [18]
+							{
+								["enabled"] = true,
+								["action"] = "inscrutable_quantum_device",
+								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 21 || boss & fight_remains > 190 || buff.bloodlust.up )",
+								["name"] = "inscrutable_quantum_device",
+							}, -- [19]
+							{
+								["enabled"] = true,
+								["action"] = "wakeners_frond",
+								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 13 || boss & fight_remains > 130 )",
+								["name"] = "wakeners_frond",
+							}, -- [20]
+							{
+								["enabled"] = true,
+								["action"] = "macabre_sheet_music",
+								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 25 || boss & fight_remains > 110 )",
+								["name"] = "macabre_sheet_music",
+							}, -- [21]
+							{
+								["enabled"] = true,
+								["action"] = "overwhelming_power_crystal",
+								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 16 || boss & fight_remains > 100 )",
+								["name"] = "overwhelming_power_crystal",
+							}, -- [22]
+							{
+								["enabled"] = true,
+								["action"] = "instructors_divine_bell",
+								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 10 || boss & fight_remains > 95 )",
+								["name"] = "instructors_divine_bell",
+							}, -- [23]
+							{
+								["enabled"] = true,
+								["action"] = "flame_of_battle",
+								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 11 || boss & fight_remains > 100 )",
+								["name"] = "flame_of_battle",
+							}, -- [24]
+							{
+								["enabled"] = true,
+								["action"] = "gladiators_badge",
+								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 11 || boss & fight_remains > 65 )",
+								["name"] = "gladiators_badge",
+							}, -- [25]
+							{
+								["enabled"] = true,
+								["name"] = "scars_of_fraternal_strife",
+								["action"] = "scars_of_fraternal_strife",
+							}, -- [26]
+							{
+								["enabled"] = true,
+								["name"] = "gavel_of_the_first_arbiter",
+								["action"] = "gavel_of_the_first_arbiter",
+							}, -- [27]
+							{
+								["action"] = "use_items",
+								["enabled"] = true,
+							}, -- [28]
+							{
+								["action"] = "blood_fury",
+								["enabled"] = true,
+							}, -- [29]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.recklessness.up",
+								["action"] = "berserking",
+							}, -- [30]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.recklessness.down & debuff.siegebreaker.down",
+								["action"] = "lights_judgment",
+							}, -- [31]
+							{
+								["action"] = "fireblood",
+								["enabled"] = true,
+							}, -- [32]
+							{
+								["action"] = "ancestral_call",
+								["enabled"] = true,
+							}, -- [33]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.recklessness.down & debuff.siegebreaker.down & buff.enrage.up",
+								["action"] = "bag_of_tricks",
+							}, -- [34]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
+								["strict"] = 1,
+								["criteria"] = "spell_targets.whirlwind > 1",
+								["list_name"] = "aoe",
+							}, -- [35]
+							{
+								["enabled"] = true,
+								["action"] = "run_action_list",
+								["list_name"] = "single_target",
+							}, -- [36]
+						},
+						["precombat"] = {
+							{
+								["action"] = "battle_shout",
+								["enabled"] = true,
+							}, -- [1]
+							{
+								["enabled"] = true,
+								["criteria"] = "! runeforge.signet_of_tormented_kings.equipped",
+								["action"] = "recklessness",
+							}, -- [2]
+							{
+								["action"] = "conquerors_banner",
+								["enabled"] = true,
+							}, -- [3]
+						},
+					},
+					["version"] = 20220319,
+					["warnings"] = "WARNING:  The import for 'aoe' required some automated changes.\nLine 1: Converted 'soulbind.X' to 'soulbind.X.enabled' (1x).\nLine 5: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\n\nWARNING:  The import for 'single_target' required some automated changes.\nLine 3: Converted 'covenant.X.enabled' to 'covenant.X' (1x).\nLine 4: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 11: Converted 'talent.X' to 'talent.X.enabled' (1x).\nLine 11: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 13: Converted 'talent.X' to 'talent.X.enabled' (1x).\n\nWARNING:  The import for 'default' required some automated changes.\nLine 3: Converted 'talent.X' to 'talent.X.enabled' (1x).\nLine 4: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 4: Converted 'runeforge.X' to 'runeforge.X.enabled' at EOL (1x).\nLine 4: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 6: Converted 'covenant.X.enabled' to 'covenant.X' (1x).\nLine 7: Converted 'covenant.X.enabled' to 'covenant.X' (1x).\nLine 8: Converted 'covenant.X.enabled' to 'covenant.X' (1x).\nLine 14: Converted 'talent.X' to 'talent.X.enabled' (2x).\nLine 14: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 15: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\n\nImported 4 action lists.\n",
+					["profile"] = "## Fury Warrior\n## March 19, 2022\n\n## Changes:\n## - Added Pummel.\n## - Disabled movement / Heroic Leap call (not needed for in-game context).\n## - Moved Bladestorm and Dragon Roar above Bloodthirst to improve frequency of recommendations (sims roughly equal).\n## - Added Battle Shout to precombat APL.\n## - Added Use Items.\n## - Tweak for Whirlwind before level 37.\n## - Removed Essences.\n## - Don't use Siegebreaker if it's already up (Deathmaker).\n## - Setup fake sequences for Signet opener.\n\n## Executed before combat begins. Accepts non-harmful actions only.\nactions.precombat+=/battle_shout\nactions.precombat+=/recklessness,if=!runeforge.signet_of_tormented_kings.equipped\nactions.precombat+=/conquerors_banner\n\n## Executed every time the actor is available.\n# Charge if we're long past our opener, or we don't need the opener combo for Signet (non-Venthyr).\nactions=charge,if=time>8||talent.double_time.enabled||active_enemies>1||covenant.venthyr||!runeforge.signet_of_tormented_kings.equipped||cooldown.recklessness.remains>gcd\nactions+=/pummel\nactions+=/variable,name=execute_phase,value=talent.massacre&target.health.pct<35||target.health.pct<20||target.health.pct>80&covenant.venthyr\nactions+=/variable,name=unique_legendaries,value=runeforge.signet_of_tormented_kings||runeforge.sinful_surge||runeforge.elysian_might\n## This is mostly to prevent cooldowns from being accidentally used during movement.\n## actions+=/run_action_list,name=movement,if=movement.distance>5\n## actions+=/heroic_leap,if=(raid_event.movement.distance>25&raid_event.movement.in>45)\n## actions+=/sequence,if=active_enemies=1&covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped,name=BT&Reck:bloodthirst:recklessness\n# Emulates initial Bloodthirst sequence for single-target + Signet.\nactions+=/bloodthirst,line_cd=10,if=time<8&active_enemies=1&runeforge.signet_of_tormented_kings.equipped&(!covenant.venthyr||cooldown.recklessness.remains<=gcd)\n# Emulates initial Recklessness sequence for single-target + Venthyr + Signet.\nactions+=/recklessness,line_cd=10,if=time<8&active_enemies=1&covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped&prev.bloodthirst\n## actions+=/sequence,if=active_enemies=1&!covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped,name=BT&Charge:bloodthirst:heroic_charge\n# Emulates initial Heroic Leap > Charge sequence for single-target + non-Venthyr + Signet.\nactions+=/heroic_leap,line_cd=10,if=settings.heroic_charge&time<5&active_enemies=1&!covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped&prev.bloodthirst&cooldown.charge.remains<0.5\n# Emulates initial Heroic Leap > Charge sequence for single-target + non-Venthyr + Signet.\nactions+=/charge,line_cd=10,if=settings.heroic_charge&time<5&active_enemies=1&!covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped&prev.heroic_leap\nactions+=/potion\nactions+=/conquerors_banner,if=rage>70\nactions+=/spear_of_bastion,if=buff.enrage.up&rage<70\nactions+=/rampage,if=cooldown.recklessness.remains<3&talent.reckless_abandon.enabled\nactions+=/conquerors_banner,if=buff.recklessness.down&debuff.siegebreaker.down||fight_remains<50\nactions+=/recklessness,if=runeforge.sinful_surge&gcd.remains=0&(variable.execute_phase||(target.time_to_pct_35>40&talent.anger_management||target.time_to_pct_35>70&!talent.anger_management))&(spell_targets.whirlwind=1||buff.meat_cleaver.up)\nactions+=/recklessness,if=runeforge.elysian_might&gcd.remains=0&(cooldown.spear_of_bastion.remains<5||cooldown.spear_of_bastion.remains>20)&((buff.bloodlust.up||talent.anger_management.enabled||raid_event.adds.in>10)||boss&fight_remains>100||variable.execute_phase||boss&fight_remains<15&raid_event.adds.in>10)&(spell_targets.whirlwind=1||buff.meat_cleaver.up)\nactions+=/recklessness,if=!variable.unique_legendaries&gcd.remains=0&((buff.bloodlust.up||talent.anger_management.enabled||raid_event.adds.in>10)||boss&fight_remains>100||variable.execute_phase||boss&fight_remains<15&raid_event.adds.in>10)&(spell_targets.whirlwind=1||buff.meat_cleaver.up)&(!covenant.necrolord||cooldown.conquerors_banner.remains>20)\nactions+=/recklessness,use_off_gcd=1,if=runeforge.signet_of_tormented_kings.equipped&prev_gcd.1.rampage&((buff.bloodlust.up||talent.anger_management.enabled||raid_event.adds.in>10)||boss&fight_remains>100||variable.execute_phase||boss&fight_remains<15&raid_event.adds.in>10)&(spell_targets.whirlwind=1||buff.meat_cleaver.up)\nactions+=/whirlwind,if=level>36&(spell_targets.whirlwind>1&!buff.meat_cleaver.up||raid_event.adds.in<gcd&!buff.meat_cleaver.up)\nactions+=/use_item,name=inscrutable_quantum_device,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<21||boss&fight_remains>190||buff.bloodlust.up)\nactions+=/use_item,name=wakeners_frond,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<13||boss&fight_remains>130)\nactions+=/use_item,name=macabre_sheet_music,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<25||boss&fight_remains>110)\nactions+=/use_item,name=overwhelming_power_crystal,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<16||boss&fight_remains>100)\nactions+=/use_item,name=instructors_divine_bell,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<10||boss&fight_remains>95)\nactions+=/use_item,name=flame_of_battle,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<11||boss&fight_remains>100)\nactions+=/use_item,name=gladiators_badge,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<11||boss&fight_remains>65)\nactions+=/use_item,name=scars_of_fraternal_strife\nactions+=/use_item,name=gavel_of_the_first_arbiter\nactions+=/use_items\nactions+=/blood_fury\nactions+=/berserking,if=buff.recklessness.up\nactions+=/lights_judgment,if=buff.recklessness.down&debuff.siegebreaker.down\nactions+=/fireblood\nactions+=/ancestral_call\nactions+=/bag_of_tricks,if=buff.recklessness.down&debuff.siegebreaker.down&buff.enrage.up\nactions+=/call_action_list,strict=1,name=aoe,if=spell_targets.whirlwind>1\nactions+=/run_action_list,name=single_target\n\nactions.aoe=cancel_buff,name=bladestorm,if=gcd.remains=0&soulbind.first_strike&buff.first_strike.remains&buff.enrage.remains<gcd\nactions.aoe+=/ancient_aftershock,if=buff.enrage.up&cooldown.recklessness.remains>5\nactions.aoe+=/spear_of_bastion,if=buff.enrage.up&rage<40\nactions.aoe+=/bladestorm,interrupt_if=gcd.remains=0&soulbind.first_strike&buff.first_strike.remains&buff.enrage.remains<gcd,if=buff.enrage.up&spell_targets.whirlwind>2\nactions.aoe+=/condemn,if=(buff.enrage.up||buff.recklessness.up&runeforge.sinful_surge)&variable.execute_phase\nactions.aoe+=/siegebreaker\nactions.aoe+=/rampage\nactions.aoe+=/spear_of_bastion,if=buff.enrage.up&cooldown.recklessness.remains>5\nactions.aoe+=/bladestorm,if=buff.enrage.remains>gcd*2.5\n\nactions.single_target+=/raging_blow,if=runeforge.will_of_the_berserker.equipped&buff.will_of_the_berserker.remains<gcd\nactions.single_target+=/crushing_blow,if=runeforge.will_of_the_berserker.equipped&buff.will_of_the_berserker.remains<gcd\nactions.single_target+=/cancel_buff,name=bladestorm,if=spell_targets.whirlwind=1&gcd.remains=0&(talent.massacre.enabled||covenant.venthyr.enabled)&variable.execute_phase&(rage>90||!cooldown.condemn.remains)\nactions.single_target+=/condemn,if=(buff.enrage.up||buff.recklessness.up&runeforge.sinful_surge)&variable.execute_phase\nactions.single_target+=/siegebreaker,if=debuff.siegebreaker.down&(spell_targets.whirlwind>1||raid_event.adds.in>15)\nactions.single_target+=/rampage,if=buff.recklessness.up||(buff.enrage.remains<gcd||rage>80)||buff.frenzy.remains<1.5\nactions.single_target+=/crushing_blow,if=set_bonus.tier28_2pc||charges=2||(buff.recklessness.up&variable.execute_phase&talent.massacre.enabled)\nactions.single_target+=/condemn\nactions.single_target+=/ancient_aftershock,if=buff.enrage.up&cooldown.recklessness.remains>5&(boss&fight_remains>95||buff.recklessness.up||boss&fight_remains<20)&raid_event.adds.in>75\nactions.single_target+=/execute\nactions.single_target+=/spear_of_bastion,if=runeforge.elysian_might&buff.enrage.up&cooldown.recklessness.remains>5&(buff.recklessness.up||boss&fight_remains<20||debuff.siegebreaker.up||!talent.siegebreaker&boss&fight_remains>68)&raid_event.adds.in>55\nactions.single_target+=/bladestorm,if=buff.enrage.up&(!buff.recklessness.remains||rage<50)&(spell_targets.whirlwind=1&raid_event.adds.in>45||spell_targets.whirlwind=2)\nactions.single_target+=/spear_of_bastion,if=buff.enrage.up&cooldown.recklessness.remains>5&(buff.recklessness.up||boss&fight_remains<20||debuff.siegebreaker.up||!talent.siegebreaker&boss&fight_remains>68)&raid_event.adds.in>55\nactions.single_target+=/bloodthirst,if=buff.enrage.down||conduit.vicious_contempt.rank>5&target.health.pct<35\nactions.single_target+=/bloodbath,if=buff.enrage.down||conduit.vicious_contempt.rank>5&target.health.pct<35&!talent.cruelty.enabled\nactions.single_target+=/whirlwind,if=buff.merciless_bonegrinder.up&spell_targets.whirlwind>1\nactions.single_target+=/raging_blow,if=set_bonus.tier28_2pc||charges=2||(buff.recklessness.up&variable.execute_phase&talent.massacre.enabled)\nactions.single_target+=/dragon_roar,if=buff.enrage.up&(spell_targets.whirlwind>1||raid_event.adds.in>15)\nactions.single_target+=/onslaught,if=buff.enrage.up\nactions.single_target+=/bloodthirst\nactions.single_target+=/bloodbath\nactions.single_target+=/raging_blow\nactions.single_target+=/crushing_blow\nactions.single_target+=/whirlwind",
+					["spec"] = 72,
+				},
 				["Protection Warrior"] = {
 					["source"] = "https://github.com/simulationcraft/simc/",
 					["builtIn"] = true,
@@ -2074,9 +2058,9 @@ HekiliDB = {
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "settings.heroic_charge & runeforge.reprisal.enabled & cooldown.charge.remains < gcd",
 								["action"] = "heroic_leap",
 								["description"] = "Default APL's Heroic Charge is a Heroic Leap followed by Charge to do some damage and generate Rage.",
+								["criteria"] = "settings.heroic_charge & runeforge.reprisal.enabled & cooldown.charge.remains < gcd",
 							}, -- [2]
 							{
 								["enabled"] = true,
@@ -2207,14 +2191,14 @@ HekiliDB = {
 						["mitigation"] = {
 							{
 								["enabled"] = true,
-								["action"] = "ignore_pain",
 								["criteria"] = "rage > 50 & buff.ignore_pain.down",
+								["action"] = "ignore_pain",
 								["use_off_gcd"] = 1,
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["action"] = "ignore_pain",
 								["criteria"] = "target.health.pct >= 20 & ( target.health.pct >= 80 & ! covenant.venthyr ) & ( rage >= 85 & cooldown.shield_slam.ready || rage >= 60 & cooldown.demoralizing_shout.ready & talent.booming_voice.enabled || rage >= 70 & cooldown.avatar.ready || rage >= 40 & cooldown.demoralizing_shout.ready & talent.booming_voice.enabled & buff.last_stand.up || rage >= 55 & cooldown.avatar.ready & buff.last_stand.up || rage >= 80 || rage >= 55 & cooldown.shield_slam.ready & buff.outburst.up || rage >= 30 & cooldown.shield_slam.ready & buff.outburst.up & buff.last_stand.up )",
+								["action"] = "ignore_pain",
 								["use_off_gcd"] = 1,
 							}, -- [2]
 							{
@@ -2501,33 +2485,33 @@ HekiliDB = {
 							}, -- [9]
 							{
 								["enabled"] = true,
-								["action"] = "inscrutable_quantum_device",
 								["criteria"] = "buff.avenging_wrath.up || buff.crusade.up & buff.crusade.stack = 10 || boss & fight_remains < 30",
 								["name"] = "inscrutable_quantum_device",
+								["action"] = "inscrutable_quantum_device",
 							}, -- [10]
 							{
 								["enabled"] = true,
-								["action"] = "overwhelming_power_crystal",
 								["criteria"] = "buff.avenging_wrath.up || buff.crusade.up & buff.crusade.stack = 10 || boss & fight_remains < 15",
 								["name"] = "overwhelming_power_crystal",
+								["action"] = "overwhelming_power_crystal",
 							}, -- [11]
 							{
 								["enabled"] = true,
-								["action"] = "darkmoon_deck_voracity",
 								["criteria"] = "buff.avenging_wrath.up || buff.crusade.up & buff.crusade.stack = 10 || boss & fight_remains < 20",
 								["name"] = "darkmoon_deck_voracity",
+								["action"] = "darkmoon_deck_voracity",
 							}, -- [12]
 							{
 								["enabled"] = true,
-								["action"] = "macabre_sheet_music",
 								["criteria"] = "buff.avenging_wrath.up || buff.crusade.up & buff.crusade.stack = 10 || boss & fight_remains < 20",
 								["name"] = "macabre_sheet_music",
+								["action"] = "macabre_sheet_music",
 							}, -- [13]
 							{
 								["enabled"] = true,
-								["action"] = "faulty_countermeasure",
 								["criteria"] = "! talent.crusade.enabled || buff.crusade.up || boss & fight_remains < 30",
 								["name"] = "faulty_countermeasure",
+								["action"] = "faulty_countermeasure",
 							}, -- [14]
 							{
 								["enabled"] = true,
@@ -2586,15 +2570,15 @@ HekiliDB = {
 							}, -- [25]
 							{
 								["enabled"] = true,
-								["action"] = "heart_of_the_swarm",
 								["criteria"] = "! buff.avenging_wrath.up & ! buff.crusade.up",
 								["name"] = "heart_of_the_swarm",
+								["action"] = "heart_of_the_swarm",
 							}, -- [26]
 							{
 								["enabled"] = true,
-								["action"] = "gladiators_badge",
 								["criteria"] = "buff.avenging_wrath.up || buff.crusade.up & buff.crusade.stack >= 10 || cooldown.avenging_wrath.remains > 45 || cooldown.crusade.remains > 45",
 								["name"] = "gladiators_badge",
+								["action"] = "gladiators_badge",
 							}, -- [27]
 							{
 								["enabled"] = true,
@@ -2603,9 +2587,9 @@ HekiliDB = {
 							}, -- [28]
 							{
 								["enabled"] = true,
-								["action"] = "gavel_of_the_first_arbiter",
 								["criteria"] = "( buff.avenging_wrath.up || buff.crusade.up )",
 								["name"] = "gavel_of_the_first_arbiter",
+								["action"] = "gavel_of_the_first_arbiter",
 							}, -- [29]
 							{
 								["enabled"] = true,
@@ -2809,182 +2793,115 @@ HekiliDB = {
 						},
 					},
 				},
-				["Fury"] = {
+				["Arms"] = {
 					["source"] = "https://github.com/simulationcraft/simc/",
 					["builtIn"] = true,
 					["date"] = 20220319,
-					["author"] = "SimC / Archimtiros",
-					["desc"] = "Fury Warrior\nMarch 19, 2022\n\nChanges:\n- Added Pummel.\n- Disabled movement / Heroic Leap call (not needed for in-game context).\n- Moved Bladestorm and Dragon Roar above Bloodthirst to improve frequency of recommendations (sims roughly equal).\n- Added Battle Shout to precombat APL.\n- Added Use Items.\n- Tweak for Whirlwind before level 37.\n- Removed Essences.\n- Don't use Siegebreaker if it's already up (Deathmaker).\n- Setup fake sequences for Signet opener.",
+					["author"] = "SimulationCraft",
+					["desc"] = "Arms Warrior\nMarch 19, 2022\n\nChanges:\n- Update for 9.2; add target swapping for Execute/Condemn.",
 					["lists"] = {
 						["single_target"] = {
 							{
 								["enabled"] = true,
-								["criteria"] = "runeforge.will_of_the_berserker.equipped & buff.will_of_the_berserker.remains < gcd",
-								["action"] = "raging_blow",
+								["criteria"] = "remains <= gcd",
+								["action"] = "rend",
 							}, -- [1]
 							{
 								["enabled"] = true,
-								["criteria"] = "runeforge.will_of_the_berserker.equipped & buff.will_of_the_berserker.remains < gcd",
-								["action"] = "crushing_blow",
+								["criteria"] = "fight_remains > 140",
+								["action"] = "conquerors_banner",
 							}, -- [2]
 							{
+								["action"] = "avatar",
 								["enabled"] = true,
-								["criteria"] = "spell_targets.whirlwind = 1 & gcd.remains = 0 & ( talent.massacre.enabled || covenant.venthyr ) & variable.execute_phase & ( rage > 90 || ! cooldown.condemn.remains )",
-								["action"] = "cancel_buff",
-								["buff_name"] = "bladestorm",
 							}, -- [3]
 							{
+								["action"] = "ravager",
 								["enabled"] = true,
-								["criteria"] = "( buff.enrage.up || buff.recklessness.up & runeforge.sinful_surge.enabled ) & variable.execute_phase",
-								["action"] = "condemn",
 							}, -- [4]
 							{
+								["action"] = "warbreaker",
 								["enabled"] = true,
-								["criteria"] = "debuff.siegebreaker.down & ( spell_targets.whirlwind > 1 || raid_event.adds.in > 15 )",
-								["action"] = "siegebreaker",
 							}, -- [5]
 							{
+								["action"] = "colossus_smash",
 								["enabled"] = true,
-								["criteria"] = "buff.recklessness.up || ( buff.enrage.remains < gcd || rage > 80 ) || buff.frenzy.remains < 1.5",
-								["action"] = "rampage",
 							}, -- [6]
 							{
+								["action"] = "ancient_aftershock",
 								["enabled"] = true,
-								["criteria"] = "set_bonus.tier28_2pc || charges = 2 || ( buff.recklessness.up & variable.execute_phase & talent.massacre.enabled )",
-								["action"] = "crushing_blow",
 							}, -- [7]
 							{
-								["action"] = "condemn",
+								["action"] = "spear_of_bastion",
 								["enabled"] = true,
 							}, -- [8]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & cooldown.recklessness.remains > 5 & ( boss & fight_remains > 95 || buff.recklessness.up || boss & fight_remains < 20 ) & raid_event.adds.in > 75",
-								["action"] = "ancient_aftershock",
+								["criteria"] = "charges = 2",
+								["action"] = "overpower",
 							}, -- [9]
 							{
-								["action"] = "execute",
 								["enabled"] = true,
+								["criteria"] = "runeforge.enduring_blow.enabled || runeforge.battlelord.enabled || buff.overpower.stack >= 2",
+								["action"] = "mortal_strike",
 							}, -- [10]
 							{
 								["enabled"] = true,
-								["criteria"] = "runeforge.elysian_might.enabled & buff.enrage.up & cooldown.recklessness.remains > 5 & ( buff.recklessness.up || boss & fight_remains < 20 || debuff.siegebreaker.up || ! talent.siegebreaker.enabled & boss & fight_remains > 68 ) & raid_event.adds.in > 55",
-								["action"] = "spear_of_bastion",
+								["criteria"] = "buff.sudden_death.react",
+								["action"] = "condemn",
 							}, -- [11]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & ( ! buff.recklessness.remains || rage < 50 ) & ( spell_targets.whirlwind = 1 & raid_event.adds.in > 45 || spell_targets.whirlwind = 2 )",
-								["action"] = "bladestorm",
+								["criteria"] = "buff.sudden_death.react",
+								["action"] = "execute",
 							}, -- [12]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & cooldown.recklessness.remains > 5 & ( buff.recklessness.up || boss & fight_remains < 20 || debuff.siegebreaker.up || ! talent.siegebreaker.enabled & boss & fight_remains > 68 ) & raid_event.adds.in > 55",
-								["action"] = "spear_of_bastion",
+								["criteria"] = "rage.deficit > 45 & buff.deadly_calm.down",
+								["action"] = "skullsplitter",
 							}, -- [13]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.enrage.down || conduit.vicious_contempt.rank > 5 & target.health.pct < 35",
-								["action"] = "bloodthirst",
+								["criteria"] = "buff.deadly_calm.down & rage < 30",
+								["action"] = "bladestorm",
 							}, -- [14]
 							{
+								["action"] = "deadly_calm",
 								["enabled"] = true,
-								["criteria"] = "buff.enrage.down || conduit.vicious_contempt.rank > 5 & target.health.pct < 35 & ! talent.cruelty.enabled",
-								["action"] = "bloodbath",
 							}, -- [15]
 							{
+								["action"] = "overpower",
 								["enabled"] = true,
-								["criteria"] = "buff.merciless_bonegrinder.up & spell_targets.whirlwind > 1",
-								["action"] = "whirlwind",
 							}, -- [16]
 							{
+								["action"] = "mortal_strike",
 								["enabled"] = true,
-								["criteria"] = "set_bonus.tier28_2pc || charges = 2 || ( buff.recklessness.up & variable.execute_phase & talent.massacre.enabled )",
-								["action"] = "raging_blow",
 							}, -- [17]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & ( spell_targets.whirlwind > 1 || raid_event.adds.in > 15 )",
-								["action"] = "dragon_roar",
+								["criteria"] = "remains < duration * 0.3",
+								["action"] = "rend",
 							}, -- [18]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.enrage.up",
-								["action"] = "onslaught",
+								["criteria"] = "spell_targets.whirlwind > 1",
+								["action"] = "cleave",
 							}, -- [19]
 							{
-								["action"] = "bloodthirst",
 								["enabled"] = true,
+								["criteria"] = "talent.fervor_of_battle.enabled || spell_targets.whirlwind > 4 || spell_targets.whirlwind > 2 & buff.sweeping_strikes.down",
+								["action"] = "whirlwind",
 							}, -- [20]
 							{
-								["action"] = "bloodbath",
 								["enabled"] = true,
+								["criteria"] = "! talent.fervor_of_battle.enabled & ( rage > 50 || debuff.colossus_smash.up || ! runeforge.enduring_blow.enabled )",
+								["action"] = "slam",
 							}, -- [21]
-							{
-								["action"] = "raging_blow",
-								["enabled"] = true,
-							}, -- [22]
-							{
-								["action"] = "crushing_blow",
-								["enabled"] = true,
-							}, -- [23]
-							{
-								["action"] = "whirlwind",
-								["enabled"] = true,
-							}, -- [24]
-						},
-						["aoe"] = {
-							{
-								["enabled"] = true,
-								["criteria"] = "gcd.remains = 0 & soulbind.first_strike.enabled & buff.first_strike.remains & buff.enrage.remains < gcd",
-								["action"] = "cancel_buff",
-								["buff_name"] = "bladestorm",
-							}, -- [1]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & cooldown.recklessness.remains > 5",
-								["action"] = "ancient_aftershock",
-							}, -- [2]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & rage < 40",
-								["action"] = "spear_of_bastion",
-							}, -- [3]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & spell_targets.whirlwind > 2",
-								["action"] = "bladestorm",
-								["interrupt_if"] = "gcd.remains=0&soulbind.first_strike&buff.first_strike.remains&buff.enrage.remains<gcd",
-							}, -- [4]
-							{
-								["enabled"] = true,
-								["criteria"] = "( buff.enrage.up || buff.recklessness.up & runeforge.sinful_surge.enabled ) & variable.execute_phase",
-								["action"] = "condemn",
-							}, -- [5]
-							{
-								["action"] = "siegebreaker",
-								["enabled"] = true,
-							}, -- [6]
-							{
-								["action"] = "rampage",
-								["enabled"] = true,
-							}, -- [7]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & cooldown.recklessness.remains > 5",
-								["action"] = "spear_of_bastion",
-							}, -- [8]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.enrage.remains > gcd * 2.5",
-								["action"] = "bladestorm",
-							}, -- [9]
 						},
 						["default"] = {
 							{
-								["enabled"] = true,
-								["criteria"] = "time > 8 || talent.double_time.enabled || active_enemies > 1 || covenant.venthyr || ! runeforge.signet_of_tormented_kings.equipped || cooldown.recklessness.remains > gcd",
 								["action"] = "charge",
-								["description"] = "Charge if we're long past our opener, or we don't need the opener combo for Signet (non-Venthyr).",
+								["enabled"] = true,
 							}, -- [1]
 							{
 								["action"] = "pummel",
@@ -2992,212 +2909,295 @@ HekiliDB = {
 							}, -- [2]
 							{
 								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "talent.massacre.enabled & target.health.pct < 35 || target.health.pct < 20 || target.health.pct > 80 & covenant.venthyr",
-								["var_name"] = "execute_phase",
+								["criteria"] = "gcd.remains = 0 & debuff.colossus_smash.remains > 8 || boss & fight_remains < 25",
+								["action"] = "potion",
 							}, -- [3]
 							{
 								["enabled"] = true,
-								["op"] = "set",
-								["action"] = "variable",
-								["value"] = "runeforge.signet_of_tormented_kings.enabled || runeforge.sinful_surge.enabled || runeforge.elysian_might.enabled",
-								["var_name"] = "unique_legendaries",
+								["criteria"] = "debuff.colossus_smash.up",
+								["action"] = "blood_fury",
 							}, -- [4]
 							{
 								["enabled"] = true,
-								["action"] = "bloodthirst",
-								["line_cd"] = "10",
-								["criteria"] = "time < 8 & active_enemies = 1 & runeforge.signet_of_tormented_kings.equipped & ( ! covenant.venthyr || cooldown.recklessness.remains <= gcd )",
-								["description"] = "Emulates initial Bloodthirst sequence for single-target + Signet.",
+								["criteria"] = "debuff.colossus_smash.remains > 6",
+								["action"] = "berserking",
 							}, -- [5]
 							{
 								["enabled"] = true,
-								["action"] = "recklessness",
-								["line_cd"] = "10",
-								["criteria"] = "time < 8 & active_enemies = 1 & covenant.venthyr & runeforge.signet_of_tormented_kings.equipped & prev.bloodthirst",
-								["description"] = "Emulates initial Recklessness sequence for single-target + Venthyr + Signet.",
+								["criteria"] = "cooldown.mortal_strike.remains > 1.5 & rage < 50",
+								["action"] = "arcane_torrent",
 							}, -- [6]
 							{
 								["enabled"] = true,
-								["action"] = "heroic_leap",
-								["line_cd"] = "10",
-								["criteria"] = "settings.heroic_charge & time < 5 & active_enemies = 1 & ! covenant.venthyr & runeforge.signet_of_tormented_kings.equipped & prev.bloodthirst & cooldown.charge.remains < 0.5",
-								["description"] = "Emulates initial Heroic Leap > Charge sequence for single-target + non-Venthyr + Signet.",
+								["criteria"] = "debuff.colossus_smash.down & cooldown.mortal_strike.remains",
+								["action"] = "lights_judgment",
 							}, -- [7]
 							{
 								["enabled"] = true,
-								["action"] = "charge",
-								["line_cd"] = "10",
-								["criteria"] = "settings.heroic_charge & time < 5 & active_enemies = 1 & ! covenant.venthyr & runeforge.signet_of_tormented_kings.equipped & prev.heroic_leap",
-								["description"] = "Emulates initial Heroic Leap > Charge sequence for single-target + non-Venthyr + Signet.",
+								["criteria"] = "debuff.colossus_smash.up",
+								["action"] = "fireblood",
 							}, -- [8]
 							{
-								["action"] = "potion",
 								["enabled"] = true,
+								["criteria"] = "debuff.colossus_smash.up",
+								["action"] = "ancestral_call",
 							}, -- [9]
 							{
 								["enabled"] = true,
-								["criteria"] = "rage > 70",
-								["action"] = "conquerors_banner",
+								["criteria"] = "debuff.colossus_smash.down & cooldown.mortal_strike.remains",
+								["action"] = "bag_of_tricks",
 							}, -- [10]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.enrage.up & rage < 70",
-								["action"] = "spear_of_bastion",
-							}, -- [11]
-							{
-								["enabled"] = true,
-								["criteria"] = "cooldown.recklessness.remains < 3 & talent.reckless_abandon.enabled",
-								["action"] = "rampage",
-							}, -- [12]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.recklessness.down & debuff.siegebreaker.down || fight_remains < 50",
-								["action"] = "conquerors_banner",
-							}, -- [13]
-							{
-								["enabled"] = true,
-								["criteria"] = "runeforge.sinful_surge.enabled & gcd.remains = 0 & ( variable.execute_phase || ( target.time_to_pct_35 > 40 & talent.anger_management.enabled || target.time_to_pct_35 > 70 & ! talent.anger_management.enabled ) ) & ( spell_targets.whirlwind = 1 || buff.meat_cleaver.up )",
-								["action"] = "recklessness",
-							}, -- [14]
-							{
-								["enabled"] = true,
-								["criteria"] = "runeforge.elysian_might.enabled & gcd.remains = 0 & ( cooldown.spear_of_bastion.remains < 5 || cooldown.spear_of_bastion.remains > 20 ) & ( ( buff.bloodlust.up || talent.anger_management.enabled || raid_event.adds.in > 10 ) || boss & fight_remains > 100 || variable.execute_phase || boss & fight_remains < 15 & raid_event.adds.in > 10 ) & ( spell_targets.whirlwind = 1 || buff.meat_cleaver.up )",
-								["action"] = "recklessness",
-							}, -- [15]
-							{
-								["enabled"] = true,
-								["criteria"] = "! variable.unique_legendaries & gcd.remains = 0 & ( ( buff.bloodlust.up || talent.anger_management.enabled || raid_event.adds.in > 10 ) || boss & fight_remains > 100 || variable.execute_phase || boss & fight_remains < 15 & raid_event.adds.in > 10 ) & ( spell_targets.whirlwind = 1 || buff.meat_cleaver.up ) & ( ! covenant.necrolord || cooldown.conquerors_banner.remains > 20 )",
-								["action"] = "recklessness",
-							}, -- [16]
-							{
-								["enabled"] = true,
-								["criteria"] = "runeforge.signet_of_tormented_kings.equipped & prev_gcd.1.rampage & ( ( buff.bloodlust.up || talent.anger_management.enabled || raid_event.adds.in > 10 ) || boss & fight_remains > 100 || variable.execute_phase || boss & fight_remains < 15 & raid_event.adds.in > 10 ) & ( spell_targets.whirlwind = 1 || buff.meat_cleaver.up )",
-								["action"] = "recklessness",
-								["use_off_gcd"] = 1,
-							}, -- [17]
-							{
-								["enabled"] = true,
-								["criteria"] = "level > 36 & ( spell_targets.whirlwind > 1 & ! buff.meat_cleaver.up || raid_event.adds.in < gcd & ! buff.meat_cleaver.up )",
-								["action"] = "whirlwind",
-							}, -- [18]
-							{
-								["enabled"] = true,
-								["name"] = "inscrutable_quantum_device",
-								["action"] = "inscrutable_quantum_device",
-								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 21 || boss & fight_remains > 190 || buff.bloodlust.up )",
-							}, -- [19]
-							{
-								["enabled"] = true,
-								["name"] = "wakeners_frond",
-								["action"] = "wakeners_frond",
-								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 13 || boss & fight_remains > 130 )",
-							}, -- [20]
-							{
-								["enabled"] = true,
-								["name"] = "macabre_sheet_music",
-								["action"] = "macabre_sheet_music",
-								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 25 || boss & fight_remains > 110 )",
-							}, -- [21]
-							{
-								["enabled"] = true,
-								["name"] = "overwhelming_power_crystal",
-								["action"] = "overwhelming_power_crystal",
-								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 16 || boss & fight_remains > 100 )",
-							}, -- [22]
-							{
-								["enabled"] = true,
-								["name"] = "instructors_divine_bell",
-								["action"] = "instructors_divine_bell",
-								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 10 || boss & fight_remains > 95 )",
-							}, -- [23]
-							{
-								["enabled"] = true,
-								["name"] = "flame_of_battle",
-								["action"] = "flame_of_battle",
-								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 11 || boss & fight_remains > 100 )",
-							}, -- [24]
-							{
-								["enabled"] = true,
-								["name"] = "gladiators_badge",
-								["action"] = "gladiators_badge",
-								["criteria"] = "cooldown.recklessness.remains > 10 & ( buff.recklessness.up || boss & fight_remains < 11 || boss & fight_remains > 65 )",
-							}, -- [25]
 							{
 								["enabled"] = true,
 								["name"] = "scars_of_fraternal_strife",
 								["action"] = "scars_of_fraternal_strife",
-							}, -- [26]
+							}, -- [11]
 							{
 								["enabled"] = true,
 								["name"] = "gavel_of_the_first_arbiter",
 								["action"] = "gavel_of_the_first_arbiter",
-							}, -- [27]
+							}, -- [12]
 							{
 								["action"] = "use_items",
 								["enabled"] = true,
-							}, -- [28]
-							{
-								["action"] = "blood_fury",
-								["enabled"] = true,
-							}, -- [29]
+							}, -- [13]
 							{
 								["enabled"] = true,
-								["criteria"] = "buff.recklessness.up",
-								["action"] = "berserking",
-							}, -- [30]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.recklessness.down & debuff.siegebreaker.down",
-								["action"] = "lights_judgment",
-							}, -- [31]
-							{
-								["action"] = "fireblood",
-								["enabled"] = true,
-							}, -- [32]
-							{
-								["action"] = "ancestral_call",
-								["enabled"] = true,
-							}, -- [33]
-							{
-								["enabled"] = true,
-								["criteria"] = "buff.recklessness.down & debuff.siegebreaker.down & buff.enrage.up",
-								["action"] = "bag_of_tricks",
-							}, -- [34]
+								["criteria"] = "spell_targets.whirlwind > 1 & ( cooldown.bladestorm.remains > 15 || talent.ravager.enabled )",
+								["action"] = "sweeping_strikes",
+							}, -- [14]
 							{
 								["enabled"] = true,
 								["action"] = "call_action_list",
 								["strict"] = 1,
-								["criteria"] = "spell_targets.whirlwind > 1",
-								["list_name"] = "aoe",
-							}, -- [35]
+								["criteria"] = "talent.massacre.enabled & target.health.pct < 35 || target.health.pct < 20 || covenant.venthyr & target.health.pct > 80 || cycle_for_execute || cycle_for_condemn",
+								["list_name"] = "execute",
+							}, -- [15]
 							{
 								["enabled"] = true,
-								["action"] = "run_action_list",
+								["action"] = "call_action_list",
+								["strict"] = 1,
+								["criteria"] = "raid_event.adds.up || spell_targets.whirlwind > 1",
+								["list_name"] = "hac",
+							}, -- [16]
+							{
+								["enabled"] = true,
+								["action"] = "call_action_list",
 								["list_name"] = "single_target",
-							}, -- [36]
+							}, -- [17]
+							{
+								["action"] = "victory_rush",
+								["enabled"] = true,
+							}, -- [18]
+							{
+								["action"] = "impending_victory",
+								["enabled"] = true,
+							}, -- [19]
 						},
 						["precombat"] = {
 							{
 								["action"] = "battle_shout",
 								["enabled"] = true,
 							}, -- [1]
+						},
+						["execute"] = {
 							{
+								["action"] = "deadly_calm",
 								["enabled"] = true,
-								["criteria"] = "! runeforge.signet_of_tormented_kings.equipped",
-								["action"] = "recklessness",
-							}, -- [2]
+							}, -- [1]
 							{
 								["action"] = "conquerors_banner",
 								["enabled"] = true,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["action"] = "cancel_buff",
+								["criteria"] = "spell_targets.whirlwind = 1 & gcd.remains = 0 & ( rage > 75 || rage > 50 & buff.recklessness.up )",
+								["buff_name"] = "bladestorm",
 							}, -- [3]
+							{
+								["enabled"] = true,
+								["criteria"] = "gcd.remains = 0 || target.time_to_die < 20",
+								["action"] = "avatar",
+							}, -- [4]
+							{
+								["enabled"] = true,
+								["action"] = "condemn",
+								["criteria"] = "buff.ashen_juggernaut.up & buff.ashen_juggernaut.remains < gcd & conduit.ashen_juggernaut.rank > 1",
+								["cycle_targets"] = 1,
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["action"] = "execute",
+								["criteria"] = "buff.ashen_juggernaut.up & buff.ashen_juggernaut.remains < gcd & conduit.ashen_juggernaut.rank > 1",
+								["cycle_targets"] = 1,
+							}, -- [6]
+							{
+								["action"] = "ravager",
+								["enabled"] = true,
+							}, -- [7]
+							{
+								["enabled"] = true,
+								["criteria"] = "remains <= gcd & ( ! talent.warbreaker.enabled & cooldown.colossus_smash.remains < 4 || talent.warbreaker.enabled & cooldown.warbreaker.remains < 4 ) & target.time_to_die > 12",
+								["action"] = "rend",
+							}, -- [8]
+							{
+								["action"] = "warbreaker",
+								["enabled"] = true,
+							}, -- [9]
+							{
+								["action"] = "colossus_smash",
+								["enabled"] = true,
+							}, -- [10]
+							{
+								["action"] = "ancient_aftershock",
+								["enabled"] = true,
+							}, -- [11]
+							{
+								["action"] = "spear_of_bastion",
+								["enabled"] = true,
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["action"] = "condemn",
+								["criteria"] = "runeforge.signet_of_tormented_kings.enabled & ( rage.deficit < 25 || debuff.colossus_smash.up & rage > 40 || buff.sudden_death.react || buff.deadly_calm.up )",
+								["cycle_targets"] = 1,
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["criteria"] = "charges = 2",
+								["action"] = "overpower",
+							}, -- [14]
+							{
+								["enabled"] = true,
+								["criteria"] = "spell_targets.whirlwind > 1 & dot.deep_wounds.remains < gcd",
+								["action"] = "cleave",
+							}, -- [15]
+							{
+								["enabled"] = true,
+								["criteria"] = "dot.deep_wounds.remains <= gcd || runeforge.enduring_blow.enabled || buff.overpower.stack = 2 & debuff.exploiter.stack = 2 || buff.battlelord.up",
+								["action"] = "mortal_strike",
+							}, -- [16]
+							{
+								["enabled"] = true,
+								["action"] = "condemn",
+								["criteria"] = "rage.deficit < 25 || buff.deadly_calm.up",
+								["cycle_targets"] = 1,
+							}, -- [17]
+							{
+								["enabled"] = true,
+								["criteria"] = "rage < 45",
+								["action"] = "skullsplitter",
+							}, -- [18]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.deadly_calm.down & ( rage < 20 || ! runeforge.sinful_surge.enabled & rage < 50 )",
+								["action"] = "bladestorm",
+							}, -- [19]
+							{
+								["action"] = "overpower",
+								["enabled"] = true,
+							}, -- [20]
+							{
+								["enabled"] = true,
+								["action"] = "condemn",
+								["cycle_targets"] = 1,
+							}, -- [21]
+							{
+								["enabled"] = true,
+								["action"] = "execute",
+								["cycle_targets"] = 1,
+							}, -- [22]
+						},
+						["hac"] = {
+							{
+								["enabled"] = true,
+								["criteria"] = "rage < 60 & buff.deadly_calm.down",
+								["action"] = "skullsplitter",
+							}, -- [1]
+							{
+								["action"] = "conquerors_banner",
+								["enabled"] = true,
+							}, -- [2]
+							{
+								["enabled"] = true,
+								["criteria"] = "cooldown.colossus_smash.remains < 1",
+								["action"] = "avatar",
+							}, -- [3]
+							{
+								["action"] = "warbreaker",
+								["enabled"] = true,
+							}, -- [4]
+							{
+								["action"] = "colossus_smash",
+								["enabled"] = true,
+							}, -- [5]
+							{
+								["enabled"] = true,
+								["criteria"] = "dot.deep_wounds.remains <= gcd",
+								["action"] = "cleave",
+							}, -- [6]
+							{
+								["action"] = "ancient_aftershock",
+								["enabled"] = true,
+							}, -- [7]
+							{
+								["action"] = "spear_of_bastion",
+								["enabled"] = true,
+							}, -- [8]
+							{
+								["action"] = "bladestorm",
+								["enabled"] = true,
+							}, -- [9]
+							{
+								["action"] = "ravager",
+								["enabled"] = true,
+							}, -- [10]
+							{
+								["enabled"] = true,
+								["criteria"] = "remains <= duration * 0.3 & buff.sweeping_strikes.up",
+								["action"] = "rend",
+							}, -- [11]
+							{
+								["action"] = "cleave",
+								["enabled"] = true,
+							}, -- [12]
+							{
+								["enabled"] = true,
+								["criteria"] = "buff.sweeping_strikes.up || dot.deep_wounds.remains < gcd & ! talent.cleave.enabled",
+								["action"] = "mortal_strike",
+							}, -- [13]
+							{
+								["enabled"] = true,
+								["criteria"] = "talent.dreadnaught.enabled",
+								["action"] = "overpower",
+							}, -- [14]
+							{
+								["enabled"] = true,
+								["action"] = "condemn",
+								["criteria"] = "buff.sweeping_strikes.up || buff.sudden_death.up",
+								["cycle_targets"] = 1,
+							}, -- [15]
+							{
+								["enabled"] = true,
+								["action"] = "execute",
+								["criteria"] = "buff.sweeping_strikes.up || buff.sudden_death.up",
+								["cycle_targets"] = 1,
+							}, -- [16]
+							{
+								["action"] = "overpower",
+								["enabled"] = true,
+							}, -- [17]
+							{
+								["action"] = "whirlwind",
+								["enabled"] = true,
+							}, -- [18]
 						},
 					},
 					["version"] = 20220319,
-					["warnings"] = "WARNING:  The import for 'aoe' required some automated changes.\nLine 1: Converted 'soulbind.X' to 'soulbind.X.enabled' (1x).\nLine 5: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\n\nWARNING:  The import for 'single_target' required some automated changes.\nLine 3: Converted 'covenant.X.enabled' to 'covenant.X' (1x).\nLine 4: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 11: Converted 'talent.X' to 'talent.X.enabled' (1x).\nLine 11: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 13: Converted 'talent.X' to 'talent.X.enabled' (1x).\n\nWARNING:  The import for 'default' required some automated changes.\nLine 3: Converted 'talent.X' to 'talent.X.enabled' (1x).\nLine 4: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 4: Converted 'runeforge.X' to 'runeforge.X.enabled' at EOL (1x).\nLine 4: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 6: Converted 'covenant.X.enabled' to 'covenant.X' (1x).\nLine 7: Converted 'covenant.X.enabled' to 'covenant.X' (1x).\nLine 8: Converted 'covenant.X.enabled' to 'covenant.X' (1x).\nLine 14: Converted 'talent.X' to 'talent.X.enabled' (2x).\nLine 14: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 15: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\n\nImported 4 action lists.\n",
-					["profile"] = "## Fury Warrior\n## March 19, 2022\n\n## Changes:\n## - Added Pummel.\n## - Disabled movement / Heroic Leap call (not needed for in-game context).\n## - Moved Bladestorm and Dragon Roar above Bloodthirst to improve frequency of recommendations (sims roughly equal).\n## - Added Battle Shout to precombat APL.\n## - Added Use Items.\n## - Tweak for Whirlwind before level 37.\n## - Removed Essences.\n## - Don't use Siegebreaker if it's already up (Deathmaker).\n## - Setup fake sequences for Signet opener.\n\n## Executed before combat begins. Accepts non-harmful actions only.\nactions.precombat+=/battle_shout\nactions.precombat+=/recklessness,if=!runeforge.signet_of_tormented_kings.equipped\nactions.precombat+=/conquerors_banner\n\n## Executed every time the actor is available.\n# Charge if we're long past our opener, or we don't need the opener combo for Signet (non-Venthyr).\nactions=charge,if=time>8||talent.double_time.enabled||active_enemies>1||covenant.venthyr||!runeforge.signet_of_tormented_kings.equipped||cooldown.recklessness.remains>gcd\nactions+=/pummel\nactions+=/variable,name=execute_phase,value=talent.massacre&target.health.pct<35||target.health.pct<20||target.health.pct>80&covenant.venthyr\nactions+=/variable,name=unique_legendaries,value=runeforge.signet_of_tormented_kings||runeforge.sinful_surge||runeforge.elysian_might\n## This is mostly to prevent cooldowns from being accidentally used during movement.\n## actions+=/run_action_list,name=movement,if=movement.distance>5\n## actions+=/heroic_leap,if=(raid_event.movement.distance>25&raid_event.movement.in>45)\n## actions+=/sequence,if=active_enemies=1&covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped,name=BT&Reck:bloodthirst:recklessness\n# Emulates initial Bloodthirst sequence for single-target + Signet.\nactions+=/bloodthirst,line_cd=10,if=time<8&active_enemies=1&runeforge.signet_of_tormented_kings.equipped&(!covenant.venthyr||cooldown.recklessness.remains<=gcd)\n# Emulates initial Recklessness sequence for single-target + Venthyr + Signet.\nactions+=/recklessness,line_cd=10,if=time<8&active_enemies=1&covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped&prev.bloodthirst\n## actions+=/sequence,if=active_enemies=1&!covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped,name=BT&Charge:bloodthirst:heroic_charge\n# Emulates initial Heroic Leap > Charge sequence for single-target + non-Venthyr + Signet.\nactions+=/heroic_leap,line_cd=10,if=settings.heroic_charge&time<5&active_enemies=1&!covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped&prev.bloodthirst&cooldown.charge.remains<0.5\n# Emulates initial Heroic Leap > Charge sequence for single-target + non-Venthyr + Signet.\nactions+=/charge,line_cd=10,if=settings.heroic_charge&time<5&active_enemies=1&!covenant.venthyr.enabled&runeforge.signet_of_tormented_kings.equipped&prev.heroic_leap\nactions+=/potion\nactions+=/conquerors_banner,if=rage>70\nactions+=/spear_of_bastion,if=buff.enrage.up&rage<70\nactions+=/rampage,if=cooldown.recklessness.remains<3&talent.reckless_abandon.enabled\nactions+=/conquerors_banner,if=buff.recklessness.down&debuff.siegebreaker.down||fight_remains<50\nactions+=/recklessness,if=runeforge.sinful_surge&gcd.remains=0&(variable.execute_phase||(target.time_to_pct_35>40&talent.anger_management||target.time_to_pct_35>70&!talent.anger_management))&(spell_targets.whirlwind=1||buff.meat_cleaver.up)\nactions+=/recklessness,if=runeforge.elysian_might&gcd.remains=0&(cooldown.spear_of_bastion.remains<5||cooldown.spear_of_bastion.remains>20)&((buff.bloodlust.up||talent.anger_management.enabled||raid_event.adds.in>10)||boss&fight_remains>100||variable.execute_phase||boss&fight_remains<15&raid_event.adds.in>10)&(spell_targets.whirlwind=1||buff.meat_cleaver.up)\nactions+=/recklessness,if=!variable.unique_legendaries&gcd.remains=0&((buff.bloodlust.up||talent.anger_management.enabled||raid_event.adds.in>10)||boss&fight_remains>100||variable.execute_phase||boss&fight_remains<15&raid_event.adds.in>10)&(spell_targets.whirlwind=1||buff.meat_cleaver.up)&(!covenant.necrolord||cooldown.conquerors_banner.remains>20)\nactions+=/recklessness,use_off_gcd=1,if=runeforge.signet_of_tormented_kings.equipped&prev_gcd.1.rampage&((buff.bloodlust.up||talent.anger_management.enabled||raid_event.adds.in>10)||boss&fight_remains>100||variable.execute_phase||boss&fight_remains<15&raid_event.adds.in>10)&(spell_targets.whirlwind=1||buff.meat_cleaver.up)\nactions+=/whirlwind,if=level>36&(spell_targets.whirlwind>1&!buff.meat_cleaver.up||raid_event.adds.in<gcd&!buff.meat_cleaver.up)\nactions+=/use_item,name=inscrutable_quantum_device,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<21||boss&fight_remains>190||buff.bloodlust.up)\nactions+=/use_item,name=wakeners_frond,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<13||boss&fight_remains>130)\nactions+=/use_item,name=macabre_sheet_music,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<25||boss&fight_remains>110)\nactions+=/use_item,name=overwhelming_power_crystal,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<16||boss&fight_remains>100)\nactions+=/use_item,name=instructors_divine_bell,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<10||boss&fight_remains>95)\nactions+=/use_item,name=flame_of_battle,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<11||boss&fight_remains>100)\nactions+=/use_item,name=gladiators_badge,if=cooldown.recklessness.remains>10&(buff.recklessness.up||boss&fight_remains<11||boss&fight_remains>65)\nactions+=/use_item,name=scars_of_fraternal_strife\nactions+=/use_item,name=gavel_of_the_first_arbiter\nactions+=/use_items\nactions+=/blood_fury\nactions+=/berserking,if=buff.recklessness.up\nactions+=/lights_judgment,if=buff.recklessness.down&debuff.siegebreaker.down\nactions+=/fireblood\nactions+=/ancestral_call\nactions+=/bag_of_tricks,if=buff.recklessness.down&debuff.siegebreaker.down&buff.enrage.up\nactions+=/call_action_list,strict=1,name=aoe,if=spell_targets.whirlwind>1\nactions+=/run_action_list,name=single_target\n\nactions.aoe=cancel_buff,name=bladestorm,if=gcd.remains=0&soulbind.first_strike&buff.first_strike.remains&buff.enrage.remains<gcd\nactions.aoe+=/ancient_aftershock,if=buff.enrage.up&cooldown.recklessness.remains>5\nactions.aoe+=/spear_of_bastion,if=buff.enrage.up&rage<40\nactions.aoe+=/bladestorm,interrupt_if=gcd.remains=0&soulbind.first_strike&buff.first_strike.remains&buff.enrage.remains<gcd,if=buff.enrage.up&spell_targets.whirlwind>2\nactions.aoe+=/condemn,if=(buff.enrage.up||buff.recklessness.up&runeforge.sinful_surge)&variable.execute_phase\nactions.aoe+=/siegebreaker\nactions.aoe+=/rampage\nactions.aoe+=/spear_of_bastion,if=buff.enrage.up&cooldown.recklessness.remains>5\nactions.aoe+=/bladestorm,if=buff.enrage.remains>gcd*2.5\n\nactions.single_target+=/raging_blow,if=runeforge.will_of_the_berserker.equipped&buff.will_of_the_berserker.remains<gcd\nactions.single_target+=/crushing_blow,if=runeforge.will_of_the_berserker.equipped&buff.will_of_the_berserker.remains<gcd\nactions.single_target+=/cancel_buff,name=bladestorm,if=spell_targets.whirlwind=1&gcd.remains=0&(talent.massacre.enabled||covenant.venthyr.enabled)&variable.execute_phase&(rage>90||!cooldown.condemn.remains)\nactions.single_target+=/condemn,if=(buff.enrage.up||buff.recklessness.up&runeforge.sinful_surge)&variable.execute_phase\nactions.single_target+=/siegebreaker,if=debuff.siegebreaker.down&(spell_targets.whirlwind>1||raid_event.adds.in>15)\nactions.single_target+=/rampage,if=buff.recklessness.up||(buff.enrage.remains<gcd||rage>80)||buff.frenzy.remains<1.5\nactions.single_target+=/crushing_blow,if=set_bonus.tier28_2pc||charges=2||(buff.recklessness.up&variable.execute_phase&talent.massacre.enabled)\nactions.single_target+=/condemn\nactions.single_target+=/ancient_aftershock,if=buff.enrage.up&cooldown.recklessness.remains>5&(boss&fight_remains>95||buff.recklessness.up||boss&fight_remains<20)&raid_event.adds.in>75\nactions.single_target+=/execute\nactions.single_target+=/spear_of_bastion,if=runeforge.elysian_might&buff.enrage.up&cooldown.recklessness.remains>5&(buff.recklessness.up||boss&fight_remains<20||debuff.siegebreaker.up||!talent.siegebreaker&boss&fight_remains>68)&raid_event.adds.in>55\nactions.single_target+=/bladestorm,if=buff.enrage.up&(!buff.recklessness.remains||rage<50)&(spell_targets.whirlwind=1&raid_event.adds.in>45||spell_targets.whirlwind=2)\nactions.single_target+=/spear_of_bastion,if=buff.enrage.up&cooldown.recklessness.remains>5&(buff.recklessness.up||boss&fight_remains<20||debuff.siegebreaker.up||!talent.siegebreaker&boss&fight_remains>68)&raid_event.adds.in>55\nactions.single_target+=/bloodthirst,if=buff.enrage.down||conduit.vicious_contempt.rank>5&target.health.pct<35\nactions.single_target+=/bloodbath,if=buff.enrage.down||conduit.vicious_contempt.rank>5&target.health.pct<35&!talent.cruelty.enabled\nactions.single_target+=/whirlwind,if=buff.merciless_bonegrinder.up&spell_targets.whirlwind>1\nactions.single_target+=/raging_blow,if=set_bonus.tier28_2pc||charges=2||(buff.recklessness.up&variable.execute_phase&talent.massacre.enabled)\nactions.single_target+=/dragon_roar,if=buff.enrage.up&(spell_targets.whirlwind>1||raid_event.adds.in>15)\nactions.single_target+=/onslaught,if=buff.enrage.up\nactions.single_target+=/bloodthirst\nactions.single_target+=/bloodbath\nactions.single_target+=/raging_blow\nactions.single_target+=/crushing_blow\nactions.single_target+=/whirlwind",
-					["spec"] = 72,
+					["warnings"] = "WARNING:  The import for 'single_target' required some automated changes.\nLine 10: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 10: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 21: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\n\nWARNING:  The import for 'execute' required some automated changes.\nLine 13: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 16: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\nLine 19: Converted 'runeforge.X' to 'runeforge.X.enabled' (1x).\n\nImported 5 action lists.\n",
+					["profile"] = "## Arms Warrior\n## March 19, 2022\n\n## Changes:\n## - Update for 9.2; add target swapping for Execute/Condemn.\n\n## Executed before combat begins. Accepts non-harmful actions only.\nactions.precombat+=/battle_shout\n\n## Executed every time the actor is available.\nactions=charge\nactions+=/pummel\nactions+=/potion,if=gcd.remains=0&debuff.colossus_smash.remains>8||boss&fight_remains<25\nactions+=/blood_fury,if=debuff.colossus_smash.up\nactions+=/berserking,if=debuff.colossus_smash.remains>6\nactions+=/arcane_torrent,if=cooldown.mortal_strike.remains>1.5&rage<50\nactions+=/lights_judgment,if=debuff.colossus_smash.down&cooldown.mortal_strike.remains\nactions+=/fireblood,if=debuff.colossus_smash.up\nactions+=/ancestral_call,if=debuff.colossus_smash.up\nactions+=/bag_of_tricks,if=debuff.colossus_smash.down&cooldown.mortal_strike.remains\nactions+=/use_item,name=scars_of_fraternal_strife\nactions+=/use_item,name=gavel_of_the_first_arbiter\nactions+=/use_items\nactions+=/sweeping_strikes,if=spell_targets.whirlwind>1&(cooldown.bladestorm.remains>15||talent.ravager.enabled)\nactions+=/call_action_list,name=execute,strict=1,if=talent.massacre.enabled&target.health.pct<35||target.health.pct<20||covenant.venthyr&target.health.pct>80||cycle_for_execute||cycle_for_condemn\nactions+=/call_action_list,name=hac,strict=1,if=raid_event.adds.up||spell_targets.whirlwind>1\nactions+=/call_action_list,name=single_target\nactions+=/victory_rush\nactions+=/impending_victory\n\nactions.execute=deadly_calm\nactions.execute+=/conquerors_banner\nactions.execute+=/cancel_buff,name=bladestorm,if=spell_targets.whirlwind=1&gcd.remains=0&(rage>75||rage>50&buff.recklessness.up)\nactions.execute+=/avatar,if=gcd.remains=0||target.time_to_die<20\nactions.execute+=/condemn,cycle_targets=1,if=buff.ashen_juggernaut.up&buff.ashen_juggernaut.remains<gcd&conduit.ashen_juggernaut.rank>1\nactions.execute+=/execute,cycle_targets=1,if=buff.ashen_juggernaut.up&buff.ashen_juggernaut.remains<gcd&conduit.ashen_juggernaut.rank>1\nactions.execute+=/ravager\nactions.execute+=/rend,if=remains<=gcd&(!talent.warbreaker.enabled&cooldown.colossus_smash.remains<4||talent.warbreaker.enabled&cooldown.warbreaker.remains<4)&target.time_to_die>12\nactions.execute+=/warbreaker\nactions.execute+=/colossus_smash\nactions.execute+=/ancient_aftershock\nactions.execute+=/spear_of_bastion\nactions.execute+=/condemn,cycle_targets=1,if=runeforge.signet_of_tormented_kings&(rage.deficit<25||debuff.colossus_smash.up&rage>40||buff.sudden_death.react||buff.deadly_calm.up)\nactions.execute+=/overpower,if=charges=2\nactions.execute+=/cleave,if=spell_targets.whirlwind>1&dot.deep_wounds.remains<gcd\nactions.execute+=/mortal_strike,if=dot.deep_wounds.remains<=gcd||runeforge.enduring_blow||buff.overpower.stack=2&debuff.exploiter.stack=2||buff.battlelord.up\nactions.execute+=/condemn,cycle_targets=1,if=rage.deficit<25||buff.deadly_calm.up\nactions.execute+=/skullsplitter,if=rage<45\nactions.execute+=/bladestorm,if=buff.deadly_calm.down&(rage<20||!runeforge.sinful_surge&rage<50)\nactions.execute+=/overpower\nactions.execute+=/condemn,cycle_targets=1\nactions.execute+=/execute,cycle_targets=1\n\nactions.hac=skullsplitter,if=rage<60&buff.deadly_calm.down\nactions.hac+=/conquerors_banner\nactions.hac+=/avatar,if=cooldown.colossus_smash.remains<1\nactions.hac+=/warbreaker\nactions.hac+=/colossus_smash\nactions.hac+=/cleave,if=dot.deep_wounds.remains<=gcd\nactions.hac+=/ancient_aftershock\nactions.hac+=/spear_of_bastion\nactions.hac+=/bladestorm\nactions.hac+=/ravager\nactions.hac+=/rend,if=remains<=duration*0.3&buff.sweeping_strikes.up\nactions.hac+=/cleave\nactions.hac+=/mortal_strike,if=buff.sweeping_strikes.up||dot.deep_wounds.remains<gcd&!talent.cleave.enabled\nactions.hac+=/overpower,if=talent.dreadnaught.enabled\nactions.hac+=/condemn,cycle_targets=1,if=buff.sweeping_strikes.up||buff.sudden_death.up\nactions.hac+=/execute,cycle_targets=1,if=buff.sweeping_strikes.up||buff.sudden_death.up\nactions.hac+=/overpower\nactions.hac+=/whirlwind\n\nactions.single_target=rend,if=remains<=gcd\nactions.single_target+=/conquerors_banner,if=fight_remains>140\nactions.single_target+=/avatar\nactions.single_target+=/ravager\nactions.single_target+=/warbreaker\nactions.single_target+=/colossus_smash\nactions.single_target+=/ancient_aftershock\nactions.single_target+=/spear_of_bastion\nactions.single_target+=/overpower,if=charges=2\nactions.single_target+=/mortal_strike,if=runeforge.enduring_blow||runeforge.battlelord||buff.overpower.stack>=2\nactions.single_target+=/condemn,if=buff.sudden_death.react\nactions.single_target+=/execute,if=buff.sudden_death.react\nactions.single_target+=/skullsplitter,if=rage.deficit>45&buff.deadly_calm.down\nactions.single_target+=/bladestorm,if=buff.deadly_calm.down&rage<30\nactions.single_target+=/deadly_calm\nactions.single_target+=/overpower\nactions.single_target+=/mortal_strike\nactions.single_target+=/rend,if=remains<duration*0.3\nactions.single_target+=/cleave,if=spell_targets.whirlwind>1\nactions.single_target+=/whirlwind,if=talent.fervor_of_battle.enabled||spell_targets.whirlwind>4||spell_targets.whirlwind>2&buff.sweeping_strikes.down\nactions.single_target+=/slam,if=!talent.fervor_of_battle.enabled&(rage>50||debuff.colossus_smash.up||!runeforge.enduring_blow)",
+					["spec"] = 71,
 				},
 			},
 		},

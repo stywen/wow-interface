@@ -43,3 +43,10 @@ AAP-Shadowlands: disabled
 BigWigs_Core: enabled
 BigWigs_Options: enabled
 BigWigs_Plugins: enabled
+RaiderIO_DB_US_R: disabled
+RaiderIO_DB_US_M: disabled
+RaiderIO_DB_TW_R: disabled
+RaiderIO_DB_TW_M: disabled
+RaiderIO_DB_KR_R: disabled
+RaiderIO_DB_KR_M: disabled
+AdiBags: disabled

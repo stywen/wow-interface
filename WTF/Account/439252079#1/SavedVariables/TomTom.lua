@@ -20,20 +20,26 @@ TomTomDB = {
 		["Nofriend - Aegwynn"] = "Default",
 		["Buffedbeef - Blackrock"] = "Default",
 		["Xrth - Blackrock"] = "Default",
+		["Deathkyng - Blackrock"] = "Default",
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
-		["Extinguish - Blackrock"] = "Default",
-		["Slavicpriest - Antonidas"] = "Default",
-		["Cakebender - Antonidas"] = "Default",
-		["Magyc - Mal'Ganis"] = "Default",
-		["Eurotas - Blackrock"] = "Default",
-		["Eshidishii - Blackrock"] = "Default",
-		["Starplatïnum - Blackrock"] = "Default",
+		["Byd - Blackrock"] = "Default",
 		["Byd - Aegwynn"] = "Default",
+		["Eshidishi - Draenor"] = "Default",
+		["Slavicpriest - Antonidas"] = "Default",
+		["Extinguish - Blackrock"] = "Default",
+		["Nofriendz - Blackrock"] = "Default",
+		["Magyc - Mal'Ganis"] = "Default",
+		["Byd - Kazzak"] = "Default",
+		["Cakebender - Antonidas"] = "Default",
+		["Eurotas - Blackrock"] = "Default",
+		["Starplatïnum - Blackrock"] = "Default",
+		["Eshidishii - Blackrock"] = "Default",
+		["Kyng - Antonidas"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
-		["Nofriendz - Blackrock"] = "Default",
 		["Orthodoxtank - Antonidas"] = "Default",
+		["Nakrates - Antonidas"] = "Default",
 		["Tizeran - Blackrock"] = "Default",
 	},
 	["profiles"] = {
@@ -81,20 +87,26 @@ TomTomWaypointsM = {
 		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
 		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 		["Xrth - Blackrock"] = "Xrth - Blackrock",
+		["Deathkyng - Blackrock"] = "Deathkyng - Blackrock",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
-		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Blackrock"] = "Byd - Blackrock",
 		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
+		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
+		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
+		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
 		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -136,21 +148,60 @@ TomTomWaypointsM = {
 		},
 		["Xrth - Blackrock"] = {
 		},
+		["Deathkyng - Blackrock"] = {
+		},
 		["Testyu - Blackrock"] = {
 		},
 		["Byd - Mal'Ganis"] = {
 		},
-		["Extinguish - Blackrock"] = {
+		["Byd - Blackrock"] = {
+		},
+		["Byd - Aegwynn"] = {
+		},
+		["Eshidishi - Draenor"] = {
 		},
 		["Slavicpriest - Antonidas"] = {
 		},
-		["Cakebender - Antonidas"] = {
+		["Extinguish - Blackrock"] = {
+		},
+		["Nofriendz - Blackrock"] = {
 		},
 		["Magyc - Mal'Ganis"] = {
 		},
+		["Byd - Kazzak"] = {
+		},
+		["Cakebender - Antonidas"] = {
+		},
 		["Eurotas - Blackrock"] = {
 		},
+		["Starplatïnum - Blackrock"] = {
+		},
 		["Eshidishii - Blackrock"] = {
+			[1707] = {
+				["1707:488100000:647800000:Portal to Oribos"] = {
+					1707, -- [1]
+					0.4881, -- [2]
+					0.6478, -- [3]
+					["arrivaldistance"] = 15,
+					["crazy"] = true,
+					["persistent"] = true,
+					["desc"] = "Portal to Oribos",
+					["silent"] = true,
+					["cleardistance"] = 10,
+					["title"] = "Portal to Oribos",
+					["from"] = "?",
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 			[1970] = {
 				["1970:600000000:259000000:TomTom waypoint"] = {
 					1970, -- [1]
@@ -223,17 +274,15 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Starplatïnum - Blackrock"] = {
-		},
-		["Byd - Aegwynn"] = {
+		["Kyng - Antonidas"] = {
 		},
 		["Odînaf - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
-		["Nofriendz - Blackrock"] = {
-		},
 		["Orthodoxtank - Antonidas"] = {
+		},
+		["Nakrates - Antonidas"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

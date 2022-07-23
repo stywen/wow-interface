@@ -1,11 +1,4 @@
 Version: 1
-Frame: AAP_QuestFrame
-FrameLevel: 1
-Anchor: TOP
-X: 534
-Y: -240
-W: 1
-H: 1
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -27,3 +20,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: WIM3_msgFrame1
+FrameLevel: 2
+Anchor: TOPLEFT
+X: 920
+Y: -113
+W: 333
+H: 220

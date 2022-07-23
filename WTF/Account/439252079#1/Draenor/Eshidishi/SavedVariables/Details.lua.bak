@@ -1,0 +1,5201 @@
+
+_detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 9,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002761,
+							["damage_from"] = {
+								["Coastal Goat"] = true,
+							},
+							["targets"] = {
+								["Coastal Goat"] = 42,
+							},
+							["pets"] = {
+							},
+							["aID"] = "1403-0A36DDD9",
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 42.002761,
+							["end_time"] = 1658179273,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 42.002761,
+							["classe"] = "WARRIOR",
+							["on_hold"] = false,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11,
+										["targets"] = {
+											["Coastal Goat"] = 33,
+										},
+										["n_dmg"] = 33,
+										["n_min"] = 11,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Coastal Goat"] = 9,
+										},
+										["n_dmg"] = 9,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 9,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 8.392160039958332,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 8.002761,
+							["start_time"] = 1658179267,
+							["delay"] = 0,
+							["last_event"] = 1658179272,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.002356,
+							["damage_from"] = {
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+								["Eshidishi"] = 8,
+							},
+							["pets"] = {
+							},
+							["aID"] = "161130",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 8.002355999999999,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 8.002355999999999,
+							["end_time"] = 1658179273,
+							["on_hold"] = false,
+							["nome"] = "Coastal Goat",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Eshidishi"] = 8,
+										},
+										["n_dmg"] = 8,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 8,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-3889-2175-28561-161130-000155CE13",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1658179271,
+							["damage_taken"] = 42.002356,
+							["start_time"] = 1658179267,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 9,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Eshidishi"] = 3,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 3.004949,
+							["total_without_pet"] = 8.004949,
+							["total"] = 8.004949,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalabsorb"] = 0.004949,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Eshidishi"] = 8,
+							},
+							["totalover_without_pet"] = 0.004949,
+							["healing_taken"] = 8.004949,
+							["fight_component"] = true,
+							["end_time"] = 1658179273,
+							["healing_from"] = {
+								["Eshidishi"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Eshidishi"] = 3,
+										},
+										["n_max"] = 5,
+										["targets"] = {
+											["Eshidishi"] = 8,
+										},
+										["n_min"] = 3,
+										["counter"] = 2,
+										["overheal"] = 3,
+										["total"] = 8,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 8,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1658179272,
+							["spec"] = 1446,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["totaldenied"] = 0.004949,
+							["delay"] = 0,
+							["last_event"] = 1658179272,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 9,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 9.008416,
+							["resource"] = 0.008416,
+							["targets"] = {
+								["Eshidishi"] = 9,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.008416,
+							["fight_component"] = true,
+							["total"] = 9.008416,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 9,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 9,
+										},
+										["counter"] = 3,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.008416,
+							["last_event"] = 1658179271,
+							["aID"] = "1403-0A36DDD9",
+							["tipo"] = 3,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalover"] = 0.008416,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 9,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Eshidishi",
+							["spec"] = 1446,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1464] = 1,
+							},
+							["buff_uptime"] = 6,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["aID"] = "1403-0A36DDD9",
+							["last_event"] = 1658179273,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-1403-0A36DDD9",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 9,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["CombatStartedAt"] = 28316.916,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 12,
+				["playing_solo"] = true,
+				["totals"] = {
+					50, -- [1]
+					8, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "23:21:14",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Coastal Goat",
+				["TotalElapsedCombatTime"] = 5.96900000000096,
+				["CombatEndedAt"] = 28322.885,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "23:21:08",
+				["end_time"] = 28322.885,
+				["combat_id"] = 9,
+				["tempo_start"] = 1658179267,
+				["frags"] = {
+					["Coastal Goat"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					42, -- [1]
+					8, -- [2]
+					{
+						9, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Eshidishi"] = 8.004949,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 42.002761,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 28316.916,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 8,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003785,
+							["damage_from"] = {
+								["Coastal Goat"] = true,
+							},
+							["targets"] = {
+								["Coastal Goat"] = 43,
+							},
+							["pets"] = {
+							},
+							["total"] = 43.003785,
+							["on_hold"] = false,
+							["aID"] = "1403-0A36DDD9",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 43.003785,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1658179253,
+							["classe"] = "WARRIOR",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 12,
+										["targets"] = {
+											["Coastal Goat"] = 23,
+										},
+										["n_dmg"] = 23,
+										["n_min"] = 11,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 23,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[126664] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Coastal Goat"] = 2,
+										},
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 126664,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Coastal Goat"] = 18,
+										},
+										["n_dmg"] = 18,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 18,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 13.86771525314974,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 6.003785000000001,
+							["start_time"] = 1658179250,
+							["delay"] = 0,
+							["last_event"] = 1658179253,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.007692,
+							["damage_from"] = {
+								["Xarnoth"] = true,
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+								["Xarnoth"] = 10,
+								["Eshidishi"] = 6,
+							},
+							["pets"] = {
+							},
+							["total"] = 16.007692,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 16.007692,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1658179267,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Coastal Goat",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Xarnoth"] = 10,
+											["Eshidishi"] = 6,
+										},
+										["n_dmg"] = 16,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 16,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "161130",
+							["serial"] = "Creature-0-3889-2175-28561-161130-000055CE13",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1658179261,
+							["damage_taken"] = 83.00769199999999,
+							["start_time"] = 1658179251,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 8,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Eshidishi"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 6.007534,
+							["total_without_pet"] = 6.007534,
+							["total"] = 6.007534,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalabsorb"] = 0.007534,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Eshidishi"] = 6,
+							},
+							["totalover_without_pet"] = 0.007534,
+							["healing_taken"] = 6.007534,
+							["fight_component"] = true,
+							["end_time"] = 1658179253,
+							["healing_from"] = {
+								["Eshidishi"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Eshidishi"] = 6,
+										},
+										["n_max"] = 6,
+										["targets"] = {
+											["Eshidishi"] = 6,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 6,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1658179253,
+							["spec"] = 1446,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["totaldenied"] = 0.007534,
+							["delay"] = 0,
+							["last_event"] = 1658179253,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 8,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 6.00195,
+							["resource"] = 0.00195,
+							["targets"] = {
+								["Eshidishi"] = 6,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.00195,
+							["fight_component"] = true,
+							["total"] = 6.00195,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 6,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 6,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.00195,
+							["last_event"] = 1658179253,
+							["aID"] = "1403-0A36DDD9",
+							["tipo"] = 3,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalover"] = 0.00195,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 8,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[105771] = {
+										["activedamt"] = -1,
+										["id"] = 105771,
+										["targets"] = {
+										},
+										["actived_at"] = 1658179250,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 3,
+							["aID"] = "1403-0A36DDD9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 0,
+							["nome"] = "Eshidishi",
+							["spec"] = 1446,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[126664] = 1,
+								[1464] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1658179253,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["serial"] = "Player-1403-0A36DDD9",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 8,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["tempo_start"] = 1658179250,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 11,
+				["playing_solo"] = true,
+				["totals"] = {
+					58.996232, -- [1]
+					6, -- [2]
+					{
+						6, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					43, -- [1]
+					6, -- [2]
+					{
+						6, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "23:20:54",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Coastal Goat",
+				["TotalElapsedCombatTime"] = 28303.094,
+				["CombatEndedAt"] = 28303.094,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Eshidishi"] = 6.007534,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 43.003785,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 28303.094,
+				["combat_id"] = 8,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "23:20:51",
+				["start_time"] = 28299.993,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Coastal Goat"] = 1,
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 7,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001046,
+							["damage_from"] = {
+								["Murloc Spearhunter"] = true,
+							},
+							["targets"] = {
+								["Murloc Spearhunter"] = 27,
+							},
+							["pets"] = {
+							},
+							["total"] = 27.001046,
+							["on_hold"] = false,
+							["aID"] = "1403-0A36DDD9",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 27.001046,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1658179148,
+							["classe"] = "WARRIOR",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 20,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Murloc Spearhunter"] = 20,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 20,
+										["c_max"] = 20,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 20,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Murloc Spearhunter"] = 7,
+										},
+										["n_dmg"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 26.16380426358507,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2.001046,
+							["start_time"] = 1658179147,
+							["delay"] = 0,
+							["last_event"] = 1658179147,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.002836,
+							["damage_from"] = {
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+								["Eshidishi"] = 2,
+							},
+							["pets"] = {
+							},
+							["total"] = 2.002836,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2.002836,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1658179148,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Spearhunter",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Eshidishi"] = 2,
+										},
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "150228",
+							["serial"] = "Creature-0-3889-2175-28561-150228-0000D5CC9A",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1658179147,
+							["damage_taken"] = 27.002836,
+							["start_time"] = 1658179147,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 7,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Eshidishi"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 6.004608,
+							["total_without_pet"] = 2.004608,
+							["total"] = 2.004608,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalabsorb"] = 0.004608,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Eshidishi"] = 2,
+							},
+							["totalover_without_pet"] = 0.004608,
+							["healing_taken"] = 2.004608,
+							["fight_component"] = true,
+							["end_time"] = 1658179148,
+							["healing_from"] = {
+								["Eshidishi"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Eshidishi"] = 6,
+										},
+										["n_max"] = 2,
+										["targets"] = {
+											["Eshidishi"] = 2,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 2,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1658179147,
+							["spec"] = 1446,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["totaldenied"] = 0.004608,
+							["delay"] = 0,
+							["last_event"] = 1658179147,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 7,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 13.007526,
+							["resource"] = 0.007526,
+							["targets"] = {
+								["Eshidishi"] = 13,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.007526,
+							["fight_component"] = true,
+							["total"] = 13.007526,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 3,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 3,
+										},
+										["counter"] = 1,
+									},
+									[100] = {
+										["total"] = 10,
+										["id"] = 100,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 10,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.007526,
+							["last_event"] = 1658179249,
+							["aID"] = "1403-0A36DDD9",
+							["tipo"] = 3,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalover"] = 0.007526,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 7,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 1446,
+							["grupo"] = true,
+							["nome"] = "Eshidishi",
+							["buff_uptime"] = 1,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["tipo"] = 4,
+							["aID"] = "1403-0A36DDD9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_event"] = 1658179148,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 7,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["CombatStartedAt"] = 28299.558,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 10,
+				["playing_solo"] = true,
+				["totals"] = {
+					28.987141, -- [1]
+					2, -- [2]
+					{
+						13, -- [1]
+						[0] = -0.005927,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "23:19:08",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Spearhunter",
+				["TotalElapsedCombatTime"] = 28197.614,
+				["CombatEndedAt"] = 28197.614,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "23:19:07",
+				["end_time"] = 28197.614,
+				["combat_id"] = 7,
+				["tempo_start"] = 1658179147,
+				["frags"] = {
+					["Murloc Spearhunter"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					27, -- [1]
+					2, -- [2]
+					{
+						13, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Eshidishi"] = 2.004608,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 27.001046,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 28196.582,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 6,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00706,
+							["damage_from"] = {
+								["Murloc Watershaper"] = true,
+							},
+							["targets"] = {
+								["Murloc Watershaper"] = 20,
+							},
+							["pets"] = {
+							},
+							["total"] = 20.00706,
+							["on_hold"] = false,
+							["aID"] = "1403-0A36DDD9",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 20.00706,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1658179145,
+							["classe"] = "WARRIOR",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10,
+										["targets"] = {
+											["Murloc Watershaper"] = 10,
+										},
+										["n_dmg"] = 10,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 10,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[126664] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Murloc Watershaper"] = 3,
+										},
+										["n_dmg"] = 3,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 126664,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Murloc Watershaper"] = 7,
+										},
+										["n_dmg"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 53.92738544486239,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 2.00706,
+							["start_time"] = 1658179144,
+							["delay"] = 0,
+							["last_event"] = 1658179144,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.004362,
+							["damage_from"] = {
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+								["Eshidishi"] = 2,
+							},
+							["pets"] = {
+							},
+							["total"] = 2.004362,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2.004362,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1658179145,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Watershaper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Eshidishi"] = 2,
+										},
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "150229",
+							["serial"] = "Creature-0-3889-2175-28561-150229-000055CD62",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1658179144,
+							["damage_taken"] = 20.004362,
+							["start_time"] = 1658179144,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 6,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Eshidishi"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 6.005658,
+							["total_without_pet"] = 2.005658,
+							["total"] = 2.005658,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalabsorb"] = 0.005658,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Eshidishi"] = 2,
+							},
+							["totalover_without_pet"] = 0.005658,
+							["healing_taken"] = 2.005658,
+							["fight_component"] = true,
+							["end_time"] = 1658179145,
+							["healing_from"] = {
+								["Eshidishi"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Eshidishi"] = 6,
+										},
+										["n_max"] = 2,
+										["targets"] = {
+											["Eshidishi"] = 2,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 2,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1658179144,
+							["spec"] = 1446,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["totaldenied"] = 0.005658,
+							["delay"] = 0,
+							["last_event"] = 1658179144,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 6,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 3.00533,
+							["resource"] = 0.00533,
+							["targets"] = {
+								["Eshidishi"] = 3,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.00533,
+							["fight_component"] = true,
+							["total"] = 3.00533,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 3,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 3,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.00533,
+							["last_event"] = 1658179144,
+							["aID"] = "1403-0A36DDD9",
+							["tipo"] = 3,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalover"] = 0.00533,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 6,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[105771] = {
+										["activedamt"] = -1,
+										["id"] = 105771,
+										["targets"] = {
+										},
+										["actived_at"] = 1658179144,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 1,
+							["aID"] = "1403-0A36DDD9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 0,
+							["nome"] = "Eshidishi",
+							["spec"] = 1446,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[126664] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1658179145,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["serial"] = "Player-1403-0A36DDD9",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 6,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["CombatStartedAt"] = 28196.582,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 9,
+				["playing_solo"] = true,
+				["totals"] = {
+					22, -- [1]
+					2, -- [2]
+					{
+						3, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "23:19:06",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Watershaper",
+				["TotalElapsedCombatTime"] = 28195.268,
+				["CombatEndedAt"] = 28195.268,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "23:19:05",
+				["end_time"] = 28195.268,
+				["combat_id"] = 6,
+				["tempo_start"] = 1658179144,
+				["frags"] = {
+					["Murloc Watershaper"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					20, -- [1]
+					2, -- [2]
+					{
+						3, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Eshidishi"] = 2.005658,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 20.00706,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 28193.807,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00422,
+							["damage_from"] = {
+								["Murloc Spearhunter"] = true,
+							},
+							["targets"] = {
+								["Murloc Spearhunter"] = 57,
+							},
+							["pets"] = {
+							},
+							["total"] = 57.00422,
+							["on_hold"] = false,
+							["aID"] = "1403-0A36DDD9",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 57.00422,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1658179142,
+							["classe"] = "WARRIOR",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Murloc Spearhunter"] = 36,
+										},
+										["n_dmg"] = 36,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 36,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Murloc Spearhunter"] = 21,
+										},
+										["n_dmg"] = 21,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 21,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 6.871289778207642,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 15.00422,
+							["start_time"] = 1658179132,
+							["delay"] = 0,
+							["last_event"] = 1658179140,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.00579,
+							["damage_from"] = {
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+								["Eshidishi"] = 15,
+							},
+							["pets"] = {
+							},
+							["total"] = 15.00579,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 15.00579,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1658179142,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Spearhunter",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Eshidishi"] = 15,
+										},
+										["n_dmg"] = 15,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 15,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["b_dmg"] = 1,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "150228",
+							["serial"] = "Creature-0-3889-2175-28561-150228-0000D5CCEB",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1658179140,
+							["damage_taken"] = 57.00579,
+							["start_time"] = 1658179132,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 5,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Eshidishi"] = 1,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 1.00249,
+							["total_without_pet"] = 15.00249,
+							["total"] = 15.00249,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalabsorb"] = 0.00249,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Eshidishi"] = 15,
+							},
+							["totalover_without_pet"] = 0.00249,
+							["healing_taken"] = 15.00249,
+							["fight_component"] = true,
+							["end_time"] = 1658179142,
+							["healing_from"] = {
+								["Eshidishi"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Eshidishi"] = 1,
+										},
+										["n_max"] = 4,
+										["targets"] = {
+											["Eshidishi"] = 15,
+										},
+										["n_min"] = 3,
+										["counter"] = 4,
+										["overheal"] = 1,
+										["total"] = 15,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 15,
+										["totaldenied"] = 0,
+										["n_amt"] = 4,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1658179137,
+							["spec"] = 1446,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["totaldenied"] = 0.00249,
+							["delay"] = 0,
+							["last_event"] = 1658179140,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 5,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 25.004809,
+							["resource"] = 0.004809,
+							["targets"] = {
+								["Eshidishi"] = 25,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.004809,
+							["fight_component"] = true,
+							["total"] = 25.004809,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 15,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 15,
+										},
+										["counter"] = 5,
+									},
+									[100] = {
+										["total"] = 10,
+										["id"] = 100,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 10,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.004809,
+							["last_event"] = 1658179143,
+							["aID"] = "1403-0A36DDD9",
+							["tipo"] = 3,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalover"] = 0.004809,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 5,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Eshidishi",
+							["spec"] = 1446,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1464] = 3,
+							},
+							["buff_uptime"] = 10,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["aID"] = "1403-0A36DDD9",
+							["last_event"] = 1658179142,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-1403-0A36DDD9",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 5,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["CombatStartedAt"] = 28193.083,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 8,
+				["playing_solo"] = true,
+				["totals"] = {
+					72, -- [1]
+					15, -- [2]
+					{
+						25, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "23:19:02",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Spearhunter",
+				["TotalElapsedCombatTime"] = 9.765999999999622,
+				["CombatEndedAt"] = 28191.633,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "23:18:53",
+				["end_time"] = 28191.633,
+				["combat_id"] = 5,
+				["tempo_start"] = 1658179132,
+				["frags"] = {
+					["Murloc Spearhunter"] = 2,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					57, -- [1]
+					15, -- [2]
+					{
+						25, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Eshidishi"] = 15.00249,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 57.00422,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 28181.867,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [5]
+			{
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008324,
+							["spec"] = 1446,
+							["damage_from"] = {
+								["Murloc Watershaper"] = true,
+							},
+							["targets"] = {
+								["Murloc Watershaper"] = 24,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["end_time"] = 1658179125,
+							["aID"] = "1403-0A36DDD9",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 24.008324,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 24.008324,
+							["classe"] = "WARRIOR",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Murloc Watershaper"] = 9,
+										},
+										["n_dmg"] = 9,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 9,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8,
+										["targets"] = {
+											["Murloc Watershaper"] = 15,
+										},
+										["n_dmg"] = 15,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 15,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 10.19894817332478,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 5.008324,
+							["start_time"] = 1658179123,
+							["delay"] = 0,
+							["last_event"] = 1658179125,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.001098,
+							["damage_from"] = {
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+								["Eshidishi"] = 5,
+							},
+							["aID"] = "150229",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5.001098,
+							["end_time"] = 1658179125,
+							["dps_started"] = false,
+							["total"] = 5.001098,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Watershaper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Eshidishi"] = 5,
+										},
+										["n_dmg"] = 5,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["serial"] = "Creature-0-3889-2175-28561-150229-000055CC9A",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1658179125,
+							["damage_taken"] = 24.001098,
+							["start_time"] = 1658179123,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 4,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Eshidishi"] = 3,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 3.003854,
+							["total_without_pet"] = 5.003854,
+							["total"] = 5.003854,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalabsorb"] = 0.003854,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Eshidishi"] = 5,
+							},
+							["totalover_without_pet"] = 0.003854,
+							["healing_taken"] = 5.003854,
+							["fight_component"] = true,
+							["end_time"] = 1658179125,
+							["healing_from"] = {
+								["Eshidishi"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Eshidishi"] = 3,
+										},
+										["n_max"] = 4,
+										["targets"] = {
+											["Eshidishi"] = 5,
+										},
+										["n_min"] = 1,
+										["counter"] = 2,
+										["overheal"] = 3,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 5,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1658179125,
+							["spec"] = 1446,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["totaldenied"] = 0.003854,
+							["delay"] = 0,
+							["last_event"] = 1658179125,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 4,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 6.001011,
+							["resource"] = 0.001011,
+							["targets"] = {
+								["Eshidishi"] = 6,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.001011,
+							["fight_component"] = true,
+							["total"] = 6.001011,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 6,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 6,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.001011,
+							["last_event"] = 1658179125,
+							["aID"] = "1403-0A36DDD9",
+							["tipo"] = 3,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalover"] = 0.001011,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 4,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["nome"] = "Eshidishi",
+							["spec"] = 1446,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[1464] = 2,
+							},
+							["buff_uptime"] = 2,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["aID"] = "1403-0A36DDD9",
+							["last_event"] = 1658179125,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-1403-0A36DDD9",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 4,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["CombatStartedAt"] = 28172.789,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7,
+				["playing_solo"] = true,
+				["totals"] = {
+					29, -- [1]
+					5, -- [2]
+					{
+						6, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "23:18:46",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Watershaper",
+				["TotalElapsedCombatTime"] = 2.684000000001106,
+				["CombatEndedAt"] = 28175.473,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "23:18:44",
+				["end_time"] = 28175.473,
+				["combat_id"] = 4,
+				["tempo_start"] = 1658179123,
+				["frags"] = {
+					["Murloc Watershaper"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					24, -- [1]
+					5, -- [2]
+					{
+						6, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Eshidishi"] = 5.003854,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 24.008324,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 28172.789,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [6]
+			{
+				{
+					["combatId"] = 3,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006726,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Murloc Spearhunter"] = 27,
+							},
+							["pets"] = {
+							},
+							["total"] = 27.006726,
+							["on_hold"] = false,
+							["aID"] = "1403-0A36DDD9",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 27.006726,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1658179121,
+							["classe"] = "WARRIOR",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Murloc Spearhunter"] = 18,
+										},
+										["n_dmg"] = 18,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 18,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[126664] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Murloc Spearhunter"] = 2,
+										},
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 126664,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Murloc Spearhunter"] = 7,
+										},
+										["n_dmg"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 15.59279792147832,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.006726,
+							["start_time"] = 1658179119,
+							["delay"] = 0,
+							["last_event"] = 1658179120,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.005818,
+							["damage_from"] = {
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005818,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1658179121,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Murloc Spearhunter",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 0,
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["PARRY"] = 1,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "150228",
+							["total"] = 0.005818,
+							["serial"] = "Creature-0-3889-2175-28561-150228-000055CD74",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1658179119,
+							["damage_taken"] = 27.005818,
+							["start_time"] = 1658179121,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 3,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Eshidishi"] = 7,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 7.00202,
+							["total_without_pet"] = 0.00202,
+							["total"] = 0.00202,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalabsorb"] = 0.00202,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00202,
+							["healing_taken"] = 0.00202,
+							["end_time"] = 1658179121,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Eshidishi"] = 7,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 7,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1658179120,
+							["spec"] = 1446,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["totaldenied"] = 0.00202,
+							["delay"] = 0,
+							["last_event"] = 1658179120,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 3,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 3,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[105771] = {
+										["activedamt"] = -1,
+										["id"] = 105771,
+										["targets"] = {
+										},
+										["actived_at"] = 1658179119,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 0,
+							["nome"] = "Eshidishi",
+							["spec"] = 1446,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[126664] = 1,
+								[1464] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1658179121,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["serial"] = "Player-1403-0A36DDD9",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 3,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["tempo_start"] = 1658179119,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 6,
+				["playing_solo"] = true,
+				["totals"] = {
+					27, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					27, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "23:18:41",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Murloc Spearhunter",
+				["TotalElapsedCombatTime"] = 28170.587,
+				["CombatEndedAt"] = 28170.587,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Eshidishi"] = 0.00202,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 27.006726,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 28170.587,
+				["combat_id"] = 3,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["overall_added"] = true,
+				["player_last_events"] = {
+				},
+				["CombatSkillCache"] = {
+				},
+				["data_inicio"] = "23:18:39",
+				["start_time"] = 28168.605,
+				["TimeData"] = {
+				},
+				["frags"] = {
+					["Murloc Spearhunter"] = 1,
+				},
+			}, -- [7]
+			{
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008934,
+							["damage_from"] = {
+								["Grunt Throg"] = true,
+							},
+							["targets"] = {
+								["Grunt Throg"] = 63,
+							},
+							["pets"] = {
+							},
+							["total"] = 63.008934,
+							["on_hold"] = false,
+							["aID"] = "1403-0A36DDD9",
+							["raid_targets"] = {
+								[128] = 63,
+							},
+							["total_without_pet"] = 63.008934,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1658179081,
+							["classe"] = "WARRIOR",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Grunt Throg"] = 37,
+										},
+										["n_dmg"] = 37,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 37,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Grunt Throg"] = 20,
+										},
+										["n_dmg"] = 20,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 20,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[59830] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Grunt Throg"] = 6,
+										},
+										["n_dmg"] = 6,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 59830,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 3.230399077159534,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 3.008934,
+							["start_time"] = 1658179062,
+							["delay"] = 0,
+							["last_event"] = 1658179075,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.00229,
+							["damage_from"] = {
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+								["Eshidishi"] = 3,
+							},
+							["pets"] = {
+							},
+							["total"] = 3.00229,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3.00229,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1658179081,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Grunt Throg",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1,
+										["targets"] = {
+											["Eshidishi"] = 3,
+										},
+										["n_dmg"] = 3,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 3,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+							},
+							["aID"] = "166814",
+							["serial"] = "Creature-0-3113-2175-29353-166814-000055CDF2",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1658179070,
+							["damage_taken"] = 63.00229,
+							["start_time"] = 1658179072,
+							["delay"] = 1658179070,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 2,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 2,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 19.004921,
+							["resource"] = 0.004921,
+							["targets"] = {
+								["Eshidishi"] = 19,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "WARRIOR",
+							["passiveover"] = 0.004921,
+							["total"] = 19.004921,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[195707] = {
+										["total"] = 9,
+										["id"] = 195707,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 9,
+										},
+										["counter"] = 3,
+									},
+									[100] = {
+										["total"] = 10,
+										["id"] = 100,
+										["totalover"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 10,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.004921,
+							["last_event"] = 1658179118,
+							["aID"] = "1403-0A36DDD9",
+							["tipo"] = 3,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalover"] = 0.004921,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 2,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["classe"] = "WARRIOR",
+							["nome"] = "Eshidishi",
+							["spec"] = 1446,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 6,
+							["spell_cast"] = {
+								[1464] = 4,
+							},
+							["tipo"] = 4,
+							["aID"] = "1403-0A36DDD9",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[341260] = {
+										["activedamt"] = 1,
+										["id"] = 341260,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_event"] = 1658179081,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["classe"] = "UNKNOW",
+							["nome"] = "Grunt Throg",
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								[312757] = 1,
+								[312755] = 1,
+							},
+							["tipo"] = 4,
+							["aID"] = "166814",
+							["serial"] = "Creature-0-3113-2175-29353-166814-000055CDF2",
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 2,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["CombatStartedAt"] = 28168.096,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 5,
+				["playing_solo"] = true,
+				["totals"] = {
+					65.991902, -- [1]
+					0, -- [2]
+					{
+						19, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["data_fim"] = "23:18:02",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Grunt Throg",
+				["TotalElapsedCombatTime"] = 19.50500000000102,
+				["CombatEndedAt"] = 28131.291,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "23:17:43",
+				["end_time"] = 28131.291,
+				["combat_id"] = 2,
+				["tempo_start"] = 1658179062,
+				["frags"] = {
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					63, -- [1]
+					0, -- [2]
+					{
+						19, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 63.008934,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 28111.786,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [8]
+			{
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001327,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Combat Dummy"] = 58,
+							},
+							["pets"] = {
+							},
+							["total"] = 58.001327,
+							["on_hold"] = false,
+							["aID"] = "1403-0A36DDD9",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 58.001327,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1658179057,
+							["classe"] = "WARRIOR",
+							["friendlyfire_total"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Combat Dummy"] = 38,
+										},
+										["n_dmg"] = 38,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 38,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 6,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+									[1464] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Combat Dummy"] = 20,
+										},
+										["n_dmg"] = 20,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 20,
+										["c_max"] = 0,
+										["id"] = 1464,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["extra"] = {
+										},
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 1446,
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_dps"] = 4.315574925595659,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.001327,
+							["start_time"] = 1658179037,
+							["delay"] = 0,
+							["last_event"] = 1658179050,
+						}, -- [1]
+						{
+							["flag_original"] = 68136,
+							["totalabsorbed"] = 0.001435,
+							["damage_from"] = {
+								["Eshidishi"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.001435,
+							["friendlyfire"] = {
+							},
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1658179057,
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Combat Dummy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+								},
+							},
+							["aID"] = "160737",
+							["total"] = 0.001435,
+							["serial"] = "Creature-0-3113-2175-29353-160737-000055CB7C",
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 58.001435,
+							["start_time"] = 1658179057,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Eshidishi"] = 6,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 6.005933000000001,
+							["total_without_pet"] = 0.005933,
+							["total"] = 0.005933,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-1403-0A36DDD9",
+							["totalabsorb"] = 0.005933,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.005933,
+							["healing_taken"] = 0.005933,
+							["end_time"] = 1658179057,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Eshidishi",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Eshidishi"] = 6,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Eshidishi"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 6,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["start_time"] = 1658179050,
+							["spec"] = 1446,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["aID"] = "1403-0A36DDD9",
+							["totaldenied"] = 0.005933,
+							["delay"] = 0,
+							["last_event"] = 1658179050,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["nome"] = "Eshidishi",
+							["spec"] = 1446,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["classe"] = "WARRIOR",
+							["spell_cast"] = {
+								[1464] = 4,
+							},
+							["tipo"] = 4,
+							["aID"] = "1403-0A36DDD9",
+							["serial"] = "Player-1403-0A36DDD9",
+							["last_event"] = 0,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Eshidishi"] = true,
+				},
+				["raid_roster_indexed"] = {
+					"Eshidishi", -- [1]
+				},
+				["CombatStartedAt"] = 28087.235,
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 4,
+				["playing_solo"] = true,
+				["totals"] = {
+					58, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "23:17:38",
+				["pvp"] = true,
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Combat Dummy",
+				["TotalElapsedCombatTime"] = 19.80099999999948,
+				["CombatEndedAt"] = 28107.036,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "23:17:18",
+				["end_time"] = 28107.036,
+				["combat_id"] = 1,
+				["tempo_start"] = 1658179037,
+				["frags"] = {
+					["Combat Dummy"] = 1,
+				},
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["totals_grupo"] = {
+					58, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["CombatSkillCache"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Eshidishi"] = 0.005933,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Eshidishi"] = 58.001327,
+						}, -- [1]
+					},
+				},
+				["start_time"] = 28087.235,
+				["TimeData"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+			}, -- [9]
+		},
+	},
+	["ocd_tracker"] = {
+		["enabled"] = false,
+		["current_cooldowns"] = {
+		},
+		["lines_per_column"] = 12,
+		["show_options"] = false,
+		["filters"] = {
+			["defensive-raid"] = false,
+			["ofensive"] = true,
+			["defensive-target"] = false,
+			["utility"] = false,
+			["defensive-personal"] = false,
+		},
+		["width"] = 120,
+		["height"] = 18,
+		["framme_locked"] = false,
+		["show_conditions"] = {
+			["only_inside_instance"] = true,
+			["only_in_group"] = true,
+		},
+		["cooldowns"] = {
+		},
+		["pos"] = {
+		},
+	},
+	["last_version"] = "9.2.59824",
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["coach"] = {
+		["enabled"] = false,
+		["welcome_panel_pos"] = {
+		},
+		["last_coach_name"] = false,
+	},
+	["on_death_menu"] = false,
+	["cached_talents"] = {
+	},
+	["last_instance_id"] = 0,
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = false,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Eshidishi-Draenor",
+	["last_realversion"] = 146,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["enabled"] = true,
+			["animate"] = false,
+			["hide_pull_bar"] = false,
+			["author"] = "Terciob",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["usefocus"] = false,
+			["updatespeed"] = 1,
+			["disable_gouge"] = false,
+			["showamount"] = false,
+			["useplayercolor"] = false,
+			["absolute_mode"] = false,
+			["playSound"] = false,
+			["playSoundFile"] = "Details Threat Warning Volume 3",
+			["useclasscolors"] = false,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Terciob",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["tank_block_size_height"] = 50,
+			["show_power_bar"] = false,
+			["first_run"] = false,
+			["aura_timer_text_size"] = 14,
+			["tank_block_castbar_size_height"] = 16,
+			["show_health_bar"] = true,
+			["aura_offset_y"] = 0,
+			["enabled"] = true,
+			["show_cast_bar"] = false,
+			["author"] = "Terciob",
+			["tank_block_size"] = 150,
+			["bar_height"] = 24,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_height"] = 40,
+			["tank_block_color"] = {
+				0.074509, -- [1]
+				0.035294, -- [2]
+				0.035294, -- [3]
+				0.832845, -- [4]
+			},
+			["tank_block_powerbar_size_height"] = 10,
+			["show_inc_bars"] = true,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["last_section_selected"] = "main",
+			["author"] = "Terciob",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["use_square_mode"] = false,
+			["is_first_run"] = false,
+			["grow_direction"] = "right",
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				299.9999389648438, -- [1]
+				500.0000305175781, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["scale"] = 1,
+			["arrow_anchor_x"] = 0,
+			["point"] = "CENTER",
+			["row_texture"] = "Details Serenity",
+			["y"] = 4.57763671875e-05,
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 20,
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 3.0517578125e-05,
+				["x"] = -0.0001220703125,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+				["attribute_type"] = 1,
+			},
+			["x"] = -6.103515625e-05,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["main_frame_locked"] = false,
+			["author"] = "Terciob",
+		},
+	},
+	["last_day"] = "18",
+	["local_instances_config"] = {
+		{
+			["modo"] = 2,
+			["sub_attribute"] = 1,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+			},
+			["segment"] = 0,
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -476.6669540405273,
+					["x"] = 1848.333740234375,
+					["w"] = 309.9999694824219,
+					["h"] = 158,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["last_instance_time"] = 0,
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
+	["cached_roles"] = {
+	},
+	["ignore_nicktag"] = false,
+	["combat_id"] = 9,
+	["savedStyles"] = {
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1659474975,
+		["last_version"] = 14,
+	},
+	["combat_counter"] = 12,
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.04875700000000001,
+					["damage_from"] = {
+						["Coastal Goat"] = true,
+						["Murloc Watershaper"] = true,
+						["Murloc Spearhunter"] = true,
+						["Grunt Throg"] = true,
+					},
+					["targets"] = {
+						["Combat Dummy"] = 58,
+						["Coastal Goat"] = 85,
+						["Murloc Watershaper"] = 44,
+						["Murloc Spearhunter"] = 111,
+						["Grunt Throg"] = 63,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+					},
+					["classe"] = "WARRIOR",
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+						[128] = 63,
+					},
+					["total_without_pet"] = 361.048757,
+					["end_time"] = 1658179058,
+					["friendlyfire"] = {
+					},
+					["dps_started"] = false,
+					["total"] = 361.048757,
+					["aID"] = "1403-0A36DDD9",
+					["last_event"] = 0,
+					["nome"] = "Eshidishi",
+					["spec"] = 1446,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 20,
+								["g_amt"] = 0,
+								["n_max"] = 12,
+								["targets"] = {
+									["Combat Dummy"] = 38,
+									["Coastal Goat"] = 56,
+									["Murloc Watershaper"] = 19,
+									["Murloc Spearhunter"] = 74,
+									["Grunt Throg"] = 37,
+								},
+								["n_dmg"] = 204,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 26,
+								["total"] = 224,
+								["c_max"] = 20,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 25,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+							[1464] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 9,
+								["targets"] = {
+									["Combat Dummy"] = 20,
+									["Coastal Goat"] = 27,
+									["Murloc Watershaper"] = 22,
+									["Murloc Spearhunter"] = 35,
+									["Grunt Throg"] = 20,
+								},
+								["n_dmg"] = 124,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 19,
+								["total"] = 124,
+								["c_max"] = 0,
+								["id"] = 1464,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 19,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[59830] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 6,
+								["targets"] = {
+									["Grunt Throg"] = 6,
+								},
+								["n_dmg"] = 6,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 6,
+								["c_max"] = 0,
+								["id"] = 59830,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 1,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+							[126664] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Murloc Watershaper"] = 3,
+									["Coastal Goat"] = 2,
+									["Murloc Spearhunter"] = 2,
+								},
+								["n_dmg"] = 7,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 7,
+								["c_max"] = 0,
+								["id"] = 126664,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-1403-0A36DDD9",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 41.048757,
+					["start_time"] = 1658178991,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.004052,
+					["aID"] = "160737",
+					["damage_from"] = {
+						["Eshidishi"] = true,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.004052,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1658179058,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Combat Dummy",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["total"] = 0.004052,
+					["serial"] = "Creature-0-3113-2175-29353-160737-000055CB7C",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 58.004052,
+					["start_time"] = 1658179055,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.009316,
+					["aID"] = "166814",
+					["damage_from"] = {
+						["Eshidishi"] = true,
+					},
+					["targets"] = {
+						["Eshidishi"] = 3,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 3.009316,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1658179082,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Grunt Throg",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 1,
+								["targets"] = {
+									["Eshidishi"] = 3,
+								},
+								["n_dmg"] = 3,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 3,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["total"] = 3.009316,
+					["serial"] = "Creature-0-3113-2175-29353-166814-000055CDF2",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 63.00931600000001,
+					["start_time"] = 1658179070,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [3]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.016675,
+					["damage_from"] = {
+						["Eshidishi"] = true,
+					},
+					["targets"] = {
+						["Eshidishi"] = 17,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 17.016675,
+					["last_event"] = 0,
+					["aID"] = "150228",
+					["dps_started"] = false,
+					["total"] = 17.016675,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Murloc Spearhunter",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 1,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Eshidishi"] = 17,
+								},
+								["n_dmg"] = 17,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 17,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+								["PARRY"] = 1,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 8,
+								["b_dmg"] = 1,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["on_hold"] = false,
+					["end_time"] = 1658179121,
+					["friendlyfire"] = {
+					},
+					["serial"] = "Creature-0-3889-2175-28561-150228-000055CD74",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1658179107,
+					["delay"] = 0,
+					["damage_taken"] = 111.016675,
+				}, -- [4]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.012938,
+					["aID"] = "150229",
+					["damage_from"] = {
+						["Eshidishi"] = true,
+					},
+					["targets"] = {
+						["Eshidishi"] = 7,
+					},
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 7.012938,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1658179126,
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["nome"] = "Murloc Watershaper",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Eshidishi"] = 7,
+								},
+								["n_dmg"] = 7,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 3,
+								["total"] = 7,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 3,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["friendlyfire"] = {
+					},
+					["total"] = 7.012938,
+					["serial"] = "Creature-0-3889-2175-28561-150229-000055CC9A",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 44.012938,
+					["start_time"] = 1658179120,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [5]
+				{
+					["flag_original"] = 68136,
+					["totalabsorbed"] = 0.017576,
+					["damage_from"] = {
+						["Eshidishi"] = true,
+					},
+					["targets"] = {
+						["Eshidishi"] = 14,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 14.017576,
+					["last_event"] = 0,
+					["aID"] = "161130",
+					["dps_started"] = false,
+					["total"] = 14.017576,
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["nome"] = "Coastal Goat",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 3,
+								["targets"] = {
+									["Eshidishi"] = 14,
+								},
+								["n_dmg"] = 14,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 14,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["extra"] = {
+								},
+								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 5,
+								["b_dmg"] = 0,
+								["r_amt"] = 0,
+							}, -- [1]
+						},
+					},
+					["on_hold"] = false,
+					["end_time"] = 1658179254,
+					["friendlyfire"] = {
+					},
+					["serial"] = "Creature-0-3889-2175-28561-161130-000055CE13",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1658179243,
+					["delay"] = 0,
+					["damage_taken"] = 85.01757599999999,
+				}, -- [6]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["healing_from"] = {
+						["Eshidishi"] = true,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["classe"] = "WARRIOR",
+					["totalover"] = 38.03848000000001,
+					["total_without_pet"] = 38.03848,
+					["total"] = 38.03848,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-1403-0A36DDD9",
+					["totalabsorb"] = 0.03848,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Eshidishi"] = 38,
+					},
+					["totalover_without_pet"] = 0.03848,
+					["healing_taken"] = 38.03848,
+					["fight_component"] = true,
+					["end_time"] = 1658179058,
+					["targets_overheal"] = {
+						["Eshidishi"] = 38,
+					},
+					["start_time"] = 1658179039,
+					["nome"] = "Eshidishi",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Eshidishi"] = 38,
+								},
+								["n_max"] = 6,
+								["targets"] = {
+									["Eshidishi"] = 38,
+								},
+								["n_min"] = 0,
+								["counter"] = 18,
+								["overheal"] = 38,
+								["total"] = 38,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_min"] = 0,
+								["c_curado"] = 0,
+								["n_curado"] = 38,
+								["totaldenied"] = 0,
+								["n_amt"] = 18,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["aID"] = "1403-0A36DDD9",
+					["heal_enemy_amt"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["spec"] = 1446,
+					["totaldenied"] = 0.03848,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 51.042924,
+					["resource"] = 0.042924,
+					["targets"] = {
+						["Eshidishi"] = 51,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 1,
+					["classe"] = "WARRIOR",
+					["passiveover"] = 0.008961,
+					["fight_component"] = true,
+					["total"] = 51.042924,
+					["tipo"] = 3,
+					["totalover"] = 0.008961,
+					["nome"] = "Eshidishi",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[195707] = {
+								["total"] = 51,
+								["id"] = 195707,
+								["totalover"] = 0,
+								["targets"] = {
+									["Eshidishi"] = 51,
+								},
+								["counter"] = 17,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 1446,
+					["flag_original"] = 1297,
+					["alternatepower"] = 0.042924,
+					["last_event"] = 0,
+					["aID"] = "1403-0A36DDD9",
+					["serial"] = "Player-1403-0A36DDD9",
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[105771] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 0,
+								["activedamt"] = -3,
+								["uptime"] = 0,
+								["id"] = 105771,
+								["actived_at"] = 4974537513,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 31,
+					["aID"] = "1403-0A36DDD9",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[341260] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 8,
+								["appliedamt"] = 8,
+								["id"] = 341260,
+								["uptime"] = 31,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 0,
+					["nome"] = "Eshidishi",
+					["spec"] = 1446,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[1464] = 17,
+						[126664] = 3,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["classe"] = "WARRIOR",
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["serial"] = "Player-1403-0A36DDD9",
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["fight_component"] = true,
+					["last_event"] = 0,
+					["nome"] = "Grunt Throg",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[312757] = 1,
+						[312755] = 1,
+					},
+					["flag_original"] = 68136,
+					["aID"] = "166814",
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-3113-2175-29353-166814-000055CDF2",
+					["tipo"] = 4,
+				}, -- [2]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["raid_roster_indexed"] = {
+		},
+		["tempo_start"] = 1658179037,
+		["last_events_tables"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 3,
+		["spells_cast_timeline"] = {
+		},
+		["totals"] = {
+			402.07786, -- [1]
+			38.037046, -- [2]
+			{
+				51.033963, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "23:17:18",
+		["end_time"] = 28322.885,
+		["cleu_events"] = {
+			["n"] = 1,
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 5.96900000000096,
+				["type"] = 0,
+				["name"] = "Coastal Goat",
+				["clock"] = "23:21:08",
+			}, -- [1]
+			{
+				["elapsed"] = 3.100999999998749,
+				["type"] = 0,
+				["name"] = "Coastal Goat",
+				["clock"] = "23:20:51",
+			}, -- [2]
+			{
+				["elapsed"] = 1.031999999999243,
+				["type"] = 0,
+				["name"] = "Murloc Spearhunter",
+				["clock"] = "23:19:07",
+			}, -- [3]
+			{
+				["elapsed"] = 1.460999999999331,
+				["type"] = 0,
+				["name"] = "Murloc Watershaper",
+				["clock"] = "23:19:05",
+			}, -- [4]
+			{
+				["elapsed"] = 9.765999999999622,
+				["type"] = 0,
+				["name"] = "Murloc Spearhunter",
+				["clock"] = "23:18:53",
+			}, -- [5]
+			{
+				["elapsed"] = 2.684000000001106,
+				["type"] = 0,
+				["name"] = "Murloc Watershaper",
+				["clock"] = "23:18:44",
+			}, -- [6]
+			{
+				["elapsed"] = 1.981999999999971,
+				["type"] = 0,
+				["name"] = "Murloc Spearhunter",
+				["clock"] = "23:18:39",
+			}, -- [7]
+			{
+				["elapsed"] = 19.50500000000102,
+				["type"] = 0,
+				["name"] = "Grunt Throg",
+				["clock"] = "23:17:43",
+			}, -- [8]
+			{
+				["elapsed"] = 19.80099999999948,
+				["type"] = 0,
+				["name"] = "Combat Dummy",
+				["clock"] = "23:17:18",
+			}, -- [9]
+		},
+		["totals_grupo"] = {
+			361.044183, -- [1]
+			38.037046, -- [2]
+			{
+				51.033963, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
+		["frags"] = {
+		},
+		["data_fim"] = "23:21:14",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["cleu_timeline"] = {
+		},
+		["start_time"] = 28257.584,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+	},
+	["character_data"] = {
+		["logons"] = 1,
+	},
+	["force_font_outline"] = "",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_specs"] = {
+		["Player-1403-0A36DDD9"] = 1446,
+	},
+}

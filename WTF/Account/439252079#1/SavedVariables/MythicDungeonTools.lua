@@ -20,32 +20,101 @@ MythicDungeonToolsDB = {
 		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
 		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
 		["Xrth - Blackrock"] = "Xrth - Blackrock",
+		["Deathkyng - Blackrock"] = "Deathkyng - Blackrock",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
-		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Blackrock"] = "Byd - Blackrock",
 		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
+		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
+		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
+		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
 		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["global"] = {
-		["currentDifficulty"] = 20,
+		["colorPaletteInfo"] = {
+			["customPaletteValues"] = {
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [1]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [2]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [3]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [4]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [5]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [6]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [7]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [8]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [9]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [10]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [11]
+				{
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				}, -- [12]
+			},
+		},
 		["currentPreset"] = {
 			[29] = 2,
+			[34] = 2,
 			[35] = 2,
 			[38] = 4,
 		},
 		["MDI"] = {
 		},
-		["nonFullscreenScale"] = 1,
 		["maximized"] = false,
 		["presets"] = {
 			[29] = {
@@ -331,8 +400,8 @@ MythicDungeonToolsDB = {
 								["color"] = "3eff9e",
 								[9] = {
 									[8] = 2,
-									[9] = 4,
 									[7] = 3,
+									[9] = 4,
 									[5] = 1,
 								},
 								[35] = {
@@ -408,11 +477,11 @@ MythicDungeonToolsDB = {
 									[4] = 1,
 								},
 								["color"] = "ff3e9e",
-								[35] = {
-									[6] = 10,
-								},
 								[16] = {
 									1, -- [1]
+								},
+								[35] = {
+									[6] = 10,
 								},
 								[37] = {
 									[5] = 10,
@@ -671,6 +740,403 @@ MythicDungeonToolsDB = {
 					["text"] = "<New Preset>",
 				}, -- [3]
 			},
+			[34] = {
+				{
+					["mdiEnabled"] = false,
+					["week"] = 8,
+					["objects"] = {
+					},
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+						["currentDungeonIdx"] = 34,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["riftOffsets"] = {
+							[8] = {
+							},
+						},
+					},
+					["difficulty"] = 20,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
+				}, -- [1]
+				{
+					["difficulty"] = 10,
+					["week"] = 1,
+					["objects"] = {
+						{
+							["n"] = true,
+							["d"] = {
+								"343", -- [1]
+								"-277.5", -- [2]
+								1, -- [3]
+								true, -- [4]
+								"Relics in this route are generally personal preference - I'll mark ones where I think there's a useful choice but there are no mandatory ones.", -- [5]
+							},
+						}, -- [1]
+						{
+							["n"] = true,
+							["d"] = {
+								"266.6", -- [1]
+								"-268.8", -- [2]
+								2, -- [3]
+								true, -- [4]
+								"Relics in this route are generally personal preference - I'll mark ones where I think there's a useful choice but there are no mandatory ones.", -- [5]
+							},
+						}, -- [2]
+						{
+							["n"] = true,
+							["d"] = {
+								"614", -- [1]
+								"-443.6", -- [2]
+								2, -- [3]
+								true, -- [4]
+								"If you have a kyrian spear, combining these pulls and sending it can be a great idea (if it's not bolstering!)", -- [5]
+							},
+						}, -- [3]
+						{
+							["n"] = true,
+							["d"] = {
+								"371.5", -- [1]
+								"-386.7", -- [2]
+								3, -- [3]
+								true, -- [4]
+								"You can either use the Wo relic to skip here or do the jumping around the side business from previous seasons.", -- [5]
+							},
+						}, -- [4]
+						{
+							["n"] = true,
+							["d"] = {
+								"347.4", -- [1]
+								"-284.1", -- [2]
+								2, -- [3]
+								true, -- [4]
+								"You can use the stairs or this spot over here to line-of-sight and group the pulls - you can even combine these pulls!", -- [5]
+							},
+						}, -- [5]
+						{
+							["n"] = true,
+							["d"] = {
+								"329.9", -- [1]
+								"-351.8", -- [2]
+								4, -- [3]
+								true, -- [4]
+								"Kyrian spear and consider lusting Klotos, even on Tyrannical.", -- [5]
+							},
+						}, -- [6]
+						{
+							["d"] = {
+								13, -- [1]
+								1, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"f1eeff", -- [5]
+								-8, -- [6]
+								true, -- [7]
+							},
+							["l"] = {
+								"360.5", -- [1]
+								"-378", -- [2]
+								"428.3", -- [3]
+								"-273.1", -- [4]
+							},
+						}, -- [7]
+					},
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+						},
+						["currentDungeonIdx"] = 34,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["pulls"] = {
+							{
+								{
+									[3] = 1,
+								}, -- [1]
+								{
+									1, -- [1]
+									2, -- [2]
+									[5] = 3,
+								}, -- [2]
+								nil, -- [3]
+								{
+									[4] = 2,
+									[6] = 1,
+								}, -- [4]
+								["color"] = "ff3eff",
+							}, -- [1]
+							{
+								{
+									[3] = 2,
+								}, -- [1]
+								{
+									[4] = 4,
+								}, -- [2]
+								{
+									1, -- [1]
+								}, -- [3]
+								{
+									[2] = 3,
+								}, -- [4]
+								["color"] = "3eff9e",
+							}, -- [2]
+							{
+								{
+									[2] = 3,
+								}, -- [1]
+								{
+									[4] = 5,
+									[5] = 6,
+								}, -- [2]
+								{
+									2, -- [1]
+								}, -- [3]
+								{
+									[3] = 4,
+								}, -- [4]
+								["color"] = "ff3e3e",
+							}, -- [3]
+							{
+								[5] = {
+									[2] = 1,
+								},
+								[6] = {
+									1, -- [1]
+								},
+								["color"] = "3e9eff",
+							}, -- [4]
+							{
+								[8] = {
+									1, -- [1]
+								},
+								[7] = {
+									nil, -- [1]
+									3, -- [2]
+									2, -- [3]
+									1, -- [4]
+								},
+								["color"] = "fffb3e",
+							}, -- [5]
+							{
+								[8] = {
+									3, -- [1]
+									2, -- [2]
+									4, -- [3]
+								},
+								["color"] = "3eff3e",
+							}, -- [6]
+							{
+								[11] = {
+									3, -- [1]
+									2, -- [2]
+									1, -- [3]
+									[5] = 6,
+									[6] = 5,
+									[7] = 4,
+								},
+								[12] = {
+									[4] = 1,
+								},
+								["color"] = "ff3e9e",
+							}, -- [7]
+							{
+								["color"] = "3effff",
+								[7] = {
+									[2] = 4,
+								},
+								[12] = {
+									2, -- [1]
+								},
+								[11] = {
+									[3] = 7,
+								},
+							}, -- [8]
+							{
+								[3] = {
+									4, -- [1]
+									[3] = 3,
+								},
+								[12] = {
+									[2] = 3,
+								},
+								["color"] = "ff9b3e",
+							}, -- [9]
+							{
+								["color"] = "3e3eff",
+								[12] = {
+									[2] = 4,
+								},
+								[7] = {
+									7, -- [1]
+									nil, -- [2]
+									6, -- [3]
+									5, -- [4]
+								},
+							}, -- [10]
+							{
+								["color"] = "a1ff3e",
+								[9] = {
+									2, -- [1]
+								},
+								[7] = {
+									[3] = 8,
+									[4] = 9,
+								},
+								[8] = {
+									[2] = 6,
+								},
+							}, -- [11]
+							{
+								[7] = {
+									11, -- [1]
+									13, -- [2]
+									14, -- [3]
+									10, -- [4]
+									12, -- [5]
+								},
+								["color"] = "ff3eff",
+							}, -- [12]
+							{
+								[7] = {
+									[2] = 15,
+								},
+								[3] = {
+									[4] = 5,
+								},
+								[12] = {
+									[3] = 5,
+								},
+								[13] = {
+									1, -- [1]
+								},
+								["color"] = "3eff9e",
+							}, -- [13]
+							{
+								["color"] = "ff3e3e",
+								[10] = {
+									2, -- [1]
+								},
+								[12] = {
+									[2] = 6,
+								},
+							}, -- [14]
+							{
+								[13] = {
+									[2] = 2,
+								},
+								[10] = {
+									3, -- [1]
+								},
+								[12] = {
+									[3] = 7,
+								},
+								[7] = {
+									[5] = 16,
+								},
+								[9] = {
+									[4] = 3,
+								},
+								["color"] = "3e9eff",
+							}, -- [15]
+							{
+								[14] = {
+									1, -- [1]
+								},
+								["color"] = "fffb3e",
+							}, -- [16]
+							{
+								["color"] = "3eff3e",
+								[28] = {
+									[2] = 11,
+								},
+								[15] = {
+									1, -- [1]
+								},
+							}, -- [17]
+							{
+								[18] = {
+									9, -- [1]
+									8, -- [2]
+									11, -- [3]
+									12, -- [4]
+									7, -- [5]
+									10, -- [6]
+								},
+								["color"] = "ff3e9e",
+							}, -- [18]
+							{
+								[19] = {
+									1, -- [1]
+								},
+								["color"] = "3effff",
+							}, -- [19]
+							{
+								[18] = {
+									3, -- [1]
+									5, -- [2]
+									1, -- [3]
+									6, -- [4]
+									4, -- [5]
+									2, -- [6]
+								},
+								["color"] = "ff9b3e",
+							}, -- [20]
+							{
+								[22] = {
+									1, -- [1]
+								},
+								["color"] = "3e3eff",
+							}, -- [21]
+							{
+								[21] = {
+									1, -- [1]
+								},
+								["color"] = "a1ff3e",
+							}, -- [22]
+							{
+								[20] = {
+									1, -- [1]
+								},
+								["color"] = "ff3eff",
+							}, -- [23]
+							{
+								[23] = {
+									1, -- [1]
+								},
+								["color"] = "3eff9e",
+							}, -- [24]
+						},
+					},
+					["text"] = "S3 SOA by Dratnos",
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
+					["mdiEnabled"] = false,
+				}, -- [2]
+				{
+					["value"] = 0,
+					["text"] = "<New Preset>",
+				}, -- [3]
+			},
 			[35] = {
 				{
 					["value"] = {
@@ -918,11 +1384,11 @@ MythicDungeonToolsDB = {
 									[2] = 3,
 									[4] = 4,
 								},
-								[15] = {
-									1, -- [1]
-								},
 								[9] = {
 									[3] = 2,
+								},
+								[15] = {
+									1, -- [1]
 								},
 							}, -- [9]
 							{
@@ -1406,22 +1872,22 @@ MythicDungeonToolsDB = {
 								[20] = {
 									[5] = 6,
 								},
-								["color"] = "ff3eff",
-								[10] = {
-									[2] = 4,
-									[4] = 3,
-								},
 								[12] = {
 									1, -- [1]
 								},
+								[18] = {
+									[6] = 6,
+								},
+								["color"] = "ff3eff",
 								[19] = {
 									[7] = 6,
 								},
 								[9] = {
 									[3] = 5,
 								},
-								[18] = {
-									[6] = 6,
+								[10] = {
+									[2] = 4,
+									[4] = 3,
 								},
 							}, -- [12]
 							{
@@ -3003,10 +3469,6 @@ MythicDungeonToolsDB = {
 					},
 					["week"] = 1,
 					["difficulty"] = 22,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -3106,6 +3568,10 @@ MythicDungeonToolsDB = {
 							}, -- [1]
 						},
 					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
+					},
 					["text"] = "Bolstering-Explosive-Petko 2",
 					["mdiEnabled"] = false,
 					["mdi"] = {
@@ -3118,10 +3584,6 @@ MythicDungeonToolsDB = {
 					["mdiEnabled"] = false,
 					["week"] = 6,
 					["difficulty"] = 22,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
@@ -3233,6 +3695,10 @@ MythicDungeonToolsDB = {
 								["color"] = "ff3eff",
 							}, -- [1]
 						},
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 					["text"] = "Bolstering-Explosive-Petko 3",
 					["objects"] = {
@@ -4416,69 +4882,7 @@ MythicDungeonToolsDB = {
 			},
 		},
 		["version"] = 393,
-		["colorPaletteInfo"] = {
-			["customPaletteValues"] = {
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [1]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [2]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [3]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [4]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [5]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [6]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [7]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [8]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [9]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [10]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [11]
-				{
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				}, -- [12]
-			},
-		},
+		["currentDungeonIdx"] = 34,
+		["nonFullscreenScale"] = 1,
 	},
 }

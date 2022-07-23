@@ -2,53 +2,48 @@
 HandyNotes_MistsOfPandariaTreasuresDB = {
 	["profileKeys"] = {
 		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
-		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
-		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
-		["Testyu - Blackrock"] = "Testyu - Blackrock",
-		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Xrth - Blackrock"] = "Xrth - Blackrock",
+		["Synster - Aegwynn"] = "Synster - Aegwynn",
 		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
 		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Stywen - Antonidas"] = "Stywen - Antonidas",
-		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
-		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
+		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
 		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
 		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Byar - Antonidas"] = "Byar - Antonidas",
-		["Stylth - Blackrock"] = "Stylth - Blackrock",
 		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Synster - Aegwynn"] = "Synster - Aegwynn",
 		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Deathkyng - Blackrock"] = "Deathkyng - Blackrock",
+		["Testyu - Blackrock"] = "Testyu - Blackrock",
+		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
+		["Byd - Blackrock"] = "Byd - Blackrock",
+		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
+		["Xrth - Blackrock"] = "Xrth - Blackrock",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Kyng - Antonidas"] = "Kyng - Antonidas",
+		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
+		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
+		["Dïo - Blackrock"] = "Dïo - Blackrock",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
 		["Starplatïnum - Antonidas"] = {
 		},
-		["Buffedbeef - Blackrock"] = {
-		},
-		["Starplatïnum - Blackrock"] = {
-		},
-		["Slavictank - Blackrock"] = {
-		},
 		["Notafriend - Aegwynn"] = {
 		},
-		["Tizeran - Blackrock"] = {
-		},
-		["Testyu - Blackrock"] = {
-		},
-		["Byd - Mal'Ganis"] = {
-		},
-		["Xrth - Blackrock"] = {
+		["Synster - Aegwynn"] = {
 		},
 		["Blyyd - Antonidas"] = {
 		},
@@ -56,39 +51,65 @@ HandyNotes_MistsOfPandariaTreasuresDB = {
 		},
 		["Eshidishii - Blackrock"] = {
 		},
-		["Dïo - Blackrock"] = {
-		},
 		["Slavicpriest - Antonidas"] = {
 		},
 		["Stywen - Antonidas"] = {
 		},
-		["Extinguish - Blackrock"] = {
-		},
-		["Dfgfxg - Blackrock"] = {
+		["Omaewam - Blackrock"] = {
 		},
 		["Gryyn - Blackrock"] = {
 		},
 		["Lichkingvult - Blackrock"] = {
 		},
-		["Cakebender - Antonidas"] = {
-		},
-		["Magyc - Mal'Ganis"] = {
-		},
-		["Odînaf - Blackrock"] = {
-		},
 		["Byar - Antonidas"] = {
-		},
-		["Stylth - Blackrock"] = {
 		},
 		["Eurotas - Blackrock"] = {
 		},
-		["Blyyd - Blackrock"] = {
-		},
 		["Stylth - Antonidas"] = {
 		},
-		["Synster - Aegwynn"] = {
-		},
 		["Orthodoxtank - Antonidas"] = {
+		},
+		["Buffedbeef - Blackrock"] = {
+		},
+		["Starplatïnum - Blackrock"] = {
+		},
+		["Deathkyng - Blackrock"] = {
+		},
+		["Testyu - Blackrock"] = {
+		},
+		["Byd - Mal'Ganis"] = {
+		},
+		["Eshidishi - Draenor"] = {
+		},
+		["Byd - Blackrock"] = {
+		},
+		["Extinguish - Blackrock"] = {
+		},
+		["Slavictank - Blackrock"] = {
+		},
+		["Cakebender - Antonidas"] = {
+		},
+		["Byd - Kazzak"] = {
+		},
+		["Magyc - Mal'Ganis"] = {
+		},
+		["Dfgfxg - Blackrock"] = {
+		},
+		["Xrth - Blackrock"] = {
+		},
+		["Stylth - Blackrock"] = {
+		},
+		["Kyng - Antonidas"] = {
+		},
+		["Odînaf - Blackrock"] = {
+		},
+		["Blyyd - Blackrock"] = {
+		},
+		["Dïo - Blackrock"] = {
+		},
+		["Nakrates - Antonidas"] = {
+		},
+		["Tizeran - Blackrock"] = {
 		},
 	},
 }

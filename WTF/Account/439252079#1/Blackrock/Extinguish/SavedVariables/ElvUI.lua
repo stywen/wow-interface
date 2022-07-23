@@ -2,12 +2,12 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/reload", -- [1]
-		"/ec", -- [2]
-		"/m", -- [3]
-		"/wave", -- [4]
-		"/wa", -- [5]
-		"/played", -- [6]
+		"/played", -- [1]
+		"/wa", -- [2]
+		"/ec", -- [3]
+		"/reload", -- [4]
+		"/m", -- [5]
+		"/wave", -- [6]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -120,5 +120,93 @@ ElvCharacterDB = {
 			[51] = 1657145206,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [5]
+		{
+			"Stammgruppe bietet 15-22 Key Boost. intime/ levelup boost 50 - 60 /  für Gold, Top Preise. /w me bei Interesse.", -- [1]
+			"Roud-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Roud-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			136, -- [11]
+			"Player-581-0A44CE9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Roud|r",
+			[51] = 1658311126,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"|cffa335ee|Hitem:190334::::::::60:104::6:7:7187:41:8185:8132:8138:1498:6646:1:28:2167:::::|h[Origin of the Aurora]|h|r /w ", -- [1]
+			"Changizz-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Changizz-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			137, -- [11]
+			"Player-581-0A2BC630", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Changizz|r",
+			[51] = 1658311128,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"Erfahrene Gruppe bietet M+ 15 runs gegen Gold an. Sichere dir noch heute dein 278er Weekly Item! Ab 2 runs gibt es Rabatt. Armor Stacks und Wunschkey möglich /w me für Infos ", -- [1]
+			"Tatzentroll-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tatzentroll-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"Player-581-0A48D912", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Tatzentroll|r",
+			[51] = 1658311150,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
+		{
+			"Eingespielte Gilde  bieten euch m+ runs an 3400 + score (M 15-24)  , weekleys  für 278 ILVL item Keystone  master/Hero lezte möglichkeit für Portale  (Feats of Strength Achievments) HC raid 11/11 HC oder Torghast / w für info ! :)", -- [1]
+			"Mightypunch-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Mightypunch-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			139, -- [11]
+			"Player-581-0A451271", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Mightypunch|r",
+			[51] = 1658311157,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [9]
 	},
 }

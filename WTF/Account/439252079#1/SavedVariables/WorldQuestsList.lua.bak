@@ -38,10 +38,10 @@ VWQL = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
-			[59599] = true,
 			[61879] = true,
-			[59808] = true,
+			[59599] = true,
 			[59904] = true,
+			[59808] = true,
 		},
 		["Filter"] = 63,
 	},
@@ -94,6 +94,14 @@ VWQL = {
 		},
 	},
 	["Slavicpriest-Antonidas"] = {
+		["FilterType"] = {
+		},
+		["Filter"] = 63,
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
+	["Eshidishi-Draenor"] = {
 		["VERSION"] = 104,
 		["Filter"] = 63,
 		["RegularQuestMode"] = true,
@@ -126,6 +134,7 @@ VWQL = {
 		},
 		["VERSION"] = 104,
 	},
+	["HideLegion"] = true,
 	["Odînaf-Blackrock"] = {
 		["VERSION"] = 104,
 		["FilterType"] = {
@@ -133,12 +142,21 @@ VWQL = {
 		["Quests"] = {
 			[48691] = true,
 			[47566] = true,
-			[48832] = true,
-			[48466] = true,
 			[48783] = true,
+			[48466] = true,
+			[48832] = true,
 			[48834] = true,
 			[48875] = true,
 			[42062] = true,
+		},
+		["Filter"] = 63,
+	},
+	["DisableIconsGeneralMap947"] = true,
+	["Starplatïnum-Blackrock"] = {
+		["VERSION"] = 104,
+		["FilterType"] = {
+		},
+		["Quests"] = {
 		},
 		["Filter"] = 63,
 	},
@@ -159,38 +177,84 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
+	["Nakrates-Antonidas"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 104,
+	},
 	["Eshidishii-Blackrock"] = {
 		["VERSION"] = 104,
 		["FilterType"] = {
 		},
 		["Quests"] = {
-			[42269] = true,
-			[48637] = true,
-			[60533] = true,
+			[46825] = true,
+			[42146] = true,
+			[41420] = true,
+			[44893] = true,
+			[44012] = true,
+			[60911] = true,
+			[43774] = true,
+			[43778] = true,
+			[61816] = true,
+			[45068] = true,
 			[64531] = true,
-			[60564] = true,
+			[42076] = true,
+			[41076] = true,
+			[48867] = true,
+			[41144] = true,
+			[61353] = true,
+			[42819] = true,
+			[43600] = true,
+			[48828] = true,
+			[42101] = true,
+			[44291] = true,
+			[41090] = true,
+			[42014] = true,
+			[42090] = true,
+			[44943] = true,
+			[42177] = true,
+			[44011] = true,
 			[42070] = true,
-			[49053] = true,
-			[48833] = true,
-			[48514] = true,
-			[48835] = true,
-			[48466] = true,
-			[61813] = true,
-			[48832] = true,
-			[48829] = true,
-		},
-		["Filter"] = 63,
-	},
-	["HideLegion"] = true,
-	["Starplatïnum-Blackrock"] = {
-		["VERSION"] = 104,
-		["FilterType"] = {
-		},
-		["Quests"] = {
+			[44737] = true,
+			[44290] = true,
+			[44892] = true,
+			[44187] = true,
+			[61631] = true,
+			[59718] = true,
 		},
 		["Filter"] = 63,
 	},
 	["Stylth-Blackrock"] = {
+		["VERSION"] = 104,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Byd-Kazzak"] = {
+		["VERSION"] = 104,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Nofriend-Aegwynn"] = {
+		["Filter"] = 63,
+		["VERSION"] = 104,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Stylth-Antonidas"] = {
 		["VERSION"] = 104,
 		["Filter"] = 63,
 		["RegularQuestMode"] = true,
@@ -216,9 +280,9 @@ VWQL = {
 		},
 		["VERSION"] = 104,
 	},
-	["Nofriend-Aegwynn"] = {
-		["Filter"] = 63,
+	["Notafriend-Aegwynn"] = {
 		["VERSION"] = 104,
+		["Filter"] = 63,
 		["RegularQuestMode"] = true,
 		["Quests"] = {
 		},
@@ -233,14 +297,13 @@ VWQL = {
 		},
 		["VERSION"] = 104,
 	},
-	["Notafriend-Aegwynn"] = {
+	["Byd-Blackrock"] = {
 		["VERSION"] = 104,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Byd-Aegwynn"] = {
 		["VERSION"] = 104,
@@ -294,7 +357,7 @@ VWQL = {
 	},
 	["Ignore"] = {
 	},
-	["Stylth-Antonidas"] = {
+	["Kyng-Antonidas"] = {
 		["VERSION"] = 104,
 		["Filter"] = 63,
 		["RegularQuestMode"] = true,
@@ -302,15 +365,6 @@ VWQL = {
 		},
 		["FilterType"] = {
 		},
-	},
-	["DisableIconsGeneralMap947"] = true,
-	["Omaewam-Blackrock"] = {
-		["VERSION"] = 104,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
 	},
 	["Xrth-Blackrock"] = {
 		["Filter"] = 63,
@@ -320,7 +374,7 @@ VWQL = {
 		},
 		["VERSION"] = 104,
 	},
-	["Gryyn-Blackrock"] = {
+	["Omaewam-Blackrock"] = {
 		["VERSION"] = 104,
 		["FilterType"] = {
 		},
@@ -337,17 +391,33 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
+	["Gryyn-Blackrock"] = {
+		["VERSION"] = 104,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Deathkyng-Blackrock"] = {
+		["VERSION"] = 104,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
 	["Slavictank-Blackrock"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
 		},
 		["Quests"] = {
 			[60623] = true,
-			[60911] = true,
-			[60858] = true,
-			[61784] = true,
 			[62451] = true,
+			[60858] = true,
 			[59705] = true,
+			[60911] = true,
+			[61784] = true,
 		},
 		["VERSION"] = 104,
 	},

@@ -45,8 +45,8 @@ PawnOptions = {
 		}, -- [9]
 		{
 			["ID"] = 188937,
-			["Level"] = 265,
-			["Link"] = "|cffa335ee|Hitem:188937:6209:::::::60:72::16:6:6652:7359:8154:7782:1485:6646::::::|h[Grasps of the Infinite Infantry]|h|r",
+			["Level"] = 268,
+			["Link"] = "|cffa335ee|Hitem:188937:6210:::::::60:72::16:6:6652:7359:8154:7783:1488:6646::::::|h[Grasps of the Infinite Infantry]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 178926,

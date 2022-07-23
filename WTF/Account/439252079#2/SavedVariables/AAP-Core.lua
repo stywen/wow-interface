@@ -5,10 +5,9 @@ AAP1 = {
 			["FirstLoadz"] = 1,
 			["QuestCounter"] = 32,
 			["QuestCounter2"] = 32,
-			["SkippedBonusObj"] = {
-			},
+			["A1409"] = 1,
 			["AAP_DoWarCampaign"] = 0,
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["Settings"] = {
 				["LockArrow"] = 0,
@@ -38,24 +37,25 @@ AAP1 = {
 				["arrowleft"] = 2081.300971798781,
 				["ArrowScale"] = 0.64,
 				["ShowQList"] = 1,
-				["ShowMapBlobs"] = 1,
 				["ShowArrow"] = 1,
-				["alpha"] = 1,
-				["MiniMapBlobAlpha"] = 1,
+				["Hcamptop"] = -240,
 				["Partyleft"] = 1706.666796875,
+				["MiniMapBlobAlpha"] = 1,
+				["alpha"] = 1,
 				["AutoHandInChoice"] = 0,
 				["top"] = -240,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
 				["Scale"] = 0.64,
 				["QuestButtons"] = 1,
-				["Hcamptop"] = -240,
+				["ShowMapBlobs"] = 1,
 				["AutoShareQ"] = 0,
 				["DisableHeirloomWarning"] = 0,
 			},
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
-			["A1409"] = 1,
+			["SkippedBonusObj"] = {
+			},
 			["LoaPick"] = 0,
 			["A1726"] = 1,
 			["QlineSkip"] = {
@@ -69,6 +69,8 @@ AAP1 = {
 			["QlineSkip"] = {
 			},
 			["A37"] = 1,
+			["SkippedBonusObj"] = {
+			},
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 1,
@@ -98,28 +100,26 @@ AAP1 = {
 				["arrowleft"] = 2081.300971798781,
 				["ArrowScale"] = 0.64,
 				["QuestButtons"] = 1,
-				["ShowArrow"] = 1,
 				["Hcamptop"] = -240,
+				["ShowMapBlobs"] = 1,
 				["Scale"] = 0.64,
 				["MiniMapBlobAlpha"] = 1,
-				["Partyleft"] = 1706.666796875,
+				["alpha"] = 1,
 				["AutoHandInChoice"] = 0,
 				["top"] = -240,
 				["ChooseQuests"] = 0,
 				["QuestButtonDetatch"] = 0,
-				["alpha"] = 1,
-				["ShowMapBlobs"] = 1,
+				["Partyleft"] = 1706.666796875,
+				["ShowArrow"] = 1,
 				["ShowQList"] = 1,
 				["Partytop"] = -300,
 				["Greetings2"] = 1,
 			},
-			["SkippedBonusObj"] = {
-			},
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["LoaPick"] = 0,
-			["BonusSkips"] = {
+			["WantedQuestList"] = {
 			},
 			["QuestCounter"] = 31,
 		},
@@ -129,11 +129,9 @@ AAP1 = {
 			["FirstLoadz"] = 1,
 			["QlineSkip"] = {
 			},
-			["QuestCounter2"] = 36,
+			["QuestCounter2"] = 35,
 			["A13"] = 1,
 			["A37"] = 1,
-			["SkippedBonusObj"] = {
-			},
 			["Settings"] = {
 				["LockArrow"] = 0,
 				["ShowQuestListOrder"] = 0,
@@ -162,28 +160,30 @@ AAP1 = {
 				["arrowleft"] = 2081.300971798781,
 				["ArrowScale"] = 0.64,
 				["AutoShareQ"] = 0,
-				["ShowMapBlobs"] = 1,
 				["ShowArrow"] = 1,
+				["Hcamptop"] = -240,
 				["QuestButtons"] = 1,
 				["MiniMapBlobAlpha"] = 1,
-				["alpha"] = 1,
+				["Partyleft"] = 1706.666796875,
 				["AutoHandInChoice"] = 0,
 				["top"] = -240,
 				["Scale"] = 0.64,
 				["QuestButtonDetatch"] = 0,
 				["ChooseQuests"] = 0,
-				["Partyleft"] = 1706.666796875,
-				["Hcamptop"] = -240,
+				["alpha"] = 1,
+				["ShowMapBlobs"] = 1,
 				["ShowQList"] = 1,
 				["Partytop"] = -300,
 			},
-			["BonusSkips"] = {
+			["SkippedBonusObj"] = {
+			},
+			["WantedQuestList"] = {
 			},
 			["AAP_DoWarCampaign"] = 0,
 			["LoaPick"] = 0,
-			["WantedQuestList"] = {
+			["BonusSkips"] = {
 			},
-			["QuestCounter"] = 36,
+			["QuestCounter"] = 35,
 		},
 	},
 }
@@ -191,6 +191,7 @@ AAP2 = nil
 AAP3 = nil
 AAPQuestNames = {
 	[62639] = "The Very Best",
+	[28766] = "Beating Them Back!",
 }
 AAP_HoldZoneVar = nil
 AAP_Transport = {

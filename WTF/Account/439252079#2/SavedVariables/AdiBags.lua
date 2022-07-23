@@ -14,13 +14,13 @@ AdiBagsDB = {
 		},
 		["NewItem"] = {
 		},
-		["CurrencyFrame"] = {
+		["MoneyFrame"] = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["MoneyFrame"] = {
-		},
 		["Equipment"] = {
+		},
+		["CurrencyFrame"] = {
 		},
 		["ItemSets"] = {
 		},

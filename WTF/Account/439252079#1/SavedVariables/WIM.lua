@@ -28,19 +28,19 @@ WIM3_Data = {
 				["onReceive"] = true,
 			},
 			["alwaysOther"] = false,
-			["raid"] = {
-				["keepfocus"] = false,
-				["supress"] = true,
-				["onSend"] = true,
-				["autofocus"] = false,
-				["onReceive"] = true,
-			},
 			["arena"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
+			},
+			["raid"] = {
+				["keepfocus"] = false,
+				["supress"] = true,
+				["onSend"] = true,
+				["autofocus"] = false,
+				["onReceive"] = true,
 			},
 			["party"] = {
 				["keepfocus"] = false,
@@ -89,14 +89,14 @@ WIM3_Data = {
 				["onReceive"] = false,
 			},
 			["alwaysOther"] = true,
-			["raid"] = {
+			["arena"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["arena"] = {
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
@@ -205,24 +205,24 @@ WIM3_Data = {
 			["g"] = 1,
 			["r"] = 1,
 		},
-		["BNwispIn"] = {
-			["b"] = 0.6549019607843137,
-			["g"] = 0.4862745098039216,
-			["r"] = 0,
-		},
+		["useSkin"] = true,
 		["historyOut"] = {
 			["b"] = 0.7058823529411764,
 			["g"] = 0.7058823529411764,
 			["r"] = 0.7058823529411764,
 		},
-		["useSkin"] = true,
+		["BNwispIn"] = {
+			["b"] = 0.6549019607843137,
+			["g"] = 0.4862745098039216,
+			["r"] = 0,
+		},
 	},
 	["fontSize"] = 12,
 	["showToolTips"] = true,
 	["minimap"] = {
 		["free_position"] = {
-			["y"] = -92.29056861585593,
-			["x"] = -129.280016031265,
+			["y"] = -106.2640058035253,
+			["x"] = -146.4528281474227,
 			["point"] = "TOPRIGHT",
 		},
 		["free"] = false,
@@ -327,21 +327,6 @@ WIM3_Data = {
 			},
 		},
 	},
-	["ClickControl"] = {
-		["clickSensitivity"] = 0.2,
-	},
-	["tabs"] = {
-		["sortBy"] = 2,
-		["whispers"] = {
-			["enabled"] = false,
-			["guild"] = false,
-			["friends"] = false,
-		},
-		["chat"] = {
-			["enabled"] = false,
-			["aswhisper"] = false,
-		},
-	},
 	["history"] = {
 		["ageLimit"] = true,
 		["previewCount"] = 25,
@@ -363,6 +348,21 @@ WIM3_Data = {
 			["maxPer"] = true,
 		},
 	},
+	["tabs"] = {
+		["sortBy"] = 2,
+		["whispers"] = {
+			["enabled"] = false,
+			["guild"] = false,
+			["friends"] = false,
+		},
+		["chat"] = {
+			["enabled"] = false,
+			["aswhisper"] = false,
+		},
+	},
+	["ClickControl"] = {
+		["clickSensitivity"] = 0.2,
+	},
 	["skin"] = {
 		["font_outline"] = "",
 		["selected"] = "WIM Classic",
@@ -377,11 +377,11 @@ WIM3_Data = {
 		["mostConvos"] = 0,
 	},
 	["clampToScreen"] = true,
+	["coloredNames"] = true,
 	["winLoc"] = {
 		["left"] = 217,
 		["top"] = 664,
 	},
-	["coloredNames"] = true,
 	["ignoreArrowKeys"] = true,
 	["tabAdvance"] = false,
 	["windowOnTop"] = true,
@@ -393,48 +393,6 @@ WIM3_Data = {
 	},
 }
 WIM3_Cache = {
-	["Aegwynn"] = {
-		["Byd"] = {
-			["friendList"] = {
-				["|Kq1|k"] = 2,
-				["|Kq4|k"] = 2,
-				["|Kq3|k"] = 2,
-				["|Kq2|k"] = 2,
-			},
-		},
-		["Dysea"] = {
-			["friendList"] = {
-				["|Kq1|k"] = 2,
-				["|Kq4|k"] = 2,
-				["|Kq3|k"] = 2,
-				["|Kq2|k"] = 2,
-			},
-		},
-		["Synster"] = {
-			["friendList"] = {
-				["|Kq1|k"] = 2,
-				["|Kq4|k"] = 2,
-				["|Kq3|k"] = 2,
-				["|Kq2|k"] = 2,
-			},
-		},
-		["Notafriend"] = {
-			["friendList"] = {
-				["|Kq1|k"] = 2,
-				["|Kq4|k"] = 2,
-				["|Kq3|k"] = 2,
-				["|Kq2|k"] = 2,
-			},
-		},
-		["Nofriend"] = {
-			["friendList"] = {
-				["|Kq1|k"] = 2,
-				["|Kq4|k"] = 2,
-				["|Kq3|k"] = 2,
-				["|Kq2|k"] = 2,
-			},
-		},
-	},
 	["Mal'Ganis"] = {
 		["Byd"] = {
 			["friendList"] = {
@@ -454,7 +412,26 @@ WIM3_Cache = {
 		},
 	},
 	["Antonidas"] = {
-		["Stywen"] = {
+		["Kyng"] = {
+			["friendList"] = {
+				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Slavicpriest"] = {
+			["friendList"] = {
+				["|Kq4|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq1|k"] = 2,
+				["Thiccthights"] = 1,
+				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Orthodoxtank"] = {
 			["friendList"] = {
 				["|Kq1|k"] = 2,
 				["|Kq4|k"] = 2,
@@ -462,7 +439,7 @@ WIM3_Cache = {
 				["|Kq2|k"] = 2,
 			},
 		},
-		["Cakebender"] = {
+		["Stywen"] = {
 			["friendList"] = {
 				["|Kq1|k"] = 2,
 				["|Kq4|k"] = 2,
@@ -494,28 +471,93 @@ WIM3_Cache = {
 				["|Kq2|k"] = 2,
 			},
 		},
-		["Orthodoxtank"] = {
+		["Nakrates"] = {
 			["friendList"] = {
-				["|Kq1|k"] = 2,
 				["|Kq4|k"] = 2,
 				["|Kq3|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq5|k"] = 2,
 				["|Kq2|k"] = 2,
 			},
 		},
 		["Blyyd"] = {
 			["friendList"] = {
+				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Cakebender"] = {
+			["friendList"] = {
 				["|Kq1|k"] = 2,
 				["|Kq4|k"] = 2,
 				["|Kq3|k"] = 2,
 				["|Kq2|k"] = 2,
 			},
 		},
-		["Slavicpriest"] = {
+	},
+	["Draenor"] = {
+		["Eshidishi"] = {
 			["friendList"] = {
 				["|Kq4|k"] = 2,
 				["|Kq5|k"] = 2,
 				["|Kq1|k"] = 2,
 				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+	},
+	["Aegwynn"] = {
+		["Byd"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Notafriend"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Synster"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Dysea"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Nofriend"] = {
+			["friendList"] = {
+				["|Kq1|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+	},
+	["Kazzak"] = {
+		["Byd"] = {
+			["friendList"] = {
+				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq5|k"] = 2,
 				["|Kq2|k"] = 2,
 			},
 		},
@@ -593,10 +635,28 @@ WIM3_Cache = {
 				["|Kq2|k"] = 2,
 			},
 		},
+		["Deathkyng"] = {
+			["friendList"] = {
+				["|Kq4|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
 		["Lichkingvult"] = {
 			["friendList"] = {
 				["|Kq1|k"] = 2,
 				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq2|k"] = 2,
+			},
+		},
+		["Dïo"] = {
+			["friendList"] = {
+				["|Kq4|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq1|k"] = 2,
 				["|Kq3|k"] = 2,
 				["|Kq2|k"] = 2,
 			},
@@ -611,12 +671,12 @@ WIM3_Cache = {
 				["|Kq2|k"] = 2,
 			},
 		},
-		["Dïo"] = {
+		["Byd"] = {
 			["friendList"] = {
 				["|Kq4|k"] = 2,
-				["|Kq5|k"] = 2,
-				["|Kq1|k"] = 2,
 				["|Kq3|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq5|k"] = 2,
 				["|Kq2|k"] = 2,
 			},
 		},
@@ -644,10 +704,11 @@ WIM3_Cache = {
 				["|Kq2|k"] = 2,
 			},
 		},
-		["Testyu"] = {
+		["Extinguish"] = {
 			["friendList"] = {
-				["|Kq1|k"] = 2,
 				["|Kq4|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq1|k"] = 2,
 				["|Kq3|k"] = 2,
 				["|Kq2|k"] = 2,
 			},
@@ -663,13 +724,14 @@ WIM3_Cache = {
 			},
 			["guildList"] = {
 				["Erebuu"] = 1,
-				["Eshidishii"] = 5,
-				["Mikorin"] = 2,
-				["Kyosin"] = 4,
-				["Veldura"] = 3,
+				["Almarak"] = 2,
+				["Veldura"] = 5,
+				["Mikorin"] = 4,
+				["Eshidishii"] = 6,
+				["Kurogoma"] = 3,
 			},
 		},
-		["Extinguish"] = {
+		["Testyu"] = {
 			["friendList"] = {
 				["|Kq1|k"] = 2,
 				["|Kq4|k"] = 2,
@@ -679,9 +741,10 @@ WIM3_Cache = {
 		},
 		["Omaewam"] = {
 			["friendList"] = {
-				["|Kq1|k"] = 2,
 				["|Kq4|k"] = 2,
 				["|Kq3|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq5|k"] = 2,
 				["|Kq2|k"] = 2,
 			},
 		},
@@ -724,6 +787,314 @@ WIM3_Filters = {
 	}, -- [3]
 }
 WIM3_History = {
+	["Antonidas"] = {
+		["Slavicpriest"] = {
+			["Zelforacle#2857"] = {
+				{
+					["type"] = 1,
+					["time"] = 1658568179,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "bruh",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1658568187,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "i need help",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1658568187,
+					["from"] = "Slavicpriest",
+					["msg"] = "?",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1658568191,
+					["from"] = "Slavicpriest",
+					["msg"] = "mit?",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1658568199,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "will diese undead mount wieder farmen",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1658568205,
+					["from"] = "Slavicpriest",
+					["msg"] = "|Helvmoji:%eEQ=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1658568210,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "bist noch nicht genug gegeared oder? :D",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1658568210,
+					["from"] = "Slavicpriest",
+					["msg"] = "ajd ich komm mit main",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1658568217,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "oh ok",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1658568219,
+					["from"] = "Slavicpriest",
+					["msg"] = "oder meinst du nciht den dungeon?",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1658568237,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "ja",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1658568253,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "aso können mit horde char gemeinsam oder",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1658568261,
+					["from"] = "Slavicpriest",
+					["msg"] = "yes",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1658568279,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "bruder wie komme ich nach zuldazar als allianzler :D",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1658570766,
+					["from"] = "Slavicpriest",
+					["msg"] = "kannst du mich durch die thorgast daily ziehen?",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [15]
+				["info"] = {
+				},
+			},
+			["WannaCry#21132"] = {
+				{
+					["type"] = 1,
+					["time"] = 1658328663,
+					["from"] = "Slavicpriest",
+					["msg"] = "also machen wir nciht deinen pc?",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1658328683,
+					["from"] = "WannaCry#21132",
+					["msg"] = "wir könnten schon wenn du willst :)",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1658328709,
+					["from"] = "WannaCry#21132",
+					["msg"] = "wollte nur kurz mit nacer nen neuen char erstellen und spiel den char, bis er sich entschieden hat haha",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1658328739,
+					["from"] = "Slavicpriest",
+					["msg"] = "mach mal nicht so als wuerden wir den PC fuer mich neu aufsetzen |Helvmoji:%eEQ=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1658328742,
+					["from"] = "WannaCry#21132",
+					["msg"] = "das problem is grad, dass ich nur ne festplatte mit genügend speicher hab und 3 datein drauf die sich nicht kopieren lassen......",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1658328743,
+					["from"] = "Slavicpriest",
+					["msg"] = "neue chars...?",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1658328762,
+					["from"] = "WannaCry#21132",
+					["msg"] = "ja just 4 fun, ich werd nicht auf ernst nen WL spielen lel",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1658328815,
+					["from"] = "Slavicpriest",
+					["msg"] = "ah why not |Helvmoji:%eEQ=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1658328826,
+					["from"] = "Slavicpriest",
+					["msg"] = "wie lassen sich nciht kopieren?",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1658328838,
+					["from"] = "WannaCry#21132",
+					["msg"] = "weil ich den paladin spielen will :D",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1658328848,
+					["from"] = "WannaCry#21132",
+					["msg"] = "idk der dateiname ist zu lang LOL",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1658328924,
+					["from"] = "Slavicpriest",
+					["msg"] = "hast du den usb stick gemacht?",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1658328951,
+					["from"] = "WannaCry#21132",
+					["msg"] = "nein eben nicht, muss dafür wieder die festplatte abusen",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1658328969,
+					["from"] = "Slavicpriest",
+					["msg"] = "so kenn ich dich gar nciht ",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1658328982,
+					["from"] = "WannaCry#21132",
+					["msg"] = "?",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1658329069,
+					["from"] = "Slavicpriest",
+					["msg"] = "so unmotiviert das hinter dich zu bringen",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1658330066,
+					["from"] = "WannaCry#21132",
+					["msg"] = "hahaha... ja jz siehst du mal meine faule seite '^^",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1658330295,
+					["from"] = "Slavicpriest",
+					["msg"] = "dacht ma gestern eh, never wird sie das morgen machen",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1658330413,
+					["from"] = "WannaCry#21132",
+					["msg"] = "aaah hahaha",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1658330602,
+					["from"] = "WannaCry#21132",
+					["msg"] = "aber eh gut, dass du mich so oft ansprichst, dadurch mach ich was dafür",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1658421676,
+					["from"] = "WannaCry#21132",
+					["msg"] = "mach noch die q fertig, aber können schon disord",
+					["inbound"] = true,
+					["convo"] = "WannaCry#21132",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1658422245,
+					["from"] = "Slavicpriest",
+					["msg"] = "oke",
+					["inbound"] = false,
+					["convo"] = "WannaCry#21132",
+				}, -- [22]
+				["info"] = {
+				},
+			},
+		},
+	},
 	["Blackrock"] = {
 		["Eshidishii"] = {
 			["Gabrysia#2605"] = {
@@ -754,111 +1125,439 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
+			["Kyosin"] = {
+				{
+					["type"] = 1,
+					["time"] = 1658350107,
+					["from"] = "Kyosin",
+					["msg"] = "|cffa335ee|Hitem:180116::::::::60:261::33:5:7781:7359:6652:1576:6646:1:28:1279:::::|h[Overcharged Anima Battery]|h|r",
+					["inbound"] = true,
+					["convo"] = "Kyosin",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1658350382,
+					["from"] = "Kyosin",
+					["msg"] = "|cffffd100|HdungeonScore:2361:Player-581-0A442F54:Kyosin:4:265:60:46:2361:3:381:1:15:382:1:15:392:1:15:391:1:14:380:1:13:375:1:16:376:1:14:377:1:15:378:0:14:379:1:13|h[Mythic+ Rating]|h|r",
+					["inbound"] = true,
+					["convo"] = "Kyosin",
+				}, -- [2]
+				["info"] = {
+				},
+			},
 			["Zelforacle#2857"] = {
 				{
 					["type"] = 1,
-					["time"] = 1657129600,
+					["time"] = 1658265207,
 					["from"] = "Zelforacle#2857",
-					["msg"] = "willst +15?",
+					["msg"] = "jo",
 					["inbound"] = true,
 					["convo"] = "Zelforacle#2857",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1657129616,
+					["time"] = 1658568377,
 					["from"] = "Eshidishii",
-					["msg"] = "nah ich spiel nacher mit den anderen",
+					["msg"] = "welche schwierigkeit soll ich einstellen?",
 					["inbound"] = false,
 					["convo"] = "Zelforacle#2857",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1657129641,
+					["time"] = 1658568382,
 					["from"] = "Zelforacle#2857",
-					["msg"] = "willst arena pvp?",
+					["msg"] = "heroic",
 					["inbound"] = true,
 					["convo"] = "Zelforacle#2857",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1657129662,
+					["time"] = 1658568398,
 					["from"] = "Zelforacle#2857",
-					["msg"] = "ich gear gerade mein hunter mit pvp gear",
+					["msg"] = "bruder ich habe legit ka wie ich nach zuldazar komme",
 					["inbound"] = true,
 					["convo"] = "Zelforacle#2857",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1657129703,
+					["time"] = 1658568412,
 					["from"] = "Eshidishii",
-					["msg"] = "nah kb",
+					["msg"] = "|Helvmoji:%eEQ=|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t du musst story spielen",
 					["inbound"] = false,
 					["convo"] = "Zelforacle#2857",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1657129763,
-					["from"] = "Zelforacle#2857",
-					["msg"] = "bruder was machst du eig?",
-					["inbound"] = true,
+					["time"] = 1658568419,
+					["from"] = "Eshidishii",
+					["msg"] = "dann wird das unlocked am schiff",
+					["inbound"] = false,
 					["convo"] = "Zelforacle#2857",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1657129820,
+					["time"] = 1658568427,
 					["from"] = "Eshidishii",
-					["msg"] = "hab vault geoeffnet und conduits kontrolliert",
+					["msg"] = "und dann kannst du her",
 					["inbound"] = false,
 					["convo"] = "Zelforacle#2857",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1657129839,
+					["time"] = 1658568477,
 					["from"] = "Zelforacle#2857",
-					["msg"] = "wieso gehst du nach bastion dafür geh doch heaven ist näher",
+					["msg"] = "bruh",
 					["inbound"] = true,
 					["convo"] = "Zelforacle#2857",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1657129858,
-					["from"] = "Eshidishii",
-					["msg"] = "kp find bastion cooler vom aussehen",
-					["inbound"] = false,
+					["time"] = 1658568484,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "ok brauche dann noch bisschen :D",
+					["inbound"] = true,
 					["convo"] = "Zelforacle#2857",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1657129880,
-					["from"] = "Zelforacle#2857",
-					["msg"] = "man ich muss immer noch oarg pissen",
-					["inbound"] = true,
+					["time"] = 1658568503,
+					["from"] = "Eshidishii",
+					["msg"] = "google mal glaub aber nciht das man das skippen kanbn",
+					["inbound"] = false,
 					["convo"] = "Zelforacle#2857",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1657129888,
-					["from"] = "Zelforacle#2857",
-					["msg"] = "hast gelesen was ich in discord geschrieben habe",
-					["inbound"] = true,
+					["time"] = 1658568577,
+					["from"] = "Eshidishii",
+					["msg"] = "waere nacer oder alexenia da koennten wir dich porten ahha",
+					["inbound"] = false,
 					["convo"] = "Zelforacle#2857",
 				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1657129895,
-					["from"] = "Eshidishii",
-					["msg"] = "ja",
-					["inbound"] = false,
+					["time"] = 1658568664,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "minus",
+					["inbound"] = true,
 					["convo"] = "Zelforacle#2857",
 				}, -- [12]
 				{
 					["type"] = 1,
-					["time"] = 1657129900,
+					["time"] = 1658568694,
 					["from"] = "Eshidishii",
-					["msg"] = "geh halt pissen",
+					["msg"] = "soll ich sie fragen ob sie kurz kann?",
 					["inbound"] = false,
 					["convo"] = "Zelforacle#2857",
 				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1658568694,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "glaub lordaeron intro kann ich skippen",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1658568707,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "frag mal",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1658568711,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "ich queste mal weiter",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1658568782,
+					["from"] = "Eshidishii",
+					["msg"] = "war das kings rest?",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1658568919,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "ja",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1658569134,
+					["from"] = "Eshidishii",
+					["msg"] = "passt kommt",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1658569155,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "man die rp events dauern ja ur lange in bfa",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1658569162,
+					["from"] = "Eshidishii",
+					["msg"] = "yyeee",
+					["inbound"] = false,
+					["convo"] = "Zelforacle#2857",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1658569176,
+					["from"] = "Zelforacle#2857",
+					["msg"] = "jo",
+					["inbound"] = true,
+					["convo"] = "Zelforacle#2857",
+				}, -- [22]
+				["info"] = {
+				},
+			},
+			["sapke93#1210"] = {
+				{
+					["type"] = 1,
+					["time"] = 1658175445,
+					["from"] = "Eshidishii",
+					["msg"] = "started leveling your hord char :D?",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1658175483,
+					["from"] = "sapke93#1210",
+					["msg"] = "Ahahaha but its on a wrong server ahahah",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1658175556,
+					["from"] = "Eshidishii",
+					["msg"] = "just start on blackrock hahah youre level 11 thats not that high",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1658175681,
+					["from"] = "sapke93#1210",
+					["msg"] = "You are right ",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1658175690,
+					["from"] = "sapke93#1210",
+					["msg"] = "but",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1658175698,
+					["from"] = "sapke93#1210",
+					["msg"] = "i feel like i wanna play brewmaster lol",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1658175708,
+					["from"] = "Eshidishii",
+					["msg"] = "aint a bad thing :)?",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1658175725,
+					["from"] = "sapke93#1210",
+					["msg"] = "If you guys will need a tank , no :D",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1658175742,
+					["from"] = "sapke93#1210",
+					["msg"] = "i also have a boost available LOL",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1658175937,
+					["from"] = "Eshidishii",
+					["msg"] = "well currently we are testing around so everyone can play every role",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1658176006,
+					["from"] = "sapke93#1210",
+					["msg"] = "Im trying to find blackrock on the list lol",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1658176023,
+					["from"] = "Eshidishii",
+					["msg"] = "ah !@#$ sorry blackrock is a german server",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1658176028,
+					["from"] = "Eshidishii",
+					["msg"] = "nvm ",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1658176039,
+					["from"] = "sapke93#1210",
+					["msg"] = ":D ",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1658176055,
+					["from"] = "Eshidishii",
+					["msg"] = "are you playing on english realms?",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1658176059,
+					["from"] = "sapke93#1210",
+					["msg"] = "Yea ",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1658176085,
+					["from"] = "sapke93#1210",
+					["msg"] = "I started working for a german company , so when i learn deutch i'll hop on :D :D ",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1658176107,
+					["from"] = "Eshidishii",
+					["msg"] = "hahahahha nice, where you from?",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1658176119,
+					["from"] = "sapke93#1210",
+					["msg"] = "Serbia",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1658176137,
+					["from"] = "Eshidishii",
+					["msg"] = "odakle?",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1658176154,
+					["from"] = "sapke93#1210",
+					["msg"] = "Ahaha iz BGa",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1658176159,
+					["from"] = "sapke93#1210",
+					["msg"] = "a i ja vidim ime slavic pistol",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1658176162,
+					["from"] = "sapke93#1210",
+					["msg"] = "ne kapiram odmah :D",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1658176254,
+					["from"] = "Eshidishii",
+					["msg"] = "pa druze onda cu ja da napravim na nekem engleskom realm novi char",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1658176279,
+					["from"] = "sapke93#1210",
+					["msg"] = "ahahaha",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1658176287,
+					["from"] = "sapke93#1210",
+					["msg"] = "ja iz zajebancije zbog nekog lika napravio na argent dawn",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1658176305,
+					["from"] = "Eshidishii",
+					["msg"] = "samo da znas ja se rodijo u becu znaci nisam bas naj jaci ",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1658176333,
+					["from"] = "Eshidishii",
+					["msg"] = "ajd ja da vidim sa ekipom pa cu ti javit",
+					["inbound"] = false,
+					["convo"] = "sapke93#1210",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1658176357,
+					["from"] = "sapke93#1210",
+					["msg"] = "Ma laganoOO :D Ako si se rodio u Becu, tamo lepse :D",
+					["inbound"] = true,
+					["convo"] = "sapke93#1210",
+				}, -- [29]
 				["info"] = {
 				},
 			},
