@@ -1,19 +1,23 @@
 # LittleWigs
 
-## [v9.2.9](https://github.com/BigWigsMods/LittleWigs/tree/v9.2.9) (2022-06-01)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.2.8...v9.2.9) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.2.10](https://github.com/BigWigsMods/LittleWigs/tree/v9.2.10) (2022-07-24)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.2.9...v9.2.10) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- bump toc  
-- Workflow: move to checkout@v3  
-- Shadowlands/SanguineDepths/Trash: Tweak  
-- Shadowlands/SanguineDepths/Trash: Timers for Anima Collector, Gloom Squall (#673)  
-- Update deDE (#676)  
-- Shadowlands/SanguineDepths/Trash: Sap Lifeblood, scope abilities (#675)  
-- Shadowlands/TheNecroticWake/Trash: Clean up listener (#674)  
-- Shadowlands/TheaterOfPain/Xav: Respawn timer, Banner destroyed, bug fix (#669)  
-- Shadowlands/TheaterOfPain: Gorechop respawn timer, bug fixes (#668)  
-- Shadowlands/TheaterOfPain/Kultharok: Respawn timer, fix Spectral Reach alert (#671)  
-- Shadowlands/TheaterOfPain/AffrontOfChallengers: Respawn timer (#670)  
-- Shadowlands/TheaterOfPain/Mordretha: Death Grasp, respawn timer, warmup timer (#667)  
-- Update zhCN (#666)  
-- Update zhTW (#664)  
+- Shadowlands/MistsOfTirnaScithe/IngraMaloch: Anima Puddle under you, Embrace Darkness timer (#697)  
+- Shadowlands/Plaguefall/DoctorIckus: Remove leap CD Bar (#692)  
+- Shadowlands/TazaveshTheVeiledMarket/Trash: Increase Ancient Dread severity for interrupters (#690)  
+- Shadowlands/HallsOfAtonement/Chamberlain: Update timers, respawn time, track Erupting Torment (#694)  
+- Shadowlands/TazaveshTheVeiledMarket/Soazmi: Warmup timer, respawn timer (#688)  
+- Shadowlands/HallsOfAtonement/Halkias: Update timers, respawn time (#693)  
+- Shadowlands/MistsOfTirnaScithe/IngraMaloch: Fix wrath timer (#687)  
+- Shadowlands: Respawn timers (#696)  
+- Shadowlands/TazaveshTheVeiledMarket/MyzasOasis: Teleport, Suppression, Rotten Food, Rowdy, Security Slam, Timers (#679)  
+- Shadowlands/TazaveshTheVeiledMarket/Trash: Radiant Pulse, Empowered Glyph of Restraint, bug fixes (#681)  
+- Legion/ArtifactScenarios/LordErdrisThorn: Fix lua error  
+    Fixes #684  
+- Shadowlands/TazaveshTheVeiledMarket/Zophex: Interrogation timer, Impound Contraband timer, Containment Cell message (#680)  
+- Shadowlands/TheNecroticWake/Trash: Suppress alerts for mind-controlled enemies (#685)  
+- Update zhTW (#683)  
+- Update zhTW (#682)  
+- Update deDE (#678)  
+- Update zhCN (#677)  

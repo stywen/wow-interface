@@ -24,22 +24,23 @@ TomTomDB = {
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
 		["Byd - Blackrock"] = "Default",
-		["Byd - Aegwynn"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
+		["Nakrates - Antonidas"] = "Default",
 		["Eshidishi - Draenor"] = "Default",
 		["Slavicpriest - Antonidas"] = "Default",
 		["Extinguish - Blackrock"] = "Default",
 		["Nofriendz - Blackrock"] = "Default",
-		["Magyc - Mal'Ganis"] = "Default",
-		["Byd - Kazzak"] = "Default",
 		["Cakebender - Antonidas"] = "Default",
-		["Eurotas - Blackrock"] = "Default",
-		["Starplatïnum - Blackrock"] = "Default",
+		["Byd - Kazzak"] = "Default",
+		["Magyc - Mal'Ganis"] = "Default",
 		["Eshidishii - Blackrock"] = "Default",
+		["Starplatïnum - Blackrock"] = "Default",
+		["Eurotas - Blackrock"] = "Default",
 		["Kyng - Antonidas"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
-		["Nakrates - Antonidas"] = "Default",
+		["Bonebender - Antonidas"] = "Default",
+		["Byd - Aegwynn"] = "Default",
 		["Tizeran - Blackrock"] = "Default",
 	},
 	["profiles"] = {
@@ -91,22 +92,23 @@ TomTomWaypointsM = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Byd - Blackrock"] = "Byd - Blackrock",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
-		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
+		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -156,7 +158,9 @@ TomTomWaypointsM = {
 		},
 		["Byd - Blackrock"] = {
 		},
-		["Byd - Aegwynn"] = {
+		["Orthodoxtank - Antonidas"] = {
+		},
+		["Nakrates - Antonidas"] = {
 		},
 		["Eshidishi - Draenor"] = {
 		},
@@ -166,15 +170,11 @@ TomTomWaypointsM = {
 		},
 		["Nofriendz - Blackrock"] = {
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
 		},
 		["Byd - Kazzak"] = {
 		},
-		["Cakebender - Antonidas"] = {
-		},
-		["Eurotas - Blackrock"] = {
-		},
-		["Starplatïnum - Blackrock"] = {
+		["Magyc - Mal'Ganis"] = {
 		},
 		["Eshidishii - Blackrock"] = {
 			[1707] = {
@@ -274,15 +274,19 @@ TomTomWaypointsM = {
 				},
 			},
 		},
+		["Starplatïnum - Blackrock"] = {
+		},
+		["Eurotas - Blackrock"] = {
+		},
 		["Kyng - Antonidas"] = {
 		},
 		["Odînaf - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Bonebender - Antonidas"] = {
 		},
-		["Nakrates - Antonidas"] = {
+		["Byd - Aegwynn"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

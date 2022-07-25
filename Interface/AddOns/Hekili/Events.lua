@@ -435,7 +435,7 @@ end )
 
 
 do
-    local loc = ItemLocation.CreateEmpty()
+    local loc = ItemLocation:CreateEmpty()
 
     local GetAllTierInfoByItemID = C_AzeriteEmpoweredItem.GetAllTierInfoByItemID
     local GetAllTierInfo = C_AzeriteEmpoweredItem.GetAllTierInfo
@@ -967,6 +967,7 @@ RegisterEvent( "PLAYER_REGEN_ENABLED", function ()
     C_Timer.After( 10, function () ns.Audit( "combatExit" ) end )
     Hekili:ReleaseHolds( true )
     Hekili:ExpireTTDs( true )
+    Hekili:UpdateDisplayVisibility()
 end )
 
 

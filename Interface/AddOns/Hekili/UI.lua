@@ -48,7 +48,7 @@ end
 local function stopScreenMovement(frame)
     local monitor = (tonumber(GetCVar("gxMonitor")) or 0) + 1
     local resolutions = {GetScreenResolutions()}
-    local resolution = resolutions[GetCurrentResolution()] or GetCVar("gxWindowedResolution")
+    local resolution = resolutions[GetCurrentResolution()] or GetCVar("gxWindowedResolution") or "1024x768"
     local scrW, scrH = resolution:match("(%d+)x(%d+)")
 
     local scale, pScale = Hekili:GetScale(), UIParent:GetScale()
@@ -675,6 +675,7 @@ do
         VEHICLE_ANGLE_SHOW = 1,
         VEHICLE_UPDATE = 1,
         UPDATE_VEHICLE_ACTIONBAR = 1,
+        UPDATE_OVERRIDE_ACTIONBAR = 1,
         -- UNIT_FLAGS = 1,
 
         PLAYER_TARGET_CHANGED = 1,
@@ -1346,7 +1347,7 @@ do
                                 LSF.FlashItem( iname, self.flashColor, conf.flash.size, conf.flash.brightness, conf.flash.blink, nil, conf.flash.texture )
                             elseif conf.flash.suppress and not self.flashWarnings[ iname ] then
                                 self.flashWarnings[ iname ] = true
-                                Hekili:Error( "|cffff0000WARNING|r - Could not flash recommended item '" .. iname .. "' (" .. self.id .. ")." )
+                                -- Hekili:Error( "|cffff0000WARNING|r - Could not flash recommended item '" .. iname .. "' (" .. self.id .. ")." )
                             end
                         else
                             local aFlash = ability.flash
@@ -1371,7 +1372,7 @@ do
                                     LSF.FlashAction( aFlash, self.flashColor, conf.flash.size, conf.flash.brightness, conf.flash.blink, nil, conf.flash.texture )
                                 elseif conf.flash.suppress and not self.flashWarnings[ aFlash ] then
                                     self.flashWarnings[ aFlash ] = true
-                                    Hekili:Error( "|cffff0000WARNING|r - Could not flash recommended action '" .. aFlash .. "' (" .. self.id .. ")." )
+                                    -- Hekili:Error( "|cffff0000WARNING|r - Could not flash recommended action '" .. aFlash .. "' (" .. self.id .. ")." )
                                 end
                             else
                                 local id = ability.known
@@ -1387,7 +1388,7 @@ do
                                         LSF.FlashAction( sname, self.flashColor, conf.flash.size, conf.flash.brightness, conf.flash.blink, nil, conf.flash.texture )
                                     elseif not self.flashWarnings[ sname ] then
                                         self.flashWarnings[ sname ] = true
-                                        Hekili:Error( "|cffff0000WARNING|r - Could not flash recommended ability '" .. sname .. "' (" .. self.id .. ")." )
+                                        -- Hekili:Error( "|cffff0000WARNING|r - Could not flash recommended ability '" .. sname .. "' (" .. self.id .. ")." )
                                     end
                                 end
                             end

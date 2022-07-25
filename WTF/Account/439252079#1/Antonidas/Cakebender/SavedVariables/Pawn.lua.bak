@@ -52,9 +52,9 @@ PawnOptions = {
 		}, -- [13]
 		{
 			["ID"] = 122361,
-			["Level"] = 11,
+			["Level"] = 12,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff00ccff|Hitem:122361::::::::9:1450:::1:7920::::::|h[Swift Hand of Justice]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122361::::::::10:269:::1:7920::::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
 			["ID"] = 122261,
@@ -68,9 +68,9 @@ PawnOptions = {
 		}, -- [16]
 		{
 			["ID"] = 122351,
-			["Level"] = 8,
+			["Level"] = 12,
 			["AlsoFitsIn"] = 16,
-			["Link"] = "|cff00ccff|Hitem:122351::::::::6:1450:::1:7920::::::|h[Venerable Dal'Rend's Sacred Charge]|h|r",
+			["Link"] = "|cff00ccff|Hitem:122351::::::::10:269:::1:7920::::::|h[Venerable Dal'Rend's Sacred Charge]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

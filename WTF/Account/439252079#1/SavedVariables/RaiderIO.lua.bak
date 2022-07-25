@@ -1,12 +1,9 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Eshidishii-blackrock"
+RaiderIO_LastCharacter = "eu-Bonebender-antonidas"
 RaiderIO_MissingCharacters = {
-	["eu-party2-blackrock"] = true,
-	["eu-Threin-blackrock"] = true,
-	["eu-Tzumetai-antonidas"] = true,
-	["eu-Almirak-antonidas"] = true,
+	["eu-Bonebender-antonidas"] = true,
 }
 RaiderIO_MissingServers = {
 }

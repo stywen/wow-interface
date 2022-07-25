@@ -21,19 +21,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 10.36486864696474,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["classe"] = "MONK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 425.001074,
-							["last_event"] = 1658313381,
+							["boss_fight_component"] = true,
 							["delay"] = 1658313381,
 							["dps_started"] = false,
 							["end_time"] = 1658313394,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 91.001074,
-							["boss_fight_component"] = true,
+							["last_dps"] = 10.36486864696474,
+							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -64,62 +65,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									}, -- [1]
-									[107270] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4,
-										["targets"] = {
-											["Gor'groth"] = 53,
-										},
-										["n_dmg"] = 53,
-										["n_min"] = 3,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 53,
-										["c_max"] = 0,
-										["id"] = 107270,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 16,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-									[115129] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4,
-										["targets"] = {
-											["Gor'groth"] = 8,
-										},
-										["n_dmg"] = 8,
-										["n_min"] = 4,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 8,
-										["c_max"] = 0,
-										["id"] = 115129,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 8,
-									},
 									[100784] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -176,21 +121,141 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
+									[107270] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Gor'groth"] = 53,
+										},
+										["n_dmg"] = 53,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 53,
+										["c_max"] = 0,
+										["id"] = 107270,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 16,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[115129] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4,
+										["targets"] = {
+											["Gor'groth"] = 8,
+										},
+										["n_dmg"] = 8,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 8,
+										["c_max"] = 0,
+										["id"] = 115129,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["extra"] = {
+										},
+										["spellschool"] = 8,
+									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
 							["total"] = 425.001074,
-							["nome"] = "Cakebender",
+							["last_event"] = 1658313381,
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 91.001074,
 							["start_time"] = 1658313365,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
+						{
+							["flag_original"] = -2147483648,
+							["totalabsorbed"] = 0.001554,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Chayefsky"] = 7191,
+							},
+							["pets"] = {
+							},
+							["nome"] = "Environment (Falling)",
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7191.001554,
+							["last_event"] = 1658606419,
+							["dps_started"] = true,
+							["total"] = 7191.001554,
+							["delay"] = 1658606419,
+							["classe"] = "UNKNOW",
+							["timeMachine"] = 1,
+							["spells"] = {
+								["_ActorTable"] = {
+									[3] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7191,
+										["targets"] = {
+											["Chayefsky"] = 7191,
+										},
+										["n_dmg"] = 7191,
+										["n_min"] = 7191,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7191,
+										["c_max"] = 0,
+										["id"] = 3,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["extra"] = {
+										},
+										["spellschool"] = 3,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 0.001554,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = true,
+							["start_time"] = 1658606419,
+							["serial"] = "",
+							["aID"] = "",
+						}, -- [2]
 						{
 							["flag_original"] = 68168,
 							["totalabsorbed"] = 0.005138,
@@ -206,18 +271,17 @@ _detalhes_database = {
 							["delay"] = 1658313376,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Gor'groth",
+							["friendlyfire_total"] = 0,
+							["aID"] = "156814",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 751.005138,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 751.005138,
-							["damage_taken"] = 551.005138,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -333,16 +397,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Gor'groth",
+							["on_hold"] = false,
 							["end_time"] = 1658313394,
-							["aID"] = "156814",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1658313376,
-							["on_hold"] = false,
+							["damage_taken"] = 551.005138,
 							["start_time"] = 1658313370,
 							["serial"] = "Creature-0-3889-2236-2552-156814-000057D9B8",
-							["dps_started"] = false,
-						}, -- [2]
+							["classe"] = "UNKNOW",
+						}, -- [3]
 						{
 							["flag_original"] = 2584,
 							["totalabsorbed"] = 0.001907,
@@ -354,18 +419,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["aID"] = "161350",
 							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
+							["aID"] = "161350",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 66.001907,
 							["delay"] = 1658313380,
 							["dps_started"] = false,
-							["total"] = 66.001907,
+							["end_time"] = 1658313394,
 							["friendlyfire_total"] = 0,
 							["damage_taken"] = 660.0019070000001,
-							["boss_fight_component"] = true,
+							["nome"] = "Captain Garrick",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -429,7 +494,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Captain Garrick",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -438,8 +503,8 @@ _detalhes_database = {
 							},
 							["start_time"] = 1658313367,
 							["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
-							["end_time"] = 1658313394,
-						}, -- [3]
+							["total"] = 66.001907,
+						}, -- [4]
 						{
 							["flag_original"] = 2584,
 							["totalabsorbed"] = 0.001025,
@@ -450,18 +515,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["aID"] = "161504",
 							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
+							["aID"] = "161504",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 60.001025,
 							["delay"] = 1658313381,
 							["dps_started"] = false,
-							["total"] = 60.001025,
+							["end_time"] = 1658313394,
 							["friendlyfire_total"] = 0,
 							["damage_taken"] = 0.001025,
-							["boss_fight_component"] = true,
+							["nome"] = "Henry Garrick",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -579,7 +644,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Henry Garrick",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -588,8 +653,44 @@ _detalhes_database = {
 							},
 							["start_time"] = 1658313365,
 							["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
-							["end_time"] = 1658313394,
-						}, -- [4]
+							["total"] = 60.001025,
+						}, -- [5]
+						{
+							["flag_original"] = 1304,
+							["totalabsorbed"] = 0.003042,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003042,
+							["damage_taken"] = 7191.003042,
+							["dps_started"] = false,
+							["total"] = 0.003042,
+							["last_event"] = 0,
+							["delay"] = 0,
+							["nome"] = "Chayefsky",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 0,
+							["serial"] = "Player-3686-04F99A8E",
+							["aID"] = "3686-04F99A8E",
+						}, -- [6]
 					},
 				}, -- [1]
 				{
@@ -611,14 +712,14 @@ _detalhes_database = {
 							["iniciar_hps"] = false,
 							["healing_from"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "161504",
 							["totalover"] = 0.001718,
 							["total_without_pet"] = 697.001718,
 							["totalover_without_pet"] = 0.001718,
 							["totaldenied"] = 0.001718,
-							["aID"] = "161504",
-							["end_time"] = 1658313394,
 							["healing_taken"] = 0.001718,
+							["end_time"] = 1658313394,
+							["classe"] = "UNKNOW",
 							["total"] = 697.001718,
 							["boss_fight_component"] = true,
 							["spells"] = {
@@ -642,9 +743,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 7,
 										["n_curado"] = 672,
 										["totaldenied"] = 0,
+										["n_amt"] = 7,
 										["absorbed"] = 0,
 									},
 									[318158] = {
@@ -667,9 +768,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 1,
 										["n_curado"] = 25,
 										["totaldenied"] = 0,
-										["n_amt"] = 1,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -687,8 +788,8 @@ _detalhes_database = {
 							["last_event"] = 1658313382,
 							["on_hold"] = false,
 							["start_time"] = 1658313366,
-							["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
 							["delay"] = 1658313382,
+							["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
 						}, -- [1]
 						{
 							["flag_original"] = 2584,
@@ -705,14 +806,14 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Henry Garrick"] = true,
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "161350",
 							["totalover"] = 0.00178,
 							["total_without_pet"] = 0.00178,
 							["totalover_without_pet"] = 0.00178,
 							["totaldenied"] = 0.00178,
-							["aID"] = "161350",
-							["total"] = 0.00178,
 							["healing_taken"] = 697.00178,
+							["total"] = 0.00178,
+							["classe"] = "UNKNOW",
 							["end_time"] = 1658313394,
 							["boss_fight_component"] = true,
 							["spells"] = {
@@ -730,8 +831,8 @@ _detalhes_database = {
 							["last_event"] = 0,
 							["on_hold"] = false,
 							["start_time"] = 1658313394,
-							["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
 							["delay"] = 0,
+							["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
 						}, -- [2]
 						{
 							["flag_original"] = 1297,
@@ -740,7 +841,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "3686-09D5C6B8",
 							["totalover"] = 0.007392,
 							["total_without_pet"] = 87.00739200000001,
 							["total"] = 87.00739200000001,
@@ -758,7 +859,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007392,
 							["healing_taken"] = 87.00739200000001,
 							["end_time"] = 1658313394,
-							["tipo"] = 2,
+							["last_event"] = 1658313375,
 							["healing_from"] = {
 								["Cakebender"] = true,
 							},
@@ -784,24 +885,161 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 87,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "MONK",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.007392,
 							["custom"] = 0,
-							["last_event"] = 1658313375,
-							["aID"] = "3686-09D5C6B8",
+							["tipo"] = 2,
+							["classe"] = "MONK",
 							["start_time"] = 1658313393,
 							["delay"] = 1658313375,
 							["boss_fight_component"] = true,
 						}, -- [3]
+						{
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.008963,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["timeMachine"] = 1,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.008963,
+							["targets_overheal"] = {
+								["Mintý"] = 10,
+							},
+							["aID"] = "3686-09D6ECB7",
+							["totalover"] = 10.008963,
+							["total_without_pet"] = 0.008963,
+							["iniciar_hps"] = true,
+							["totaldenied"] = 0.008963,
+							["heal_enemy_amt"] = 0,
+							["total"] = 0.008963,
+							["healing_taken"] = 0.008963,
+							["classe"] = "PRIEST",
+							["nome"] = "Mintý",
+							["spec"] = 257,
+							["last_event"] = 1658606230,
+							["delay"] = 1658606230,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[139] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Mintý"] = 10,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Mintý"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 10,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 139,
+										["targets_absorbs"] = {
+										},
+										["c_min"] = 0,
+										["c_curado"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = true,
+							["start_time"] = 1658606230,
+							["serial"] = "Player-3686-09D6ECB7",
+							["targets_absorbs"] = {
+							},
+						}, -- [4]
+						{
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.003838,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.003838,
+							["targets_overheal"] = {
+								["Sorcerès"] = 47,
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["totalover"] = 47.003838,
+							["total_without_pet"] = 0.003838,
+							["aID"] = "3686-09D6CCF3",
+							["iniciar_hps"] = true,
+							["heal_enemy_amt"] = 0,
+							["total"] = 0.003838,
+							["delay"] = 1658606336,
+							["healing_taken"] = 0.003838,
+							["nome"] = "Sorcerès",
+							["targets_absorbs"] = {
+							},
+							["tipo"] = 2,
+							["timeMachine"] = 2,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Sorcerès"] = 47,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Sorcerès"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 47,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Sorcerès"] = 0,
+										},
+										["c_curado"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["last_event"] = 1658606336,
+							["on_hold"] = true,
+							["start_time"] = 1658606336,
+							["serial"] = "Player-3686-09D6CCF3",
+							["totaldenied"] = 0.003838,
+						}, -- [5]
 					},
 				}, -- [2]
 				{
@@ -823,10 +1061,10 @@ _detalhes_database = {
 							},
 							["last_event"] = 0,
 							["spell_cast"] = {
-								[101546] = 4,
-								[100780] = 6,
 								[322101] = 2,
+								[100780] = 6,
 								[100784] = 5,
+								[101546] = 4,
 							},
 							["classe"] = "MONK",
 							["aID"] = "3686-09D5C6B8",
@@ -853,7 +1091,8 @@ _detalhes_database = {
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["boss_fight_component"] = true,
 							["aID"] = "156814",
 							["spell_cast"] = {
@@ -861,10 +1100,9 @@ _detalhes_database = {
 								[308527] = 1,
 							},
 							["nome"] = "Gor'groth",
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-3889-2236-2552-156814-000057D9B8",
 							["flag_original"] = 68168,
 						}, -- [3]
@@ -907,7 +1145,7 @@ _detalhes_database = {
 					["n"] = 1,
 				},
 				["totals"] = {
-					1302, -- [1]
+					8493, -- [1]
 					784, -- [2]
 					{
 						0, -- [1]
@@ -988,8 +1226,9 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["combat_counter"] = 52,
 				["frags"] = {
+				},
+				["spells_cast_timeline"] = {
 				},
 				["is_boss"] = {
 					["diff_string"] = "Normal",
@@ -1010,8 +1249,7 @@ _detalhes_database = {
 				["data_inicio"] = "12:35:54",
 				["start_time"] = 162405.477,
 				["contra"] = "Gor'groth",
-				["spells_cast_timeline"] = {
-				},
+				["combat_counter"] = 52,
 			}, -- [1]
 			{
 				{
@@ -1029,19 +1267,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 10.41967004024622,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["classe"] = "MONK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 523.004918,
-							["last_event"] = 1658313296,
+							["boss_fight_component"] = true,
 							["delay"] = 1658313283,
 							["dps_started"] = false,
 							["end_time"] = 1658313296,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 493.004918,
-							["boss_fight_component"] = true,
+							["last_dps"] = 10.41967004024622,
+							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -1073,6 +1312,62 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 									}, -- [1]
+									[100784] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 60,
+										["g_amt"] = 0,
+										["n_max"] = 31,
+										["targets"] = {
+											["Tunk"] = 204,
+										},
+										["n_dmg"] = 144,
+										["n_min"] = 23,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 204,
+										["c_max"] = 60,
+										["id"] = 100784,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 60,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
+									[100780] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 38,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Tunk"] = 101,
+										},
+										["n_dmg"] = 63,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 101,
+										["c_max"] = 19,
+										["id"] = 100780,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 19,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 									[107270] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
@@ -1130,76 +1425,19 @@ _detalhes_database = {
 										},
 										["spellschool"] = 8,
 									},
-									[100784] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 60,
-										["g_amt"] = 0,
-										["n_max"] = 31,
-										["targets"] = {
-											["Tunk"] = 204,
-										},
-										["n_dmg"] = 144,
-										["n_min"] = 23,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 204,
-										["c_max"] = 60,
-										["id"] = 100784,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 60,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
-									[100780] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 38,
-										["g_amt"] = 0,
-										["n_max"] = 9,
-										["targets"] = {
-											["Tunk"] = 101,
-										},
-										["n_dmg"] = 63,
-										["n_min"] = 9,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 101,
-										["c_max"] = 19,
-										["id"] = 100780,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 19,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 7,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
 							["total"] = 523.004918,
-							["nome"] = "Cakebender",
+							["last_event"] = 1658313296,
 							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 493.004918,
 							["start_time"] = 1658313260,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -1217,18 +1455,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["nome"] = "Tunk",
+							["friendlyfire_total"] = 0,
+							["aID"] = "157300",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1339.001924,
-							["friendlyfire_total"] = 0,
 							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 1339.001924,
-							["damage_taken"] = 720.001924,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1347,15 +1584,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Tunk",
+							["on_hold"] = false,
 							["end_time"] = 1658313296,
-							["aID"] = "157300",
+							["friendlyfire"] = {
+							},
 							["custom"] = 0,
 							["last_event"] = 1658313296,
-							["on_hold"] = false,
+							["damage_taken"] = 720.001924,
 							["start_time"] = 1658313250,
 							["serial"] = "Creature-0-3889-2236-2552-157300-000057D9B8",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 2584,
@@ -1368,18 +1606,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["aID"] = "161350",
 							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
+							["aID"] = "161350",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 124.008942,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 124.008942,
+							["end_time"] = 1658313296,
 							["friendlyfire_total"] = 0,
 							["damage_taken"] = 769.0089419999999,
-							["boss_fight_component"] = true,
+							["nome"] = "Captain Garrick",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -1471,7 +1709,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Captain Garrick",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -1480,7 +1718,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1658313255,
 							["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
-							["end_time"] = 1658313296,
+							["total"] = 124.008942,
 						}, -- [3]
 						{
 							["flag_original"] = 2584,
@@ -1493,18 +1731,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["aID"] = "161504",
 							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
+							["aID"] = "161504",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 73.00219,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["total"] = 73.00219,
+							["end_time"] = 1658313296,
 							["friendlyfire_total"] = 0,
 							["damage_taken"] = 77.00219,
-							["boss_fight_component"] = true,
+							["nome"] = "Henry Garrick",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -1623,7 +1861,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Henry Garrick",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -1632,7 +1870,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1658313255,
 							["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
-							["end_time"] = 1658313296,
+							["total"] = 73.00219,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -1647,7 +1885,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["aID"] = "3686-09D5C6B8",
 							["totalover"] = 0.003255,
 							["total_without_pet"] = 42.003255,
 							["total"] = 42.003255,
@@ -1665,7 +1903,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.003255,
 							["healing_taken"] = 346.003255,
 							["end_time"] = 1658313296,
-							["tipo"] = 2,
+							["last_event"] = 1658313256,
 							["healing_from"] = {
 								["Henry Garrick"] = true,
 								["Cakebender"] = true,
@@ -1692,20 +1930,20 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 42,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "MONK",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.003255,
 							["custom"] = 0,
-							["last_event"] = 1658313256,
-							["aID"] = "3686-09D5C6B8",
+							["tipo"] = 2,
+							["classe"] = "MONK",
 							["start_time"] = 1658313295,
 							["delay"] = 1658313256,
 							["boss_fight_component"] = true,
@@ -1726,14 +1964,14 @@ _detalhes_database = {
 							["iniciar_hps"] = false,
 							["healing_from"] = {
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "161504",
 							["totalover"] = 0.007825,
 							["total_without_pet"] = 815.007825,
 							["totalover_without_pet"] = 0.007825,
 							["totaldenied"] = 0.007825,
-							["aID"] = "161504",
-							["end_time"] = 1658313296,
 							["healing_taken"] = 0.007825,
+							["end_time"] = 1658313296,
+							["classe"] = "UNKNOW",
 							["total"] = 815.007825,
 							["boss_fight_component"] = true,
 							["spells"] = {
@@ -1758,9 +1996,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 8,
 										["n_curado"] = 744,
 										["totaldenied"] = 0,
+										["n_amt"] = 8,
 										["absorbed"] = 0,
 									},
 									[318158] = {
@@ -1785,9 +2023,9 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["c_min"] = 0,
+										["n_amt"] = 3,
 										["n_curado"] = 71,
 										["totaldenied"] = 0,
-										["n_amt"] = 3,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -1806,8 +2044,8 @@ _detalhes_database = {
 							["last_event"] = 1658313293,
 							["on_hold"] = false,
 							["start_time"] = 1658313260,
-							["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
 							["delay"] = 0,
+							["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
 						}, -- [2]
 						{
 							["flag_original"] = 2584,
@@ -1824,14 +2062,14 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Henry Garrick"] = true,
 							},
-							["classe"] = "UNKNOW",
+							["aID"] = "161350",
 							["totalover"] = 0.006163,
 							["total_without_pet"] = 0.006163,
 							["totalover_without_pet"] = 0.006163,
 							["totaldenied"] = 0.006163,
-							["aID"] = "161350",
-							["total"] = 0.006163,
 							["healing_taken"] = 511.006163,
+							["total"] = 0.006163,
+							["classe"] = "UNKNOW",
 							["end_time"] = 1658313296,
 							["boss_fight_component"] = true,
 							["spells"] = {
@@ -1849,8 +2087,8 @@ _detalhes_database = {
 							["last_event"] = 0,
 							["on_hold"] = false,
 							["start_time"] = 1658313296,
-							["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
 							["delay"] = 0,
+							["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
 						}, -- [3]
 					},
 				}, -- [2]
@@ -1902,8 +2140,10 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 9,
-							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[322101] = 1,
@@ -1912,16 +2152,14 @@ _detalhes_database = {
 								[100784] = 6,
 								[115546] = 3,
 							},
-							["debuff_uptime_targets"] = {
-							},
 							["classe"] = "MONK",
 							["last_event"] = 1658313296,
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["nome"] = "Cakebender",
 							["serial"] = "Player-3686-09D5C6B8",
-							["buff_uptime_targets"] = {
-							},
+							["boss_fight_component"] = true,
 						}, -- [1]
 						{
 							["flag_original"] = 2584,
@@ -1983,7 +2221,7 @@ _detalhes_database = {
 								[314655] = 2,
 							},
 							["monster"] = true,
-							["nome"] = "Tunk",
+							["boss_fight_component"] = true,
 							["interrupt_targets"] = {
 								["Henry Garrick"] = 2,
 							},
@@ -1991,12 +2229,12 @@ _detalhes_database = {
 								[308455] = 2,
 								[321240] = 2,
 							},
-							["classe"] = "UNKNOW",
+							["last_event"] = 1658313288,
 							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["interrupt"] = 2.008322,
 							["serial"] = "Creature-0-3889-2236-2552-157300-000057D9B8",
-							["last_event"] = 1658313288,
+							["nome"] = "Tunk",
 						}, -- [4]
 						{
 							["flag_original"] = 2584,
@@ -2021,9 +2259,9 @@ _detalhes_database = {
 									["appliedamt"] = 0,
 								},
 							},
-							["last_event"] = 1658313269,
-							["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
+							["last_event"] = 1658313269,
 							["damage_twin"] = "Henry Garrick",
 							["aID"] = "161504",
 							["damage_spellid"] = 6788,
@@ -2134,9 +2372,10 @@ _detalhes_database = {
 				["tempo_start"] = 1658313249,
 				["TimeData"] = {
 				},
-				["combat_counter"] = 50,
 				["frags"] = {
 					["Tunk"] = 1,
+				},
+				["spells_cast_timeline"] = {
 				},
 				["is_boss"] = {
 					["diff_string"] = "Normal",
@@ -2158,8 +2397,7 @@ _detalhes_database = {
 				["data_inicio"] = "12:34:10",
 				["start_time"] = 162298.197,
 				["contra"] = "Tunk",
-				["spells_cast_timeline"] = {
-				},
+				["combat_counter"] = 50,
 			}, -- [2]
 			{
 				{
@@ -2178,22 +2416,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 36.68694541441183,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 166.008428,
-							["last_event"] = 1658313093,
+							["damage_taken"] = 21.008428,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658313093,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 21.008428,
+							["last_dps"] = 36.68694541441183,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 166.008428,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -2283,13 +2517,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 166.008428,
+							["last_event"] = 1658313093,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658313088,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2303,17 +2541,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 21.002318,
+							["aID"] = "153239",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 21.002318,
-							["end_time"] = 1658313093,
 							["monster"] = true,
-							["total"] = 21.002318,
-							["damage_taken"] = 166.002318,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658313093,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Brute",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2348,16 +2587,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153239",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658313092,
-							["on_hold"] = false,
+							["damage_taken"] = 166.002318,
 							["start_time"] = 1658313088,
 							["serial"] = "Creature-0-4255-2175-186-153239-000057D96B",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2377,8 +2615,7 @@ _detalhes_database = {
 							["totalover"] = 0.006268,
 							["total_without_pet"] = 15.006268,
 							["total"] = 15.006268,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -2394,7 +2631,7 @@ _detalhes_database = {
 							["end_time"] = 1658313093,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658313093,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2417,9 +2654,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 15,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -2429,11 +2666,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.006268,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658313093,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658313093,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -2449,8 +2687,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 10,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -2480,18 +2717,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 2,
 								[100780] = 1,
 							},
-							["buff_uptime"] = 10,
+							["pets"] = {
+							},
 							["last_event"] = 1658313093,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -2601,8 +2839,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Ogre Brute"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 46,
 				["player_last_events"] = {
@@ -2612,7 +2849,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:31:29",
 				["start_time"] = 162140.687,
 				["contra"] = "Ogre Brute",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Ogre Brute"] = 1,
 				},
 			}, -- [3]
 			{
@@ -2632,22 +2870,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 34.30163069177313,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 116.008115,
-							["last_event"] = 1658313084,
+							["damage_taken"] = 7.008115,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658313084,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 7.008115,
+							["last_dps"] = 34.30163069177313,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 116.008115,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -2737,13 +2971,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 116.008115,
+							["last_event"] = 1658313084,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658313080,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2757,17 +2995,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 7.007051,
+							["aID"] = "153242",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7.007051,
-							["end_time"] = 1658313084,
 							["monster"] = true,
-							["total"] = 7.007051,
-							["damage_taken"] = 116.007051,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658313084,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Shadowcaster",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2802,16 +3041,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153242",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658313082,
-							["on_hold"] = false,
+							["damage_taken"] = 116.007051,
 							["start_time"] = 1658313082,
 							["serial"] = "Creature-0-4255-2175-186-153242-000057D96D",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2831,8 +3069,7 @@ _detalhes_database = {
 							["totalover"] = 0.003948,
 							["total_without_pet"] = 16.003948,
 							["total"] = 16.003948,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -2848,7 +3085,7 @@ _detalhes_database = {
 							["end_time"] = 1658313084,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658313084,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2871,9 +3108,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 16,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -2883,11 +3120,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.003948,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658313084,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658313084,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -2903,8 +3141,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 8,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -2934,18 +3171,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 1,
 								[100780] = 1,
 							},
-							["buff_uptime"] = 8,
+							["pets"] = {
+							},
 							["last_event"] = 1658313084,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -3055,8 +3293,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Ogre Shadowcaster"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 45,
 				["player_last_events"] = {
@@ -3066,7 +3303,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:31:21",
 				["start_time"] = 162132.853,
 				["contra"] = "Ogre Shadowcaster",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Ogre Shadowcaster"] = 1,
 				},
 			}, -- [4]
 			{
@@ -3089,18 +3327,6 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 13.63956399515818,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 508.005561,
-							["last_event"] = 1658313073,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 508.005561,
-							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 148.005561,
-							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -3132,35 +3358,6 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									}, -- [1]
-									[100780] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 26,
-										["g_amt"] = 0,
-										["n_max"] = 13,
-										["targets"] = {
-											["Grunk"] = 39,
-											["Ogre Brute"] = 39,
-										},
-										["n_dmg"] = 52,
-										["n_min"] = 13,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 78,
-										["c_max"] = 26,
-										["id"] = 100780,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 26,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
 									[117952] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -3190,31 +3387,31 @@ _detalhes_database = {
 										},
 										["spellschool"] = 8,
 									},
-									[107270] = {
-										["c_amt"] = 2,
+									[100780] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 18,
+										["c_dmg"] = 26,
 										["g_amt"] = 0,
-										["n_max"] = 5,
+										["n_max"] = 13,
 										["targets"] = {
-											["Grunk"] = 8,
-											["Ogre Brute"] = 59,
+											["Grunk"] = 39,
+											["Ogre Brute"] = 39,
 										},
-										["n_dmg"] = 49,
-										["n_min"] = 4,
+										["n_dmg"] = 52,
+										["n_min"] = 13,
 										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 67,
-										["c_max"] = 9,
-										["id"] = 107270,
+										["counter"] = 5,
+										["total"] = 78,
+										["c_max"] = 26,
+										["id"] = 100780,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
 										["a_dmg"] = 0,
-										["c_min"] = 9,
+										["c_min"] = 26,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 12,
+										["n_amt"] = 4,
 										["extra"] = {
 										},
 										["spellschool"] = 1,
@@ -3248,20 +3445,61 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
+									[107270] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 18,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Grunk"] = 8,
+											["Ogre Brute"] = 59,
+										},
+										["n_dmg"] = 49,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 67,
+										["c_max"] = 9,
+										["id"] = 107270,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 9,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 12,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 508.005561,
+							["damage_taken"] = 148.005561,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 508.005561,
+							["aID"] = "3686-09D5C6B8",
+							["last_dps"] = 13.63956399515818,
+							["nome"] = "Cakebender",
+							["spec"] = 1450,
 							["grupo"] = true,
 							["end_time"] = 1658313074,
+							["last_event"] = 1658313073,
 							["custom"] = 0,
-							["spec"] = 1450,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658313036,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -3275,17 +3513,18 @@ _detalhes_database = {
 							["delay"] = 1658313059,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 74.005501,
+							["aID"] = "153581",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 74.005501,
-							["end_time"] = 1658313074,
 							["monster"] = true,
-							["total"] = 74.005501,
-							["damage_taken"] = 192.005501,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658313074,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Grunk",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3373,16 +3612,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153581",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658313059,
-							["on_hold"] = false,
+							["damage_taken"] = 192.005501,
 							["start_time"] = 1658313069,
 							["serial"] = "Creature-0-4255-2175-186-153581-000057D828",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -3397,17 +3635,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 67.008423,
+							["aID"] = "153239",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 67.008423,
-							["end_time"] = 1658313074,
 							["monster"] = true,
-							["total"] = 67.008423,
-							["damage_taken"] = 331.008423,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658313074,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Brute",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3471,16 +3710,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153239",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658313071,
-							["on_hold"] = false,
+							["damage_taken"] = 331.008423,
 							["start_time"] = 1658313060,
 							["serial"] = "Creature-0-4255-2175-186-153239-0000D7D921",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -3500,8 +3738,7 @@ _detalhes_database = {
 							["totalover"] = 0.004946,
 							["total_without_pet"] = 46.004946,
 							["total"] = 46.004946,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -3517,7 +3754,7 @@ _detalhes_database = {
 							["end_time"] = 1658313074,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658313073,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3540,9 +3777,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 6,
 										["n_curado"] = 46,
 										["totaldenied"] = 0,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 								},
@@ -3552,11 +3789,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.004946,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658313073,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658313060,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -3629,9 +3867,9 @@ _detalhes_database = {
 								[109132] = 1,
 								[117952] = 2,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1658313074,
 							["classe"] = "MONK",
 							["pets"] = {
@@ -3642,7 +3880,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Grunk",
 							["aID"] = "153581",
 							["spell_cast"] = {
@@ -3650,26 +3889,25 @@ _detalhes_database = {
 								[317547] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-153581-000057D828",
 							["flag_original"] = 68168,
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Ogre Brute",
 							["aID"] = "153239",
 							["spell_cast"] = {
 								[316890] = 3,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-153239-0000D7D921",
 							["flag_original"] = 2632,
 						}, -- [3]
@@ -3779,9 +4017,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Grunk"] = 1,
-					["Ogre Brute"] = 2,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 44,
 				["player_last_events"] = {
@@ -3870,7 +4106,9 @@ _detalhes_database = {
 				["data_inicio"] = "12:30:37",
 				["start_time"] = 162089.001,
 				["contra"] = "Grunk",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Grunk"] = 1,
+					["Ogre Brute"] = 2,
 				},
 			}, -- [5]
 			{
@@ -3890,17 +4128,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 55.001888,
+							["aID"] = "153242",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 55.001888,
-							["end_time"] = 1658313025,
 							["monster"] = true,
-							["total"] = 55.001888,
-							["damage_taken"] = 124.001888,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658313025,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Shadowcaster",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3962,16 +4201,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153242",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658313023,
-							["on_hold"] = false,
+							["damage_taken"] = 124.001888,
 							["start_time"] = 1658313015,
 							["serial"] = "Creature-0-4255-2175-186-153242-000057D921",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -3985,22 +4223,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 14.00541303366963,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 124.003927,
-							["last_event"] = 1658313024,
+							["damage_taken"] = 55.003927,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658313025,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 55.003927,
+							["last_dps"] = 14.00541303366963,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 124.003927,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -4118,13 +4352,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 124.003927,
+							["last_event"] = 1658313024,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658313017,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4139,7 +4377,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MONK",
 							["totalover"] = 14.007518,
 							["total_without_pet"] = 0.007518,
 							["total"] = 0.007518,
@@ -4156,7 +4394,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007518,
 							["healing_taken"] = 0.007518,
 							["end_time"] = 1658313025,
-							["last_event"] = 1658313024,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 								["Cakebender"] = 14,
 							},
@@ -4183,20 +4421,20 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "3686-09D5C6B8",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.007518,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MONK",
+							["last_event"] = 1658313024,
+							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658313024,
 							["delay"] = 0,
 							["spec"] = 1450,
@@ -4220,17 +4458,17 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
-							["buff_uptime"] = 11,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[100780] = 2,
 								[100784] = 2,
 								[101546] = 1,
 							},
-							["last_event"] = 1658313025,
+							["buff_uptime"] = 11,
+							["pets"] = {
+							},
 							["aID"] = "3686-09D5C6B8",
-							["classe"] = "MONK",
+							["last_event"] = 1658313025,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[306396] = {
@@ -4259,21 +4497,21 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3686-09D5C6B8",
-							["tipo"] = 4,
+							["classe"] = "MONK",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Ogre Shadowcaster",
 							["aID"] = "153242",
 							["spell_cast"] = {
 								[305913] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-153242-000057D921",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -4357,18 +4595,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "12:30:16",
-				["end_time"] = 162077.388,
-				["combat_id"] = 38,
-				["player_last_events"] = {
-				},
-				["tempo_start"] = 1658313015,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Ogre Shadowcaster",
-				["combat_counter"] = 43,
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -4388,6 +4614,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 162077.388,
+				["combat_id"] = 38,
+				["data_inicio"] = "12:30:16",
+				["tempo_start"] = 1658313015,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Ogre Shadowcaster",
+				["combat_counter"] = 43,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 162067.725,
 				["TimeData"] = {
@@ -4416,23 +4654,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 23.40683219155777,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 439,
 							},
 							["total_without_pet"] = 697.008649,
-							["last_event"] = 1658313013,
+							["damage_taken"] = 135.008649,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658313015,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 135.008649,
+							["last_dps"] = 23.40683219155777,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 697.008649,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -4642,13 +4876,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 697.008649,
+							["last_event"] = 1658313013,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312974,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -4662,17 +4900,18 @@ _detalhes_database = {
 							["delay"] = 1658312992,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 71.00291,
+							["aID"] = "153242",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 71.00291,
-							["end_time"] = 1658313004,
 							["monster"] = true,
-							["total"] = 71.00291,
-							["damage_taken"] = 108.00291,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658313004,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Shadowcaster",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4734,16 +4973,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153242",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312992,
-							["on_hold"] = false,
+							["damage_taken"] = 108.00291,
 							["start_time"] = 1658312987,
 							["serial"] = "Creature-0-4255-2175-186-153242-000057D828",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -4757,17 +4995,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 64.006403,
+							["aID"] = "153239",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 64.006403,
-							["end_time"] = 1658313004,
 							["monster"] = true,
-							["total"] = 64.006403,
-							["damage_taken"] = 150.006403,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658313004,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Brute",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4829,16 +5068,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153239",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658313001,
-							["on_hold"] = false,
+							["damage_taken"] = 150.006403,
 							["start_time"] = 1658312990,
 							["serial"] = "Creature-0-4255-2175-186-153239-000057D812",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -4851,17 +5089,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 0.003675,
+							["aID"] = "153583",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003675,
-							["end_time"] = 1658313004,
 							["fight_component"] = true,
-							["total"] = 0.003675,
-							["damage_taken"] = 439.003675,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1658313004,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Jugnug",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4923,16 +5161,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "153583",
-							["custom"] = 0,
-							["last_event"] = 1658312985,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 1658312985,
+							["damage_taken"] = 439.003675,
 							["start_time"] = 1658313004,
 							["serial"] = "Creature-0-4255-2175-186-153583-000057D818",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [4]
 					},
 				}, -- [1]
@@ -4952,8 +5190,7 @@ _detalhes_database = {
 							["totalover"] = 0.003484,
 							["total_without_pet"] = 133.003484,
 							["total"] = 133.003484,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -4969,7 +5206,7 @@ _detalhes_database = {
 							["end_time"] = 1658313004,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658313004,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4992,9 +5229,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 48,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 									[59913] = {
@@ -5016,9 +5253,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 6,
 										["n_curado"] = 44,
 										["totaldenied"] = 0,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 									[322101] = {
@@ -5040,9 +5277,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 41,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
@@ -5052,11 +5289,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.003484,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658313004,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312989,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -5120,9 +5358,9 @@ _detalhes_database = {
 								[100784] = 4,
 								[116670] = 1,
 							},
-							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1658313004,
 							["classe"] = "MONK",
 							["pets"] = {
@@ -5133,49 +5371,49 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Ogre Shadowcaster",
 							["aID"] = "153242",
 							["spell_cast"] = {
 								[305913] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-153242-000057D828",
 							["flag_original"] = 2632,
 						}, -- [2]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Jugnug",
 							["aID"] = "153583",
 							["spell_cast"] = {
 								[319334] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-153583-000057D818",
 							["flag_original"] = 68168,
 						}, -- [3]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Ogre Brute",
 							["aID"] = "153239",
 							["spell_cast"] = {
 								[316890] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-153239-000057D812",
 							["flag_original"] = 68168,
 						}, -- [4]
@@ -5285,10 +5523,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Jugnug"] = 1,
-					["Ogre Shadowcaster"] = 1,
-					["Ogre Brute"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 42,
 				["player_last_events"] = {
@@ -5298,7 +5533,10 @@ _detalhes_database = {
 				["data_inicio"] = "12:29:35",
 				["start_time"] = 162026.61,
 				["contra"] = "Ogre Shadowcaster",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Jugnug"] = 1,
+					["Ogre Shadowcaster"] = 1,
+					["Ogre Brute"] = 1,
 				},
 			}, -- [7]
 			{
@@ -5319,23 +5557,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 23.07666235581075,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 106,
 							},
 							["total_without_pet"] = 182.005636,
-							["last_event"] = 1658312967,
+							["damage_taken"] = 29.005636,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312969,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 29.005636,
+							["last_dps"] = 23.07666235581075,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 182.005636,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -5453,13 +5687,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 182.005636,
+							["last_event"] = 1658312967,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312961,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -5473,17 +5711,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 19.006068,
+							["aID"] = "153582",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 19.006068,
-							["end_time"] = 1658312969,
 							["monster"] = true,
-							["total"] = 19.006068,
-							["damage_taken"] = 182.006068,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312969,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Wug",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5545,16 +5784,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153582",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312967,
-							["on_hold"] = false,
+							["damage_taken"] = 182.006068,
 							["start_time"] = 1658312962,
 							["serial"] = "Creature-0-4255-2175-186-153582-000057D802",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5574,8 +5812,7 @@ _detalhes_database = {
 							["totalover"] = 0.00326,
 							["total_without_pet"] = 14.00326,
 							["total"] = 14.00326,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -5591,7 +5828,7 @@ _detalhes_database = {
 							["end_time"] = 1658312969,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658312967,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5614,9 +5851,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 14,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -5626,11 +5863,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.00326,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312967,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312967,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -5646,8 +5884,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 8,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -5666,8 +5903,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -5675,26 +5911,28 @@ _detalhes_database = {
 								[101546] = 1,
 								[100784] = 2,
 							},
-							["buff_uptime"] = 8,
+							["pets"] = {
+							},
 							["last_event"] = 1658312969,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Wug",
 							["aID"] = "153582",
 							["spell_cast"] = {
 								[321820] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-153582-000057D802",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -5804,8 +6042,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Wug"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 41,
 				["player_last_events"] = {
@@ -5894,7 +6131,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:29:21",
 				["start_time"] = 162013.331,
 				["contra"] = "Wug",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Wug"] = 1,
 				},
 			}, -- [8]
 			{
@@ -5915,22 +6153,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 32.48759263957471,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 128.001115,
-							["last_event"] = 1658312960,
+							["damage_taken"] = 14.001115,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312961,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 14.001115,
+							["last_dps"] = 32.48759263957471,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 128.001115,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -6048,13 +6282,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 128.001115,
+							["last_event"] = 1658312960,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312948,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -6068,17 +6306,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 14.00318,
+							["aID"] = "153242",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 14.00318,
-							["end_time"] = 1658312952,
 							["monster"] = true,
-							["total"] = 14.00318,
-							["damage_taken"] = 119.00318,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312952,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Shadowcaster",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6113,16 +6352,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153242",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312950,
-							["on_hold"] = false,
+							["damage_taken"] = 119.00318,
 							["start_time"] = 1658312948,
 							["serial"] = "Creature-0-4255-2175-186-153242-0000D7D828",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6142,8 +6380,7 @@ _detalhes_database = {
 							["totalover"] = 0.003896,
 							["total_without_pet"] = 14.003896,
 							["total"] = 14.003896,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -6159,7 +6396,7 @@ _detalhes_database = {
 							["end_time"] = 1658312952,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658312952,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6182,9 +6419,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 14,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -6194,11 +6431,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.003896,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312952,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312952,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -6214,8 +6452,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 4,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -6234,18 +6471,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100780] = 2,
 								[100784] = 1,
 							},
-							["buff_uptime"] = 4,
+							["pets"] = {
+							},
 							["last_event"] = 1658312952,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -6355,8 +6593,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Ogre Shadowcaster"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 40,
 				["player_last_events"] = {
@@ -6366,7 +6603,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:29:09",
 				["start_time"] = 162000.747,
 				["contra"] = "Ogre Shadowcaster",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Ogre Shadowcaster"] = 1,
 				},
 			}, -- [9]
 			{
@@ -6385,23 +6623,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 17.07040651118893,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 194,
 							},
 							["total_without_pet"] = 194.00517,
-							["last_event"] = 1658312840,
+							["damage_taken"] = 0.00517,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312841,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 0.00517,
+							["last_dps"] = 17.07040651118893,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 194.00517,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -6432,6 +6666,34 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									}, -- [1]
+									[100780] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11,
+										["targets"] = {
+											["Killclaw the Terrible"] = 33,
+										},
+										["n_dmg"] = 33,
+										["n_min"] = 11,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 33,
+										["c_max"] = 0,
+										["id"] = 100780,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["extra"] = {
+										},
+										["spellschool"] = 1,
+									},
 									[115129] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
@@ -6460,22 +6722,22 @@ _detalhes_database = {
 										},
 										["spellschool"] = 8,
 									},
-									[100780] = {
+									[100784] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 11,
+										["n_max"] = 37,
 										["targets"] = {
-											["Killclaw the Terrible"] = 33,
+											["Killclaw the Terrible"] = 74,
 										},
-										["n_dmg"] = 33,
-										["n_min"] = 11,
+										["n_dmg"] = 74,
+										["n_min"] = 37,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 33,
+										["counter"] = 2,
+										["total"] = 74,
 										["c_max"] = 0,
-										["id"] = 100780,
+										["id"] = 100784,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["b_dmg"] = 0,
@@ -6483,7 +6745,7 @@ _detalhes_database = {
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 2,
 										["extra"] = {
 										},
 										["spellschool"] = 1,
@@ -6516,44 +6778,20 @@ _detalhes_database = {
 										},
 										["spellschool"] = 1,
 									},
-									[100784] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 37,
-										["targets"] = {
-											["Killclaw the Terrible"] = 74,
-										},
-										["n_dmg"] = 74,
-										["n_min"] = 37,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 74,
-										["c_max"] = 0,
-										["id"] = 100784,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["extra"] = {
-										},
-										["spellschool"] = 1,
-									},
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 194.00517,
+							["last_event"] = 1658312840,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312830,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -6571,17 +6809,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 106.003692,
+							["aID"] = "153266",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 106.003692,
-							["end_time"] = 1658312841,
 							["monster"] = true,
-							["total"] = 106.003692,
-							["damage_taken"] = 504.003692,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312841,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Killclaw the Terrible",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6671,16 +6910,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153266",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312839,
-							["on_hold"] = false,
+							["damage_taken"] = 504.003692,
 							["start_time"] = 1658312831,
 							["serial"] = "Creature-0-4255-2175-186-153266-000057D741",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6707,17 +6945,17 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
-							["buff_uptime"] = 22,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[100780] = 3,
 								[100784] = 2,
 								[101546] = 2,
 							},
-							["last_event"] = 1658312841,
+							["buff_uptime"] = 22,
+							["pets"] = {
+							},
 							["aID"] = "3686-09D5C6B8",
-							["classe"] = "MONK",
+							["last_event"] = 1658312841,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[306396] = {
@@ -6746,11 +6984,12 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3686-09D5C6B8",
-							["tipo"] = 4,
+							["classe"] = "MONK",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Killclaw the Terrible",
 							["aID"] = "153266",
 							["spell_cast"] = {
@@ -6758,10 +6997,9 @@ _detalhes_database = {
 								[199167] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-153266-000057D741",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -6845,18 +7083,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "12:27:10",
-				["end_time"] = 161893.583,
-				["combat_id"] = 34,
-				["player_last_events"] = {
-				},
-				["tempo_start"] = 1658312830,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Killclaw the Terrible",
-				["combat_counter"] = 39,
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -6875,6 +7101,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 161893.583,
+				["combat_id"] = 34,
+				["data_inicio"] = "12:27:10",
+				["tempo_start"] = 1658312830,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Killclaw the Terrible",
+				["combat_counter"] = 39,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 161882.218,
 				["TimeData"] = {
@@ -6900,23 +7138,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 60.82548343852498,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 404,
 							},
 							["total_without_pet"] = 404.002861,
-							["last_event"] = 1658312788,
+							["damage_taken"] = 10.002861,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312793,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 10.002861,
+							["last_dps"] = 60.82548343852498,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 404.002861,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -7006,13 +7240,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 404.002861,
+							["last_event"] = 1658312788,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312786,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -7025,17 +7263,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["aID"] = "164868",
 							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10.003359,
 							["delay"] = 0,
-							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 10.003359,
+							["fight_component"] = true,
 							["on_hold"] = false,
-							["damage_taken"] = 404.003359,
 							["nome"] = "Kee-La",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7070,16 +7309,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["end_time"] = 1658312793,
 							["custom"] = 0,
 							["last_event"] = 1658312786,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 404.003359,
 							["start_time"] = 1658312786,
 							["serial"] = "Creature-0-4255-2175-186-164868-000057D84A",
-							["dps_started"] = false,
+							["aID"] = "164868",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7106,16 +7344,16 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
-							["buff_uptime"] = 14,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[322109] = 1,
 								[109132] = 1,
 							},
-							["last_event"] = 1658312793,
+							["buff_uptime"] = 14,
+							["pets"] = {
+							},
 							["aID"] = "3686-09D5C6B8",
-							["classe"] = "MONK",
+							["last_event"] = 1658312793,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[306396] = {
@@ -7144,7 +7382,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3686-09D5C6B8",
-							["tipo"] = 4,
+							["classe"] = "MONK",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7282,22 +7520,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 187.8090375685396,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 40.003325,
-							["last_event"] = 1658312593,
+							["damage_taken"] = 99.003325,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312593,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 99.003325,
+							["last_dps"] = 187.8090375685396,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 40.003325,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -7359,13 +7593,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 40.003325,
+							["last_event"] = 1658312593,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312593,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -7381,17 +7619,17 @@ _detalhes_database = {
 							["delay"] = 1658312608,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["last_event"] = 1658312608,
+							["friendlyfire_total"] = 0,
+							["end_time"] = 1658312786,
 							["aID"] = "152843",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 27.003343,
-							["total"] = 27.003343,
 							["monster"] = true,
-							["end_time"] = 1658312786,
-							["damage_taken"] = 145.003343,
-							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["total"] = 27.003343,
+							["last_dps"] = 0,
+							["last_event"] = 1658312608,
 							["nome"] = "Harpy Boltcaller",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7455,16 +7693,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["friendlyfire"] = {
-							},
+							["classe"] = "UNKNOW",
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1658312782,
 							["serial"] = "Creature-0-4255-2175-186-152843-000057D60E",
-							["fight_component"] = true,
+							["damage_taken"] = 145.003343,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -7484,8 +7722,7 @@ _detalhes_database = {
 							["totalover"] = 9.005725,
 							["total_without_pet"] = 5.005725,
 							["total"] = 5.005725,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -7502,7 +7739,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 9,
 							},
-							["last_event"] = 1658312593,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7526,9 +7763,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 5,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -7538,11 +7775,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.005725,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312593,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312593,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -7567,9 +7805,9 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["buff_uptime"] = 0,
-							["last_event"] = 1658312593,
 							["aID"] = "3686-09D5C6B8",
-							["classe"] = "MONK",
+							["last_event"] = 1658312593,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[341260] = {
@@ -7587,7 +7825,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3686-09D5C6B8",
-							["tipo"] = 4,
+							["classe"] = "MONK",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -7695,8 +7933,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Harpy Boltcaller"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 37,
 				["player_last_events"] = {
@@ -7783,7 +8020,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:23:13",
 				["start_time"] = 161645.16,
 				["contra"] = "Harpy Boltcaller",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Harpy Boltcaller"] = 1,
 				},
 			}, -- [12]
 			{
@@ -7803,22 +8041,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 28.25560030431171,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 130.004017,
-							["last_event"] = 1658312587,
+							["damage_taken"] = 1.004017,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312588,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 1.004017,
+							["last_dps"] = 28.25560030431171,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 130.004017,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -7908,13 +8142,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 130.004017,
+							["last_event"] = 1658312587,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312583,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -7929,17 +8167,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2.002553,
+							["aID"] = "152998",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2.002553,
-							["end_time"] = 1658312588,
 							["monster"] = true,
-							["total"] = 2.002553,
-							["damage_taken"] = 130.002553,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312588,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Hunting Worg",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7975,16 +8214,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "152998",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312585,
-							["on_hold"] = false,
+							["damage_taken"] = 130.002553,
 							["start_time"] = 1658312583,
 							["serial"] = "Creature-0-4255-2175-186-152998-0000D7D694",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8004,8 +8242,7 @@ _detalhes_database = {
 							["totalover"] = 28.004951,
 							["total_without_pet"] = 1.004951,
 							["total"] = 1.004951,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -8022,7 +8259,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 28,
 							},
-							["last_event"] = 1658312587,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8046,9 +8283,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 1,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
@@ -8058,11 +8295,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.004951,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312587,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312583,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -8078,8 +8316,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 5,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -8098,17 +8335,18 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[101546] = 1,
 							},
-							["buff_uptime"] = 5,
+							["pets"] = {
+							},
 							["last_event"] = 1658312588,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -8218,8 +8456,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Hunting Worg"] = 2,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 36,
 				["player_last_events"] = {
@@ -8229,7 +8466,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:23:04",
 				["start_time"] = 161635.929,
 				["contra"] = "Hunting Worg",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Hunting Worg"] = 2,
 				},
 			}, -- [13]
 			{
@@ -8248,22 +8486,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 44.08860602639619,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 79.006782,
-							["last_event"] = 1658312571,
+							["damage_taken"] = 0.006782,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312571,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 0.006782,
+							["last_dps"] = 44.08860602639619,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 79.006782,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8353,13 +8587,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 79.006782,
+							["last_event"] = 1658312571,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312569,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -8372,17 +8610,17 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 0.004134,
+							["aID"] = "152843",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004134,
-							["end_time"] = 1658312571,
 							["fight_component"] = true,
-							["total"] = 0.004134,
-							["damage_taken"] = 79.004134,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1658312571,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Harpy Boltcaller",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8418,16 +8656,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "152843",
-							["custom"] = 0,
-							["last_event"] = 1658312570,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 1658312570,
+							["damage_taken"] = 79.004134,
 							["start_time"] = 1658312571,
 							["serial"] = "Creature-0-4255-2175-186-152843-000057D71B",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8442,7 +8680,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MONK",
 							["totalover"] = 14.007059,
 							["total_without_pet"] = 0.007059,
 							["total"] = 0.007059,
@@ -8459,7 +8697,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007059,
 							["healing_taken"] = 0.007059,
 							["end_time"] = 1658312571,
-							["last_event"] = 1658312571,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 								["Cakebender"] = 14,
 							},
@@ -8486,20 +8724,20 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "3686-09D5C6B8",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.007059,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MONK",
+							["last_event"] = 1658312571,
+							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312571,
 							["delay"] = 0,
 							["spec"] = 1450,
@@ -8523,16 +8761,16 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
-							["buff_uptime"] = 2,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[100780] = 1,
 								[100784] = 1,
 							},
-							["last_event"] = 1658312571,
+							["buff_uptime"] = 2,
+							["pets"] = {
+							},
 							["aID"] = "3686-09D5C6B8",
-							["classe"] = "MONK",
+							["last_event"] = 1658312571,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[341260] = {
@@ -8550,7 +8788,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3686-09D5C6B8",
-							["tipo"] = 4,
+							["classe"] = "MONK",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -8632,18 +8870,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "12:22:50",
-				["end_time"] = 161623.526,
-				["combat_id"] = 30,
-				["player_last_events"] = {
-				},
-				["tempo_start"] = 1658312569,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Harpy Boltcaller",
-				["combat_counter"] = 35,
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -8663,6 +8889,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 161623.526,
+				["combat_id"] = 30,
+				["data_inicio"] = "12:22:50",
+				["tempo_start"] = 1658312569,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Harpy Boltcaller",
+				["combat_counter"] = 35,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 161621.734,
 				["TimeData"] = {
@@ -8688,22 +8926,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 24.43310522933189,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 114.004869,
-							["last_event"] = 1658312565,
+							["damage_taken"] = 8.004869,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312566,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 8.004869,
+							["last_dps"] = 24.43310522933189,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 114.004869,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8793,13 +9027,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 114.004869,
+							["last_event"] = 1658312565,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312560,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -8813,17 +9051,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 8.007733,
+							["aID"] = "152998",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8.007733,
-							["end_time"] = 1658312566,
 							["monster"] = true,
-							["total"] = 8.007733,
-							["damage_taken"] = 114.007733,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312566,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Hunting Worg",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8858,16 +9097,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "152998",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312564,
-							["on_hold"] = false,
+							["damage_taken"] = 114.007733,
 							["start_time"] = 1658312561,
 							["serial"] = "Creature-0-4255-2175-186-152998-0000D7D71B",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -8887,8 +9125,7 @@ _detalhes_database = {
 							["totalover"] = 48.007662,
 							["total_without_pet"] = 9.007662,
 							["total"] = 9.007662,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -8905,7 +9142,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 48,
 							},
-							["last_event"] = 1658312565,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8929,9 +9166,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 8,
 										["n_curado"] = 9,
 										["totaldenied"] = 0,
+										["n_amt"] = 8,
 										["absorbed"] = 0,
 									},
 								},
@@ -8941,11 +9178,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.007662,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312565,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312562,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -8961,8 +9199,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 6,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -8981,8 +9218,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -8990,10 +9226,12 @@ _detalhes_database = {
 								[101546] = 1,
 								[109132] = 1,
 							},
-							["buff_uptime"] = 6,
+							["pets"] = {
+							},
 							["last_event"] = 1658312566,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -9103,8 +9341,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Hunting Worg"] = 4,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 34,
 				["player_last_events"] = {
@@ -9114,7 +9351,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:22:41",
 				["start_time"] = 161612.896,
 				["contra"] = "Hunting Worg",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Hunting Worg"] = 4,
 				},
 			}, -- [15]
 			{
@@ -9135,22 +9373,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 23.60918598321398,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 286.001679,
-							["last_event"] = 1658312553,
+							["damage_taken"] = 7.001679,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312554,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 7.001679,
+							["last_dps"] = 23.60918598321398,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 286.001679,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -9268,13 +9502,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 286.001679,
+							["last_event"] = 1658312553,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312541,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -9293,17 +9531,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 48.008399,
+							["aID"] = "153964",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 48.008399,
-							["end_time"] = 1658312554,
 							["monster"] = true,
-							["total"] = 48.008399,
-							["damage_taken"] = 440.008399,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312554,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Bloodbeak",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9369,16 +9608,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "153964",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312552,
-							["on_hold"] = false,
+							["damage_taken"] = 440.008399,
 							["start_time"] = 1658312542,
 							["serial"] = "Creature-0-4255-2175-186-153964-000057D74E",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -9398,8 +9636,7 @@ _detalhes_database = {
 							["totalover"] = 8.002707000000001,
 							["total_without_pet"] = 6.002707,
 							["total"] = 6.002707,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -9416,7 +9653,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 8,
 							},
-							["last_event"] = 1658312553,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9440,9 +9677,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 6,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -9452,11 +9689,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.002707,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312553,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312553,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -9472,8 +9710,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 13,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -9492,8 +9729,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -9501,10 +9737,12 @@ _detalhes_database = {
 								[100784] = 3,
 								[101546] = 3,
 							},
-							["buff_uptime"] = 13,
+							["pets"] = {
+							},
 							["last_event"] = 1658312554,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -9614,8 +9852,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Bloodbeak"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 33,
 				["player_last_events"] = {
@@ -9704,7 +9941,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:22:22",
 				["start_time"] = 161594.012,
 				["contra"] = "Bloodbeak",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Bloodbeak"] = 1,
 				},
 			}, -- [16]
 			{
@@ -9724,23 +9962,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 32.44490965095505,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[4] = 158,
 							},
 							["total_without_pet"] = 158.00671,
-							["last_event"] = 1658312522,
+							["damage_taken"] = 15.00671,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312523,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 15.00671,
+							["last_dps"] = 32.44490965095505,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 158.00671,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -9830,13 +10064,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 158.00671,
+							["last_event"] = 1658312522,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312518,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -9850,17 +10088,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 15.00595,
+							["aID"] = "156986",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 15.00595,
-							["end_time"] = 1658312523,
 							["monster"] = true,
-							["total"] = 15.00595,
-							["damage_taken"] = 158.00595,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312523,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Taskmaster",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9895,16 +10134,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "156986",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312522,
-							["on_hold"] = false,
+							["damage_taken"] = 158.00595,
 							["start_time"] = 1658312518,
 							["serial"] = "Creature-0-4255-2175-186-156986-000057D6E8",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -9924,8 +10162,7 @@ _detalhes_database = {
 							["totalover"] = 0.003234,
 							["total_without_pet"] = 14.003234,
 							["total"] = 14.003234,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -9941,7 +10178,7 @@ _detalhes_database = {
 							["end_time"] = 1658312523,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658312522,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -9964,9 +10201,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 14,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -9976,11 +10213,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.003234,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312522,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312522,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -9996,8 +10234,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 5,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -10016,18 +10253,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 2,
 								[100780] = 1,
 							},
-							["buff_uptime"] = 5,
+							["pets"] = {
+							},
 							["last_event"] = 1658312523,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -10137,8 +10375,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Ogre Taskmaster"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 32,
 				["player_last_events"] = {
@@ -10148,7 +10385,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:21:59",
 				["start_time"] = 161570.492,
 				["contra"] = "Ogre Taskmaster",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Ogre Taskmaster"] = 1,
 				},
 			}, -- [17]
 			{
@@ -10168,17 +10406,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 4.007795,
+							["aID"] = "152998",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4.007795,
-							["end_time"] = 1658312509,
 							["monster"] = true,
-							["total"] = 4.007795,
-							["damage_taken"] = 94.007795,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312509,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Hunting Worg",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10214,16 +10453,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "152998",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312506,
-							["on_hold"] = false,
+							["damage_taken"] = 94.007795,
 							["start_time"] = 1658312500,
 							["serial"] = "Creature-0-4255-2175-186-152998-000157D6AB",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -10237,22 +10475,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 10.44621669073098,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 94.005504,
-							["last_event"] = 1658312509,
+							["damage_taken"] = 4.005504,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312509,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 4.005504,
+							["last_dps"] = 10.44621669073098,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 94.005504,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									[341296] = {
@@ -10286,13 +10520,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 94.005504,
+							["last_event"] = 1658312509,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312509,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -10307,7 +10545,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MONK",
 							["totalover"] = 28.005903,
 							["total_without_pet"] = 0.005903,
 							["total"] = 0.005903,
@@ -10324,7 +10562,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.005903,
 							["healing_taken"] = 0.005903,
 							["end_time"] = 1658312509,
-							["last_event"] = 1658312509,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 								["Cakebender"] = 28,
 							},
@@ -10351,20 +10589,20 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "3686-09D5C6B8",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.005903,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MONK",
+							["last_event"] = 1658312509,
+							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312509,
 							["delay"] = 0,
 							["spec"] = 1450,
@@ -10388,15 +10626,15 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
-							["buff_uptime"] = 0,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[109132] = 1,
 							},
-							["last_event"] = 1658312509,
+							["buff_uptime"] = 0,
+							["pets"] = {
+							},
 							["aID"] = "3686-09D5C6B8",
-							["classe"] = "MONK",
+							["last_event"] = 1658312509,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[179245] = {
@@ -10426,7 +10664,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3686-09D5C6B8",
-							["tipo"] = 4,
+							["classe"] = "MONK",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -10508,18 +10746,6 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "12:21:40",
-				["end_time"] = 161562.061,
-				["combat_id"] = 26,
-				["player_last_events"] = {
-				},
-				["tempo_start"] = 1658312500,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Hunting Worg",
-				["combat_counter"] = 31,
-				["CombatSkillCache"] = {
-				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
@@ -10539,6 +10765,18 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
+				},
+				["end_time"] = 161562.061,
+				["combat_id"] = 26,
+				["data_inicio"] = "12:21:40",
+				["tempo_start"] = 1658312500,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Hunting Worg",
+				["combat_counter"] = 31,
+				["CombatSkillCache"] = {
+				},
+				["player_last_events"] = {
 				},
 				["start_time"] = 161552.356,
 				["TimeData"] = {
@@ -10564,22 +10802,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 13.66688305348665,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 70.001775,
-							["last_event"] = 1658312475,
+							["damage_taken"] = 13.001775,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312476,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 13.001775,
+							["last_dps"] = 13.66688305348665,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 70.001775,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -10669,13 +10903,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 70.001775,
+							["last_event"] = 1658312475,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312470,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -10689,17 +10927,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 13.008948,
+							["aID"] = "152571",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13.008948,
-							["end_time"] = 1658312476,
 							["monster"] = true,
-							["total"] = 13.008948,
-							["damage_taken"] = 70.008948,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312476,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Harpy Snatcher",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10734,16 +10973,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "152571",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312473,
-							["on_hold"] = false,
+							["damage_taken"] = 70.008948,
 							["start_time"] = 1658312471,
 							["serial"] = "Creature-0-4255-2175-186-152571-000057D6DD",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -10763,8 +11001,7 @@ _detalhes_database = {
 							["totalover"] = 1.006521,
 							["total_without_pet"] = 13.006521,
 							["total"] = 13.006521,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -10781,7 +11018,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 1,
 							},
-							["last_event"] = 1658312475,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -10805,9 +11042,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 13,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -10817,11 +11054,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.006521,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312475,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312475,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -10840,18 +11078,18 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
+							["pets"] = {
+							},
+							["fight_component"] = true,
 							["spell_cast"] = {
 								[100784] = 1,
 								[100780] = 2,
 							},
-							["fight_component"] = true,
-							["pets"] = {
-							},
+							["classe"] = "MONK",
 							["tipo"] = 4,
-							["aID"] = "3686-09D5C6B8",
 							["last_event"] = 0,
 							["serial"] = "Player-3686-09D5C6B8",
-							["classe"] = "MONK",
+							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -10959,8 +11197,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Harpy Snatcher"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 30,
 				["player_last_events"] = {
@@ -10970,7 +11207,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:21:10",
 				["start_time"] = 161522.212,
 				["contra"] = "Harpy Snatcher",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Harpy Snatcher"] = 1,
 				},
 			}, -- [19]
 			{
@@ -10990,22 +11228,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 14.47903592113892,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 210.003937,
-							["last_event"] = 1658312364,
+							["damage_taken"] = 33.003937,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312366,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 33.003937,
+							["last_dps"] = 14.47903592113892,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 210.003937,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -11095,13 +11329,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 210.003937,
+							["last_event"] = 1658312364,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312352,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -11118,17 +11356,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 33.002813,
+							["aID"] = "156900",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 33.002813,
-							["end_time"] = 1658312366,
 							["monster"] = true,
-							["total"] = 33.002813,
-							["damage_taken"] = 449.002813,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312366,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Hrun the Exiled",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11216,16 +11455,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "156900",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312360,
-							["on_hold"] = false,
+							["damage_taken"] = 449.002813,
 							["start_time"] = 1658312352,
 							["serial"] = "Creature-0-4255-2175-186-156900-000057D554",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -11247,15 +11485,15 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["aID"] = "3686-09D5C6B8",
+							["classe"] = "MONK",
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["pets"] = {
 							},
 							["last_event"] = 0,
-							["classe"] = "MONK",
 							["tipo"] = 4,
+							["aID"] = "3686-09D5C6B8",
 							["serial"] = "Player-3686-09D5C6B8",
 							["spell_cast"] = {
 								[100780] = 4,
@@ -11264,7 +11502,8 @@ _detalhes_database = {
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Hrun the Exiled",
 							["aID"] = "156900",
 							["spell_cast"] = {
@@ -11272,10 +11511,9 @@ _detalhes_database = {
 								[319310] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-156900-000057D554",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -11384,7 +11622,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 29,
 				["player_last_events"] = {
@@ -11394,7 +11632,7 @@ _detalhes_database = {
 				["data_inicio"] = "12:19:12",
 				["start_time"] = 161404.426,
 				["contra"] = "Hrun the Exiled",
-				["spells_cast_timeline"] = {
+				["frags"] = {
 				},
 			}, -- [20]
 			{
@@ -11414,17 +11652,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 14.001087,
+							["aID"] = "160433",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 14.001087,
-							["end_time"] = 1658312330,
 							["monster"] = true,
-							["total"] = 14.001087,
-							["damage_taken"] = 132.001087,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312330,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Barrow Spiderling",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11487,16 +11726,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "160433",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312329,
-							["on_hold"] = false,
+							["damage_taken"] = 132.001087,
 							["start_time"] = 1658312320,
 							["serial"] = "Creature-0-4255-2175-186-160433-0000D7D663",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -11510,22 +11748,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 13.32672942958259,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 132.001255,
-							["last_event"] = 1658312329,
+							["damage_taken"] = 14.001255,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312330,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 14.001255,
+							["last_dps"] = 13.32672942958259,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 132.001255,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -11615,13 +11849,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 132.001255,
+							["last_event"] = 1658312329,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312324,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -11641,8 +11879,7 @@ _detalhes_database = {
 							["totalover"] = 36.002481,
 							["total_without_pet"] = 14.002481,
 							["total"] = 14.002481,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -11659,7 +11896,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 36,
 							},
-							["last_event"] = 1658312329,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11683,9 +11920,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 8,
 										["n_curado"] = 14,
 										["totaldenied"] = 0,
+										["n_amt"] = 8,
 										["absorbed"] = 0,
 									},
 								},
@@ -11695,11 +11932,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.002481,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312329,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312324,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -11715,8 +11953,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 10,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -11735,8 +11972,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -11744,10 +11980,12 @@ _detalhes_database = {
 								[100784] = 2,
 								[109132] = 1,
 							},
-							["buff_uptime"] = 10,
+							["pets"] = {
+							},
 							["last_event"] = 1658312330,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -11857,8 +12095,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Barrow Spiderling"] = 4,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 28,
 				["player_last_events"] = {
@@ -11868,7 +12105,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:18:40",
 				["start_time"] = 161372.138,
 				["contra"] = "Barrow Spiderling",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Barrow Spiderling"] = 4,
 				},
 			}, -- [21]
 			{
@@ -11888,17 +12126,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 2.006479,
+							["aID"] = "160433",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2.006479,
-							["end_time"] = 1658312316,
 							["monster"] = true,
-							["total"] = 2.006479,
-							["damage_taken"] = 66.006479,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312316,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Barrow Spiderling",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -11933,16 +12172,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "160433",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312314,
-							["on_hold"] = false,
+							["damage_taken"] = 66.006479,
 							["start_time"] = 1658312314,
 							["serial"] = "Creature-0-4255-2175-186-160433-000057D656",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -11956,22 +12194,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 40.49271779129536,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 66.00313,
-							["last_event"] = 1658312316,
+							["damage_taken"] = 2.00313,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312316,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 2.00313,
+							["last_dps"] = 40.49271779129536,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 66.00313,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -12061,13 +12295,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 66.00313,
+							["last_event"] = 1658312316,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312314,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -12087,8 +12325,7 @@ _detalhes_database = {
 							["totalover"] = 24.007702,
 							["total_without_pet"] = 2.007702,
 							["total"] = 2.007702,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -12105,7 +12342,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 24,
 							},
-							["last_event"] = 1658312316,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12129,9 +12366,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 2,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
@@ -12141,11 +12378,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.007702,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312316,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312314,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -12161,8 +12399,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 2,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -12181,18 +12418,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100780] = 1,
 								[100784] = 1,
 							},
-							["buff_uptime"] = 2,
+							["pets"] = {
+							},
 							["last_event"] = 1658312316,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -12302,8 +12540,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Barrow Spiderling"] = 2,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 27,
 				["player_last_events"] = {
@@ -12313,7 +12550,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:18:35",
 				["start_time"] = 161366.986,
 				["contra"] = "Barrow Spiderling",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Barrow Spiderling"] = 2,
 				},
 			}, -- [22]
 			{
@@ -12332,22 +12570,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 31.53353153140225,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 77.004884,
-							["last_event"] = 1658312307,
+							["damage_taken"] = 0.004884,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312308,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 0.004884,
+							["last_dps"] = 31.53353153140225,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 77.004884,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -12437,13 +12671,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 77.004884,
+							["last_event"] = 1658312307,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312306,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -12456,33 +12694,33 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 0.001927,
+							["aID"] = "160394",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001927,
-							["end_time"] = 1658312308,
 							["fight_component"] = true,
-							["total"] = 0.001927,
-							["damage_taken"] = 77.001927,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1658312308,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Barrow Spider",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "160394",
-							["custom"] = 0,
-							["last_event"] = 0,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 77.001927,
 							["start_time"] = 1658312308,
 							["serial"] = "Creature-0-4255-2175-186-160394-000057D664",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -12497,7 +12735,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MONK",
 							["totalover"] = 13.001814,
 							["total_without_pet"] = 0.001814,
 							["total"] = 0.001814,
@@ -12514,7 +12752,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.001814,
 							["healing_taken"] = 0.001814,
 							["end_time"] = 1658312308,
-							["last_event"] = 1658312307,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 								["Cakebender"] = 13,
 							},
@@ -12541,20 +12779,20 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "3686-09D5C6B8",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.001814,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MONK",
+							["last_event"] = 1658312307,
+							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312307,
 							["delay"] = 0,
 							["spec"] = 1450,
@@ -12578,15 +12816,15 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
-							["buff_uptime"] = 2,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[100784] = 1,
 							},
-							["last_event"] = 1658312308,
+							["buff_uptime"] = 2,
+							["pets"] = {
+							},
 							["aID"] = "3686-09D5C6B8",
-							["classe"] = "MONK",
+							["last_event"] = 1658312308,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[341260] = {
@@ -12604,7 +12842,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3686-09D5C6B8",
-							["tipo"] = 4,
+							["classe"] = "MONK",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -12712,8 +12950,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Barrow Spider"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 26,
 				["player_last_events"] = {
@@ -12723,7 +12960,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:18:26",
 				["start_time"] = 161358.354,
 				["contra"] = "Barrow Spider",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Barrow Spider"] = 1,
 				},
 			}, -- [23]
 			{
@@ -12743,22 +12981,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 24.89685099977804,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 66.001552,
-							["last_event"] = 1658312288,
+							["damage_taken"] = 1.001552,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312289,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 1.001552,
+							["last_dps"] = 24.89685099977804,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 66.001552,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -12848,13 +13082,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 66.001552,
+							["last_event"] = 1658312288,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312287,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -12868,17 +13106,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 1.004272,
+							["aID"] = "160433",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1.004272,
-							["end_time"] = 1658312289,
 							["monster"] = true,
-							["total"] = 1.004272,
-							["damage_taken"] = 66.004272,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312289,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Barrow Spiderling",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12914,16 +13153,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "160433",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312287,
-							["on_hold"] = false,
+							["damage_taken"] = 66.004272,
 							["start_time"] = 1658312286,
 							["serial"] = "Creature-0-4255-2175-186-160433-0000D7D5F6",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -12943,8 +13181,7 @@ _detalhes_database = {
 							["totalover"] = 26.005988,
 							["total_without_pet"] = 1.005988,
 							["total"] = 1.005988,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -12961,7 +13198,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 26,
 							},
-							["last_event"] = 1658312288,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -12985,9 +13222,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 1,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
@@ -12997,11 +13234,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.005988,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312288,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312287,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -13017,8 +13255,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 3,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -13037,18 +13274,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100780] = 1,
 								[100784] = 1,
 							},
-							["buff_uptime"] = 3,
+							["pets"] = {
+							},
 							["last_event"] = 1658312289,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -13158,9 +13396,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Barrow Spider"] = 1,
-					["Barrow Spiderling"] = 2,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 25,
 				["player_last_events"] = {
@@ -13170,7 +13406,9 @@ _detalhes_database = {
 				["data_inicio"] = "12:18:07",
 				["start_time"] = 161338.73,
 				["contra"] = "Barrow Spiderling",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Barrow Spider"] = 1,
+					["Barrow Spiderling"] = 2,
 				},
 			}, -- [24]
 			{
@@ -13191,23 +13429,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 17.80648744336503,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 173,
 							},
 							["total_without_pet"] = 173.007832,
-							["last_event"] = 1658312284,
+							["damage_taken"] = 62.007832,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658312186,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 62.007832,
+							["last_dps"] = 17.80648744336503,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 173.007832,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -13301,13 +13535,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 173.007832,
+							["last_event"] = 1658312284,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658312176,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -13322,17 +13560,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 29.001478,
+							["aID"] = "162817",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 29.001478,
-							["end_time"] = 1658312186,
 							["monster"] = true,
-							["total"] = 29.001478,
-							["damage_taken"] = 206.001478,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658312186,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Torgok",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13394,16 +13633,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "162817",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658312184,
-							["on_hold"] = false,
+							["damage_taken"] = 206.001478,
 							["start_time"] = 1658312178,
 							["serial"] = "Creature-0-4255-2175-186-162817-000057D549",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -13423,8 +13661,7 @@ _detalhes_database = {
 							["totalover"] = 0.002168,
 							["total_without_pet"] = 11.002168,
 							["total"] = 11.002168,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -13440,7 +13677,7 @@ _detalhes_database = {
 							["end_time"] = 1658312186,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658312185,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13463,9 +13700,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 11,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -13475,11 +13712,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.002168,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658312185,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658312185,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -13495,8 +13733,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["pets"] = {
-							},
+							["buff_uptime"] = 1,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -13515,34 +13752,35 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 3,
 								[100780] = 2,
 							},
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
 							["last_event"] = 1658312186,
-							["nome"] = "Cakebender",
-							["buff_uptime"] = 1,
+							["pets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Torgok",
 							["aID"] = "162817",
 							["spell_cast"] = {
 								[319294] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-162817-000057D549",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -13652,8 +13890,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Torgok"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 24,
 				["player_last_events"] = {
@@ -13740,7 +13977,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:16:17",
 				["start_time"] = 161228.614,
 				["contra"] = "Torgok",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Torgok"] = 1,
 				},
 			}, -- [25]
 			{
@@ -13763,23 +14001,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 8.89032323647679,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 102,
 							},
 							["total_without_pet"] = 108.008537,
-							["last_event"] = 1658311985,
+							["damage_taken"] = 22.008537,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311988,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 22.008537,
+							["last_dps"] = 8.89032323647679,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 108.008537,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -13870,13 +14104,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 108.008537,
+							["last_event"] = 1658311985,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311979,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -13891,17 +14129,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 9.004542,
+							["aID"] = "151091",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9.004542,
-							["end_time"] = 1658311988,
 							["monster"] = true,
-							["total"] = 9.004542,
-							["damage_taken"] = 135.004542,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658311988,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Geolord Grek'og",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -13936,16 +14175,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "151091",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658311982,
-							["on_hold"] = false,
+							["damage_taken"] = 135.004542,
 							["start_time"] = 1658311979,
 							["serial"] = "Creature-0-4255-2175-186-151091-000057D460",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -13960,17 +14198,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 8.008392,
+							["aID"] = "150237",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8.008392,
-							["end_time"] = 1658311988,
 							["monster"] = true,
-							["total"] = 8.008392,
-							["damage_taken"] = 107.008392,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658311988,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Quilboar Warrior",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -14033,16 +14272,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "150237",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658311985,
-							["on_hold"] = false,
+							["damage_taken"] = 107.008392,
 							["start_time"] = 1658311976,
 							["serial"] = "Creature-0-4255-2175-186-150237-000057D520",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -14069,17 +14307,17 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
-							["buff_uptime"] = 0,
-							["pets"] = {
-							},
 							["spell_cast"] = {
 								[100780] = 3,
 								[100784] = 2,
 								[109132] = 1,
 							},
-							["last_event"] = 1658311976,
+							["buff_uptime"] = 0,
+							["pets"] = {
+							},
 							["aID"] = "3686-09D5C6B8",
-							["classe"] = "MONK",
+							["last_event"] = 1658311976,
+							["tipo"] = 4,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[179245] = {
@@ -14098,21 +14336,21 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3686-09D5C6B8",
-							["tipo"] = 4,
+							["classe"] = "MONK",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Quilboar Warrior",
 							["aID"] = "150237",
 							["spell_cast"] = {
 								[317383] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-150237-000057D520",
 							["flag_original"] = 2632,
 						}, -- [2]
@@ -14221,10 +14459,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Geolord Grek'og"] = 1,
-					["Quilboar Geomancer"] = 1,
-					["Quilboar Warrior"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 23,
 				["player_last_events"] = {
@@ -14313,7 +14548,10 @@ _detalhes_database = {
 				["data_inicio"] = "12:12:56",
 				["start_time"] = 161028.392,
 				["contra"] = "Quilboar Warrior",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Geolord Grek'og"] = 1,
+					["Quilboar Geomancer"] = 1,
+					["Quilboar Warrior"] = 1,
 				},
 			}, -- [26]
 			{
@@ -14332,22 +14570,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 23.23173119444494,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 21.001485,
-							["last_event"] = 1658311967,
+							["damage_taken"] = 0.001485,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311968,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 0.001485,
+							["last_dps"] = 23.23173119444494,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 21.001485,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -14409,13 +14643,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 21.001485,
+							["last_event"] = 1658311967,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311967,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -14429,33 +14667,33 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 0.007489,
+							["aID"] = "150237",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007489,
-							["end_time"] = 1658311968,
 							["fight_component"] = true,
-							["total"] = 0.007489,
-							["damage_taken"] = 61.007489,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1658311968,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Quilboar Warrior",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "150237",
-							["custom"] = 0,
-							["last_event"] = 0,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 61.007489,
 							["start_time"] = 1658311968,
 							["serial"] = "Creature-0-4255-2175-186-150237-000057D518",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -14580,8 +14818,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Quilboar Warrior"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 22,
 				["player_last_events"] = {
@@ -14591,7 +14828,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:12:48",
 				["start_time"] = 161019.454,
 				["contra"] = "Quilboar Warrior",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Quilboar Warrior"] = 1,
 				},
 			}, -- [27]
 			{
@@ -14611,22 +14849,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 32.82298573462116,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 23.008913,
-							["last_event"] = 1658311962,
+							["damage_taken"] = 4.008913,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311963,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 4.008913,
+							["last_dps"] = 32.82298573462116,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 23.008913,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -14688,13 +14922,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 23.008913,
+							["last_event"] = 1658311962,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311962,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -14708,33 +14946,33 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 0.006611,
+							["aID"] = "150238",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006611,
-							["end_time"] = 1658311963,
 							["fight_component"] = true,
-							["total"] = 0.006611,
-							["damage_taken"] = 89.00661099999999,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1658311963,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Quilboar Geomancer",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "150238",
-							["custom"] = 0,
-							["last_event"] = 0,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 89.00661099999999,
 							["start_time"] = 1658311963,
 							["serial"] = "Creature-0-4255-2175-186-150238-000157D512",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -14749,7 +14987,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MONK",
 							["totalover"] = 10.007863,
 							["total_without_pet"] = 0.007863,
 							["total"] = 0.007863,
@@ -14766,7 +15004,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.007863,
 							["healing_taken"] = 0.007863,
 							["end_time"] = 1658311963,
-							["last_event"] = 1658311962,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 								["Cakebender"] = 10,
 							},
@@ -14793,20 +15031,20 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "3686-09D5C6B8",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.007863,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MONK",
+							["last_event"] = 1658311962,
+							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311962,
 							["delay"] = 0,
 							["spec"] = 1450,
@@ -14903,9 +15141,36 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "12:12:42",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Cakebender"] = 23.008913,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Cakebender"] = 0.007863,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
 				["end_time"] = 161015.114,
 				["combat_id"] = 16,
+				["data_inicio"] = "12:12:42",
+				["tempo_start"] = 1658311962,
+				["spells_cast_timeline"] = {
+				},
+				["contra"] = "Quilboar Geomancer",
+				["combat_counter"] = 21,
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Cakebender"] = {
 						{
@@ -14987,33 +15252,6 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["tempo_start"] = 1658311962,
-				["spells_cast_timeline"] = {
-				},
-				["contra"] = "Quilboar Geomancer",
-				["combat_counter"] = 21,
-				["CombatSkillCache"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Cakebender"] = 23.008913,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Cakebender"] = 0.007863,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
 				["start_time"] = 161014.413,
 				["TimeData"] = {
 				},
@@ -15038,22 +15276,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 10.09314634870397,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 102.001337,
-							["last_event"] = 1658311954,
+							["damage_taken"] = 32.001337,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311955,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 32.001337,
+							["last_dps"] = 10.09314634870397,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 102.001337,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -15143,13 +15377,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 102.001337,
+							["last_event"] = 1658311954,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311945,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -15164,17 +15402,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 32.006689,
+							["aID"] = "150237",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 32.006689,
-							["end_time"] = 1658311955,
 							["monster"] = true,
-							["total"] = 32.006689,
-							["damage_taken"] = 160.006689,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658311955,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Quilboar Warrior",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15236,16 +15475,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "150237",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658311952,
-							["on_hold"] = false,
+							["damage_taken"] = 160.006689,
 							["start_time"] = 1658311945,
 							["serial"] = "Creature-0-4255-2175-186-150237-000057D4EB",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -15265,8 +15503,7 @@ _detalhes_database = {
 							["totalover"] = 0.001374,
 							["total_without_pet"] = 20.001374,
 							["total"] = 20.001374,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -15282,7 +15519,7 @@ _detalhes_database = {
 							["end_time"] = 1658311955,
 							["targets_overheal"] = {
 							},
-							["last_event"] = 1658311954,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15305,9 +15542,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 20,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
@@ -15317,11 +15554,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.001374,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658311954,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311948,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -15340,32 +15578,32 @@ _detalhes_database = {
 							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
+							["pets"] = {
+							},
+							["fight_component"] = true,
 							["spell_cast"] = {
 								[100784] = 2,
 								[100780] = 2,
 							},
-							["fight_component"] = true,
-							["pets"] = {
-							},
+							["classe"] = "MONK",
 							["tipo"] = 4,
-							["aID"] = "3686-09D5C6B8",
 							["last_event"] = 0,
 							["serial"] = "Player-3686-09D5C6B8",
-							["classe"] = "MONK",
+							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Quilboar Warrior",
 							["aID"] = "150237",
 							["spell_cast"] = {
 								[317383] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-150237-000057D410",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -15475,9 +15713,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Quilboar Geomancer"] = 2,
-					["Quilboar Warrior"] = 3,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 20,
 				["player_last_events"] = {
@@ -15487,7 +15723,9 @@ _detalhes_database = {
 				["data_inicio"] = "12:12:25",
 				["start_time"] = 160997.353,
 				["contra"] = "Quilboar Warrior",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Quilboar Geomancer"] = 2,
+					["Quilboar Warrior"] = 3,
 				},
 			}, -- [29]
 			{
@@ -15507,23 +15745,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 17.52201509966861,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[4] = 123,
 							},
 							["total_without_pet"] = 123.004546,
-							["last_event"] = 1658311942,
+							["damage_taken"] = 7.004546,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311943,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 7.004546,
+							["last_dps"] = 17.52201509966861,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 123.004546,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -15613,13 +15847,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 123.004546,
+							["last_event"] = 1658311942,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311935,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -15633,17 +15871,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 7.003143,
+							["aID"] = "156676",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7.003143,
-							["end_time"] = 1658311943,
 							["monster"] = true,
-							["total"] = 7.003143,
-							["damage_taken"] = 123.003143,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658311943,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Ogre Overseer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15707,16 +15946,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "156676",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658311941,
-							["on_hold"] = false,
+							["damage_taken"] = 123.003143,
 							["start_time"] = 1658311937,
 							["serial"] = "Creature-0-4255-2175-186-156676-000057D451",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -15736,8 +15974,7 @@ _detalhes_database = {
 							["totalover"] = 4.005143,
 							["total_without_pet"] = 7.005143,
 							["total"] = 7.005143,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -15754,7 +15991,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 4,
 							},
-							["last_event"] = 1658311942,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -15778,9 +16015,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 7,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -15790,11 +16027,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.005143,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658311942,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311942,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -15810,8 +16048,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 0,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -15830,34 +16067,35 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 2,
 								[100780] = 2,
 							},
-							["buff_uptime"] = 0,
+							["pets"] = {
+							},
 							["last_event"] = 1658311935,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
 						{
 							["monster"] = true,
-							["last_event"] = 0,
+							["pets"] = {
+							},
 							["nome"] = "Ogre Overseer",
 							["aID"] = "156676",
 							["spell_cast"] = {
 								[276991] = 1,
 							},
 							["fight_component"] = true,
-							["tipo"] = 4,
 							["classe"] = "UNKNOW",
-							["pets"] = {
-							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Creature-0-4255-2175-186-156676-000057D451",
 							["flag_original"] = 68168,
 						}, -- [2]
@@ -15967,8 +16205,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Ogre Overseer"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 19,
 				["player_last_events"] = {
@@ -15978,7 +16215,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:12:15",
 				["start_time"] = 160987.275,
 				["contra"] = "Ogre Overseer",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Ogre Overseer"] = 1,
 				},
 			}, -- [30]
 			{
@@ -15998,18 +16236,6 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 18.94039227824222,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 104.001694,
-							["last_event"] = 1658311918,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["total"] = 104.001694,
-							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 4.001694,
-							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -16099,17 +16325,29 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 104.001694,
+							["damage_taken"] = 4.001694,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 104.001694,
+							["aID"] = "3686-09D5C6B8",
+							["last_dps"] = 18.94039227824222,
+							["nome"] = "Cakebender",
+							["spec"] = 1450,
 							["grupo"] = true,
 							["end_time"] = 1658311919,
+							["last_event"] = 1658311918,
 							["custom"] = 0,
-							["spec"] = 1450,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311913,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -16124,17 +16362,18 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["total"] = 4.003544,
+							["aID"] = "150237",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4.003544,
-							["end_time"] = 1658311919,
 							["monster"] = true,
-							["total"] = 4.003544,
-							["damage_taken"] = 167.003544,
-							["friendlyfire_total"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1658311919,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Quilboar Warrior",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16170,16 +16409,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["aID"] = "150237",
+							["friendlyfire_total"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1658311916,
-							["on_hold"] = false,
+							["damage_taken"] = 167.003544,
 							["start_time"] = 1658311913,
 							["serial"] = "Creature-0-4255-2175-186-150237-000057D408",
-							["fight_component"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -16199,8 +16437,7 @@ _detalhes_database = {
 							["totalover"] = 17.003402,
 							["total_without_pet"] = 4.003402,
 							["total"] = 4.003402,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -16217,7 +16454,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 17,
 							},
-							["last_event"] = 1658311918,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16241,9 +16478,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 4,
 										["n_curado"] = 4,
 										["totaldenied"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
@@ -16253,11 +16490,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.003402,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658311918,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311915,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -16273,8 +16511,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 6,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -16293,18 +16530,19 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 2,
 								[100780] = 1,
 							},
-							["buff_uptime"] = 6,
+							["pets"] = {
+							},
 							["last_event"] = 1658311919,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -16414,8 +16652,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Quilboar Warrior"] = 2,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 18,
 				["player_last_events"] = {
@@ -16425,7 +16662,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:11:54",
 				["start_time"] = 160965.627,
 				["contra"] = "Quilboar Warrior",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Quilboar Warrior"] = 2,
 				},
 			}, -- [31]
 			{
@@ -16444,22 +16682,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 142.3544232094291,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 38.008631,
-							["last_event"] = 1658311909,
+							["damage_taken"] = 0.008631,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311910,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 0.008631,
+							["last_dps"] = 142.3544232094291,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 38.008631,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -16521,13 +16755,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 38.008631,
+							["last_event"] = 1658311909,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311909,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -16540,33 +16778,33 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["last_dps"] = 0,
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["friendlyfire_total"] = 0,
+							["total"] = 0.004573,
+							["aID"] = "150238",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004573,
-							["end_time"] = 1658311910,
 							["fight_component"] = true,
-							["total"] = 0.004573,
-							["damage_taken"] = 38.004573,
-							["on_hold"] = false,
+							["monster"] = true,
+							["end_time"] = 1658311910,
+							["last_dps"] = 0,
+							["tipo"] = 1,
 							["nome"] = "Quilboar Geomancer",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["aID"] = "150238",
-							["custom"] = 0,
-							["last_event"] = 0,
 							["friendlyfire"] = {
 							},
+							["dps_started"] = false,
+							["on_hold"] = false,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["damage_taken"] = 38.004573,
 							["start_time"] = 1658311910,
 							["serial"] = "Creature-0-4255-2175-186-150238-000057D408",
-							["monster"] = true,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -16581,7 +16819,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "MONK",
 							["totalover"] = 12.005527,
 							["total_without_pet"] = 0.005527,
 							["total"] = 0.005527,
@@ -16598,7 +16836,7 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.005527,
 							["healing_taken"] = 0.005527,
 							["end_time"] = 1658311910,
-							["last_event"] = 1658311909,
+							["tipo"] = 2,
 							["targets_overheal"] = {
 								["Cakebender"] = 12,
 							},
@@ -16625,20 +16863,20 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 0,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["aID"] = "3686-09D5C6B8",
+							["heal_enemy_amt"] = 0,
 							["totaldenied"] = 0.005527,
 							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "MONK",
+							["last_event"] = 1658311909,
+							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311909,
 							["delay"] = 0,
 							["spec"] = 1450,
@@ -16793,8 +17031,7 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["TimeData"] = {
 				},
-				["frags"] = {
-					["Quilboar Geomancer"] = 1,
+				["spells_cast_timeline"] = {
 				},
 				["combat_counter"] = 17,
 				["player_last_events"] = {
@@ -16804,7 +17041,8 @@ _detalhes_database = {
 				["data_inicio"] = "12:11:50",
 				["start_time"] = 160961.588,
 				["contra"] = "Quilboar Geomancer",
-				["spells_cast_timeline"] = {
+				["frags"] = {
+					["Quilboar Geomancer"] = 1,
 				},
 			}, -- [32]
 			{
@@ -16824,23 +17062,19 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 10.36525477031755,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 264,
 							},
 							["total_without_pet"] = 264.003039,
-							["last_event"] = 1658311838,
+							["damage_taken"] = 5.003039,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311844,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 5.003039,
+							["last_dps"] = 10.36525477031755,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 264.003039,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -16930,13 +17164,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 264.003039,
+							["last_event"] = 1658311838,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311819,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -16949,17 +17187,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["aID"] = "164577",
 							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5.00228,
 							["delay"] = 0,
-							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 5.00228,
+							["fight_component"] = true,
 							["on_hold"] = false,
-							["damage_taken"] = 264.00228,
 							["nome"] = "Captain Garrick",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -16995,16 +17234,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["end_time"] = 1658311844,
 							["custom"] = 0,
 							["last_event"] = 1658311836,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 264.00228,
 							["start_time"] = 1658311821,
 							["serial"] = "Creature-0-4255-2175-186-164577-000057D47A",
-							["dps_started"] = false,
+							["aID"] = "164577",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -17024,8 +17262,7 @@ _detalhes_database = {
 							["totalover"] = 35.006584,
 							["total_without_pet"] = 2.006584,
 							["total"] = 2.006584,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -17042,7 +17279,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 35,
 							},
-							["last_event"] = 1658311826,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17066,9 +17303,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 1,
 										["n_curado"] = 2,
 										["totaldenied"] = 0,
+										["n_amt"] = 1,
 										["absorbed"] = 0,
 									},
 								},
@@ -17078,11 +17315,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.006584,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658311826,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311843,
 							["delay"] = 1658311826,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -17098,8 +17336,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 25,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -17118,8 +17355,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -17128,10 +17364,12 @@ _detalhes_database = {
 								[100784] = 4,
 								[109132] = 2,
 							},
-							["buff_uptime"] = 25,
+							["pets"] = {
+							},
 							["last_event"] = 1658311844,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -17285,22 +17523,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 29.84394031682238,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 49.00375,
-							["last_event"] = 1658311791,
+							["damage_taken"] = 0.00375,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311792,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 0.00375,
+							["last_dps"] = 29.84394031682238,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 49.00375,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -17390,13 +17624,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 49.00375,
+							["last_event"] = 1658311791,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311790,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -17408,16 +17646,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["total"] = 0.005371,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1658311792,
+							["friendlyfire_total"] = 0,
+							["aID"] = "161130",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005371,
 							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.005371,
 							["fight_component"] = true,
-							["end_time"] = 1658311792,
-							["friendlyfire_total"] = 0,
 							["damage_taken"] = 49.005371,
 							["nome"] = "Coastal Goat",
 							["spells"] = {
@@ -17425,7 +17663,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "161130",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -17434,7 +17672,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1658311792,
 							["serial"] = "Creature-0-4255-2175-186-161130-000157D461",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -17454,8 +17692,7 @@ _detalhes_database = {
 							["totalover"] = 6.006023,
 							["total_without_pet"] = 4.006023,
 							["total"] = 4.006023,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -17472,7 +17709,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 6,
 							},
-							["last_event"] = 1658311791,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17496,9 +17733,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 4,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -17508,11 +17745,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.006023,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658311791,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311791,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -17528,8 +17766,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 2,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -17548,17 +17785,18 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 1,
 							},
-							["buff_uptime"] = 2,
+							["pets"] = {
+							},
 							["last_event"] = 1658311792,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -17699,22 +17937,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 24.15040808268578,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 49.001178,
-							["last_event"] = 1658311781,
+							["damage_taken"] = 4.001178,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311781,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 4.001178,
+							["last_dps"] = 24.15040808268578,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 49.001178,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -17804,13 +18038,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 49.001178,
+							["last_event"] = 1658311781,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311779,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 68136,
@@ -17822,16 +18060,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["total"] = 0.006814,
-							["classe"] = "UNKNOW",
+							["end_time"] = 1658311781,
+							["friendlyfire_total"] = 0,
+							["aID"] = "161131",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006814,
 							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 0.006814,
 							["fight_component"] = true,
-							["end_time"] = 1658311781,
-							["friendlyfire_total"] = 0,
 							["damage_taken"] = 49.006814,
 							["nome"] = "Prickly Porcupine",
 							["spells"] = {
@@ -17839,7 +18077,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["aID"] = "161131",
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["on_hold"] = false,
 							["custom"] = 0,
@@ -17848,7 +18086,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1658311781,
 							["serial"] = "Creature-0-4255-2175-186-161131-000057D461",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -17868,8 +18106,7 @@ _detalhes_database = {
 							["totalover"] = 7.003529,
 							["total_without_pet"] = 3.003529,
 							["total"] = 3.003529,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -17886,7 +18123,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 7,
 							},
-							["last_event"] = 1658311781,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -17910,9 +18147,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 3,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -17922,11 +18159,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.003529,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658311781,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311781,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -17942,8 +18180,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 2,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -17962,17 +18199,18 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 1,
 							},
-							["buff_uptime"] = 2,
+							["pets"] = {
+							},
 							["last_event"] = 1658311781,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -18191,17 +18429,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["tipo"] = 1,
-							["aID"] = "161131",
 							["classe"] = "UNKNOW",
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7.001448,
 							["delay"] = 0,
-							["fight_component"] = true,
+							["dps_started"] = false,
 							["total"] = 7.001448,
+							["fight_component"] = true,
 							["on_hold"] = false,
-							["damage_taken"] = 51.001448,
 							["nome"] = "Prickly Porcupine",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18236,16 +18475,15 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["end_time"] = 1658311779,
 							["custom"] = 0,
 							["last_event"] = 1658311779,
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 51.001448,
 							["start_time"] = 1658311776,
 							["serial"] = "Creature-0-4255-2175-186-161131-000057D439",
-							["dps_started"] = false,
+							["aID"] = "161131",
 						}, -- [1]
 						{
 							["flag_original"] = 1297,
@@ -18259,22 +18497,18 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "MONK",
-							["last_dps"] = 31.27319742445073,
+							["spec"] = 1450,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 51.006585,
-							["last_event"] = 1658311777,
+							["damage_taken"] = 7.006585,
 							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1658311778,
 							["aID"] = "3686-09D5C6B8",
-							["damage_taken"] = 7.006585,
+							["last_dps"] = 31.27319742445073,
 							["nome"] = "Cakebender",
-							["spec"] = 1450,
-							["grupo"] = true,
-							["total"] = 51.006585,
-							["custom"] = 0,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -18364,13 +18598,17 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
+							["grupo"] = true,
+							["total"] = 51.006585,
+							["last_event"] = 1658311777,
+							["custom"] = 0,
 							["colocacao"] = 1,
 							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["on_hold"] = false,
 							["start_time"] = 1658311776,
 							["serial"] = "Player-3686-09D5C6B8",
-							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -18390,8 +18628,7 @@ _detalhes_database = {
 							["totalover"] = 5.004652,
 							["total_without_pet"] = 4.004652,
 							["total"] = 4.004652,
-							["targets_absorbs"] = {
-							},
+							["spec"] = 1450,
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
@@ -18408,7 +18645,7 @@ _detalhes_database = {
 							["targets_overheal"] = {
 								["Cakebender"] = 5,
 							},
-							["last_event"] = 1658311777,
+							["tipo"] = 2,
 							["nome"] = "Cakebender",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -18432,9 +18669,9 @@ _detalhes_database = {
 										},
 										["c_min"] = 0,
 										["c_curado"] = 0,
-										["n_amt"] = 2,
 										["n_curado"] = 4,
 										["totaldenied"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -18444,11 +18681,12 @@ _detalhes_database = {
 							["classe"] = "MONK",
 							["totaldenied"] = 0.004652,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1658311777,
 							["aID"] = "3686-09D5C6B8",
 							["start_time"] = 1658311777,
 							["delay"] = 0,
-							["spec"] = 1450,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -18464,8 +18702,7 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["pets"] = {
-							},
+							["buff_uptime"] = 2,
 							["classe"] = "MONK",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -18484,17 +18721,18 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Cakebender",
 							["spec"] = 1450,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[100784] = 1,
 							},
-							["buff_uptime"] = 2,
+							["pets"] = {
+							},
 							["last_event"] = 1658311778,
 							["tipo"] = 4,
-							["nome"] = "Cakebender",
+							["buff_uptime_targets"] = {
+							},
 							["serial"] = "Player-3686-09D5C6B8",
 							["aID"] = "3686-09D5C6B8",
 						}, -- [1]
@@ -18579,9 +18817,37 @@ _detalhes_database = {
 				},
 				["__call"] = {
 				},
-				["data_inicio"] = "12:09:36",
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Cakebender"] = 51.006585,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Cakebender"] = 4.004652,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
 				["end_time"] = 160830.797,
 				["combat_id"] = 8,
+				["frags"] = {
+					["Prickly Porcupine"] = 1,
+				},
+				["spells_cast_timeline"] = {
+				},
+				["tempo_start"] = 1658311776,
+				["combat_counter"] = 13,
+				["CombatSkillCache"] = {
+				},
 				["player_last_events"] = {
 					["Cakebender"] = {
 						{
@@ -18663,38 +18929,10 @@ _detalhes_database = {
 						["n"] = 2,
 					},
 				},
-				["spells_cast_timeline"] = {
-				},
-				["tempo_start"] = 1658311776,
-				["frags"] = {
-					["Prickly Porcupine"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["combat_counter"] = 13,
 				["start_time"] = 160828.286,
 				["TimeData"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Cakebender"] = 51.006585,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Cakebender"] = 4.004652,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["data_inicio"] = "12:09:36",
 			}, -- [36]
 		},
 	},
@@ -18850,28 +19088,17 @@ _detalhes_database = {
 			["arrow_anchor_x"] = 0,
 			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["use_spark"] = true,
+			["author"] = "Terciob",
+			["y"] = 4.57763671875e-05,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["author"] = "Terciob",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = 4.57763671875e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -18883,6 +19110,17 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = -6.103515625e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
@@ -18897,12 +19135,7 @@ _detalhes_database = {
 			["scale"] = 1,
 		},
 	},
-	["last_day"] = "20",
 	["last_instance_time"] = 1658313148,
-	["announce_damagerecord"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -18914,6 +19147,11 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
+	["announce_damagerecord"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_day"] = "23",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -18923,9 +19161,9 @@ _detalhes_database = {
 	["savedStyles"] = {
 	},
 	["character_data"] = {
-		["logons"] = 4,
+		["logons"] = 6,
 	},
-	["combat_counter"] = 54,
+	["combat_counter"] = 56,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -18953,26 +19191,26 @@ _detalhes_database = {
 						["Grunk"] = 0,
 						["Ravnyr"] = 877,
 						["Hrun the Exiled"] = 0,
-						["Coastal Goat"] = 0,
+						["Quilboar Warrior"] = 0,
 						["Captain Garrick"] = 0,
 						["Barrow Spiderling"] = 0,
 						["Barrow Spider"] = 0,
-						["Jugnug"] = 0,
+						["Coastal Goat"] = 0,
 						["Torgok"] = 0,
 						["Wug"] = 0,
-						["Quilboar Warrior"] = 0,
 						["Geolord Grek'og"] = 0,
-						["Tunk"] = 523,
-						["Harpy Boltcaller"] = 0,
+						["Bloodbeak"] = 0,
+						["Darkmaul Channeler"] = 343,
+						["Jugnug"] = 0,
 						["Ogre Overseer"] = 0,
 						["Kee-La"] = 0,
 						["Prickly Porcupine"] = 0,
 						["Ogre Taskmaster"] = 0,
 						["Killclaw the Terrible"] = 0,
-						["Bloodbeak"] = 0,
+						["Harpy Boltcaller"] = 0,
 						["Darkmaul Shadowcaller"] = 458,
 						["Gor'groth"] = 425,
-						["Darkmaul Channeler"] = 343,
+						["Tunk"] = 523,
 						["Darkmaul Centurion"] = 826,
 						["Hunting Worg"] = 0,
 						["Harpy Snatcher"] = 0,
@@ -18983,15 +19221,16 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["nome"] = "Cakebender",
-					["last_dps"] = 0,
-					["aID"] = "3686-09D5C6B8",
+					["on_hold"] = false,
+					["classe"] = "MONK",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3679.026915,
-					["on_hold"] = false,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
 					["end_time"] = 1658313186,
-					["damage_taken"] = 1870.026915,
+					["last_dps"] = 0,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -19008,26 +19247,26 @@ _detalhes_database = {
 									["Grunk"] = 0,
 									["Ravnyr"] = 171,
 									["Hrun the Exiled"] = 0,
-									["Coastal Goat"] = 0,
+									["Quilboar Warrior"] = 0,
 									["Captain Garrick"] = 0,
 									["Barrow Spiderling"] = 0,
 									["Barrow Spider"] = 0,
-									["Jugnug"] = 0,
+									["Coastal Goat"] = 0,
 									["Torgok"] = 0,
 									["Wug"] = 0,
-									["Quilboar Warrior"] = 0,
 									["Geolord Grek'og"] = 0,
-									["Tunk"] = 168,
-									["Harpy Boltcaller"] = 0,
+									["Bloodbeak"] = 0,
+									["Darkmaul Channeler"] = 66,
+									["Jugnug"] = 0,
 									["Ogre Overseer"] = 0,
 									["Kee-La"] = 0,
 									["Prickly Porcupine"] = 0,
 									["Ogre Taskmaster"] = 0,
 									["Killclaw the Terrible"] = 0,
-									["Bloodbeak"] = 0,
+									["Harpy Boltcaller"] = 0,
 									["Darkmaul Shadowcaller"] = 140,
 									["Gor'groth"] = 150,
-									["Darkmaul Channeler"] = 66,
+									["Tunk"] = 168,
 									["Darkmaul Centurion"] = 215,
 									["Hunting Worg"] = 0,
 									["Harpy Snatcher"] = 0,
@@ -19087,6 +19326,113 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
+							[100784] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 60,
+								["g_amt"] = 0,
+								["n_max"] = 38,
+								["targets"] = {
+									["Ogre Shadowcaster"] = 0,
+									["Ogre Brute"] = 0,
+									["Grunk"] = 0,
+									["Hrun the Exiled"] = 0,
+									["Barrow Spiderling"] = 0,
+									["Torgok"] = 0,
+									["Geolord Grek'og"] = 0,
+									["Wug"] = 0,
+									["Captain Garrick"] = 0,
+									["Ravnyr"] = 183,
+									["Tunk"] = 204,
+									["Jugnug"] = 0,
+									["Ogre Overseer"] = 0,
+									["Barrow Spider"] = 0,
+									["Prickly Porcupine"] = 0,
+									["Coastal Goat"] = 0,
+									["Killclaw the Terrible"] = 0,
+									["Darkmaul Channeler"] = 93,
+									["Darkmaul Shadowcaller"] = 119,
+									["Bloodbeak"] = 0,
+									["Gor'groth"] = 151,
+									["Darkmaul Centurion"] = 127,
+									["Ogre Taskmaster"] = 0,
+									["Harpy Snatcher"] = 0,
+									["Harpy Boltcaller"] = 0,
+									["Quilboar Warrior"] = 0,
+								},
+								["n_dmg"] = 817,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 29,
+								["total"] = 877,
+								["c_max"] = 60,
+								["id"] = 100784,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 28,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
+							[100780] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 77,
+								["g_amt"] = 0,
+								["n_max"] = 12,
+								["targets"] = {
+									["Ogre Shadowcaster"] = 0,
+									["Ogre Brute"] = 0,
+									["Grunk"] = 0,
+									["Hrun the Exiled"] = 0,
+									["Geolord Grek'og"] = 0,
+									["Quilboar Warrior"] = 0,
+									["Barrow Spiderling"] = 0,
+									["Captain Garrick"] = 0,
+									["Barrow Spider"] = 0,
+									["Torgok"] = 0,
+									["Wug"] = 0,
+									["Coastal Goat"] = 0,
+									["Ravnyr"] = 82,
+									["Darkmaul Channeler"] = 36,
+									["Harpy Boltcaller"] = 0,
+									["Ogre Overseer"] = 0,
+									["Kee-La"] = 0,
+									["Prickly Porcupine"] = 0,
+									["Bloodbeak"] = 0,
+									["Killclaw the Terrible"] = 0,
+									["Ogre Taskmaster"] = 0,
+									["Darkmaul Shadowcaller"] = 51,
+									["Gor'groth"] = 63,
+									["Tunk"] = 101,
+									["Darkmaul Centurion"] = 75,
+									["Hunting Worg"] = 0,
+									["Harpy Snatcher"] = 0,
+									["Quilboar Geomancer"] = 0,
+									["Decaying Corpse"] = 5,
+								},
+								["n_dmg"] = 336,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 41,
+								["total"] = 413,
+								["c_max"] = 20,
+								["id"] = 100780,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["b_dmg"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_amt"] = 0,
+								["n_amt"] = 37,
+								["a_dmg"] = 0,
+								["extra"] = {
+								},
+							},
 							[341296] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -19114,109 +19460,73 @@ _detalhes_database = {
 								["b_dmg"] = 0,
 								["r_amt"] = 0,
 							},
-							[100780] = {
-								["c_amt"] = 4,
+							[107270] = {
+								["c_amt"] = 13,
 								["b_amt"] = 0,
-								["c_dmg"] = 77,
+								["c_dmg"] = 90,
 								["g_amt"] = 0,
-								["n_max"] = 12,
+								["n_max"] = 4,
 								["targets"] = {
-									["Ogre Shadowcaster"] = 0,
-									["Ogre Brute"] = 0,
+									["Darkmaul Channeler"] = 141,
+									["Ravnyr"] = 86,
+									["Decaying Corpse"] = 217,
 									["Grunk"] = 0,
-									["Hrun the Exiled"] = 0,
-									["Barrow Spider"] = 0,
-									["Coastal Goat"] = 0,
-									["Barrow Spiderling"] = 0,
-									["Captain Garrick"] = 0,
-									["Geolord Grek'og"] = 0,
-									["Torgok"] = 0,
-									["Wug"] = 0,
-									["Bloodbeak"] = 0,
-									["Quilboar Warrior"] = 0,
-									["Tunk"] = 101,
-									["Harpy Boltcaller"] = 0,
-									["Ogre Overseer"] = 0,
-									["Kee-La"] = 0,
-									["Prickly Porcupine"] = 0,
-									["Ravnyr"] = 82,
 									["Killclaw the Terrible"] = 0,
-									["Ogre Taskmaster"] = 0,
-									["Darkmaul Shadowcaller"] = 51,
-									["Gor'groth"] = 63,
-									["Darkmaul Channeler"] = 36,
-									["Darkmaul Centurion"] = 75,
+									["Gor'groth"] = 53,
+									["Darkmaul Shadowcaller"] = 133,
+									["Bloodbeak"] = 0,
+									["Ogre Shadowcaster"] = 0,
+									["Darkmaul Centurion"] = 181,
 									["Hunting Worg"] = 0,
-									["Harpy Snatcher"] = 0,
-									["Quilboar Geomancer"] = 0,
-									["Decaying Corpse"] = 5,
+									["Wug"] = 0,
+									["Ogre Brute"] = 0,
+									["Tunk"] = 46,
 								},
-								["n_dmg"] = 336,
+								["n_dmg"] = 767,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 41,
-								["total"] = 413,
-								["c_max"] = 20,
-								["id"] = 100780,
+								["counter"] = 233,
+								["total"] = 857,
+								["c_max"] = 9,
+								["id"] = 107270,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
+								["PARRY"] = 2,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 37,
-								["a_dmg"] = 0,
+								["n_amt"] = 218,
 								["extra"] = {
 								},
+								["a_dmg"] = 0,
 							},
-							[100784] = {
-								["c_amt"] = 1,
+							[322109] = {
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 60,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 38,
+								["n_max"] = 346,
 								["targets"] = {
-									["Ogre Shadowcaster"] = 0,
-									["Ogre Brute"] = 0,
-									["Grunk"] = 0,
-									["Hrun the Exiled"] = 0,
-									["Barrow Spiderling"] = 0,
-									["Geolord Grek'og"] = 0,
-									["Torgok"] = 0,
-									["Wug"] = 0,
-									["Coastal Goat"] = 0,
-									["Captain Garrick"] = 0,
-									["Tunk"] = 204,
-									["Harpy Boltcaller"] = 0,
-									["Ogre Overseer"] = 0,
-									["Quilboar Warrior"] = 0,
-									["Prickly Porcupine"] = 0,
-									["Barrow Spider"] = 0,
-									["Killclaw the Terrible"] = 0,
-									["Darkmaul Channeler"] = 93,
-									["Darkmaul Shadowcaller"] = 119,
-									["Gor'groth"] = 151,
-									["Ravnyr"] = 183,
-									["Darkmaul Centurion"] = 127,
-									["Ogre Taskmaster"] = 0,
-									["Harpy Snatcher"] = 0,
+									["Kee-La"] = 0,
+									["Ravnyr"] = 346,
 									["Jugnug"] = 0,
-									["Bloodbeak"] = 0,
+									["Darkmaul Centurion"] = 219,
 								},
-								["n_dmg"] = 817,
+								["n_dmg"] = 565,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 29,
-								["total"] = 877,
-								["c_max"] = 60,
-								["id"] = 100784,
+								["counter"] = 2,
+								["total"] = 565,
+								["c_max"] = 0,
+								["id"] = 322109,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["b_dmg"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["a_amt"] = 0,
-								["n_amt"] = 28,
+								["n_amt"] = 2,
 								["a_dmg"] = 0,
 								["extra"] = {
 								},
@@ -19254,77 +19564,6 @@ _detalhes_database = {
 								["extra"] = {
 								},
 							},
-							[322109] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 346,
-								["targets"] = {
-									["Kee-La"] = 0,
-									["Ravnyr"] = 346,
-									["Jugnug"] = 0,
-									["Darkmaul Centurion"] = 219,
-								},
-								["n_dmg"] = 565,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 565,
-								["c_max"] = 0,
-								["id"] = 322109,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 2,
-								["a_dmg"] = 0,
-								["extra"] = {
-								},
-							},
-							[107270] = {
-								["c_amt"] = 13,
-								["b_amt"] = 0,
-								["c_dmg"] = 90,
-								["g_amt"] = 0,
-								["n_max"] = 4,
-								["targets"] = {
-									["Darkmaul Channeler"] = 141,
-									["Ravnyr"] = 86,
-									["Decaying Corpse"] = 217,
-									["Grunk"] = 0,
-									["Killclaw the Terrible"] = 0,
-									["Bloodbeak"] = 0,
-									["Darkmaul Shadowcaller"] = 133,
-									["Gor'groth"] = 53,
-									["Ogre Shadowcaster"] = 0,
-									["Darkmaul Centurion"] = 181,
-									["Hunting Worg"] = 0,
-									["Wug"] = 0,
-									["Ogre Brute"] = 0,
-									["Tunk"] = 46,
-								},
-								["n_dmg"] = 767,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 233,
-								["total"] = 857,
-								["c_max"] = 9,
-								["id"] = 107270,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["b_dmg"] = 0,
-								["PARRY"] = 2,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["a_amt"] = 0,
-								["n_amt"] = 218,
-								["extra"] = {
-								},
-								["a_dmg"] = 0,
-							},
 						},
 						["tipo"] = 2,
 					},
@@ -19333,11 +19572,10 @@ _detalhes_database = {
 					["total"] = 3679.026915,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 1870.026915,
 					["start_time"] = 1658312977,
 					["serial"] = "Player-3686-09D5C6B8",
-					["classe"] = "MONK",
+					["aID"] = "3686-09D5C6B8",
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -19354,16 +19592,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 627.013917,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "156821",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 881.013917,
 					["total"] = 881.013917,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1658313186,
-					["last_dps"] = 0,
+					["damage_taken"] = 627.013917,
 					["tipo"] = 1,
 					["nome"] = "Darkmaul Shadowcaller",
 					["spells"] = {
@@ -19427,16 +19665,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1658313153,
-					["serial"] = "Creature-0-3889-2236-2552-156821-000157D9B8",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1658313153,
+					["serial"] = "Creature-0-3889-2236-2552-156821-000157D9B8",
+					["dps_started"] = false,
 				}, -- [2]
 				{
 					["flag_original"] = 2584,
@@ -19460,18 +19698,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["aID"] = "161350",
+					["nome"] = "Captain Garrick",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 483.038265,
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1658313186,
-					["nome"] = "Captain Garrick",
-					["damage_taken"] = 2955.038265,
+					["on_hold"] = false,
+					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19611,10 +19849,10 @@ _detalhes_database = {
 					["total"] = 483.038265,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 2955.038265,
 					["start_time"] = 1658313006,
 					["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
-					["classe"] = "UNKNOW",
+					["aID"] = "161350",
 				}, -- [3]
 				{
 					["flag_original"] = 2584,
@@ -19632,18 +19870,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["aID"] = "161504",
+					["nome"] = "Henry Garrick",
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 370.030019,
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1658313186,
-					["nome"] = "Henry Garrick",
-					["damage_taken"] = 77.030019,
+					["on_hold"] = false,
+					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19786,10 +20024,10 @@ _detalhes_database = {
 					["total"] = 370.030019,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
+					["damage_taken"] = 77.030019,
 					["start_time"] = 1658313027,
 					["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
-					["classe"] = "UNKNOW",
+					["aID"] = "161504",
 				}, -- [4]
 				{
 					["flag_original"] = 2632,
@@ -19806,16 +20044,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 967.015137,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "156825",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 956.015137,
 					["total"] = 956.015137,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1658313186,
-					["last_dps"] = 0,
+					["damage_taken"] = 967.015137,
 					["tipo"] = 1,
 					["nome"] = "Darkmaul Centurion",
 					["spells"] = {
@@ -19908,16 +20146,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1658313138,
-					["serial"] = "Creature-0-3889-2236-2552-156825-0001D7D9B8",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1658313138,
+					["serial"] = "Creature-0-3889-2236-2552-156825-0001D7D9B8",
+					["dps_started"] = false,
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
@@ -19935,16 +20173,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 720.009805,
-					["aID"] = "157300",
+					["nome"] = "Tunk",
+					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1339.009805,
 					["total"] = 1339.009805,
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1658313296,
-					["last_dps"] = 0,
+					["damage_taken"] = 720.009805,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -20062,16 +20300,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Tunk",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1658313247,
-					["serial"] = "Creature-0-3889-2236-2552-157300-000057D9B8",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1658313247,
+					["serial"] = "Creature-0-3889-2236-2552-157300-000057D9B8",
+					["aID"] = "157300",
 				}, -- [6]
 				{
 					["flag_original"] = 2632,
@@ -20085,16 +20323,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 227.008394,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "166262",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 60.008394,
 					["total"] = 60.008394,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1658313346,
-					["last_dps"] = 0,
+					["damage_taken"] = 227.008394,
 					["tipo"] = 1,
 					["nome"] = "Decaying Corpse",
 					["spells"] = {
@@ -20130,16 +20368,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1658313314,
-					["serial"] = "Creature-0-3889-2236-2552-166262-0001D7D9B8",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1658313314,
+					["serial"] = "Creature-0-3889-2236-2552-166262-0001D7D9B8",
+					["dps_started"] = false,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
@@ -20156,16 +20394,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 413.002529,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "157328",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 240.002529,
 					["total"] = 240.002529,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1658313346,
-					["last_dps"] = 0,
+					["damage_taken"] = 413.002529,
 					["tipo"] = 1,
 					["nome"] = "Darkmaul Channeler",
 					["spells"] = {
@@ -20229,16 +20467,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1658313313,
-					["serial"] = "Creature-0-3889-2236-2552-157328-0000D7D9B8",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1658313313,
+					["serial"] = "Creature-0-3889-2236-2552-157328-0000D7D9B8",
+					["dps_started"] = false,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
@@ -20255,16 +20493,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 551.007266,
-					["aID"] = "156814",
+					["nome"] = "Gor'groth",
+					["monster"] = true,
+					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 751.007266,
 					["total"] = 751.007266,
-					["monster"] = true,
+					["dps_started"] = false,
 					["end_time"] = 1658313395,
-					["last_dps"] = 0,
+					["damage_taken"] = 551.007266,
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -20379,16 +20617,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Gor'groth",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["classe"] = "UNKNOW",
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1658313368,
-					["serial"] = "Creature-0-3889-2236-2552-156814-000057D9B8",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1658313368,
+					["serial"] = "Creature-0-3889-2236-2552-156814-000057D9B8",
+					["aID"] = "156814",
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -20404,16 +20642,16 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["damage_taken"] = 1027.011609,
+					["classe"] = "UNKNOW",
+					["monster"] = true,
 					["aID"] = "156501",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 675.011609,
 					["total"] = 675.011609,
-					["monster"] = true,
+					["fight_component"] = true,
 					["end_time"] = 1658313430,
-					["last_dps"] = 0,
+					["damage_taken"] = 1027.011609,
 					["tipo"] = 1,
 					["nome"] = "Ravnyr",
 					["spells"] = {
@@ -20500,16 +20738,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["last_dps"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1658313397,
-					["serial"] = "Creature-0-3889-2236-2552-156501-000057D9B8",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1658313397,
+					["serial"] = "Creature-0-3889-2236-2552-156501-000057D9B8",
+					["dps_started"] = false,
 				}, -- [10]
 				{
 					["flag_original"] = 68168,
@@ -20519,22 +20757,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-153239-000057D96B",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "153239",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004855,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.004855,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Ogre Brute",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -20591,18 +20829,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-153239-000057D96B",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.004855,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.004855,
+					["monster"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 68168,
@@ -20612,22 +20850,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-153242-000057D96D",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "153242",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.002949,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.002949,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Ogre Shadowcaster",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -20684,18 +20922,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-153242-000057D96D",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.002949,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.002949,
+					["monster"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 68168,
@@ -20705,22 +20943,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-153581-000057D828",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "153581",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00821,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.00821,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Grunk",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -20803,18 +21041,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-153581-000057D828",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.00821,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.00821,
+					["monster"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = 68168,
@@ -20823,22 +21061,22 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
+					["serial"] = "Creature-0-4255-2175-186-153583-000057D818",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "153583",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005488,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.005488,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Jugnug",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -20894,18 +21132,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-153583-000057D818",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.005488,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.005488,
+					["monster"] = true,
 				}, -- [14]
 				{
 					["flag_original"] = 68168,
@@ -20915,22 +21153,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-153582-000057D802",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "153582",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007278,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.007278,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Wug",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -20986,18 +21224,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-153582-000057D802",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.007278,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.007278,
+					["monster"] = true,
 				}, -- [15]
 				{
 					["flag_original"] = 68168,
@@ -21007,22 +21245,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Schultebrau"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-153266-000057D741",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "153266",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006665,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.006665,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Killclaw the Terrible",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21106,23 +21344,22 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-153266-000057D741",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.006665,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.006665,
+					["monster"] = true,
 				}, -- [16]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.004871,
-					["aID"] = "164868",
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -21130,19 +21367,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["damage_taken"] = 0.004871,
+					["aID"] = "164868",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004871,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Creature-0-4255-2175-186-164868-000057D84A",
+					["fight_component"] = true,
 					["end_time"] = 1658313464,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Kee-La",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21172,17 +21409,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 0.004871,
-					["serial"] = "Creature-0-4255-2175-186-164868-000057D84A",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.004871,
+					["last_dps"] = 0,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [17]
 				{
 					["flag_original"] = 68168,
@@ -21193,22 +21431,22 @@ _detalhes_database = {
 						["Instaw-TarrenMill"] = 0,
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-152843-000057D60E",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "152843",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008449,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.008449,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Harpy Boltcaller",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21266,18 +21504,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-152843-000057D60E",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.008449,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.008449,
+					["monster"] = true,
 				}, -- [18]
 				{
 					["flag_original"] = 68168,
@@ -21288,22 +21526,22 @@ _detalhes_database = {
 						["Instaw-TarrenMill"] = 0,
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-152998-0000D7D694",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "152998",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00266,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.00266,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Hunting Worg",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21334,18 +21572,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-152998-0000D7D694",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.00266,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.00266,
+					["monster"] = true,
 				}, -- [19]
 				{
 					["flag_original"] = 68168,
@@ -21358,22 +21596,22 @@ _detalhes_database = {
 						["Henry Garrick"] = 0,
 						["Kee-La"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-153964-000057D74E",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "153964",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005051,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.005051,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Bloodbeak",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21432,18 +21670,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-153964-000057D74E",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.005051,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.005051,
+					["monster"] = true,
 				}, -- [20]
 				{
 					["flag_original"] = 68168,
@@ -21453,22 +21691,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-156986-000057D6E8",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "156986",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008959,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.008959,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Ogre Taskmaster",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21498,18 +21736,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-156986-000057D6E8",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.008959,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.008959,
+					["monster"] = true,
 				}, -- [21]
 				{
 					["flag_original"] = 68168,
@@ -21519,22 +21757,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-152571-000057D6DD",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "152571",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00542,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.00542,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Harpy Snatcher",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21564,18 +21802,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-152571-000057D6DD",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.00542,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.00542,
+					["monster"] = true,
 				}, -- [22]
 				{
 					["flag_original"] = 68168,
@@ -21585,22 +21823,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-156900-000057D554",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "156900",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006038,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.006038,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Hrun the Exiled",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21683,18 +21921,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-156900-000057D554",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.006038,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.006038,
+					["monster"] = true,
 				}, -- [23]
 				{
 					["flag_original"] = 68168,
@@ -21704,22 +21942,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-160433-0000D7D663",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "160433",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001251,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.001251,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Barrow Spiderling",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21776,18 +22014,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-160433-0000D7D663",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.001251,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.001251,
+					["monster"] = true,
 				}, -- [24]
 				{
 					["flag_original"] = 68168,
@@ -21796,36 +22034,36 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
+					["serial"] = "Creature-0-4255-2175-186-160394-000057D664",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "160394",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00511,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.00511,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Barrow Spider",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-160394-000057D664",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.00511,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.00511,
+					["monster"] = true,
 				}, -- [25]
 				{
 					["flag_original"] = 68168,
@@ -21835,22 +22073,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-162817-000057D549",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "162817",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.002678,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.002678,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Torgok",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21907,18 +22145,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-162817-000057D549",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.002678,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.002678,
+					["monster"] = true,
 				}, -- [26]
 				{
 					["flag_original"] = 68168,
@@ -21928,22 +22166,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-151091-000057D460",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "151091",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007119,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.007119,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Geolord Grek'og",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -21973,18 +22211,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-151091-000057D460",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.007119,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.007119,
+					["monster"] = true,
 				}, -- [27]
 				{
 					["flag_original"] = 2632,
@@ -21994,22 +22232,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-150237-000057D520",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "150237",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00855,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.00855,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Quilboar Warrior",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -22066,18 +22304,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-150237-000057D520",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.00855,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.00855,
+					["monster"] = true,
 				}, -- [28]
 				{
 					["flag_original"] = 68168,
@@ -22086,36 +22324,36 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
+					["serial"] = "Creature-0-4255-2175-186-150238-000157D512",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "150238",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008839,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.008839,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Quilboar Geomancer",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-150238-000157D512",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.008839,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.008839,
+					["monster"] = true,
 				}, -- [29]
 				{
 					["flag_original"] = 68168,
@@ -22125,22 +22363,22 @@ _detalhes_database = {
 					["targets"] = {
 						["Cakebender"] = 0,
 					},
+					["serial"] = "Creature-0-4255-2175-186-156676-000057D451",
 					["pets"] = {
 					},
-					["monster"] = true,
+					["friendlyfire_total"] = 0,
+					["fight_component"] = true,
 					["aID"] = "156676",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003827,
 					["end_time"] = 1658313464,
-					["fight_component"] = true,
 					["dps_started"] = false,
 					["total"] = 0.003827,
-					["classe"] = "UNKNOW",
+					["on_hold"] = false,
 					["last_event"] = 0,
 					["nome"] = "Ogre Overseer",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -22197,60 +22435,59 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["serial"] = "Creature-0-4255-2175-186-156676-000057D451",
+					["classe"] = "UNKNOW",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.003827,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["damage_taken"] = 0.003827,
+					["monster"] = true,
 				}, -- [30]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.005303,
-					["aID"] = "161130",
 					["damage_from"] = {
 					},
 					["targets"] = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["damage_taken"] = 0.005303,
+					["aID"] = "161130",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005303,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Creature-0-4255-2175-186-161130-000157D461",
+					["fight_component"] = true,
 					["end_time"] = 1658313464,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Coastal Goat",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 0.005303,
-					["serial"] = "Creature-0-4255-2175-186-161130-000157D461",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.005303,
+					["last_dps"] = 0,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [31]
 				{
 					["flag_original"] = 68136,
 					["totalabsorbed"] = 0.003587,
-					["aID"] = "161131",
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -22258,19 +22495,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["fight_component"] = true,
 					["classe"] = "UNKNOW",
+					["damage_taken"] = 0.003587,
+					["aID"] = "161131",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003587,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["serial"] = "Creature-0-4255-2175-186-161131-000057D461",
+					["fight_component"] = true,
 					["end_time"] = 1658313464,
-					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["nome"] = "Prickly Porcupine",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -22300,17 +22537,18 @@ _detalhes_database = {
 								["r_amt"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
 					["total"] = 0.003587,
-					["serial"] = "Creature-0-4255-2175-186-161131-000057D461",
+					["dps_started"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.003587,
+					["last_dps"] = 0,
 					["start_time"] = 1658313461,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 				}, -- [32]
 			},
 		}, -- [1]
@@ -22324,7 +22562,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["aID"] = "161504",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 4.038370000000001,
 					["total_without_pet"] = 3750.03837,
 					["total"] = 3750.03837,
@@ -22346,9 +22584,7 @@ _detalhes_database = {
 					["healing_taken"] = 0.03836999999999999,
 					["fight_component"] = true,
 					["end_time"] = 1658313186,
-					["targets_overheal"] = {
-						["Cakebender"] = 4,
-					},
+					["boss_fight_component"] = true,
 					["nome"] = "Henry Garrick",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22373,9 +22609,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 38,
 								["n_curado"] = 3629,
 								["totaldenied"] = 0,
+								["n_amt"] = 38,
 								["absorbed"] = 0,
 							},
 							[318158] = {
@@ -22400,23 +22636,25 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 5,
 								["n_curado"] = 121,
 								["totaldenied"] = 0,
+								["n_amt"] = 5,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["totaldenied"] = 0.03836999999999999,
-					["custom"] = 0,
+					["targets_overheal"] = {
+						["Cakebender"] = 4,
+					},
 					["tipo"] = 2,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "UNKNOW",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["totaldenied"] = 0.03836999999999999,
 					["start_time"] = 1658313034,
 					["delay"] = 0,
-					["boss_fight_component"] = true,
+					["aID"] = "161504",
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
@@ -22449,7 +22687,7 @@ _detalhes_database = {
 						["Henry Garrick"] = true,
 						["Cakebender"] = true,
 					},
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["nome"] = "Cakebender",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22473,9 +22711,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 1,
 								["n_curado"] = 51,
 								["totaldenied"] = 0,
+								["n_amt"] = 1,
 								["absorbed"] = 0,
 							},
 							[59913] = {
@@ -22498,9 +22736,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 0,
-								["n_amt"] = 42,
 								["n_curado"] = 242,
 								["totaldenied"] = 0,
+								["n_amt"] = 42,
 								["absorbed"] = 0,
 							},
 							[322101] = {
@@ -22523,9 +22761,9 @@ _detalhes_database = {
 								},
 								["c_min"] = 0,
 								["c_curado"] = 86,
-								["n_amt"] = 6,
 								["n_curado"] = 260,
 								["totaldenied"] = 0,
+								["n_amt"] = 6,
 								["absorbed"] = 0,
 							},
 						},
@@ -22535,7 +22773,7 @@ _detalhes_database = {
 					["heal_enemy_amt"] = 0,
 					["totaldenied"] = 0.036251,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["classe"] = "MONK",
 					["start_time"] = 1658313132,
 					["delay"] = 0,
@@ -22553,36 +22791,36 @@ _detalhes_database = {
 					["classe"] = "UNKNOW",
 					["pets"] = {
 					},
-					["iniciar_hps"] = false,
+					["totalover_without_pet"] = 0.038466,
 					["targets_overheal"] = {
 					},
 					["aID"] = "161350",
 					["totalover"] = 0.038466,
 					["total_without_pet"] = 0.038466,
-					["totalover_without_pet"] = 0.038466,
+					["iniciar_hps"] = false,
 					["totaldenied"] = 0.038466,
 					["heal_enemy_amt"] = 0,
 					["end_time"] = 1658313186,
-					["nome"] = "Captain Garrick",
 					["healing_taken"] = 2672.038466,
-					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["nome"] = "Captain Garrick",
 					["targets_absorbs"] = {
 					},
 					["total"] = 0.038466,
-					["last_event"] = 0,
+					["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
 					["heal_enemy"] = {
 					},
+					["boss_fight_component"] = true,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["on_hold"] = false,
+					["start_time"] = 1658313183,
+					["delay"] = 0,
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 3,
 					},
-					["custom"] = 0,
-					["tipo"] = 2,
-					["on_hold"] = false,
-					["start_time"] = 1658313183,
-					["serial"] = "Creature-0-3889-2236-2552-161350-000057D9B8",
-					["delay"] = 0,
 				}, -- [3]
 			},
 		}, -- [2]
@@ -22690,14 +22928,14 @@ _detalhes_database = {
 						[116670] = 1,
 						[115546] = 3,
 						[109132] = 1,
-						[101546] = 31,
 						[119381] = 2,
+						[101546] = 31,
 						[100780] = 37,
 						[322101] = 8,
 						[117952] = 1,
 					},
 					["cc_done"] = 6.020046,
-					["boss_fight_component"] = true,
+					["nome"] = "Cakebender",
 					["grupo"] = true,
 					["cc_done_targets"] = {
 						["Darkmaul Channeler"] = 1,
@@ -22707,12 +22945,12 @@ _detalhes_database = {
 					["buff_uptime"] = 92,
 					["buff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
 					["tipo"] = 4,
+					["last_event"] = 0,
 					["debuff_uptime_targets"] = {
 					},
 					["serial"] = "Player-3686-09D5C6B8",
-					["nome"] = "Cakebender",
+					["boss_fight_component"] = true,
 				}, -- [1]
 				{
 					["flag_original"] = 2584,
@@ -22736,7 +22974,8 @@ _detalhes_database = {
 				}, -- [2]
 				{
 					["flag_original"] = 2584,
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["spell_cast"] = {
@@ -22747,44 +22986,43 @@ _detalhes_database = {
 						[318158] = 6,
 					},
 					["nome"] = "Henry Garrick",
-					["aID"] = "161504",
 					["last_event"] = 0,
-					["pets"] = {
-					},
+					["aID"] = "161504",
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
 					["fight_component"] = true,
 				}, -- [3]
 				{
 					["monster"] = true,
-					["flag_original"] = 2632,
+					["aID"] = "156821",
 					["nome"] = "Darkmaul Shadowcaller",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[305913] = 5,
+					["flag_original"] = 2632,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "156821",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3889-2236-2552-156821-000157D9B8",
-					["pets"] = {
+					["spell_cast"] = {
+						[305913] = 5,
 					},
 				}, -- [4]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "156825",
 					["nome"] = "Darkmaul Centurion",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3889-2236-2552-156825-000057D9B8",
 					["spell_cast"] = {
 						[306389] = 7,
 						[306399] = 3,
-					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "156825",
-					["serial"] = "Creature-0-3889-2236-2552-156825-000057D9B8",
-					["pets"] = {
 					},
 				}, -- [5]
 				{
@@ -22811,7 +23049,7 @@ _detalhes_database = {
 						[314655] = 2,
 					},
 					["monster"] = true,
-					["boss_fight_component"] = true,
+					["interrupt"] = 2.008322,
 					["interrupt_targets"] = {
 						["Henry Garrick"] = 2,
 					},
@@ -22819,12 +23057,12 @@ _detalhes_database = {
 						[308455] = 2,
 						[321240] = 2,
 					},
+					["classe"] = "UNKNOW",
 					["last_event"] = 0,
 					["tipo"] = 4,
-					["interrupt"] = 2.008322,
 					["nome"] = "Tunk",
 					["serial"] = "Creature-0-3889-2236-2552-157300-000057D9B8",
-					["classe"] = "UNKNOW",
+					["boss_fight_component"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 2584,
@@ -22835,15 +23073,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["aID"] = "161504",
+					["classe"] = "UNKNOW",
 					["boss_debuff"] = true,
 					["debuff_uptime"] = 8,
 					["spellschool"] = 2,
 					["nome"] = "Weakened Soul",
 					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3889-2236-2552-161504-000057D9B8",
+					["last_event"] = 0,
 					["damage_twin"] = "Henry Garrick",
 					["debuff_uptime_targets"] = {
 						["Cakebender"] = {
@@ -22855,220 +23093,220 @@ _detalhes_database = {
 						},
 					},
 					["damage_spellid"] = 6788,
-					["classe"] = "UNKNOW",
+					["aID"] = "161504",
 				}, -- [7]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "157328",
 					["nome"] = "Darkmaul Channeler",
-					["tipo"] = 4,
-					["spell_cast"] = {
-						[321330] = 3,
+					["flag_original"] = 68168,
+					["pets"] = {
 					},
 					["fight_component"] = true,
-					["last_event"] = 0,
 					["classe"] = "UNKNOW",
-					["aID"] = "157328",
+					["last_event"] = 0,
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3889-2236-2552-157328-0000D7D9B8",
-					["pets"] = {
+					["spell_cast"] = {
+						[321330] = 3,
 					},
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
-					["tipo"] = 4,
+					["spell_cast"] = {
+						[305913] = 2,
+						[308527] = 1,
+					},
 					["boss_fight_component"] = true,
 					["last_event"] = 0,
 					["pets"] = {
 					},
 					["nome"] = "Gor'groth",
-					["aID"] = "156814",
 					["classe"] = "UNKNOW",
-					["spell_cast"] = {
-						[305913] = 2,
-						[308527] = 1,
-					},
+					["aID"] = "156814",
+					["tipo"] = 4,
 					["serial"] = "Creature-0-3889-2236-2552-156814-000057D9B8",
 					["monster"] = true,
 				}, -- [9]
 				{
 					["monster"] = true,
-					["flag_original"] = 68168,
+					["aID"] = "156501",
 					["nome"] = "Ravnyr",
+					["flag_original"] = 68168,
+					["pets"] = {
+					},
+					["fight_component"] = true,
+					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3889-2236-2552-156501-000057D9B8",
 					["spell_cast"] = {
 						[305515] = 2,
 						[305567] = 1,
 					},
-					["fight_component"] = true,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
-					["aID"] = "156501",
-					["serial"] = "Creature-0-3889-2236-2552-156501-000057D9B8",
-					["pets"] = {
-					},
 				}, -- [10]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Grunk",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[305913] = 0,
 						[317547] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "153581",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-153581-000057D828",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-153581-000057D828",
+					["flag_original"] = 68168,
 				}, -- [11]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Ogre Brute",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[316890] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "153239",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-153239-0000D7D921",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-153239-0000D7D921",
+					["flag_original"] = 2632,
 				}, -- [12]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Ogre Shadowcaster",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[305913] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "153242",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-153242-000057D921",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-153242-000057D921",
+					["flag_original"] = 68168,
 				}, -- [13]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Jugnug",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[319334] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "153583",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-153583-000057D818",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-153583-000057D818",
+					["flag_original"] = 68168,
 				}, -- [14]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Wug",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[321820] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "153582",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-153582-000057D802",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-153582-000057D802",
+					["flag_original"] = 68168,
 				}, -- [15]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Killclaw the Terrible",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[196122] = 0,
 						[199167] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "153266",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-153266-000057D741",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-153266-000057D741",
+					["flag_original"] = 68168,
 				}, -- [16]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Hrun the Exiled",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[319294] = 0,
 						[319310] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "156900",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-156900-000057D554",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-156900-000057D554",
+					["flag_original"] = 68168,
 				}, -- [17]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Torgok",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[319294] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "162817",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-162817-000057D549",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-162817-000057D549",
+					["flag_original"] = 68168,
 				}, -- [18]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Quilboar Warrior",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[317383] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 2632,
 					["aID"] = "150237",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-150237-000057D520",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-150237-000057D520",
+					["flag_original"] = 2632,
 				}, -- [19]
 				{
 					["monster"] = true,
-					["classe"] = "UNKNOW",
+					["last_event"] = 0,
 					["nome"] = "Ogre Overseer",
+					["pets"] = {
+					},
 					["spell_cast"] = {
 						[276991] = 0,
 					},
-					["pets"] = {
-					},
 					["fight_component"] = true,
-					["flag_original"] = 68168,
 					["aID"] = "156676",
-					["last_event"] = 0,
-					["serial"] = "Creature-0-4255-2175-186-156676-000057D451",
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
+					["serial"] = "Creature-0-4255-2175-186-156676-000057D451",
+					["flag_original"] = 68168,
 				}, -- [20]
 			},
 		}, -- [4]
@@ -23080,82 +23318,6 @@ _detalhes_database = {
 		["raid_roster"] = {
 		},
 		["raid_roster_indexed"] = {
-		},
-		["cleu_timeline"] = {
-		},
-		["tempo_start"] = 1658313148,
-		["last_events_tables"] = {
-		},
-		["alternate_power"] = {
-		},
-		["combat_counter"] = 47,
-		["totals"] = {
-			9434.110693999997, -- [1]
-			4389.094746, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 2.008322,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
-		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
-		["aura_timeline"] = {
-		},
-		["__call"] = {
-		},
-		["data_inicio"] = "12:32:34",
-		["end_time"] = 162482.427,
-		["totals_grupo"] = {
-			3679.019128999999, -- [1]
-			639.0277840000001, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-		},
-		["overall_refreshed"] = true,
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
 		},
 		["segments_added"] = {
 			{
@@ -23194,6 +23356,82 @@ _detalhes_database = {
 				["name"] = "Trash Cleanup",
 				["clock"] = "12:32:34",
 			}, -- [6]
+		},
+		["tempo_start"] = 1658313148,
+		["cleu_timeline"] = {
+		},
+		["alternate_power"] = {
+		},
+		["combat_counter"] = 47,
+		["totals"] = {
+			9434.110693999997, -- [1]
+			4389.094746, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 2.008322,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["aura_timeline"] = {
+		},
+		["__call"] = {
+		},
+		["data_inicio"] = "12:32:34",
+		["end_time"] = 162482.427,
+		["last_events_tables"] = {
+		},
+		["totals_grupo"] = {
+			3679.019128999999, -- [1]
+			639.0277840000001, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
 		},
 		["hasSaved"] = true,
 		["spells_cast_timeline"] = {
@@ -23267,5 +23505,6 @@ _detalhes_database = {
 	},
 	["cached_specs"] = {
 		["Player-3686-09D5C6B8"] = 269,
+		["Player-3686-09D6ECB7"] = 257,
 	},
 }

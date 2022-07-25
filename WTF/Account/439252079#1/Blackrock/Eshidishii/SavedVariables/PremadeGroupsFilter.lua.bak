@@ -214,9 +214,9 @@ PremadeGroupsFilterState = {
 	["t1c2f0"] = {
 		["enabled"] = true,
 		["tanks"] = {
-			["max"] = "0",
+			["max"] = "",
 			["min"] = "",
-			["act"] = true,
+			["act"] = false,
 		},
 		["ilvl"] = {
 			["max"] = "",
@@ -224,7 +224,7 @@ PremadeGroupsFilterState = {
 			["act"] = false,
 		},
 		["dps"] = {
-			["max"] = "2",
+			["max"] = "1",
 			["min"] = "",
 			["act"] = true,
 		},
@@ -247,9 +247,9 @@ PremadeGroupsFilterState = {
 			["act"] = false,
 		},
 		["heals"] = {
-			["max"] = "",
-			["min"] = "",
-			["act"] = false,
+			["max"] = "0",
+			["min"] = "0",
+			["act"] = true,
 		},
 		["sorting"] = "",
 	},

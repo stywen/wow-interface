@@ -24,22 +24,23 @@ FocusInterruptSoundsDB = {
 		["Testyu - Blackrock"] = "PALADIN",
 		["Byd - Mal'Ganis"] = "ROGUE",
 		["Byd - Blackrock"] = "SHAMAN",
-		["Byd - Aegwynn"] = "DRUID",
+		["Orthodoxtank - Antonidas"] = "PALADIN",
+		["Nakrates - Antonidas"] = "ROGUE",
 		["Eshidishi - Draenor"] = "WARRIOR",
 		["Slavicpriest - Antonidas"] = "PALADIN",
 		["Extinguish - Blackrock"] = "MAGE",
 		["Nofriendz - Blackrock"] = "WARRIOR",
-		["Magyc - Mal'Ganis"] = "MAGE",
-		["Byd - Kazzak"] = "WARRIOR",
 		["Cakebender - Antonidas"] = "MONK",
-		["Eurotas - Blackrock"] = "WARRIOR",
-		["Starplatïnum - Blackrock"] = "MONK",
+		["Byd - Kazzak"] = "WARRIOR",
+		["Magyc - Mal'Ganis"] = "MAGE",
 		["Eshidishii - Blackrock"] = "WARRIOR",
+		["Starplatïnum - Blackrock"] = "MONK",
+		["Eurotas - Blackrock"] = "WARRIOR",
 		["Kyng - Antonidas"] = "SHAMAN",
 		["Odînaf - Blackrock"] = "DEMONHUNTER",
 		["Blyyd - Blackrock"] = "DEATHKNIGHT",
-		["Orthodoxtank - Antonidas"] = "PALADIN",
-		["Nakrates - Antonidas"] = "ROGUE",
+		["Bonebender - Antonidas"] = "MONK",
+		["Byd - Aegwynn"] = "DRUID",
 		["Tizeran - Blackrock"] = "PALADIN",
 	},
 	["profiles"] = {
@@ -55,13 +56,13 @@ FocusInterruptSoundsDB = {
 		},
 		["DEMONHUNTER"] = {
 		},
-		["SHAMAN"] = {
+		["PALADIN"] = {
 		},
 		["DRUID"] = {
 		},
 		["MONK"] = {
 		},
-		["PALADIN"] = {
+		["SHAMAN"] = {
 		},
 	},
 }

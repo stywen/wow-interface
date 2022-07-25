@@ -13,13 +13,9 @@ BigWigs3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_Mchimba the Embalmer"] = {
-		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Bosses_King's Rest Trash"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
@@ -40,40 +36,24 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["Default"] = {
-					["BigWigsAnchor_width"] = 219.9996032714844,
+					["barStyle"] = "ElvUI",
 					["BigWigsEmphasizeAnchor_height"] = 23.66663360595703,
+					["BigWigsAnchor_width"] = 219.9996032714844,
+					["BigWigsAnchor_y"] = 422.400224933619,
 					["fontName"] = "Expressway",
 					["BigWigsAnchor_height"] = 20.00001335144043,
-					["BigWigsAnchor_y"] = 422.400224933619,
+					["BigWigsAnchor_x"] = 1499.73590397829,
 					["spacing"] = 4,
-					["emphasizeTime"] = 20,
-					["barStyle"] = "ElvUI",
+					["BigWigsEmphasizeAnchor_x"] = 1042.134507956478,
 					["BigWigsEmphasizeAnchor_y"] = 424.1065920829788,
 					["BigWigsEmphasizeAnchor_width"] = 318.3333435058594,
-					["BigWigsEmphasizeAnchor_x"] = 1042.134507956478,
-					["BigWigsAnchor_x"] = 1499.73590397829,
+					["emphasizeTime"] = 20,
 				},
 			},
-		},
-		["BigWigs_Bosses_Dazar, The First King"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_The Council of Tribes"] = {
-		},
-		["BigWigs_Bosses_The Golden Serpent"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["width"] = 140.0000915527344,
-					["posy"] = 168.0003673386491,
-					["height"] = 120.0000076293945,
-					["posx"] = 2335.47119779815,
-				},
-			},
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -87,11 +67,21 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 120.0000076293945,
+					["posy"] = 168.0003673386491,
+					["posx"] = 2335.47119779815,
+					["width"] = 140.0000915527344,
+				},
+			},
+		},
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 	},
 	["profileKeys"] = {

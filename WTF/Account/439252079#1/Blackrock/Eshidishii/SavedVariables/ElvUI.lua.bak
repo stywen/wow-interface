@@ -2,52 +2,52 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/p now", -- [1]
-		"/p okay", -- [2]
-		"/p reset", -- [3]
-		"/p wipe", -- [4]
-		"/p tell me when you want", -- [5]
-		"/p ill use spear", -- [6]
-		"/p yes?", -- [7]
-		"/p THY", -- [8]
-		"/p how is he not kicked from the game", -- [9]
-		"/p +", -- [10]
-		"/p ssy", -- [11]
-		"/p GG", -- [12]
-		"/simc", -- [13]
-		"/1 wird |cffa335ee|Hitem:187219::::::::60:72:::::::::|h[Attendant's Token of Merit]|h|r mit Season4 resettet?", -- [14]
-		"/p tank>", -- [15]
-		"/p ?", -- [16]
-		"/p hay", -- [17]
-		"/dance", -- [18]
-		"/s dont talk to me", -- [19]
+		"/p brauchst kein port>", -- [1]
+		"/p ...", -- [2]
+		"/p port dich nach og machs an und komm dann zum start hier", -- [3]
+		"/p GG", -- [4]
+		"/p top vorbereitet alle wie immer", -- [5]
+		"/p no", -- [6]
+		"/p er will wieder das pet holen bei dem ich ihm letztes mal geholfen habe", -- [7]
+		"/p wo ist der bin beim anderen", -- [8]
+		"/p geht nicht", -- [9]
+		"/p in open world sieht man sich trzdm nciht", -- [10]
+		"/p du hast kein res oder>?", -- [11]
+		"/p +", -- [12]
+		"/p np z", -- [13]
+		"/p gz", -- [14]
+		"/p hay", -- [15]
+		"/p cant mount here", -- [16]
+		"/p come back", -- [17]
+		"/p repair", -- [18]
+		"/p hunter go back repair", -- [19]
 		"/reload", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"[FIS] Interrupted Ingra Maloch's |cff71d5ff|Hspell:323057:0|h[Spirit Bolt]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Castigate on Laktóz", -- [1]
+			"Laktóz-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Laktóz-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1781, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			933, -- [11]
+			"Player-1597-0F394139", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658522330,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffa9d271Laktóz-Sylvanas|r",
+			[51] = 1658608069,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [1]
 		{
-			"Kicked Ingra Maloch's |cff71d5ff|Hspell:323057:0|h[Spirit Bolt]|h|r", -- [1]
+			"FOCUS {rt1}Fleeting Manifestation", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -57,7 +57,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1782, -- [11]
+			935, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -65,11 +65,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658522330,
+			[51] = 1658608077,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [2]
 		{
-			"[FIS] Interrupted Ingra Maloch's |cff71d5ff|Hspell:323057:0|h[Spirit Bolt]|h|r", -- [1]
+			"Castigate on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -79,7 +79,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1789, -- [11]
+			938, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -87,11 +87,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658522376,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1658608090,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [3]
 		{
-			"Kicked Ingra Maloch's |cff71d5ff|Hspell:323057:0|h[Spirit Bolt]|h|r", -- [1]
+			"Castigate on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -101,7 +101,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1790, -- [11]
+			939, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -109,143 +109,143 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658522376,
+			[51] = 1658608090,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [4]
 		{
-			"[RING], [FLOWER], [FILLED] (MOTSH-Addon)", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"FOCUS {rt1}Fleeting Manifestation", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1805, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			942, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658522459,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658608110,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [5]
 		{
-			"[RING], [LEAF], [FILLED] (MOTSH-Addon)", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"Castigate on Kurogoma", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1812, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			944, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658522517,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658608110,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [6]
 		{
-			"FOCUS {rt3}Mistveil Stalker", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"FOCUS Fleeting Manifestation", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1818, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			948, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658522540,
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658608140,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [7]
 		{
-			"[NO RING], [FLOWER], [FILLED] (MOTSH-Addon)", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"Castigate on Qiyana", -- [1]
+			"Qiyana-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Qiyana-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1821, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			951, -- [11]
+			"Player-1597-0F369FA0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658522560,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff006fdcQiyana-Sylvanas|r",
+			[51] = 1658608152,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [8]
 		{
-			"FOCUS {rt2}Mistveil Tender", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"FOCUS Fleeting Manifestation", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1826, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			952, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658522580,
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658608170,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [9]
 		{
-			"FOCUS {rt2}Mistveil Shaper", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"Castigate on Laktóz", -- [1]
+			"Laktóz-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Laktóz-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1835, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			956, -- [11]
+			"Player-1597-0F394139", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658522704,
+			[52] = "|cffa9d271Laktóz-Sylvanas|r",
+			[51] = 1658608172,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [10]
 		{
-			"FOCUS {rt3}Illusionary Clone", -- [1]
+			"FOCUS Fleeting Manifestation", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -255,7 +255,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1867, -- [11]
+			963, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -263,11 +263,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658522817,
+			[51] = 1658608200,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [11]
 		{
-			"Freeze Tag Fixation on Eshidishii", -- [1]
+			"Castigate on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -277,7 +277,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1873, -- [11]
+			966, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -285,33 +285,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658522832,
+			[51] = 1658608214,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [12]
 		{
-			"Freeze Tag Fixation on Vaelantha", -- [1]
-			"Vaelantha-BurningLegion", -- [2]
+			"Castigate on Eshidishii", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vaelantha-BurningLegion", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1879, -- [11]
-			"Player-3713-0A8279BE", -- [12]
+			967, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edVaelantha-BurningLegion|r",
-			[51] = 1658522854,
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658608214,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [13]
 		{
-			"FOCUS {rt3}Illusionary Clone", -- [1]
+			"FOCUS Fleeting Manifestation", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -321,7 +321,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1903, -- [11]
+			968, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -329,11 +329,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658522901,
+			[51] = 1658608231,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [14]
 		{
-			"Freeze Tag Fixation on Eshidishii", -- [1]
+			"FOCUS Executor Tarvold", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -343,7 +343,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1906, -- [11]
+			972, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -351,33 +351,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658522907,
+			[51] = 1658608234,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [15]
 		{
-			"FOCUS {rt5}Illusionary Clone", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"Castigate on Qiyana", -- [1]
+			"Qiyana-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Qiyana-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1954, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			974, -- [11]
+			"Player-1597-0F369FA0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658523073,
+			[52] = "|cff006fdcQiyana-Sylvanas|r",
+			[51] = 1658608234,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [16]
 		{
-			"Freeze Tag Fixation on Eshidishii", -- [1]
+			"[FIS] Interrupted Wicked Oppressor's |cff71d5ff|Hspell:321038:0|h[Wrack Soul]|h|r", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -387,7 +387,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1985, -- [11]
+			980, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -395,33 +395,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523192,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1658608315,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [17]
 		{
-			"Volatile Acid on Kurogoma", -- [1]
-			"Kurogoma-Blackrock", -- [2]
+			"Kicked Wicked Oppressor's |cff71d5ff|Hspell:321038:0|h[Wrack Soul]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kurogoma-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2009, -- [11]
-			"Player-581-0A442F54", -- [12]
+			981, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658523311,
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658608315,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [18]
 		{
-			"[FIS] Interrupted Spinemaw Staghorn's |cff71d5ff|Hspell:326046:0|h[Stimulate Resistance]|h|r", -- [1]
+			"SPELL REFLECTION ACTIVE Kígyóbegyó", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -431,7 +431,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2010, -- [11]
+			995, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -439,11 +439,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523316,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1658608491,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [19]
 		{
-			"Kicked Spinemaw Staghorn's |cff71d5ff|Hspell:326046:0|h[Stimulate Resistance]|h|r", -- [1]
+			"SPELL REFLECTION ACTIVE Kígyóbegyó", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -453,7 +453,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2011, -- [11]
+			996, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -461,11 +461,33 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523316,
+			[51] = 1658608491,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [20]
 		{
-			"Volatile Acid on Eshidishii", -- [1]
+			"mb", -- [1]
+			"Laktóz-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laktóz-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1008, -- [11]
+			"Player-1597-0F394139", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Laktóz-Sylvanas|r",
+			[51] = 1658608608,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [21]
+		{
+			"Kicked Wicked Oppressor's |cff71d5ff|Hspell:326836:0|h[Curse of Suppression]|h|r", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -475,7 +497,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2015, -- [11]
+			1011, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -483,99 +505,99 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523394,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"Volatile Acid on Mikorin", -- [1]
-			"Mikorin-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2018, -- [11]
-			"Player-581-0A4A57DE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658523420,
+			[51] = 1658608632,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [22]
 		{
-			"Volatile Acid on Kurogoma", -- [1]
-			"Kurogoma-Blackrock", -- [2]
+			"[FIS] Interrupted Wicked Oppressor's |cff71d5ff|Hspell:326836:0|h[Curse of Suppression]|h|r", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kurogoma-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2019, -- [11]
-			"Player-581-0A442F54", -- [12]
+			1012, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658523429,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658608632,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [23]
 		{
-			"Volatile Acid on Vaelantha", -- [1]
-			"Vaelantha-BurningLegion", -- [2]
+			"Guards! Slay them all!", -- [1]
+			"", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vaelantha-BurningLegion", -- [5]
+			"General Kaal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2020, -- [11]
-			"Player-3713-0A8279BE", -- [12]
+			1019, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edVaelantha-BurningLegion|r",
-			[51] = 1658523432,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "",
+			[51] = 1658608746,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [24]
 		{
-			"Infester", -- [1]
-			"Kurogoma-Blackrock", -- [2]
+			"Guards! Slay them all!", -- [1]
+			"", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kurogoma-Blackrock", -- [5]
+			"General Kaal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2023, -- [11]
-			"Player-581-0A442F54", -- [12]
+			1020, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658523485,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "",
+			[51] = 1658608746,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [25]
 		{
-			"Mind Link on Kurogoma", -- [1]
+			"Shining Radiance on Kígyóbegyó", -- [1]
+			"Kígyóbegyó-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kígyóbegyó-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1025, -- [11]
+			"Player-1597-0F31EA42", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kígyóbegyó-Sylvanas|r",
+			[51] = 1658608782,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [26]
+		{
+			"Shroud up", -- [1]
 			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -585,7 +607,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2026, -- [11]
+			1026, -- [11]
 			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -593,319 +615,297 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658523494,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
-		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2027, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523494,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1658608790,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [27]
 		{
-			"Mind Link on Mikorin", -- [1]
-			"Mikorin-Blackrock", -- [2]
+			"14", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2028, -- [11]
-			"Player-581-0A4A57DE", -- [12]
+			1027, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658523494,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658608791,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [28]
 		{
-			"Mind Link on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"13", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2033, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			1028, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658523494,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658608792,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [29]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"12", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2037, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1029, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523510,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658608793,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [30]
 		{
-			"Infester", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"11", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2044, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1030, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523511,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658608794,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [31]
 		{
-			"Parasitic Pacification on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"10", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2045, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1031, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523512,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658608795,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [32]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"9", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2050, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1032, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523527,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658608796,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [33]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"That prisoner belongs to the Master. You will not take it!", -- [1]
+			"", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"General Kaal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2060, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1041, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523548,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "",
+			[51] = 1658608846,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [34]
 		{
-			"wipe", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"That prisoner belongs to the Master. You will not take it!", -- [1]
+			"", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"General Kaal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2072, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			1042, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658523611,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "",
+			[51] = 1658608846,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [35]
 		{
-			"reset", -- [1]
-			"Vaelantha-BurningLegion", -- [2]
+			"lantern", -- [1]
+			"Kígyóbegyó-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Vaelantha-BurningLegion", -- [5]
+			"Kígyóbegyó-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2073, -- [11]
-			"Player-3713-0A8279BE", -- [12]
+			1050, -- [11]
+			"Player-1597-0F31EA42", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edVaelantha-BurningLegion|r",
-			[51] = 1658523616,
+			[52] = "|cfff38bb9Kígyóbegyó-Sylvanas|r",
+			[51] = 1658608894,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [36]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"These halls will be your tomb!", -- [1]
+			"", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"General Kaal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2085, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1053, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523684,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "",
+			[51] = 1658608925,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [37]
 		{
-			"Mind Link on Mikorin", -- [1]
-			"Mikorin-Blackrock", -- [2]
+			"These halls will be your tomb!", -- [1]
+			"", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
+			"General Kaal", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2090, -- [11]
-			"Player-581-0A4A57DE", -- [12]
+			1054, -- [11]
+			false, -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658523684,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "",
+			[51] = 1658608925,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [38]
 		{
-			"Mind Link on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"Wicked Rush on Kurogoma", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2091, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			1065, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658523684,
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658609087,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [39]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Wicked Rush on Laktóz", -- [1]
+			"Laktóz-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Laktóz-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2098, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1066, -- [11]
+			"Player-1597-0F394139", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523700,
+			[52] = "|cffa9d271Laktóz-Sylvanas|r",
+			[51] = 1658609087,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [40]
 		{
-			"Mind Link on Eshidishii", -- [1]
+			"Wicked Rush on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -915,7 +915,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2106, -- [11]
+			1069, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -923,11 +923,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523717,
+			[51] = 1658609103,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [41]
 		{
-			"Mind Link on Eshidishii", -- [1]
+			"Wicked Rush on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -937,7 +937,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2118, -- [11]
+			1070, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -945,55 +945,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523736,
+			[51] = 1658609103,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [42]
 		{
-			"[FIS] Interrupted Tred'ova's |cff71d5ff|Hspell:337249:0|h[Parasitic Incapacitation]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Wicked Rush on Qiyana", -- [1]
+			"Qiyana-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Qiyana-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2127, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1071, -- [11]
+			"Player-1597-0F369FA0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523779,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cff006fdcQiyana-Sylvanas|r",
+			[51] = 1658609103,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [43]
 		{
-			"Kicked Tred'ova's |cff71d5ff|Hspell:337249:0|h[Parasitic Incapacitation]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Shining Radiance on Kígyóbegyó", -- [1]
+			"Kígyóbegyó-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kígyóbegyó-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2128, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1073, -- [11]
+			"Player-1597-0F31EA42", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523779,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Kígyóbegyó-Sylvanas|r",
+			[51] = 1658609118,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [44]
 		{
-			"Mind Link on Eshidishii", -- [1]
+			"Wicked Rush on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1003,7 +1003,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2139, -- [11]
+			1079, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1011,55 +1011,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523859,
+			[51] = 1658609137,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [45]
 		{
-			"Mind Link on Mikorin", -- [1]
-			"Mikorin-Blackrock", -- [2]
+			"Wicked Rush on Eshidishii", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2147, -- [11]
-			"Player-581-0A4A57DE", -- [12]
+			1080, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658523875,
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658609137,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [46]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Wicked Rush on Laktóz", -- [1]
+			"Laktóz-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Laktóz-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2149, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1081, -- [11]
+			"Player-1597-0F394139", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523875,
+			[52] = "|cffa9d271Laktóz-Sylvanas|r",
+			[51] = 1658609137,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [47]
 		{
-			"Infester", -- [1]
+			"Wicked Rush on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1069,7 +1069,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2151, -- [11]
+			1090, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1077,11 +1077,11 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523877,
+			[51] = 1658609178,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [48]
 		{
-			"Mind Link on Eshidishii", -- [1]
+			"Wicked Rush on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1091,7 +1091,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2154, -- [11]
+			1091, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1099,77 +1099,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523892,
+			[51] = 1658609178,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [49]
 		{
-			"Mind Link on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"Wicked Rush on Kurogoma", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2157, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			1095, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658523892,
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658609199,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [50]
 		{
-			"Infester", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Wicked Rush on Laktóz", -- [1]
+			"Laktóz-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Laktóz-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2161, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1099, -- [11]
+			"Player-1597-0F394139", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523909,
+			[52] = "|cffa9d271Laktóz-Sylvanas|r",
+			[51] = 1658609215,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [51]
 		{
-			"Parasitic Domination on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Shining Radiance on Kígyóbegyó", -- [1]
+			"Kígyóbegyó-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kígyóbegyó-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2162, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1103, -- [11]
+			"Player-1597-0F31EA42", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658523910,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Kígyóbegyó-Sylvanas|r",
+			[51] = 1658609234,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [52]
 		{
-			"Infester", -- [1]
+			"Wicked Rush on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1179,7 +1179,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2168, -- [11]
+			1106, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1187,77 +1187,77 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524016,
+			[51] = 1658609239,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [53]
 		{
-			"Mind Link on Mikorin", -- [1]
-			"Mikorin-Blackrock", -- [2]
+			"Wicked Rush on Eshidishii", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2170, -- [11]
-			"Player-581-0A4A57DE", -- [12]
+			1107, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658524025,
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658609239,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [54]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Wicked Rush on Qiyana", -- [1]
+			"Qiyana-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Qiyana-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2172, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1108, -- [11]
+			"Player-1597-0F369FA0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524025,
+			[52] = "|cff006fdcQiyana-Sylvanas|r",
+			[51] = 1658609239,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [55]
 		{
-			"Mind Link on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"Wicked Rush on Eshidishii", -- [1]
+			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"Eshidishii-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2176, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			1111, -- [11]
+			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658524025,
+			[52] = "|cffc59a6cEshidishii|r",
+			[51] = 1658609256,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [56]
 		{
-			"[FIS] Interrupted Tred'ova's |cff71d5ff|Hspell:337235:0|h[Parasitic Pacification]|h|r", -- [1]
+			"Wicked Rush on Eshidishii", -- [1]
 			"Eshidishii-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1267,7 +1267,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2181, -- [11]
+			1112, -- [11]
 			"Player-581-0A432D8C", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1275,33 +1275,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524041,
-			[50] = "CHAT_MSG_PARTY",
+			[51] = 1658609256,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [57]
 		{
-			"Kicked Tred'ova's |cff71d5ff|Hspell:337235:0|h[Parasitic Pacification]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"wp rouge ", -- [1]
+			"Kígyóbegyó-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kígyóbegyó-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2182, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1120, -- [11]
+			"Player-1597-0F31EA42", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524041,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Kígyóbegyó-Sylvanas|r",
+			[51] = 1658609279,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [58]
 		{
-			"Mind Link on Kurogoma", -- [1]
+			"ty", -- [1]
+			"Kígyóbegyó-Sylvanas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kígyóbegyó-Sylvanas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1121, -- [11]
+			"Player-1597-0F31EA42", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Kígyóbegyó-Sylvanas|r",
+			[51] = 1658609280,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [59]
+		{
+			"ty", -- [1]
 			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1311,7 +1333,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2183, -- [11]
+			1122, -- [11]
 			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1319,869 +1341,605 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658524041,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
-		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2184, -- [11]
-			"Player-581-0A432D8C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524041,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1658609282,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [60]
 		{
-			"Infester", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"gg", -- [1]
+			"Kurogoma-Blackrock", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kurogoma-Blackrock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2191, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1123, -- [11]
+			"Player-581-0A442F54", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524065,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffef367Kurogoma|r",
+			[51] = 1658609283,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [61]
 		{
-			"[FIS] Interrupted Tred'ova's |cff71d5ff|Hspell:337249:0|h[Parasitic Incapacitation]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"ty gg", -- [1]
+			"Laktóz-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Laktóz-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2192, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1126, -- [11]
+			"Player-1597-0F394139", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524066,
+			[52] = "|cffa9d271Laktóz-Sylvanas|r",
+			[51] = 1658609286,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [62]
 		{
-			"Kicked Tred'ova's |cff71d5ff|Hspell:337249:0|h[Parasitic Incapacitation]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"bb", -- [1]
+			"Kígyóbegyó-Sylvanas", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"Kígyóbegyó-Sylvanas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2193, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1143, -- [11]
+			"Player-1597-0F31EA42", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524066,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff38bb9Kígyóbegyó-Sylvanas|r",
+			[51] = 1658609301,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [63]
 		{
-			"SPELL REFLECTION ACTIVE Mikorin", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Eingespielte Gruppe bietet M+ 15-20 Keys (natürlich intime),  Stacks und Wunschkeys sind möglich, faire Preise/ schreib mich einfach an bei interesse;)(Nur für Gold!)", -- [1]
+			"Cocoqq-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Cocoqq-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2203, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1154, -- [11]
+			"Player-581-0A4BD52F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524123,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff8687edCocoqq|r",
+			[51] = 1658609495,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [64]
 		{
-			"Infester", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"dann brauchst du ein trabi 601 ^^", -- [1]
+			"Bubbelgirl-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Bubbelgirl-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2205, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1155, -- [11]
+			"Player-581-0A4EBA26", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524133,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfff38bb9Bubbelgirl|r",
+			[51] = 1658609496,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [65]
 		{
-			"Mind Link on Mikorin", -- [1]
-			"Mikorin-Blackrock", -- [2]
+			"suche lvl gilde w/me", -- [1]
+			"Katívø-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Katívø-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2207, -- [11]
-			"Player-581-0A4A57DE", -- [12]
+			1174, -- [11]
+			"Player-581-0A3F59F8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658524138,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffe7b09Katívø|r",
+			[51] = 1658610446,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [66]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			">> HC RUN<<   begleitet durch  10/11 M GILDE . Alle Raider habe keine Loot ID . 350k Start um 0:00  Melde dich für info", -- [1]
+			"Sahriny-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Sahriny-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2209, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1175, -- [11]
+			"Player-581-0A4F1F26", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524138,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffe7b09Sahriny|r",
+			[51] = 1658610448,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [67]
 		{
-			"Mind Link on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"Erfahrene Gruppe bietet M+15 Runs oder höher gegen Gold an. Sichere dir heute noch dein 278er Item aus der Weekly Chest. Bei mehreren Runs gibt es Rabatt! Armorstacks und Wunschkey möglich. /w me für mehr Infos.", -- [1]
+			"Clymanestra-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Clymanestra-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2211, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			1176, -- [11]
+			"Player-581-07A2CE83", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658524138,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cffa9d271Clymanestra|r",
+			[51] = 1658610474,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [68]
 		{
-			"Mind Link on Kurogoma", -- [1]
-			"Kurogoma-Blackrock", -- [2]
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold]", -- [1]
+			"Almas-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Kurogoma-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Almas-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2215, -- [11]
-			"Player-581-0A442F54", -- [12]
+			1177, -- [11]
+			"Player-581-0A38AD4F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658524155,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffe7b09Almas|r",
+			[51] = 1658610503,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [69]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"kaufe |cffffffff|Hitem:178927::::::::60:103::69:4:7193:7882:8156:1588:1:28:2142::::Player-581-0A43598D:|h[Schattenschreckhalskette]|h|r10k ", -- [1]
+			"Fumari-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Fumari-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2217, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1178, -- [11]
+			"Player-581-0A4E3780", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524155,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffe7b09Fumari|r",
+			[51] = 1658610513,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [70]
 		{
-			"Infester", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"|cffa335ee|Hitem:190334::::::::60:104::6:7:7187:41:8185:8132:8138:1498:6646:1:28:2167:::::|h[Origin of the Aurora]|h|r /w", -- [1]
+			"Changizz-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Changizz-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2219, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1179, -- [11]
+			"Player-581-0A2BC630", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524159,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffe7b09Changizz|r",
+			[51] = 1658610659,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [71]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold]", -- [1]
+			"Almas-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Almas-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2223, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1181, -- [11]
+			"Player-581-0A38AD4F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524174,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffe7b09Almas|r",
+			[51] = 1658610894,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [72]
 		{
-			"Infester", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"Eingespielte Gruppe bietet M+ 15-20 zu fairen Preisen an!KSM/KSH und Rabatte sind ebenfalls möglich. Alles was wir looten geht an dich! Natürlich alles only for Gold /w me bei weiteren fragen", -- [1]
+			"Dagiibee-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Dagiibee-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2228, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1182, -- [11]
+			"Player-581-09AF54EF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524184,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffefefeDagiibee|r",
+			[51] = 1658610992,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [73]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"< Erfahrene Gilde Gruppe> Verkaufe Keystone +10-24 ||KSM10x15 -KSH 10x20|| Multi-Run hat Rabatt + Armor Stack. Raid SOTFO 11/11 HC mit trader+ Jailer Curve, 11/11 Mythic. Sylvanas Mount.PVP boost,Torghast alle Layer /w für weitere Info( nur für Gold)", -- [1]
+			"Yeqiu-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Yeqiu-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2231, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1183, -- [11]
+			"Player-581-0A4887A2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524195,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff00fe97Yeqiu|r",
+			[51] = 1658611000,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [74]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"WTS |cffff8000|Hitem:17771::::::::51:269:::::::::|h[Verzauberter Elementiumbarren]|h|r 5.5k", -- [1]
+			"Bartruel-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Bartruel-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2248, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1184, -- [11]
+			"Player-581-05666FD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524323,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff00fe97Bartruel|r",
+			[51] = 1658611049,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [75]
 		{
-			"Mind Link on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"guter M+ rouge hier?", -- [1]
+			"Dosegodx-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Dosegodx-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2250, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			1185, -- [11]
+			"Player-581-0A0F0B78", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658524323,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffef367Dosegodx|r",
+			[51] = 1658611221,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [76]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"< Erfahrene Gilde Gruppe> Verkaufe Keystone +10-24 ||KSM10x15 -KSH 10x20|| Multi-Run hat Rabatt + Armor Stack. Raid SOTFO 11/11 HC mit trader+ Jailer Curve, 11/11 Mythic. Sylvanas Mount.PVP boost,Torghast alle Layer /w für weitere Info( nur für Gold)", -- [1]
+			"Yeqiu-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Yeqiu-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2255, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1186, -- [11]
+			"Player-581-0A4887A2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524339,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff00fe97Yeqiu|r",
+			[51] = 1658611282,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [77]
 		{
-			"Mind Link on Kurogoma", -- [1]
-			"Kurogoma-Blackrock", -- [2]
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold]", -- [1]
+			"Almas-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Kurogoma-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Almas-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2257, -- [11]
-			"Player-581-0A442F54", -- [12]
+			1187, -- [11]
+			"Player-581-0A38AD4F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658524339,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffe7b09Almas|r",
+			[51] = 1658611288,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [78]
 		{
-			"[FIS] Interrupted Tred'ova's |cff71d5ff|Hspell:322450:0|h[Consumption]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"suche gilde für s neue addon /f für info s", -- [1]
+			"Sweetpoisen-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Sweetpoisen-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2264, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1188, -- [11]
+			"Player-581-0A48D333", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524354,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cff006fdcSweetpoisen|r",
+			[51] = 1658611300,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [79]
 		{
-			"Kicked Tred'ova's |cff71d5ff|Hspell:322450:0|h[Consumption]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"wie kommt man als neuer char an die Leggys von Castle nathria? ", -- [1]
+			"Dosegodx-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Dosegodx-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2265, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1190, -- [11]
+			"Player-581-0A0F0B78", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524354,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffef367Dosegodx|r",
+			[51] = 1658611346,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [80]
 		{
-			"Infester", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"in zereth mortis steht n typ", -- [1]
+			"Táshâ-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Táshâ-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2266, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1191, -- [11]
+			"Player-581-08DCC174", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524363,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff00fe97Táshâ|r",
+			[51] = 1658611364,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [81]
 		{
-			"Infester", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"WTS |cffff8000|Hitem:17771::::::::51:269:::::::::|h[Verzauberter Elementiumbarren]|h|r 5,5k", -- [1]
+			"Bartruel-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Bartruel-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2271, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1192, -- [11]
+			"Player-581-05666FD7", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524391,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff00fe97Bartruel|r",
+			[51] = 1658611376,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [82]
 		{
-			"[FIS] Interrupted Tred'ova's |cff71d5ff|Hspell:322450:0|h[Consumption]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"könnte mir vllt. jemand sagen, wie ich im Chat neue Kanäle erstelle, nur für Gruppenchat usw?", -- [1]
+			"Sôjâsaucé-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Sôjâsaucé-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2279, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1193, -- [11]
+			"Player-581-0A4F1AEC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524431,
-			[50] = "CHAT_MSG_PARTY",
+			true, -- [17]
+			[52] = "|cfffef367Sôjâsaucé|r",
+			[51] = 1658611446,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [83]
 		{
-			"Kicked Tred'ova's |cff71d5ff|Hspell:322450:0|h[Consumption]|h|r", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"alt+f4", -- [1]
+			"Avrad-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Avrad-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2280, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1194, -- [11]
+			"Player-581-0A4770B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524431,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffefefeAvrad|r",
+			[51] = 1658611466,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [84]
 		{
-			"Mind Link on Eshidishii", -- [1]
-			"Eshidishii-Blackrock", -- [2]
+			"kaufe |cff0070dd|Hbattlepet:1806:25:3:1546:260:289:0000000000000000:59042|h[Billiges Blingtron-Imitat]|h|r", -- [1]
+			"Sinalona-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Eshidishii-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Sinalona-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2284, -- [11]
-			"Player-581-0A432D8C", -- [12]
+			1195, -- [11]
+			"Player-581-0861A3CA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cEshidishii|r",
-			[51] = 1658524447,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cffa22fc8Sinalona|r",
+			[51] = 1658611719,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [85]
 		{
-			"Mind Link on Mikorin", -- [1]
-			"Mikorin-Blackrock", -- [2]
+			"< Erfahrene Gilde Gruppe> Verkaufe Keystone +10-24 ||KSM10x15 -KSH 10x20|| Multi-Run hat Rabatt + Armor Stack. Raid SOTFO 11/11 HC mit trader+ Jailer Curve, 11/11 Mythic. Sylvanas Mount.PVP boost,Torghast alle Layer /w für weitere Info( nur für Gold)", -- [1]
+			"Yeqiu-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Yeqiu-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2293, -- [11]
-			"Player-581-0A4A57DE", -- [12]
+			1208, -- [11]
+			"Player-581-0A4887A2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658524463,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cff00fe97Yeqiu|r",
+			[51] = 1658611809,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [86]
 		{
-			"Mind Link on Veldura", -- [1]
-			"Veldura-Blackrock", -- [2]
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold]", -- [1]
+			"Almas-Blackrock", -- [2]
 			"", -- [3]
-			"", -- [4]
-			"Veldura-Blackrock", -- [5]
+			"2. Trade - City", -- [4]
+			"Almas-Blackrock", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			2296, -- [11]
-			"Player-581-08DB1B13", -- [12]
+			1228, -- [11]
+			"Player-581-0A38AD4F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Veldura|r",
-			[51] = 1658524463,
-			[50] = "CHAT_MSG_SAY",
+			true, -- [17]
+			[52] = "|cfffe7b09Almas|r",
+			[51] = 1658611825,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [87]
 		{
-			"Infester", -- [1]
-			"Kurogoma-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kurogoma-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2297, -- [11]
-			"Player-581-0A442F54", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658524464,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
-		{
-			"Mind Link on Kurogoma", -- [1]
-			"Kurogoma-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kurogoma-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2300, -- [11]
-			"Player-581-0A442F54", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658524480,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
-		{
-			"Volatile Acid on Vaelantha", -- [1]
-			"Vaelantha-BurningLegion", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelantha-BurningLegion", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2329, -- [11]
-			"Player-3713-0A8279BE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edVaelantha-BurningLegion|r",
-			[51] = 1658524612,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
-		{
-			"Volatile Acid on Kurogoma", -- [1]
-			"Kurogoma-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kurogoma-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2330, -- [11]
-			"Player-581-0A442F54", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffef367Kurogoma|r",
-			[51] = 1658524617,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
-		{
-			"do you need staff", -- [1]
-			"Vaelantha-BurningLegion", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelantha-BurningLegion", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2341, -- [11]
-			"Player-3713-0A8279BE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edVaelantha-BurningLegion|r",
-			[51] = 1658524687,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
-		{
-			"yes", -- [1]
-			"Mikorin-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2342, -- [11]
-			"Player-581-0A4A57DE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658524705,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [93]
-		{
-			"thy", -- [1]
-			"Mikorin-Blackrock", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mikorin-Blackrock", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2343, -- [11]
-			"Player-581-0A4A57DE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeMikorin|r",
-			[51] = 1658524711,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
-		{
-			"gg", -- [1]
-			"Vaelantha-BurningLegion", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelantha-BurningLegion", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2344, -- [11]
-			"Player-3713-0A8279BE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edVaelantha-BurningLegion|r",
-			[51] = 1658524711,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
-		{
-			"Die Gilde von Winterfell sucht Mitglieder jeder Klasse. Für weitere Informationen mich anflüstern. Danke", -- [1]
-			"Diabliane-Blackrock", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Diabliane-Blackrock", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2355, -- [11]
-			"Player-581-07A70AC3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Diabliane|r",
-			[51] = 1658525026,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
-		{
-			"Freundliche Gruppe Verkaufe |cff66bbff|Hjournal:1:2464:15|h[The Jailer]|h|r |cffffff00|Hachievement:15470:Player-3674-0AB727E0:1:3:26:22:0:0:0:0|h[Ahead of the Curve: The Jailer]|h|r für 100k, Jede 15 Minuten /w für info", -- [1]
-			"Begood-Blackrock", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Begood-Blackrock", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2356, -- [11]
-			"Player-581-0A23F286", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcBegood|r",
-			[51] = 1658525040,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
-		{
-			"Shami und DH suchen pvp Gilde", -- [1]
-			"Ðrøptøp-Blackrock", -- [2]
-			"", -- [3]
-			"1. General - Oribos", -- [4]
-			"Ðrøptøp-Blackrock", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Oribos", -- [9]
-			0, -- [10]
-			2357, -- [11]
-			"Player-581-0A398258", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa22fc8Ðrøptøp|r",
-			[51] = 1658525057,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
-		{
-			"Eingespielte Gruppe verkauft M+15-22 intime gegen Gold. Ihr bekommt ein 278er Item in der Vault. Armorstacks und Wunschkeys möglich. Für Infos /w me", -- [1]
+			"Erfahrene Gruppe bietet M+15-22 intime gegen Gold. Sicher Dir jetzt noch die 2500 Score für das zeitlich begrenzte Mount. Neben Wunschkeys und Armorstacks sind auch KSM/KSH möglich. Für Infos /w me", -- [1]
 			"Selariia-Blackrock", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
@@ -2191,7 +1949,7 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			2369, -- [11]
+			1298, -- [11]
 			"Player-581-0A279F8E", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2199,7 +1957,249 @@ ElvCharacterDB = {
 			false, -- [16]
 			true, -- [17]
 			[52] = "|cff006fdcSelariia|r",
-			[51] = 1658525239,
+			[51] = 1658611943,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold]", -- [1]
+			"Almas-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Almas-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1302, -- [11]
+			"Player-581-0A38AD4F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Almas|r",
+			[51] = 1658612115,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"Die Gilde von Winterfell sucht Mitglieder jeder Klasse. Für weitere Informationen mich anflüstern. Danke", -- [1]
+			"Laiaryla-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laiaryla-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1303, -- [11]
+			"Player-581-0802F740", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaLaiaryla|r",
+			[51] = 1658612120,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"< Erfahrene Gilde Gruppe> Verkaufe Keystone +10-24 ||KSM10x15 -KSH 10x20|| Multi-Run hat Rabatt + Armor Stack. Raid SOTFO 11/11 HC mit trader+ Jailer Curve, 11/11 Mythic. Sylvanas Mount.PVP boost,Torghast alle Layer /w für weitere Info( nur für Gold)", -- [1]
+			"Yeqiu-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Yeqiu-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1304, -- [11]
+			"Player-581-0A4887A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Yeqiu|r",
+			[51] = 1658612146,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"WTS |cffff8000|Hitem:17771::::::::51:269:::::::::|h[Verzauberter Elementiumbarren]|h|r 5.5l", -- [1]
+			"Bartruel-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Bartruel-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1306, -- [11]
+			"Player-581-05666FD7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Bartruel|r",
+			[51] = 1658612164,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"kann mir jemand sagen wo meine freundin die q für |cffff8000|Hitem:71086:2504:32196:32196:32196::::43:267::11:::::::|h[Drachenzorn, Tarecgosas letzte Ruhe]|h|rannehmen kann? hab das vergessen :D", -- [1]
+			"Tôdesmaid-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tôdesmaid-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1307, -- [11]
+			"Player-581-06829755", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edTôdesmaid|r",
+			[51] = 1658612173,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"Erfahrene Gruppe bietet M+15-22 intime gegen Gold. Sicher Dir jetzt noch die 2500 Score für das zeitlich begrenzte Mount. Neben Wunschkeys und Armorstacks sind auch KSM/KSH möglich. Für Infos /w me", -- [1]
+			"Selariia-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Selariia-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1308, -- [11]
+			"Player-581-0A279F8E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcSelariia|r",
+			[51] = 1658612212,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"warum flexxt du jetzt mit freundin", -- [1]
+			"Frknkawaii-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Frknkawaii-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1310, -- [11]
+			"Player-581-0A48366A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Frknkawaii|r",
+			[51] = 1658612219,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"muss in wow halt diggi ", -- [1]
+			"Tôdesmaid-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Tôdesmaid-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1311, -- [11]
+			"Player-581-06829755", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edTôdesmaid|r",
+			[51] = 1658612233,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"you good?", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1313, -- [11]
+			false, -- [12]
+			3, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edWannaCry|r",
+			[51] = 1658613271,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [97]
+		{
+			"yeah schon okay thxx", -- [1]
+			"|Kq5|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1324, -- [11]
+			false, -- [12]
+			3, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edWannaCry|r",
+			[51] = 1658613323,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [98]
+		{
+			"M+ 10-22 Hilfe von mir und meiner Gruppe, verschiedene Paketpreise /Torghast/Raid/ auch möglich- gold only -wsp :) <3 Deutsche Handwerkskunst ohne Googleübersetzer !", -- [1]
+			"Rahksha-Blackrock", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Rahksha-Blackrock", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1332, -- [11]
+			"Player-581-08C8A4A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Rahksha|r",
+			[51] = 1658613338,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

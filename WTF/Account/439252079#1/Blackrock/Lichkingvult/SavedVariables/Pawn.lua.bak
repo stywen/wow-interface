@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0538,
+	["LastPlayerFullName"] = "Lichkingvult-Blackrock",
+	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
 			["ID"] = 188027,
@@ -89,8 +91,7 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:188046::::::::60:251::36:3:6652:8146:1472::::::|h[Haven Guard's Mace]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = true,
-	["LastPlayerFullName"] = "Lichkingvult-Blackrock",
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128403] = {
 			["Relics"] = {
@@ -109,7 +110,6 @@ PawnOptions = {
 			["Name"] = "Apocalypse",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEATHKNIGHT",

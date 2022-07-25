@@ -24,22 +24,23 @@ SimulationCraftDB = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Byd - Blackrock"] = "Byd - Blackrock",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
-		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
+		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -89,7 +90,9 @@ SimulationCraftDB = {
 		},
 		["Byd - Blackrock"] = {
 		},
-		["Byd - Aegwynn"] = {
+		["Orthodoxtank - Antonidas"] = {
+		},
+		["Nakrates - Antonidas"] = {
 		},
 		["Eshidishi - Draenor"] = {
 		},
@@ -99,15 +102,11 @@ SimulationCraftDB = {
 		},
 		["Nofriendz - Blackrock"] = {
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
 		},
 		["Byd - Kazzak"] = {
 		},
-		["Cakebender - Antonidas"] = {
-		},
-		["Eurotas - Blackrock"] = {
-		},
-		["Starplatïnum - Blackrock"] = {
+		["Magyc - Mal'Ganis"] = {
 		},
 		["Eshidishii - Blackrock"] = {
 			["frame"] = {
@@ -117,15 +116,19 @@ SimulationCraftDB = {
 				["relativePoint"] = "LEFT",
 			},
 		},
+		["Starplatïnum - Blackrock"] = {
+		},
+		["Eurotas - Blackrock"] = {
+		},
 		["Kyng - Antonidas"] = {
 		},
 		["Odînaf - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Bonebender - Antonidas"] = {
 		},
-		["Nakrates - Antonidas"] = {
+		["Byd - Aegwynn"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

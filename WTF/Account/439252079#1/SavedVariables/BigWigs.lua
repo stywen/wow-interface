@@ -51,13 +51,19 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 120.0000076293945,
+					["posy"] = 168.0003673386491,
+					["posx"] = 2335.47119779815,
+					["width"] = 140.0000915527344,
+				},
+			},
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -71,17 +77,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["height"] = 120.0000076293945,
-					["posy"] = 168.0003673386491,
-					["posx"] = 2335.47119779815,
-					["width"] = 140.0000915527344,
-				},
-			},
+		["BigWigs_Plugins_Wipe"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 	},
 	["profileKeys"] = {

@@ -1,0 +1,33 @@
+
+ElvCharacterDB = {
+	["ConvertKeybindings"] = true,
+	["ChatEditHistory"] = {
+		"/ec", -- [1]
+		"/wave", -- [2]
+		"/played", -- [3]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"Verkaufe |cffa335ee|Hitem:118874::::::::60:255:::1:6661:2:9:40:28:66:::::|h[Schwarzfelsbollwerk]|h|r|cffa335ee|Hitem:90655::::::::60:255::::1:28:872:::::|h[Zügel der donnernden Rubinwolkenschlange]|h|r|cff1eff00|Hitem:1604::::::::60:255:::1:3631:2:9:30:28:24:::::|h[Chromatisches Schwert]|h|rW/me", -- [1]
+			"Vanwy-Antonidas", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vanwy-Antonidas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-3686-09D3564D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Vanwy|r",
+			[51] = 1658619353,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+	},
+}

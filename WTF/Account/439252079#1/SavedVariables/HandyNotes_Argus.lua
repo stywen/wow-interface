@@ -22,9 +22,10 @@ HandyNotes_ArgusDB = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
-		["Byd - Blackrock"] = "Byd - Blackrock",
+		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
-		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
+		["Dïo - Blackrock"] = "Dïo - Blackrock",
 		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
@@ -34,8 +35,8 @@ HandyNotes_ArgusDB = {
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Dïo - Blackrock"] = "Dïo - Blackrock",
-		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
+		["Byd - Blackrock"] = "Byd - Blackrock",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -81,11 +82,13 @@ HandyNotes_ArgusDB = {
 		},
 		["Eshidishi - Draenor"] = {
 		},
-		["Byd - Blackrock"] = {
+		["Bonebender - Antonidas"] = {
+		},
+		["Nakrates - Antonidas"] = {
 		},
 		["Extinguish - Blackrock"] = {
 		},
-		["Slavictank - Blackrock"] = {
+		["Dïo - Blackrock"] = {
 		},
 		["Cakebender - Antonidas"] = {
 		},
@@ -105,9 +108,9 @@ HandyNotes_ArgusDB = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
-		["Dïo - Blackrock"] = {
+		["Slavictank - Blackrock"] = {
 		},
-		["Nakrates - Antonidas"] = {
+		["Byd - Blackrock"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

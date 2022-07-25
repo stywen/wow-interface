@@ -2,10 +2,10 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/reload", -- [1]
-		"/m", -- [2]
+		"/m", -- [1]
+		"/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,2) c(2,2) c(3,3) c(4,1) c(5,1) c(6,1) c(7,3)", -- [2]
 		"/dance", -- [3]
-		"/run local a=GetTalentInfo;local b=LearnTalent;local c=function(c,d)  b(a(c,d,1)) end c(1,2) c(2,2) c(3,3) c(4,1) c(5,1) c(6,1) c(7,3)", -- [4]
+		"/reload", -- [4]
 	},
 	["ChatHistoryLog"] = {
 		{

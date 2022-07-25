@@ -20,10 +20,3 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: WIM3_msgFrame1
-FrameLevel: 2
-Anchor: TOP
-X: -867
-Y: -218
-W: 333
-H: 220

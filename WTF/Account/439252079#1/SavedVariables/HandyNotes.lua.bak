@@ -24,22 +24,23 @@ HandyNotesDB = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Byd - Blackrock"] = "Byd - Blackrock",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
-		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
+		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -89,27 +90,29 @@ HandyNotesDB = {
 		},
 		["Byd - Blackrock"] = {
 		},
+		["Byd - Aegwynn"] = {
+		},
 		["Eshidishi - Draenor"] = {
 		},
-		["Nakrates - Antonidas"] = {
+		["Bonebender - Antonidas"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Slavicpriest - Antonidas"] = {
 		},
 		["Extinguish - Blackrock"] = {
 		},
 		["Nofriendz - Blackrock"] = {
 		},
-		["Cakebender - Antonidas"] = {
+		["Magyc - Mal'Ganis"] = {
 		},
 		["Byd - Kazzak"] = {
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
 		},
 		["Eurotas - Blackrock"] = {
 		},
-		["Eshidishii - Blackrock"] = {
-		},
 		["Starplatïnum - Blackrock"] = {
+		},
+		["Eshidishii - Blackrock"] = {
 		},
 		["Kyng - Antonidas"] = {
 		},
@@ -117,9 +120,9 @@ HandyNotesDB = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
-		["Slavicpriest - Antonidas"] = {
+		["Nakrates - Antonidas"] = {
 		},
-		["Byd - Aegwynn"] = {
+		["Orthodoxtank - Antonidas"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},
@@ -150,22 +153,23 @@ HandyNotes_HandyNotesDB = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Byd - Blackrock"] = "Byd - Blackrock",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
-		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
+		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -215,27 +219,29 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Byd - Blackrock"] = {
 		},
+		["Byd - Aegwynn"] = {
+		},
 		["Eshidishi - Draenor"] = {
 		},
-		["Nakrates - Antonidas"] = {
+		["Bonebender - Antonidas"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Slavicpriest - Antonidas"] = {
 		},
 		["Extinguish - Blackrock"] = {
 		},
 		["Nofriendz - Blackrock"] = {
 		},
-		["Cakebender - Antonidas"] = {
+		["Magyc - Mal'Ganis"] = {
 		},
 		["Byd - Kazzak"] = {
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
 		},
 		["Eurotas - Blackrock"] = {
 		},
-		["Eshidishii - Blackrock"] = {
-		},
 		["Starplatïnum - Blackrock"] = {
+		},
+		["Eshidishii - Blackrock"] = {
 		},
 		["Kyng - Antonidas"] = {
 		},
@@ -243,9 +249,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
-		["Slavicpriest - Antonidas"] = {
+		["Nakrates - Antonidas"] = {
 		},
-		["Byd - Aegwynn"] = {
+		["Orthodoxtank - Antonidas"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

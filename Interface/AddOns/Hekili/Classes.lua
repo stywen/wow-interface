@@ -140,7 +140,7 @@ local protectedFunctions = {
 
 
 local HekiliSpecMixin = {
-    RegisterResource = function( self, resourceID, regen, model )
+    RegisterResource = function( self, resourceID, regen, model, meta )
         local resource = GetResourceKey( resourceID )
 
         if not resource then
@@ -178,6 +178,11 @@ local HekiliSpecMixin = {
             end,
         }, mt_resource )
         r.state.regenModel = regen
+        r.state.meta = meta or {}
+
+        for _, func in pairs( r.state.meta ) do
+            setfenv( func, state )
+        end
 
         if model and not model.timeTo then
             model.timeTo = function( x )
@@ -939,8 +944,23 @@ function Hekili:RestoreDefaults()
                 data.payload.date = v.version
                 data.payload.builtIn = true
                 insert( changed, k )
-            end
 
+                local specID = data.payload.spec
+
+                if specID then
+                    local spec = rawget( p.specs, specID )
+                    if spec then
+                        if spec.package then
+                            local currPack = p.packs[ spec.package ]
+                            if not currPack or currPack.spec ~= specID then
+                                spec.package = k
+                            end
+                        else
+                            spec.package = k
+                        end
+                    end
+                end
+            end
         end
     end
 
