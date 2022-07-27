@@ -21,22 +21,22 @@ HandyNotes_MistsOfPandariaTreasuresDB = {
 		["Deathkyng - Blackrock"] = "Deathkyng - Blackrock",
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
+		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
+		["Byd - Blackrock"] = "Byd - Blackrock",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
-		["Dïo - Blackrock"] = "Dïo - Blackrock",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
 		["Xrth - Blackrock"] = "Xrth - Blackrock",
 		["Stylth - Blackrock"] = "Stylth - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
-		["Byd - Blackrock"] = "Byd - Blackrock",
+		["Dïo - Blackrock"] = "Dïo - Blackrock",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -80,21 +80,21 @@ HandyNotes_MistsOfPandariaTreasuresDB = {
 		},
 		["Byd - Mal'Ganis"] = {
 		},
-		["Eshidishi - Draenor"] = {
-		},
 		["Bonebender - Antonidas"] = {
 		},
-		["Nakrates - Antonidas"] = {
+		["Eshidishi - Draenor"] = {
+		},
+		["Byd - Blackrock"] = {
 		},
 		["Extinguish - Blackrock"] = {
 		},
-		["Dïo - Blackrock"] = {
+		["Slavictank - Blackrock"] = {
 		},
-		["Cakebender - Antonidas"] = {
+		["Magyc - Mal'Ganis"] = {
 		},
 		["Byd - Kazzak"] = {
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
 		},
 		["Dfgfxg - Blackrock"] = {
 		},
@@ -108,9 +108,9 @@ HandyNotes_MistsOfPandariaTreasuresDB = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
-		["Slavictank - Blackrock"] = {
+		["Dïo - Blackrock"] = {
 		},
-		["Byd - Blackrock"] = {
+		["Nakrates - Antonidas"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

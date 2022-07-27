@@ -15,7 +15,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
 		},
@@ -45,15 +45,15 @@ BigWigs3DB = {
 					["BigWigsAnchor_x"] = 1499.73590397829,
 					["spacing"] = 4,
 					["BigWigsEmphasizeAnchor_x"] = 1042.134507956478,
-					["BigWigsEmphasizeAnchor_width"] = 318.3333435058594,
 					["BigWigsEmphasizeAnchor_y"] = 424.1065920829788,
+					["BigWigsEmphasizeAnchor_width"] = 318.3333435058594,
 					["emphasizeTime"] = 20,
 				},
 			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -77,7 +77,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},

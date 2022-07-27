@@ -224,7 +224,7 @@ PremadeGroupsFilterState = {
 			["act"] = false,
 		},
 		["dps"] = {
-			["max"] = "1",
+			["max"] = "2",
 			["min"] = "",
 			["act"] = true,
 		},

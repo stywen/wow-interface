@@ -2,412 +2,16 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/silly", -- [1]
-		"/wave", -- [2]
-		"/aap", -- [3]
-		"/reload", -- [4]
-		"/ec", -- [5]
-		"/dance", -- [6]
-		"/invite Dfgh", -- [7]
-		"/played", -- [8]
+		"/reload", -- [1]
+		"/played", -- [2]
+		"/invite Dfgh", -- [3]
+		"/silly", -- [4]
+		"/dance", -- [5]
+		"/ec", -- [6]
+		"/aap", -- [7]
+		"/wave", -- [8]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"+", -- [1]
-			"Zuwahr-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zuwahr-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1, -- [11]
-			"Player-3686-09B4F58A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Zuwahr|r",
-			[51] = 1658311581,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"Hey ihr Lieben:) Unsere feste M+ Gruppe verkauft euch gerne günstig M+[15-20 Keys]! Oder auch KSM für das Mount. Nur auf Antonidas und nur für Gold! z.B. [M+15] für eure Weekly Kiste. /w me für mehr Info :)", -- [1]
-			"Liotasil-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Liotasil-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			5, -- [11]
-			"Player-3686-09C2FE05", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcLiotasil|r",
-			[51] = 1658327263,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"verkaufen |cffa335ee|Hitem:90655::::::::10:1455::::1:28:872:::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r  /w für preis", -- [1]
-			"Boatre-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Boatre-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			230, -- [11]
-			"Player-3686-09D5E3C9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc31d39Boatre|r",
-			[51] = 1658328095,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"      +3300 Team   Verkaufe    M+[14-22]  ---  Time garantie   ---   share loot   --- Spezifisch Schlüssel   ---  Armor stack  <<<  jetzt bereit zu gehen >>>", -- [1]
-			"Dívinewrath-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Dívinewrath-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			240, -- [11]
-			"Player-3686-09C51551", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Dívinewrath|r",
-			[51] = 1658328106,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"Hey ihr Lieben:) Unsere feste M+ Gruppe verkauft euch gerne günstig M+[15-20 Keys]! Oder auch KSM für das Mount. Nur auf Antonidas und nur für Gold! z.B. [M+15] für eure Weekly Kiste. /w me für mehr Info :)", -- [1]
-			"Liotasil-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Liotasil-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			250, -- [11]
-			"Player-3686-09C2FE05", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff006fdcLiotasil|r",
-			[51] = 1658328119,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"<Vorgefertigtes Team mit +3,2k Score> WtS <M+ 15-26 & KSM 10x15 & KSH 10x20 sehr günstig><Mehrlauf x4x8 M+15&20 haben Rabatt &kostenlosen> <SFo HC 11/11> <Kerkermei alle 30min> <Torghast||PVP||Lvlup> Für Weitere Informationen /w Me <nur Gold>", -- [1]
-			"Neueur-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Neueur-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			254, -- [11]
-			"Player-3686-09D5C882", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc59a6cNeueur|r",
-			[51] = 1658328133,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
-			"Jäge-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jäge-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			255, -- [11]
-			"Player-3686-09BC8B4A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffe7b09Jäge|r",
-			[51] = 1658328135,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"Eingespielte Gruppe verkauft M+15er Keys, sowie Tazavesh Hardmode & KSM /w me für weitere Infos.", -- [1]
-			"Chenks-Antonidas", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Chenks-Antonidas", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			257, -- [11]
-			"Player-3686-070D4C03", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Chenks|r",
-			[51] = 1658328143,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"Verkaufen |cffa335ee|Hitem:90655::::::::10:1455::::1:28:872:::::|h[Reins of the Thundering Ruby Cloud Serpent]|h|r für preis /w", -- [1]
-			"Boatre-Antonidas", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Boatre-Antonidas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			7, -- [10]
-			259, -- [11]
-			"Player-3686-09D5E3C9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Boatre|r",
-			[51] = 1658328157,
-			[50] = "CHAT_MSG_YELL",
-		}, -- [9]
-		{
-			"also machen wir nciht deinen pc?", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			395, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328663,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [10]
-		{
-			"wir könnten schon wenn du willst :)", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			401, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328683,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [11]
-		{
-			"wollte nur kurz mit nacer nen neuen char erstellen und spiel den char, bis er sich entschieden hat haha", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			410, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328709,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [12]
-		{
-			"mach mal nicht so als wuerden wir den PC fuer mich neu aufsetzen xD", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			416, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328739,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [13]
-		{
-			"das problem is grad, dass ich nur ne festplatte mit genügend speicher hab und 3 datein drauf die sich nicht kopieren lassen......", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			417, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328742,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [14]
-		{
-			"neue chars...?", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			418, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328743,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"ja just 4 fun, ich werd nicht auf ernst nen WL spielen lel", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			423, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328762,
-			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [16]
-		{
-			"ah why not xD", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			430, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328815,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [17]
-		{
-			"wie lassen sich nciht kopieren?", -- [1]
-			"|Kq3|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			431, -- [11]
-			false, -- [12]
-			3, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9WannaCry|r",
-			[51] = 1658328826,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [18]
 		{
 			"weil ich den paladin spielen will :D", -- [1]
 			"|Kq3|k", -- [2]
@@ -429,7 +33,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658328838,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [19]
+		}, -- [1]
 		{
 			"idk der dateiname ist zu lang LOL", -- [1]
 			"|Kq3|k", -- [2]
@@ -451,7 +55,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658328848,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [20]
+		}, -- [2]
 		{
 			"hast du den usb stick gemacht?", -- [1]
 			"|Kq3|k", -- [2]
@@ -473,7 +77,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658328924,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [21]
+		}, -- [3]
 		{
 			"nein eben nicht, muss dafür wieder die festplatte abusen", -- [1]
 			"|Kq3|k", -- [2]
@@ -495,7 +99,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658328951,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [22]
+		}, -- [4]
 		{
 			"so kenn ich dich gar nciht ", -- [1]
 			"|Kq3|k", -- [2]
@@ -517,7 +121,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658328969,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [23]
+		}, -- [5]
 		{
 			"?", -- [1]
 			"|Kq3|k", -- [2]
@@ -539,7 +143,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658328982,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [24]
+		}, -- [6]
 		{
 			"so unmotiviert das hinter dich zu bringen", -- [1]
 			"|Kq3|k", -- [2]
@@ -561,7 +165,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658329069,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [25]
+		}, -- [7]
 		{
 			"hahaha... ja jz siehst du mal meine faule seite '^^", -- [1]
 			"|Kq3|k", -- [2]
@@ -583,7 +187,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658330066,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [26]
+		}, -- [8]
 		{
 			"dacht ma gestern eh, never wird sie das morgen machen", -- [1]
 			"|Kq3|k", -- [2]
@@ -605,7 +209,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658330295,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [27]
+		}, -- [9]
 		{
 			"aaah hahaha", -- [1]
 			"|Kq3|k", -- [2]
@@ -627,7 +231,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658330413,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [28]
+		}, -- [10]
 		{
 			"aber eh gut, dass du mich so oft ansprichst, dadurch mach ich was dafür", -- [1]
 			"|Kq3|k", -- [2]
@@ -649,7 +253,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658330602,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [29]
+		}, -- [11]
 		{
 			"mach noch die q fertig, aber können schon disord", -- [1]
 			"|Kq1|k", -- [2]
@@ -671,7 +275,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658421676,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [30]
+		}, -- [12]
 		{
 			"oke", -- [1]
 			"|Kq1|k", -- [2]
@@ -693,7 +297,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9WannaCry|r",
 			[51] = 1658422245,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [31]
+		}, -- [13]
 		{
 			"WTS 15 - 25 keys, garantiert intime! Fairer preis für 10×15/10×20) ! Wir pushen deinen Key zum fairen Preis! Wir sind über 4000 Keys in shadowlands gelaufen! Hast du Interesse? Wir sind bereit deinen oder unseren Key zu laufen /w me :)", -- [1]
 			"Freeroud-Antonidas", -- [2]
@@ -715,7 +319,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freeroud|r",
 			[51] = 1658439382,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [14]
 		{
 			"Season 4 und Dragonflight stehen vor der Tür und du willst voll durchstarten? Hast aber keine Freunde und niemand mag dich? TheNewDawn rekrutiert für M+ (Rio bis 3,5k) und Raid (11/11hc). Wir tun wenigstens so, als ob wir dich mögen!", -- [1]
 			"Whoistheboon-Antonidas", -- [2]
@@ -737,7 +341,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Whoistheboon|r",
 			[51] = 1658439433,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [15]
 		{
 			"Für Samstag 20 Uhr suchen wir noch Mitspieler für den BFA Raid: |cffffff00|Hachievement:13315:Player-3686-046A8B25:0:0:0:-1:335:0:0:0|h[Ruhm des Schlachtzüglers von Dazar'alor]|h|r und die Mythisch Killerfolge. (Aktuell 15/20; Vorraussetzung: Level 60) /w me", -- [1]
 			"Sleec-Antonidas", -- [2]
@@ -759,7 +363,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sleec|r",
 			[51] = 1658439462,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [16]
 		{
 			"WTS 15 - 25 keys, garantiert intime! Fairer preis für 10×15/10×20) ! Wir pushen deinen Key zum fairen Preis! Wir sind über 4000 Keys in shadowlands gelaufen! Hast du Interesse? Wir sind bereit deinen oder unseren Key zu laufen /w me :)", -- [1]
 			"Freeroud-Antonidas", -- [2]
@@ -781,7 +385,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freeroud|r",
 			[51] = 1658439596,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [17]
 		{
 			"Für Samstag 20 Uhr suchen wir noch Mitspieler für den BFA Raid: |cffffff00|Hachievement:13315:Player-3686-046A8B25:0:0:0:-1:335:0:0:0|h[Ruhm des Schlachtzüglers von Dazar'alor]|h|r und die Mythisch Killerfolge. (Aktuell 15/20; Vorraussetzung: Level 60) /w me", -- [1]
 			"Sleec-Antonidas", -- [2]
@@ -803,7 +407,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Sleec|r",
 			[51] = 1658439690,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [18]
 		{
 			"WTS 15 - 25 keys, garantiert intime! Fairer preis für 10×15/10×20) ! Wir pushen deinen Key zum fairen Preis! Wir sind über 4000 Keys in shadowlands gelaufen! Hast du Interesse? Wir sind bereit deinen oder unseren Key zu laufen /w me :)", -- [1]
 			"Freeroud-Antonidas", -- [2]
@@ -825,7 +429,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freeroud|r",
 			[51] = 1658439818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [19]
 		{
 			"Season 4 und Dragonflight stehen vor der Tür und du willst voll durchstarten? Hast aber keine Freunde und niemand mag dich? TheNewDawn rekrutiert für M+ (Rio bis 3,5k) und Raid (11/11hc). Wir tun wenigstens so, als ob wir dich mögen!", -- [1]
 			"Whoistheboon-Antonidas", -- [2]
@@ -847,7 +451,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Whoistheboon|r",
 			[51] = 1658439942,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [20]
 		{
 			"[FIS] Interrupted Hojicha's |cff71d5ff|Hspell:19750:0|h[Flash of Light]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -869,7 +473,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658441222,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [21]
 		{
 			"|cffffff00Goldshire is under attack!|r", -- [1]
 			"", -- [2]
@@ -891,7 +495,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1658525272,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [22]
 		{
 			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
 			"Jäge-Antonidas", -- [2]
@@ -913,7 +517,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jäge|r",
 			[51] = 1658529645,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [23]
 		{
 			"WTS 15 - 25 keys, garantiert intime! Fairer preis für 10×15/10×20) ! Wir pushen deinen Key zum fairen Preis! Wir sind über 4000 Keys in shadowlands gelaufen! Hast du Interesse? Wir sind bereit deinen oder unseren Key zu laufen /w me :)", -- [1]
 			"Freeroud-Antonidas", -- [2]
@@ -935,7 +539,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freeroud|r",
 			[51] = 1658529735,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [24]
 		{
 			"(3.1K-Gildenteam bereit) Möchte M+ 15-20-KSM--KSH--(vollständiger Rüstungsstapel-Stoff, Kettenhemd, Platte, Leder) 20 % Rabatt verkaufen-Multiruns haben großen Rabatt-auch LVL-Boost---torghast -Nur für Gold, flüstern Sie mir für Informationen zu", -- [1]
 			"Unsullied-Antonidas", -- [2]
@@ -957,7 +561,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaUnsullied|r",
 			[51] = 1658532306,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [25]
 		{
 			"<Verkaufe> M+ 10-24 + KSM + KSH  / frei armorestack / Rabatt für 4x15 /|cff66bbff|Hjournal:0:1195:14|h[Sepulcher of the First Ones]|h|r HC / MM > / Jailer HC / Levelaufstieg 50-60 > Torghast >PVP 0-2400 / bester Preis /w für weitere Informationen", -- [1]
 			"Kloudsinger-Antonidas", -- [2]
@@ -979,7 +583,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Kloudsinger|r",
 			[51] = 1658532593,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [26]
 		{
 			"WTS 15 - 25 keys, garantiert intime! Fairer preis für 10×15/10×20) ! Wir pushen deinen Key zum fairen Preis! Wir sind über 4000 Keys in shadowlands gelaufen! Hast du Interesse? Wir sind bereit deinen oder unseren Key zu laufen /w me :)", -- [1]
 			"Freeroud-Antonidas", -- [2]
@@ -1001,7 +605,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freeroud|r",
 			[51] = 1658532850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [27]
 		{
 			"<Verkaufe> M+ 10-24 + KSM + KSH  / frei armorestack / Rabatt für 4x15 /|cff66bbff|Hjournal:0:1195:14|h[Sepulcher of the First Ones]|h|r HC / MM > / Jailer HC / Levelaufstieg 50-60 > Torghast >PVP 0-2400 / bester Preis /w für weitere Informationen", -- [1]
 			"Kloudsinger-Antonidas", -- [2]
@@ -1023,7 +627,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Kloudsinger|r",
 			[51] = 1658532945,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [28]
 		{
 			"streamer da der ksm verschenkt? :D", -- [1]
 			"Valarjar-Antonidas", -- [2]
@@ -1045,7 +649,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cValarjar|r",
 			[51] = 1658569796,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [29]
 		{
 			"WTS 15 - 25 keys, garantiert intime! Fairer preis für 10×15/10×20) ! Wir pushen deinen Key zum fairen Preis! Wir sind über 4000 Keys in shadowlands gelaufen! Hast du Interesse? Wir sind bereit deinen oder unseren Key zu laufen /w me :)", -- [1]
 			"Freeroud-Antonidas", -- [2]
@@ -1067,7 +671,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Freeroud|r",
 			[51] = 1658570903,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [30]
 		{
 			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
 			"Jäge-Antonidas", -- [2]
@@ -1089,7 +693,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jäge|r",
 			[51] = 1658570913,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [31]
 		{
 			"[FIS] Interrupted Hatecoil Harpooner's |cff71d5ff|Hspell:207059:0|h[Sashj'tar Harpoon]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1111,7 +715,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571201,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [50]
+		}, -- [32]
 		{
 			"[FIS] Interrupted Naga Brute's |cff71d5ff|Hspell:182359:0|h[Massive Crash]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1133,7 +737,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571246,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [51]
+		}, -- [33]
 		{
 			"[FIS] Interrupted Hatecoil Stormcaller's |cff71d5ff|Hspell:182333:0|h[Localized Storm]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1155,7 +759,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571259,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [52]
+		}, -- [34]
 		{
 			"[FIS] Interrupted Hatecoil Stormcaller's |cff71d5ff|Hspell:157534:0|h[Call Lightning]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1177,7 +781,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571266,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [53]
+		}, -- [35]
 		{
 			"[FIS] Interrupted Naga Brute's |cff71d5ff|Hspell:182359:0|h[Massive Crash]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1199,7 +803,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571279,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [54]
+		}, -- [36]
 		{
 			"[FIS] Interrupted Hatecoil Stormcaller's |cff71d5ff|Hspell:182333:0|h[Localized Storm]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1221,7 +825,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571494,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [55]
+		}, -- [37]
 		{
 			"[FIS] Interrupted Grulk's |cff71d5ff|Hspell:182359:0|h[Massive Crash]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1243,7 +847,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571633,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [56]
+		}, -- [38]
 		{
 			"[FIS] Interrupted Grulk's |cff71d5ff|Hspell:182359:0|h[Massive Crash]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1265,7 +869,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571671,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [57]
+		}, -- [39]
 		{
 			"[FIS] Interrupted Hatecoil Spitespeaker's |cff71d5ff|Hspell:157534:0|h[Call Lightning]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1287,7 +891,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658571790,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [58]
+		}, -- [40]
 		{
 			"[FIS] Interrupted Legion Skyterror's |cff71d5ff|Hspell:182739:0|h[Rancor]|h|r", -- [1]
 			"Slavicpriest-Antonidas", -- [2]
@@ -1309,7 +913,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Slavicpriest|r",
 			[51] = 1658572443,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [59]
+		}, -- [41]
 		{
 			"<Murlocs Stole My Bîke> 11/11Hc 4/11 Mythic. Aktuell arbeiten wir an einem 2. Mythisch Raid (Mi/Fr) daher suchen wir aktuell nach DD´s. Range (Mage/Eule/Hexer) und Melee  (Monk/DK/Warri)! Strukturierte Gilde mit vielen weiteren Aktivitäten.", -- [1]
 			"Æmborn-Antonidas", -- [2]
@@ -1331,7 +935,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Æmborn|r",
 			[51] = 1658572557,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [42]
 		{
 			"Verkaufe das Mount \"Knochenweißer Urraptor\" und den dazu gehörigen Erfolg [Er hat rausgefunden, wie man Türen öffnet...] /w me bei Interesse oder für Informationen", -- [1]
 			"Bankowskaja-Antonidas", -- [2]
@@ -1353,7 +957,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBankowskaja|r",
 			[51] = 1658572612,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [43]
 		{
 			"<Murlocs Stole My Bîke> 11/11Hc 4/11 Mythic. Aktuell arbeiten wir an einem 2. Mythisch Raid (Mi/Fr) daher suchen wir aktuell nach DD´s. Range (Mage/Eule/Hexer) und Melee  (Monk/DK/Warri)! Strukturierte Gilde mit vielen weiteren Aktivitäten.", -- [1]
 			"Lifarya-Antonidas", -- [2]
@@ -1375,7 +979,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Lifarya|r",
 			[51] = 1658572715,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [44]
 		{
 			"Verkaufe das Mount \"Knochenweißer Urraptor\" und den dazu gehörigen Erfolg [Er hat rausgefunden, wie man Türen öffnet...] /w me bei Interesse oder für Informationen", -- [1]
 			"Bankowskaja-Antonidas", -- [2]
@@ -1397,7 +1001,7 @@ ElvCharacterDB = {
 			[52] = "|cfffefefeBankowskaja|r",
 			[51] = 1658572724,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [45]
 		{
 			"nice name", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1419,7 +1023,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658574902,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [46]
 		{
 			"thanks ^^'", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1441,7 +1045,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658574927,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [65]
+		}, -- [47]
 		{
 			"are you new?", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1463,7 +1067,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575009,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [66]
+		}, -- [48]
 		{
 			"y", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1485,7 +1089,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575020,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [67]
+		}, -- [49]
 		{
 			"ahh welcome to the addiction", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1507,7 +1111,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575046,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [68]
+		}, -- [50]
 		{
 			"its not my first :D", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1529,7 +1133,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575075,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [69]
+		}, -- [51]
 		{
 			"have you planed on doing mythic plus dungeons or raids?", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1551,7 +1155,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575085,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [70]
+		}, -- [52]
 		{
 			"ahahahahah", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1573,7 +1177,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575088,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [71]
+		}, -- [53]
 		{
 			"maybe later for now i grind my first Char to 60 and try to farm some gear for him ", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1595,7 +1199,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575118,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [72]
+		}, -- [54]
 		{
 			"if you want i can add you and we ll play mythic plus i usually play with my premates but we always look for new people", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1617,7 +1221,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575201,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [73]
+		}, -- [55]
 		{
 			"freundliche Gruppe, die Sell M+ Runs intime oder wöchentlich anbieten <+15->+25> . 4x15 . 10x15 . 10x20 -Torghasts alle Schichten- Rabatt für Multi Runs Whisper Me für weitere Informationen", -- [1]
 			"Awlice-Antonidas", -- [2]
@@ -1639,7 +1243,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaAwlice|r",
 			[51] = 1658575280,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [56]
 		{
 			"VK Keys<15-23> ***  M+15 <Bündeln> 4x15=360K mit armorestack   ***  Raid <11/11 HC> oder Tier bosses Oder Curve  *** VK Torghast Layer<1-16> <Soul Cinder> *** <PVP>***<Levelup> *** < Team > +3.3k /w für weitere Informationen*** [Rabatt +20 ]***", -- [1]
 			"Doómhammer-Antonidas", -- [2]
@@ -1661,7 +1265,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDoómhammer|r",
 			[51] = 1658575295,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [57]
 		{
 			"sure why not ^^ but now is time a bit rar for my, bute later on no problem :)", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1683,7 +1287,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575305,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [76]
+		}, -- [58]
 		{
 			"*for me", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1705,7 +1309,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575338,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [77]
+		}, -- [59]
 		{
 			"verkaufe M+[10-25] Time garantie und Alles loots für dich [ KSM 20x15 für Mount ] [ KSH 20 x 20 für 278 Conduits & +3000 Rio ] /w für weitere Informationen, fairer Preis [nur Gold] ", -- [1]
 			"Jäge-Antonidas", -- [2]
@@ -1727,7 +1331,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Jäge|r",
 			[51] = 1658575359,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [60]
 		{
 			"Unsere Gilde verkauft<15-22>günstig und garantiert in der vorgegebenen Zeit. Individuellen Key/Armor nach Wünsch. Akzeptiert wird nur Gold./w für mehr Infos", -- [1]
 			"Exå-Antonidas", -- [2]
@@ -1749,7 +1353,7 @@ ElvCharacterDB = {
 			[52] = "|cfff38bb9Exå|r",
 			[51] = 1658575360,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [61]
 		{
 			"sure no worries we aint in a rush :D", -- [1]
 			"Thiccthights-Antonidas", -- [2]
@@ -1771,7 +1375,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Thiccthights|r",
 			[51] = 1658575365,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [80]
+		}, -- [62]
 		{
 			"bruh", -- [1]
 			"|Kq2|k", -- [2]
@@ -1793,7 +1397,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575379,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [81]
+		}, -- [63]
 		{
 			"i need help", -- [1]
 			"|Kq2|k", -- [2]
@@ -1815,7 +1419,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575387,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [82]
+		}, -- [64]
 		{
 			"?", -- [1]
 			"|Kq2|k", -- [2]
@@ -1837,7 +1441,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575387,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [83]
+		}, -- [65]
 		{
 			"mit?", -- [1]
 			"|Kq2|k", -- [2]
@@ -1859,7 +1463,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575391,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [84]
+		}, -- [66]
 		{
 			"will diese undead mount wieder farmen", -- [1]
 			"|Kq2|k", -- [2]
@@ -1881,7 +1485,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575399,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [85]
+		}, -- [67]
 		{
 			"xD", -- [1]
 			"|Kq2|k", -- [2]
@@ -1903,7 +1507,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575405,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [86]
+		}, -- [68]
 		{
 			"bist noch nicht genug gegeared oder? :D", -- [1]
 			"|Kq2|k", -- [2]
@@ -1925,7 +1529,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575410,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [87]
+		}, -- [69]
 		{
 			"ajd ich komm mit main", -- [1]
 			"|Kq2|k", -- [2]
@@ -1947,7 +1551,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575410,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [88]
+		}, -- [70]
 		{
 			"oh ok", -- [1]
 			"|Kq2|k", -- [2]
@@ -1969,7 +1573,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575417,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [89]
+		}, -- [71]
 		{
 			"oder meinst du nciht den dungeon?", -- [1]
 			"|Kq2|k", -- [2]
@@ -1991,7 +1595,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575419,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [90]
+		}, -- [72]
 		{
 			"ja", -- [1]
 			"|Kq2|k", -- [2]
@@ -2013,7 +1617,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575437,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [91]
+		}, -- [73]
 		{
 			"aso können mit horde char gemeinsam oder", -- [1]
 			"|Kq2|k", -- [2]
@@ -2035,7 +1639,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575453,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [92]
+		}, -- [74]
 		{
 			"yes", -- [1]
 			"|Kq2|k", -- [2]
@@ -2057,7 +1661,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575461,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [93]
+		}, -- [75]
 		{
 			"bruder wie komme ich nach zuldazar als allianzler :D", -- [1]
 			"|Kq2|k", -- [2]
@@ -2079,7 +1683,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658575479,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [94]
+		}, -- [76]
 		{
 			"kannst du mich durch die thorgast daily ziehen?", -- [1]
 			"|Kq2|k", -- [2]
@@ -2101,7 +1705,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Zelforacle|r",
 			[51] = 1658577966,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [95]
+		}, -- [77]
 		{
 			"VK Keys<15-23> ***  M+15 <Bündeln> 4x15 mit armorestack   ***  Raid <11/11 HC> oder Tier bosses Oder Curve  *** VK Torghast Layer<1-16> <Soul Cinder> *** <PVP>***<Levelup> *** < Team > +3.3k /w für weitere Informationen*** [Rabatt +20 ]***", -- [1]
 			"Doómhammer-Antonidas", -- [2]
@@ -2123,7 +1727,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcDoómhammer|r",
 			[51] = 1658599453,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [78]
 		{
 			"(3.1K-Gildenteam bereit) Möchte M+ 15-20-KSM--KSH--(vollständiger Rüstungsstapel-Stoff, Kettenhemd, Platte, Leder) 20 % Rabatt verkaufen-Multiruns haben großen Rabatt-auch LVL-Boost---torghast -Nur für Gold, flüstern Sie mir für Informationen zu", -- [1]
 			"Unsullied-Antonidas", -- [2]
@@ -2145,7 +1749,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaUnsullied|r",
 			[51] = 1658599463,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [79]
 		{
 			"<Verkaufe> M+ 10-24 + KSM + KSH  / frei armorestack / Rabatt für 4x15 /|cff66bbff|Hjournal:0:1195:14|h[Sepulcher of the First Ones]|h|r HC / MM > / Jailer HC / Levelaufstieg 50-60 > Torghast >PVP 0-2400 / bester Preis /w für weitere Informationen", -- [1]
 			"Kloudsinger-Antonidas", -- [2]
@@ -2167,7 +1771,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Kloudsinger|r",
 			[51] = 1658599516,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [80]
 		{
 			"WTS M+15>25 in der Zeit +KOSTENLOSER Rüstungsstapel<Panzer/Platte/Leder/Stoff> +KOSTENLOSER Spezifischer Schlüssel || Bester Rabatt High Keys & 4xM+15 & 4xM+20||KSM  sehr günstig||KSH  sehr günstig||SFO Full Clear 11/11HC & Kerkermei ||Nur Gold /w ich", -- [1]
 			"Ballard-Antonidas", -- [2]
@@ -2189,6 +1793,402 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Ballard|r",
 			[51] = 1658599516,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"[FIS] Interrupted Deadsoul Spirit's |cff71d5ff|Hspell:329383:0|h[Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			391, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833345,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [82]
+		{
+			"Kicked Deadsoul Spirit's |cff71d5ff|Hspell:329383:0|h[Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			392, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833345,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"[FIS] Interrupted Deadsoul Spirit's |cff71d5ff|Hspell:329383:0|h[Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			413, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833411,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [84]
+		{
+			"Kicked Deadsoul Spirit's |cff71d5ff|Hspell:329383:0|h[Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			414, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833411,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"Kicked Deadsoul Echo's |cff71d5ff|Hspell:294362:0|h[Wave of Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			424, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833431,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [86]
+		{
+			"[FIS] Interrupted Deadsoul Echo's |cff71d5ff|Hspell:294362:0|h[Wave of Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			425, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833431,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [87]
+		{
+			"[FIS] Interrupted Deadsoul Echo's |cff71d5ff|Hspell:294362:0|h[Wave of Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			428, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833442,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [88]
+		{
+			"Kicked Deadsoul Echo's |cff71d5ff|Hspell:294362:0|h[Wave of Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			429, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833442,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"Kicked Deadsoul Echo's |cff71d5ff|Hspell:294362:0|h[Wave of Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			430, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833447,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"[FIS] Interrupted Deadsoul Echo's |cff71d5ff|Hspell:294362:0|h[Wave of Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			431, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833447,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [91]
+		{
+			"[FIS] Interrupted Deadsoul Echo's |cff71d5ff|Hspell:294362:0|h[Wave of Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			433, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833453,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [92]
+		{
+			"Kicked Deadsoul Echo's |cff71d5ff|Hspell:294362:0|h[Wave of Suffering]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			434, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833453,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"Kicked Fog Dweller's |cff71d5ff|Hspell:336556:0|h[Concealing Fog]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			437, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833465,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [94]
+		{
+			"[FIS] Interrupted Fog Dweller's |cff71d5ff|Hspell:336556:0|h[Concealing Fog]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			438, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833465,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [95]
+		{
+			"[FIS] Interrupted Deadsoul Scavenger's |cff71d5ff|Hspell:294517:0|h[Phasing Roar]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			462, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833648,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [96]
+		{
+			"Kicked Deadsoul Scavenger's |cff71d5ff|Hspell:294517:0|h[Phasing Roar]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			463, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833648,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"Kicked Empowered Worldbreaker's |cff71d5ff|Hspell:359734:0|h[Cratering Blast]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			494, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833808,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"[FIS] Interrupted Empowered Worldbreaker's |cff71d5ff|Hspell:359734:0|h[Cratering Blast]|h|r", -- [1]
+			"Slavicpriest-Antonidas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Slavicpriest-Antonidas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			495, -- [11]
+			"Player-3686-09D56676", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Slavicpriest|r",
+			[51] = 1658833808,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [99]
 	},
 }

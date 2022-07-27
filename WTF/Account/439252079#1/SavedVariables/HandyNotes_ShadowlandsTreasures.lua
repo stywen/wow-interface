@@ -24,23 +24,23 @@ HandyNotes_ShadowlandsTreasuresDB = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Byd - Blackrock"] = "Byd - Blackrock",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -90,7 +90,7 @@ HandyNotes_ShadowlandsTreasuresDB = {
 		},
 		["Byd - Blackrock"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Byd - Aegwynn"] = {
 		},
 		["Nakrates - Antonidas"] = {
 		},
@@ -102,17 +102,17 @@ HandyNotes_ShadowlandsTreasuresDB = {
 		},
 		["Nofriendz - Blackrock"] = {
 		},
-		["Cakebender - Antonidas"] = {
+		["Magyc - Mal'Ganis"] = {
 		},
 		["Byd - Kazzak"] = {
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
 		},
-		["Eshidishii - Blackrock"] = {
+		["Eurotas - Blackrock"] = {
 		},
 		["Starplatïnum - Blackrock"] = {
 		},
-		["Eurotas - Blackrock"] = {
+		["Eshidishii - Blackrock"] = {
 		},
 		["Kyng - Antonidas"] = {
 		},
@@ -122,7 +122,7 @@ HandyNotes_ShadowlandsTreasuresDB = {
 		},
 		["Bonebender - Antonidas"] = {
 		},
-		["Byd - Aegwynn"] = {
+		["Orthodoxtank - Antonidas"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

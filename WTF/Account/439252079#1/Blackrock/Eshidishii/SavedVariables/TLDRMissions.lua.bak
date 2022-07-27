@@ -1,4 +1,999 @@
 
 TLDRMissionsOptions = nil
 TLDRMissionsLogging = {
+	[2296] = {
+		["missionID"] = 2296,
+		["addonVersion"] = "9.2-102",
+		["followers"] = {
+			{
+				["maxHP"] = 2205,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 5,
+						["spellID"] = 81,
+					}, -- [1]
+				},
+				["xp"] = 1250,
+				["boardIndex"] = 2,
+				["level"] = 39,
+				["predictedFinalHP"] = -99,
+				["name"] = "Bron",
+				["levelXP"] = 7100,
+				["baseAttack"] = 147,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 2205,
+				["followerID"] = "0x000000006F6B7617",
+			}, -- [1]
+			{
+				["maxHP"] = 945,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 3,
+						["spellID"] = 314,
+					}, -- [1]
+				},
+				["xp"] = 150,
+				["boardIndex"] = 3,
+				["level"] = 17,
+				["predictedFinalHP"] = -76,
+				["name"] = "Cromas the Mystic",
+				["levelXP"] = 1200,
+				["baseAttack"] = 108,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 945,
+				["followerID"] = "0x000000006F6B761D",
+			}, -- [2]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 4,
+				["level"] = 14,
+				["predictedFinalHP"] = -20,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [3]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 0,
+				["level"] = 14,
+				["predictedFinalHP"] = -67,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [4]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 1,
+				["level"] = 14,
+				["predictedFinalHP"] = 34,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [5]
+		},
+		["environmentEffect"] = {
+			["name"] = "The Maw",
+			["autoCombatSpellInfo"] = {
+				["description"] = "Powerful death magic rolls across the Planes of Torment, causing a stacking damage over time effect to all of your party.",
+				["autoCombatSpellID"] = 300,
+				["duration"] = 3,
+				["previewMask"] = 0,
+				["name"] = "Wave of Eternal Death",
+				["spellTutorialFlag"] = 0,
+				["cooldown"] = 1,
+				["schoolMask"] = 32,
+				["icon"] = 136160,
+				["hasThornsEffect"] = false,
+			},
+		},
+		["enemies"] = {
+			{
+				["maxHP"] = 1550,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 224,
+					}, -- [1]
+				},
+				["name"] = "Crucible Seeker",
+				["boardIndex"] = 6,
+				["baseAttack"] = 100,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1550,
+				["followerID"] = -1,
+			}, -- [1]
+			{
+				["maxHP"] = 1550,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 224,
+					}, -- [1]
+				},
+				["name"] = "Crucible Seeker",
+				["boardIndex"] = 7,
+				["baseAttack"] = 100,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1550,
+				["followerID"] = -2,
+			}, -- [2]
+			{
+				["maxHP"] = 1550,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 226,
+					}, -- [1]
+				},
+				["name"] = "Mawsworn Interceptor",
+				["boardIndex"] = 9,
+				["baseAttack"] = 115,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1550,
+				["followerID"] = -3,
+			}, -- [3]
+			{
+				["maxHP"] = 1550,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 226,
+					}, -- [1]
+				},
+				["name"] = "Mawsworn Interceptor",
+				["boardIndex"] = 12,
+				["baseAttack"] = 115,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1550,
+				["followerID"] = -4,
+			}, -- [4]
+			{
+				["maxHP"] = 2300,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 4,
+						["spellID"] = 231,
+					}, -- [1]
+				},
+				["name"] = "Mawsworn Protector",
+				["boardIndex"] = 11,
+				["baseAttack"] = 100,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 2300,
+				["followerID"] = -5,
+			}, -- [5]
+		},
+	},
+	[2235] = {
+		["missionID"] = 2235,
+		["followers"] = {
+			{
+				["maxHP"] = 880,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 2,
+						["spellID"] = 244,
+					}, -- [1]
+				},
+				["xp"] = 150,
+				["boardIndex"] = 2,
+				["level"] = 12,
+				["predictedFinalHP"] = 541,
+				["name"] = "Meatball",
+				["levelXP"] = 700,
+				["baseAttack"] = 66,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 880,
+				["followerID"] = "0x000000007106326A",
+			}, -- [1]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 3,
+				["level"] = 14,
+				["predictedFinalHP"] = -6,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [2]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 4,
+				["level"] = 14,
+				["predictedFinalHP"] = 295,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [3]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 0,
+				["level"] = 14,
+				["predictedFinalHP"] = 360,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [4]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 1,
+				["level"] = 14,
+				["predictedFinalHP"] = 360,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-102",
+		["enemies"] = {
+			{
+				["maxHP"] = 1900,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 5,
+						["spellID"] = 169,
+					}, -- [1]
+				},
+				["name"] = "Invading Riftkeeper",
+				["boardIndex"] = 6,
+				["baseAttack"] = 65,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1900,
+				["followerID"] = -1,
+			}, -- [1]
+			{
+				["maxHP"] = 1900,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 5,
+						["spellID"] = 169,
+					}, -- [1]
+				},
+				["name"] = "Invading Riftkeeper",
+				["boardIndex"] = 7,
+				["baseAttack"] = 65,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1900,
+				["followerID"] = -2,
+			}, -- [2]
+		},
+	},
+	[2180] = {
+		["missionID"] = 2180,
+		["followers"] = {
+			{
+				["maxHP"] = 525,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 3,
+						["spellID"] = 80,
+					}, -- [1]
+				},
+				["xp"] = 150,
+				["boardIndex"] = 2,
+				["level"] = 11,
+				["predictedFinalHP"] = 417,
+				["name"] = "Apolon",
+				["levelXP"] = 600,
+				["baseAttack"] = 105,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 525,
+				["followerID"] = "0x000000006F6B7616",
+			}, -- [1]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 3,
+				["level"] = 14,
+				["predictedFinalHP"] = -72,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [2]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 4,
+				["level"] = 14,
+				["predictedFinalHP"] = -36,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [3]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 0,
+				["level"] = 14,
+				["predictedFinalHP"] = 360,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [4]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 1,
+				["level"] = 14,
+				["predictedFinalHP"] = 360,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-102",
+		["enemies"] = {
+			{
+				["maxHP"] = 4560,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 1,
+						["spellID"] = 66,
+					}, -- [1]
+				},
+				["name"] = "Dark Goliath",
+				["boardIndex"] = 7,
+				["baseAttack"] = 72,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 4560,
+				["followerID"] = -1,
+			}, -- [1]
+		},
+	},
+	[2286] = {
+		["missionID"] = 2286,
+		["followers"] = {
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 2,
+				["level"] = 14,
+				["predictedFinalHP"] = -9,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [1]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 3,
+				["level"] = 14,
+				["predictedFinalHP"] = -25,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [2]
+			{
+				["maxHP"] = 840,
+				["spells"] = {
+					{
+						["duration"] = 1,
+						["cooldown"] = 2,
+						["spellID"] = 46,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 4,
+				["level"] = 14,
+				["predictedFinalHP"] = -68,
+				["name"] = "Kyrian Phalanx",
+				["levelXP"] = 1,
+				["baseAttack"] = 48,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 840,
+				["followerID"] = "0xFFFFFFFFFFFFFFFE",
+			}, -- [3]
+			{
+				["maxHP"] = 1200,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 3,
+						["spellID"] = 315,
+					}, -- [1]
+				},
+				["xp"] = 6450,
+				["boardIndex"] = 0,
+				["level"] = 38,
+				["predictedFinalHP"] = 146,
+				["name"] = "Hermestes",
+				["levelXP"] = 6700,
+				["baseAttack"] = 240,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 1200,
+				["followerID"] = "0x000000006F6B761C",
+			}, -- [4]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 1,
+				["level"] = 14,
+				["predictedFinalHP"] = 227,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-102",
+		["enemies"] = {
+			{
+				["maxHP"] = 4240,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 274,
+					}, -- [1]
+				},
+				["name"] = "Decadious",
+				["boardIndex"] = 6,
+				["baseAttack"] = 92,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 4240,
+				["followerID"] = -1,
+			}, -- [1]
+			{
+				["maxHP"] = 1440,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 211,
+					}, -- [1]
+				},
+				["name"] = "Consuming Rancor",
+				["boardIndex"] = 10,
+				["baseAttack"] = 67,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1440,
+				["followerID"] = -2,
+			}, -- [2]
+			{
+				["maxHP"] = 1440,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 4,
+						["spellID"] = 211,
+					}, -- [1]
+				},
+				["name"] = "Consuming Rancor",
+				["boardIndex"] = 11,
+				["baseAttack"] = 67,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 1440,
+				["followerID"] = -3,
+			}, -- [3]
+		},
+	},
+	[2271] = {
+		["missionID"] = 2271,
+		["followers"] = {
+			{
+				["maxHP"] = 690,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 0,
+						["spellID"] = 313,
+					}, -- [1]
+				},
+				["xp"] = 550,
+				["boardIndex"] = 2,
+				["level"] = 13,
+				["predictedFinalHP"] = 445,
+				["name"] = "Auric Spiritguide",
+				["levelXP"] = 800,
+				["baseAttack"] = 92,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 690,
+				["followerID"] = "0x000000006F6B761E",
+			}, -- [1]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 3,
+				["level"] = 14,
+				["predictedFinalHP"] = 360,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [2]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 4,
+				["level"] = 14,
+				["predictedFinalHP"] = -43,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [3]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 0,
+				["level"] = 14,
+				["predictedFinalHP"] = 49,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [4]
+			{
+				["maxHP"] = 360,
+				["spells"] = {
+					{
+						["duration"] = 0,
+						["cooldown"] = 3,
+						["spellID"] = 50,
+					}, -- [1]
+				},
+				["xp"] = 0,
+				["boardIndex"] = 1,
+				["level"] = 14,
+				["predictedFinalHP"] = -61,
+				["name"] = "Kyrian Halberdier",
+				["levelXP"] = 1,
+				["baseAttack"] = 96,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 11,
+				},
+				["HP"] = 360,
+				["followerID"] = "0xFFFFFFFFFFFFFFFF",
+			}, -- [5]
+		},
+		["addonVersion"] = "9.2-102",
+		["enemies"] = {
+			{
+				["maxHP"] = 1310,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 4,
+						["spellID"] = 275,
+					}, -- [1]
+				},
+				["name"] = "Zoliramus Gatekeeper",
+				["boardIndex"] = 6,
+				["baseAttack"] = 53,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 1310,
+				["followerID"] = -1,
+			}, -- [1]
+			{
+				["maxHP"] = 710,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 3,
+						["spellID"] = 276,
+					}, -- [1]
+				},
+				["name"] = "Rot Flinger",
+				["boardIndex"] = 5,
+				["baseAttack"] = 53,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 710,
+				["followerID"] = -2,
+			}, -- [2]
+			{
+				["maxHP"] = 710,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 3,
+						["spellID"] = 276,
+					}, -- [1]
+				},
+				["name"] = "Rot Flinger",
+				["boardIndex"] = 7,
+				["baseAttack"] = 53,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 710,
+				["followerID"] = -3,
+			}, -- [3]
+			{
+				["maxHP"] = 710,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 3,
+						["spellID"] = 276,
+					}, -- [1]
+				},
+				["name"] = "Rot Flinger",
+				["boardIndex"] = 12,
+				["baseAttack"] = 53,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 710,
+				["followerID"] = -4,
+			}, -- [4]
+			{
+				["maxHP"] = 1310,
+				["spells"] = {
+					{
+						["duration"] = 2,
+						["cooldown"] = 4,
+						["spellID"] = 275,
+					}, -- [1]
+				},
+				["name"] = "Zoliramus Gatekeeper",
+				["boardIndex"] = 11,
+				["baseAttack"] = 53,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 1310,
+				["followerID"] = -5,
+			}, -- [5]
+			{
+				["maxHP"] = 710,
+				["spells"] = {
+					{
+						["duration"] = 3,
+						["cooldown"] = 3,
+						["spellID"] = 276,
+					}, -- [1]
+				},
+				["name"] = "Rot Flinger",
+				["boardIndex"] = 10,
+				["baseAttack"] = 53,
+				["autoAttack"] = {
+					["duration"] = 0,
+					["cooldown"] = 0,
+					["spellID"] = 15,
+				},
+				["HP"] = 710,
+				["followerID"] = -6,
+			}, -- [6]
+		},
+	},
 }

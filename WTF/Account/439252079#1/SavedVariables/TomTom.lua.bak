@@ -24,23 +24,23 @@ TomTomDB = {
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
 		["Byd - Blackrock"] = "Default",
-		["Byd - Aegwynn"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 		["Eshidishi - Draenor"] = "Default",
 		["Bonebender - Antonidas"] = "Default",
 		["Slavicpriest - Antonidas"] = "Default",
 		["Extinguish - Blackrock"] = "Default",
 		["Nofriendz - Blackrock"] = "Default",
-		["Magyc - Mal'Ganis"] = "Default",
-		["Byd - Kazzak"] = "Default",
 		["Cakebender - Antonidas"] = "Default",
-		["Eurotas - Blackrock"] = "Default",
-		["Starplatïnum - Blackrock"] = "Default",
+		["Byd - Kazzak"] = "Default",
+		["Magyc - Mal'Ganis"] = "Default",
 		["Eshidishii - Blackrock"] = "Default",
+		["Starplatïnum - Blackrock"] = "Default",
+		["Eurotas - Blackrock"] = "Default",
 		["Kyng - Antonidas"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
 		["Nakrates - Antonidas"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
+		["Byd - Aegwynn"] = "Default",
 		["Tizeran - Blackrock"] = "Default",
 	},
 	["profiles"] = {
@@ -92,23 +92,23 @@ TomTomWaypointsM = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Byd - Blackrock"] = "Byd - Blackrock",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
 		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -158,7 +158,7 @@ TomTomWaypointsM = {
 		},
 		["Byd - Blackrock"] = {
 		},
-		["Byd - Aegwynn"] = {
+		["Orthodoxtank - Antonidas"] = {
 		},
 		["Eshidishi - Draenor"] = {
 		},
@@ -170,15 +170,11 @@ TomTomWaypointsM = {
 		},
 		["Nofriendz - Blackrock"] = {
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
 		},
 		["Byd - Kazzak"] = {
 		},
-		["Cakebender - Antonidas"] = {
-		},
-		["Eurotas - Blackrock"] = {
-		},
-		["Starplatïnum - Blackrock"] = {
+		["Magyc - Mal'Ganis"] = {
 		},
 		["Eshidishii - Blackrock"] = {
 			[1707] = {
@@ -196,10 +192,18 @@ TomTomWaypointsM = {
 					["from"] = "?",
 					["callbacks"] = {
 						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -221,10 +225,18 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -244,10 +256,18 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
@@ -267,16 +287,28 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
+							[10] = nil --[[ skipped inline function ]],
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
+		},
+		["Starplatïnum - Blackrock"] = {
+		},
+		["Eurotas - Blackrock"] = {
 		},
 		["Kyng - Antonidas"] = {
 		},
@@ -286,7 +318,7 @@ TomTomWaypointsM = {
 		},
 		["Nakrates - Antonidas"] = {
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Byd - Aegwynn"] = {
 		},
 		["Tizeran - Blackrock"] = {
 		},

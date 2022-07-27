@@ -2,14 +2,14 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/reload", -- [1]
-		"/played", -- [2]
-		"/invite Dfgh", -- [3]
-		"/silly", -- [4]
-		"/dance", -- [5]
-		"/ec", -- [6]
-		"/aap", -- [7]
-		"/wave", -- [8]
+		"/silly", -- [1]
+		"/wave", -- [2]
+		"/aap", -- [3]
+		"/reload", -- [4]
+		"/ec", -- [5]
+		"/dance", -- [6]
+		"/invite Dfgh", -- [7]
+		"/played", -- [8]
 	},
 	["ChatHistoryLog"] = {
 		{

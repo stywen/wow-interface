@@ -1,9 +1,32 @@
 
 RaiderIO_Config = {
 }
-RaiderIO_LastCharacter = "eu-Bonebender-antonidas"
+RaiderIO_LastCharacter = "eu-Eshidishii-blackrock"
 RaiderIO_MissingCharacters = {
-	["eu-Bonebender-antonidas"] = true,
+	["eu-Mazonmage-blackrock"] = true,
+	["eu-Nifaro-kelthuzad"] = true,
+	["eu-Kadolar-auchindoun"] = true,
+	["eu-Codiac-destromath"] = true,
+	["eu-Qiboy-blackmoore"] = true,
+	["eu-Noodlemoon-draenor"] = true,
+	["eu-Tôri-blackrock"] = true,
+	["eu-Eshidishii-blackrock"] = true,
+	["eu-Rahz-blackmoore"] = true,
+	["eu-Infernøwulf-blackrock"] = true,
+	["eu-Mt-ysondre"] = true,
+	["eu-Unknown-blackrock"] = true,
+	["eu-Ineedmana-blackrock"] = true,
+	["eu-Mýstery-blackrock"] = true,
+	["eu-Palandiara-blackrock"] = true,
+	["eu-Meanas-lordaeron"] = true,
+	["eu-Rylanør-blackrock"] = true,
+	["eu-Dêathorc-blackrock"] = true,
+	["eu-Dompf-blackrock"] = true,
+	["eu-Vyntaqe-blackrock"] = true,
+	["eu-Kááru-blackrock"] = true,
+	["eu-Ctrls-blackrock"] = true,
+	["eu-Feetman-draenor"] = true,
+	["eu-Repentias-blackrock"] = true,
 }
 RaiderIO_MissingServers = {
 }

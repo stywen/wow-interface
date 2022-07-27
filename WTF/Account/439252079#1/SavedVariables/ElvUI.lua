@@ -24,23 +24,23 @@ ElvDB = {
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
 		["Byd - Blackrock"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
+		["Byd - Aegwynn"] = "Default",
 		["Nakrates - Antonidas"] = "Default",
 		["Eshidishi - Draenor"] = "Default",
 		["Slavicpriest - Antonidas"] = "Default",
 		["Extinguish - Blackrock"] = "Default",
 		["Nofriendz - Blackrock"] = "Default",
-		["Cakebender - Antonidas"] = "Default",
-		["Byd - Kazzak"] = "Default",
 		["Magyc - Mal'Ganis"] = "Default",
-		["Eshidishii - Blackrock"] = "Default",
-		["Starplatïnum - Blackrock"] = "Default",
+		["Byd - Kazzak"] = "Default",
+		["Cakebender - Antonidas"] = "Default",
 		["Eurotas - Blackrock"] = "Default",
+		["Starplatïnum - Blackrock"] = "Default",
+		["Eshidishii - Blackrock"] = "Default",
 		["Kyng - Antonidas"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
 		["Bonebender - Antonidas"] = "Default",
-		["Byd - Aegwynn"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 		["Tizeran - Blackrock"] = "Default",
 	},
 	["DisabledAddOns"] = {
@@ -59,16 +59,26 @@ ElvDB = {
 			["Slavicpriest"] = "PALADIN",
 			["Orthodoxtank"] = "PALADIN",
 			["Stywen"] = "WARRIOR",
-			["Starplatïnum"] = "MONK",
+			["Bonebender"] = "MONK",
 			["Stylth"] = "ROGUE",
-			["Cakebender"] = "MONK",
+			["Starplatïnum"] = "MONK",
 			["Byar"] = "DRUID",
 			["Nakrates"] = "ROGUE",
 			["Blyyd"] = "DEATHKNIGHT",
-			["Bonebender"] = "MONK",
+			["Cakebender"] = "MONK",
 		},
 		["Draenor"] = {
 			["Eshidishi"] = "WARRIOR",
+		},
+		["Kazzak"] = {
+			["Byd"] = "WARRIOR",
+		},
+		["Aegwynn"] = {
+			["Byd"] = "DRUID",
+			["Dysea"] = "DEATHKNIGHT",
+			["Synster"] = "PALADIN",
+			["Notafriend"] = "WARRIOR",
+			["Nofriend"] = "WARRIOR",
 		},
 		["Blackrock"] = {
 			["Gryyn"] = "WARLOCK",
@@ -82,26 +92,16 @@ ElvDB = {
 			["Blyyd"] = "DEATHKNIGHT",
 			["Deathkyng"] = "SHAMAN",
 			["Lichkingvult"] = "DEATHKNIGHT",
-			["Omaewam"] = "PALADIN",
+			["Dïo"] = "MONK",
 			["Odînaf"] = "DEMONHUNTER",
 			["Byd"] = "SHAMAN",
 			["Nofriendz"] = "WARRIOR",
-			["Testyu"] = "PALADIN",
-			["Starplatïnum"] = "MONK",
-			["Extinguish"] = "MAGE",
-			["Eshidishii"] = "WARRIOR",
 			["Xrth"] = "DEATHKNIGHT",
-			["Dïo"] = "MONK",
-		},
-		["Aegwynn"] = {
-			["Byd"] = "DRUID",
-			["Nofriend"] = "WARRIOR",
-			["Synster"] = "PALADIN",
-			["Notafriend"] = "WARRIOR",
-			["Dysea"] = "DEATHKNIGHT",
-		},
-		["Kazzak"] = {
-			["Byd"] = "WARRIOR",
+			["Starplatïnum"] = "MONK",
+			["Testyu"] = "PALADIN",
+			["Eshidishii"] = "WARRIOR",
+			["Extinguish"] = "MAGE",
+			["Omaewam"] = "PALADIN",
 		},
 	},
 	["profiles"] = {
@@ -121,9 +121,9 @@ ElvDB = {
 			["general"] = {
 				["autoTrackReputation"] = true,
 				["valuecolor"] = {
-					["b"] = 0.5960771441459656,
-					["g"] = 0.9999977946281433,
-					["r"] = 0,
+					["r"] = 0.7764688730239868,
+					["g"] = 0.6078417897224426,
+					["b"] = 0.427450031042099,
 				},
 				["objectiveFrameHeight"] = 400,
 				["minimap"] = {
@@ -132,8 +132,8 @@ ElvDB = {
 				["talkingHeadFrameScale"] = 1,
 				["totems"] = {
 					["spacing"] = 8,
-					["growthDirection"] = "HORIZONTAL",
 					["size"] = 50,
+					["growthDirection"] = "HORIZONTAL",
 				},
 				["bonusObjectivePosition"] = "AUTO",
 			},
@@ -153,26 +153,22 @@ ElvDB = {
 				["scrapIcon"] = true,
 				["bankWidth"] = 474,
 			},
-			["chat"] = {
-				["tabSelectorColor"] = {
-					["b"] = 0.5960771441459656,
-					["g"] = 0.9999977946281433,
-					["r"] = 0,
+			["auras"] = {
+				["debuffs"] = {
+					["size"] = 40,
 				},
-				["panelWidth"] = 472,
-				["panelHeight"] = 236,
-				["panelSnapLeftID"] = 1,
-				["panelSnapRightID"] = 5,
-				["copyChatLines"] = true,
+				["buffs"] = {
+					["size"] = 40,
+				},
 			},
 			["dbConverted"] = 12.79,
 			["convertPages"] = true,
 			["tooltip"] = {
 				["healthBar"] = {
-					["fontSize"] = 12,
+					["font"] = "PT Sans Narrow",
 					["fontOutline"] = "NONE",
 					["height"] = 12,
-					["font"] = "PT Sans Narrow",
+					["fontSize"] = 12,
 				},
 			},
 			["movers"] = {
@@ -220,11 +216,11 @@ ElvDB = {
 				["ElvUIBagMover"] = "BOTTOMRIGHT,RightChatPanel,BOTTOMRIGHT,0,27",
 				["TalkingHeadFrameMover"] = "TOP,UIParent,TOP,0,-4",
 				["PowerBarContainerMover"] = "TOP,ElvUIParent,TOP,0,-76",
-				["ElvUF_FocusCastbarMover"] = "TOPLEFT,ElvUF_Focus,BOTTOMLEFT,0,-1",
+				["MirrorTimer2Mover"] = "TOP,MirrorTimer1,BOTTOM,0,0",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,100",
 				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,0,150",
 				["VehicleLeaveButton"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,1402,45",
-				["ElvUF_PetMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,1062,32",
+				["TotemBarMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,490,37",
 				["AzeriteBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-3,-246",
 				["ElvAB_9"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,366",
 				["ElvUIBankMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,266",
@@ -235,8 +231,8 @@ ElvDB = {
 				["ElvAB_10"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,400",
 				["ElvUF_TankMover"] = "TOPLEFT,UIParent,TOPLEFT,4,-360",
 				["BossHeaderMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-954,-272",
-				["TotemBarMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,490,37",
-				["MirrorTimer2Mover"] = "TOP,MirrorTimer1,BOTTOM,0,0",
+				["ElvUF_PetMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,1062,32",
+				["ElvUF_FocusCastbarMover"] = "TOPLEFT,ElvUF_Focus,BOTTOMLEFT,0,-1",
 				["ElvUF_PartyMover"] = "TOPLEFT,UIParent,TOPLEFT,968,-412",
 				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-20",
 				["DebuffsMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,1111,204",
@@ -257,6 +253,23 @@ ElvDB = {
 						},
 						["disableTargetGlow"] = false,
 					},
+					["targettarget"] = {
+						["debuffs"] = {
+							["enable"] = false,
+						},
+						["threatStyle"] = "GLOW",
+						["power"] = {
+							["enable"] = false,
+						},
+						["disableMouseoverGlow"] = true,
+						["width"] = 270,
+						["raidicon"] = {
+							["attachTo"] = "LEFT",
+							["enable"] = false,
+							["xOffset"] = 2,
+							["yOffset"] = 0,
+						},
+					},
 					["party"] = {
 						["height"] = 74,
 						["rdebuffs"] = {
@@ -266,26 +279,6 @@ ElvDB = {
 							["height"] = 13,
 						},
 						["width"] = 231,
-					},
-					["boss"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -16,
-							["maxDuration"] = 300,
-						},
-						["castbar"] = {
-							["width"] = 246,
-						},
-						["width"] = 246,
-						["infoPanel"] = {
-							["height"] = 17,
-						},
-						["height"] = 60,
-						["buffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = 16,
-							["maxDuration"] = 300,
-						},
 					},
 					["raid40"] = {
 						["enable"] = false,
@@ -304,24 +297,24 @@ ElvDB = {
 						["aurabar"] = {
 							["enable"] = false,
 						},
-						["power"] = {
-							["attachTextTo"] = "InfoPanel",
-							["height"] = 22,
-						},
-						["disableMouseoverGlow"] = true,
-						["infoPanel"] = {
-							["enable"] = true,
-						},
 						["castbar"] = {
 							["insideInfoPanel"] = false,
 							["width"] = 405,
 							["height"] = 40,
 						},
-						["name"] = {
+						["disableMouseoverGlow"] = true,
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["power"] = {
+							["attachTextTo"] = "InfoPanel",
+							["height"] = 22,
+						},
+						["health"] = {
 							["attachTextTo"] = "InfoPanel",
 						},
 						["orientation"] = "LEFT",
-						["health"] = {
+						["name"] = {
 							["attachTextTo"] = "InfoPanel",
 						},
 					},
@@ -386,30 +379,33 @@ ElvDB = {
 							["height"] = 22,
 						},
 					},
-					["targettarget"] = {
+					["boss"] = {
 						["debuffs"] = {
-							["enable"] = false,
+							["sizeOverride"] = 27,
+							["yOffset"] = -16,
+							["maxDuration"] = 300,
 						},
-						["threatStyle"] = "GLOW",
-						["power"] = {
-							["enable"] = false,
+						["castbar"] = {
+							["width"] = 246,
 						},
-						["disableMouseoverGlow"] = true,
-						["width"] = 270,
-						["raidicon"] = {
-							["attachTo"] = "LEFT",
-							["enable"] = false,
-							["xOffset"] = 2,
-							["yOffset"] = 0,
+						["width"] = 246,
+						["infoPanel"] = {
+							["height"] = 17,
+						},
+						["height"] = 60,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 16,
+							["maxDuration"] = 300,
 						},
 					},
 				},
 				["colors"] = {
 					["healthclass"] = true,
 					["auraBarBuff"] = {
-						["b"] = 0.4274500310421,
-						["g"] = 0.60784178972244,
 						["r"] = 0.77646887302399,
+						["g"] = 0.60784178972244,
+						["b"] = 0.4274500310421,
 					},
 					["castClassColor"] = true,
 				},
@@ -431,8 +427,8 @@ ElvDB = {
 				},
 				["bar8"] = {
 					["enabled"] = true,
-					["buttonSize"] = 37,
 					["buttons"] = 5,
+					["buttonSize"] = 37,
 				},
 				["bar7"] = {
 					["enabled"] = true,
@@ -446,8 +442,8 @@ ElvDB = {
 				},
 				["bar1"] = {
 					["buttonSpacing"] = 1,
-					["buttonSize"] = 45,
 					["buttons"] = 6,
+					["buttonSize"] = 45,
 				},
 				["microbar"] = {
 					["buttons"] = 11,
@@ -456,8 +452,8 @@ ElvDB = {
 					["enabled"] = true,
 					["visibility"] = "[petbattle] hide; show",
 					["buttonSpacing"] = 1,
-					["buttons"] = 6,
 					["buttonSize"] = 38,
+					["buttons"] = 6,
 				},
 				["bar5"] = {
 					["visibility"] = "[petbattle] hide; show",
@@ -498,58 +494,62 @@ ElvDB = {
 				["colors"] = {
 					["threat"] = {
 						["goodTransition"] = {
-							["b"] = 0.36,
-							["g"] = 0.76,
 							["r"] = 0.85,
+							["g"] = 0.76,
+							["b"] = 0.36,
 						},
 						["goodColor"] = {
-							["b"] = 0.3,
-							["g"] = 0.67,
 							["r"] = 0.29,
+							["g"] = 0.67,
+							["b"] = 0.3,
 						},
 						["badColor"] = {
-							["b"] = 0.25,
-							["g"] = 0.25,
 							["r"] = 0.78,
+							["g"] = 0.25,
+							["b"] = 0.25,
 						},
 					},
 					["reactions"] = {
+						["good"] = {
+							["r"] = 0.3,
+							["g"] = 0.67,
+							["b"] = 0.29,
+						},
 						["neutral"] = {
 							["g"] = 0.76,
-						},
-						["good"] = {
-							["b"] = 0.29,
-							["g"] = 0.67,
-							["r"] = 0.3,
 						},
 					},
 					["selection"] = {
 						nil, -- [1]
 						{
-							["b"] = 0.36,
-							["g"] = 0.76,
 							["r"] = 0.85,
+							["g"] = 0.76,
+							["b"] = 0.36,
 						}, -- [2]
 						{
-							["b"] = 0.3,
-							["g"] = 0.67,
 							["r"] = 0.29,
+							["g"] = 0.67,
+							["b"] = 0.3,
 						}, -- [3]
 						[0] = {
-							["b"] = 0.25,
-							["g"] = 0.25,
 							["r"] = 0.78,
+							["g"] = 0.25,
+							["b"] = 0.25,
 						},
 					},
 				},
 			},
-			["auras"] = {
-				["debuffs"] = {
-					["size"] = 40,
+			["chat"] = {
+				["tabSelectorColor"] = {
+					["r"] = 0.7764688730239868,
+					["g"] = 0.6078417897224426,
+					["b"] = 0.427450031042099,
 				},
-				["buffs"] = {
-					["size"] = 40,
-				},
+				["panelWidth"] = 472,
+				["panelHeight"] = 236,
+				["panelSnapLeftID"] = 1,
+				["panelSnapRightID"] = 5,
+				["copyChatLines"] = true,
 			},
 		},
 	},
@@ -560,19 +560,29 @@ ElvDB = {
 		},
 		["Antonidas"] = {
 			["Kyng"] = 3180,
-			["Slavicpriest"] = 44293726,
+			["Slavicpriest"] = 45544709,
 			["Orthodoxtank"] = 1396,
 			["Stywen"] = 9710,
-			["Starplatïnum"] = 7051,
+			["Bonebender"] = 86301,
 			["Stylth"] = 23439,
-			["Cakebender"] = 13098,
+			["Starplatïnum"] = 7051,
 			["Byar"] = 3058,
 			["Nakrates"] = 4291,
 			["Blyyd"] = 41225822,
-			["Bonebender"] = 86301,
+			["Cakebender"] = 13098,
 		},
 		["Draenor"] = {
 			["Eshidishi"] = 14227,
+		},
+		["Kazzak"] = {
+			["Byd"] = 77723,
+		},
+		["Aegwynn"] = {
+			["Byd"] = 73200,
+			["Dysea"] = 45101,
+			["Synster"] = 81072807,
+			["Notafriend"] = 6680,
+			["Nofriend"] = 3250398,
 		},
 		["Blackrock"] = {
 			["Gryyn"] = 2855,
@@ -586,101 +596,16 @@ ElvDB = {
 			["Blyyd"] = 223,
 			["Deathkyng"] = 10000,
 			["Lichkingvult"] = 18736877,
-			["Omaewam"] = 1034802,
+			["Dïo"] = 7446597,
 			["Odînaf"] = 1090198,
 			["Byd"] = 10000,
 			["Nofriendz"] = 10400,
-			["Testyu"] = 10000,
-			["Starplatïnum"] = 340337,
-			["Extinguish"] = 65409,
-			["Eshidishii"] = 822591239,
 			["Xrth"] = 10000,
-			["Dïo"] = 7446597,
-		},
-		["Aegwynn"] = {
-			["Byd"] = 73200,
-			["Nofriend"] = 3250398,
-			["Synster"] = 81072807,
-			["Notafriend"] = 6680,
-			["Dysea"] = 45101,
-		},
-		["Kazzak"] = {
-			["Byd"] = 77723,
-		},
-	},
-	["serverID"] = {
-		[581] = {
-			["Blackrock"] = true,
-		},
-		[3691] = {
-			["Mal'Ganis"] = true,
-		},
-		[1305] = {
-			["Kazzak"] = true,
-		},
-		[3686] = {
-			["Antonidas"] = true,
-		},
-		[3679] = {
-			["Aegwynn"] = true,
-		},
-		[1403] = {
-			["Draenor"] = true,
-		},
-	},
-	["faction"] = {
-		["Mal'Ganis"] = {
-			["Byd"] = "Horde",
-			["Magyc"] = "Horde",
-		},
-		["Antonidas"] = {
-			["Kyng"] = "Alliance",
-			["Slavicpriest"] = "Alliance",
-			["Orthodoxtank"] = "Alliance",
-			["Stywen"] = "Alliance",
-			["Starplatïnum"] = "Alliance",
-			["Stylth"] = "Alliance",
-			["Cakebender"] = "Alliance",
-			["Byar"] = "Alliance",
-			["Nakrates"] = "Alliance",
-			["Blyyd"] = "Alliance",
-			["Bonebender"] = "Alliance",
-		},
-		["Draenor"] = {
-			["Eshidishi"] = "Horde",
-		},
-		["Blackrock"] = {
-			["Gryyn"] = "Horde",
-			["Dfgfxg"] = "Horde",
-			["Orthodoxtank"] = "Horde",
-			["Slavictank"] = "Horde",
-			["Buffedbeef"] = "Horde",
-			["Eurotas"] = "Horde",
-			["Stylth"] = "Horde",
-			["Tizeran"] = "Horde",
-			["Blyyd"] = "Horde",
-			["Deathkyng"] = "Horde",
-			["Lichkingvult"] = "Horde",
-			["Omaewam"] = "Horde",
-			["Odînaf"] = "Horde",
-			["Byd"] = "Horde",
-			["Nofriendz"] = "Horde",
-			["Testyu"] = "Horde",
-			["Starplatïnum"] = "Horde",
-			["Extinguish"] = "Horde",
-			["Eshidishii"] = "Horde",
-			["Xrth"] = "Horde",
-			["Dïo"] = "Horde",
-		},
-		["Aegwynn"] = {
-			["Byd"] = "Alliance",
-			["Nofriend"] = "Alliance",
-			["Synster"] = "Alliance",
-			["Notafriend"] = "Alliance",
-			["Dysea"] = "Alliance",
-		},
-		["Kazzak"] = {
-			["Byd"] = "Horde",
+			["Starplatïnum"] = 340337,
+			["Testyu"] = 10000,
+			["Eshidishii"] = 358875407,
+			["Extinguish"] = 65409,
+			["Omaewam"] = 1034802,
 		},
 	},
 	["global"] = {
@@ -703,22 +628,17 @@ ElvDB = {
 						nil, -- [6]
 						nil, -- [7]
 						nil, -- [8]
-						{
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							true, -- [4]
-						}, -- [9]
+						nil, -- [9]
 						nil, -- [10]
 						nil, -- [11]
+						nil, -- [12]
+						nil, -- [13]
 						{
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [12]
-						nil, -- [13]
-						nil, -- [14]
+						}, -- [14]
 						nil, -- [15]
 						{
 							nil, -- [1]
@@ -726,13 +646,12 @@ ElvDB = {
 							nil, -- [3]
 							true, -- [4]
 						}, -- [16]
-						nil, -- [17]
-						{
+						[19] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							true, -- [4]
-						}, -- [18]
+						},
 						[27] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -748,6 +667,81 @@ ElvDB = {
 					},
 				},
 			},
+		},
+	},
+	["faction"] = {
+		["Mal'Ganis"] = {
+			["Byd"] = "Horde",
+			["Magyc"] = "Horde",
+		},
+		["Antonidas"] = {
+			["Kyng"] = "Alliance",
+			["Slavicpriest"] = "Alliance",
+			["Orthodoxtank"] = "Alliance",
+			["Stywen"] = "Alliance",
+			["Bonebender"] = "Alliance",
+			["Stylth"] = "Alliance",
+			["Starplatïnum"] = "Alliance",
+			["Byar"] = "Alliance",
+			["Nakrates"] = "Alliance",
+			["Blyyd"] = "Alliance",
+			["Cakebender"] = "Alliance",
+		},
+		["Draenor"] = {
+			["Eshidishi"] = "Horde",
+		},
+		["Kazzak"] = {
+			["Byd"] = "Horde",
+		},
+		["Aegwynn"] = {
+			["Byd"] = "Alliance",
+			["Dysea"] = "Alliance",
+			["Synster"] = "Alliance",
+			["Notafriend"] = "Alliance",
+			["Nofriend"] = "Alliance",
+		},
+		["Blackrock"] = {
+			["Gryyn"] = "Horde",
+			["Dfgfxg"] = "Horde",
+			["Orthodoxtank"] = "Horde",
+			["Slavictank"] = "Horde",
+			["Buffedbeef"] = "Horde",
+			["Eurotas"] = "Horde",
+			["Stylth"] = "Horde",
+			["Tizeran"] = "Horde",
+			["Blyyd"] = "Horde",
+			["Deathkyng"] = "Horde",
+			["Lichkingvult"] = "Horde",
+			["Dïo"] = "Horde",
+			["Odînaf"] = "Horde",
+			["Byd"] = "Horde",
+			["Nofriendz"] = "Horde",
+			["Xrth"] = "Horde",
+			["Starplatïnum"] = "Horde",
+			["Testyu"] = "Horde",
+			["Eshidishii"] = "Horde",
+			["Extinguish"] = "Horde",
+			["Omaewam"] = "Horde",
+		},
+	},
+	["serverID"] = {
+		[581] = {
+			["Blackrock"] = true,
+		},
+		[3691] = {
+			["Mal'Ganis"] = true,
+		},
+		[1305] = {
+			["Kazzak"] = true,
+		},
+		[3679] = {
+			["Aegwynn"] = true,
+		},
+		[3686] = {
+			["Antonidas"] = true,
+		},
+		[1403] = {
+			["Draenor"] = true,
 		},
 	},
 }
@@ -776,23 +770,23 @@ ElvPrivateDB = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Byd - Blackrock"] = "Byd - Blackrock",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 	["profiles"] = {
@@ -907,7 +901,10 @@ ElvPrivateDB = {
 		["Byd - Blackrock"] = {
 			["install_complete"] = 12.79,
 		},
-		["Orthodoxtank - Antonidas"] = {
+		["Byd - Aegwynn"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
 			["install_complete"] = 12.79,
 		},
 		["Nakrates - Antonidas"] = {
@@ -934,10 +931,7 @@ ElvPrivateDB = {
 		["Nofriendz - Blackrock"] = {
 			["install_complete"] = 12.79,
 		},
-		["Cakebender - Antonidas"] = {
-			["nameplates"] = {
-				["enable"] = false,
-			},
+		["Magyc - Mal'Ganis"] = {
 			["install_complete"] = 12.79,
 		},
 		["Byd - Kazzak"] = {
@@ -946,10 +940,13 @@ ElvPrivateDB = {
 			},
 			["install_complete"] = 12.79,
 		},
-		["Magyc - Mal'Ganis"] = {
+		["Cakebender - Antonidas"] = {
+			["nameplates"] = {
+				["enable"] = false,
+			},
 			["install_complete"] = 12.79,
 		},
-		["Eshidishii - Blackrock"] = {
+		["Eurotas - Blackrock"] = {
 			["nameplates"] = {
 				["enable"] = false,
 			},
@@ -961,7 +958,7 @@ ElvPrivateDB = {
 			},
 			["install_complete"] = 12.79,
 		},
-		["Eurotas - Blackrock"] = {
+		["Eshidishii - Blackrock"] = {
 			["nameplates"] = {
 				["enable"] = false,
 			},
@@ -991,10 +988,7 @@ ElvPrivateDB = {
 			},
 			["install_complete"] = 12.79,
 		},
-		["Byd - Aegwynn"] = {
-			["nameplates"] = {
-				["enable"] = false,
-			},
+		["Orthodoxtank - Antonidas"] = {
 			["install_complete"] = 12.79,
 		},
 		["Tizeran - Blackrock"] = {

@@ -24,23 +24,23 @@ BetterWardrobe_Options = {
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
 		["Byd - Blackrock"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
+		["Byd - Aegwynn"] = "Default",
 		["Nakrates - Antonidas"] = "Default",
 		["Eshidishi - Draenor"] = "Default",
 		["Slavicpriest - Antonidas"] = "Default",
 		["Extinguish - Blackrock"] = "Default",
 		["Nofriendz - Blackrock"] = "Default",
-		["Cakebender - Antonidas"] = "Default",
-		["Byd - Kazzak"] = "Default",
 		["Magyc - Mal'Ganis"] = "Default",
-		["Eshidishii - Blackrock"] = "Default",
-		["Starplatïnum - Blackrock"] = "Default",
+		["Byd - Kazzak"] = "Default",
+		["Cakebender - Antonidas"] = "Default",
 		["Eurotas - Blackrock"] = "Default",
+		["Starplatïnum - Blackrock"] = "Default",
+		["Eshidishii - Blackrock"] = "Default",
 		["Kyng - Antonidas"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
 		["Bonebender - Antonidas"] = "Default",
-		["Byd - Aegwynn"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 		["Tizeran - Blackrock"] = "Default",
 	},
 	["profiles"] = {
@@ -73,70 +73,27 @@ BetterWardrobe_CharacterData = {
 		["Testyu - Blackrock"] = "Testyu - Blackrock",
 		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 		["Byd - Blackrock"] = "Byd - Blackrock",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
 		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Byd - Kazzak"] = "Byd - Kazzak",
 		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 		["Kyng - Antonidas"] = "Kyng - Antonidas",
 		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 	},
 }
 BetterWardrobe_SavedSetData = {
-	["profileKeys"] = {
-		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
-		["Dysea - Aegwynn"] = "Dysea - Aegwynn",
-		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
-		["Synster - Aegwynn"] = "Synster - Aegwynn",
-		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
-		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
-		["Stylth - Blackrock"] = "Stylth - Blackrock",
-		["Dïo - Blackrock"] = "Dïo - Blackrock",
-		["Stywen - Antonidas"] = "Stywen - Antonidas",
-		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
-		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
-		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
-		["Byar - Antonidas"] = "Byar - Antonidas",
-		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
-		["Stylth - Antonidas"] = "Stylth - Antonidas",
-		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
-		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
-		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
-		["Xrth - Blackrock"] = "Xrth - Blackrock",
-		["Deathkyng - Blackrock"] = "Deathkyng - Blackrock",
-		["Testyu - Blackrock"] = "Testyu - Blackrock",
-		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
-		["Byd - Blackrock"] = "Byd - Blackrock",
-		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
-		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
-		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
-		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
-		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
-		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-		["Byd - Kazzak"] = "Byd - Kazzak",
-		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
-		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
-		["Kyng - Antonidas"] = "Kyng - Antonidas",
-		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
-		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
-		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-		["Byd - Aegwynn"] = "Byd - Aegwynn",
-		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
-	},
 	["global"] = {
 		["sets"] = {
 			["Starplatïnum - Antonidas"] = {
@@ -266,7 +223,7 @@ BetterWardrobe_SavedSetData = {
 			},
 			["Byd - Blackrock"] = {
 			},
-			["Orthodoxtank - Antonidas"] = {
+			["Byd - Aegwynn"] = {
 			},
 			["Nakrates - Antonidas"] = {
 				{
@@ -332,11 +289,123 @@ BetterWardrobe_SavedSetData = {
 			},
 			["Nofriendz - Blackrock"] = {
 			},
-			["Cakebender - Antonidas"] = {
+			["Magyc - Mal'Ganis"] = {
 			},
 			["Byd - Kazzak"] = {
 			},
-			["Magyc - Mal'Ganis"] = {
+			["Cakebender - Antonidas"] = {
+			},
+			["Eurotas - Blackrock"] = {
+				{
+					["outfitID"] = 0,
+					["sources"] = {
+						101914, -- [1]
+						0, -- [2]
+						102224, -- [3]
+						0, -- [4]
+						102244, -- [5]
+						101958, -- [6]
+						101962, -- [7]
+						101966, -- [8]
+						101926, -- [9]
+						101946, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						102297, -- [15]
+						101998, -- [16]
+						101998, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "dinohunter",
+					["icon"] = 2467777,
+					["index"] = 1,
+				}, -- [1]
+				{
+					["outfitID"] = 1,
+					["sources"] = {
+						50108, -- [1]
+						0, -- [2]
+						62700, -- [3]
+						103317, -- [4]
+						62889, -- [5]
+						73396, -- [6]
+						62773, -- [7]
+						68071, -- [8]
+						102977, -- [9]
+						66882, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						62704, -- [16]
+						62704, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "hord",
+					["icon"] = 840662,
+					["index"] = 2,
+				}, -- [2]
+				{
+					["outfitID"] = 3,
+					["sources"] = {
+						105635, -- [1]
+						0, -- [2]
+						105632, -- [3]
+						103317, -- [4]
+						105638, -- [5]
+						99343, -- [6]
+						99189, -- [7]
+						99194, -- [8]
+						102977, -- [9]
+						84230, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						99967, -- [16]
+						99967, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "FurryOgrim",
+					["icon"] = 1728447,
+					["index"] = 3,
+				}, -- [3]
+				{
+					["outfitID"] = 2,
+					["sources"] = {
+						50108, -- [1]
+						0, -- [2]
+						62700, -- [3]
+						0, -- [4]
+						62889, -- [5]
+						62830, -- [6]
+						62773, -- [7]
+						68071, -- [8]
+						102977, -- [9]
+						66882, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						77345, -- [15]
+						62704, -- [16]
+						62704, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "LegionFurry",
+					["icon"] = 840662,
+					["index"] = 4,
+				}, -- [4]
+			},
+			["Starplatïnum - Blackrock"] = {
 			},
 			["Eshidishii - Blackrock"] = {
 				{
@@ -474,118 +543,6 @@ BetterWardrobe_SavedSetData = {
 					["icon"] = 1561254,
 					["index"] = 5,
 				}, -- [5]
-			},
-			["Starplatïnum - Blackrock"] = {
-			},
-			["Eurotas - Blackrock"] = {
-				{
-					["outfitID"] = 0,
-					["sources"] = {
-						101914, -- [1]
-						0, -- [2]
-						102224, -- [3]
-						0, -- [4]
-						102244, -- [5]
-						101958, -- [6]
-						101962, -- [7]
-						101966, -- [8]
-						101926, -- [9]
-						101946, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						102297, -- [15]
-						101998, -- [16]
-						101998, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "dinohunter",
-					["icon"] = 2467777,
-					["index"] = 1,
-				}, -- [1]
-				{
-					["outfitID"] = 1,
-					["sources"] = {
-						50108, -- [1]
-						0, -- [2]
-						62700, -- [3]
-						103317, -- [4]
-						62889, -- [5]
-						73396, -- [6]
-						62773, -- [7]
-						68071, -- [8]
-						102977, -- [9]
-						66882, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						62704, -- [16]
-						62704, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "hord",
-					["icon"] = 840662,
-					["index"] = 2,
-				}, -- [2]
-				{
-					["outfitID"] = 3,
-					["sources"] = {
-						105635, -- [1]
-						0, -- [2]
-						105632, -- [3]
-						103317, -- [4]
-						105638, -- [5]
-						99343, -- [6]
-						99189, -- [7]
-						99194, -- [8]
-						102977, -- [9]
-						84230, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						99967, -- [16]
-						99967, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "FurryOgrim",
-					["icon"] = 1728447,
-					["index"] = 3,
-				}, -- [3]
-				{
-					["outfitID"] = 2,
-					["sources"] = {
-						50108, -- [1]
-						0, -- [2]
-						62700, -- [3]
-						0, -- [4]
-						62889, -- [5]
-						62830, -- [6]
-						62773, -- [7]
-						68071, -- [8]
-						102977, -- [9]
-						66882, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						77345, -- [15]
-						62704, -- [16]
-						62704, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["name"] = "LegionFurry",
-					["icon"] = 840662,
-					["index"] = 4,
-				}, -- [4]
 			},
 			["Kyng - Antonidas"] = {
 			},
@@ -730,7 +687,7 @@ BetterWardrobe_SavedSetData = {
 			},
 			["Bonebender - Antonidas"] = {
 			},
-			["Byd - Aegwynn"] = {
+			["Orthodoxtank - Antonidas"] = {
 			},
 			["Tizeran - Blackrock"] = {
 				{
@@ -1006,6 +963,49 @@ BetterWardrobe_SavedSetData = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
+		["Dysea - Aegwynn"] = "Dysea - Aegwynn",
+		["Notafriend - Aegwynn"] = "Notafriend - Aegwynn",
+		["Synster - Aegwynn"] = "Synster - Aegwynn",
+		["Blyyd - Antonidas"] = "Blyyd - Antonidas",
+		["Orthodoxtank - Blackrock"] = "Orthodoxtank - Blackrock",
+		["Stylth - Blackrock"] = "Stylth - Blackrock",
+		["Dïo - Blackrock"] = "Dïo - Blackrock",
+		["Stywen - Antonidas"] = "Stywen - Antonidas",
+		["Omaewam - Blackrock"] = "Omaewam - Blackrock",
+		["Gryyn - Blackrock"] = "Gryyn - Blackrock",
+		["Lichkingvult - Blackrock"] = "Lichkingvult - Blackrock",
+		["Byar - Antonidas"] = "Byar - Antonidas",
+		["Dfgfxg - Blackrock"] = "Dfgfxg - Blackrock",
+		["Stylth - Antonidas"] = "Stylth - Antonidas",
+		["Slavictank - Blackrock"] = "Slavictank - Blackrock",
+		["Nofriend - Aegwynn"] = "Nofriend - Aegwynn",
+		["Buffedbeef - Blackrock"] = "Buffedbeef - Blackrock",
+		["Xrth - Blackrock"] = "Xrth - Blackrock",
+		["Deathkyng - Blackrock"] = "Deathkyng - Blackrock",
+		["Testyu - Blackrock"] = "Testyu - Blackrock",
+		["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
+		["Byd - Blackrock"] = "Byd - Blackrock",
+		["Byd - Aegwynn"] = "Byd - Aegwynn",
+		["Nakrates - Antonidas"] = "Nakrates - Antonidas",
+		["Eshidishi - Draenor"] = "Eshidishi - Draenor",
+		["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
+		["Extinguish - Blackrock"] = "Extinguish - Blackrock",
+		["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
+		["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
+		["Byd - Kazzak"] = "Byd - Kazzak",
+		["Cakebender - Antonidas"] = "Cakebender - Antonidas",
+		["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+		["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+		["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
+		["Kyng - Antonidas"] = "Kyng - Antonidas",
+		["Odînaf - Blackrock"] = "Odînaf - Blackrock",
+		["Blyyd - Blackrock"] = "Blyyd - Blackrock",
+		["Bonebender - Antonidas"] = "Bonebender - Antonidas",
+		["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+		["Tizeran - Blackrock"] = "Tizeran - Blackrock",
+	},
 	["profiles"] = {
 		["Dysea - Aegwynn"] = {
 		},
@@ -1021,7 +1021,7 @@ BetterWardrobe_SavedSetData = {
 		},
 		["Stylth - Blackrock"] = {
 		},
-		["Tizeran - Blackrock"] = {
+		["Slavictank - Blackrock"] = {
 		},
 		["Dïo - Blackrock"] = {
 		},
@@ -1029,7 +1029,7 @@ BetterWardrobe_SavedSetData = {
 		},
 		["Omaewam - Blackrock"] = {
 		},
-		["Eshidishii - Blackrock"] = {
+		["Nakrates - Antonidas"] = {
 		},
 		["Slavicpriest - Antonidas"] = {
 		},
@@ -1039,21 +1039,21 @@ BetterWardrobe_SavedSetData = {
 		},
 		["Extinguish - Blackrock"] = {
 		},
-		["Odînaf - Blackrock"] = {
+		["Eurotas - Blackrock"] = {
 		},
 		["Byar - Antonidas"] = {
 		},
 		["Dfgfxg - Blackrock"] = {
 		},
-		["Eurotas - Blackrock"] = {
+		["Odînaf - Blackrock"] = {
 		},
 		["Blyyd - Blackrock"] = {
 		},
 		["Stylth - Antonidas"] = {
 		},
-		["Nakrates - Antonidas"] = {
+		["Eshidishii - Blackrock"] = {
 		},
-		["Slavictank - Blackrock"] = {
+		["Tizeran - Blackrock"] = {
 		},
 	},
 }
@@ -1082,23 +1082,23 @@ BetterWardrobe_SubstituteItemData = {
 		["Testyu - Blackrock"] = "Default",
 		["Byd - Mal'Ganis"] = "Default",
 		["Byd - Blackrock"] = "Default",
-		["Orthodoxtank - Antonidas"] = "Default",
+		["Byd - Aegwynn"] = "Default",
 		["Nakrates - Antonidas"] = "Default",
 		["Eshidishi - Draenor"] = "Default",
 		["Slavicpriest - Antonidas"] = "Default",
 		["Extinguish - Blackrock"] = "Default",
 		["Nofriendz - Blackrock"] = "Default",
-		["Cakebender - Antonidas"] = "Default",
-		["Byd - Kazzak"] = "Default",
 		["Magyc - Mal'Ganis"] = "Default",
-		["Eshidishii - Blackrock"] = "Default",
-		["Starplatïnum - Blackrock"] = "Default",
+		["Byd - Kazzak"] = "Default",
+		["Cakebender - Antonidas"] = "Default",
 		["Eurotas - Blackrock"] = "Default",
+		["Starplatïnum - Blackrock"] = "Default",
+		["Eshidishii - Blackrock"] = "Default",
 		["Kyng - Antonidas"] = "Default",
 		["Odînaf - Blackrock"] = "Default",
 		["Blyyd - Blackrock"] = "Default",
 		["Bonebender - Antonidas"] = "Default",
-		["Byd - Aegwynn"] = "Default",
+		["Orthodoxtank - Antonidas"] = "Default",
 		["Tizeran - Blackrock"] = "Default",
 	},
 	["profiles"] = {
@@ -1132,23 +1132,23 @@ BetterWardrobe_ListData = {
 			["Testyu - Blackrock"] = "Testyu - Blackrock",
 			["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 			["Byd - Blackrock"] = "Byd - Blackrock",
-			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+			["Byd - Aegwynn"] = "Byd - Aegwynn",
 			["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 			["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 			["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 			["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 			["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-			["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-			["Byd - Kazzak"] = "Byd - Kazzak",
 			["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-			["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+			["Byd - Kazzak"] = "Byd - Kazzak",
+			["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 			["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+			["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 			["Kyng - Antonidas"] = "Kyng - Antonidas",
 			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 			["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-			["Byd - Aegwynn"] = "Byd - Aegwynn",
+			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 		},
 		["profiles"] = {
@@ -1162,29 +1162,29 @@ BetterWardrobe_ListData = {
 			},
 			["Notafriend - Aegwynn"] = {
 			},
-			["Tizeran - Blackrock"] = {
+			["Slavictank - Blackrock"] = {
 			},
 			["Testyu - Blackrock"] = {
 			},
 			["Synster - Aegwynn"] = {
 			},
-			["Nakrates - Antonidas"] = {
+			["Eshidishii - Blackrock"] = {
 			},
 			["Blyyd - Antonidas"] = {
 			},
-			["Bonebender - Antonidas"] = {
+			["Slavicpriest - Antonidas"] = {
 			},
 			["Stylth - Blackrock"] = {
 			},
-			["Slavicpriest - Antonidas"] = {
-			},
 			["Dïo - Blackrock"] = {
+			},
+			["Nakrates - Antonidas"] = {
 			},
 			["Stywen - Antonidas"] = {
 			},
 			["Omaewam - Blackrock"] = {
 			},
-			["Eurotas - Blackrock"] = {
+			["Odînaf - Blackrock"] = {
 			},
 			["Extinguish - Blackrock"] = {
 			},
@@ -1200,15 +1200,15 @@ BetterWardrobe_ListData = {
 			},
 			["Kyng - Antonidas"] = {
 			},
-			["Odînaf - Blackrock"] = {
+			["Eurotas - Blackrock"] = {
 			},
 			["Blyyd - Blackrock"] = {
 			},
 			["Stylth - Antonidas"] = {
 			},
-			["Eshidishii - Blackrock"] = {
+			["Bonebender - Antonidas"] = {
 			},
-			["Slavictank - Blackrock"] = {
+			["Tizeran - Blackrock"] = {
 			},
 		},
 	},
@@ -1237,23 +1237,23 @@ BetterWardrobe_ListData = {
 			["Testyu - Blackrock"] = "Testyu - Blackrock",
 			["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 			["Byd - Blackrock"] = "Byd - Blackrock",
-			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+			["Byd - Aegwynn"] = "Byd - Aegwynn",
 			["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 			["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 			["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 			["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 			["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-			["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-			["Byd - Kazzak"] = "Byd - Kazzak",
 			["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-			["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+			["Byd - Kazzak"] = "Byd - Kazzak",
+			["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 			["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+			["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 			["Kyng - Antonidas"] = "Kyng - Antonidas",
 			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 			["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-			["Byd - Aegwynn"] = "Byd - Aegwynn",
+			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 		},
 		["profiles"] = {
@@ -1303,7 +1303,7 @@ BetterWardrobe_ListData = {
 			},
 			["Byd - Blackrock"] = {
 			},
-			["Orthodoxtank - Antonidas"] = {
+			["Byd - Aegwynn"] = {
 			},
 			["Nakrates - Antonidas"] = {
 			},
@@ -1315,17 +1315,17 @@ BetterWardrobe_ListData = {
 			},
 			["Nofriendz - Blackrock"] = {
 			},
-			["Cakebender - Antonidas"] = {
+			["Magyc - Mal'Ganis"] = {
 			},
 			["Byd - Kazzak"] = {
 			},
-			["Magyc - Mal'Ganis"] = {
+			["Cakebender - Antonidas"] = {
 			},
-			["Eshidishii - Blackrock"] = {
+			["Eurotas - Blackrock"] = {
 			},
 			["Starplatïnum - Blackrock"] = {
 			},
-			["Eurotas - Blackrock"] = {
+			["Eshidishii - Blackrock"] = {
 			},
 			["Kyng - Antonidas"] = {
 			},
@@ -1335,13 +1335,12 @@ BetterWardrobe_ListData = {
 			},
 			["Bonebender - Antonidas"] = {
 			},
-			["Byd - Aegwynn"] = {
+			["Orthodoxtank - Antonidas"] = {
 			},
 			["Tizeran - Blackrock"] = {
 			},
 		},
 	},
-	["lastUpdte"] = 1,
 	["OutfitDB"] = {
 		["profileKeys"] = {
 			["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
@@ -1367,23 +1366,23 @@ BetterWardrobe_ListData = {
 			["Testyu - Blackrock"] = "Testyu - Blackrock",
 			["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 			["Byd - Blackrock"] = "Byd - Blackrock",
-			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+			["Byd - Aegwynn"] = "Byd - Aegwynn",
 			["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 			["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 			["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 			["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 			["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-			["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-			["Byd - Kazzak"] = "Byd - Kazzak",
 			["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-			["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+			["Byd - Kazzak"] = "Byd - Kazzak",
+			["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 			["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+			["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 			["Kyng - Antonidas"] = "Kyng - Antonidas",
 			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 			["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-			["Byd - Aegwynn"] = "Byd - Aegwynn",
+			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 		},
 		["char"] = {
@@ -1417,6 +1416,7 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
+	["lastUpdte"] = 1,
 	["HiddenAppearanceDB"] = {
 		["profileKeys"] = {
 			["Starplatïnum - Antonidas"] = "Starplatïnum - Antonidas",
@@ -1442,23 +1442,23 @@ BetterWardrobe_ListData = {
 			["Testyu - Blackrock"] = "Testyu - Blackrock",
 			["Byd - Mal'Ganis"] = "Byd - Mal'Ganis",
 			["Byd - Blackrock"] = "Byd - Blackrock",
-			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
+			["Byd - Aegwynn"] = "Byd - Aegwynn",
 			["Nakrates - Antonidas"] = "Nakrates - Antonidas",
 			["Eshidishi - Draenor"] = "Eshidishi - Draenor",
 			["Slavicpriest - Antonidas"] = "Slavicpriest - Antonidas",
 			["Extinguish - Blackrock"] = "Extinguish - Blackrock",
 			["Nofriendz - Blackrock"] = "Nofriendz - Blackrock",
-			["Cakebender - Antonidas"] = "Cakebender - Antonidas",
-			["Byd - Kazzak"] = "Byd - Kazzak",
 			["Magyc - Mal'Ganis"] = "Magyc - Mal'Ganis",
-			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
-			["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+			["Byd - Kazzak"] = "Byd - Kazzak",
+			["Cakebender - Antonidas"] = "Cakebender - Antonidas",
 			["Eurotas - Blackrock"] = "Eurotas - Blackrock",
+			["Starplatïnum - Blackrock"] = "Starplatïnum - Blackrock",
+			["Eshidishii - Blackrock"] = "Eshidishii - Blackrock",
 			["Kyng - Antonidas"] = "Kyng - Antonidas",
 			["Odînaf - Blackrock"] = "Odînaf - Blackrock",
 			["Blyyd - Blackrock"] = "Blyyd - Blackrock",
 			["Bonebender - Antonidas"] = "Bonebender - Antonidas",
-			["Byd - Aegwynn"] = "Byd - Aegwynn",
+			["Orthodoxtank - Antonidas"] = "Orthodoxtank - Antonidas",
 			["Tizeran - Blackrock"] = "Tizeran - Blackrock",
 		},
 		["profiles"] = {
@@ -1472,29 +1472,29 @@ BetterWardrobe_ListData = {
 			},
 			["Notafriend - Aegwynn"] = {
 			},
-			["Tizeran - Blackrock"] = {
+			["Slavictank - Blackrock"] = {
 			},
 			["Testyu - Blackrock"] = {
 			},
 			["Synster - Aegwynn"] = {
 			},
-			["Nakrates - Antonidas"] = {
+			["Eshidishii - Blackrock"] = {
 			},
 			["Blyyd - Antonidas"] = {
 			},
-			["Bonebender - Antonidas"] = {
+			["Slavicpriest - Antonidas"] = {
 			},
 			["Stylth - Blackrock"] = {
 			},
-			["Slavicpriest - Antonidas"] = {
-			},
 			["Dïo - Blackrock"] = {
+			},
+			["Nakrates - Antonidas"] = {
 			},
 			["Stywen - Antonidas"] = {
 			},
 			["Omaewam - Blackrock"] = {
 			},
-			["Eurotas - Blackrock"] = {
+			["Odînaf - Blackrock"] = {
 			},
 			["Extinguish - Blackrock"] = {
 			},
@@ -1510,15 +1510,15 @@ BetterWardrobe_ListData = {
 			},
 			["Kyng - Antonidas"] = {
 			},
-			["Odînaf - Blackrock"] = {
+			["Eurotas - Blackrock"] = {
 			},
 			["Blyyd - Blackrock"] = {
 			},
 			["Stylth - Antonidas"] = {
 			},
-			["Eshidishii - Blackrock"] = {
+			["Bonebender - Antonidas"] = {
 			},
-			["Slavictank - Blackrock"] = {
+			["Tizeran - Blackrock"] = {
 			},
 		},
 	},
